@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: "CircularStd";
+    src: local("CircularStd"),
+        url(@/fonts/CircularStd-Book.otf) format("truetype");
+}
+
+* {
+    font-family: "CircularStd", sans-serif;
+}
+
+// ------------------------------ Global SCSS ------------------------------
+
