@@ -7,7 +7,7 @@
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
             <a href="https://flowbite.com" class="flex items-center">
                 <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Inovus Labs</span>
             </a>
             <button data-collapse-toggle="mega-menu-full" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -53,7 +53,7 @@
             </div>
 
 
-            <div class="flex items-center md:order-2">
+            <div id="column-3" class="flex items-center md:order-2">
                 <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Login</a>
                 <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Sign up</a>
             </div>
@@ -63,7 +63,7 @@
 
 
         <div id="mega-menu-full-dropdown"
-            class="mt-1 bg-white border-gray-200 shadow-sm border-y dark:bg-gray-800 dark:border-gray-600 hidden">
+            class="absolute w-full bg-white border-gray-200 shadow-sm border-y dark:bg-gray-800 dark:border-gray-600 hidden">
             <div
                 class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:grid-cols-3 md:px-6">
                 <ul aria-labelledby="mega-menu-full-dropdown-button">
@@ -148,6 +148,22 @@
 
 <script>
     export default {
-        name: 'Navbar'
+        name: 'Navbar',
+        data() {
+            return {
+                deviceWidth: null,
+            }
+        },
+
+        mounted() {
+            this.deviceWidth = window.innerWidth;
+
+            if (this.deviceWidth < 768) {
+                document.getElementById('column-3').classList.add('hidden');
+            } else {
+                document.getElementById('column-3').classList.remove('hidden');
+            }
+        },
+
     }
 </script>
