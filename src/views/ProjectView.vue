@@ -61,7 +61,7 @@
     import ProjectCard from "@/components/ProjectCard.vue";
     import Footer from "@/components/reusable/Footer.vue";
 
-    import { getProjects } from "../API";
+    import { getProjects } from "@/API/index.js";
   
     export default {
       name: 'ProjectView',
