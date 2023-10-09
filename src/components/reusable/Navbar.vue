@@ -3,11 +3,11 @@
 
 
 
-    <nav class="bg-gray-100 border-gray-200 dark:border-gray-600 dark:bg-gray-900">
+    <nav class="bg-white">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-            <a href="https://flowbite.com" class="flex items-center">
-                <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Inovus Labs</span>
+            <a href="/" class="flex items-center">
+                <img src="/logo.svg" class="h-10 mr-3" alt="Inovus Labs Logo" />
+                <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap text-secondary">Inovus Labs</span> -->
             </a>
             <button data-collapse-toggle="mega-menu-full" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -28,8 +28,8 @@
                             aria-current="page">Home</a>
                     </li>
                     <li>
-                        <button id="mega-menu-full-dropdown-button" data-collapse-toggle="mega-menu-full-dropdown"
-                            class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-900 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Company
+                        <button id="about-menu-dropdown-button" data-collapse-toggle="about-menu-dropdown"
+                            class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-900 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">About
                             <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 10 6">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -38,8 +38,14 @@
                         </button>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Marketplace</a>
+                        <button id="initiatives-menu-dropdown-button" data-collapse-toggle="initiatives-menu-dropdown"
+                            class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-900 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Initiatives
+                            <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="m1 1 4 4 4-4" />
+                            </svg>
+                        </button>
                     </li>
                     <li>
                         <a href="#"
@@ -54,36 +60,29 @@
 
 
             <div id="column-3" class="flex items-center md:order-2">
-                <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Login</a>
-                <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Sign up</a>
+                <!-- <a href="#" class="text-secondary border border-secondary font-medium rounded text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2">Login</a> -->
+                <a href="#" class="text-white bg-primary font-medium rounded text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2">Join Inovus Labs</a>
             </div>
 
 
         </div>
 
 
-        <div id="mega-menu-full-dropdown"
+        <div id="about-menu-dropdown"
             class="absolute w-full bg-white border-gray-200 shadow-sm border-y dark:bg-gray-800 dark:border-gray-600 hidden">
             <div
                 class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:grid-cols-3 md:px-6">
-                <ul aria-labelledby="mega-menu-full-dropdown-button">
+                <ul aria-labelledby="about-menu-dropdown-button">
                     <li>
                         <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
-                            <div class="font-semibold">Online Stores</div>
+                            <div class="font-semibold">About us</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
-                            <div class="font-semibold">Segmentation</div>
-                            <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
-                                you're already using.</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
-                            <div class="font-semibold">Marketing CRM</div>
+                            <div class="font-semibold">Gallery</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
@@ -92,21 +91,14 @@
                 <ul>
                     <li>
                         <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
-                            <div class="font-semibold">Online Stores</div>
+                            <div class="font-semibold">Our Team</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
-                            <div class="font-semibold">Segmentation</div>
-                            <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
-                                you're already using.</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
-                            <div class="font-semibold">Marketing CRM</div>
+                            <div class="font-semibold">News</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
@@ -115,25 +107,95 @@
                 <ul class="hidden md:block">
                     <li>
                         <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
-                            <div class="font-semibold">Audience Management</div>
+                            <div class="font-semibold">Community</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
-                            <div class="font-semibold">Creative Tools</div>
+                            <div class="font-semibold">Reports (Annual / Activity)</div>
+                            <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
+                                you're already using.</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="initiatives-menu-dropdown"
+            class="absolute w-full bg-white border-gray-200 shadow-sm border-y dark:bg-gray-800 dark:border-gray-600 hidden">
+            <div
+                class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:grid-cols-3 md:px-6">
+                <ul aria-labelledby="initiatives-menu-dropdown-button">
+                    <li>
+                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                            <div class="font-semibold">Mini IoT Lab</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
                     </li>
                     <li>
+                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                            <div class="font-semibold">Bootcamps / Workshops / Session</div>
+                            <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
+                                you're already using.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                            <div class="font-semibold">Nano Degree Program</div>
+                            <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
+                                you're already using.</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                            <div class="font-semibold">Inovus Blogs</div>
+                            <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
+                                you're already using.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                            <div class="font-semibold">Inovus Profiles</div>
+                            <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
+                                you're already using.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                            <div class="font-semibold">Inovus Radio (Inora)</div>
+                            <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
+                                you're already using.</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="hidden md:block">
+                    <li>
+                        <a href="/projects" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                            <div class="font-semibold">Opensource Projects</div>
+                            <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
+                                you're already using.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                            <div class="font-semibold">Reccuring Events</div>
+                            <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
+                                you're already using.</span>
+                        </a>
+                    </li>
+                    <!-- <li>
                         <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Marketing Automation</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                             you're already using.</span>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
