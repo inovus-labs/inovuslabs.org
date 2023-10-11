@@ -23,7 +23,7 @@
             <div id="mega-menu-full" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
                 <ul class="flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
                     <li>
-                        <a href="#"
+                        <a href="/"
                             class="block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
                             aria-current="page">Home</a>
                     </li>
@@ -74,14 +74,14 @@
                 class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:grid-cols-3 md:px-6">
                 <ul aria-labelledby="about-menu-dropdown-button">
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/about" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">About us</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/gallery" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Gallery</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
@@ -90,14 +90,14 @@
                 </ul>
                 <ul>
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/team" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Our Team</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/news" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">News</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
@@ -106,14 +106,14 @@
                 </ul>
                 <ul class="hidden md:block">
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/community" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Community</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/reports" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Reports (Annual / Activity)</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
@@ -130,21 +130,21 @@
                 class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:grid-cols-3 md:px-6">
                 <ul aria-labelledby="initiatives-menu-dropdown-button">
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/iot-lab" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Mini IoT Lab</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/events" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Bootcamps / Workshops / Session</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/nanodegree" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Nano Degree Program</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
@@ -153,21 +153,21 @@
                 </ul>
                 <ul>
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="https://blog.inovuslabs.org" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Inovus Blogs</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="https://profile.inovuslabs.org" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Inovus Profiles</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/inora" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Inovus Radio (Inora)</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
@@ -183,7 +183,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/weekly-events" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Reccuring Events</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>
