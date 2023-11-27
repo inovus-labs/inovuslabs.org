@@ -5,6 +5,7 @@ import HomeView from '@/views/HomeView.vue'
 // Navbar : About pages
 import AboutView from '@/views/AboutView.vue'
 import GalleryView from '@/views/GalleryView.vue'
+import TeamView from '@/views/TeamView.vue'
 
 
 import ProjectView from '@/views/ProjectView.vue'
@@ -31,6 +32,12 @@ const router = createRouter({
       name: 'gallery',
       component: GalleryView
     },
+    {
+      path: '/team',
+      name: 'team',
+      component: TeamView
+    },
+    
 
     {
       path: '/projects',
