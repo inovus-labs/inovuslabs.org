@@ -42,13 +42,15 @@
 
 
     <div class="mx-auto max-w-screen-xl text-center w-full py-4">
-      <h1
-        class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-        We invest in the world’s potential</h1>
-      <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite
-        we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic
-        growth.</p>
+      <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+        🎉 Welcome to our Gallery! 📸
+      </h1>
+
+      <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+        Celebrate with us as we reminisce about the incredible journey we've embarked on over the past year. Dive into a visual feast of significant moments that have shaped our story, from exciting milestones to heartwarming memories.
+      </p>
     </div>
+
 
 
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -194,7 +196,9 @@
 
 
 
-<Footer /></template>
+<Footer />
+
+</template>
 
 
 <script>
@@ -206,6 +210,62 @@ export default {
   components: {
     Navbar,
     Footer
+  },
+  data() {
+    return {
+      gallery: [
+        {
+          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg',
+          title: 'Image Title'
+        },
+        {
+          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg',
+          title: 'Image Title'
+        },
+        {
+          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg',
+          title: 'Image Title'
+        },
+        {
+          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg',
+          title: 'Image Title'
+        },
+        {
+          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg',
+          title: 'Image Title'
+        },
+        {
+          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg',
+          title: 'Image Title'
+        },
+        {
+          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg',
+          title: 'Image Title'
+        },
+        {
+          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg',
+          title: 'Image Title'
+        },
+        {
+          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg',
+          title: 'Image Title'
+        },
+        {
+          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg',
+          title: 'Image Title'
+        },
+        {
+          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg',
+          title: 'Image Title'
+        },
+        {
+          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg',
+          title: 'Image Title'
+        }
+      ],
+
+    }
   }
 }
+
 </script>
