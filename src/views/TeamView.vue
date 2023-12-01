@@ -47,6 +47,7 @@
           :key="item.title" 
           :title="item.title" 
           :date="item.date" 
+          :members="item.members"
           :showTeam="item.showTeam" 
           @click="toggleTeam(item)"
         />
@@ -67,7 +68,7 @@
   import Navbar from "@/components/reusable/Navbar.vue";
   import Footer from "@/components/reusable/Footer.vue";
 
-  import TeamCard from "../components/TeamCard.vue";
+  import TeamCard from "@/components/TeamCard.vue";
 
   export default {
     name: 'AboutView',
