@@ -19,8 +19,10 @@
             <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
                 <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         
-                    <template v-for="n in 8">
-                        <TeamMember />
+                    <template v-for="member in members">
+                        <TeamMember
+                            :data="member"
+                        />
                     </template>
         
                 </div>  
@@ -55,6 +57,11 @@
                 type: Boolean,
                 required: false,
                 default: false
+            },
+            members: {
+                type: Array,
+                required: false,
+                default: () => []
             }
         }
     }

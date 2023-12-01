@@ -6,7 +6,7 @@
     <nav class="bg-white">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
             <a href="/" class="flex items-center">
-                <img src="/logo.svg" class="h-10 mr-3" alt="Inovus Labs Logo" />
+                <img src="/logo.svg" class="lg:h-12 h-10 mr-3" alt="Inovus Labs Logo" />
                 <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap text-secondary">Inovus Labs</span> -->
             </a>
             <button data-collapse-toggle="mega-menu-full" type="button"
@@ -28,7 +28,7 @@
                             aria-current="page">Home</a>
                     </li>
                     <li>
-                        <button id="about-menu-dropdown-button" data-collapse-toggle="about-menu-dropdown"
+                        <button id="about-menu-dropdown-button" data-collapse-toggle="about-menu-dropdown" data-collapse-trigger="hover"
                             class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-900 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">About
                             <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 10 6">
@@ -153,7 +153,7 @@
                 </ul>
                 <ul>
                     <li>
-                        <a href="https://blog.inovuslabs.org" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/blog" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Inovus Blogs</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>

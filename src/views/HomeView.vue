@@ -1,8 +1,12 @@
 
 <template>
 
+
+
   <Navbar />
+
   
+
   <section class="bg-bgPrimary">
     <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
 
@@ -28,9 +32,156 @@
     </div>
   </section>
 
+
+
+  <!-- ---------------------- ---------------------- ---------------------- -->
+
+
+
+  <!-- <About /> -->
+  
+  
+  
+  <!-- ---------------------- ---------------------- ---------------------- -->
+
+
+
+  <Features />
+  
+  
+  
+  <!-- ---------------------- ---------------------- ---------------------- -->
+  
+  
+  
+  <Partners />
+
+
+
+  <!-- ---------------------- ---------------------- ---------------------- -->
+
+
+
+  <section class="bg-white dark:bg-gray-900 py-10 px-4">
+    
+    <div class="mx-auto max-w-screen-xl text-center w-full py-4 lg:pt-10">
+      <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">We invest in the world’s potential</h1>
+      <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+    </div>
+
+
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6">
+      <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2>
+          <p class="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
+          <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
+      </div>
+      <div class="grid grid-cols-2 gap-4 mt-8">
+          <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
+          <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
+      </div>
+    </div>
+
+
+
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6">
+      <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2>
+          <p class="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
+          <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
+      </div>
+      <div class="grid grid-cols-2 gap-4 mt-8">
+          <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
+          <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
+      </div>
+    </div>
+
+    
+  </section>
+
+
+
+  <!-- ---------------------- ---------------------- ---------------------- -->
+
+
+
+  <section class="bg-bgPrimary">
+    <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+        <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-5 dark:text-white">
+          
+          <div class="flex flex-col items-center justify-center">
+              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">73M+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">developers</dd>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">1B+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">contributors</dd>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">4M+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">organizations</dd>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+            <dt class="mb-2 text-3xl md:text-4xl font-extrabold">1B+</dt>
+            <dd class="font-light text-gray-500 dark:text-gray-400">contributors</dd>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">73M+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">developers</dd>
+          </div>
+
+        </dl>
+    </div>
+  </section>
+
+
+
+  <!-- ---------------------- ---------------------- ---------------------- -->
+
+
+
+  <section class="bg-white dark:bg-gray-900">
+    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+        
+      <img class="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
+      <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image">
+
+      <div class="mt-4 md:mt-0">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Let's create more tools and ideas that brings us together.</h2>
+        <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+        <a href="#" class="inline-flex items-center text-white bg-primary hover:bg-primary focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+            Get started
+            <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ---------------------- ---------------------- ---------------------- -->
   
 
+
+  <Testimonial />
+
+
+
+  <!-- ---------------------- ---------------------- ---------------------- -->
+
+
+
+  <FAQ />
+
+  
+
+  <!-- ---------------------- ---------------------- ---------------------- -->
+
+
+
   <Footer />
+
+
 
 </template>
 
@@ -39,11 +190,28 @@
   import Navbar from "@/components/reusable/Navbar.vue";
   import Footer from "@/components/reusable/Footer.vue";
 
+  import Testimonial from "@/components/Home/Testimonial.vue";
+  import Features from "@/components/Home/Features.vue";
+  import FAQ from "@/components/Home/FAQ.vue";
+  import Partners from "@/components/Home/Partners.vue";
+  import About from "@/components/Home/About.vue";
+
   export default {
     name: 'HomeView',
     components: {
       Navbar,
-      Footer
-    }
+      Footer,
+
+      Testimonial,
+      Features,
+      FAQ,
+      Partners,
+      About
+    },
+
+    data() {
+      return {
+      }
+    },
   }
 </script>
