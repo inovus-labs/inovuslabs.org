@@ -153,7 +153,7 @@
                 </ul>
                 <ul>
                     <li>
-                        <a href="https://blog.inovuslabs.org" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <a href="/blog" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Inovus Blogs</div>
                             <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
                                 you're already using.</span>

@@ -4,9 +4,9 @@
     <div class="text-center text-gray-500 dark:text-gray-400">
         <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar">
         <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            <a href="#">Bonnie Green</a>
+            <a href="#">{{ data.name }}</a>
         </h3>
-        <p>CEO/Co-founder</p>
+        <p>{{ data.position }}</p>
         <ul class="flex justify-center mt-4 space-x-4">
             <li>
                 <a href="#" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
@@ -38,11 +38,11 @@
 <script>
     export default {
         name: 'TeamMember',
-        // props: {
-        //     data: {
-        //         type: Object,
-        //         required: true
-        //     }
-        // }
+        props: {
+            data: {
+                type: Object,
+                required: true
+            }
+        }
     }
 </script>

@@ -47,6 +47,7 @@
           :key="item.title" 
           :title="item.title" 
           :date="item.date" 
+          :members="item.members"
           :showTeam="item.showTeam" 
           @click="toggleTeam(item)"
         />
@@ -67,7 +68,7 @@
   import Navbar from "@/components/reusable/Navbar.vue";
   import Footer from "@/components/reusable/Footer.vue";
 
-  import TeamCard from "../components/TeamCard.vue";
+  import TeamCard from "@/components/TeamCard.vue";
 
   export default {
     name: 'AboutView',
@@ -92,48 +93,64 @@
       return {
         data: [
           {
-              title: 'Flowbite Application UI v2.0.0',
-              date: 'January 13th, 2022',
+              title: 'Inovus 6th Generations',
+              date: '2023-2024',
               showTeam: true,
               members: [
 
                   {
-                      name: 'Bonnie Green',
-                      position: 'CEO/Co-founder',
+                      name: 'Mr. Roji Thomas',
+                      position: 'Nodel Officer',
                       avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
                   }, {
-                      name: 'Bonnie Green',
-                      position: 'CEO/Co-founder',
+                      name: 'Mrs. Cina Mathew',
+                      position: 'Assistant Nodal Officer',
                       avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
                   }, {
-                      name: 'Bonnie Green',
-                      position: 'CEO/Co-founder',
+                      name: 'Mr. Arjun Krishna',
+                      position: 'Mentor',
                       avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
                   }, {
-                      name: 'Bonnie Green',
-                      position: 'CEO/Co-founder',
+                      name: 'Mr. Badhusha Shaji',
+                      position: 'Chief Executive Officer',
                       avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
                   }, {
-                      name: 'Bonnie Green',
-                      position: 'CEO/Co-founder',
+                      name: 'Mr. Abhishek V Gopal',
+                      position: 'Chief Technical Officer',
                       avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
                   }, {
-                      name: 'Bonnie Green',
-                      position: 'CEO/Co-founder',
+                      name: 'Mr. Nikhil T Das',
+                      position: 'Chief Operations Officer',
                       avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
                   }, {
-                      name: 'Bonnie Green',
-                      position: 'CEO/Co-founder',
+                      name: 'Mr. Nithin Daniel',
+                      position: 'Chief Financial Officer',
                       avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
                   }, {
-                      name: 'Bonnie Green',
-                      position: 'CEO/Co-founder',
+                      name: 'Mr. Arjun A Acharry',
+                      position: 'Chief Creative Officer',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  },{
+                      name: 'Mr. Joel Jacob Thomas',
+                      position: 'Chief Marketing Officer',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Ms. Lekshmi Sree J',
+                      position: 'Women in Tech Lead',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Mr. Milan Sony',
+                      position: 'Community Lead',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Ms. Anu Tiji',
+                      position: 'IPR & Research Lead',
                       avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
                   }, 
               ]
           }, {
-              title: 'Flowbite Application UI v2.0.0',
-              date: 'January 13th, 2022',
+              title: 'Inovus 5th Generations',
+              date: '2022-2023',
               showTeam: false,
               members: [
 
@@ -172,8 +189,8 @@
                   }, 
               ]
           }, {
-              title: 'Flowbite Application UI v2.0.0',
-              date: 'January 13th, 2022',
+              title: 'Inovus 4th Generations',
+              date: '2021-2022',
               showTeam: false,
               members: [
 
@@ -211,7 +228,127 @@
                       avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
                   }, 
               ]
-          }, 
+          }, {
+              title: 'Inovus 3rd Generations',
+              date: '2020-2021',
+              showTeam: false,
+              members: [
+
+                  {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, 
+              ]
+          }, {
+              title: 'Inovus 2nd Generations',
+              date: '2019-2020',
+              showTeam: false,
+              members: [
+
+                  {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, 
+              ]
+          }, {
+              title: 'Inovus 1st Generations',
+              date: '2018-2019',
+              showTeam: false,
+              members: [
+
+                  {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, {
+                      name: 'Bonnie Green',
+                      position: 'CEO/Co-founder',
+                      avatar: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                  }, 
+              ]
+          },
         ]
       }
     },

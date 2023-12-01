@@ -38,6 +38,14 @@
 
 
 
+  <!-- <About /> -->
+  
+  
+  
+  <!-- ---------------------- ---------------------- ---------------------- -->
+
+
+
   <Features />
   
   
@@ -186,6 +194,7 @@
   import Features from "@/components/Home/Features.vue";
   import FAQ from "@/components/Home/FAQ.vue";
   import Partners from "@/components/Home/Partners.vue";
+  import About from "@/components/Home/About.vue";
 
   export default {
     name: 'HomeView',
@@ -196,7 +205,8 @@
       Testimonial,
       Features,
       FAQ,
-      Partners
+      Partners,
+      About
     },
 
     data() {
