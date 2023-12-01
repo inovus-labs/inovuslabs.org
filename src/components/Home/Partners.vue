@@ -10,7 +10,7 @@
             <template v-for="partner in partners">
             <a href="#">
                 <div class="flex justify-center items-center">
-                <img class="h-24" :src="'../../public/logos/' + partner.logo" :alt="partner.name" />
+                <img class="h-24" :src="'../../logos/' + partner.logo" :alt="partner.name" />
                 </div>
             </a>
             </template>                       
