@@ -47,7 +47,7 @@ const router = createRouter({
       component: ProjectView
     },
     {
-      path: '/blogs',
+      path: '/blog',
       name: 'blog',
       component: BlogView
     },

@@ -12,24 +12,24 @@
         </div>
 
         <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">
-            <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">A Pictorial Chronicle of Innovation.
+            <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">
+                Blog Odyssey: Navigating Ideas and Insights
             </h1>
-            <p class="mb-8 text-lg font-normal text-secondary lg:text-xl sm:px-16 lg:px-48">Witness the spirit of creativity,
-            experimentation, and collaboration through our visual stories.</p>
+            <p class="mb-8 text-lg font-normal text-secondary lg:text-xl sm:px-16 lg:px-46">
+                Dive into a world of ideas with our curated collection of blogs - where knowledge meets creativity, and every post is a journey of discovery!
+            </p>
             <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <a href="#"
+            <a href="https://blog.inovuslabs.org/" target="_blank"
                 class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary">
-                Get started
-                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9" />
+                Start reading
+                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                 </svg>
             </a>
-            <a href="#"
+            <!-- <a href="#"
                 class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-secondary rounded border border-secondary">
                 Learn more
-            </a>
+            </a> -->
             </div>
         </div>
 
@@ -38,37 +38,33 @@
 
 
 
-    <section class="py-10 px-4">
 
-        
-        <div class="mx-auto max-w-screen-xl text-center w-full py-4 lg:pt-10">
-          <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">We invest in the world’s potential</h1>
-          <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+    <section class="lg:p-10 p-4 my-10">
+
+        <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
+            <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+                🌐 Featured Blog Posts 📖
+            </h1>
+
+            <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+                From expert perspectives to personal reflections, our featured blog posts offer a diverse tapestry of knowledge and inspiration. Join us on this intellectual journey, where each click unveils a new realm of ideas waiting to be discovered.
+            </p>
         </div>
 
 
+        <div class="px-4 mx-auto max-w-screen-xl lg:px-6">
+            <div class="grid gap-8 lg:grid-cols-2">
+                
+                <template v-for="project in projects" :key="project.id">
+                    <BlogCard
+                        :data="project"
+                    />
+                </template>
 
-        
-
-        <div class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-            <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-                <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
-
-
-                    <div class="max-w-sm p-6 bg-white border text-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                        <h5 class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                        <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    </div>
-                    
-
-                </div>
-            </div>
+            </div>  
         </div>
-
-
 
     </section>
-
 
 
   <Footer />
@@ -79,12 +75,26 @@
 <script>
     import Navbar from "@/components/reusable/Navbar.vue";
     import Footer from "@/components/reusable/Footer.vue";
+    import BlogCard from "@/components/BlogCard.vue";
+
+    import { getBlogPosts } from "@/API/index.js";
 
     export default {
         name: 'BlogView',
         components: {
             Navbar,
-            Footer
+            Footer,
+            BlogCard
         },
+
+        data() {
+            return {
+                projects: []
+            }
+        },
+
+        async mounted() {
+            this.projects = await getBlogPosts();
+        }
     }
 </script>
