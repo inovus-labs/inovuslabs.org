@@ -42,10 +42,8 @@
   <div class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
 
-      <div class="grid grid-cols-1 gap-4 sm:grid-cols-4">
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
 
-
-        <!-- loop using projects array -->
         <template v-for="project in projects" :key="project.id">
           <ProjectCard
             :data="project"
