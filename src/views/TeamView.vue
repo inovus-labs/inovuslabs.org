@@ -504,68 +504,22 @@
                   },  
               ]
           }, {
-              title: 'Inovus 1st Generations The Founders of Inovus Labs IEDC',
+              title: 'The Founders of Inovus Labs IEDC',
               date: '2018-2019',
               showTeam: false,
               members: [
-            
-                  {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
+
+              {
+                      name: '',
+                      position: '',
+                     avatar: '/Team/founders.jpg',
                       social: {
                         facebook: ""
                       }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, 
+                  },
+               
+              
+               
               ]
           },
         ]
