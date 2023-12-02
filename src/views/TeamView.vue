@@ -427,7 +427,7 @@
               ]
           }, {
               title: 'Inovus 2nd Generations',
-              date: '2019-2020',
+              date: '2018-2020',
               showTeam: false,
               members: [
 
@@ -505,7 +505,7 @@
               ]
           }, {
               title: 'The Founders of Inovus Labs IEDC',
-              date: '2018-2019',
+              date: '2017',
               showTeam: false,
               members: [
 
