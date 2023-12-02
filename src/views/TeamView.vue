@@ -99,84 +99,84 @@
               members: [
 
                   {
-                      name: 'Mr. Roji Thomas',
+                      name: ' Roji Thomas',
                       position: 'Nodel Officer',
                       avatar: '/Team/2018-2020/rojithomas.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mrs. Cina Mathew',
+                      name: ' Cina Mathew',
                       position: 'Assistant Nodal Officer',
                      avatar: '/Team/2023/cinamathew.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Arjun Krishna',
+                      name: ' Arjun Krishna',
                       position: 'Mentor',
                      avatar: '/Team/2018-2020/arjunkrishna.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Badhusha Shaji',
+                      name: ' Badhusha Shaji',
                       position: 'Chief Executive Officer',
                      avatar: '/Team/2024/BadhushaShaji.jpeg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Abhishek V Gopal',
+                      name: ' Abhishek V Gopal',
                       position: 'Chief Technical Officer',
                      avatar: '/Team/2024/Abhishek.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Nikhil T Das',
+                      name: ' Nikhil T Das',
                       position: 'Chief Operations Officer',
                      avatar: '/Team/2024/NikilTDas.jpeg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Nithin Daniel',
+                      name: ' Nithin Daniel',
                       position: 'Chief Financial Officer',
                      avatar: '/Team/2024/Nithin.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Arjun A Acharry',
+                      name: ' Arjun A Acharry',
                       position: 'Chief Creative Officer',
                      avatar: '/Team/2024/ArjunAcharry.JPG',
                       social: {
                         facebook: ""
                       }
                   },{
-                      name: 'Mr. Joel Jacob Thomas',
+                      name: ' Joel Jacob Thomas',
                       position: 'Chief Marketing Officer',
                      avatar: '/Team/2024/JoelJacob.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Lekshmi Sree J',
+                      name: ' Lekshmi Sree J',
                       position: 'Women in Tech Lead',
                      avatar: '/Team/2024/lekshmisree.jpeg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Milan Sony',
+                      name: ' Milan Sony',
                       position: 'Community Lead',
                      avatar: '/Team/2024/milansony.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Anu Tiji',
+                      name: ' Anu Tiji',
                       position: 'IPR & Research Lead',
                      avatar: '/Team/2024/Anutiji.jpeg',
                       social: {
@@ -191,21 +191,21 @@
               members: [
 
                   {
-                      name: 'Mr. Roji Thomas',
+                      name: ' Roji Thomas',
                       position: 'Nodal Officer',
                      avatar: '/Team/2018-2020/rojithomas.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mrs. Cina Mathew',
+                      name: ' Cina Mathew',
                       position: 'Assistant Nodal Officer',
                      avatar: '/Team/2023/cinamathew.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Arjun Krishna',
+                      name: ' Arjun Krishna',
                       position: 'Mentor',
                      avatar: '/Team/2018-2020/arjunkrishna.jpg',
                       social: {
@@ -219,49 +219,49 @@
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Nikhil T Das',
+                      name: ' Nikhil T Das',
                       position: 'Chief Financial Officer',
                      avatar: '/Team/2023/Nikhiltdas.JPG',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Joseph Mathai Pathil',
+                      name: ' Joseph Mathai Pathil',
                       position: 'Chief Operations Officer',
                      avatar: '/Team/2022/josephmathai.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Induchoodan R',
+                      name: ' Induchoodan R',
                       position: 'Chief Technical Officer',
                      avatar: '/Team/2023/Indhuchoodan.JPG',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Meretta Suresh',
+                      name: ' Meretta Suresh',
                       position: 'Chief Marketing Officer',
                      avatar: '/Team/2023/Meritta.JPG',
                       social: {
                         facebook: ""
                       }
                   },  {
-                      name: 'Mr. Badhusha Shaji',
+                      name: ' Badhusha Shaji',
                       position: 'Chief Creative Officer',
                      avatar: '/Team/2023/badhushashaji.jpeg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Aryadevi C S',
+                      name: ' Aryadevi C S',
                       position: 'Chief Social Officer',
                      avatar: '/Team/2023/aryadevics.JPG',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Amal Joseph',
+                      name: ' Amal Joseph',
                       position: 'Chief Innovations Officer',
                      avatar: '/Team/2023/AmalJoseph.JPG',
                       social: {
@@ -276,56 +276,56 @@
               members: [
 
                   {
-                      name: 'Mr. Roji Thomas',
+                      name: ' Roji Thomas',
                       position: 'Nodal Officer',
                      avatar: '/Team/2018-2020/rojithomas.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Arjun Krishna',
+                      name: ' Arjun Krishna',
                       position: 'Student Co-ordinator',
                      avatar: '/Team/2018-2020/arjunkrishna.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Sreelakshmi Anilkumar',
+                      name: ' Sreelakshmi Anilkumar',
                       position: 'Chief Executive Officer',
                      avatar: '/Team/2022/srelekshmi.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Jeevan Joseph',
+                      name: ' Jeevan Joseph',
                       position: 'Chief Technical Officer',
                      avatar: '/Team/2022/jeevenjosheph.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Sandra Krishnan',
+                      name: ' Sandra Krishnan',
                       position: 'Chief Financial Officer',
                      avatar: '/Team/2022/sandra.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr Joseph Mathai Pathi',
+                      name: ' Joseph Mathai Pathi',
                       position: 'Chief operations Officer',
                      avatar: '/Team/2022/josephmathai.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Christeena Zachariah',
+                      name: ' Christeena Zachariah',
                       position: 'Chief Creative Officer',
                      avatar: '/Team/2022/christeena.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Meretta Suresh',
+                      name: ' Meretta Suresh',
                       position: 'Chief Social Officer',
                      avatar: '/Team/2022/meretta.jpg',
                       social: {
@@ -340,84 +340,84 @@
               members: [
 
                   {
-                      name: 'Mr. Roji Thomas',
+                      name: ' Roji Thomas',
                       position: 'Nodal Offier',
                      avatar: '/Team/2018-2020/rojithomas.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Jithin Shah',
+                      name: ' Jithin Shah',
                       position: 'Student Co-ordinato',
                      avatar: '/Team/2018-2020/jithinshah.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Antony Frenandez',
+                      name: ' Antony Frenandez',
                       position: 'Chief Executive Officer',
                      avatar: '/Team/2021/antonyfernandez.png',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Indhuchoodan R',
+                      name: ' Indhuchoodan R',
                       position: 'Cheif Technical Officer',
                      avatar: '/Team/2021/induchoodan.png',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Franklin Jetty Johnson',
+                      name: ' Franklin Jetty Johnson',
                       position: 'Chief Financial Officer',
                      avatar: '/Team/2021/franklin.png',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Thomas George',
+                      name: ' Thomas George',
                       position: 'Chief Marketing Officer',
                      avatar: '/Team/2021/thomasgeorge.png',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Ckesiah Mary Sam',
+                      name: ' Ckesiah Mary Sam',
                       position: 'Chief Innovations Officer',
                      avatar: '/Team/2021/ckeiah.png',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Jaike Jacob Binoy',
+                      name: ' Jaike Jacob Binoy',
                       position: 'Chief Operations Officer',
                      avatar: '/Team/2021/jaikejacob.png',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Sheril Susan Manu',
+                      name: 'Sheril Susan Manu',
                       position: 'Chief Creative Officer',
                      avatar: '/Team/2021/sherilsusan.png',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Nikhil T Das',
+                      name: ' Nikhil T Das',
                       position: 'Chief Social Officer',
                      avatar: '/Team/2021/nikhiltdas.png',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Meera Mariam Jacob',
+                      name: ' Meera Mariam Jacob',
                       position: 'Stock Manager',
                      avatar: '/Team/2021/meeramariam.png',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Anuraj T R',
+                      name: ' Anuraj T R',
                       position: 'Event Curator',
                      avatar: '/Team/2021/anuraj.png',
                       social: {
@@ -427,75 +427,75 @@
               ]
           }, {
               title: 'Inovus 2nd Generations',
-              date: '2019-2020',
+              date: '2018-2020',
               showTeam: false,
               members: [
 
                   {
-                      name: 'Mr. Roji Thomas',
+                      name: ' Roji Thomas',
                       position: 'Nodal Officer',
                      avatar: '/Team/2018-2020/rojithomas.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Jithin Shah',
+                      name: ' Jithin Shah',
                       position: 'Student Co-ordinator',
                      avatar: '/Team/2018-2020/jithinshah.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Laya Anna Lalan',
+                      name: ' Laya Anna Lalan',
                       position: 'Chief Executive Officer',
                      avatar: '/Team/2018-2020/layaanna.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr Midhun Murali',
+                      name: ' Midhun Murali',
                       position: 'Chief Technical Officer',
                      avatar: '/Team/2018-2020/midhunmurali.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Ms. Megha Manoj',
+                      name: ' Megha Manoj',
                       position: 'Chief Financial Officer',
                      avatar: '/Team/2018-2020/meghamanoj.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mrs. Karpaka Devi',
+                      name: ' Karpaka Devi',
                       position: 'Chief Marketing Officer',
                      avatar: '/Team/2018-2020/karpaka.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name:'Mr. Arjun Krishna',
+                      name:' Arjun Krishna',
                       position: 'Chief Innovations Officer',
                      avatar: '/Team/2018-2020/arjunkrishna.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr Johna Aswin Selva',
+                      name: ' Johna Aswin Selva',
                       position: 'Chief Operations Officer',
                      avatar: '/Team/2018-2020/johnaaswin.jpg',
                       social: {
                         facebook: ""
                       }
                   },{
-                      name:'Mr. Justin Titus',
+                      name:' Justin Titus',
                       position: 'Chief Creative Officer',
                      avatar: '/Team/2018-2020/justin.jpg',
                       social: {
                         facebook: ""
                       }
                   }, {
-                      name: 'Mr. Alan Varghese ',
+                      name: ' Alan Varghese ',
                       position: 'Chief Social Officer',
                      avatar: '/Team/2018-2020/alanvarghese.jpg',
                       social: {
@@ -504,68 +504,22 @@
                   },  
               ]
           }, {
-              title: 'Inovus 1st Generations The Founders of Inovus Labs IEDC',
-              date: '2018-2019',
+              title: 'The Founders of Inovus Labs IEDC',
+              date: '2017',
               showTeam: false,
               members: [
-            
-                  {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
+
+              {
+                      name: '',
+                      position: '',
+                     avatar: '/Team/founders.jpg',
                       social: {
                         facebook: ""
                       }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, {
-                      name: 'Bonnie Green',
-                      position: 'Chief Executive Officer',
-                     avatar: '/Team/2018-2020/006.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  }, 
+                  },
+               
+              
+               
               ]
           },
         ]
