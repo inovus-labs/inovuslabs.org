@@ -1,19 +1,34 @@
 <template>
 
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <img class="rounded-t-lg" :src="data.thumbnail" alt="Project Image">
-        <div class="p-5">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ data.title }}</h5>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ data.description }}</p>
-            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Read more
-                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-            </a>
+        <img class="rounded-t-lg h-44 w-full" :src="data.thumbnail" :alt="data.title" />
+        
+        <div class="p-5 flex flex-col justify-between">
+            
+            <h5 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">{{ data.title }}</h5>
+            
+            <div class="flex flex-col gap-2">
+                <p class="font-normal text-gray-700 dark:text-gray-400 custom-ellipsis">{{ data.description }}</p>
+                <div class="flex items-center gap-2 mb-2 align-middle text-align-center">
+                    <span class="text-sm font-medium text-gray-900 dark:text-gray-100">Status:</span>
+                    <span :class="data.status === 'Completed' ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'" class="inline-flex items-center px-2.5 py-0.5 rounded text-xs font-medium capitalize">
+                        {{ data.status === 'Completed' ? 'Completed' : 'In Progress' }}
+                    </span>
+                </div>
+            </div>
+
+            <div class="flex justify-between mt-5 gap-2">
+                <a href="#" class="items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded hover:bg-blue-800 dark:bg-blue-600 w-full text-center">
+                    Read More
+                </a>
+
+                <a href="#" class="items-center px-3 py-2 text-sm font-medium text-white bg-gray-700 rounded hover:bg-gray-800 dark:bg-gray-600 w-full text-center">
+                    View Demo
+                </a>
+            </div>
+
         </div>
     </div>
-
 
 </template>
 
@@ -28,3 +43,13 @@
         }
     }
 </script>
+
+
+<style scoped>
+    .custom-ellipsis {
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+</style>
