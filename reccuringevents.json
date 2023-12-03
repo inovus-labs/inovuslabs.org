@@ -1,0 +1,94 @@
+[
+    {
+        "date": "19-May-2019",
+        "title": "Hangout with Inovus -John Mathew",
+        "description": "",
+        "thumbnail": "/reccuringevents/hangout-john.jpg",
+        "tags": ["Hangout"]
+       
+    },{
+        "date": "25-April-2020",
+        "title": "Hangout with Inovus -Dr. Jimmy Mathew",
+        "description": "",
+        "thumbnail": "/reccuringevents/hangout-drjimmy.jpg",
+        "tags": ["Hangout"]
+       
+    },{
+        "date": "05-May-2020",
+        "title": "Hangout with Inovus -Mehar M P",
+        "description": "",
+        "thumbnail": "/reccuringevents/hangout-mehar.jpg",
+        "tags": ["Hangout"]
+       
+    },{
+        "date": "19-May-2020",
+        "title": "Hangout with Inovus -Enfa Rose George",
+        "description": "",
+        "thumbnail": "/reccuringevents/hangout-enfa.jpg",
+        "tags": ["Hangout"]
+       
+    },{
+        "date": "16-May-2021",
+        "title": "Simply Linkedin",
+        "description": "",
+        "thumbnail": "/reccuringevents/simply-linkedin.jpg",
+        "tags": ["simply"]
+       
+    },{
+        "date": "01-Jly",
+        "title": "Simply Blockchain",
+        "description": "",
+        "thumbnail": "/reccuringevents/simply-blockchain",
+        "tags": ["simply"]
+       
+    },{
+        "date": "01-July-2023",
+        "title": "Weekend Workbench #1",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template1.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "08-July-2023",
+        "title": "Weekend Workbench #2",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template2.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "15-July-2023",
+        "title": "Weekend Workbench #3",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template3.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "22-July-2023",
+        "title": "Weekend Workbench #4",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template4.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "29-July-2023",
+        "title": "Weekend Workbench #5",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template5.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "5-Aug-2023",
+        "title": "Weekend Workbench #6",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template6.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "23-Sep-2023",
+        "title": "Weekend Workbench #7",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template8.png",
+        "tags": ["wrokbench"]
+       
+    },        
+]
