@@ -46,9 +46,10 @@ const router = createRouter({
       path: '/events',
       name: 'events',
       component: ActivityView
-    },    
+    },
+    {
       path: '/news',
-      name: 'team',
+      name: 'news',
       component: NewsView
     },
 

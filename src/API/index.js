@@ -582,7 +582,7 @@ export const getBlogPosts = async () => {
                 }
             ],
             "url": "https://blog.inovuslabs.org/instagram-vs-health/",
-            "excerpt": "Instagram is a popular social media platform and mobile app designed for sharing photos and videos. It was launched in October 2010 and has since become one of the most widely used social networking platforms in the world. Instagram allows users to create profiles, post photos and videos, and interact with others through likes, comments, and direct messages.\n\nInstagram has evolved significantly since its inception and has played a crucial role in shaping how people share and consume visual conte"
+            "excerpt": "Instagram is a popular social media platform and mobile app designed for sharing photos and videos. It was launched in Oct 2010 and has since become one of the most widely used social networking platforms in the world. Instagram allows users to create profiles, post photos and videos, and interact with others through likes, comments, and direct messages.\n\nInstagram has evolved significantly since its inception and has played a crucial role in shaping how people share and consume visual conte"
         },
         {
             "title": "The story behind a simple, yet complicated Smart Door!",
@@ -672,166 +672,158 @@ export const getPodcasts = async () => {
 // Get all projects
 export const getActivity = async () => {
     let data = {
-        "tags": ["workshop","Internship","bootcamp","challenges","opensource","TalkSection","Exebition"],
-        "Activities": [
+        "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Exhibition"],
+        "activities": [
             {
                 "id": 1,
                 "title": "Web Design Bootcamp v3.0",
-                "thumbnail": "/Activity/WDB.jpg",
-                "description": "A nano degree program to develop the web designing skills of students at kristu jyothi college. It have been successfully completed and given the certificate of the nano degree program. ",
-                "Date": "1 June 2023 - 14 June 2013",
-                "tags": ["bootcamp"]
+                "thumbnail": "/activity/WDB.jpg",
+                "description": "A nano degree program to develop the web designing skills of students at kristu jyothi college. It have been successfully completed and given the certificate of the nano degree program.",
+                "date": ["1 June 2023", "14 June 2013"],
+                "tags": ["Bootcamp"]
             },{
                 "id": 2,
-                "title": "Kerala Piravi in Govt. LP School",
-                "thumbnail": "/Activity/schoolvisit.jpg",
+                "title": "Kerala Piravi @ Govt. LP School",
+                "thumbnail": "/activity/schoolvisit.jpg",
                 "description": "On kerala piravi we have went to Gov. LP School Madappaly to intact with LKG students and have coundected small small activities.",
-                "Date": "1 November 2022",
-                "tags": ["workshop"]
+                "date": ["1 Nov 2022"],
+                "tags": ["Workshop"]
             },
             {
-                "id": "3",
+                "id": 3,
                 "title": "IoT workshop",
-                "thumbnail": "/Activity/IOT23.jpg",
-                "description": "A holding first step to IoT. The intrested students in KJCMT have participated and gained the first step on IoT. ",
-                "Date": "19,20 July and 10th August 2023",
-                "tags": ["workshop"]
+                "thumbnail": "/activity/IOT23.jpg",
+                "description": "A holding first step to IoT. The intrested students in KJCMT have participated and gained the first step on IoT.",
+                "date": [["19 July", "20 July"], "10 Aug 2023"],
+                "tags": ["Workshop"]
             },
             {
-                "id": "4",
+                "id": 4,
                 "title": "Debate compatition",
-                "thumbnail": "/Activity/debate.png",
+                "thumbnail": "/activity/debate.png",
                 "description": "A cpmpatition to encourage the talking ability of students. Severals students have participated and all have recived participation certificate",
-                "Date": "25 November 2023",
-                "tags": ["challenges"]
+                "date": ["25 Nov 2023"],
+                "tags": ["Challenge"]
             },
             {
-                "id": "5",
+                "id": 5,
                 "title": "Stupid Idea Contest",
-                "thumbnail": "/Activity/stupid.png",
-                "description": "A contest to devalop the ideas of KJCMT students. They have submitted several Ideas and we have selected the best one and promoted them to do that by giving some prize to them. ",
-                "Date": "3 - 12 november 2022",
-                "tags": ["challenges"]
+                "thumbnail": "/activity/stupid.png",
+                "description": "A contest to devalop the ideas of KJCMT students. They have submitted several Ideas and we have selected the best one and promoted them to do that by giving some prize to them.",
+                "date": ["3 Nov 2022", "12 Nov 2022"],
+                "tags": ["Challenge"]
             },
             {
-                "id": "6",
+                "id": 6,
                 "title": "Community Workshop",
-                "thumbnail": "/Activity/community.png",
+                "thumbnail": "/activity/community.png",
                 "description": "This workshop was conducted to the students to make them understand how community works and how to manage a community.",
-                "Date": "6 October 2022",
-                "tags": ["workshop"]
+                "date": ["6 Oct 2022"],
+                "tags": ["Workshop"]
             },
             {
-                "id": "7",
-                "title": "Date with figma",
-                "thumbnail": "/Activity/date_with_figma.jpg",
+                "id": 7,
+                "title": "Date with Figma",
+                "thumbnail": "/activity/date_with_figma.jpg",
                 "description": "First step to figma. This event is hosted for KJCMT students to know about figma and learn about graphics designing",
-                "Date": "9,13,14 october 2023",
-                "tags": ["workshop"]
+                "date": ["9 Oct 2023", "14 Oct 2023"],
+                "tags": ["Workshop"]
             },
             {
-                "id": "8",
-                "title": "Hacktober fest",
-                "thumbnail": "/Activity/hacktober.jpg",
+                "id": 8,
+                "title": "Intro to Hacktober Fest",
+                "thumbnail": "/activity/hacktober.jpg",
                 "description": "This is a event we conducted to make out students understand what is open sourec and how to conndribute in a opensource projuct, for that we have contributer several contribution to hacktober fest",
-                "Date": "october 2023",
-                "tags": ["opensource"]
+                "date": ["Oct 2023"],
+                "tags": ["Workshop"]
             },
             {
-                "id": "9",
-                "title": "Invention vs Innovation - An Orientation Session",
-                "thumbnail": "/Activity/IvsI.jpg",
+                "id": 9,
+                "title": "Invention vs Innovation",
+                "thumbnail": "/activity/IvsI.jpg",
                 "description": "An orientation section for the kjcmt students to know about what is invention and innovation.It halps the students to rectify the difference birween invention and innovation . ",
-                "Date": "9th october 2022",
-                "tags": ["TalkSection"]
+                "date": ["9 Oct 2022"],
+                "tags": ["Session"]
             },
             {
-                "id": "10",
+                "id": 10,
                 "title": "Call for extended team",
-                "thumbnail": "/Activity/Exetended.jpg",
+                "thumbnail": "/activity/Exetended.jpg",
                 "description": "The selection of our extened team. We have conducted interview of all apllayed students and selected a bunch of intrested students to inovus Fam.",
-                "Date": "4,5,6 October 2023",
+                "date": ["4 Oct 2023", "6 Oct 2023"],
                 "tags": ["Internship"]
             },
             {
-                "id": "11",
-                "title": "HANDS-ON IoT WORKSHOP",
-                "thumbnail": "/Activity/handonIOT.jpg",
+                "id": 11,
+                "title": "Hands-on IoT Workshop",
+                "thumbnail": "/activity/handonIOT.jpg",
                 "description": "This is a exibition counducted at MBC kuttikanam. A bunch of intrested students to learn IoT ",
-                "Date": " 27th & 28th April 2023",
-                "tags": ["workshop"]
+                "date": ["27 April 2023", "28th April 2023"],
+                "tags": ["Workshop"]
             },
             {
-                "id": "12",
-                "title": "IOT and Robotics Exhibition",
-                "thumbnail": "/Activity/Iotexebition.jpeg",
+                "id": 12,
+                "title": "IoT & Robotics Exhibition",
+                "thumbnail": "/activity/Iotexebition.jpeg",
                 "description": "An exebition counducted on SB high school based on IT.They have interacted with VR glasses, hoverboard, etc . ",
-                "Date": "3 February 2023,",
-                "tags": ["Exebition"]
+                "date": ["3 Feb 2023"],
+                "tags": ["Exhibition"]
             },
             {
-                "id": "13",
+                "id": 13,
                 "title": "XPOVISTA ’23",
-                "thumbnail": "/Activity/xpovista.JPG",
+                "thumbnail": "/activity/xpovista.JPG",
                 "description": "This is a exibition counducted by kristu jyoti HSS, We the students of inovus Labs IEDC have displayed some of our products too ",
-                "Date": "20,21,22 september 2023",
-                "tags": ["Exebition"]
+                "date": ["20 Sept 2023", "22 Sept 2023"],
+                "tags": ["Exhibition"]
             },
             {
-                "id": "14",
+                "id": 14,
                 "title": "Learn.py 2.0",
-                "thumbnail": "/Activity/learnpy.JPG",
+                "thumbnail": "/activity/learnpy.JPG",
                 "description": "An online event counducted for KJCMT studens to learn python. the students will get the basic knowleadge to understand and program in python",
-                "Date": "9 september 2022",
-                "tags": ["workshop"]
+                "date": ["9 Sept 2022"],
+                "tags": ["Workshop"]
             },
             {
-                "id": "15",
+                "id": 15,
                 "title": "LED Bulb Making Workshop",
-                "thumbnail": "/Activity/LEDworkshop.jpg",
+                "thumbnail": "/activity/LEDworkshop.jpg",
                 "description": "A workshop to teach students how to make LED bulbs so that make bulb and sell them there own. ",
-                "Date": "24 January 2023",
+                "date": ["24 Jan 2023"],
                 "tags": ["workshops"]
             },
             {
-                "id": "16",
+                "id": 16,
                 "title": "Arduino Workshop",
-                "thumbnail": "/Activity/arduinoIHRD.jpeg",
+                "thumbnail": "/activity/arduinoIHRD.jpeg",
                 "description": "We have counducted Arduino workshop for the students of IHRD mallapally students. It was a wonderfull experience to intract with new fellows",
-                "Date": "23 January 2023",
-                "tags": ["workshop"]
+                "date": ["23 Jan 2023"],
+                "tags": ["Workshop"]
             },
             {
-                "id": "17",
+                "id": 17,
                 "title": "Onam Trivia 2K22",
-                "thumbnail": "/Activity/onam.png",
-                "description": "Onam Trivia 2K22 an Instagram hunt conducted by Inovus Labs IEDC on 2nd September 2022 from 7:30 – 11:30pm. This trivia was conducted to engage with students from various departments and to make students more familiar about Onam and its traditions. The questions asked were mostly about onam and its origin. 150+ students took part in this trivia and the first one to answer each question through story reply was declared winner and awarded a bookmyshow voucher. ",
-                "Date": "2 september 2022",
-                "tags": ["challenges"]
+                "thumbnail": "/activity/onam.png",
+                "description": "Onam Trivia 2K22 an Instagram hunt conducted by Inovus Labs IEDC on 2nd Sept 2022 from 7:30 – 11:30pm. This trivia was conducted to engage with students from various departments and to make students more familiar about Onam and its traditions. The questions asked were mostly about onam and its origin. 150+ students took part in this trivia and the first one to answer each question through story reply was declared winner and awarded a bookmyshow voucher. ",
+                "date": ["2 Sept 2022"],
+                "tags": ["Challenge"]
             },
             {
-                "id": "18",
-                "title": "Vayanavaram – Reading Week",
-                "thumbnail": "/Activity/vayana.png",
+                "id": 18,
+                "title": "Vayanavaram",
+                "thumbnail": "/activity/vayana.png",
                 "description": "Reading day was observed on June 19. Inovus labs celebrated reading day by introducing Vayanavaram which lasted a week. This event was all about completing a book or reading a book a full week and then sharing a picture with the book on Instagram. ",
-                "Date": "20 – 26 June 2022",
-                "tags": ["workshop"]
+                "date": ["20 June 2022", "26 June 2022"],
+                "tags": ["Workshop"]
             },
             {
-                "id": "19",
-                "title": "Celebrating Five Years of Inovus Labs IEDC",
-                "thumbnail": "/Activity/5years.jpg",
-                "description": "Five years ago, a seed was planted, and from that seed, Inovus Labs blossomed into a thriving Student Community. This journey has been one of continuous learning, evolving, and leaving an indelible mark on everyone associated with it. Today, we gather not just as individuals but as a united community that has embraced change, acquisition of knowledge, and the power of collaboration",
-                "Date": "5th April 2022",
-                "tags": ["TalkSection"]
-            },
-            {
-                "id": "20",
-                "title": "Figma pookalam",
-                "thumbnail": "/Activity/pookalam.png",
+                "id": 19,
+                "title": "Figma Pookalam",
+                "thumbnail": "/activity/pookalam.png",
                 "description": "Reading day was observed on June 19. Inovus labs celebrated reading day by introducing Vayanavaram which lasted a week. This event was all about completing a book or reading a book a full week and then sharing a picture with the book on Instagram. ",
-                "Date": "20 – 26 June 2022",
-                "tags": ["workshop"]
+                "date": ["20 June 2022", "26 June 2022"],
+                "tags": ["Workshop"]
             }
         ]
     };
