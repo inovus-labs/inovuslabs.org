@@ -59,10 +59,12 @@
             </div>
 
 
-            <div id="column-3" class="flex items-center md:order-2">
-                <!-- <a href="#" class="text-secondary border border-secondary font-medium rounded text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2">Login</a> -->
-                <a href="#" class="text-white bg-primary font-medium rounded text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2">Join Inovus Labs</a>
-            </div>
+            <template v-if="!isMobile">
+                <div class="flex items-center md:order-2">
+                    <!-- <a href="#" class="text-secondary border border-secondary font-medium rounded text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2">Login</a> -->
+                    <a href="#" class="text-white bg-primary font-medium rounded text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2">Join Inovus Labs</a>
+                </div>
+            </template>
 
 
         </div>
@@ -104,7 +106,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="hidden md:block">
+                <ul>
                     <li>
                         <a href="/community" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Community</div>
@@ -174,7 +176,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="hidden md:block">
+                <ul>
                     <li>
                         <a href="/projects" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                             <div class="font-semibold">Opensource Projects</div>
@@ -214,18 +216,23 @@
         data() {
             return {
                 deviceWidth: null,
+                isMobile: false
             }
         },
-
+        methods: {
+            checkDeviceWidth() {
+                this.deviceWidth = window.innerWidth;
+                if (this.deviceWidth < 768) {
+                    this.isMobile = true;
+                } else {
+                    this.isMobile = false;
+                }
+            }
+        },
         mounted() {
-            this.deviceWidth = window.innerWidth;
-
-            if (this.deviceWidth < 768) {
-                document.getElementById('column-3').classList.add('hidden');
-            } else {
-                document.getElementById('column-3').classList.remove('hidden');
-            }
-        },
+            this.checkDeviceWidth();
+            window.addEventListener('resize', this.checkDeviceWidth);
+        }
 
     }
 </script>
