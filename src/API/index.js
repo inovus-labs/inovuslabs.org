@@ -5,369 +5,428 @@ import axios from 'axios';
 
 
 
+// Get all projects
 export const getProjects = async () => {
-    let data = [
-        {
-            "id": 1,
-            "title": "Atom EV",
-            "description": "The electric car designed and constructed by college students is an impressive blend of innovation, sustainability, and prominent technology. Crafted with a combination of academic knowledge and hands-on expertise, this vehicle represents a remarkable achievement in the world of automotive engineering",
-            "thumbnail": "/projects/Atom.jpg",
-            "status": "Completed",
-            "tags": ["Mechanical", "Hardware"],
-            "contributors": [
-                {
-                    "name": "Induchoodan R",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+    let data = {
+        "tags": ["Software", "Hardware", "Electronics", "Internet of Things", "Open-source", "Mechanical"],
+        "technologies": [],
+        "projects": [
+            {
+                "id": 1,
+                "title": "Atom EV",
+                "description": "The electric car designed and constructed by college students is an impressive blend of innovation, sustainability, and prominent technology. Crafted with a combination of academic knowledge and hands-on expertise, this vehicle represents a remarkable achievement in the world of automotive engineering",
+                "thumbnail": "/projects/Atom.jpg",
+                "status": "Completed",
+                "tags": ["Mechanical", "Hardware"],
+                "contributors": [
+                    {
+                        "name": "Induchoodan R",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Nikhil T Das",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-2.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Edu Bulb",
+                "description": "The LED Bulb is a remarkable achievement born from the creative minds and hard work of a group of visionary college students. This groundbreaking LED bulb is more than just a source of light a testament to innovation, sustainability, and youthful ingenuity. The students have paved a way to see big dreams for others through this business model",
+                "thumbnail": "/projects/Edubulb.jpeg",
+                "status": "Completed",
+                "tags": ["Hardware", "Electronics"],
+                "contributors": [
+                    {
+                        "name": "Nikhil T Das",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Induchoodan R",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-2.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Smart Inovus",
+                "description": "Home automation refers to the use of smart technology and integrated systems to control various aspects of a home, providing homeowners with increased convenience, energy efficiency, security, and customization. We used ESP32, 16 Channel relay module and 12v DC adapter for controlling the appliances. The ESP32 is integrated with Arduino IOT cloud platform. It provides Integration with virtual assistants like Amazon Alexa, Google Assistant, or Apple Home Kit allows users to control devices using voice commands.",
+                "thumbnail": "/projects/Automation.jpeg",
+                "status": "Progress",
+                "tags": ["Internet of Things", "Electronics"],
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Arjun krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-2.jpg"
+                    },
+                    {
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-2.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "MGU Result Scrapper",
+                "description": "A project designed to automate the process of fetching result screenshots from the MGU result portal, sending them to students via email as secure PDFs, and generating consolidated marklists and result analysis for teachers.",
+                "thumbnail": "https://user-images.githubusercontent.com/44474792/174436549-32713b4f-8140-4266-b3e5-6bde4ee1e982.gif",
+                "status": "Completed",
+                "tags": ["Software"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/decoded-cipher/mgu-result-scraper'
                 },
-                {
-                    "name": "Nikhil T Das",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-2.jpg"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "title": "EDU BULB",
-            "description": "The LED Bulb is a remarkable achievement born from the creative minds and hard work of a group of visionary college students. This groundbreaking LED bulb is more than just a source of light a testament to innovation, sustainability, and youthful ingenuity. The students have paved a way to see big dreams for others through this business model",
-            "thumbnail": "/projects/Edubulb.jpeg",
-            "status": "Completed",
-            "tags": ["Hardware", "Electronics"],
-            "contributors": [
-                {
-                    "name": "Nikhil T Das",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Inovus Scrapbook",
+                "description": " A daily diary for Inovus Fellows to scribble about their self-learning endeavors & DIY projects",
+                "thumbnail": "/projects/scrapbook.jpeg",
+                "status": "Progress",
+                "tags": ["Software"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/decoded-cipher/scrapbook'
                 },
-                {
-                    "name": "Induchoodan R",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-2.jpg"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "title": "Smart Inovus",
-            "description": "Home automation refers to the use of smart technology and integrated systems to control various aspects of a home, providing homeowners with increased convenience, energy efficiency, security, and customization. We used ESP32, 16 Channel relay module and 12v DC adapter for controlling the appliances. The ESP32 is integrated with Arduino IOT cloud platform. It provides Integration with virtual assistants like Amazon Alexa, Google Assistant, or Apple Home Kit allows users to control devices using voice commands.",
-            "thumbnail": "/projects/Automation.jpeg",
-            "status": "Progress",
-            "tags": ["Internet of Things", "Electronics"],
-            "contributors": [
-                {
-                    "name": "Badhusha Shaji",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Chacko Mash",
+                "description": "Chacko Mash is our discord bot which handles the members of our discord platform, replies to the queries and wishes the members for their birthday and other important occasions display score boards of individuals in the platform. The name was inspired from a movie character who was a narcissistic father Kaduva Chacko punishes his son upon failing to meet the high expectations. The bot handles the data of individual students. They can scan messages for spam, profanity, or other inappropriate content and take appropriate actions",
+                "thumbnail": "/projects/chacko_mash.jpeg",
+                "status": "Completed",
+                "tags": ["Software"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/decoded-cipher/chacko-mash'
                 },
-                {
-                    "name": "Arjun krishna",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-2.jpg"
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "title": "Sound Thoma",
+                "description": "Sound Thoma is our bot for Discord, designed to make your music experience during their work time. The engagement is funnier sometimes, we often conduct video chats and calls during the work. We usually rely on Spotify for listening to music to make the time more enjoyable. Literally the ads coming unexpectedly are mood spoilers especially during romantic songs. We’ve introduced a better alternative for this. Here you can listen to unlimited music without ads. sounds interesting right. Here you can create and manage your playlists directly within Discord. Simply type /play followed by the song or artist you want to hear.",
+                "thumbnail": "/projects/sound_thoma.jpeg",
+                "status": "Completed",
+                "tags": ["Software"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/decoded-cipher/chacko-mash'
                 },
-                {
-                    "name": "Abhishek V Gopal",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-2.jpg"
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "title": "MGU Result Scrapper",
-            "description": " The process of releasing exam results at Mahatma Gandhi University, Kottayam remains unchanged for several years. It is the project to get the result screenshots of a list of students from the MGU result portal via email in the form of secure PDFs. In this age of advanced technology, the persistence of this archaic process raises questions. The argument against this notion is further challenged by the secure email practices of banks and financial institutions. Additionally, the current method causes a massive influx of traffic to the website upon result publication, potentially overwhelming servers. The script emulates the manual steps of retrieving results, capturing screenshots for each result, and storing them in a designated folder",
-            "thumbnail": "/projects/scrapper.jpg",
-            "status": "Completed",
-            "tags": ["Software"],
-            "contributors": [
-                {
-                    "name": "Arjun Krishna",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "title": "Inovus Scrapbook",
-            "description": " A daily diary for Inovus Fellows to scribble about their self-learning endeavors & DIY projects",
-            "thumbnail": "/projects/scrapbook.jpeg",
-            "status": "Completed",
-            "tags": ["Software"],
-            "contributors": [
-                {
-                    "name": "Arjun Krishna",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 6,
-            "title": "Chacko Mash",
-            "description": "Chacko Mash is our discord bot which handles the members of our discord platform, replies to the queries and wishes the members for their birthday and other important occasions display score boards of individuals in the platform. The name was inspired from a movie character who was a narcissistic father Kaduva Chacko punishes his son upon failing to meet the high expectations. The bot handles the data of individual students. They can scan messages for spam, profanity, or other inappropriate content and take appropriate actions",
-            "thumbnail": "/projects/chacko_mash.jpg",
-            "status": "Completed",
-            "tags": ["Software"],
-            "contributors": [
-                {
-                    "name": "Arjun Krishna",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 7,
-            "title": "Sound Thoma (Discord Bot)",
-            "description": "Sound Thoma is our bot for Discord, designed to make your music experience during their work time. The engagement is funnier sometimes, we often conduct video chats and calls during the work. We usually rely on Spotify for listening to music to make the time more enjoyable. Literally the ads coming unexpectedly are mood spoilers especially during romantic songs. We’ve introduced a better alternative for this. Here you can listen to unlimited music without ads. sounds interesting right. Here you can create and manage your playlists directly within Discord. Simply type /play followed by the song or artist you want to hear.",
-            "thumbnail": "/projects/sound_thoma.jpg",
-            "status": "Completed",
-            "tags": ["Software"],
-            "contributors": [
-                {
-                    "name": "Arjun Krishna",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 8,
-            "title": "Inovus Blogs",
-            "description": "Inovus blog is a platform where anyone can express and share their thoughts, ideas, criticism in a constructive manner. The blog has been stood as a media platform for students to being vociferous on social, political, technological and other related issues.",
-            "thumbnail": "/projects/Inovus_blogs.jpg",
-            "status": "Completed",
-            "tags": ["Software"],
-            "contributors": [
-                {
-                    "name": "Arjun Krishna",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "title": "Inovus Blogs",
+                "description": "Inovus blogs is a platform where anyone can express and share their thoughts, ideas, criticism in a constructive manner. The blog has been stood as a media platform for students to being vociferous on social, political, technological and other related issues.",
+                "thumbnail": "/projects/Inovus_blogs.jpeg",
+                "status": "Completed",
+                "tags": ["Software"],
+                "url": {
+                    'type': 'demo',
+                    'link': 'https://blog.inovuslabs.org'
                 },
-                {
-                    "name": "Nikhil T Das",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-2.jpg"
-                }
-            ]
-        },
-        {
-            "id": 9,
-            "title": "Inovus API",
-            "description": "The API which controls all the softwares roming around inovuslabs",
-            "thumbnail": "/projects/API.jpeg",
-            "status": "Completed",
-            "tags": ["Software"],
-            "contributors": [
-                {
-                    "name": "Arjun Krishna",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 10,
-            "title": "OSM Datapool",
-            "description": "The OSM (OpenStreetMap) Data Pool is an ambitious open-source initiative undertaken by Inovus Labs, involving active participation from all members during the Hacktoberfest event. OpenStreetMap, a collaborative mapping platform, forms the foundation for this project, aiming to aggregate and enhance geospatial data to improve accessibility and navigation within communities. A collective of passionate and dedicated individuals, has come together to contribute to this innovative effort. During hacktoberfest, a month-long celebration of open-source contributions, team members pooled their expertise, time, and creativity to enrich the OpenStreetMap database.",
-            "thumbnail": "/projects/OSM_Datapool.jpg",
-            "status": "Completed",
-            "tags": ["Software", "Open-source"],
-            "contributors": [
-                {
-                    "name": "",
-                    "avatar": ""
-                }
-            ]
-        },
-        {
-            "id": 11,
-            "title": "8x8 LED Matrix",
-            "description": "An 8x8 LED matrix created by college students is a compact electronic display consisting of 64 individual Light Emitting Diodes (LEDs) arranged in an 8 by 8 grid pattern. The matrix serves as a visually dynamic platform for showcasing various patterns, text, or simple animations by selectively illuminating specific LEDs",
-            "thumbnail": "/projects/8x8LED",
-            "status": "Completed",
-            "tags": ["Electronics"],
-            "contributors": [
-                {
-                    "name": "Induchoodan R",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 12,
-            "title": "Morse Code Generator",
-            "description": "A list of noteworthy technology acquisitions 2021. This list is updated on a regular basis.",
-            "thumbnail": "/projects/ morsecode.png",
-            "status": "Completed",
-            "tags": ["Software"],
-            "contributors": [
-                {
-                    "name": "Arjun Krishna",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 13,
-            "title": "Blind Stick",
-            "description": "A small prototype to aware blind peoples to be alerted about the obsticles.",
-            "thumbnail": "/projects/blind_stick.jpeg",
-            "status": "Completed",
-            "tags": ["Internet of Things"],
-            "contributors": [
-                {
-                    "name": "Badhusha Shaji",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Nikhil T Das",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-2.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "title": "Inovus API",
+                "description": "The API which controls all the softwares roming around inovuslabs",
+                "thumbnail": "/projects/API.jpeg",
+                "status": "Progress",
+                "tags": ["Software"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/inovus-labs/inovus-api'
                 },
-                {
-                    "name": "Abhishek V Gopal",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 14,
-            "title": "Bluetooth RC Car",
-            "description": "A prototype of a BT controled RC car.",
-            "thumbnail": "/projects/RC_CAR.jpeg",
-            "status": "Completed",
-            "tags": ["Internet of Things"],
-            "contributors": [
-                {
-                    "name": "Badhusha Shaji",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "title": "OSM Datapool",
+                "description": "The OSM (OpenStreetMap) Data Pool is an ambitious open-source initiative undertaken by Inovus Labs, involving active participation from all members during the Hacktoberfest event. OpenStreetMap, a collaborative mapping platform, forms the foundation for this project, aiming to aggregate and enhance geospatial data to improve accessibility and navigation within communities. A collective of passionate and dedicated individuals, has come together to contribute to this innovative effort. During hacktoberfest, a month-long celebration of open-source contributions, team members pooled their expertise, time, and creativity to enrich the OpenStreetMap database.",
+                "thumbnail": "/projects/OSM_Datapool.jpg",
+                "status": "Completed",
+                "tags": ["Software", "Open-source"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/inovus-labs/osm-datapool'
                 },
-                {
-                    "name": "Abhishek V Gopal",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 15,
-            "title": "RFID based Smart Lock (using Arduino)",
-            "description": "A prototype of a door lock which can be unlocked using rfid tags",
-            "thumbnail": "/projects/smart_lock.jpg",
-            "status": "Completed",
-            "tags": ["Electronics", "Internet of Things"],
-            "contributors": [
-                {
-                    "name": "Badhusha Shaji",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                "contributors": [
+                    {
+                        "name": "",
+                        "avatar": ""
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "title": "8x8 LED Matrix",
+                "description": "An 8x8 LED matrix created by college students is a compact electronic display consisting of 64 individual Light Emitting Diodes (LEDs) arranged in an 8 by 8 grid pattern. The matrix serves as a visually dynamic platform for showcasing various patterns, text, or simple animations by selectively illuminating specific LEDs",
+                "thumbnail": "/projects/8x8LED.jpeg",
+                "status": "Completed",
+                "tags": ["Electronics"],
+                "contributors": [
+                    {
+                        "name": "Induchoodan R",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "title": "Morse Code Generator",
+                "description": "A list of noteworthy technology acquisitions 2021. This list is updated on a regular basis.",
+                "thumbnail": "/projects/morsecode.png",
+                "status": "Completed",
+                "tags": ["Software"],
+                "url": {
+                    'type': 'demo',
+                    'link': 'https://verbose-reflective-recorder.glitch.me/'
                 },
-                {
-                    "name": "Abhishek V Gopal",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 16,
-            "title": "Smart Traffic Lights using VR Module",
-            "description": "VR module is used to sence sound, this project will hwlp the light to indicate if any ambulance is coming so that the signal can turn to green.",
-            "thumbnail": "/projects/ traffic_light.jpeg",
-            "status": "Completed",
-            "tags": ["Internet of Things"],
-            "contributors": [
-                {
-                    "name": "Badhusha Shaji",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "title": "Blind Stick",
+                "description": "A small prototype to aware blind peoples to be alerted about the obsticles.",
+                "thumbnail": "/projects/Blind_stick.jpeg",
+                "status": "Completed",
+                "tags": ["Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "title": "Bluetooth RC Car",
+                "description": "A prototype of a BT controled RC car.",
+                "thumbnail": "/projects/RC_CAR.jpeg",
+                "status": "Completed",
+                "tags": ["Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "title": "RFID based Smart Lock (using Arduino)",
+                "description": "A prototype of a door lock which can be unlocked using rfid tags",
+                "thumbnail": "/projects/smart_lock.jpg",
+                "status": "Completed",
+                "tags": ["Electronics", "Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "title": "Smart Traffic Lights using VR Module",
+                "description": "VR module is used to sence sound, this project will hwlp the light to indicate if any ambulance is coming so that the signal can turn to green.",
+                "thumbnail": "/projects/traffic_light.jpeg",
+                "status": "Completed",
+                "tags": ["Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "title": "E-waste Bin",
+                "description": "Automatic waste bin which dictect a persone and turns open automaticaly .",
+                "thumbnail": "/projects/E-waste_Bin.jpeg",
+                "status": "Completed",
+                "tags": ["Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "title": "Smart Garden using Capacitive Soil Moisture",
+                "description": "A smart garden using capacitive soil moisture technology is an innovative and efficient gardening system designed by a team of students. This is a better solution for gardening that integrates capacitive soil moisture sensors to optimize the watering process for plants. The project is aimed to reduce the water consumption by the individuals and to automate the process of watering.",
+                "thumbnail": "/projects/Soil.jpeg",
+                "status": "Completed",
+                "tags": ["Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "title": "Breath Analyzer",
+                "description": "The Breath Analyser created by college students is a cutting-edge, portable device designed to accurately measure and analyze the composition of an individual’s breath. The Breath Analyser can swiftly and precisely detect the presence of alcohol in a person’s breath, making it a crucial tool for law enforcement agencies to combat drunk driving and ensure road safety.",
+                "thumbnail": "/projects/Breath_ana.jpg",
+                "status": "Completed",
+                "tags": ["Electronics, Hardware"],
+                "contributors": [
+                    {
+                        "name": "Sane Sunil",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "title": "InoMail",
+                "description": "The main feature of this product was it can send multiple assets in a single mail through ino mail. It can send bulk emails with ease, whether you're reaching out to a small team or a massive audience. Ino Mail automates the process, saving you time and eliminating the risk of errors. The product can be trusted in its security of your data. Ino Mail prioritizes the protection of your information, ensuring that your communications are delivered safely and securely. In short, InoMail empowers you to communicate efficiently, personally, and at scale. Whether you're a business professional, marketer, or educator, our software simplifies the process of sending personalized messages",
+                "thumbnail": "/projects/Ino-mail.jpeg",
+                "status": "Progress",
+                "tags": ["Software"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/inovus-labs/inomail/'
                 },
-                {
-                    "name": "Abhishek V Gopal",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 17,
-            "title": "E-waste Bin",
-            "description": "Automatic waste bin which dictect a persone and turns open automaticaly .",
-            "thumbnail": "/projects/E-waste_Bin.jpeg",
-            "status": "Completed",
-            "tags": ["Internet of Things"],
-            "contributors": [
-                {
-                    "name": "Badhusha Shaji",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "title": "QuikSubmit",
+                "description": "The main feature of this product was it can send multiple assets in a single mail through ino mail. It can send bulk emails with ease, whether you're reaching out to a small team or a massive audience. Ino Mail automates the process, saving you time and eliminating the risk of errors. The product can be trusted in its security of your data. Ino Mail prioritizes the protection of your information, ensuring that your communications are delivered safely and securely. In short, InoMail empowers you to communicate efficiently, personally, and at scale. Whether you're a business professional, marketer, or educator, our software simplifies the process of sending personalized messages",
+                "thumbnail": "/projects/Ino-mail.jpeg",
+                "status": "Progress",
+                "tags": ["Software"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/inovus-labs/QuikSubmit'
                 },
-                {
-                    "name": "Abhishek V Gopal",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 18,
-            "title": "Smart Garden using Capacitive Soil Moisture",
-            "description": "A smart garden using capacitive soil moisture technology is an innovative and efficient gardening system designed by a team of students. This is a better solution for gardening that integrates capacitive soil moisture sensors to optimize the watering process for plants. The project is aimed to reduce the water consumption by the individuals and to automate the process of watering.",
-            "thumbnail": "/projects/Soil.jpeg",
-            "status": "Completed",
-            "tags": ["Internet of Things"],
-            "contributors": [
-                {
-                    "name": "Badhusha Shaji",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                },
-                {
-                    "name": "Abhishek V Gopal",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 19,
-            "title": "Breath Analyzer",
-            "description": "The Breath Analyser created by college students is a cutting-edge, portable device designed to accurately measure and analyze the composition of an individual’s breath. The Breath Analyser can swiftly and precisely detect the presence of alcohol in a person’s breath, making it a crucial tool for law enforcement agencies to combat drunk driving and ensure road safety.",
-            "thumbnail": "/projects/Breath_ana.jpg",
-            "status": "Completed",
-            "tags": ["Electronics, Hardware"],
-            "contributors": [
-                {
-                    "name": "Sane Sunil",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 20,
-            "title": "InoMail",
-            "description": "The main feature of this product was it can send multiple assets in a single mail through ino mail. It can send bulk emails with ease, whether you're reaching out to a small team or a massive audience. Ino Mail automates the process, saving you time and eliminating the risk of errors. The product can be trusted in its security of your data. Ino Mail prioritizes the protection of your information, ensuring that your communications are delivered safely and securely. In short, InoMail empowers you to communicate efficiently, personally, and at scale. Whether you're a business professional, marketer, or educator, our software simplifies the process of sending personalized messages",
-            "thumbnail": "/projects/Ino-mail.jpeg",
-            "status": "Completed",
-            "tags": ["Software"],
-            "contributors": [
-                {
-                    "name": "Arjun Krishna",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        },
-        {
-            "id": 21,
-            "title": "Robotic Arm",
-            "description": "A remarkable robotic arm, meticulously crafted by a team of ingenious college students, showcases an impressive fusion of engineering prowess and innovative design. This marvel of modern technology consists of multiple high-precision servos working in perfect harmony to execute intricate tasks with precision and finesse.",
-            "thumbnail": "/projects/Ino-mail.jpeg",
-            "status": "Completed",
-            "tags": ["Electronics, Internet of Things"],
-            "contributors": [
-                {
-                    "name": "Arjun Krishna",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        }
-        ,
-        {
-            "id": 22,
-            "title": "LPG Detector",
-            "description": "The college student-created LPG (liquefied petroleum gas) detector is an innovative device designed to enhance safety in domestic and commercial environments by detecting the presence of potentially hazardous gas leaks. This compact and user-friendly device is the result of collaborative efforts and cutting-edge engineering from a group of talented and ambitious college students.",
-            "thumbnail": "/projects/Ino-mail.jpeg",
-            "status": "Completed",
-            "tags": ["Electronics, Internet of Things"],
-            "contributors": [
-                {
-                    "name": "Arjun Krishna",
-                    "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-                }
-            ]
-        }
-    ]
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "title": "Robotic Arm",
+                "description": "A remarkable robotic arm, meticulously crafted by a team of ingenious college students, showcases an impressive fusion of engineering prowess and innovative design. This marvel of modern technology consists of multiple high-precision servos working in perfect harmony to execute intricate tasks with precision and finesse.",
+                "thumbnail": "/projects/Ino-mail.jpeg",
+                "status": "Completed",
+                "tags": ["Electronics, Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            }
+            ,
+            {
+                "id": 23,
+                "title": "LPG Detector",
+                "description": "The college student-created LPG (liquefied petroleum gas) detector is an innovative device designed to enhance safety in domestic and commercial environments by detecting the presence of potentially hazardous gas leaks. This compact and user-friendly device is the result of collaborative efforts and cutting-edge engineering from a group of talented and ambitious college students.",
+                "thumbnail": "/projects/Ino-mail.jpeg",
+                "status": "Completed",
+                "tags": ["Electronics, Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            }
+        ]
+    };
 
     return data;
 };
 
 
 
-
+// Get recent blog posts published on Inovus Blogs
 export const getBlogPosts = async () => {
 
     // try {
@@ -568,7 +627,11 @@ export const getBlogPosts = async () => {
                     "twitter": "@Decoded_Cipher",
                     "meta_title": null,
                     "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/arjun/"
+                    "url": "https://blog.inovuslabs.org/author/arjun/",
+                    "social" : {
+                        "twitter": ["@Decoded_Cipher", "https://twitter.com/Decoded_Cipher"],
+                        "github": ""
+                    }
                 },
                 {
                     "id": "65409075b14998447e1d393f",
