@@ -89,38 +89,6 @@ export const getProjects = async () => {
                 url: "https://flowbite.com/docs"
             }
         ]
-    },
-
-    {
-        id: 5,
-        title: "MGU Result Scrapper",
-        description: " The process of releasing exam results at Mahatma Gandhi University, Kottayam remains unchanged for several years. It is the project to get the result screenshots of a list of students from the MGU result portal via email in the form of secure PDFs. In this age of advanced technology, the persistence of this archaic process raises questions. The argument against this notion is further challenged by the secure email practices of banks and financial institutions. Additionally, the current method causes a massive influx of traffic to the website upon result publication, potentially overwhelming servers. The script emulates the manual steps of retrieving results, capturing screenshots for each result, and storing them in a designated folder",
-        thumbnail: "https://flowbite.com/docs/images/blog/image-1.jpg",
-        url: "https://flowbite.com/docs",
-        tags: ["Software"],
-        contributors: [
-            {
-                name: "Arjun Krishna",
-                avatar: "https://flowbite.com/docs/images/avatars/avatar-1.jpg",
-                url: "https://flowbite.com/docs"
-            }
-        ]
-    },
-
-    {
-        id: 6,
-        title: "MGU Result Scrapper",
-        description: " The process of releasing exam results at Mahatma Gandhi University, Kottayam remains unchanged for several years. It is the project to get the result screenshots of a list of students from the MGU result portal via email in the form of secure PDFs. In this age of advanced technology, the persistence of this archaic process raises questions. The argument against this notion is further challenged by the secure email practices of banks and financial institutions. Additionally, the current method causes a massive influx of traffic to the website upon result publication, potentially overwhelming servers. The script emulates the manual steps of retrieving results, capturing screenshots for each result, and storing them in a designated folder",
-        thumbnail: "https://flowbite.com/docs/images/blog/image-1.jpg",
-        url: "https://flowbite.com/docs",
-        tags: ["Software"],
-        contributors: [
-            {
-                name: "Arjun Krishna",
-                avatar: "https://flowbite.com/docs/images/avatars/avatar-1.jpg",
-                url: "https://flowbite.com/docs"
-            }
-        ]
     }
   ];
 
