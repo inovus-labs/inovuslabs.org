@@ -2,12 +2,6 @@
 <template>
   
     <Navbar />
-  
-  
-  
-  
-    
-  
     
     <section class="bg-bgPrimary">
       <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
@@ -15,9 +9,11 @@
         <div class="w-full lg:w-1/3 py-4 lg:py-20">
           <img class="w-full h-full" src="../../public/project.svg" alt="">
         </div>
+
         <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">
           <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">Innovation Unleashed Series</h1>
           <p class="mb-8 text-lg font-normal text-secondary lg:text-xl sm:px-16 lg:px-48">Dive into the archive of brilliance as we showcase the innovative workshops, dynamic bootcamps, and transformative internships from our past events!</p>
+          
           <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary">
                   Get started
@@ -29,6 +25,7 @@
                   Learn more
               </a>  
           </div>
+
         </div>
       
       </div>
@@ -110,9 +107,9 @@
   
         data() {
           return {
-            Activities: [],
+            activities: [],
             tags: [],
-            selectedTags: "All Categories"
+            selectedTags: "All Events"
           }
         },
   
@@ -122,7 +119,7 @@
   
         computed: {
           filteredProjects() {
-            return this.updateProjects();
+            return this.updateEvents();
           }
         },
   
@@ -130,21 +127,21 @@
   
           async getActivity() {
             let response = await getActivity();
-            this.Activities = response.Activities;
-            this.tags = ["All Categories", ...response.tags];
+            this.activities = response.activities;
+            this.tags = ["All Events", ...response.tags];
           },
   
           selectTag(tag) {
-            if (tag === "All Categories") {
-              this.selectedTags = "All Categories";
+            if (tag === "All Events") {
+              this.selectedTags = "All Events";
             } else {
   
-              if (this.selectedTags === "All Categories") {
+              if (this.selectedTags === "All Events") {
                 this.selectedTags = [];
               }
   
               if (this.selectedTags === tag) {
-                this.selectedTags = "All Categories";
+                this.selectedTags = "All Events";
               } else {
                 this.selectedTags = tag;
               }
@@ -152,11 +149,11 @@
             }
           },
   
-          updateProjects() {
-            if (this.selectedTags === "All Categories") {
-              return this.Activities;
+          updateEvents() {
+            if (this.selectedTags === "All Events") {
+              return this.activities;
             } else {
-              return this.Activities.filter(Activity => {
+              return this.activities.filter(Activity => {
                 return Activity.tags.some(tag => this.selectedTags.includes(tag));
               });
             }

@@ -5,10 +5,10 @@
         
         <div class="p-5 flex flex-col justify-between">
             
-            <h5 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">{{ data.title }}</h5>
+            <h5 class="mb-2 text-xl font-bold text-gray-900 dark:text-white" :class="showReadMore ? 'h-custom-ellipsis' : ''">{{ data.title }}</h5>
             
             <div class="flex flex-col gap-2">
-                <p id="project_description" class="font-normal text-gray-700 dark:text-gray-400" :class="showReadMore ? 'custom-ellipsis' : ''">{{ data.description }}</p>
+                <p id="project_description" class="font-normal text-gray-700 dark:text-gray-400" :class="showReadMore ? 'p-custom-ellipsis' : ''">{{ data.description }}</p>
                 <div class="flex items-center gap-2 mb-2 align-middle text-align-center">
                     <span class="text-sm font-medium text-gray-900 dark:text-gray-100">Status:</span>
                     <span :class="data.status === 'Completed' ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'" class="inline-flex items-center px-2.5 py-0.5 rounded text-xs font-medium capitalize">
@@ -53,11 +53,17 @@
 
 
 <style scoped>
-    .custom-ellipsis {
+    .p-custom-ellipsis {
         display: -webkit-box;
-        -webkit-line-clamp: 5;
+        -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
         overflow: hidden;
-        height: 120px;
+        height: 96px;
+    }
+    .h-custom-ellipsis {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 </style>

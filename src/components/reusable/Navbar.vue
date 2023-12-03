@@ -200,7 +200,7 @@
                                 },
                                 {
                                     name: 'Reccuring Events',
-                                    link: '/weekly-events',
+                                    link: '/reccuring-events',
                                     description: 'Connect with third-party tools that you\'re already using.'
                                 }
                             ]
