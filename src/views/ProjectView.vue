@@ -39,12 +39,41 @@
 
 
 
-  <div class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+  <section class="lg:p-10 p-4 mb-5 lg:my-10">
+
+
+    <div class="mx-auto max-w-screen-xl text-center w-full py-4">
+      <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+        🚀 Welcome to our Showcase of Innovation! 🌟
+      </h1>
+
+      <p class="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+        We proudly present a curated collection of projects crafted by our talented fellows during their exploration, experimentation, and continuous learning journey. Dive into a diverse array of endeavors that reflect the spirit of creativity, curiosity, and the relentless pursuit of knowledge.
+      </p>
+    </div>
+
+
+
+    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+
+      <div class="w-full flex items-center justify-center py-4 md:py-8 flex-wrap">
+
+        <template v-for="tag in tags" :key="tag">
+          <button
+            type="button"
+            class="border border-blue-600 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3"
+            :class="selectedTags === tag ? 'text-white bg-blue-700' : 'text-blue-700 bg-white hover:bg-blue-700 hover:text-white'"
+            @click="selectTag(tag)"
+          >
+            {{ tag }}
+          </button>
+        </template>
+
+      </div>
 
       <div class="grid grid-cols-1 gap-4 sm:grid-cols-4">
 
-        <template v-for="project in projects" :key="project.id">
+        <template v-for="project in filteredProjects" :key="project.id">
           <ProjectCard
             :data="project"
             :showReadMore="true"
@@ -53,8 +82,10 @@
 
       </div>
 
-    </div>
-  </div>
+      </div>
+
+
+  </section>
 
 
   <Footer />
@@ -79,12 +110,58 @@
 
       data() {
         return {
-          projects: []
+          projects: [],
+          tags: [],
+          selectedTags: "All Categories"
         }
       },
 
       async mounted() {
-        this.projects = await getProjects();
+        await this.getProjects();
+      },
+
+      computed: {
+        filteredProjects() {
+          return this.updateProjects();
+        }
+      },
+
+      methods: {
+
+        async getProjects() {
+          let response = await getProjects();
+          this.projects = response.projects;
+          this.tags = ["All Categories", ...response.tags];
+        },
+
+        selectTag(tag) {
+          if (tag === "All Categories") {
+            this.selectedTags = "All Categories";
+          } else {
+
+            if (this.selectedTags === "All Categories") {
+              this.selectedTags = [];
+            }
+
+            if (this.selectedTags === tag) {
+              this.selectedTags = "All Categories";
+            } else {
+              this.selectedTags = tag;
+            }
+
+          }
+        },
+
+        updateProjects() {
+          if (this.selectedTags === "All Categories") {
+            return this.projects;
+          } else {
+            return this.projects.filter(project => {
+              return project.tags.some(tag => this.selectedTags.includes(tag));
+            });
+          }
+        }
+
       }
 
     }

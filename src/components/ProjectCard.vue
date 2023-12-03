@@ -17,14 +17,17 @@
                 </div>
             </div>
 
-            <div class="flex justify-between mt-5 gap-2">
-                <button id="read_more" @click="showReadMore = !showReadMore" class="items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded hover:bg-blue-800 dark:bg-blue-600 w-full text-center">
+            <div class="flex justify-between mt-5 gap-2 w-full">
+                <button id="read_more" @click="showReadMore = !showReadMore" class="items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded hover:bg-blue-800 dark:bg-blue-600 w-1/2 text-center">
                     {{ showReadMore ? 'Read More' : 'Read Less' }}
                 </button>
 
-                <a href="#" class="items-center px-3 py-2 text-sm font-medium text-white bg-gray-700 rounded hover:bg-gray-800 dark:bg-gray-600 w-full text-center">
-                    View Demo
-                </a>
+                <template v-if="data.url">
+                    <a :href="data.url.link" target="_blank" class="items-center px-3 py-2 text-sm font-medium text-gray-700 border hover:bg-gray-100 rounded border-gray-700 w-1/2 text-center">
+                        {{ data.tags.includes('Software') ? data.url.type === "source" ? 'GitHub Repo' : 'Live Demo' : '' }}
+                    </a>
+                </template>
+                
             </div>
 
         </div>
@@ -55,5 +58,6 @@
         -webkit-line-clamp: 5;
         -webkit-box-orient: vertical;
         overflow: hidden;
+        height: 120px;
     }
 </style>
