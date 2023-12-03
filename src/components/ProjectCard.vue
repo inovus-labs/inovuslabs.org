@@ -8,7 +8,7 @@
             <h5 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">{{ data.title }}</h5>
             
             <div class="flex flex-col gap-2">
-                <p class="font-normal text-gray-700 dark:text-gray-400 custom-ellipsis">{{ data.description }}</p>
+                <p id="project_description" class="font-normal text-gray-700 dark:text-gray-400" :class="showReadMore ? 'custom-ellipsis' : ''">{{ data.description }}</p>
                 <div class="flex items-center gap-2 mb-2 align-middle text-align-center">
                     <span class="text-sm font-medium text-gray-900 dark:text-gray-100">Status:</span>
                     <span :class="data.status === 'Completed' ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'" class="inline-flex items-center px-2.5 py-0.5 rounded text-xs font-medium capitalize">
@@ -17,14 +17,17 @@
                 </div>
             </div>
 
-            <div class="flex justify-between mt-5 gap-2">
-                <a href="#" class="items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded hover:bg-blue-800 dark:bg-blue-600 w-full text-center">
-                    Read More
-                </a>
+            <div class="flex justify-between mt-5 gap-2 w-full">
+                <button id="read_more" @click="showReadMore = !showReadMore" class="items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded hover:bg-blue-800 dark:bg-blue-600 w-1/2 text-center">
+                    {{ showReadMore ? 'Read More' : 'Read Less' }}
+                </button>
 
-                <a href="#" class="items-center px-3 py-2 text-sm font-medium text-white bg-gray-700 rounded hover:bg-gray-800 dark:bg-gray-600 w-full text-center">
-                    View Demo
-                </a>
+                <template v-if="data.url">
+                    <a :href="data.url.link" target="_blank" class="items-center px-3 py-2 text-sm font-medium text-gray-700 border hover:bg-gray-100 rounded border-gray-700 w-1/2 text-center">
+                        {{ data.tags.includes('Software') ? data.url.type === "source" ? 'GitHub Repo' : 'Live Demo' : '' }}
+                    </a>
+                </template>
+                
             </div>
 
         </div>
@@ -39,6 +42,10 @@
             data: {
                 type: Object,
                 required: true
+            },
+            showReadMore: {
+                type: Boolean,
+                default: false
             }
         }
     }
@@ -51,5 +58,6 @@
         -webkit-line-clamp: 5;
         -webkit-box-orient: vertical;
         overflow: hidden;
+        height: 120px;
     }
 </style>
