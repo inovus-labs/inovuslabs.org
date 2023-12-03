@@ -669,6 +669,7 @@ export const getPodcasts = async () => {
 }
 
 
+
 // Get all projects
 export const getActivity = async () => {
     let data = {
@@ -830,3 +831,185 @@ export const getActivity = async () => {
 
     return data;
 };
+
+
+
+// Get all reccuring events
+export const getReccuringEvents = async () => {
+    let data = {
+        "tags": ["Weekend Workbench", "Hangout with Inovus", "Simply Series"],
+        "events": [
+            {
+                "id": 1,
+                "date": "19 May 2019",
+                "title": "Hangout with Inovus -John Mathew",
+                "description": "",
+                "thumbnail": "/reccuringevents/hangout-john.jpg",
+                "tags": ["Hangout with Inovus"]
+               
+            },{
+                "id": 2,
+                "date": "25 April 2020",
+                "title": "Hangout with Inovus -Dr. Jimmy Mathew",
+                "description": "",
+                "thumbnail": "/reccuringevents/hangout-drjimmy.jpg",
+                "tags": ["Hangout with Inovus"]
+               
+            },{
+                "id": 3,
+                "date": "05 May 2020",
+                "title": "Hangout with Inovus -Mehar M P",
+                "description": "",
+                "thumbnail": "/reccuringevents/hangout-mehar.jpg",
+                "tags": ["Hangout with Inovus"]
+               
+            },{
+                "id": 4,
+                "date": "19 May 2020",
+                "title": "Hangout with Inovus -Enfa Rose George",
+                "description": "",
+                "thumbnail": "/reccuringevents/hangout-enfa.jpg",
+                "tags": ["Hangout with Inovus"]
+               
+            },{
+                "id": 5,
+                "date": "16 May 2021",
+                "title": "Simply Linkedin",
+                "description": "",
+                "thumbnail": "/reccuringevents/simply-linkedin.jpg",
+                "tags": ["Simply Series"]
+               
+            },{
+                "id": 6,
+                "date": "01 July 2021",
+                "title": "Simply Blockchain",
+                "description": "",
+                "thumbnail": "/reccuringevents/simply-blockchain",
+                "tags": ["Simply Series"]
+               
+            },{
+                "id": 7,
+                "date": "01 July 2023",
+                "title": "Weekend Workbench #1",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template1.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 8,
+                "date": "08 July 2023",
+                "title": "Weekend Workbench #2",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template2.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 9,
+                "date": "15 July 2023",
+                "title": "Weekend Workbench #3",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template3.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 10,
+                "date": "22 July 2023",
+                "title": "Weekend Workbench #4",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template4.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 11,
+                "date": "29 July 2023",
+                "title": "Weekend Workbench #5",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template5.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 12,
+                "date": "5 Aug 2023",
+                "title": "Weekend Workbench #6",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template6.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 13,
+                "date": "23 Sept 2023",
+                "title": "Weekend Workbench #7",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template8.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 14,
+                "date": "30 Sept 2023",
+                "title": "Weekend Workbench #8",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 1.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 15,
+                "date": "07 Oct 2023",
+                "title": "Weekend Workbench #9",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 2.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 16,
+                "date": "14 Oct 2023",
+                "title": "Weekend Workbench #10",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 3.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 17,
+                "date": "21 Oct 2023",
+                "title": "Weekend Workbench #11",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 11.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 18,
+                "date": "04 Nov 2023",
+                "title": "Weekend Workbench #12",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 12.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 19,
+                "date": "11 Nov 2023",
+                "title": "Weekend Workbench #13",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 13.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 20,
+                "date": "18 Nov 2023",
+                "title": "Weekend Workbench #14",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 14.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 21,
+                "date": "02 Dec 2023",
+                "title": "Weekend Workbench #15",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 15.png",
+                "tags": ["Weekend Workbench"]
+               
+            }        
+        ]
+    };
+
+    return data;
+}

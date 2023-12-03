@@ -12,6 +12,7 @@ import NewsView from '@/views/NewsView.vue'
 
 // Navbar : Initiatives pages
 import ProjectView from '@/views/ProjectView.vue'
+import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
 import BlogView from '@/views/BlogView.vue'
 import PodcastView from '@/views/PodcastView.vue'
 
@@ -57,6 +58,11 @@ const router = createRouter({
       path: '/projects',
       name: 'project',
       component: ProjectView
+    },
+    {
+      path: '/reccuring-events',
+      name: 'reccuring-events',
+      component: ReccuringEventsView
     },
     {
       path: '/blog',
