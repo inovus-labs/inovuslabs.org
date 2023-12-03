@@ -47,6 +47,7 @@
         <template v-for="project in projects" :key="project.id">
           <ProjectCard
             :data="project"
+            :showReadMore="true"
           />
         </template>
 

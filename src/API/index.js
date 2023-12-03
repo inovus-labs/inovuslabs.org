@@ -5,6 +5,7 @@ import axios from 'axios';
 
 
 
+// Get all projects
 export const getProjects = async () => {
     let data = [
         {
@@ -27,7 +28,7 @@ export const getProjects = async () => {
         },
         {
             "id": 2,
-            "title": "EDU BULB",
+            "title": "Edu Bulb",
             "description": "The LED Bulb is a remarkable achievement born from the creative minds and hard work of a group of visionary college students. This groundbreaking LED bulb is more than just a source of light a testament to innovation, sustainability, and youthful ingenuity. The students have paved a way to see big dreams for others through this business model",
             "thumbnail": "/projects/Edubulb.jpeg",
             "status": "Completed",
@@ -68,8 +69,8 @@ export const getProjects = async () => {
         {
             "id": 4,
             "title": "MGU Result Scrapper",
-            "description": " The process of releasing exam results at Mahatma Gandhi University, Kottayam remains unchanged for several years. It is the project to get the result screenshots of a list of students from the MGU result portal via email in the form of secure PDFs. In this age of advanced technology, the persistence of this archaic process raises questions. The argument against this notion is further challenged by the secure email practices of banks and financial institutions. Additionally, the current method causes a massive influx of traffic to the website upon result publication, potentially overwhelming servers. The script emulates the manual steps of retrieving results, capturing screenshots for each result, and storing them in a designated folder",
-            "thumbnail": "/projects/scrapper.jpg",
+            "description": "A project designed to automate the process of fetching result screenshots from the MGU result portal, sending them to students via email as secure PDFs, and generating consolidated marklists and result analysis for teachers.",
+            "thumbnail": "https://user-images.githubusercontent.com/44474792/174436549-32713b4f-8140-4266-b3e5-6bde4ee1e982.gif",
             "status": "Completed",
             "tags": ["Software"],
             "contributors": [
@@ -97,7 +98,7 @@ export const getProjects = async () => {
             "id": 6,
             "title": "Chacko Mash",
             "description": "Chacko Mash is our discord bot which handles the members of our discord platform, replies to the queries and wishes the members for their birthday and other important occasions display score boards of individuals in the platform. The name was inspired from a movie character who was a narcissistic father Kaduva Chacko punishes his son upon failing to meet the high expectations. The bot handles the data of individual students. They can scan messages for spam, profanity, or other inappropriate content and take appropriate actions",
-            "thumbnail": "/projects/chacko_mash.jpg",
+            "thumbnail": "/projects/chacko_mash.jpeg",
             "status": "Completed",
             "tags": ["Software"],
             "contributors": [
@@ -111,7 +112,7 @@ export const getProjects = async () => {
             "id": 7,
             "title": "Sound Thoma (Discord Bot)",
             "description": "Sound Thoma is our bot for Discord, designed to make your music experience during their work time. The engagement is funnier sometimes, we often conduct video chats and calls during the work. We usually rely on Spotify for listening to music to make the time more enjoyable. Literally the ads coming unexpectedly are mood spoilers especially during romantic songs. We’ve introduced a better alternative for this. Here you can listen to unlimited music without ads. sounds interesting right. Here you can create and manage your playlists directly within Discord. Simply type /play followed by the song or artist you want to hear.",
-            "thumbnail": "/projects/sound_thoma.jpg",
+            "thumbnail": "/projects/sound_thoma.jpeg",
             "status": "Completed",
             "tags": ["Software"],
             "contributors": [
@@ -125,7 +126,7 @@ export const getProjects = async () => {
             "id": 8,
             "title": "Inovus Blogs",
             "description": "Inovus blog is a platform where anyone can express and share their thoughts, ideas, criticism in a constructive manner. The blog has been stood as a media platform for students to being vociferous on social, political, technological and other related issues.",
-            "thumbnail": "/projects/Inovus_blogs.jpg",
+            "thumbnail": "/projects/Inovus_blogs.jpeg",
             "status": "Completed",
             "tags": ["Software"],
             "contributors": [
@@ -171,7 +172,7 @@ export const getProjects = async () => {
             "id": 11,
             "title": "8x8 LED Matrix",
             "description": "An 8x8 LED matrix created by college students is a compact electronic display consisting of 64 individual Light Emitting Diodes (LEDs) arranged in an 8 by 8 grid pattern. The matrix serves as a visually dynamic platform for showcasing various patterns, text, or simple animations by selectively illuminating specific LEDs",
-            "thumbnail": "/projects/8x8LED",
+            "thumbnail": "/projects/8x8LED.jpeg",
             "status": "Completed",
             "tags": ["Electronics"],
             "contributors": [
@@ -185,7 +186,7 @@ export const getProjects = async () => {
             "id": 12,
             "title": "Morse Code Generator",
             "description": "A list of noteworthy technology acquisitions 2021. This list is updated on a regular basis.",
-            "thumbnail": "/projects/ morsecode.png",
+            "thumbnail": "/projects/morsecode.png",
             "status": "Completed",
             "tags": ["Software"],
             "contributors": [
@@ -199,7 +200,7 @@ export const getProjects = async () => {
             "id": 13,
             "title": "Blind Stick",
             "description": "A small prototype to aware blind peoples to be alerted about the obsticles.",
-            "thumbnail": "/projects/blind_stick.jpeg",
+            "thumbnail": "/projects/Blind_stick.jpeg",
             "status": "Completed",
             "tags": ["Internet of Things"],
             "contributors": [
@@ -253,7 +254,7 @@ export const getProjects = async () => {
             "id": 16,
             "title": "Smart Traffic Lights using VR Module",
             "description": "VR module is used to sence sound, this project will hwlp the light to indicate if any ambulance is coming so that the signal can turn to green.",
-            "thumbnail": "/projects/ traffic_light.jpeg",
+            "thumbnail": "/projects/traffic_light.jpeg",
             "status": "Completed",
             "tags": ["Internet of Things"],
             "contributors": [
@@ -367,7 +368,7 @@ export const getProjects = async () => {
 
 
 
-
+// Get recent blog posts published on Inovus Blogs
 export const getBlogPosts = async () => {
 
     // try {
@@ -568,7 +569,11 @@ export const getBlogPosts = async () => {
                     "twitter": "@Decoded_Cipher",
                     "meta_title": null,
                     "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/arjun/"
+                    "url": "https://blog.inovuslabs.org/author/arjun/",
+                    "social" : {
+                        "twitter": ["@Decoded_Cipher", "https://twitter.com/Decoded_Cipher"],
+                        "github": ""
+                    }
                 },
                 {
                     "id": "65409075b14998447e1d393f",
