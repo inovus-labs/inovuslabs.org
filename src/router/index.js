@@ -11,6 +11,7 @@ import TeamView from '@/views/TeamView.vue'
 // Navbar : Initiatives pages
 import ProjectView from '@/views/ProjectView.vue'
 import BlogView from '@/views/BlogView.vue'
+import PodcastView from '@/views/PodcastView.vue'
 
 import NotFoundView from '@/views/404.vue'
 
@@ -50,6 +51,11 @@ const router = createRouter({
       path: '/blog',
       name: 'blog',
       component: BlogView
+    },
+    {
+      path: '/inora',
+      name: 'inora',
+      component: PodcastView
     },
     {
       path: '/:pathMatch(.*)*',
