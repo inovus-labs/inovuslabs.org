@@ -6,6 +6,7 @@ import HomeView from '@/views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 import GalleryView from '@/views/GalleryView.vue'
 import TeamView from '@/views/TeamView.vue'
+import ActivityView from '@/views/ActivityView.vue'
 import NewsView from '@/views/NewsView.vue'
 
 
@@ -42,6 +43,10 @@ const router = createRouter({
       component: TeamView
     },
     {
+      path: '/events',
+      name: 'events',
+      component: ActivityView
+    },    
       path: '/news',
       name: 'team',
       component: NewsView

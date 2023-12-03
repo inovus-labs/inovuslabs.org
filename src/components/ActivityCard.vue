@@ -1,0 +1,60 @@
+<template>
+
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img class="rounded-t-lg h-55 w-full" :src="data.thumbnail" :alt="data.title" />
+        
+        <div class="p-5 flex flex-col justify-between">
+            
+            <h5 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">{{ data.title }}</h5>
+            
+            <div class="flex flex-col gap-2">
+                <p id="project_description" class="font-normal text-gray-700 dark:text-gray-400" :class="showReadMore ? 'custom-ellipsis' : ''">{{ data.description }}</p>
+                <div class="flex items-center gap-2 mb-2 align-middle text-align-center">
+                    <span class="text-sm font-medium text-gray-900 dark:text-gray-100">{{ data.Date }}</span>
+                </div>
+            </div>
+
+            <div class="flex justify-between mt-5 gap-2 w-full">
+                <button id="read_more" @click="showReadMore = !showReadMore" class="items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded hover:bg-blue-800 dark:bg-blue-600 w-1/2 text-center">
+                    {{ showReadMore ? 'Read More' : 'Read Less' }}
+                </button>
+
+                <!-- <template v-if="data.url">
+                    <a :href="data.url.link" target="_blank" class="items-center px-3 py-2 text-sm font-medium text-gray-700 border hover:bg-gray-100 rounded border-gray-700 w-1/2 text-center">
+                        {{ data.tags.includes('Software') ? data.url.type === "source" ? 'GitHub Repo' : 'Live Demo' : '' }}
+                    </a>
+                </template> -->
+                
+            </div>
+
+        </div>
+    </div>
+
+</template>
+
+<script>
+    export default {
+        name: 'ActivityCard',
+        props: {
+            data: {
+                type: Object,
+                required: true
+            },
+            showReadMore: {
+                type: Boolean,
+                default: false
+            }
+        }
+    }
+</script>
+
+
+<style scoped>
+    .custom-ellipsis {
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        height: 120px;
+    }
+</style>
