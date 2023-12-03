@@ -654,3 +654,17 @@ export const getBlogPosts = async () => {
         }
     ];
 }
+
+
+
+// Get recent podcasts published on Inora: The Inovus Radio
+export const getPodcasts = async () => {
+
+    return [
+        {
+            id: "4NM5QuIiDVeUAy8FaKou4Q",
+        },
+    ]
+
+}
+
