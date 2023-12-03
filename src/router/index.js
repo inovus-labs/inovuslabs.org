@@ -6,6 +6,7 @@ import HomeView from '@/views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 import GalleryView from '@/views/GalleryView.vue'
 import TeamView from '@/views/TeamView.vue'
+import NewsView from '@/views/NewsView.vue'
 
 
 // Navbar : Initiatives pages
@@ -40,7 +41,11 @@ const router = createRouter({
       name: 'team',
       component: TeamView
     },
-    
+    {
+      path: '/news',
+      name: 'team',
+      component: NewsView
+    },
 
     {
       path: '/projects',
