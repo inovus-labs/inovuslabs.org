@@ -90,5 +90,61 @@
         "thumbnail": "/reccuringevents/workbench/Template8.png",
         "tags": ["wrokbench"]
        
-    },        
+    },{
+        "date": "30-Sep-2023",
+        "title": "Weekend Workbench #8",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template 1.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "07-Oct-2023",
+        "title": "Weekend Workbench #9",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template 2.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "14-Oct-2023",
+        "title": "Weekend Workbench #10",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template 3.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "21-Oct-2023",
+        "title": "Weekend Workbench #11",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template 11.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "04-Nov-2023",
+        "title": "Weekend Workbench #12",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template 12.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "11-Nov-2023",
+        "title": "Weekend Workbench #13",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template 13.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "18-Nov-2023",
+        "title": "Weekend Workbench #14",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template 14.png",
+        "tags": ["wrokbench"]
+       
+    },{
+        "date": "02-Dec-2023",
+        "title": "Weekend Workbench #15",
+        "description": "",
+        "thumbnail": "/reccuringevents/workbench/Template 15.png",
+        "tags": ["wrokbench"]
+       
+    }        
 ]
