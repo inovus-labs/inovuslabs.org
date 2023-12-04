@@ -582,7 +582,7 @@ export const getBlogPosts = async () => {
                 }
             ],
             "url": "https://blog.inovuslabs.org/instagram-vs-health/",
-            "excerpt": "Instagram is a popular social media platform and mobile app designed for sharing photos and videos. It was launched in October 2010 and has since become one of the most widely used social networking platforms in the world. Instagram allows users to create profiles, post photos and videos, and interact with others through likes, comments, and direct messages.\n\nInstagram has evolved significantly since its inception and has played a crucial role in shaping how people share and consume visual conte"
+            "excerpt": "Instagram is a popular social media platform and mobile app designed for sharing photos and videos. It was launched in Oct 2010 and has since become one of the most widely used social networking platforms in the world. Instagram allows users to create profiles, post photos and videos, and interact with others through likes, comments, and direct messages.\n\nInstagram has evolved significantly since its inception and has played a crucial role in shaping how people share and consume visual conte"
         },
         {
             "title": "The story behind a simple, yet complicated Smart Door!",
@@ -653,4 +653,363 @@ export const getBlogPosts = async () => {
             "excerpt": "Here's an interesting tale behind the development of an RFID-based Smart Access Door (frankly speaking, an over-engineered one), that we've put together recently at Inovus Labs."
         }
     ];
+}
+
+
+
+// Get recent podcasts published on Inora: The Inovus Radio
+export const getPodcasts = async () => {
+
+    return [
+        {
+            id: "4NM5QuIiDVeUAy8FaKou4Q",
+        },
+    ]
+
+}
+
+
+
+// Get all projects
+export const getActivity = async () => {
+    let data = {
+        "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Exhibition"],
+        "activities": [
+            {
+                "id": 1,
+                "title": "Web Design Bootcamp v3.0",
+                "thumbnail": "/activity/WDB.jpg",
+                "description": "A nano degree program to develop the web designing skills of students at kristu jyothi college. It have been successfully completed and given the certificate of the nano degree program.",
+                "date": ["1 June 2023", "14 June 2013"],
+                "tags": ["Bootcamp"]
+            },{
+                "id": 2,
+                "title": "Kerala Piravi @ Govt. LP School",
+                "thumbnail": "/activity/schoolvisit.jpg",
+                "description": "On kerala piravi we have went to Gov. LP School Madappaly to intact with LKG students and have coundected small small activities.",
+                "date": ["1 Nov 2022"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 3,
+                "title": "IoT workshop",
+                "thumbnail": "/activity/IOT23.jpg",
+                "description": "A holding first step to IoT. The intrested students in KJCMT have participated and gained the first step on IoT.",
+                "date": [["19 July", "20 July"], "10 Aug 2023"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 4,
+                "title": "Debate compatition",
+                "thumbnail": "/activity/debate.png",
+                "description": "A cpmpatition to encourage the talking ability of students. Severals students have participated and all have recived participation certificate",
+                "date": ["25 Nov 2023"],
+                "tags": ["Challenge"]
+            },
+            {
+                "id": 5,
+                "title": "Stupid Idea Contest",
+                "thumbnail": "/activity/stupid.png",
+                "description": "A contest to devalop the ideas of KJCMT students. They have submitted several Ideas and we have selected the best one and promoted them to do that by giving some prize to them.",
+                "date": ["3 Nov 2022", "12 Nov 2022"],
+                "tags": ["Challenge"]
+            },
+            {
+                "id": 6,
+                "title": "Community Workshop",
+                "thumbnail": "/activity/community.png",
+                "description": "This workshop was conducted to the students to make them understand how community works and how to manage a community.",
+                "date": ["6 Oct 2022"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 7,
+                "title": "Date with Figma",
+                "thumbnail": "/activity/date_with_figma.jpg",
+                "description": "First step to figma. This event is hosted for KJCMT students to know about figma and learn about graphics designing",
+                "date": ["9 Oct 2023", "14 Oct 2023"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 8,
+                "title": "Intro to Hacktober Fest",
+                "thumbnail": "/activity/hacktober.jpg",
+                "description": "This is a event we conducted to make out students understand what is open sourec and how to conndribute in a opensource projuct, for that we have contributer several contribution to hacktober fest",
+                "date": ["Oct 2023"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 9,
+                "title": "Invention vs Innovation",
+                "thumbnail": "/activity/IvsI.jpg",
+                "description": "An orientation section for the kjcmt students to know about what is invention and innovation.It halps the students to rectify the difference birween invention and innovation . ",
+                "date": ["9 Oct 2022"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 10,
+                "title": "Call for extended team",
+                "thumbnail": "/activity/Exetended.jpg",
+                "description": "The selection of our extened team. We have conducted interview of all apllayed students and selected a bunch of intrested students to inovus Fam.",
+                "date": ["4 Oct 2023", "6 Oct 2023"],
+                "tags": ["Internship"]
+            },
+            {
+                "id": 11,
+                "title": "Hands-on IoT Workshop",
+                "thumbnail": "/activity/handonIOT.jpg",
+                "description": "This is a exibition counducted at MBC kuttikanam. A bunch of intrested students to learn IoT ",
+                "date": ["27 April 2023", "28th April 2023"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 12,
+                "title": "IoT & Robotics Exhibition",
+                "thumbnail": "/activity/Iotexebition.jpeg",
+                "description": "An exebition counducted on SB high school based on IT.They have interacted with VR glasses, hoverboard, etc . ",
+                "date": ["3 Feb 2023"],
+                "tags": ["Exhibition"]
+            },
+            {
+                "id": 13,
+                "title": "XPOVISTA ’23",
+                "thumbnail": "/activity/xpovista.JPG",
+                "description": "This is a exibition counducted by kristu jyoti HSS, We the students of inovus Labs IEDC have displayed some of our products too ",
+                "date": ["20 Sept 2023", "22 Sept 2023"],
+                "tags": ["Exhibition"]
+            },
+            {
+                "id": 14,
+                "title": "Learn.py 2.0",
+                "thumbnail": "/activity/learnpy.JPG",
+                "description": "An online event counducted for KJCMT studens to learn python. the students will get the basic knowleadge to understand and program in python",
+                "date": ["9 Sept 2022"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 15,
+                "title": "LED Bulb Making Workshop",
+                "thumbnail": "/activity/LEDworkshop.jpg",
+                "description": "A workshop to teach students how to make LED bulbs so that make bulb and sell them there own. ",
+                "date": ["24 Jan 2023"],
+                "tags": ["workshops"]
+            },
+            {
+                "id": 16,
+                "title": "Arduino Workshop",
+                "thumbnail": "/activity/arduinoIHRD.jpeg",
+                "description": "We have counducted Arduino workshop for the students of IHRD mallapally students. It was a wonderfull experience to intract with new fellows",
+                "date": ["23 Jan 2023"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 17,
+                "title": "Onam Trivia 2K22",
+                "thumbnail": "/activity/onam.png",
+                "description": "Onam Trivia 2K22 an Instagram hunt conducted by Inovus Labs IEDC on 2nd Sept 2022 from 7:30 – 11:30pm. This trivia was conducted to engage with students from various departments and to make students more familiar about Onam and its traditions. The questions asked were mostly about onam and its origin. 150+ students took part in this trivia and the first one to answer each question through story reply was declared winner and awarded a bookmyshow voucher. ",
+                "date": ["2 Sept 2022"],
+                "tags": ["Challenge"]
+            },
+            {
+                "id": 18,
+                "title": "Vayanavaram",
+                "thumbnail": "/activity/vayana.png",
+                "description": "Reading day was observed on June 19. Inovus labs celebrated reading day by introducing Vayanavaram which lasted a week. This event was all about completing a book or reading a book a full week and then sharing a picture with the book on Instagram. ",
+                "date": ["20 June 2022", "26 June 2022"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 19,
+                "title": "Figma Pookalam",
+                "thumbnail": "/activity/pookalam.png",
+                "description": "Reading day was observed on June 19. Inovus labs celebrated reading day by introducing Vayanavaram which lasted a week. This event was all about completing a book or reading a book a full week and then sharing a picture with the book on Instagram. ",
+                "date": ["20 June 2022", "26 June 2022"],
+                "tags": ["Workshop"]
+            }
+        ]
+    };
+
+    return data;
+};
+
+
+
+// Get all reccuring events
+export const getReccuringEvents = async () => {
+    let data = {
+        "tags": ["Weekend Workbench", "Hangout with Inovus", "Simply Series"],
+        "events": [
+            {
+                "id": 1,
+                "date": "19 May 2019",
+                "title": "Hangout with Inovus -John Mathew",
+                "description": "",
+                "thumbnail": "/reccuringevents/hangout-john.jpg",
+                "tags": ["Hangout with Inovus"]
+               
+            },{
+                "id": 2,
+                "date": "25 April 2020",
+                "title": "Hangout with Inovus -Dr. Jimmy Mathew",
+                "description": "",
+                "thumbnail": "/reccuringevents/hangout-drjimmy.jpg",
+                "tags": ["Hangout with Inovus"]
+               
+            },{
+                "id": 3,
+                "date": "05 May 2020",
+                "title": "Hangout with Inovus -Mehar M P",
+                "description": "",
+                "thumbnail": "/reccuringevents/hangout-mehar.jpg",
+                "tags": ["Hangout with Inovus"]
+               
+            },{
+                "id": 4,
+                "date": "19 May 2020",
+                "title": "Hangout with Inovus -Enfa Rose George",
+                "description": "",
+                "thumbnail": "/reccuringevents/hangout-enfa.jpg",
+                "tags": ["Hangout with Inovus"]
+               
+            },{
+                "id": 5,
+                "date": "16 May 2021",
+                "title": "Simply Linkedin",
+                "description": "",
+                "thumbnail": "/reccuringevents/simply-linkedin.jpg",
+                "tags": ["Simply Series"]
+               
+            },{
+                "id": 6,
+                "date": "01 July 2021",
+                "title": "Simply Blockchain",
+                "description": "",
+                "thumbnail": "/reccuringevents/simply-blockchain",
+                "tags": ["Simply Series"]
+               
+            },{
+                "id": 7,
+                "date": "01 July 2023",
+                "title": "Weekend Workbench #1",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template1.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 8,
+                "date": "08 July 2023",
+                "title": "Weekend Workbench #2",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template2.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 9,
+                "date": "15 July 2023",
+                "title": "Weekend Workbench #3",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template3.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 10,
+                "date": "22 July 2023",
+                "title": "Weekend Workbench #4",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template4.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 11,
+                "date": "29 July 2023",
+                "title": "Weekend Workbench #5",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template5.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 12,
+                "date": "5 Aug 2023",
+                "title": "Weekend Workbench #6",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template6.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 13,
+                "date": "23 Sept 2023",
+                "title": "Weekend Workbench #7",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template8.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 14,
+                "date": "30 Sept 2023",
+                "title": "Weekend Workbench #8",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 1.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 15,
+                "date": "07 Oct 2023",
+                "title": "Weekend Workbench #9",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 2.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 16,
+                "date": "14 Oct 2023",
+                "title": "Weekend Workbench #10",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 3.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 17,
+                "date": "21 Oct 2023",
+                "title": "Weekend Workbench #11",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 11.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 18,
+                "date": "04 Nov 2023",
+                "title": "Weekend Workbench #12",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 12.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 19,
+                "date": "11 Nov 2023",
+                "title": "Weekend Workbench #13",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 13.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 20,
+                "date": "18 Nov 2023",
+                "title": "Weekend Workbench #14",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 14.png",
+                "tags": ["Weekend Workbench"]
+               
+            },{
+                "id": 21,
+                "date": "02 Dec 2023",
+                "title": "Weekend Workbench #15",
+                "description": "",
+                "thumbnail": "/reccuringevents/workbench/Template 15.png",
+                "tags": ["Weekend Workbench"]
+               
+            }        
+        ]
+    };
+
+    return data;
 }

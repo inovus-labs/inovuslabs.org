@@ -6,11 +6,15 @@ import HomeView from '@/views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 import GalleryView from '@/views/GalleryView.vue'
 import TeamView from '@/views/TeamView.vue'
+import ActivityView from '@/views/ActivityView.vue'
+import NewsView from '@/views/NewsView.vue'
 
 
 // Navbar : Initiatives pages
 import ProjectView from '@/views/ProjectView.vue'
+import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
 import BlogView from '@/views/BlogView.vue'
+import PodcastView from '@/views/PodcastView.vue'
 
 import NotFoundView from '@/views/404.vue'
 
@@ -39,7 +43,16 @@ const router = createRouter({
       name: 'team',
       component: TeamView
     },
-    
+    {
+      path: '/events',
+      name: 'events',
+      component: ActivityView
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: NewsView
+    },
 
     {
       path: '/projects',
@@ -47,9 +60,19 @@ const router = createRouter({
       component: ProjectView
     },
     {
+      path: '/reccuring-events',
+      name: 'reccuring-events',
+      component: ReccuringEventsView
+    },
+    {
       path: '/blog',
       name: 'blog',
       component: BlogView
+    },
+    {
+      path: '/inora',
+      name: 'inora',
+      component: PodcastView
     },
     {
       path: '/:pathMatch(.*)*',

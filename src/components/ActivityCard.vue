@@ -1,7 +1,7 @@
 <template>
 
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <img class="rounded-t-lg h-44 w-full" :src="data.thumbnail" :alt="data.title" />
+        <img class="rounded-t-lg h-55 w-full" :src="data.thumbnail" :alt="data.title" />
         
         <div class="p-5 flex flex-col justify-between">
             
@@ -9,11 +9,42 @@
             
             <div class="flex flex-col gap-2">
                 <p id="project_description" class="font-normal text-gray-700 dark:text-gray-400" :class="showReadMore ? 'p-custom-ellipsis' : ''">{{ data.description }}</p>
+
                 <div class="flex items-center gap-2 mb-2 align-middle text-align-center">
-                    <span class="text-sm font-medium text-gray-900 dark:text-gray-100">Status:</span>
-                    <span :class="data.status === 'Completed' ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'" class="inline-flex items-center px-2.5 py-0.5 rounded text-xs font-medium capitalize">
-                        {{ data.status === 'Completed' ? 'Completed' : 'In Progress' }}
-                    </span>
+                    <template v-for="date in data.date">
+
+                        <template v-if="data.date.length === 1">
+                            <span class="bg-green-100 text-green-800 px-2.5 py-0.5 rounded text-xs font-medium w-max">
+                                {{ date }}
+                            </span>
+                        </template>
+
+                        <template v-if="data.date.length === 2">
+                            
+                            <template v-if="Array.isArray(date)">
+                                <template v-for="dt in date">
+                                    <span class="bg-green-100 text-green-800 px-2.5 py-0.5 rounded text-xs font-medium w-max">
+                                        {{ dt }}
+                                    </span>
+                                    <span v-if="date.indexOf(dt) === 0" class="text-gray-400 text-xs font-medium w-max">
+                                        to
+                                    </span>
+                                </template>
+                                <span class="text-gray-400 text-xs font-medium w-max">and</span>
+                            </template>
+
+                            <template v-else>
+                                <span class="bg-green-100 text-green-800 px-2.5 py-0.5 rounded text-xs font-medium w-max">
+                                    {{ date }}
+                                </span>
+                                <span v-if="data.date.indexOf(date) === 0" class="text-gray-400 text-xs font-medium w-max">
+                                    to
+                                </span>
+                            </template>
+
+                        </template>
+
+                    </template>
                 </div>
             </div>
 
@@ -22,11 +53,11 @@
                     {{ showReadMore ? 'Read More' : 'Read Less' }}
                 </button>
 
-                <template v-if="data.url">
+                <!-- <template v-if="data.url">
                     <a :href="data.url.link" target="_blank" class="items-center px-3 py-2 text-sm font-medium text-gray-700 border hover:bg-gray-100 rounded border-gray-700 w-1/2 text-center">
                         {{ data.tags.includes('Software') ? data.url.type === "source" ? 'GitHub Repo' : 'Live Demo' : '' }}
                     </a>
-                </template>
+                </template> -->
                 
             </div>
 
@@ -37,7 +68,7 @@
 
 <script>
     export default {
-        name: 'ProjectCard',
+        name: 'ActivityCard',
         props: {
             data: {
                 type: Object,
