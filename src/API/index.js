@@ -15,7 +15,7 @@ export const getProjects = async () => {
                 "id": 1,
                 "title": "Atom EV",
                 "description": "The electric car designed and constructed by college students is an impressive blend of innovation, sustainability, and prominent technology. Crafted with a combination of academic knowledge and hands-on expertise, this vehicle represents a remarkable achievement in the world of automotive engineering",
-                "thumbnail": "/projects/Atom.jpg",
+                "thumbnail": "/assets/projects/Atom.jpg",
                 "status": "Completed",
                 "tags": ["Mechanical", "Hardware"],
                 "contributors": [
@@ -33,7 +33,7 @@ export const getProjects = async () => {
                 "id": 2,
                 "title": "Edu Bulb",
                 "description": "The LED Bulb is a remarkable achievement born from the creative minds and hard work of a group of visionary college students. This groundbreaking LED bulb is more than just a source of light a testament to innovation, sustainability, and youthful ingenuity. The students have paved a way to see big dreams for others through this business model",
-                "thumbnail": "/projects/Edubulb.jpeg",
+                "thumbnail": "/assets/projects/Edubulb.jpeg",
                 "status": "Completed",
                 "tags": ["Hardware", "Electronics"],
                 "contributors": [
@@ -51,7 +51,7 @@ export const getProjects = async () => {
                 "id": 3,
                 "title": "Smart Inovus",
                 "description": "Home automation refers to the use of smart technology and integrated systems to control various aspects of a home, providing homeowners with increased convenience, energy efficiency, security, and customization. We used ESP32, 16 Channel relay module and 12v DC adapter for controlling the appliances. The ESP32 is integrated with Arduino IOT cloud platform. It provides Integration with virtual assistants like Amazon Alexa, Google Assistant, or Apple Home Kit allows users to control devices using voice commands.",
-                "thumbnail": "/projects/Automation.jpeg",
+                "thumbnail": "/assets/projects/Automation.jpeg",
                 "status": "Progress",
                 "tags": ["Internet of Things", "Electronics"],
                 "contributors": [
@@ -91,7 +91,7 @@ export const getProjects = async () => {
                 "id": 5,
                 "title": "Inovus Scrapbook",
                 "description": " A daily diary for Inovus Fellows to scribble about their self-learning endeavors & DIY projects",
-                "thumbnail": "/projects/scrapbook.jpeg",
+                "thumbnail": "/assets/projects/scrapbook.jpeg",
                 "status": "Progress",
                 "tags": ["Software"],
                 "url": {
@@ -109,7 +109,7 @@ export const getProjects = async () => {
                 "id": 6,
                 "title": "Chacko Mash",
                 "description": "Chacko Mash is our discord bot which handles the members of our discord platform, replies to the queries and wishes the members for their birthday and other important occasions display score boards of individuals in the platform. The name was inspired from a movie character who was a narcissistic father Kaduva Chacko punishes his son upon failing to meet the high expectations. The bot handles the data of individual students. They can scan messages for spam, profanity, or other inappropriate content and take appropriate actions",
-                "thumbnail": "/projects/chacko_mash.jpeg",
+                "thumbnail": "/assets/projects/chacko_mash.jpeg",
                 "status": "Completed",
                 "tags": ["Software"],
                 "url": {
@@ -127,7 +127,7 @@ export const getProjects = async () => {
                 "id": 7,
                 "title": "Sound Thoma",
                 "description": "Sound Thoma is our bot for Discord, designed to make your music experience during their work time. The engagement is funnier sometimes, we often conduct video chats and calls during the work. We usually rely on Spotify for listening to music to make the time more enjoyable. Literally the ads coming unexpectedly are mood spoilers especially during romantic songs. We’ve introduced a better alternative for this. Here you can listen to unlimited music without ads. sounds interesting right. Here you can create and manage your playlists directly within Discord. Simply type /play followed by the song or artist you want to hear.",
-                "thumbnail": "/projects/sound_thoma.jpeg",
+                "thumbnail": "/assets/projects/sound_thoma.jpeg",
                 "status": "Completed",
                 "tags": ["Software"],
                 "url": {
@@ -145,7 +145,7 @@ export const getProjects = async () => {
                 "id": 8,
                 "title": "Inovus Blogs",
                 "description": "Inovus blogs is a platform where anyone can express and share their thoughts, ideas, criticism in a constructive manner. The blog has been stood as a media platform for students to being vociferous on social, political, technological and other related issues.",
-                "thumbnail": "/projects/Inovus_blogs.jpeg",
+                "thumbnail": "/assets/projects/Inovus_blogs.jpeg",
                 "status": "Completed",
                 "tags": ["Software"],
                 "url": {
@@ -167,7 +167,7 @@ export const getProjects = async () => {
                 "id": 9,
                 "title": "Inovus API",
                 "description": "The API which controls all the softwares roming around inovuslabs",
-                "thumbnail": "/projects/API.jpeg",
+                "thumbnail": "/assets/projects/API.jpeg",
                 "status": "Progress",
                 "tags": ["Software"],
                 "url": {
@@ -185,7 +185,7 @@ export const getProjects = async () => {
                 "id": 10,
                 "title": "OSM Datapool",
                 "description": "The OSM (OpenStreetMap) Data Pool is an ambitious open-source initiative undertaken by Inovus Labs, involving active participation from all members during the Hacktoberfest event. OpenStreetMap, a collaborative mapping platform, forms the foundation for this project, aiming to aggregate and enhance geospatial data to improve accessibility and navigation within communities. A collective of passionate and dedicated individuals, has come together to contribute to this innovative effort. During hacktoberfest, a month-long celebration of open-source contributions, team members pooled their expertise, time, and creativity to enrich the OpenStreetMap database.",
-                "thumbnail": "/projects/OSM_Datapool.jpg",
+                "thumbnail": "/assets/projects/OSM_Datapool.jpg",
                 "status": "Completed",
                 "tags": ["Software", "Open-source"],
                 "url": {
@@ -203,7 +203,7 @@ export const getProjects = async () => {
                 "id": 11,
                 "title": "8x8 LED Matrix",
                 "description": "An 8x8 LED matrix created by college students is a compact electronic display consisting of 64 individual Light Emitting Diodes (LEDs) arranged in an 8 by 8 grid pattern. The matrix serves as a visually dynamic platform for showcasing various patterns, text, or simple animations by selectively illuminating specific LEDs",
-                "thumbnail": "/projects/8x8LED.jpeg",
+                "thumbnail": "/assets/projects/8x8LED.jpeg",
                 "status": "Completed",
                 "tags": ["Electronics"],
                 "contributors": [
@@ -217,7 +217,7 @@ export const getProjects = async () => {
                 "id": 12,
                 "title": "Morse Code Generator",
                 "description": "A list of noteworthy technology acquisitions 2021. This list is updated on a regular basis.",
-                "thumbnail": "/projects/morsecode.png",
+                "thumbnail": "/assets/projects/morsecode.png",
                 "status": "Completed",
                 "tags": ["Software"],
                 "url": {
@@ -235,7 +235,7 @@ export const getProjects = async () => {
                 "id": 13,
                 "title": "Blind Stick",
                 "description": "A small prototype to aware blind peoples to be alerted about the obsticles.",
-                "thumbnail": "/projects/Blind_stick.jpeg",
+                "thumbnail": "/assets/projects/Blind_stick.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
                 "contributors": [
@@ -253,7 +253,7 @@ export const getProjects = async () => {
                 "id": 14,
                 "title": "Bluetooth RC Car",
                 "description": "A prototype of a BT controled RC car.",
-                "thumbnail": "/projects/RC_CAR.jpeg",
+                "thumbnail": "/assets/projects/RC_CAR.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
                 "contributors": [
@@ -271,7 +271,7 @@ export const getProjects = async () => {
                 "id": 15,
                 "title": "RFID based Smart Lock (using Arduino)",
                 "description": "A prototype of a door lock which can be unlocked using rfid tags",
-                "thumbnail": "/projects/smart_lock.jpg",
+                "thumbnail": "/assets/projects/smart_lock.jpg",
                 "status": "Completed",
                 "tags": ["Electronics", "Internet of Things"],
                 "contributors": [
@@ -289,7 +289,7 @@ export const getProjects = async () => {
                 "id": 16,
                 "title": "Smart Traffic Lights using VR Module",
                 "description": "VR module is used to sence sound, this project will hwlp the light to indicate if any ambulance is coming so that the signal can turn to green.",
-                "thumbnail": "/projects/traffic_light.jpeg",
+                "thumbnail": "/assets/projects/traffic_light.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
                 "contributors": [
@@ -307,7 +307,7 @@ export const getProjects = async () => {
                 "id": 17,
                 "title": "E-waste Bin",
                 "description": "Automatic waste bin which dictect a persone and turns open automaticaly .",
-                "thumbnail": "/projects/E-waste_Bin.jpeg",
+                "thumbnail": "/assets/projects/E-waste_Bin.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
                 "contributors": [
@@ -325,7 +325,7 @@ export const getProjects = async () => {
                 "id": 18,
                 "title": "Smart Garden using Capacitive Soil Moisture",
                 "description": "A smart garden using capacitive soil moisture technology is an innovative and efficient gardening system designed by a team of students. This is a better solution for gardening that integrates capacitive soil moisture sensors to optimize the watering process for plants. The project is aimed to reduce the water consumption by the individuals and to automate the process of watering.",
-                "thumbnail": "/projects/Soil.jpeg",
+                "thumbnail": "/assets/projects/Soil.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
                 "contributors": [
@@ -343,7 +343,7 @@ export const getProjects = async () => {
                 "id": 19,
                 "title": "Breath Analyzer",
                 "description": "The Breath Analyser created by college students is a cutting-edge, portable device designed to accurately measure and analyze the composition of an individual’s breath. The Breath Analyser can swiftly and precisely detect the presence of alcohol in a person’s breath, making it a crucial tool for law enforcement agencies to combat drunk driving and ensure road safety.",
-                "thumbnail": "/projects/Breath_ana.jpg",
+                "thumbnail": "/assets/projects/Breath_ana.jpg",
                 "status": "Completed",
                 "tags": ["Electronics, Hardware"],
                 "contributors": [
@@ -357,7 +357,7 @@ export const getProjects = async () => {
                 "id": 20,
                 "title": "InoMail",
                 "description": "The main feature of this product was it can send multiple assets in a single mail through ino mail. It can send bulk emails with ease, whether you're reaching out to a small team or a massive audience. Ino Mail automates the process, saving you time and eliminating the risk of errors. The product can be trusted in its security of your data. Ino Mail prioritizes the protection of your information, ensuring that your communications are delivered safely and securely. In short, InoMail empowers you to communicate efficiently, personally, and at scale. Whether you're a business professional, marketer, or educator, our software simplifies the process of sending personalized messages",
-                "thumbnail": "/projects/Ino-mail.jpeg",
+                "thumbnail": "/assets/projects/Ino-mail.jpeg",
                 "status": "Progress",
                 "tags": ["Software"],
                 "url": {
@@ -375,7 +375,7 @@ export const getProjects = async () => {
                 "id": 21,
                 "title": "QuikSubmit",
                 "description": "The main feature of this product was it can send multiple assets in a single mail through ino mail. It can send bulk emails with ease, whether you're reaching out to a small team or a massive audience. Ino Mail automates the process, saving you time and eliminating the risk of errors. The product can be trusted in its security of your data. Ino Mail prioritizes the protection of your information, ensuring that your communications are delivered safely and securely. In short, InoMail empowers you to communicate efficiently, personally, and at scale. Whether you're a business professional, marketer, or educator, our software simplifies the process of sending personalized messages",
-                "thumbnail": "/projects/Ino-mail.jpeg",
+                "thumbnail": "/assets/projects/Ino-mail.jpeg",
                 "status": "Progress",
                 "tags": ["Software"],
                 "url": {
@@ -393,7 +393,7 @@ export const getProjects = async () => {
                 "id": 22,
                 "title": "Robotic Arm",
                 "description": "A remarkable robotic arm, meticulously crafted by a team of ingenious college students, showcases an impressive fusion of engineering prowess and innovative design. This marvel of modern technology consists of multiple high-precision servos working in perfect harmony to execute intricate tasks with precision and finesse.",
-                "thumbnail": "/projects/Ino-mail.jpeg",
+                "thumbnail": "/assets/projects/Ino-mail.jpeg",
                 "status": "Completed",
                 "tags": ["Electronics, Internet of Things"],
                 "contributors": [
@@ -408,7 +408,7 @@ export const getProjects = async () => {
                 "id": 23,
                 "title": "LPG Detector",
                 "description": "The college student-created LPG (liquefied petroleum gas) detector is an innovative device designed to enhance safety in domestic and commercial environments by detecting the presence of potentially hazardous gas leaks. This compact and user-friendly device is the result of collaborative efforts and cutting-edge engineering from a group of talented and ambitious college students.",
-                "thumbnail": "/projects/Ino-mail.jpeg",
+                "thumbnail": "/assets/projects/Ino-mail.jpeg",
                 "status": "Completed",
                 "tags": ["Electronics, Internet of Things"],
                 "contributors": [
@@ -678,14 +678,14 @@ export const getActivity = async () => {
             {
                 "id": 1,
                 "title": "Web Design Bootcamp v3.0",
-                "thumbnail": "/activity/WDB.jpg",
+                "thumbnail": "/assets/activity/WDB.jpg",
                 "description": "A nano degree program to develop the web designing skills of students at kristu jyothi college. It have been successfully completed and given the certificate of the nano degree program.",
                 "date": ["1 June 2023", "14 June 2013"],
                 "tags": ["Bootcamp"]
             },{
                 "id": 2,
                 "title": "Kerala Piravi @ Govt. LP School",
-                "thumbnail": "/activity/schoolvisit.jpg",
+                "thumbnail": "/assets/activity/schoolvisit.jpg",
                 "description": "On kerala piravi we have went to Gov. LP School Madappaly to intact with LKG students and have coundected small small activities.",
                 "date": ["1 Nov 2022"],
                 "tags": ["Workshop"]
@@ -693,7 +693,7 @@ export const getActivity = async () => {
             {
                 "id": 3,
                 "title": "IoT workshop",
-                "thumbnail": "/activity/IOT23.jpg",
+                "thumbnail": "/assets/activity/IOT23.jpg",
                 "description": "A holding first step to IoT. The intrested students in KJCMT have participated and gained the first step on IoT.",
                 "date": [["19 July", "20 July"], "10 Aug 2023"],
                 "tags": ["Workshop"]
@@ -701,7 +701,7 @@ export const getActivity = async () => {
             {
                 "id": 4,
                 "title": "Debate compatition",
-                "thumbnail": "/activity/debate.png",
+                "thumbnail": "/assets/activity/debate.png",
                 "description": "A cpmpatition to encourage the talking ability of students. Severals students have participated and all have recived participation certificate",
                 "date": ["25 Nov 2023"],
                 "tags": ["Challenge"]
@@ -709,7 +709,7 @@ export const getActivity = async () => {
             {
                 "id": 5,
                 "title": "Stupid Idea Contest",
-                "thumbnail": "/activity/stupid.png",
+                "thumbnail": "/assets/activity/stupid.png",
                 "description": "A contest to devalop the ideas of KJCMT students. They have submitted several Ideas and we have selected the best one and promoted them to do that by giving some prize to them.",
                 "date": ["3 Nov 2022", "12 Nov 2022"],
                 "tags": ["Challenge"]
@@ -717,7 +717,7 @@ export const getActivity = async () => {
             {
                 "id": 6,
                 "title": "Community Workshop",
-                "thumbnail": "/activity/community.png",
+                "thumbnail": "/assets/activity/community.png",
                 "description": "This workshop was conducted to the students to make them understand how community works and how to manage a community.",
                 "date": ["6 Oct 2022"],
                 "tags": ["Workshop"]
@@ -725,7 +725,7 @@ export const getActivity = async () => {
             {
                 "id": 7,
                 "title": "Date with Figma",
-                "thumbnail": "/activity/date_with_figma.jpg",
+                "thumbnail": "/assets/activity/date_with_figma.jpg",
                 "description": "First step to figma. This event is hosted for KJCMT students to know about figma and learn about graphics designing",
                 "date": ["9 Oct 2023", "14 Oct 2023"],
                 "tags": ["Workshop"]
@@ -733,7 +733,7 @@ export const getActivity = async () => {
             {
                 "id": 8,
                 "title": "Intro to Hacktober Fest",
-                "thumbnail": "/activity/hacktober.jpg",
+                "thumbnail": "/assets/activity/hacktober.jpg",
                 "description": "This is a event we conducted to make out students understand what is open sourec and how to conndribute in a opensource projuct, for that we have contributer several contribution to hacktober fest",
                 "date": ["Oct 2023"],
                 "tags": ["Workshop"]
@@ -741,7 +741,7 @@ export const getActivity = async () => {
             {
                 "id": 9,
                 "title": "Invention vs Innovation",
-                "thumbnail": "/activity/IvsI.jpg",
+                "thumbnail": "/assets/activity/IvsI.jpg",
                 "description": "An orientation section for the kjcmt students to know about what is invention and innovation.It halps the students to rectify the difference birween invention and innovation . ",
                 "date": ["9 Oct 2022"],
                 "tags": ["Session"]
@@ -749,7 +749,7 @@ export const getActivity = async () => {
             {
                 "id": 10,
                 "title": "Call for extended team",
-                "thumbnail": "/activity/Exetended.jpg",
+                "thumbnail": "/assets/activity/Exetended.jpg",
                 "description": "The selection of our extened team. We have conducted interview of all apllayed students and selected a bunch of intrested students to inovus Fam.",
                 "date": ["4 Oct 2023", "6 Oct 2023"],
                 "tags": ["Internship"]
@@ -757,7 +757,7 @@ export const getActivity = async () => {
             {
                 "id": 11,
                 "title": "Hands-on IoT Workshop",
-                "thumbnail": "/activity/handonIOT.jpg",
+                "thumbnail": "/assets/activity/handonIOT.jpg",
                 "description": "This is a exibition counducted at MBC kuttikanam. A bunch of intrested students to learn IoT ",
                 "date": ["27 April 2023", "28th April 2023"],
                 "tags": ["Workshop"]
@@ -765,7 +765,7 @@ export const getActivity = async () => {
             {
                 "id": 12,
                 "title": "IoT & Robotics Exhibition",
-                "thumbnail": "/activity/Iotexebition.jpeg",
+                "thumbnail": "/assets/activity/Iotexebition.jpeg",
                 "description": "An exebition counducted on SB high school based on IT.They have interacted with VR glasses, hoverboard, etc . ",
                 "date": ["3 Feb 2023"],
                 "tags": ["Exhibition"]
@@ -773,7 +773,7 @@ export const getActivity = async () => {
             {
                 "id": 13,
                 "title": "XPOVISTA ’23",
-                "thumbnail": "/activity/xpovista.JPG",
+                "thumbnail": "/assets/activity/xpovista.JPG",
                 "description": "This is a exibition counducted by kristu jyoti HSS, We the students of inovus Labs IEDC have displayed some of our products too ",
                 "date": ["20 Sept 2023", "22 Sept 2023"],
                 "tags": ["Exhibition"]
@@ -781,7 +781,7 @@ export const getActivity = async () => {
             {
                 "id": 14,
                 "title": "Learn.py 2.0",
-                "thumbnail": "/activity/learnpy.JPG",
+                "thumbnail": "/assets/activity/learnpy.JPG",
                 "description": "An online event counducted for KJCMT studens to learn python. the students will get the basic knowleadge to understand and program in python",
                 "date": ["9 Sept 2022"],
                 "tags": ["Workshop"]
@@ -789,7 +789,7 @@ export const getActivity = async () => {
             {
                 "id": 15,
                 "title": "LED Bulb Making Workshop",
-                "thumbnail": "/activity/LEDworkshop.jpg",
+                "thumbnail": "/assets/activity/LEDworkshop.jpg",
                 "description": "A workshop to teach students how to make LED bulbs so that make bulb and sell them there own. ",
                 "date": ["24 Jan 2023"],
                 "tags": ["workshops"]
@@ -797,7 +797,7 @@ export const getActivity = async () => {
             {
                 "id": 16,
                 "title": "Arduino Workshop",
-                "thumbnail": "/activity/arduinoIHRD.jpeg",
+                "thumbnail": "/assets/activity/arduinoIHRD.jpeg",
                 "description": "We have counducted Arduino workshop for the students of IHRD mallapally students. It was a wonderfull experience to intract with new fellows",
                 "date": ["23 Jan 2023"],
                 "tags": ["Workshop"]
@@ -805,7 +805,7 @@ export const getActivity = async () => {
             {
                 "id": 17,
                 "title": "Onam Trivia 2K22",
-                "thumbnail": "/activity/onam.png",
+                "thumbnail": "/assets/activity/onam.png",
                 "description": "Onam Trivia 2K22 an Instagram hunt conducted by Inovus Labs IEDC on 2nd Sept 2022 from 7:30 – 11:30pm. This trivia was conducted to engage with students from various departments and to make students more familiar about Onam and its traditions. The questions asked were mostly about onam and its origin. 150+ students took part in this trivia and the first one to answer each question through story reply was declared winner and awarded a bookmyshow voucher. ",
                 "date": ["2 Sept 2022"],
                 "tags": ["Challenge"]
@@ -813,7 +813,7 @@ export const getActivity = async () => {
             {
                 "id": 18,
                 "title": "Vayanavaram",
-                "thumbnail": "/activity/vayana.png",
+                "thumbnail": "/assets/activity/vayana.png",
                 "description": "Reading day was observed on June 19. Inovus labs celebrated reading day by introducing Vayanavaram which lasted a week. This event was all about completing a book or reading a book a full week and then sharing a picture with the book on Instagram. ",
                 "date": ["20 June 2022", "26 June 2022"],
                 "tags": ["Workshop"]
@@ -821,7 +821,7 @@ export const getActivity = async () => {
             {
                 "id": 19,
                 "title": "Figma Pookalam",
-                "thumbnail": "/activity/pookalam.png",
+                "thumbnail": "/assets/activity/pookalam.png",
                 "description": "Reading day was observed on June 19. Inovus labs celebrated reading day by introducing Vayanavaram which lasted a week. This event was all about completing a book or reading a book a full week and then sharing a picture with the book on Instagram. ",
                 "date": ["20 June 2022", "26 June 2022"],
                 "tags": ["Workshop"]
@@ -844,7 +844,7 @@ export const getReccuringEvents = async () => {
                 "date": "19 May 2019",
                 "title": "Hangout with Inovus -John Mathew",
                 "description": "",
-                "thumbnail": "/reccuringevents/hangout-john.jpg",
+                "thumbnail": "/assets/reccuringevents/hangout-john.jpg",
                 "tags": ["Hangout with Inovus"]
                
             },{
@@ -852,7 +852,7 @@ export const getReccuringEvents = async () => {
                 "date": "25 April 2020",
                 "title": "Hangout with Inovus -Dr. Jimmy Mathew",
                 "description": "",
-                "thumbnail": "/reccuringevents/hangout-drjimmy.jpg",
+                "thumbnail": "/assets/reccuringevents/hangout-drjimmy.jpg",
                 "tags": ["Hangout with Inovus"]
                
             },{
@@ -860,7 +860,7 @@ export const getReccuringEvents = async () => {
                 "date": "05 May 2020",
                 "title": "Hangout with Inovus -Mehar M P",
                 "description": "",
-                "thumbnail": "/reccuringevents/hangout-mehar.jpg",
+                "thumbnail": "/assets/reccuringevents/hangout-mehar.jpg",
                 "tags": ["Hangout with Inovus"]
                
             },{
@@ -868,7 +868,7 @@ export const getReccuringEvents = async () => {
                 "date": "19 May 2020",
                 "title": "Hangout with Inovus -Enfa Rose George",
                 "description": "",
-                "thumbnail": "/reccuringevents/hangout-enfa.jpg",
+                "thumbnail": "/assets/reccuringevents/hangout-enfa.jpg",
                 "tags": ["Hangout with Inovus"]
                
             },{
@@ -876,7 +876,7 @@ export const getReccuringEvents = async () => {
                 "date": "16 May 2021",
                 "title": "Simply Linkedin",
                 "description": "",
-                "thumbnail": "/reccuringevents/simply-linkedin.jpg",
+                "thumbnail": "/assets/reccuringevents/simply-linkedin.jpg",
                 "tags": ["Simply Series"]
                
             },{
@@ -884,7 +884,7 @@ export const getReccuringEvents = async () => {
                 "date": "01 July 2021",
                 "title": "Simply Blockchain",
                 "description": "",
-                "thumbnail": "/reccuringevents/simply-blockchain",
+                "thumbnail": "/assets/reccuringevents/simply-blockchain",
                 "tags": ["Simply Series"]
                
             },{
@@ -892,7 +892,7 @@ export const getReccuringEvents = async () => {
                 "date": "01 July 2023",
                 "title": "Weekend Workbench #1",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template1.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template1.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -900,7 +900,7 @@ export const getReccuringEvents = async () => {
                 "date": "08 July 2023",
                 "title": "Weekend Workbench #2",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template2.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template2.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -908,7 +908,7 @@ export const getReccuringEvents = async () => {
                 "date": "15 July 2023",
                 "title": "Weekend Workbench #3",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template3.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template3.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -916,7 +916,7 @@ export const getReccuringEvents = async () => {
                 "date": "22 July 2023",
                 "title": "Weekend Workbench #4",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template4.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template4.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -924,7 +924,7 @@ export const getReccuringEvents = async () => {
                 "date": "29 July 2023",
                 "title": "Weekend Workbench #5",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template5.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template5.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -932,7 +932,7 @@ export const getReccuringEvents = async () => {
                 "date": "5 Aug 2023",
                 "title": "Weekend Workbench #6",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template6.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template6.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -940,7 +940,7 @@ export const getReccuringEvents = async () => {
                 "date": "23 Sept 2023",
                 "title": "Weekend Workbench #7",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template8.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template8.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -948,7 +948,7 @@ export const getReccuringEvents = async () => {
                 "date": "30 Sept 2023",
                 "title": "Weekend Workbench #8",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template 1.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template 1.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -956,7 +956,7 @@ export const getReccuringEvents = async () => {
                 "date": "07 Oct 2023",
                 "title": "Weekend Workbench #9",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template 2.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template 2.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -964,7 +964,7 @@ export const getReccuringEvents = async () => {
                 "date": "14 Oct 2023",
                 "title": "Weekend Workbench #10",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template 3.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template 3.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -972,7 +972,7 @@ export const getReccuringEvents = async () => {
                 "date": "21 Oct 2023",
                 "title": "Weekend Workbench #11",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template 11.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template 11.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -980,7 +980,7 @@ export const getReccuringEvents = async () => {
                 "date": "04 Nov 2023",
                 "title": "Weekend Workbench #12",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template 12.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template 12.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -988,7 +988,7 @@ export const getReccuringEvents = async () => {
                 "date": "11 Nov 2023",
                 "title": "Weekend Workbench #13",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template 13.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template 13.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -996,7 +996,7 @@ export const getReccuringEvents = async () => {
                 "date": "18 Nov 2023",
                 "title": "Weekend Workbench #14",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template 14.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template 14.png",
                 "tags": ["Weekend Workbench"]
                
             },{
@@ -1004,7 +1004,7 @@ export const getReccuringEvents = async () => {
                 "date": "02 Dec 2023",
                 "title": "Weekend Workbench #15",
                 "description": "",
-                "thumbnail": "/reccuringevents/workbench/Template 15.png",
+                "thumbnail": "/assets/reccuringevents/workbench/Template 15.png",
                 "tags": ["Weekend Workbench"]
                
             }        
