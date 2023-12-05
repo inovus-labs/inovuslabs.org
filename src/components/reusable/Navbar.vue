@@ -6,7 +6,7 @@
     <nav class="bg-white">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
             <a href="/" class="flex items-center">
-                <img src="/logo.svg" class="lg:h-12 h-10 mr-3" alt="Inovus Labs Logo" />
+                <img src="/assets/logo.svg" class="lg:h-12 h-10 mr-3" alt="Inovus Labs Logo" />
                 <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap text-secondary">Inovus Labs</span> -->
             </a>
             

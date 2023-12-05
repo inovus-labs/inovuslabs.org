@@ -6,7 +6,7 @@
         <div class="flex h-screen mx-auto w-screen p-4 items-center justify-center">
 
             <div class="w-full lg:w-1/3">
-                <img class="w-full h-full" src="../../public/illustrations/404.svg" />
+                <img class="w-full h-full" src="../../public/assets/illustrations/404.svg" />
             </div>
 
         </div>
