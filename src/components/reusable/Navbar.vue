@@ -133,6 +133,11 @@
                                     name: 'Gallery',
                                     link: '/gallery',
                                     description: 'Connect with third-party tools that you\'re already using.'
+                                },
+                                {
+                                    name: 'Socials',
+                                    link: '/socials',
+                                    description: 'Connect with third-party tools that you\'re already using.'
                                 }
                             ],
                             [

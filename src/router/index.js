@@ -6,16 +6,17 @@ import HomeView from '@/views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 import GalleryView from '@/views/GalleryView.vue'
 import TeamView from '@/views/TeamView.vue'
-import ActivityView from '@/views/ActivityView.vue'
 import NewsView from '@/views/NewsView.vue'
-import NanodegreeView from '@/views/NanodegreeView.vue'
+import SocialsView from '@/views/SocialsView.vue'
 
 
 // Initiatives pages
+import ActivityView from '@/views/ActivityView.vue'
+import NanodegreeView from '@/views/NanodegreeView.vue'
 import ProjectView from '@/views/ProjectView.vue'
-import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
 import BlogView from '@/views/BlogView.vue'
 import PodcastView from '@/views/PodcastView.vue'
+import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
 
 // Contact page
 import ContactView from '@/views/ContactView.vue'
@@ -47,6 +48,12 @@ const router = createRouter({
       name: 'gallery',
       component: GalleryView,
       meta: { title: 'Gallery' }
+    },
+    {
+      path: '/socials',
+      name: 'socials',
+      component: SocialsView,
+      meta: { title: 'Socials' }
     },
     {
       path: '/team',
