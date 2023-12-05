@@ -13,7 +13,7 @@
     <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
 
       <div class="w-full lg:w-1/3 py-4 lg:py-20">
-        <img class="w-full h-full" src="../../public/project.svg" alt="">
+        <img class="w-full h-full" src="../../public/illustrations/project.svg" alt="">
       </div>
       <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">
         <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">Innovate. Inspire. Illuminate</h1>
