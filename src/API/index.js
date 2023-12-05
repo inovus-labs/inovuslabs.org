@@ -1013,3 +1013,69 @@ export const getReccuringEvents = async () => {
 
     return data;
 }
+
+
+
+// Get all social media posts
+export const getSocialPosts = async () => {
+    let data = {
+        "instagram": [
+            {
+                "id": 1,
+                "url": "https://www.instagram.com/p/C0bv6zuJkq2"
+            },
+            {
+                "id": 2,
+                "url": "https://www.instagram.com/p/C0ZJZnvPPn1"
+            },
+            {
+                "id": 3,
+                "url": "https://www.instagram.com/p/Cyvo6lUJpQR"
+            }
+        ],
+        "linkedin": [
+            {
+                "id": 1,
+                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7137095376020393984"
+            },
+            {
+                "id": 2,
+                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7118418226442604544"
+            },
+            {
+                "id": 3,
+                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7099761784420528128"
+            }
+        ],
+        "twitter": [
+            {
+                "id": 1,
+                "url": "https://twitter.com/InovusLabs/status/1721051746947207352"
+            },
+            {
+                "id": 2,
+                "url": "https://twitter.com/InovusLabs/status/1715828644000813445"
+            },
+            {
+                "id": 3,
+                "url": "https://twitter.com/InovusLabs/status/1711584725733900390"
+            }
+        ],
+        "threads": [
+            {
+                "id": 1,
+                "url": "https://www.threads.net/@inovuslabs/post/CzM0DdUy5L_"
+            },
+            {
+                "id": 2,
+                "url": "https://www.threads.net/@inovuslabs/post/CypSOuzJFDI"
+            },
+            {
+                "id": 3,
+                "url": "https://www.threads.net/@inovuslabs/post/CyEkW87SkvN"
+            }
+        ]
+    }
+
+    return data;
+}
