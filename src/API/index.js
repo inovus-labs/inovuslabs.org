@@ -884,7 +884,7 @@ export const getReccuringEvents = async () => {
                 "date": "01 July 2021",
                 "title": "Simply Blockchain",
                 "description": "",
-                "thumbnail": "/assets/reccuringevents/simply-blockchain",
+                "thumbnail": "/assets/reccuringevents/simply-blockchain.jpg",
                 "tags": ["Simply Series"]
                
             },{
