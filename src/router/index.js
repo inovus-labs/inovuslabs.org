@@ -2,27 +2,32 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import HomeView from '@/views/HomeView.vue'
 
-// Navbar : About pages
+// About pages
 import AboutView from '@/views/AboutView.vue'
 import GalleryView from '@/views/GalleryView.vue'
 import TeamView from '@/views/TeamView.vue'
 import ActivityView from '@/views/ActivityView.vue'
 import NewsView from '@/views/NewsView.vue'
+import NanodegreeView from '@/views/NanodegreeView.vue'
 
 
-// Navbar : Initiatives pages
+// Initiatives pages
 import ProjectView from '@/views/ProjectView.vue'
 import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
 import BlogView from '@/views/BlogView.vue'
 import PodcastView from '@/views/PodcastView.vue'
 
+// Contact page
+import ContactView from '@/views/ContactView.vue'
+
 import NotFoundView from '@/views/404.vue'
+import MaintainanceView from '@/views/MaintainanceView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/home',
       name: 'home',
       component: HomeView,
       meta: {
@@ -56,6 +61,12 @@ const router = createRouter({
       meta: { title: 'Events' }
     },
     {
+      path: '/nanodegree',
+      name: 'nanodegree',
+      component: NanodegreeView,
+      meta: { title: 'Nano Degree' }
+    },
+    {
       path: '/news',
       name: 'news',
       component: NewsView,
@@ -86,12 +97,29 @@ const router = createRouter({
       component: PodcastView,
       meta: { title: 'Inora' }
     },
+
+    // Contact page
+    {
+      path: '/contact',
+      name: 'contact',
+      component: ContactView,
+      meta: { title: 'Contact' }
+    },
+
     {
       path: '/:pathMatch(.*)*',
       name: '404',
       component: NotFoundView,
       meta: { title: '404' }
-    }
+    },
+
+    // Maintainance page
+    {
+      path: '/',
+      name: 'maintainance',
+      component: MaintainanceView,
+      meta: { title: 'Maintainance' }
+    },
   ]
 })
 
