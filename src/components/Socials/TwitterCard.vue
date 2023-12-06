@@ -3,7 +3,7 @@
     <iframe 
         border=0 
         frameborder=0 
-        height=700 
+        height=500 
         width=100%
         :src="processedUrl"
     ></iframe>

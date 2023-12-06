@@ -1047,6 +1047,20 @@ export const getSocialPosts = async () => {
                 "url": "https://www.linkedin.com/feed/update/urn:li:activity:7099761784420528128"
             }
         ],
+        "youtube": [
+            {
+                "id": 1,
+                "url": "https://www.youtube.com/embed/mOBuyUQ9WAE?si=9iwR36YwTUI-DicF"
+            },
+            {
+                "id": 2,
+                "url": "https://www.youtube.com/embed/CYKO8TiRLHU?si=3CGbZVI5bZC3IHq0"
+            },
+            {
+                "id": 3,
+                "url": "https://www.youtube.com/embed/videoseries?si=hum7bwG0SkRttfJE&amp;list=PLf17cHBJCwYj9Dsjy7k8DauwLCXwBR2BS"
+            }
+        ],
         "twitter": [
             {
                 "id": 1,

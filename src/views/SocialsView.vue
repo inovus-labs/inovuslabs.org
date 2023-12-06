@@ -56,7 +56,7 @@
         <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
 
 
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
                 <template v-for="platform in socialMedia">
 
                     <a :href="platform.url" target="_blank">
@@ -131,6 +131,33 @@
 
 
 
+        <!-- ----------------- Start : YouTube ----------------- -->
+
+        <section class="bg-white dark:bg-gray-900">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+                <div class="max-w-screen-md">
+                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Lights, camera, action!</h2>
+                    <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">🎥 Immerse yourself in our YouTube channel's curated showcase. From captivating stories to insightful discussions, explore the visual essence of our narrative. Hit play and join us on the screen. 📺✨</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="px-4 mx-auto max-w-screen-xl lg:px-6">
+            <div class="grid gap-8 lg:grid-cols-3">
+
+                <template v-for="post in youtubePosts">
+                    <YoutubeCard
+                        :url="post.url"
+                    />
+                </template>
+
+            </div>  
+        </div>
+
+        <!-- ----------------- End : YouTube ----------------- -->
+
+
+
         <!-- ----------------- Start : Threads ----------------- -->
 
         <section class="bg-white dark:bg-gray-900">
@@ -199,6 +226,7 @@
     
     import InstagramCard from "@/components/Socials/InstagramCard.vue";
     import LinkedinCard from "@/components/Socials/LinkedinCard.vue";
+    import YoutubeCard from "../components/Socials/YoutubeCard.vue";
     import TwitterCard from "@/components/Socials/TwitterCard.vue";
     import ThreadsCard from "@/components/Socials/ThreadsCard.vue";
 
@@ -210,6 +238,7 @@
             Navbar,
             InstagramCard,
             LinkedinCard,
+            YoutubeCard,
             TwitterCard,
             ThreadsCard,
             Footer
@@ -218,6 +247,7 @@
             return {
                 instagramPosts: [],
                 linkedinPosts: [],
+                youtubePosts: [],
                 twitterPosts: [],
                 threadsPosts: [],
                 socialMedia: [
@@ -245,6 +275,13 @@
                         mobleIcon: `<svg class="h-16 w-16"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" /></svg>`,
                         url: "https://github.com/inovus-labs"
                     }
+                    ,
+                    {
+                        name: "YouTube",
+                        icon: `<svg class="h-24 w-24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg>`,
+                        mobleIcon: `<svg class="h-16 w-16"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg>`,
+                        url: "https://www.youtube.com/@inovuslabsiedcofficial7801"
+                    }
                 ],
                 deviceWidth: null,
                 isMobile: false,
@@ -255,6 +292,7 @@
 
             this.instagramPosts = posts.instagram;
             this.linkedinPosts = posts.linkedin;
+            this.youtubePosts = posts.youtube;
             this.twitterPosts = posts.twitter;
             this.threadsPosts = posts.threads;
         },
