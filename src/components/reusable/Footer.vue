@@ -14,10 +14,10 @@
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-2">
-                          <a href="https://flowbite.com/" class="hover:underline">Certificates</a>
+                          <a href="#/" class="hover:underline">Certificates</a>
                       </li>
                       <li>
-                          <a href="https://tailwindcss.com/" class="hover:underline">API Status</a>
+                          <a href="#" class="hover:underline">API Status</a>
                       </li>
                   </ul>
               </div>
@@ -28,21 +28,21 @@
                           <a href="https://blog.inovuslabs.org" class="hover:underline ">Inovus Blogs</a>
                       </li>
                       <li class="mb-2">
-                          <a href="https://inora.inovuslabs.org" class="hover:underline ">Inovus Radio</a>
+                          <a href="https://inovuslabs.org/inora" class="hover:underline ">Inovus Radio</a>
                         </li>
                         <li class="mb-2">
-                          <a href="https://profile.inovuslabs.org" class="hover:underline ">Inovus Profiles</a>
+                          <a href="/" class="hover:underline cursor-not-allowed">Inovus Profiles</a>
                       </li>
                   </ul>
               </div>
-              <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+              <div class="col-span-2 sm:col-span-1">
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Guidelines</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-2">
-                          <a href="#" class="hover:underline">Privacy Policy</a>
+                          <a href="#" class="hover:underline">Code of Conduct</a>
                       </li>
                       <li>
-                          <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                          <a href="#" class="hover:underline">IEDC Guidelines</a>
                       </li>
                   </ul>
               </div>
@@ -50,7 +50,7 @@
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Inovus Labs</a>. All Rights Reserved.
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#/" class="hover:underline">Inovus Labs</a>. All Rights Reserved.
           </span>
           <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
               <a href="https://www.instagram.com/inovuslabs/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -76,7 +76,7 @@
                 </svg>
                   <span class="sr-only">GitHub account</span>
               </a>
-              <a href="https://www.youtube.com/channel/UCztb9HBH9PYNuup4LO7xxhg" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+              <a href="https://www.youtube.com/@inovuslabsiedcofficial7801" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
                 </svg>
