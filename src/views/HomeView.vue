@@ -165,14 +165,6 @@
 
   <Testimonial />
 
-
-
-  <!-- ---------------------- ---------------------- ---------------------- -->
-
-
-
-  <FAQ />
-
   
 
   <!-- ---------------------- ---------------------- ---------------------- -->
@@ -192,7 +184,6 @@
 
   import Testimonial from "@/components/Home/Testimonial.vue";
   import Features from "@/components/Home/Features.vue";
-  import FAQ from "@/components/Home/FAQ.vue";
   import Partners from "@/components/Home/Partners.vue";
   import About from "@/components/Home/About.vue";
 
@@ -204,7 +195,6 @@
 
       Testimonial,
       Features,
-      FAQ,
       Partners,
       About
     },
