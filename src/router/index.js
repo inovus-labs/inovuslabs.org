@@ -21,6 +21,10 @@ import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
 // Contact page
 import ContactView from '@/views/ContactView.vue'
 
+// Guideline pages
+import GuidelinesView from '@/views/GuidelinesView.vue'
+import CodeOfConductView from '@/views/CodeOfConductView.vue'
+
 import NotFoundView from '@/views/404.vue'
 import MaintainanceView from '@/views/MaintainanceView.vue'
 
@@ -111,6 +115,20 @@ const router = createRouter({
       name: 'contact',
       component: ContactView,
       meta: { title: 'Contact' }
+    },
+
+    // Contact page
+    {
+      path: '/iedc-guidelines',
+      name: 'iedc-guidelines',
+      component: GuidelinesView,
+      meta: { title: 'IEDC Guidelines' }
+    },
+    {
+      path: '/code-of-conduct',
+      name: 'code-of-conduct',
+      component: CodeOfConductView,
+      meta: { title: 'Code of Conduct' }
     },
 
     {
