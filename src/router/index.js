@@ -8,9 +8,11 @@ import GalleryView from '@/views/GalleryView.vue'
 import TeamView from '@/views/TeamView.vue'
 import NewsView from '@/views/NewsView.vue'
 import SocialsView from '@/views/SocialsView.vue'
+import ReportsView from '@/views/ReportsView.vue'
 
 
 // Initiatives pages
+import MiniIotLabView from '@/views/MiniIotLabView.vue'
 import ActivityView from '@/views/ActivityView.vue'
 import NanodegreeView from '@/views/NanodegreeView.vue'
 import ProjectView from '@/views/ProjectView.vue'
@@ -83,7 +85,19 @@ const router = createRouter({
       component: NewsView,
       meta: { title: 'News' }
     },
+    {
+      path: '/reports',
+      name: 'reports',
+      component: ReportsView,
+      meta: { title: 'Reports' }
+    },
 
+    {
+      path: '/iot-lab',
+      name: 'iot-lab',
+      component: MiniIotLabView,
+      meta: { title: 'IoT Lab' }
+    },
     {
       path: '/projects',
       name: 'project',
