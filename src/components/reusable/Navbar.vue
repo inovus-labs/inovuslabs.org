@@ -195,7 +195,7 @@
                                 },
                                 {
                                     name: 'Inovus Profiles',
-                                    link: 'https://profile.inovuslabs.org',
+                                    link: '/',
                                     description: 'Connect with third-party tools that you\'re already using.'
                                 },
                                 {
