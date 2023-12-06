@@ -34,7 +34,7 @@
 
 
 
-    <section class="lg:p-10 p-4 my-10">
+    <section class="lg:p-10 p-4 my-10 border-b border-gray-200 dark:border-gray-700">
 
         <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
             <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
@@ -99,6 +99,32 @@
             
         </div>
 
+    </section>
+
+
+
+    <section class="lg:p-10 p-4 my-10">
+        <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
+            
+            <div class="mb-16">
+                <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+                    🌐 Locate us on the map! 🗺️
+                </h1>
+                <p class="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+                    📍 We are located in the heart of Kerala, India. We are a global team of innovators, creators, and educators. We are always looking for new opportunities to collaborate and build bridges.
+                </p>
+            </div>
+
+
+            <div class="border">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3935.5357449128255!2d76.54525327586754!3d9.462042982058442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0625fed0fbdc3d%3A0x92d3856e6404922e!2sKristu%20Jyoti%20College%20of%20Management%20and%20Technology!5e0!3m2!1sen!2sin!4v1701899787292!5m2!1sen!2sin" 
+                    width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+
+        </div>
     </section>
 
 
