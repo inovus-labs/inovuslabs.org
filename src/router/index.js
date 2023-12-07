@@ -19,6 +19,7 @@ import ProjectView from '@/views/ProjectView.vue'
 import BlogView from '@/views/BlogView.vue'
 import PodcastView from '@/views/PodcastView.vue'
 import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
+import OutreachView from '@/views/OutreachView.vue'
 
 // Contact page
 import ContactView from '@/views/ContactView.vue'
@@ -109,6 +110,12 @@ const router = createRouter({
       name: 'reccuring-events',
       component: ReccuringEventsView,
       meta: { title: 'Reccuring Events' }
+    },
+    {
+      path: '/outreach',
+      name: 'outreach',
+      component: OutreachView,
+      meta: { title: 'Outreach Programs' }
     },
     {
       path: '/blog',

@@ -214,6 +214,11 @@
                                     name: 'Reccuring Events',
                                     link: '/reccuring-events',
                                     description: 'Connect with third-party tools that you\'re already using.'
+                                },
+                                {
+                                    name: 'Outreach Programs',
+                                    link: '/outreach',
+                                    description: 'Connect with third-party tools that you\'re already using.'
                                 }
                             ]
                         ]

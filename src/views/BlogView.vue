@@ -39,6 +39,16 @@
 
 
 
+    <section class="lg:p-10 p-4 my-10"></section>
+
+
+
+
+    <StatsCounter :stats="blogStats" />
+
+
+
+
     <section class="lg:p-10 p-4 my-10">
 
         <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
@@ -76,6 +86,7 @@
     import Navbar from "@/components/reusable/Navbar.vue";
     import Footer from "@/components/reusable/Footer.vue";
     import BlogCard from "@/components/BlogCard.vue";
+    import StatsCounter from "../components/reusable/StatsCounter.vue";
 
     import { getBlogPosts } from "@/API/index.js";
 
@@ -84,17 +95,50 @@
         components: {
             Navbar,
             Footer,
-            BlogCard
+            BlogCard,
+            StatsCounter
         },
 
         data() {
             return {
-                projects: []
+                projects: [],
+                blogStats: [
+                    {
+                        title: "Months",
+                        value: 11,
+                        mode: "accurate"
+                    },
+                    {
+                        title: "Frequent Authors",
+                        value: 10,
+                        mode: "approximate"
+                    },
+                    {
+                        title: "Blogs Published",
+                        value: 25,
+                        mode: "approximate"
+                    },
+                    {
+                        title: "Active Users",
+                        value: 800,
+                        mode: "approximate"
+                    },
+                    {
+                        title: "Unique Views",
+                        value: 5000,
+                        mode: "approximate"
+                    },
+                    {
+                        title: "Engagements",
+                        value: 11600,
+                        mode: "approximate"
+                    }
+                ]
             }
         },
 
         async mounted() {
             this.projects = await getBlogPosts();
-        }
+        },
     }
 </script>

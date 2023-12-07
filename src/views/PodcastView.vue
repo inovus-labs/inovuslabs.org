@@ -35,6 +35,16 @@
 
 
 
+    <section class="lg:p-10 p-4 my-10"></section>
+
+
+
+
+    <StatsCounter :stats="podcastStats" />
+
+
+
+
     <section class="lg:p-10 p-4 my-10">
 
         <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
@@ -70,6 +80,7 @@
     import Navbar from "@/components/reusable/Navbar.vue";
     import Footer from "@/components/reusable/Footer.vue";
     import PodcastCard from "@/components/PodcastCard.vue";
+    import StatsCounter from "@/components/reusable/StatsCounter.vue";
 
     import { getPodcasts } from "@/API/index.js";
 
@@ -78,12 +89,40 @@
         components: {
             Navbar,
             Footer,
-            PodcastCard
+            PodcastCard,
+            StatsCounter
         },
 
         data() {
             return {
-                podcasts: []
+                podcasts: [],
+                podcastStats: [
+                    {
+                        title: "Episodes",
+                        value: 2,
+                        mode: "accurate"
+                    },
+                    {
+                        title: "Months",
+                        value: 4,
+                        mode: "accurate"
+                    },
+                    {
+                        title: "Spotify Followers",
+                        value: 60,
+                        mode: "approximate"
+                    },
+                    {
+                        title: "All-time Plays",
+                        value: 250,
+                        mode: "approximate"
+                    },
+                    {
+                        title: "Monthly Impressions",
+                        value: 8000,
+                        mode: "approximate"
+                    },
+                ]
             }
         },
 
