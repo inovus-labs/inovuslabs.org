@@ -11,7 +11,7 @@
       </div>
       
       <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">
-        <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">Our Story: Fueling Innovation at Inovus Labs.</h1>
+        <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-5xl">Our Story: Fueling Innovation at Inovus Labs.</h1>
         <p class="mb-8 text-lg font-normal text-secondary lg:text-xl sm:px-16 lg:px-48">Discover the genesis, purpose, and vision that fuels Inovus Labs IEDC's commitment to innovation and entrepreneurship.</p>
         <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary">
@@ -30,55 +30,82 @@
   </section>
 
 
-  <section class="py-10 px-4">
-    
-    
-    <div class="mx-auto max-w-screen-xl text-center w-full py-4 lg:pt-10">
-      <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">We invest in the world’s potential</h1>
-      <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
-    </div>
-      
-      
-    <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-10">
-      <ol class="relative border-l border-gray-200 dark:border-gray-700">                  
-          
-        <li class="mb-10 ml-6">            
-          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-              <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-              </svg>
-          </span>
-          <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Application UI v2.0.0</h3>
-          <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 13th, 2022</time>
-          <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
-        </li>
-        
-        <li class="mb-10 ml-6">
-          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-              <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-              </svg>
-          </span>
-          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Figma v1.3.0</h3>
-          <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 7th, 2021</time>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
-        </li>
-        
-        <li class="ml-6">
-          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-              <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-              </svg>
-          </span>
-          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.2.2</h3>
-          <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2nd, 2021</time>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
-        </li>
 
-      </ol>
+  
+  
+  
+  <section class="bg-white dark:bg-gray-900 pb-10 px-4">
+
+    <div class="items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6">
+      
+      <div class="w-full" :class="{'hidden': !isMobile}">
+        <img src="../../public/assets/illustrations/about/mission.svg" alt="office content 1">
+      </div>
+      
+      <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Mission</h2>
+        <p class="mb-4 text-justify">Inovus Labs IEDC is dedicated to inspiring, supporting, and propelling the next generation of innovators and entrepreneurs. Our mission is to provide a conducive environment where aspiring minds can explore, ideate, and execute groundbreaking solutions.</p>
+        <p class="mb-4 text-justify">We aim to be the catalyst for a sustainable and thriving entrepreneurial community by offering comprehensive resources, mentorship, and a platform for the development of cutting-edge ideas.</p>
+      </div>
+
+      <div class="w-full" :class="{'hidden': isMobile}">
+        <img src="../../public/assets/illustrations/about/mission.svg" alt="office content 1">
+      </div>
 
     </div>
+
+
+
+
+
+
+    <div class="items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6">
+      
+      <div class="w-full" :class="{'pr-16': !isMobile, 'my-12': isMobile}">
+        <img class="" src="../../public/assets/illustrations/about/vision.svg" alt="office content 1">
+      </div>
+      
+      <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Vision</h2>
+        <p class="mb-4 text-justify">Our vision at Inovus Labs IEDC is to be a global hub for innovation and entrepreneurship, contributing to the creation of a better world through pioneering solutions.</p>
+        <p class="mb-4 text-justify">We aspire to be the go-to destination for individuals and teams seeking to bring about meaningful change by providing unparalleled support, fostering groundbreaking collaborations, and building a community that transcends geographical boundaries.</p>
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6 lg:pt-24 mb-12">
+      
+      <div class="w-full" :class="{'hidden': !isMobile, 'my-12': isMobile}">
+        <img src="../../public/assets/illustrations/about/objective.svg" alt="office content 1">
+      </div>
+      
+      <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Objective</h2>
+        <p class="mb-4 text-justify"><span class="text-primary font-medium">Empowerment:</span> Empower individuals with the skills, knowledge, and resources necessary to transform innovative ideas into successful ventures.</p>
+        <p class="mb-4 text-justify"><span class="text-primary font-medium">Collaboration:</span> Foster a collaborative ecosystem by facilitating partnerships between industry experts, mentors, and aspiring entrepreneurs, promoting knowledge exchange and mutual growth.</p>
+        <p class="mb-4 text-justify"><span class="text-primary font-medium">Resource Accessibility:</span> Provide comprehensive resources, including funding, workspace, technology, and mentorship, to eliminate barriers hindering the realization of innovative projects.</p>
+        <p class="mb-4 text-justify"><span class="text-primary font-medium">Community Building:</span> Cultivate a vibrant and inclusive community of innovators, entrepreneurs, and mentors, fostering a culture of support, encouragement, and shared success.</p>
+        <p class="mb-4 text-justify"><span class="text-primary font-medium">Global Impact:</span> Encourage the development of solutions with a global perspective, aiming to address societal challenges and contribute to the betterment of communities worldwide.</p>
+        <p class="mb-4 text-justify"><span class="text-primary font-medium">Sustainability: </span>Promote environmentally and socially responsible innovation, encouraging the development of solutions that align with sustainable practices and contribute to a positive impact on the planet.</p>
+        <p class="mb-4 text-justify"><span class="text-primary font-medium">Continuous Learning:</span> Facilitate a culture of continuous learning and adaptation, staying at the forefront of emerging trends and technologies to provide our community with the most relevant and valuable resources.</p>
+      </div>
+
+      <div class="w-full" :class="{'hidden': isMobile}">
+        <img class="pl-16" src="../../public/assets/illustrations/about/objective.svg" alt="office content 1">
+      </div>
+
+    </div>
+
   </section>
+
+
+
+
 
   
 
@@ -96,6 +123,27 @@
     components: {
       Navbar,
       Footer
+    },
+    data() {
+      return {
+        isMobile: false,
+      }
+    },
+    methods: {
+      checkMobile() {
+        if (window.innerWidth <= 768) {
+          this.isMobile = true;
+        } else {
+          this.isMobile = false;
+        }
+      }
+    },
+    mounted() {
+      this.checkMobile();
+      window.addEventListener('resize', this.checkMobile);
+    },
+    beforeDestroy() {
+      window.removeEventListener('resize', this.checkMobile);
     }
   }
 </script>

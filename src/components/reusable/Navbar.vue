@@ -77,7 +77,7 @@
                         <template v-for="column in item.dropdown">
                             <ul>
                                 <li v-for="subitem in column">
-                                    <a :href="subitem.link" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                                    <a :href="subitem.disabled ? null : subitem.link" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700" :class="{'opacity-50 cursor-not-allowed': subitem.disabled}">
                                         <div class="font-semibold">{{ subitem.name }}</div>
                                         <span v-if="!isMobile" class="text-sm text-gray-500 dark:text-gray-400">{{ subitem.description }}</span>
                                     </a>
@@ -127,41 +127,47 @@
                                 {
                                     name: 'About Us',
                                     link: '/about',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'Who we are and what we do. Know more about us.'
                                 },
                                 {
                                     name: 'Gallery',
                                     link: '/gallery',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'Framed memories of our journey so far.'
                                 },
                                 {
                                     name: 'Socials',
                                     link: '/socials',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'Let\'s connect on social media. We\'re everywhere.'
                                 }
                             ],
                             [
                                 {
                                     name: 'Our Team',
                                     link: '/team',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'The people who make it all happen. Meet our team.'
                                 },
                                 {
                                     name: 'News',
                                     link: '/news',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'Collection of our news and press releases.'
+                                },
+                                {
+                                    name: 'Learning Stories',
+                                    link: '/learning-stories',
+                                    description: 'Something one of a kind. Coming soon...',
+                                    disabled: true
                                 }
                             ],
                             [
                                 {
                                     name: 'Community',
                                     link: '/community',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'Our community of students and alumni. Join us.'
                                 },
                                 {
                                     name: 'Reports (Annual / Activity)',
                                     link: '/reports',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'Reports of our activities and annual reports.'
                                 }
                             ]
                         ]
@@ -174,46 +180,52 @@
                                 {
                                     name: 'Mini IoT Lab',
                                     link: '/iot-lab',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'A mini IoT lab for students to learn and explore.'
                                 },
                                 {
                                     name: 'Bootcamps / Workshops / Session',
                                     link: '/events',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'Curated list of our events, sessions & workshops.'
                                 },
                                 {
                                     name: 'Nano Degree Program',
                                     link: '/nanodegree',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'Self paced learning program for students.',
                                 }
                             ],
                             [
                                 {
                                     name: 'Inovus Blogs',
                                     link: '/blog',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'The place where we share our thoughts and ideas.'
                                 },
                                 {
                                     name: 'Inovus Profiles',
                                     link: '/',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'Something one of a kind. Coming soon...',
+                                    disabled: true
                                 },
                                 {
                                     name: 'Inovus Radio (Inora)',
                                     link: '/inora',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'Podcasts and audio stories by Inovus Labs.'
                                 }
                             ],
                             [
                                 {
                                     name: 'Opensource Projects',
                                     link: '/projects',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'Showcase of our opensource projects. Check them out.'
                                 },
                                 {
                                     name: 'Reccuring Events',
                                     link: '/reccuring-events',
-                                    description: 'Connect with third-party tools that you\'re already using.'
+                                    description: 'Here are some of our events that happen on a regular basis.'
+                                },
+                                {
+                                    name: 'Outreach Programs',
+                                    link: '/outreach',
+                                    description: 'Events and programs that we conduct outside our campus.'
                                 }
                             ]
                         ]

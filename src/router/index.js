@@ -19,6 +19,7 @@ import ProjectView from '@/views/ProjectView.vue'
 import BlogView from '@/views/BlogView.vue'
 import PodcastView from '@/views/PodcastView.vue'
 import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
+import OutreachView from '@/views/OutreachView.vue'
 
 // Contact page
 import ContactView from '@/views/ContactView.vue'
@@ -34,7 +35,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/home',
+      path: '/',
       name: 'home',
       component: HomeView,
       meta: {
@@ -111,6 +112,12 @@ const router = createRouter({
       meta: { title: 'Reccuring Events' }
     },
     {
+      path: '/outreach',
+      name: 'outreach',
+      component: OutreachView,
+      meta: { title: 'Outreach Programs' }
+    },
+    {
       path: '/blog',
       name: 'blog',
       component: BlogView,
@@ -153,12 +160,12 @@ const router = createRouter({
     },
 
     // Maintainance page
-    {
-      path: '/',
-      name: 'maintainance',
-      component: MaintainanceView,
-      meta: { title: 'Maintainance' }
-    },
+    // {
+    //   path: '/',
+    //   name: 'maintainance',
+    //   component: MaintainanceView,
+    //   meta: { title: 'Maintainance' }
+    // },
   ]
 })
 

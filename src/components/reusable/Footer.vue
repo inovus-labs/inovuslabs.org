@@ -6,7 +6,7 @@
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="/" class="flex items-center">
-                  <img src="/assets/logo.svg" class="h-12 mr-3" alt="FlowBite Logo" />
+                  <img src="/assets/logo.svg" class="h-12 mr-3" alt="Inovus Labs Logo" />
               </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -31,7 +31,7 @@
                           <a href="https://inovuslabs.org/inora" class="hover:underline ">Inovus Radio</a>
                         </li>
                         <li class="mb-2">
-                          <a href="/" class="hover:underline cursor-not-allowed">Inovus Profiles</a>
+                          <a class="opacity-50 cursor-not-allowed">Inovus Profiles</a>
                       </li>
                   </ul>
               </div>
