@@ -4,16 +4,48 @@
     <section class="bg-bgPrimary">
         <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
         
-        <!-- <h2 class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">We’ve Worked With Big And Small Alike.</h2> -->
         <div class="flex flex-wrap lg:justify-between items-center justify-center">
             
-            <template v-for="partner in partners">
-            <a href="#">
-                <div class="flex justify-center items-center">
-                <img class="h-24" :src="'../../assets/logos/' + partner.logo" :alt="partner.name" />
-                </div>
-            </a>
-            </template>                       
+            <template v-if="isMobile">
+                <swiper
+                    :modules="modules"
+                    :slides-per-view="1"
+                    :space-between="0"
+                    :loop="true"
+                    :centeredSlides="true"
+                    :autoplay="{
+                        delay: 2000,
+                        disableOnInteraction: false,
+                    }"
+                    @swiper="onSwiper"
+                    @slideChange="onSlideChange"
+                >
+    
+                    <template v-for="partner in partners">
+
+                        <swiper-slide>
+                            <a :href="partner.url" target="_blank">
+                                <div class="flex justify-center items-center">
+                                    <img class="h-24" :src="'../../assets/logos/' + partner.logo" :alt="partner.name" />
+                                </div>
+                            </a>
+                        </swiper-slide>
+
+                    </template>
+    
+                </swiper>
+            </template>
+
+
+            <template v-else>
+                <template v-for="partner in partners">
+                    <a :href="partner.url" target="_blank">
+                        <div class="flex justify-center items-center">
+                            <img class="h-24" :src="'../../assets/logos/' + partner.logo" :alt="partner.name" />
+                        </div>
+                    </a>
+                </template>
+            </template>
 
         </div>
             
@@ -24,25 +56,48 @@
 
 
 <script>
+
+    import { Swiper, SwiperSlide } from 'swiper/vue';
+    import 'swiper/scss';
+    import 'swiper/scss/autoplay';
+    import { Autoplay } from 'swiper/modules';
+
     export default {
         name: 'Partners',
+        components: {
+            Swiper,
+            SwiperSlide
+        },
+        setup() {
+            return {
+                modules: [Autoplay],
+            };
+        },
+        mounted() {
+            this.checkMobile();
+            window.addEventListener('resize', this.checkMobile);
+        },
+        beforeDestroy() {
+            window.removeEventListener('resize', this.checkMobile);
+        },
         data() {
             return {
+                isMobile: false,
                 partners: [
                     {
                         name: 'Kerala Startup Mission',
                         logo: 'ksum.png',
-                        url: '#'
+                        url: 'https://startupmission.kerala.gov.in/'
                     },
                     {
                         name: 'Innovation and Entrepreneurship Development Centre',
                         logo: 'iedc.png',
-                        url: '#'
+                        url: 'https://iedc.startupmission.in/'
                     },
                     {
                         name: 'Kristu Jyoti College of Management and Technology',
                         logo: 'kjcmt.png',
-                        url: '#'
+                        url: 'https://kjcmt.ac.in/'
                     },
                     {
                         name: 'ICT Academy of Kerala',
@@ -52,10 +107,19 @@
                     {
                         name: 'Institution\'s Innovation Council',
                         logo: 'iic.png',
-                        url: '#'
+                        url: 'https://iic.mic.gov.in/'
                     }
                 ]
             }
         },
+        methods: {
+            checkMobile() {
+                if (window.innerWidth <= 768) {
+                    this.isMobile = true;
+                } else {
+                    this.isMobile = false;
+                }
+            },
+        }
     }
 </script>
