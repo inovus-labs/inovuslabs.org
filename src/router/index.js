@@ -15,6 +15,7 @@ import ReportsView from '@/views/ReportsView.vue'
 import MiniIotLabView from '@/views/MiniIotLabView.vue'
 import ActivityView from '@/views/ActivityView.vue'
 import NanodegreeView from '@/views/NanodegreeView.vue'
+import OtherEventsView from '@/views/OtherEventsView.vue'
 import ProjectView from '@/views/ProjectView.vue'
 import BlogView from '@/views/BlogView.vue'
 import PodcastView from '@/views/PodcastView.vue'
@@ -79,6 +80,12 @@ const router = createRouter({
       name: 'nanodegree',
       component: NanodegreeView,
       meta: { title: 'Nano Degree' }
+    },
+    {
+      path: '/other-events',
+      name: 'other-events',
+      component: OtherEventsView,
+      meta: { title: 'Other Events' }
     },
     {
       path: '/news',
