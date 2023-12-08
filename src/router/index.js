@@ -35,7 +35,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/home',
+      path: '/',
       name: 'home',
       component: HomeView,
       meta: {
@@ -160,12 +160,12 @@ const router = createRouter({
     },
 
     // Maintainance page
-    {
-      path: '/',
-      name: 'maintainance',
-      component: MaintainanceView,
-      meta: { title: 'Maintainance' }
-    },
+    // {
+    //   path: '/',
+    //   name: 'maintainance',
+    //   component: MaintainanceView,
+    //   meta: { title: 'Maintainance' }
+    // },
   ]
 })
 
