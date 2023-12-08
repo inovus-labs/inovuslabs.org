@@ -14,7 +14,7 @@
                 :key="testimonial.id"
                 >
                 
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <div class=" duration-700 ease-in-out" data-carousel-item>
                     <section class="bg-bgPrimary pt-4">
                         <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
                             <figure class="max-w-screen-md mx-auto">
@@ -60,13 +60,6 @@ export default {
         return {
             testimonials: [
                 {
-                    id: 3,
-                    name: 'Arjun Krishna',
-                    position: 'Mentor',
-                    image: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png',
-                    text: 'We encourage our fellows to think out of the box in every sort of activities and promote stupid ideas, as, today\'s stupidity is tomorrow\'s wonder.'
-                },
-                {
                     id: 1,
                     name: 'Roji Thomas',
                     position: 'Nodal Officer',
@@ -80,6 +73,13 @@ export default {
                     image: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png',
                     text: 'We at Inovus Labs not only activate people to their full potential, but also develop a personalized experience that make our collegues feel more at home.'
                 },
+                // {
+                //     id: 3,
+                //     name: 'Arjun Krishna',
+                //     position: 'Mentor',
+                //     image: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png',
+                //     text: 'We encourage our fellows to think out of the box in every sort of activities and promote stupid ideas, as, today\'s stupidity is tomorrow\'s wonder.'
+                // },
             ]
         }
     }
