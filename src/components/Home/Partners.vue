@@ -6,46 +6,32 @@
         
         <div class="flex flex-wrap lg:justify-between items-center justify-center">
             
-            <template v-if="isMobile">
-                <swiper
-                    :modules="modules"
-                    :slides-per-view="1"
-                    :space-between="0"
-                    :loop="true"
-                    :centeredSlides="true"
-                    :autoplay="{
-                        delay: 2000,
-                        disableOnInteraction: false,
-                    }"
-                    @swiper="onSwiper"
-                    @slideChange="onSlideChange"
-                >
-    
-                    <template v-for="partner in partners">
+            <swiper
+                :modules="modules"
+                :slides-per-view="isMobile ? 1 : 4"
+                :space-between="30"
+                :loop="true"
+                :autoplay="{
+                    delay: 2000,
+                    disableOnInteraction: false,
+                }"
+                @swiper="onSwiper"
+                @slideChange="onSlideChange"
+            >
 
-                        <swiper-slide>
-                            <a :href="partner.url" target="_blank">
-                                <div class="flex justify-center items-center">
-                                    <img class="h-24" :src="'../../assets/logos/' + partner.logo" :alt="partner.name" />
-                                </div>
-                            </a>
-                        </swiper-slide>
-
-                    </template>
-    
-                </swiper>
-            </template>
-
-
-            <template v-else>
                 <template v-for="partner in partners">
-                    <a :href="partner.url" target="_blank">
-                        <div class="flex justify-center items-center">
-                            <img class="h-24" :src="'../../assets/logos/' + partner.logo" :alt="partner.name" />
-                        </div>
-                    </a>
+
+                    <swiper-slide>
+                        <a :href="partner.url" target="_blank">
+                            <div class="flex justify-center items-center">
+                                <img class="partner_logo max-h-24" :src="'../../assets/logos/' + partner.logo" :alt="partner.name" />
+                            </div>
+                        </a>
+                    </swiper-slide>
+
                 </template>
-            </template>
+
+            </swiper>
 
         </div>
             
@@ -108,6 +94,21 @@
                         name: 'Institution\'s Innovation Council',
                         logo: 'iic.png',
                         url: 'https://iic.mic.gov.in/'
+                    },
+                    {
+                        name: 'TibkerHub Foundation',
+                        logo: 'tinkerhub.png',
+                        url: 'https://www.tinkerhub.org/'
+                    },
+                    {
+                        name: 'GTech µLearn',
+                        logo: 'muLearn.png',
+                        url: 'https://mulearn.org/'
+                    },
+                    {
+                        name: 'Hack Club',
+                        logo: 'hackclub.png',
+                        url: 'https://hackclub.com/'
                     }
                 ]
             }
@@ -123,3 +124,17 @@
         }
     }
 </script>
+
+
+<style>
+    .partner_logo {
+        filter: grayscale(100%);
+        transition: all 0.3s ease-in-out;
+        aspect-ratio: 3/1.5;
+        object-fit: contain;
+        /* mix-blend-mode: color-burn; */
+    }
+    .partner_logo:hover {
+        filter: grayscale(0%);
+    }
+</style>
