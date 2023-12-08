@@ -14,10 +14,10 @@
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-2">
-                          <a href="#/" class="hover:underline">Certificates</a>
+                          <a class="opacity-50 cursor-not-allowed">Certificates</a>
                       </li>
                       <li>
-                          <a href="#" class="hover:underline">API Status</a>
+                          <a class="opacity-50 cursor-not-allowed">API Status</a>
                       </li>
                   </ul>
               </div>
@@ -25,10 +25,10 @@
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-2">
-                          <a href="https://blog.inovuslabs.org" class="hover:underline ">Inovus Blogs</a>
+                          <a href="https://blog.inovuslabs.org" target="_blank" class="hover:underline ">Inovus Blogs</a>
                       </li>
                       <li class="mb-2">
-                          <a href="https://inovuslabs.org/inora" class="hover:underline ">Inovus Radio</a>
+                          <a href="https://open.spotify.com/show/4QXEeK8ZWxewcXuLKCRR8R" target="_blank" class="hover:underline ">Inovus Radio</a>
                         </li>
                         <li class="mb-2">
                           <a class="opacity-50 cursor-not-allowed">Inovus Profiles</a>

@@ -46,7 +46,7 @@
 
 
 
-  <StatsCounter :stats="inovusStats" />
+  <!-- <StatsCounter :stats="inovusStats" /> -->
 
 
 
