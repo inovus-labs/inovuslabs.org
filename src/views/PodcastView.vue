@@ -163,12 +163,12 @@
                 ],
                 team: [
                     {
-                        name: "Alita Mariyam",
+                        name: "Alita Mariam Varghese",
                         role: "Host",
                         image: "/assets/inora/_alita.jpeg"
                     },
                     {
-                        name: "Amenda",
+                        name: "Amenda Maria Johnson",
                         role: "Editor",
                         image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
                     },
