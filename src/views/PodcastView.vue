@@ -35,7 +35,40 @@
 
 
 
-    <section class="lg:p-10 p-4 my-10"></section>
+    <section class="lg:p-10 p-4 mt-10">
+
+        <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
+            <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+                🎙️ Meet the maestros behind the mic! ✨
+            </h1>
+
+            <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+                🎙️ Get acquainted with the talented individuals shaping Inora: The Inovus Radio. Discover the faces, voices, and stories that bring our narrative to life. Join us on this behind-the-scenes journey. 🌟🎧
+            </p>
+            
+            
+            
+            <div class="py-8 mx-auto max-w-screen-xl text-center lg:py-12 lg:px-6">
+                <div class="grid gap-8 lg:gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-end">
+                    
+                    <template v-for="member in team">
+                        <div class="relative rounded-lg overflow-hidden h-max">
+                            <div class="rounded-lg relative">
+                                <img :src="member.image" :alt="member.name" />
+                            </div>
+                            <div class="absolute inset-0 bg-black bg-opacity-10 flex flex-col items-center justify-end pb-4">
+                                <h1 class="text-white text-xl font-bold">{{ member.name }}</h1>
+                                <p class="text-gray-100 text-sm">{{ member.role }}</p>
+                            </div>
+                        </div>
+                    </template>
+                    
+                </div>  
+            </div>
+            
+        </div>
+
+    </section>
 
 
 
@@ -121,6 +154,48 @@
                         title: "Monthly Impressions",
                         value: 8000,
                         mode: "approximate"
+                    },
+                    {
+                        title: "Happy Faces",
+                        value: "∞",
+                        mode: "string"
+                    },
+                ],
+                team: [
+                    {
+                        name: "Alita Mariyam",
+                        role: "Host",
+                        image: "/assets/inora/_alita.jpeg"
+                    },
+                    {
+                        name: "Amenda",
+                        role: "Editor",
+                        image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                    },
+                    {
+                        name: "Arjun A Acharry",
+                        role: "Creative Support",
+                        image: "/assets/team/2024/ArjunAcharry.JPG"
+                    },
+                    {
+                        name: "Joel Jacob Thomas",
+                        role: "Creative Support",
+                        image: "/assets/team/2024/JoelJacob.jpg"
+                    },
+                    {
+                        name: "Nikhil T Das",
+                        role: "Teachnical Crew",
+                        image: "/assets/team/2024/NikilTDas.jpeg"
+                    },
+                    {
+                        name: "Abhishek V Gopal",
+                        role: "Teachnical Crew",
+                        image: "/assets/team/2024/Abhishek.jpg"
+                    },
+                    {
+                        name: "Badhusha Shaji",
+                        role: "Teachnical Crew",
+                        image: "/assets/team/2024/BadhushaShaji.jpeg"
                     },
                 ]
             }
