@@ -205,7 +205,7 @@
                                 {
                                     name: 'Other Events',
                                     link: '/other-events',
-                                    description: 'Events that we take-up and cooridinate. Check them out.'
+                                    description: 'Events that we take-up and cooridinate.'
                                 }
                             ],
                             [
