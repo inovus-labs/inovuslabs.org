@@ -77,10 +77,20 @@
                         <template v-for="column in item.dropdown">
                             <ul>
                                 <li v-for="subitem in column">
-                                    <a :href="subitem.disabled ? null : subitem.link" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700" :class="{'opacity-50 cursor-not-allowed': subitem.disabled}">
-                                        <div class="font-semibold">{{ subitem.name }}</div>
-                                        <span v-if="!isMobile" class="text-sm text-gray-500 dark:text-gray-400">{{ subitem.description }}</span>
-                                    </a>
+
+                                    <div :class="isMobile && subitem.disabled ? 'hidden' : ''">
+                                        <div :class="isMobile ? 'border-b border-gray-100 dark:border-gray-700' : ''">
+                                            
+                                            <a :href="subitem.disabled ? null : subitem.link" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700" :class="{'opacity-50 cursor-not-allowed': subitem.disabled}">
+                                                <div class="font-semibold" :class="{'text-primary dark:text-blue-400': subitem.featured}">
+                                                    {{ subitem.name }}
+                                                </div>
+                                                <span v-if="!isMobile" class="text-sm text-gray-500 dark:text-gray-400">{{ subitem.description }}</span>
+                                            </a>
+                                            
+                                        </div>
+                                    </div>
+
                                 </li>
                             </ul>
                         </template>
@@ -191,24 +201,39 @@
                                     name: 'Nano Degree Program',
                                     link: '/nanodegree',
                                     description: 'Self paced learning program for students.',
+                                },
+                                {
+                                    name: 'Other Events',
+                                    link: '/other-events',
+                                    description: 'Events that we take-up and cooridinate. Check them out.'
                                 }
                             ],
                             [
                                 {
                                     name: 'Inovus Blogs',
                                     link: '/blog',
-                                    description: 'The place where we share our thoughts and ideas.'
+                                    description: 'The place where we share our thoughts and ideas.',
+                                    featured: true
+                                },
+                                {
+                                    name: 'Inovus Radio (Inora)',
+                                    link: '/inora',
+                                    description: 'Podcasts and audio stories by Inovus Labs.',
+                                    featured: true
                                 },
                                 {
                                     name: 'Inovus Profiles',
                                     link: '/',
                                     description: 'Something one of a kind. Coming soon...',
-                                    disabled: true
+                                    disabled: true,
+                                    featured: true
                                 },
                                 {
-                                    name: 'Inovus Radio (Inora)',
-                                    link: '/inora',
-                                    description: 'Podcasts and audio stories by Inovus Labs.'
+                                    name: 'Inovus Scrapbook',
+                                    link: '/scrapbook',
+                                    description: 'Something one of a kind. Coming soon...',
+                                    disabled: true,
+                                    featured: true
                                 }
                             ],
                             [
