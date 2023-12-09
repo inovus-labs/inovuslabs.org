@@ -1096,3 +1096,171 @@ export const getSocialPosts = async () => {
 
     return data;
 }
+
+
+
+// Get all authors of Inovus Blogs
+export const getBlogAuthors = async () => {
+
+    // try {
+    //     const res = await axios.get(`${import.meta.env.VITE_APP_INOVUS_BLOGS_BASE_URL}/ghost/api/content/authors/?key=${import.meta.env.VITE_APP_INOVUS_BLOGS_API_KEY}`);
+    //     return res.data.authors;
+    // } catch (error) {
+    //     console.log(error);
+    // }
+
+
+    return [
+        {
+            "id": "654666da0b27848ad66173a9",
+            "name": "Abhishek V Gopal",
+            "slug": "abhishek",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/12/abhi.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/abhishek/"
+        },
+        {
+            "id": "6540bc590b27848ad6616f50",
+            "name": "Arjun A Acharry",
+            "slug": "arjun-a-acharry",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+            "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+        },
+        {
+            "id": "653f7a27b14998447e1d36d5",
+            "name": "Arjun Krishna",
+            "slug": "arjun",
+            "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
+            "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/image-7.png",
+            "bio": "Yet another human being born towards the end of the 20th century, and continues his Exploration & Experimentation on the Technology that the 21st century has to offer.",
+            "website": "https://arjunkrishna.in/",
+            "location": "Pathanamthitta | Bangalore",
+            "facebook": null,
+            "twitter": "@Decoded_Cipher",
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/arjun/"
+        },
+        {
+            "id": "654cb82cd6af5204882b104e",
+            "name": "Athena Maria Vadakan",
+            "slug": "athena",
+            "profile_image": null,
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/athena/"
+        },
+        {
+            "id": "6540988cb14998447e1d3946",
+            "name": "Badhusha Shaji",
+            "slug": "badhusha",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/11/159407.jpg",
+            "cover_image": "https://blog.inovuslabs.org/content/images/2023/11/sukuna-mobile-3840-x-2160-9r69kpp8t3ensitv.jpg",
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/badhusha/"
+        },
+        {
+            "id": "65715b9fda4a454504859902",
+            "name": "Indhuchoodan R",
+            "slug": "indhuchoodan",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/12/photo_2023-02-12_23-57-25.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/indhuchoodan/"
+        },
+        {
+            "id": "1",
+            "name": "Inovus Labs IEDC",
+            "slug": "inovuslabs",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/Inovus_Logo-PNG-3.png",
+            "cover_image": "https://blog.inovuslabs.org/content/images/2023/12/0.jpg",
+            "bio": null,
+            "website": "https://inovuslabs.org/",
+            "location": null,
+            "facebook": null,
+            "twitter": "@InovusLabs",
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/inovuslabs/"
+        },
+        {
+            "id": "65715f4dda4a454504859925",
+            "name": "Jeevan Joseph",
+            "slug": "jeevan",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/12/135457348-ae6bf41e-2490-4a71-88aa-0bb2b252b66a--1-.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/jeevan/"
+        },
+        {
+            "id": "65715d59da4a454504859916",
+            "name": "Joseph Mathai Pathil",
+            "slug": "joseph",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/12/josephmathai10.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/joseph/"
+        },
+        {
+            "id": "65409075b14998447e1d393f",
+            "name": "Nikhil T Das",
+            "slug": "nikhil",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/da34f272-a6e1-4f6f-8414-79147fce3b5d.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/nikhil/"
+        }
+    ];
+
+};

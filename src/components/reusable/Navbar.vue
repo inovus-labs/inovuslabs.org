@@ -233,14 +233,12 @@
                                     link: '/',
                                     description: 'Something one of a kind. Coming soon...',
                                     disabled: true,
-                                    featured: true
                                 },
                                 {
                                     name: 'Inovus Scrapbook',
                                     link: '/scrapbook',
                                     description: 'Something one of a kind. Coming soon...',
                                     disabled: true,
-                                    featured: true
                                 }
                             ],
                             [

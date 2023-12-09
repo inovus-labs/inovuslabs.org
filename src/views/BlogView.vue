@@ -39,7 +39,20 @@
 
 
 
-    <section class="lg:p-10 p-4 my-10"></section>
+    <section class="lg:p-10 p-4 my-10">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                <h2 class="mb-8 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Welcome to Inovus Blogs – where words come to life! 🚀✨</h2>
+                <p class="text-justify mb-4 font-light"><a href="https://blog.inovuslabs.org/" target="_blank" class="font-medium text-primary">Inovus Blogs</a> emerged from a vision to create a dynamic space where ideas thrive and conversations flourish. Formed with the purpose of fostering a digital haven for insightful content, Inovus Blogs aims to serve as a thought-provoking platform where diverse perspectives, stories, and expertise converge. We believe in the power of words to inspire, educate, and connect.</p>
+                <p class="text-justify mb-4 font-medium">Our journey began with a commitment to providing valuable, engaging, and relevant content across a spectrum of topics. Whether it's industry insights, creative narratives, or informative pieces, Inovus Blogs is designed to be a hub where knowledge meets curiosity. We aspire to cultivate a community that not only consumes but actively participates in the exchange of ideas.</p>
+                <p class="text-justify font-medium">Looking ahead, the future of Inovus Blogs is vibrant and evolving. We are dedicated to expanding our content horizons, embracing emerging trends, and staying at the forefront of meaningful discourse. As we continue to grow, our commitment remains steadfast – to enrich, enlighten, and contribute to the ever-expanding landscape of digital content.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- <section class="lg:p-10 p-4 my-10"></section> -->
 
 
 
@@ -88,7 +101,7 @@
     import BlogCard from "@/components/BlogCard.vue";
     import StatsCounter from "../components/reusable/StatsCounter.vue";
 
-    import { getBlogPosts } from "@/API/index.js";
+    import { getBlogPosts, getBlogAuthors } from "@/API/index.js";
 
     export default {
         name: 'BlogView',
@@ -102,6 +115,7 @@
         data() {
             return {
                 projects: [],
+                authors: [],
                 blogStats: [
                     {
                         title: "Months",
@@ -139,6 +153,7 @@
 
         async mounted() {
             this.projects = await getBlogPosts();
+            this.authors = await getBlogAuthors();
         },
     }
 </script>
