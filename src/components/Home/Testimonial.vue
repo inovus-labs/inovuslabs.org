@@ -56,10 +56,8 @@
     
     import { Swiper, SwiperSlide } from 'swiper/vue';
     import 'swiper/scss';
-    import 'swiper/scss/pagination';
-    import 'swiper/scss/navigation';
     import 'swiper/scss/autoplay';
-    import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+    import { Autoplay } from 'swiper/modules';
 
     export default {
         name: 'Testimonial',
@@ -69,7 +67,7 @@
         },
         setup() {
             return {
-                modules: [Autoplay, Pagination, Navigation],
+                modules: [Autoplay],
             };
         },
         data() {
