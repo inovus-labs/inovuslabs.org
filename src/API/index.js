@@ -828,6 +828,62 @@ export const getActivity = async () => {
                 "description": "Reading day was observed on June 19. Inovus labs celebrated reading day by introducing Vayanavaram which lasted a week. This event was all about completing a book or reading a book a full week and then sharing a picture with the book on Instagram. ",
                 "date": ["20 June 2022", "26 June 2022"],
                 "tags": ["Workshop"]
+            },
+            {
+                "id": 20,
+                "title": "Inspire Orientation",
+                "thumbnail": "/assets/activity/Inspire.png",
+                "description": "The Inspire Orientation program, organized by Inovus Labs IEDC, was a significant step in empowering students to participate in the Inspire initiative conducted by the Indian Government. This initiative aims to cultivate innovation and creativity among young minds. The program featured accomplished resource persons, Nikhil T Das, Badhusha Shaji, and Abhishek V Gopal, and took place at the Offline Placid Vidhyavihar. It served as a platform to inspire and equip students from Classes 7 to 9 to turn their innovative ideas into reality",
+                "date": ["12th July 2023"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 21,
+                "title": "Empower The Students",
+                "thumbnail": "/assets/activity/Empower.png",
+                "description": "The Empower The Students program, organized by Inovus Labs IEDC, was a transformative initiative designed to empower students to develop their innovative ideas. With a distinguished panel of resource persons, including Nikhil T Das, Badhusha Shaji, Abhishek V Gopal, and Nithin Daniel, this program aimed to equip students from Classes 5 to 10 at St. Berchman's High School (SB) with the knowledge, skills, and motivation needed to participate effectively in the Indian Government's Inspire initiative.  ",
+                "date": ["14th July 2023"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 22,
+                "title": "Ideation Workshop",
+                "thumbnail": "/assets/activity/ideation.jpeg",
+                "description": "The  Ideation Workshop was organized by INOVUS LABS IEDC of Kristu Jyoti College, aiming to introduce the internal structure of PC to the students. This session facilitated students to understand application, working and practical implementations. The event featured a diverse lineup of resource persons who shared their expertise to foster student’s knowledge.  ",
+                "date": ["25th Sep 2023"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 23,
+                "title": "Dislexia Awareness Section",
+                "thumbnail": "/assets/activity/dyslexia.jpg",
+                "description": "The INOVUS LABS IEDC of Kristu Jyoti College of Management and Technology and Post Graduate department of Psychology organized a Dyslexia Awareness Class with the goal of enhancing understanding and awareness of Dyslexia among students. The class aimed to equip participants with knowledge about Dyslexia, its signs, and effective strategies for supporting individuals with Dyslexia. ",
+                "date": ["04th Oct 2023"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 24,
+                "title": "Figma Bootcamp",
+                "thumbnail": "/assets/activity/figmabootcamp.jpg",
+                "description": "Figma bootcamp was an online workshop conducted by the INOVUS LABS IEDC of Kristu Jyoti college to enhance the designing skills of students with the help of the popular designing tool called Figma. The primary and ultimate goal of the workshop was to create an unshakeable foundation in the field of designing.  ",
+                "date": ["16th Oct 2023","21st Oct 2023"],
+                "tags": ["Bootcamp"]
+            },
+            {
+                "id": 25,
+                "title": "Cyber Security Quiz",
+                "thumbnail": "/assets/activity/cyberquiz.png",
+                "description": "Cyber Security Quiz was a quiz competition conducted by INOVUS LABS IEDC of Kristu Jyoti College. Cyber security is a critical aspect of the digital age. The primary objective of this quiz session was to raise awareness about the importance of Cybersecurity practices among the students. This quiz can be treated as a valuable preparation tool which can instill a sense of continous learning, motivating students to stay updated on the latest developments in cybersecurity.",
+                "date": ["25th Oct 2023"],
+                "tags": ["Challenge"]
+            },
+            {
+                "id": 26,
+                "title": "Typing Challenge",
+                "thumbnail": "/assets/activity/typingchallenge.jpg",
+                "description": "The Empower The Students program, organized by Inovus Labs IEDC, was a transformative initiative designed to empower students to develop their innovative ideas. With a distinguished panel of resource persons, including Nikhil T Das, Badhusha Shaji, Abhishek V Gopal, and Nithin Daniel, this program aimed to equip students from Classes 5 to 10 at St. Berchman's High School (SB) with the knowledge, skills, and motivation needed to participate effectively in the Indian Government's Inspire initiative.  ",
+                "date": ["14th July 2023"],
+                "tags": ["Session"]
             }
         ]
     };
