@@ -676,7 +676,7 @@ export const getPodcasts = async () => {
 // Get all projects
 export const getActivity = async () => {
     let data = {
-        "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Exhibition"],
+        "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Exhibition","Celebration"],
         "activities": [
             {
                 "id": 1,
@@ -879,12 +879,44 @@ export const getActivity = async () => {
             },
             {
                 "id": 26,
-                "title": "Typing Challenge",
-                "thumbnail": "/assets/activity/typingchallenge.jpg",
-                "description": "The Empower The Students program, organized by Inovus Labs IEDC, was a transformative initiative designed to empower students to develop their innovative ideas. With a distinguished panel of resource persons, including Nikhil T Das, Badhusha Shaji, Abhishek V Gopal, and Nithin Daniel, this program aimed to equip students from Classes 5 to 10 at St. Berchman's High School (SB) with the knowledge, skills, and motivation needed to participate effectively in the Indian Government's Inspire initiative.  ",
-                "date": ["14th July 2023"],
-                "tags": ["Session"]
-            }
+                "title": "Launch ATOM-EV 2022",
+                "thumbnail": "/assets/activity/atomlaunch.jpg",
+                "description": "As a stepping stone to endeavor, the students initiative of IEDC of Kristu Jyoti College of Management and Technology in association with the Department of Computer Application had launch a buggy car ATOM_EV_2022 on October 18th, 2022 at 11.00 am. The initiative was driven by Indhuchoodan R and Nikhil Das (Department of computer Application) of Kristu Jyoti College of Management and Technology, Changanassery, Kerala  ",
+                "date": ["18th Oct 2022"],
+                "tags": ["Celebration"]
+            },
+            {
+                "id": 27,
+                "title": "IOT Workshop",
+                "thumbnail": "/assets/activity/iotworkshop.jpg",
+                "description": "On December 7th 2022, the fellows of Inovus Labs IEDC has conducted a workshop on the topic 'Basics of Arduino' at the Inovus Labs . The session lasted for two hours started at 10.00 AM, which included the topics like working of the Arduino Uno board with some sensors, how to use Arduino IDE and how to make simple projects using Arduino. The session ended with a quiz program consisting of questions, from the above topics. The participants are awarded with certificates of participation. Our fellows Induchoodan R and Nikhil T. Das has leaded the session. We firmly believe that this will be huge confidence boost for students who wish to pursue higher studies in the field of Internet of things and computer programming Arduino UNO",
+                "date": ["07th Dec 2022"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 28,
+                "title": "Celebrating Five Years of Inovus Labs IEDC",
+                "thumbnail": "/assets/activity/5year.png",
+                "description": "Five years ago, a seed was planted, and from that seed, Inovus Labs blossomed into a thriving Student Community. This journey has been one of continuous learning, evolving, and leaving an indelible mark on everyone associated with it. Today, we gather not just as individuals but as a united community that has embraced change, acquisition of knowledge, and the power of collaboration. This milestone would not have been possible without the collective efforts of numerous individuals who have contributed their time, passion, and dedication",
+                "date": ["5th April 2022"],
+                "tags": ["Celebration"]
+            },
+            {
+                "id": 29,
+                "title": "Entering the 100K Karma Club ",
+                "thumbnail": "/assets/activity/100KKarma.png",
+                "description": "Inovus Labs is thrilled to announce a momentous achievement that marks a significant milestone in our online presence. After dedicated efforts and unwavering commitment, we are proud to share that we have officially entered the esteemed 100K Karma Club on @gtechmulearn. Our collective endeavors have resulted in the accumulation of over 100,000 Karma Points from our various activities, a feat that has left us astounded and elated. The journey towards accumulating 100,000+ Karma Points has been a testament to our dedication and passion for creating valuable contributions within the @gtechmulearn community. ",
+                "date": ["22nd Jan 2022"],
+                "tags": ["Celebration"]
+            },
+            // {
+            //     "id": 30,
+            //     "title": "Launch ATOM-EV 2022",
+            //     "thumbnail": "/assets/activity/atomlaunch.jpg",
+            //     "description": "As a stepping stone to endeavor, the students initiative of IEDC of Kristu Jyoti College of Management and Technology in association with the Department of Computer Application had launch a buggy car ATOM_EV_2022 on October 18th, 2022 at 11.00 am. The initiative was driven by Indhuchoodan R and Nikhil Das (Department of computer Application) of Kristu Jyoti College of Management and Technology, Changanassery, Kerala  ",
+            //     "date": ["18th Oct 2022"],
+            //     "tags": ["Exhibition"]
+            // }
         ]
     };
 
@@ -1066,7 +1098,15 @@ export const getReccuringEvents = async () => {
                 "thumbnail": "/assets/reccuringevents/workbench/Template 15.png",
                 "tags": ["Weekend Workbench"]
                
-            }        
+            },{
+                "id": 22,
+                "date": "0 Dec 2023",
+                "title": "Weekend Workbench #16",
+                "description": "",
+                "thumbnail": "/assets/reccuringevents/workbench/Template 16.png",
+                "tags": ["Weekend Workbench"]
+               
+            }       
         ]
     };
 
