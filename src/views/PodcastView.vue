@@ -35,6 +35,26 @@
 
 
 
+    <section class="border-b lg:p-10 p-4 my-10">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                
+                <div class="mb-12">
+                    <h2 class="text-4xl tracking-tight font-bold text-gray-900 dark:text-white mb-2">Welcome to InoRa: The Inovus Radio! 🎙️</h2>
+                    <h3>A Bi-Monthly Spotify Podcast by Inovus – 🌐 Unveiling Stories, 💡 Inspiring Conversations, and 🚀 Shaping the Future of Auditory Exploration</h3>
+                </div>
+
+                <p class="text-justify mb-4 font-light"><a href="https://open.spotify.com/show/4QXEeK8ZWxewcXuLKCRR8R" target="_blank" class="font-medium text-primary">InoRa: The Inovus Radio</a> is not just a podcast; it's an auditory journey crafted with purpose and passion. Formed as a bi-monthly Spotify podcast, INORA stands as a testament to the belief that storytelling and meaningful conversations transcend boundaries, connecting individuals through the power of shared narratives.</p>
+                <p class="text-justify font-light"><a href="https://open.spotify.com/show/4QXEeK8ZWxewcXuLKCRR8R" target="_blank" class="font-medium text-primary">InoRa</a> was born from the desire to create a platform that goes beyond mere entertainment. It was conceived with the vision of providing a space for thought-provoking discussions, insightful interviews, and engaging stories that inspire and resonate. The podcast is a medium through which Inovus seeks to amplify diverse voices, share knowledge, and build a community that thrives on curiosity and exploration.</p>
+                <!-- <p class="text-justify font-light">It serves as a bridge between ideas and audiences. It is a platform that not only entertains but also educates, stimulates critical thinking, and fosters a sense of connection. The podcast covers a spectrum of topics ranging from industry insights and innovation to personal journeys and societal reflections. INORA is a space where diverse perspectives converge, offering listeners an opportunity to broaden their horizons and be a part of a global conversation.</p> -->
+
+            </div>
+        </div>
+    </section>
+
+
+
+
     <section class="lg:p-10 p-4 mt-10">
 
         <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
