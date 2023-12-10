@@ -1100,7 +1100,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 22,
-                "date": "0 Dec 2023",
+                "date": "09 Dec 2023",
                 "title": "Weekend Workbench #16",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template 16.png",
