@@ -1561,3 +1561,99 @@ export const getBlogAuthors = async () => {
     ];
 
 };
+
+
+
+// Get gallery images
+export const getGalleryAssets = async () => {
+
+    let data = [
+        {
+          id: 1,
+          title: 'Image 1',
+          description: 'Image 1 description',
+          largeURL: '/assets/gallery/001.jpg',
+          thumbnailURL: '/assets/gallery/001.jpg',
+        },
+        {
+          id: 2,
+          title: 'Image 2',
+          description: 'Image 2 description',
+          largeURL: '/assets/gallery/002.jpg',
+          thumbnailURL: '/assets/gallery/002.jpg',
+        },
+        {
+          id: 3,
+          title: 'Blessing Ceremony of Inovus Labs IEDC Post-renovation',
+        //   description: 'Image 3 description',
+          largeURL: '/assets/gallery/003.jpg',
+          thumbnailURL: '/assets/gallery/003.jpg',
+        },
+        {
+          id: 4,
+          title: 'Image 4',
+          description: 'Image 4 description',
+          largeURL: '/assets/gallery/004.jpg',
+          thumbnailURL: '/assets/gallery/004.jpg',
+        },
+        {
+          id: 5,
+          title: 'Image 5',
+          description: 'Image 5 description',
+          largeURL: '/assets/gallery/005.jpg',
+          thumbnailURL: '/assets/gallery/005.jpg',
+        },
+        {
+          id: 6,
+          title: 'Image 6',
+          description: 'Image 6 description',
+          largeURL: '/assets/gallery/006.jpg',
+          thumbnailURL: '/assets/gallery/006.jpg',
+        },
+        {
+          id: 7,
+        //   title: 'Image 7',
+        //   description: 'Image 7 description',
+          largeURL: '/assets/gallery/007.jpg',
+          thumbnailURL: '/assets/gallery/007.jpg',
+        },
+        {
+          id: 8,
+          title: 'Team Inovus with Mr. Deepu S Nath, MD, Faya USA.',
+          description: 'Image 8 description',
+          largeURL: '/assets/gallery/008.jpg',
+          thumbnailURL: '/assets/gallery/008.jpg',
+        },
+        {
+          id: 9,
+        //   title: 'Image 9',
+          description: 'Image 9 description',
+          largeURL: '/assets/gallery/009.jpg',
+          thumbnailURL: '/assets/gallery/009.jpg',
+        },
+        {
+          id: 10,
+          title: 'Image 10',
+          description: 'Image 10 description',
+          largeURL: '/assets/gallery/010.jpg',
+          thumbnailURL: '/assets/gallery/010.jpg',
+        },
+        {
+          id: 11,
+          title: 'Image 11',
+          description: 'Image 11 description',
+          largeURL: '/assets/gallery/011.jpg',
+          thumbnailURL: '/assets/gallery/011.jpg',
+        },
+        {
+          id: 12,
+          title: 'Team Inovus at IEDC Summit 2018',
+          description: 'Venue: Amal Jyothi College of Engineering, Kanjirappally',
+          largeURL: '/assets/gallery/iedc_ajce.jpg',
+          thumbnailURL: '/assets/gallery/iedc_ajce.jpg',
+        }
+    ]
+
+    return data;
+
+};

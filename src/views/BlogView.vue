@@ -39,7 +39,7 @@
 
 
 
-    <section class="lg:p-10 p-4 my-10">
+    <section class="border-b lg:p-10 p-4 my-10">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                 <h2 class="mb-8 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Welcome to Inovus Blogs – where words come to life! 🚀✨</h2>
@@ -67,22 +67,22 @@
         </div>
 
 
-            <div class="py-8 mx-auto max-w-screen-xl text-center lg:py-12 lg:px-6">
-                <div class="grid gap-8 lg:gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-end">
-                    
-                    <template v-for="author in authors">
-                        <div class="relative rounded-lg overflow-hidden h-80 border border-gray-200 dark:border-gray-800">
-                            <div class="rounded-lg relative h-full overflow-hidden transform transition duration-500 hover:scale-105">
-                                <img class="h-full object-cover w-full" :src="author.profile_image" :alt="author.name" />
-                            </div>
+        <div class="py-8 mx-auto max-w-screen-xl text-center lg:py-12 lg:px-6">
+            <div class="grid gap-8 lg:gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-end">
+                
+                <template v-for="author in authors">
+                    <div class="relative rounded-lg overflow-hidden h-80 border border-gray-200 dark:border-gray-800">
+                        <div class="rounded-lg relative h-full overflow-hidden transform transition duration-500 hover:scale-105">
+                            <img class="h-full object-cover w-full" :src="author.profile_image || default_image" :alt="author.name" />
                         </div>
-                    </template>
-                    
-                </div>  
-            </div>
+                    </div>
+                </template>
+                
+            </div>  
+        </div>
 
 
-        </section>
+    </section>
 
 
 
@@ -177,7 +177,8 @@
                         value: 11600,
                         mode: "approximate"
                     }
-                ]
+                ],
+                default_image: "/assets/default.svg"
             }
         },
 
