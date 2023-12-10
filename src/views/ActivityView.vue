@@ -130,11 +130,9 @@
             this.activities = response.activities;
             this.tags = ["All Events", ...response.tags];
 
-            // date is an array. sort by date (newest first) with respect to the first element in the array. if the first element is an array, then sort by the first element of that array
             this.activities.sort((a, b) => {
               return new Date(b.date[0]) - new Date(a.date[0]);
             });
-
           },
   
           selectTag(tag) {
@@ -164,7 +162,7 @@
               });
             }
           }
-  
+
         }
   
       }
