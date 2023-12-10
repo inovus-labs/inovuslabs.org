@@ -691,14 +691,14 @@ export const getActivity = async () => {
                 "thumbnail": "/assets/activity/schoolvisit.jpg",
                 "description": "On kerala piravi we have went to Gov. LP School Madappaly to intact with LKG students and have coundected small small activities.",
                 "date": ["01 November 2023"],
-                "tags": ["Workshop"]
+                "tags": ["Celebration"]
             },
             {
                 "id": 3,
                 "title": "IoT workshop",
                 "thumbnail": "/assets/activity/IOT23.jpg",
                 "description": "A holding first step to IoT. The intrested students in KJCMT have participated and gained the first step on IoT.",
-                "date": [["19 July", "20 July"], "10 August 2023"],
+                "date": [["19 July 2023", "20 July 2023"], "10 August 2023"],
                 "tags": ["Workshop"]
             },
             {
@@ -762,7 +762,7 @@ export const getActivity = async () => {
                 "title": "Hands-on IoT Workshop",
                 "thumbnail": "/assets/activity/handonIOT.jpg",
                 "description": "This is a exibition counducted at MBC kuttikanam. A bunch of intrested students to learn IoT ",
-                "date": ["27 April 2023", "28th April 2023"],
+                "date": ["27 April 2023", "28 April 2023"],
                 "tags": ["Workshop"]
             },
             {
@@ -850,7 +850,7 @@ export const getActivity = async () => {
                 "title": "Ideation Workshop",
                 "thumbnail": "/assets/activity/ideation.jpeg",
                 "description": "The  Ideation Workshop was organized by INOVUS LABS IEDC of Kristu Jyoti College, aiming to introduce the internal structure of PC to the students. This session facilitated students to understand application, working and practical implementations. The event featured a diverse lineup of resource persons who shared their expertise to foster student’s knowledge.  ",
-                "date": ["25 Sep 2023"],
+                "date": ["25 September 2023"],
                 "tags": ["Workshop"]
             },
             {
@@ -962,7 +962,7 @@ export const getActivity = async () => {
                 "title": "Empowering Dreams through Innovative Fundraising",
                 "thumbnail": "/assets/activity/edubulb.png",
                 "description": "In a remarkable display of innovation and determination, a group of visionary individuals has embarked on a journey to turn their dreams into reality. With a goal of bringing to life a transformative project, these enterprising minds are employing a unique strategy to generate funds – by giving life to yet another brilliant idea. The concept, aptly titled 'Generating Fund for an Idea, from Another Idea,' reflects a fascinating approach to fundraising that holds immense promise.",
-                "date": ["26 Sep 2020"],
+                "date": ["26 September 2020"],
                 "tags": ["Internship"]
             },
             {
@@ -1059,7 +1059,7 @@ export const getActivity = async () => {
                 "title": "ARDUINO Workshop",
                 "thumbnail": "/assets/activity/arduinoworkshop18.png",
                 "description": "Inovus Labs recently launched a new Nano-degree program focused on IoT, particularly Arduino. The program involved a series of workshops, conducted in collaboration with Kasperob Robotics Pvt. Ltd., aimed at providing training and certification. The inaugural workshop of this series took place on September 24th, 2018, at the premises of Inovus Labs. A total of 15 students from Kristu Jyoti College participated in the workshop. The event was graced by the presence of key individuals from Kasperob Robotics Pvt. Ltd., including the CEO, Mr. GITHU N.S., and the Robotics Trainer, Mr. Akhil Reghu. These experts jointly conducted the session, bringing their vast knowledge and experience to the participants.",
-                "date": ["24 Sep 2018"],
+                "date": ["24 September 2018"],
                 "tags": ["Workshop"]
             },
             {
@@ -1075,7 +1075,7 @@ export const getActivity = async () => {
                 "title": "Design Thinking Workshop",
                 "thumbnail": "/assets/activity/designthink.jpg",
                 "description": "Kerala startup mission, in association with the ICT Academy of Kerala had conducted a ‘Design Thinking Workshop ‘for future entrepreneurs, to innovate them to design their products or services by understanding the actual pain and need of the users. The 2-day workshop was lead by Mr. Sony John Bronzon, CPLP with around 24 participants, from different colleges. This workshop was coordinated by the Nodal Officer of Inovus Labs Mr Roji Thomas , and student coordinator Mr. Akhil Reghu.",
-                "date": ["11 February 2019", "12th February 2019"],
+                "date": ["11 February 2019", "12 February 2019"],
                 "tags": ["Workshop"]
             },
             {
@@ -1083,7 +1083,7 @@ export const getActivity = async () => {
                 "title": "An interactive session with GHCI Scholar, Pritika Merryl",
                 "thumbnail": "/assets/activity/intractivesession.png",
                 "description": "On September 9, 2018, a captivating session was skillfully conducted by the distinguished GHCI Scholar, Pritika Merryl. During this insightful session, Pritika Merryl graciously shared her wealth of experiences, enriching the audience with her knowledge and wisdom. Her presentation was not only informative but also inspirational, leaving a lasting impression on all those fortunate enough to attend. Pritika Merryl's expertise and passion illuminated the room, making the session a memorable and enlightening experience for everyone present.There are 38 students participated in this session . This session was coordinated by Nodal Officer of Inovus Lab,Mr Roji Thomas , student coordinator Mr Sandeep N. The eighth edition of the IEDC (Innovation and Entrepreneurship Development Cell) Summit, organized by the Kerala Startup Mission, was held on 12th October 2023 at the College of Engineering Trivandrum. The following 15 students of Kristu Jyoti college of management and technology (which includes core team members of Inovus Labs); Mentor, Arjun Krishna and Nodal officer Mr Roji Thomas  attended this event. ",
-                "date": ["09 Sep 2018"],
+                "date": ["09 September 2018"],
                 "tags": ["Session"]
             },
             {
@@ -1091,7 +1091,7 @@ export const getActivity = async () => {
                 "title": "Interactive Session with TEDx  speaker Enfa Rose George",
                 "thumbnail": "/assets/activity/intractiveenra.jpg",
                 "description": "Inovus Labs is association with department of Management  Studies conducted an interactive session with TEDx  speaker Enfa Rose George who is the founder of PEHIA . She is an active writer and blogger. 62 students were participated in this session .  This session was coordinated by the Nodal Officer of Inovus Labs Mr.Roji Thomas , and student coordinator    Mr. Jithin Sha. The eighth edition of the IEDC (Innovation and Entrepreneurship Development Cell) Summit, organized by the Kerala Startup Mission, was held on 12th October 2023 at the College of Engineering Trivandrum. The following 15 students of Kristu Jyoti college of management and technology (which includes core team members of Inovus Labs); Mentor, Arjun Krishna and Nodal officer Mr Roji Thomas  attended this event. ",
-                "date": ["14 Sep 2018"],
+                "date": ["14 September 2018"],
                 "tags": ["Session"]
             },
             {
@@ -1099,7 +1099,7 @@ export const getActivity = async () => {
                 "title": "Introduction Class about Inovus Labs ",
                 "thumbnail": "/assets/activity/introtoino.jpg",
                 "description": "On September 8, 2018, Inovus Labs' core members delivered a captivating introduction class to our first-year students. This session offered a portal into their dynamic world of innovation, weaving a narrative of accomplishments and visions. The students witnessed the evolution from humble beginnings to groundbreaking discoveries, igniting inspiration. The core members' dedication to learning, embracing challenges, and collaboration became guiding principles for their academic and professional journeys. This transformative moment sowed the seeds of innovation, encouraging students to dream big and embrace change. Nearly 240 students participated in this session.                ",
-                "date": ["08 Sep 2018"],
+                "date": ["08 September 2018"],
                 "tags": ["Session"]
             },
             {
