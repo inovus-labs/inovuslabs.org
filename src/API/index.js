@@ -957,14 +957,167 @@ export const getActivity = async () => {
                 "date": ["28th Nov 2021"],
                 "tags": ["Bootcamp"]
             },
-            // {
-            //     "id": 36,
-            //     "title": "Introduction To Figma",
-            //     "thumbnail": "/assets/activity/introfigma.png",
-            //     "description": "The efforts of Inovus Labs IEDC culminated in the Simple - Introduction to Design Using Figma workshop, a transformative online event held on July 3, 2021. With a robust participation of 36 eager learners, this workshop was designed to bridge the gap between design novices and the dynamic realm of visual creativity. Under the guidance of resource person Mr. Adhityan Jayakumar, participants embarked on an illuminating journey into the fundamentals of design, emphasizing the practical application of the Figma platform.",
-            //     "date": ["3rd July 2021"],
-            //     "tags": ["Workshop"]
-            // }
+            {
+                "id": 36,
+                "title": "Empowering Dreams through Innovative Fundraising",
+                "thumbnail": "/assets/activity/edubulb.png",
+                "description": "In a remarkable display of innovation and determination, a group of visionary individuals has embarked on a journey to turn their dreams into reality. With a goal of bringing to life a transformative project, these enterprising minds are employing a unique strategy to generate funds – by giving life to yet another brilliant idea. The concept, aptly titled 'Generating Fund for an Idea, from Another Idea,' reflects a fascinating approach to fundraising that holds immense promise.",
+                "date": ["26th Sep 2020"],
+                "tags": ["Internship"]
+            },
+            {
+                "id": 37,
+                "title": "LinkedIn  Hack",
+                "thumbnail": "/assets/activity/linkedinhack.jpg",
+                "description": "The LinkedIn Hack event, held on May 16, 2021, provided participants with a deep dive into the world of LinkedIn and its potential for enhancing professional growth. With 57 attendees eager to maximize their LinkedIn presence, the event aimed to educate, inspire, and empower participants to leverage the platform effectively. ",
+                "date": ["16th May 2021"],
+                "tags": ["Session"]
+            }
+            ,
+            {
+                "id": 38,
+                "title": "Love Mail",
+                "thumbnail": "/assets/activity/lovemail.jpg",
+                "description": "In the spirit of love and camaraderie, Inovus Labs organized a unique and engaging program, LoveMail, LoveTweet, LoveByte, to celebrate Valentine's Day 2021. This program was designed to bring the community together, encourage creativity, and spread love and positivity through various challenges. As a hub for both technical and non-technical activities, Inovus Labs aimed to create a memorable and enriching experience for all participants. The LoveMail, LoveTweet, LoveByte program brought forth an array of exciting challenges that aimed to inspire participants to explore their creative sides while embracing the Valentine's Day theme. The LoveMail, LoveTweet, LoveByte program organized by Inovus Labs for Valentine's Day 2021 was a resounding success in fostering a sense of togetherness, creativity, and learning within the community. Through challenges that embraced both emotional expression and technical innovation, participants had the chance to showcase their talents, spread positivity, and connect with fellow community members. This program not only celebrated the theme of love but also celebrated the diverse talents and passions that make the Inovus Labs community truly exceptional.",
+                "date": ["14th Feb 2021"],
+                "tags": ["Celebration"]
+            },
+            {
+                "id": 39,
+                "title": "“Nammuk Samsarikam” Alumni Get Together ",
+                "thumbnail": "/assets/activity/namuksamsarikam.png",
+                "description": "The Alumni Get-Together Namuku Samsarikam organized by the Inovus Labs Innovation and Entrepreneurship Development Center (IEDC) brought together 57 alumni from various batches. The event aimed to provide a platform for former students to reconnect, share their professional journeys, and discuss their contributions during their time at Inovus Labs.",
+                "date": ["24th May 2021"],
+                "tags": ["Celebration"]
+            },
+            {
+                "id": 40,
+                "title": "Stupid Idea Contest",
+                "thumbnail": "/assets/activity/stupididea2020.png",
+                "description": "Inovus Labs, organized a unique event called the Stupid Idea Contest on December 18, 2020. The event aimed to encourage students to think outside the box, challenge conventional thinking, and present seemingly nonsensical ideas that could potentially lead to groundbreaking innovations. The contest was exclusively open to students from Kristu Jyoti College of Management and Technology. The event was positioned as a platform for students who often hesitate to share unconventional ideas due to fear of judgment or ridicule. Inovus Labs created an inclusive and supportive environment where participants were encouraged to think creatively without limitations.",
+                "date": ["18th Dec 2020"],
+                "tags": ["Challenge"]
+            },
+            {
+                "id": 41,
+                "title": "Web Designing Challenge",
+                "thumbnail": "/assets/activity/WDB.1.png",
+                "description": "The Web Designing Bootcamp for Absolute Beginners was organized by INOVUS LABS, the Innovation and Entrepreneurship Development Cell (IEDC) of Kristu Jyoti College. The bootcamp aimed to provide students with a comprehensive introduction to web designing, catering to those with little to no prior experience in the field. The event was conducted online via Zoom meetings and spanned a total duration of two weeks, starting from March 15, 2021.        ",
+                "date": ["15th March 2021"],
+                "tags": ["Bootcamp"]
+            },
+            {
+                "id": 42,
+                "title": "Empowering productive quarantine with online courses",
+                "thumbnail": "/assets/activity/online.png",
+                "description": "Inovus Labs, in association with the TinkerHub community, has launched an innovative initiative aimed at utilizing the quarantine period for productive learning. This collaboration offers a series of certified short-term online courses designed for the students of Kristu Jyoti College of Management and Technology. These courses encompass both technical and non-technical subjects, catering to a diverse range of interests and skill sets.        ",
+                "date": ["24th May 2020"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 43,
+                "title": "HANGOUT WITH INOVUS - II",
+                "thumbnail": "/assets/activity/hangout-mehar.jpg",
+                "description": "Inovus Labs, known for its commitment to fostering innovation and technology-driven learning, organized a live hangout session with Mr. Mehar M.P, the visionary founder of Tinker Hub Community. The event took place on May 5, 2020, at 5:00 PM, and was hosted on Instagram Live. The session aimed to provide insights into Mehar M.P's entrepreneurial journey and the role of TinkerHub in shaping the tech-savvy youth.   The Web Designing Bootcamp spanned two weeks, commencing on March 15, 2021, and concluding after 30 hours of instruction spread across various sessions. The schedule was thoughtfully designed to accommodate participants' academic commitments and to provide ample time for practice and self-study between sessions.",
+                "date": ["5th May 2021"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 44,
+                "title": "HANGOUT WITH INOVUS - I",
+                "thumbnail": "/assets/activity/hangout-drjimmy.jpg",
+                "description": "The Inovus labs, organized an HANGOUT WITH INOVUS event on April 25, 2020, featured Dr. Jimmy Mathew, a renowned microsurgeon, clinical professor, and co-founder of Info Clinic. The hangout was conducted online and focused on addressing the prevalence of fake news surrounding the COVID-19 pandemic. Dr.Mathew, who is also a TEDx speaker, shared insights into debunking misinformation and spreading accurate information during these challenging times. Dr. Mathew highlighted the widespread circulation of false information and rumours regarding the COVID-19 pandemic. He emphasized the role of social media in amplifying misleading content and its potential consequences on public health decisions, elucidated the adverse effects of believing and spreading fake news during a health crisis. He underscored that misinformation could lead to panic, incorrect preventive.The talk highlighted the role of both media organizations and individuals in curbing the spread of fake news. Responsible reporting and sharing accurate information were emphasized as crucial steps in maintaining public trust.                ",
+                "date": ["25th April 2020"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 45,
+                "title": "IEDC SUMMIT 2019",
+                "thumbnail": "/assets/activity/summit19.png",
+                "description": "The IEDC Summit of 2019 marked a significant gathering of creative minds and aspiring entrepreneurs in the picturesque town of Kodakara, Kerala. Hosted by Sahrdaya College of Engineering and Technology, this event centered around the essence of innovation and entrepreneurship. The Innovation and Entrepreneurship Development Centre (IEDC) facilitated an environment where attendees immersed themselves in dynamic discussions, workshops, and networking opportunities. This summit served as a catalytic platform, fostering the exchange of ground-breaking ideas and insights that are crucial for the growth of entrepreneurial ventures. Against the backdrop of Kerala's serene landscapes, participants were inspired to think outside the box and connect with like-minded visionaries, ultimately contributing to the strengthening of the entrepreneurial landscape in the region. The IEDC Summit at Sahrdaya College stood as a testament to the institution's dedication to nurturing innovation and fostering the entrepreneurial spirit.",
+                "date": ["19th Oct 2019"],
+                "tags": ["Celebration"]
+            },
+            {
+                "id": 46,
+                "title": "IEDC SUMMIT 2022",
+                "thumbnail": "/assets/activity/summit22.png",
+                "description": "Inovus Labs embarked on an exhilarating journey of innovation, entrepreneurship, and collaboration by participating in the prestigious IEDC SUMMIT 2022 – The Innovative Carnival. Held in March 2022, this event stood as Asia's largest student entrepreneurship summit, providing a platform for budding entrepreneurs, thinkers, and visionaries to converge, exchange ideas, and celebrate the spirit of innovation. The IEDC SUMMIT 2022 was nothing short of an explosion of creativity and inspiration. The event brought together the brightest minds from across the region to engage in thought-provoking discussions, interactive workshops, and showcases of groundbreaking projects. For Inovus Labs, it was a remarkable opportunity to be part of this grand celebration of innovation. The summit featured a lineup of engaging workshops and seminars, delving into topics ranging from ideation and product development to market strategies and funding. As a hub of innovation, Inovus Labs had the opportunity to showcase some of our groundbreaking projects and ideas. The summit provided an ideal platform for networking and forging collaborations. Team Inovus Labs seized this opportunity to connect with industry experts, mentors, fellow entrepreneurs, and potential partners, fostering relationships that have the potential to shape our future endeavors.",
+                "date": ["6th March 2022"],
+                "tags": ["Celebration"]
+            },
+            {
+                "id": 47,
+                "title": "IEDC SUMMIT 2023",
+                "thumbnail": "/assets/activity/summit2023.png",
+                "description": "The eighth edition of the IEDC (Innovation and Entrepreneurship Development Cell) Summit, organized by the Kerala Startup Mission, was held on 12th October 2023 at the College of Engineering Trivandrum. The following 15 students of Kristu Jyoti college of management and technology (which includes core team members of Inovus Labs); Mentor, Arjun Krishna and Nodal officer Mr Roji Thomas  attended this event. ",
+                "date": ["12th Oct 2023"],
+                "tags": ["Celebration"]
+            },
+            {
+                "id": 48,
+                "title": "ARDUINO Workshop",
+                "thumbnail": "/assets/activity/arduinoworkshop18.png",
+                "description": "Inovus Labs recently launched a new Nano-degree program focused on IoT, particularly Arduino. The program involved a series of workshops, conducted in collaboration with Kasperob Robotics Pvt. Ltd., aimed at providing training and certification. The inaugural workshop of this series took place on September 24th, 2018, at the premises of Inovus Labs. A total of 15 students from Kristu Jyoti College participated in the workshop. The event was graced by the presence of key individuals from Kasperob Robotics Pvt. Ltd., including the CEO, Mr. GITHU N.S., and the Robotics Trainer, Mr. Akhil Reghu. These experts jointly conducted the session, bringing their vast knowledge and experience to the participants.",
+                "date": ["24th Sep 2018"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 49,
+                "title": "Blockchain 101",
+                "thumbnail": "/assets/activity/blockchain101.jpg",
+                "description": "As we the INOVUS LABS doesn’t like to be on the wrong side of the future history , we had the topic “Blockchain 101” in our ‘weekly session on latest Technologies’ for our fellows and college faculties in-order to provide basic details and to develop  an insight on Blockchain and Cryptocurrencies.         ",
+                "date": ["13th Oct 2018"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 50,
+                "title": "Design Thinking Workshop",
+                "thumbnail": "/assets/activity/designthink.jpg",
+                "description": "Kerala startup mission, in association with the ICT Academy of Kerala had conducted a ‘Design Thinking Workshop ‘for future entrepreneurs, to innovate them to design their products or services by understanding the actual pain and need of the users. The 2-day workshop was lead by Mr. Sony John Bronzon, CPLP with around 24 participants, from different colleges. This workshop was coordinated by the Nodal Officer of Inovus Labs Mr Roji Thomas , and student coordinator Mr. Akhil Reghu.",
+                "date": ["11th Feb 2019", "12th Feb 2019"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 51,
+                "title": "An interactive session with GHCI Scholar, Pritika Merryl",
+                "thumbnail": "/assets/activity/intractivesession.png",
+                "description": "On September 9, 2018, a captivating session was skillfully conducted by the distinguished GHCI Scholar, Pritika Merryl. During this insightful session, Pritika Merryl graciously shared her wealth of experiences, enriching the audience with her knowledge and wisdom. Her presentation was not only informative but also inspirational, leaving a lasting impression on all those fortunate enough to attend. Pritika Merryl's expertise and passion illuminated the room, making the session a memorable and enlightening experience for everyone present.There are 38 students participated in this session . This session was coordinated by Nodal Officer of Inovus Lab,Mr Roji Thomas , student coordinator Mr Sandeep N. The eighth edition of the IEDC (Innovation and Entrepreneurship Development Cell) Summit, organized by the Kerala Startup Mission, was held on 12th October 2023 at the College of Engineering Trivandrum. The following 15 students of Kristu Jyoti college of management and technology (which includes core team members of Inovus Labs); Mentor, Arjun Krishna and Nodal officer Mr Roji Thomas  attended this event. ",
+                "date": ["9th Sep 2018"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 52,
+                "title": "Interactive Session with TEDx  speaker Enfa Rose George",
+                "thumbnail": "/assets/activity/intractiveenfra.png",
+                "description": "Inovus Labs is association with department of Management  Studies conducted an interactive session with TEDx  speaker Enfa Rose George who is the founder of PEHIA . She is an active writer and blogger. 62 students were participated in this session .  This session was coordinated by the Nodal Officer of Inovus Labs Mr.Roji Thomas , and student coordinator    Mr. Jithin Sha. The eighth edition of the IEDC (Innovation and Entrepreneurship Development Cell) Summit, organized by the Kerala Startup Mission, was held on 12th October 2023 at the College of Engineering Trivandrum. The following 15 students of Kristu Jyoti college of management and technology (which includes core team members of Inovus Labs); Mentor, Arjun Krishna and Nodal officer Mr Roji Thomas  attended this event. ",
+                "date": ["14th Sep 2018"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 53,
+                "title": "Introduction Class about Inovus Labs ",
+                "thumbnail": "/assets/activity/introtoino.jpg",
+                "description": "On September 8, 2018, Inovus Labs' core members delivered a captivating introduction class to our first-year students. This session offered a portal into their dynamic world of innovation, weaving a narrative of accomplishments and visions. The students witnessed the evolution from humble beginnings to groundbreaking discoveries, igniting inspiration. The core members' dedication to learning, embracing challenges, and collaboration became guiding principles for their academic and professional journeys. This transformative moment sowed the seeds of innovation, encouraging students to dream big and embrace change. Nearly 240 students participated in this session.                ",
+                "date": ["8th Sep 2018"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 54,
+                "title": "Stupid Idea Contest",
+                "thumbnail": "/assets/activity/stupididea18.jpg",
+                "description": "Inovus Labs has conducted a Stupid Idea Contest for the students and faculties of Kristu Jyoti College. The attempt was to explore the logic behind every idea, disregarding the crazy elements present in it. Various gifts were awarded to the best & crazy ideas and themes thar were deposited int the Stupid Idea Box. Complementary gifts were also awarded. There are 18 students are participated in this contest.",
+                "date": ["26th Oct 2018"],
+                "tags": ["Challenge"]
+            },
+            {
+                "id": 55,
+                "title": "Branding Challenge ",
+                "thumbnail": "/assets/activity/branding.png",
+                "description": "On May 14, 2020, Inovus Labs participated in the Branding Challenge Competition organized by Kerala Startup Mission (KSUM), an entity dedicated to promoting innovation and entrepreneurship in the state of Kerala. The competition aimed to test the creative branding skills of various participants. What started as a lighthearted endeavor turned into a remarkable achievement, as Inovus Labs secured the impressive title of 1st Runner-The victory in the Branding Challenge Competition held significant meaning for Inovus Labs.  ",
+                "date": ["14th May 2020"],
+                "tags": ["Celebration"]
+            }
         ]
     };
 
