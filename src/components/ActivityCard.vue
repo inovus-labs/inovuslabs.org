@@ -1,7 +1,24 @@
 <template>
 
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <img class="rounded-t-lg h-55 w-full" :src="data.thumbnail" :alt="data.title" />
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 fit-content">
+        
+        <div class="relative rounded-t-lg overflow-hidden border border-gray-200 dark:border-gray-800" :class="showReadMore ? 'h-80' : ''">
+            <div class="relative h-full overflow-hidden transform transition duration-500 hover:scale-105">
+                <img class="h-full object-cover w-full" :src="data.thumbnail" :alt="data.title" />
+            </div>
+
+            <!-- <div class="absolute inset-0 bg-black bg-opacity-50 rounded-lg shadow-md flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300 ease-in-out">
+                <div class="text-center text-white flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                </div>
+            </div> -->
+
+
+        </div>
+
         
         <div class="p-5 flex flex-col justify-between">
             
@@ -117,5 +134,8 @@
         -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
         overflow: hidden;
+    }
+    .fit-content {
+        height: fit-content;
     }
 </style>

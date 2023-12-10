@@ -1,7 +1,13 @@
 <template>
 
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <img class="rounded-t-lg h-44 w-full" :src="data.thumbnail" :alt="data.title" />
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 fit-content">
+        
+        <div class="relative rounded-t-lg overflow-hidden border border-gray-200 dark:border-gray-800" :class="showReadMore ? 'h-44' : ''">
+            <div class="relative h-full overflow-hidden transform transition duration-500 hover:scale-105">
+                <img class="h-full object-cover w-full" :src="data.thumbnail" :alt="data.title" />
+            </div>
+        </div>
+
         
         <div class="p-5 flex flex-col justify-between">
             
@@ -65,5 +71,8 @@
         -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
         overflow: hidden;
+    }
+    .fit-content {
+        height: fit-content;
     }
 </style>

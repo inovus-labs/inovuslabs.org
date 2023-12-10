@@ -51,9 +51,9 @@
       </p>
     </div>
 
-    
-    <!-- pass images only after the width and height are calculated -->
-    <PhotoSwipe :images="images" v-if="proceed > 0" />
+    <div class="mx-auto max-w-screen-2xl text-center w-full">
+      <PhotoSwipe :images="images" v-if="proceed > 0" />
+    </div>
 
 
   </section>

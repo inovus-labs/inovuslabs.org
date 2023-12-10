@@ -50,25 +50,61 @@
 
 
 
-  <section class="bg-white dark:bg-gray-900 py-10 px-4">
+  <section class="my-8 bg-white dark:bg-gray-900 py-10 px-4">
     
-    <div class="mx-auto max-w-screen-xl text-center w-full py-4 lg:pt-10">
-      <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">We invest in the world’s potential</h1>
-      <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+    <div class="mx-auto max-w-screen-xl text-center w-full py-4">
+      <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">🌱 Unveiling the Seeds of Innovation! ✨</h1>
+      <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">💼 Explore the business ideas and non-profit initiatives nurtured in the fertile grounds of Inovus Labs IEDC. From inception to fruition, witness the evolution of groundbreaking concepts and entrepreneurial ventures that redefine the landscape. 💡</p>
     </div>
 
 
-    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6">
-      <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2>
-          <p class="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
-          <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
-      </div>
-      <div class="grid grid-cols-2 gap-4 mt-8">
-          <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
-          <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
-      </div>
-    </div>
+    <section class="mx-auto max-w-screen-2xl w-full py-4 lg:pt-10">
+        
+      <swiper
+        :modules="modules"
+        :slides-per-view="isMobile ? 1 : 2"
+        :space-between="30"
+        :speed="1000"
+        :loop="true"
+        :autoplay="{
+          delay: 3000,
+          disableOnInteraction: true,
+        }"
+        @swiper="onSwiper"
+        @slideChange="onSlideChange"
+      >
+      
+        <template
+          v-for="startup in startUps"
+          :key="startup.id"
+        >
+            
+          <swiper-slide>
+
+            <div class="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 w-full" :class="isMobile ? '' : 'fit-content mx-auto flex flex-row justify-between'">
+        
+              <div class="relative overflow-hidden border-gray-200 dark:border-gray-800 p-4 m-auto" :class="isMobile ? 'w-full my-2' : 'w-1/4'">
+                <div class="relative h-40 overflow-hidden transform transition duration-500 hover:scale-105">
+                  <img class="w-full h-full object-contain" :src="startup.image" :alt="startup.name" />
+                </div>
+              </div>
+              
+              <div class="p-5 flex flex-col m-auto" :class="isMobile ? 'border-t w-full' : 'border-l w-3/4'">
+                <h5 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">{{ startup.name }}</h5>
+                <div class="flex flex-col gap-2">
+                  <p id="project_description" class="font-normal text-gray-700 dark:text-gray-400">{{ startup.description }}</p>
+                </div>
+              </div>
+
+          </div>
+
+          </swiper-slide>
+                        
+        </template>
+                  
+      </swiper>
+      
+  </section>
 
 
     
@@ -107,6 +143,12 @@
 
 
 <script>
+  
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+  import 'swiper/scss';
+  import 'swiper/scss/autoplay';
+  import { Autoplay } from 'swiper/modules';
+
   import Navbar from "@/components/reusable/Navbar.vue";
   import Footer from "@/components/reusable/Footer.vue";
 
@@ -119,6 +161,9 @@
   export default {
     name: 'HomeView',
     components: {
+      Swiper,
+      SwiperSlide,
+
       Navbar,
       Footer,
 
@@ -131,6 +176,7 @@
 
     data() {
       return {
+        isMobile: false,
         inovusStats: [
           {
               title: "Years",
@@ -162,8 +208,77 @@
               value: 2000,
               mode: "approximate"
           }
-        ]
+        ],
+
+        startUps: [
+          {
+            id: 1,
+            name: "Entinker Technology Solutions Pvt. Ltd.",
+            incubators: ["Jithin Shah M A", "Joseph Sabu"],
+            image: "/assets/logos/entinker.png",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo.",
+            link: "https://inovuslabs.com/"
+          },
+          {
+            id: 2,
+            name: "Simple Print",
+            incubators: ["Freddy Jetty Johnson"],
+            image: "/assets/logos/simple_print_black.png",
+            description: "Simpleprint is an online print service system that will serve to be a huge releif to the inefficient print media services available at present. It is an aggregator service and connects customers with Print Service Providers, thereby acting as an interface between them.",
+            link: "https://inovuslabs.com/"
+          },
+          {
+            id: 3,
+            name: "Eduknow Techno Solutions",
+            incubators: ["Jithin Shah M A"],
+            image: "/assets/logos/eduknow.png",
+            description: "Eduknow is an engagement and marketing tool for educational institutions. It helps in updating the parents with relevant information of activities related with their ward and educational institution.",
+            link: "https://inovuslabs.com/"
+          },
+          {
+            id: 4,
+            name: "DevMorphix",
+            incubators: ["Badusha Shaji", "Abhishek V Gopal", "Arjun A Acharry", ""],
+            image: "/assets/no-image.png",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo.",
+            link: "https://inovuslabs.com/"
+          },
+          {
+            id: 5,
+            name: "EduNext Community",
+            incubators: ["Nikhil T Das"],
+            image: "/assets/no-image.png",
+            description: "Edunext is a non-profit initiative aimed to develop interpersonal skills in school students through workshops,bootcamps, fireside and analytical chats",
+            link: "https://inovuslabs.com/"
+          },
+        ],
+
       }
     },
+
+    mounted() {
+      this.checkMobile();
+      window.addEventListener('resize', this.checkMobile);
+    },
+    beforeDestroy() {
+      window.removeEventListener('resize', this.checkMobile);
+    },
+
+    setup() {
+      return {
+        modules: [Autoplay],
+      };
+    },
+
+    methods: {
+      checkMobile() {
+        if (window.innerWidth <= 768) {
+          this.isMobile = true;
+        } else {
+          this.isMobile = false;
+        }
+      },
+    }
+
   }
 </script>
