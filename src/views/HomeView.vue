@@ -54,7 +54,7 @@
     
     <div class="mx-auto max-w-screen-xl text-center w-full py-4">
       <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">🌱 Unveiling the Seeds of Innovation! ✨</h1>
-      <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">💼 Explore the startup and business ideas nurtured in the fertile grounds of Inovus Labs IIedc. From inception to fruition, witness the evolution of groundbreaking concepts and entrepreneurial ventures that redefine the landscape. 💡</p>
+      <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">💼 Explore the business ideas and non-profit initiatives nurtured in the fertile grounds of Inovus Labs IEDC. From inception to fruition, witness the evolution of groundbreaking concepts and entrepreneurial ventures that redefine the landscape. 💡</p>
     </div>
 
 
