@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 
-// Get all projects
+// Get all projects 
 export const getProjects = async () => {
     let data = {
         "tags": ["Software", "Hardware", "Electronics", "Internet of Things", "Open-source", "Mechanical"],
@@ -414,6 +414,189 @@ export const getProjects = async () => {
                 "contributors": [
                     {
                         "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            }          
+            ,
+            {
+                "id": 24,
+                "title": "Smart Door",
+                "description": "The fellows of Inovus Labs IEDC created a smart door lock on the door of the inovus labs room It is opend using RFID tags",
+                "thumbnail": "/assets/projects/smartdoor.jpg",
+                "status": "progress",
+                "tags": ["Electronics, Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Nikhil T Das",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            }
+            ,
+            {
+                "id": 25,
+                "title": "KJCMT Kiosk Display",
+                "description": "The college student-created LPG (liquefied petroleum gas) detector is an innovative device designed to enhance safety in domestic and commercial environments by detecting the presence of potentially hazardous gas leaks. This compact and user-friendly device is the result of collaborative efforts and cutting-edge engineering from a group of talented and ambitious college students.",
+                "thumbnail": "/assets/projects/kiosk.png",
+                "status": "progress",
+                "tags": ["Electronics, Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Milan Sony",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Nithin Daniel",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            }
+            ,
+            {
+                "id": 26,
+                "title": "Open PC",
+                "description": "Open PC is a unique computer design where the system unit is openly fixed, providing easy access to internal components. Unlike traditional closed cases, an open PC allows users to see and interact with the motherboard, CPU, RAM, and other components without the hindrance of a closed casing. This design promotes better ventilation, aiding in cooling components for optimal performance. Open PCs often feature a minimalist and modern aesthetic, emphasizing transparency and ease of customization. Users can modify and upgrade hardware components with greater convenience, making it an attractive option for tech enthusiasts and those who enjoy a hands-on approach to computer maintenance. The open design not only offers a visually striking computer setup but also encourages a DIY spirit for users who want to personalize and optimize their computing experience.",
+                "thumbnail": "/assets/projects/openpc.jpg",
+                "status": "Completed",
+                "tags": ["Hardware","Open-source"],
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "title": "Inovus Platform",
+                "description": "All the things done in inovus labs IEDC are showcased in this platform and it will support the enthusiasts to learn technologys and etc",
+                "thumbnail": "/assets/projects/inovusplatform.png",
+                "status": "progress",
+                "tags": ["Software"],
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },{
+                        "name": "Nikhil T Das",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },{
+                        "name": "Nithin Daniel",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },{
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },{
+                        "name": "Arjun A Acharry",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+
+                ]
+            },
+            {
+                "id": 28,
+                "title": "Object detection model using OpenCV",
+                "description": "To identify the objects come in front of camera",
+                "thumbnail": "/assets/projects/Ino-mail.jpeg",
+                "status": "progress",
+                "tags": ["Electronics, Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Arjun Krishna",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }, {
+                        "name": "Nikhil T Das",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }, {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }, {
+                        "name": "Nithin Daniel",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }, {
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "title": "SOS location sending using ESP32",
+                "description": "This is a security equipment.When a person is in a emergency state they can ask help by simply cliking on a button",
+                "thumbnail": "/assets/projects/sos.png",
+                "status": "Completed",
+                "tags": ["Electronics, Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "title": "Mr.Bilberto",
+                "description": "A robot which only have a leg",
+                "thumbnail": "/assets/projects/Ino-mail.jpeg",
+                "status": "progress",
+                "tags": ["Electronics, Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },
+                    {
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 31,
+                "title": "Otto Robo",
+                "description": "A Desktop pet",
+                "thumbnail": "/assets/projects/otto.jpg",
+                "status": "progress",
+                "tags": ["Electronics, Internet of Things"],
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },{
+                        "name": "Abhishek V Gopal",
                         "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
                     }
                 ]
