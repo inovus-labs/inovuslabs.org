@@ -73,7 +73,7 @@
                 <template v-for="author in authors">
                     <div class="relative rounded-lg overflow-hidden h-80 border border-gray-200 dark:border-gray-800">
                         
-                        <div class="rounded-lg relative h-full overflow-hidden transform transition duration-500 hover:scale-105">
+                        <div class="rounded-lg relative h-full overflow-hidden transform transition duration-500">
                             <img class="h-full object-cover w-full" :src="author.profile_image || default_image" :alt="author.name" />
                         </div>
 
