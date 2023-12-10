@@ -582,7 +582,7 @@ export const getBlogPosts = async () => {
                 }
             ],
             "url": "https://blog.inovuslabs.org/instagram-vs-health/",
-            "excerpt": "Instagram is a popular social media platform and mobile app designed for sharing photos and videos. It was launched in Oct 2010 and has since become one of the most widely used social networking platforms in the world. Instagram allows users to create profiles, post photos and videos, and interact with others through likes, comments, and direct messages.\n\nInstagram has evolved significantly since its inception and has played a crucial role in shaping how people share and consume visual conte"
+            "excerpt": "Instagram is a popular social media platform and mobile app designed for sharing photos and videos. It was launched in October 2010 and has since become one of the most widely used social networking platforms in the world. Instagram allows users to create profiles, post photos and videos, and interact with others through likes, comments, and direct messages.\n\nInstagram has evolved significantly since its inception and has played a crucial role in shaping how people share and consume visual conte"
         },
         {
             "title": "The story behind a simple, yet complicated Smart Door!",
@@ -683,22 +683,22 @@ export const getActivity = async () => {
                 "title": "Web Design Bootcamp v3.0",
                 "thumbnail": "/assets/activity/WDB.jpg",
                 "description": "A nano degree program to develop the web designing skills of students at kristu jyothi college. It have been successfully completed and given the certificate of the nano degree program.",
-                "date": ["1 June 2023", "14 June 2013"],
+                "date": ["01 June 2023", "14 June 2013"],
                 "tags": ["Bootcamp"]
             },{
                 "id": 2,
                 "title": "Kerala Piravi @ Govt. LP School",
                 "thumbnail": "/assets/activity/schoolvisit.jpg",
                 "description": "On kerala piravi we have went to Gov. LP School Madappaly to intact with LKG students and have coundected small small activities.",
-                "date": ["1 Nov 2022"],
-                "tags": ["Workshop"]
+                "date": ["01 November 2023"],
+                "tags": ["Celebration"]
             },
             {
                 "id": 3,
                 "title": "IoT workshop",
                 "thumbnail": "/assets/activity/IOT23.jpg",
                 "description": "A holding first step to IoT. The intrested students in KJCMT have participated and gained the first step on IoT.",
-                "date": [["19 July", "20 July"], "10 Aug 2023"],
+                "date": [["19 July 2023", "20 July 2023"], "10 August 2023"],
                 "tags": ["Workshop"]
             },
             {
@@ -706,7 +706,7 @@ export const getActivity = async () => {
                 "title": "Debate compatition",
                 "thumbnail": "/assets/activity/debate.png",
                 "description": "A cpmpatition to encourage the talking ability of students. Severals students have participated and all have recived participation certificate",
-                "date": ["25 Nov 2023"],
+                "date": ["25 November 2022"],
                 "tags": ["Challenge"]
             },
             {
@@ -714,7 +714,7 @@ export const getActivity = async () => {
                 "title": "Stupid Idea Contest",
                 "thumbnail": "/assets/activity/stupid.png",
                 "description": "A contest to devalop the ideas of KJCMT students. They have submitted several Ideas and we have selected the best one and promoted them to do that by giving some prize to them.",
-                "date": ["3 Nov 2022", "12 Nov 2022"],
+                "date": ["03 November 2022", "12 November 2022"],
                 "tags": ["Challenge"]
             },
             {
@@ -722,7 +722,7 @@ export const getActivity = async () => {
                 "title": "Community Workshop",
                 "thumbnail": "/assets/activity/community.png",
                 "description": "This workshop was conducted to the students to make them understand how community works and how to manage a community.",
-                "date": ["6 Oct 2022"],
+                "date": ["06 October 2022"],
                 "tags": ["Workshop"]
             },
             {
@@ -730,7 +730,7 @@ export const getActivity = async () => {
                 "title": "Date with Figma",
                 "thumbnail": "/assets/activity/date_with_figma.jpg",
                 "description": "First step to figma. This event is hosted for KJCMT students to know about figma and learn about graphics designing",
-                "date": ["9 Oct 2023", "14 Oct 2023"],
+                "date": ["09 October 2023", "14 October 2023"],
                 "tags": ["Workshop"]
             },
             {
@@ -738,7 +738,7 @@ export const getActivity = async () => {
                 "title": "Intro to Hacktober Fest",
                 "thumbnail": "/assets/activity/hacktober.jpg",
                 "description": "This is a event we conducted to make out students understand what is open sourec and how to conndribute in a opensource projuct, for that we have contributer several contribution to hacktober fest",
-                "date": ["Oct 2023"],
+                "date": ["October 2023"],
                 "tags": ["Workshop"]
             },
             {
@@ -746,7 +746,7 @@ export const getActivity = async () => {
                 "title": "Invention vs Innovation",
                 "thumbnail": "/assets/activity/IvsI.jpg",
                 "description": "An orientation section for the kjcmt students to know about what is invention and innovation.It halps the students to rectify the difference birween invention and innovation . ",
-                "date": ["9 Oct 2022"],
+                "date": ["09 October 2022"],
                 "tags": ["Session"]
             },
             {
@@ -754,7 +754,7 @@ export const getActivity = async () => {
                 "title": "Call for extended team",
                 "thumbnail": "/assets/activity/Exetended.jpg",
                 "description": "The selection of our extened team. We have conducted interview of all apllayed students and selected a bunch of intrested students to inovus Fam.",
-                "date": ["4 Oct 2023", "6 Oct 2023"],
+                "date": ["04 October 2023", "06 October 2023"],
                 "tags": ["Internship"]
             },
             {
@@ -762,7 +762,7 @@ export const getActivity = async () => {
                 "title": "Hands-on IoT Workshop",
                 "thumbnail": "/assets/activity/handonIOT.jpg",
                 "description": "This is a exibition counducted at MBC kuttikanam. A bunch of intrested students to learn IoT ",
-                "date": ["27 April 2023", "28th April 2023"],
+                "date": ["27 April 2023", "28 April 2023"],
                 "tags": ["Workshop"]
             },
             {
@@ -770,7 +770,7 @@ export const getActivity = async () => {
                 "title": "IoT & Robotics Exhibition",
                 "thumbnail": "/assets/activity/Iotexebition.jpeg",
                 "description": "An exebition counducted on SB high school based on IT.They have interacted with VR glasses, hoverboard, etc . ",
-                "date": ["3 Feb 2023"],
+                "date": ["03 February 2023"],
                 "tags": ["Exhibition"]
             },
             {
@@ -778,7 +778,7 @@ export const getActivity = async () => {
                 "title": "XPOVISTA ’23",
                 "thumbnail": "/assets/activity/xpovista.JPG",
                 "description": "This is a exibition counducted by kristu jyoti HSS, We the students of inovus Labs IEDC have displayed some of our products too ",
-                "date": ["20 Sept 2023", "22 Sept 2023"],
+                "date": ["20 September 2023", "22 September 2023"],
                 "tags": ["Exhibition"]
             },
             {
@@ -786,7 +786,7 @@ export const getActivity = async () => {
                 "title": "Learn.py 2.0",
                 "thumbnail": "/assets/activity/learnpy.JPG",
                 "description": "An online event counducted for KJCMT studens to learn python. the students will get the basic knowleadge to understand and program in python",
-                "date": ["9 Sept 2022"],
+                "date": ["09 September 2022"],
                 "tags": ["Workshop"]
             },
             {
@@ -794,7 +794,7 @@ export const getActivity = async () => {
                 "title": "LED Bulb Making Workshop",
                 "thumbnail": "/assets/activity/LEDworkshop.jpg",
                 "description": "A workshop to teach students how to make LED bulbs so that make bulb and sell them there own. ",
-                "date": ["24 Jan 2023"],
+                "date": ["24 January 2023"],
                 "tags": ["workshops"]
             },
             {
@@ -802,15 +802,15 @@ export const getActivity = async () => {
                 "title": "Arduino Workshop",
                 "thumbnail": "/assets/activity/arduinoIHRD.jpeg",
                 "description": "We have counducted Arduino workshop for the students of IHRD mallapally students. It was a wonderfull experience to intract with new fellows",
-                "date": ["23 Jan 2023"],
+                "date": ["23 January 2023"],
                 "tags": ["Workshop"]
             },
             {
                 "id": 17,
                 "title": "Onam Trivia 2K22",
                 "thumbnail": "/assets/activity/onam.png",
-                "description": "Onam Trivia 2K22 an Instagram hunt conducted by Inovus Labs IEDC on 2nd Sept 2022 from 7:30 – 11:30pm. This trivia was conducted to engage with students from various departments and to make students more familiar about Onam and its traditions. The questions asked were mostly about onam and its origin. 150+ students took part in this trivia and the first one to answer each question through story reply was declared winner and awarded a bookmyshow voucher. ",
-                "date": ["2 Sept 2022"],
+                "description": "Onam Trivia 2K22 an Instagram hunt conducted by Inovus Labs IEDC on 2nd September 2022 from 7:30 – 11:30pm. This trivia was conducted to engage with students from various departments and to make students more familiar about Onam and its traditions. The questions asked were mostly about onam and its origin. 150+ students took part in this trivia and the first one to answer each question through story reply was declared winner and awarded a bookmyshow voucher. ",
+                "date": ["02 September 2022"],
                 "tags": ["Challenge"]
             },
             {
@@ -834,7 +834,7 @@ export const getActivity = async () => {
                 "title": "Inspire Orientation",
                 "thumbnail": "/assets/activity/Inspire.png",
                 "description": "The Inspire Orientation program, organized by Inovus Labs IEDC, was a significant step in empowering students to participate in the Inspire initiative conducted by the Indian Government. This initiative aims to cultivate innovation and creativity among young minds. The program featured accomplished resource persons, Nikhil T Das, Badhusha Shaji, and Abhishek V Gopal, and took place at the Offline Placid Vidhyavihar. It served as a platform to inspire and equip students from Classes 7 to 9 to turn their innovative ideas into reality",
-                "date": ["12th July 2023"],
+                "date": ["12 July 2023"],
                 "tags": ["Session"]
             },
             {
@@ -842,7 +842,7 @@ export const getActivity = async () => {
                 "title": "Empower The Students",
                 "thumbnail": "/assets/activity/Empower.png",
                 "description": "The Empower The Students program, organized by Inovus Labs IEDC, was a transformative initiative designed to empower students to develop their innovative ideas. With a distinguished panel of resource persons, including Nikhil T Das, Badhusha Shaji, Abhishek V Gopal, and Nithin Daniel, this program aimed to equip students from Classes 5 to 10 at St. Berchman's High School (SB) with the knowledge, skills, and motivation needed to participate effectively in the Indian Government's Inspire initiative.  ",
-                "date": ["14th July 2023"],
+                "date": ["14 July 2023"],
                 "tags": ["Session"]
             },
             {
@@ -850,7 +850,7 @@ export const getActivity = async () => {
                 "title": "Ideation Workshop",
                 "thumbnail": "/assets/activity/ideation.jpeg",
                 "description": "The  Ideation Workshop was organized by INOVUS LABS IEDC of Kristu Jyoti College, aiming to introduce the internal structure of PC to the students. This session facilitated students to understand application, working and practical implementations. The event featured a diverse lineup of resource persons who shared their expertise to foster student’s knowledge.  ",
-                "date": ["25th Sep 2023"],
+                "date": ["25 September 2023"],
                 "tags": ["Workshop"]
             },
             {
@@ -858,7 +858,7 @@ export const getActivity = async () => {
                 "title": "Dislexia Awareness Section",
                 "thumbnail": "/assets/activity/dyslexia.jpg",
                 "description": "The INOVUS LABS IEDC of Kristu Jyoti College of Management and Technology and Post Graduate department of Psychology organized a Dyslexia Awareness Class with the goal of enhancing understanding and awareness of Dyslexia among students. The class aimed to equip participants with knowledge about Dyslexia, its signs, and effective strategies for supporting individuals with Dyslexia. ",
-                "date": ["04th Oct 2023"],
+                "date": ["04 October 2023"],
                 "tags": ["Session"]
             },
             {
@@ -866,7 +866,7 @@ export const getActivity = async () => {
                 "title": "Figma Bootcamp",
                 "thumbnail": "/assets/activity/figmabootcamp.jpg",
                 "description": "Figma bootcamp was an online workshop conducted by the INOVUS LABS IEDC of Kristu Jyoti college to enhance the designing skills of students with the help of the popular designing tool called Figma. The primary and ultimate goal of the workshop was to create an unshakeable foundation in the field of designing.  ",
-                "date": ["16th Oct 2023","21st Oct 2023"],
+                "date": ["16 October 2023","21 October 2023"],
                 "tags": ["Bootcamp"]
             },
             {
@@ -874,7 +874,7 @@ export const getActivity = async () => {
                 "title": "Cyber Security Quiz",
                 "thumbnail": "/assets/activity/cyberquiz.png",
                 "description": "Cyber Security Quiz was a quiz competition conducted by INOVUS LABS IEDC of Kristu Jyoti College. Cyber security is a critical aspect of the digital age. The primary objective of this quiz session was to raise awareness about the importance of Cybersecurity practices among the students. This quiz can be treated as a valuable preparation tool which can instill a sense of continous learning, motivating students to stay updated on the latest developments in cybersecurity.",
-                "date": ["25th Oct 2023"],
+                "date": ["25 October 2023"],
                 "tags": ["Challenge"]
             },
             {
@@ -882,7 +882,7 @@ export const getActivity = async () => {
                 "title": "Launch ATOM-EV 2022",
                 "thumbnail": "/assets/activity/atomlaunch.jpg",
                 "description": "As a stepping stone to endeavor, the students initiative of IEDC of Kristu Jyoti College of Management and Technology in association with the Department of Computer Application had launch a buggy car ATOM_EV_2022 on October 18th, 2022 at 11.00 am. The initiative was driven by Indhuchoodan R and Nikhil Das (Department of computer Application) of Kristu Jyoti College of Management and Technology, Changanassery, Kerala  ",
-                "date": ["18th Oct 2022"],
+                "date": ["18 October 2022"],
                 "tags": ["Celebration"]
             },
             {
@@ -890,7 +890,7 @@ export const getActivity = async () => {
                 "title": "IOT Workshop",
                 "thumbnail": "/assets/activity/iotworkshop.jpg",
                 "description": "On December 7th 2022, the fellows of Inovus Labs IEDC has conducted a workshop on the topic 'Basics of Arduino' at the Inovus Labs . The session lasted for two hours started at 10.00 AM, which included the topics like working of the Arduino Uno board with some sensors, how to use Arduino IDE and how to make simple projects using Arduino. The session ended with a quiz program consisting of questions, from the above topics. The participants are awarded with certificates of participation. Our fellows Induchoodan R and Nikhil T. Das has leaded the session. We firmly believe that this will be huge confidence boost for students who wish to pursue higher studies in the field of Internet of things and computer programming Arduino UNO",
-                "date": ["07th Dec 2022"],
+                "date": ["07 December 2022"],
                 "tags": ["Workshop"]
             },
             {
@@ -898,7 +898,7 @@ export const getActivity = async () => {
                 "title": "Celebrating Five Years of Inovus Labs IEDC",
                 "thumbnail": "/assets/activity/5year.png",
                 "description": "Five years ago, a seed was planted, and from that seed, Inovus Labs blossomed into a thriving Student Community. This journey has been one of continuous learning, evolving, and leaving an indelible mark on everyone associated with it. Today, we gather not just as individuals but as a united community that has embraced change, acquisition of knowledge, and the power of collaboration. This milestone would not have been possible without the collective efforts of numerous individuals who have contributed their time, passion, and dedication",
-                "date": ["5th April 2022"],
+                "date": ["05 April 2022"],
                 "tags": ["Celebration"]
             },
             {
@@ -906,7 +906,7 @@ export const getActivity = async () => {
                 "title": "Entering the 100K Karma Club ",
                 "thumbnail": "/assets/activity/100KKarma.png",
                 "description": "Inovus Labs is thrilled to announce a momentous achievement that marks a significant milestone in our online presence. After dedicated efforts and unwavering commitment, we are proud to share that we have officially entered the esteemed 100K Karma Club on @gtechmulearn. Our collective endeavors have resulted in the accumulation of over 100,000 Karma Points from our various activities, a feat that has left us astounded and elated. The journey towards accumulating 100,000+ Karma Points has been a testament to our dedication and passion for creating valuable contributions within the @gtechmulearn community. ",
-                "date": ["22nd Jan 2022"],
+                "date": ["22 January 2022"],
                 "tags": ["Celebration"]
             },
             {
@@ -914,7 +914,7 @@ export const getActivity = async () => {
                 "title": "Introduction To Figma",
                 "thumbnail": "/assets/activity/introfigma.png",
                 "description": "The efforts of Inovus Labs IEDC culminated in the Simple - Introduction to Design Using Figma workshop, a transformative online event held on July 3, 2021. With a robust participation of 36 eager learners, this workshop was designed to bridge the gap between design novices and the dynamic realm of visual creativity. Under the guidance of resource person Mr. Adhityan Jayakumar, participants embarked on an illuminating journey into the fundamentals of design, emphasizing the practical application of the Figma platform.",
-                "date": ["3rd July 2021"],
+                "date": ["03 July 2021"],
                 "tags": ["Workshop"]
             },
             {
@@ -922,7 +922,7 @@ export const getActivity = async () => {
                 "title": "Introduction to Hacktober Fest 2021",
                 "thumbnail": "/assets/activity/21hacktober.png",
                 "description": "Inovus Labs IEDC orchestrated the Simple - Introduction to Hacktober fest workshop on October 3, 2021, providing an online space for 16 participants to grasp the essence of this annual open-source event. The workshop served as a platform to elucidate the concept of Hacktober fest and its significance in the open-source realm. Through interactive discussions held on a Discord server, participants delved into the collaborative nature of open-source contributions and learned about the tangible impact they can make. Guided by the event's objective, participants emerged with a comprehensive understanding of Hacktober fest's purpose and avenues for meaningful contributions to open-source projects. This workshop stands as a testament to Inovus Labs IEDC's commitment to fostering a culture of collaboration and innovation, encouraging participants to actively engage in the open-source community and contribute positively to the digital landscape. ",
-                "date": ["3rd Oct 2021"],
+                "date": ["03 October 2021"],
                 "tags": ["Session"]
             },
             {
@@ -930,7 +930,7 @@ export const getActivity = async () => {
                 "title": "Learn.py",
                 "thumbnail": "/assets/activity/learnpy.1.jpg",
                 "description": "The Learn.py workshop, took place on January 20, 2021. The event aimed to introduce beginners to the world of programming using the Python programming language. The workshop was conducted online, enabling participants to learn and interact remotely. The workshop proved to be an insightful and educational experience for the participants. With a total attendance of 16 enthusiastic learners, the event successfully achieved its objective of introducing Python to beginners and helping them gain valuable insights into programming concepts. ",
-                "date": ["20th June 2021"],
+                "date": ["20 June 2021"],
                 "tags": ["Workshop"]
             },
             {
@@ -938,7 +938,7 @@ export const getActivity = async () => {
                 "title": "Media Internship Program",
                 "thumbnail": "/assets/activity/mediainter.jpg",
                 "description": "The Media Team at Inovus Labs is the driving force behind creating and curating content that leaves a lasting impact on our audience. We believe that now is the perfect moment to elevate our media strategiesThe Media Team is often referred to as the face of a community, and at Inovus Labs, we're no exception. As a student community that's growing and evolving, we recognize the importance of revamping our media strategies to captivate, engage, and inspire. Our goal is to establish a meaningful connection with our audience through compelling content that sparks conversations, drives engagement, and leaves a positive impact. We looked for interns with expertise in:                ",
-                "date": ["20th Jan 2022"],
+                "date": ["20 January 2022"],
                 "tags": ["Internship"]
             },
             {
@@ -946,7 +946,7 @@ export const getActivity = async () => {
                 "title": "Simply: Blockchain Technology",
                 "thumbnail": "/assets/activity/simply-blockchain.jpg",
                 "description": "On June 25, 2021, the digital realm bore witness to a transformative event coalescing education and innovation. Inovus Labs IEDC orchestrated the Simple: Block chain Technology workshop, welcoming 31 curious minds into the world of block chain.           ",
-                "date": ["25th June 2022"],
+                "date": ["25 June 2022"],
                 "tags": ["Session"]
             },
             {
@@ -954,7 +954,7 @@ export const getActivity = async () => {
                 "title": "Web Design Bootcamp for Absolute Beginners",
                 "thumbnail": "/assets/activity/WDB.png",
                 "description": "Inovus Labs IEDC orchestrated the Web Design Bootcamp on November 28, 2021, bringing together 39 participants for an immersive online exploration of web design. This intensive bootcamp aimed to equip attendees with foundational skills in web design, specifically focusing on HTML and CSS. Through interactive online sessions facilitated on Google Meet, participants delved into the core principles of crafting visually captivating and functionally effective web pages.",
-                "date": ["28th Nov 2021"],
+                "date": ["28 November 2021"],
                 "tags": ["Bootcamp"]
             },
             {
@@ -962,7 +962,7 @@ export const getActivity = async () => {
                 "title": "Empowering Dreams through Innovative Fundraising",
                 "thumbnail": "/assets/activity/edubulb.png",
                 "description": "In a remarkable display of innovation and determination, a group of visionary individuals has embarked on a journey to turn their dreams into reality. With a goal of bringing to life a transformative project, these enterprising minds are employing a unique strategy to generate funds – by giving life to yet another brilliant idea. The concept, aptly titled 'Generating Fund for an Idea, from Another Idea,' reflects a fascinating approach to fundraising that holds immense promise.",
-                "date": ["26th Sep 2020"],
+                "date": ["26 September 2020"],
                 "tags": ["Internship"]
             },
             {
@@ -970,7 +970,7 @@ export const getActivity = async () => {
                 "title": "LinkedIn  Hack",
                 "thumbnail": "/assets/activity/linkedinhack.jpg",
                 "description": "The LinkedIn Hack event, held on May 16, 2021, provided participants with a deep dive into the world of LinkedIn and its potential for enhancing professional growth. With 57 attendees eager to maximize their LinkedIn presence, the event aimed to educate, inspire, and empower participants to leverage the platform effectively. ",
-                "date": ["16th May 2021"],
+                "date": ["16 May 2021"],
                 "tags": ["Session"]
             }
             ,
@@ -979,7 +979,7 @@ export const getActivity = async () => {
                 "title": "Love Mail",
                 "thumbnail": "/assets/activity/lovemail.jpg",
                 "description": "In the spirit of love and camaraderie, Inovus Labs organized a unique and engaging program, LoveMail, LoveTweet, LoveByte, to celebrate Valentine's Day 2021. This program was designed to bring the community together, encourage creativity, and spread love and positivity through various challenges. As a hub for both technical and non-technical activities, Inovus Labs aimed to create a memorable and enriching experience for all participants. The LoveMail, LoveTweet, LoveByte program brought forth an array of exciting challenges that aimed to inspire participants to explore their creative sides while embracing the Valentine's Day theme. The LoveMail, LoveTweet, LoveByte program organized by Inovus Labs for Valentine's Day 2021 was a resounding success in fostering a sense of togetherness, creativity, and learning within the community. Through challenges that embraced both emotional expression and technical innovation, participants had the chance to showcase their talents, spread positivity, and connect with fellow community members. This program not only celebrated the theme of love but also celebrated the diverse talents and passions that make the Inovus Labs community truly exceptional.",
-                "date": ["14th Feb 2021"],
+                "date": ["14 February 2021"],
                 "tags": ["Celebration"]
             },
             {
@@ -987,7 +987,7 @@ export const getActivity = async () => {
                 "title": "“Nammuk Samsarikam” Alumni Get Together ",
                 "thumbnail": "/assets/activity/namuksamsarikam.png",
                 "description": "The Alumni Get-Together Namuku Samsarikam organized by the Inovus Labs Innovation and Entrepreneurship Development Center (IEDC) brought together 57 alumni from various batches. The event aimed to provide a platform for former students to reconnect, share their professional journeys, and discuss their contributions during their time at Inovus Labs.",
-                "date": ["24th May 2021"],
+                "date": ["24 May 2021"],
                 "tags": ["Celebration"]
             },
             {
@@ -995,7 +995,7 @@ export const getActivity = async () => {
                 "title": "Stupid Idea Contest",
                 "thumbnail": "/assets/activity/stupididea2020.png",
                 "description": "Inovus Labs, organized a unique event called the Stupid Idea Contest on December 18, 2020. The event aimed to encourage students to think outside the box, challenge conventional thinking, and present seemingly nonsensical ideas that could potentially lead to groundbreaking innovations. The contest was exclusively open to students from Kristu Jyoti College of Management and Technology. The event was positioned as a platform for students who often hesitate to share unconventional ideas due to fear of judgment or ridicule. Inovus Labs created an inclusive and supportive environment where participants were encouraged to think creatively without limitations.",
-                "date": ["18th Dec 2020"],
+                "date": ["18 December 2020"],
                 "tags": ["Challenge"]
             },
             {
@@ -1003,7 +1003,7 @@ export const getActivity = async () => {
                 "title": "Web Designing Challenge",
                 "thumbnail": "/assets/activity/WDB.1.png",
                 "description": "The Web Designing Bootcamp for Absolute Beginners was organized by INOVUS LABS, the Innovation and Entrepreneurship Development Cell (IEDC) of Kristu Jyoti College. The bootcamp aimed to provide students with a comprehensive introduction to web designing, catering to those with little to no prior experience in the field. The event was conducted online via Zoom meetings and spanned a total duration of two weeks, starting from March 15, 2021.        ",
-                "date": ["15th March 2021"],
+                "date": ["15 March 2021"],
                 "tags": ["Bootcamp"]
             },
             {
@@ -1011,7 +1011,7 @@ export const getActivity = async () => {
                 "title": "Empowering productive quarantine with online courses",
                 "thumbnail": "/assets/activity/online.png",
                 "description": "Inovus Labs, in association with the TinkerHub community, has launched an innovative initiative aimed at utilizing the quarantine period for productive learning. This collaboration offers a series of certified short-term online courses designed for the students of Kristu Jyoti College of Management and Technology. These courses encompass both technical and non-technical subjects, catering to a diverse range of interests and skill sets.        ",
-                "date": ["24th May 2020"],
+                "date": ["24 May 2020"],
                 "tags": ["Workshop"]
             },
             {
@@ -1019,7 +1019,7 @@ export const getActivity = async () => {
                 "title": "HANGOUT WITH INOVUS - II",
                 "thumbnail": "/assets/activity/hangout-mehar.jpg",
                 "description": "Inovus Labs, known for its commitment to fostering innovation and technology-driven learning, organized a live hangout session with Mr. Mehar M.P, the visionary founder of Tinker Hub Community. The event took place on May 5, 2020, at 5:00 PM, and was hosted on Instagram Live. The session aimed to provide insights into Mehar M.P's entrepreneurial journey and the role of TinkerHub in shaping the tech-savvy youth.   The Web Designing Bootcamp spanned two weeks, commencing on March 15, 2021, and concluding after 30 hours of instruction spread across various sessions. The schedule was thoughtfully designed to accommodate participants' academic commitments and to provide ample time for practice and self-study between sessions.",
-                "date": ["5th May 2021"],
+                "date": ["05 May 2021"],
                 "tags": ["Session"]
             },
             {
@@ -1027,7 +1027,7 @@ export const getActivity = async () => {
                 "title": "HANGOUT WITH INOVUS - I",
                 "thumbnail": "/assets/activity/hangout-drjimmy.jpg",
                 "description": "The Inovus labs, organized an HANGOUT WITH INOVUS event on April 25, 2020, featured Dr. Jimmy Mathew, a renowned microsurgeon, clinical professor, and co-founder of Info Clinic. The hangout was conducted online and focused on addressing the prevalence of fake news surrounding the COVID-19 pandemic. Dr.Mathew, who is also a TEDx speaker, shared insights into debunking misinformation and spreading accurate information during these challenging times. Dr. Mathew highlighted the widespread circulation of false information and rumours regarding the COVID-19 pandemic. He emphasized the role of social media in amplifying misleading content and its potential consequences on public health decisions, elucidated the adverse effects of believing and spreading fake news during a health crisis. He underscored that misinformation could lead to panic, incorrect preventive.The talk highlighted the role of both media organizations and individuals in curbing the spread of fake news. Responsible reporting and sharing accurate information were emphasized as crucial steps in maintaining public trust.                ",
-                "date": ["25th April 2020"],
+                "date": ["25 April 2020"],
                 "tags": ["Session"]
             },
             {
@@ -1035,7 +1035,7 @@ export const getActivity = async () => {
                 "title": "IEDC SUMMIT 2019",
                 "thumbnail": "/assets/activity/summit19.png",
                 "description": "The IEDC Summit of 2019 marked a significant gathering of creative minds and aspiring entrepreneurs in the picturesque town of Kodakara, Kerala. Hosted by Sahrdaya College of Engineering and Technology, this event centered around the essence of innovation and entrepreneurship. The Innovation and Entrepreneurship Development Centre (IEDC) facilitated an environment where attendees immersed themselves in dynamic discussions, workshops, and networking opportunities. This summit served as a catalytic platform, fostering the exchange of ground-breaking ideas and insights that are crucial for the growth of entrepreneurial ventures. Against the backdrop of Kerala's serene landscapes, participants were inspired to think outside the box and connect with like-minded visionaries, ultimately contributing to the strengthening of the entrepreneurial landscape in the region. The IEDC Summit at Sahrdaya College stood as a testament to the institution's dedication to nurturing innovation and fostering the entrepreneurial spirit.",
-                "date": ["19th Oct 2019"],
+                "date": ["19 October 2019"],
                 "tags": ["Celebration"]
             },
             {
@@ -1043,7 +1043,7 @@ export const getActivity = async () => {
                 "title": "IEDC SUMMIT 2022",
                 "thumbnail": "/assets/activity/summit22.png",
                 "description": "Inovus Labs embarked on an exhilarating journey of innovation, entrepreneurship, and collaboration by participating in the prestigious IEDC SUMMIT 2022 – The Innovative Carnival. Held in March 2022, this event stood as Asia's largest student entrepreneurship summit, providing a platform for budding entrepreneurs, thinkers, and visionaries to converge, exchange ideas, and celebrate the spirit of innovation. The IEDC SUMMIT 2022 was nothing short of an explosion of creativity and inspiration. The event brought together the brightest minds from across the region to engage in thought-provoking discussions, interactive workshops, and showcases of groundbreaking projects. For Inovus Labs, it was a remarkable opportunity to be part of this grand celebration of innovation. The summit featured a lineup of engaging workshops and seminars, delving into topics ranging from ideation and product development to market strategies and funding. As a hub of innovation, Inovus Labs had the opportunity to showcase some of our groundbreaking projects and ideas. The summit provided an ideal platform for networking and forging collaborations. Team Inovus Labs seized this opportunity to connect with industry experts, mentors, fellow entrepreneurs, and potential partners, fostering relationships that have the potential to shape our future endeavors.",
-                "date": ["6th March 2022"],
+                "date": ["6 March 2022"],
                 "tags": ["Celebration"]
             },
             {
@@ -1051,7 +1051,7 @@ export const getActivity = async () => {
                 "title": "IEDC SUMMIT 2023",
                 "thumbnail": "/assets/activity/summit2023.png",
                 "description": "The eighth edition of the IEDC (Innovation and Entrepreneurship Development Cell) Summit, organized by the Kerala Startup Mission, was held on 12th October 2023 at the College of Engineering Trivandrum. The following 15 students of Kristu Jyoti college of management and technology (which includes core team members of Inovus Labs); Mentor, Arjun Krishna and Nodal officer Mr Roji Thomas  attended this event. ",
-                "date": ["12th Oct 2023"],
+                "date": ["12 October 2023"],
                 "tags": ["Celebration"]
             },
             {
@@ -1059,7 +1059,7 @@ export const getActivity = async () => {
                 "title": "ARDUINO Workshop",
                 "thumbnail": "/assets/activity/arduinoworkshop18.png",
                 "description": "Inovus Labs recently launched a new Nano-degree program focused on IoT, particularly Arduino. The program involved a series of workshops, conducted in collaboration with Kasperob Robotics Pvt. Ltd., aimed at providing training and certification. The inaugural workshop of this series took place on September 24th, 2018, at the premises of Inovus Labs. A total of 15 students from Kristu Jyoti College participated in the workshop. The event was graced by the presence of key individuals from Kasperob Robotics Pvt. Ltd., including the CEO, Mr. GITHU N.S., and the Robotics Trainer, Mr. Akhil Reghu. These experts jointly conducted the session, bringing their vast knowledge and experience to the participants.",
-                "date": ["24th Sep 2018"],
+                "date": ["24 September 2018"],
                 "tags": ["Workshop"]
             },
             {
@@ -1067,7 +1067,7 @@ export const getActivity = async () => {
                 "title": "Blockchain 101",
                 "thumbnail": "/assets/activity/blockchain101.jpg",
                 "description": "As we the INOVUS LABS doesn’t like to be on the wrong side of the future history , we had the topic “Blockchain 101” in our ‘weekly session on latest Technologies’ for our fellows and college faculties in-order to provide basic details and to develop  an insight on Blockchain and Cryptocurrencies.         ",
-                "date": ["13th Oct 2018"],
+                "date": ["13 October 2018"],
                 "tags": ["Session"]
             },
             {
@@ -1075,7 +1075,7 @@ export const getActivity = async () => {
                 "title": "Design Thinking Workshop",
                 "thumbnail": "/assets/activity/designthink.jpg",
                 "description": "Kerala startup mission, in association with the ICT Academy of Kerala had conducted a ‘Design Thinking Workshop ‘for future entrepreneurs, to innovate them to design their products or services by understanding the actual pain and need of the users. The 2-day workshop was lead by Mr. Sony John Bronzon, CPLP with around 24 participants, from different colleges. This workshop was coordinated by the Nodal Officer of Inovus Labs Mr Roji Thomas , and student coordinator Mr. Akhil Reghu.",
-                "date": ["11th Feb 2019", "12th Feb 2019"],
+                "date": ["11 February 2019", "12 February 2019"],
                 "tags": ["Workshop"]
             },
             {
@@ -1083,15 +1083,15 @@ export const getActivity = async () => {
                 "title": "An interactive session with GHCI Scholar, Pritika Merryl",
                 "thumbnail": "/assets/activity/intractivesession.png",
                 "description": "On September 9, 2018, a captivating session was skillfully conducted by the distinguished GHCI Scholar, Pritika Merryl. During this insightful session, Pritika Merryl graciously shared her wealth of experiences, enriching the audience with her knowledge and wisdom. Her presentation was not only informative but also inspirational, leaving a lasting impression on all those fortunate enough to attend. Pritika Merryl's expertise and passion illuminated the room, making the session a memorable and enlightening experience for everyone present.There are 38 students participated in this session . This session was coordinated by Nodal Officer of Inovus Lab,Mr Roji Thomas , student coordinator Mr Sandeep N. The eighth edition of the IEDC (Innovation and Entrepreneurship Development Cell) Summit, organized by the Kerala Startup Mission, was held on 12th October 2023 at the College of Engineering Trivandrum. The following 15 students of Kristu Jyoti college of management and technology (which includes core team members of Inovus Labs); Mentor, Arjun Krishna and Nodal officer Mr Roji Thomas  attended this event. ",
-                "date": ["9th Sep 2018"],
+                "date": ["09 September 2018"],
                 "tags": ["Session"]
             },
             {
                 "id": 52,
                 "title": "Interactive Session with TEDx  speaker Enfa Rose George",
-                "thumbnail": "/assets/activity/intractiveenfra.png",
+                "thumbnail": "/assets/activity/intractiveenra.jpg",
                 "description": "Inovus Labs is association with department of Management  Studies conducted an interactive session with TEDx  speaker Enfa Rose George who is the founder of PEHIA . She is an active writer and blogger. 62 students were participated in this session .  This session was coordinated by the Nodal Officer of Inovus Labs Mr.Roji Thomas , and student coordinator    Mr. Jithin Sha. The eighth edition of the IEDC (Innovation and Entrepreneurship Development Cell) Summit, organized by the Kerala Startup Mission, was held on 12th October 2023 at the College of Engineering Trivandrum. The following 15 students of Kristu Jyoti college of management and technology (which includes core team members of Inovus Labs); Mentor, Arjun Krishna and Nodal officer Mr Roji Thomas  attended this event. ",
-                "date": ["14th Sep 2018"],
+                "date": ["14 September 2018"],
                 "tags": ["Session"]
             },
             {
@@ -1099,7 +1099,7 @@ export const getActivity = async () => {
                 "title": "Introduction Class about Inovus Labs ",
                 "thumbnail": "/assets/activity/introtoino.jpg",
                 "description": "On September 8, 2018, Inovus Labs' core members delivered a captivating introduction class to our first-year students. This session offered a portal into their dynamic world of innovation, weaving a narrative of accomplishments and visions. The students witnessed the evolution from humble beginnings to groundbreaking discoveries, igniting inspiration. The core members' dedication to learning, embracing challenges, and collaboration became guiding principles for their academic and professional journeys. This transformative moment sowed the seeds of innovation, encouraging students to dream big and embrace change. Nearly 240 students participated in this session.                ",
-                "date": ["8th Sep 2018"],
+                "date": ["08 September 2018"],
                 "tags": ["Session"]
             },
             {
@@ -1107,7 +1107,7 @@ export const getActivity = async () => {
                 "title": "Stupid Idea Contest",
                 "thumbnail": "/assets/activity/stupididea18.jpg",
                 "description": "Inovus Labs has conducted a Stupid Idea Contest for the students and faculties of Kristu Jyoti College. The attempt was to explore the logic behind every idea, disregarding the crazy elements present in it. Various gifts were awarded to the best & crazy ideas and themes thar were deposited int the Stupid Idea Box. Complementary gifts were also awarded. There are 18 students are participated in this contest.",
-                "date": ["26th Oct 2018"],
+                "date": ["26 October 2018"],
                 "tags": ["Challenge"]
             },
             {
@@ -1115,7 +1115,7 @@ export const getActivity = async () => {
                 "title": "Branding Challenge ",
                 "thumbnail": "/assets/activity/branding.png",
                 "description": "On May 14, 2020, Inovus Labs participated in the Branding Challenge Competition organized by Kerala Startup Mission (KSUM), an entity dedicated to promoting innovation and entrepreneurship in the state of Kerala. The competition aimed to test the creative branding skills of various participants. What started as a lighthearted endeavor turned into a remarkable achievement, as Inovus Labs secured the impressive title of 1st Runner-The victory in the Branding Challenge Competition held significant meaning for Inovus Labs.  ",
-                "date": ["14th May 2020"],
+                "date": ["14 May 2020"],
                 "tags": ["Celebration"]
             }
         ]
@@ -1221,7 +1221,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 12,
-                "date": "5 Aug 2023",
+                "date": "5 August 2023",
                 "title": "Weekend Workbench #6",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template6.png",
@@ -1229,7 +1229,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 13,
-                "date": "23 Sept 2023",
+                "date": "23 September 2023",
                 "title": "Weekend Workbench #7",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template8.png",
@@ -1237,7 +1237,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 14,
-                "date": "30 Sept 2023",
+                "date": "30 September 2023",
                 "title": "Weekend Workbench #8",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template 1.png",
@@ -1245,7 +1245,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 15,
-                "date": "07 Oct 2023",
+                "date": "07 October 2023",
                 "title": "Weekend Workbench #9",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template 2.png",
@@ -1253,7 +1253,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 16,
-                "date": "14 Oct 2023",
+                "date": "14 October 2023",
                 "title": "Weekend Workbench #10",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template 3.png",
@@ -1261,7 +1261,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 17,
-                "date": "21 Oct 2023",
+                "date": "21 October 2023",
                 "title": "Weekend Workbench #11",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template 11.png",
@@ -1269,7 +1269,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 18,
-                "date": "04 Nov 2023",
+                "date": "04 November 2023",
                 "title": "Weekend Workbench #12",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template 12.png",
@@ -1277,7 +1277,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 19,
-                "date": "11 Nov 2023",
+                "date": "11 November 2023",
                 "title": "Weekend Workbench #13",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template 13.png",
@@ -1285,7 +1285,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 20,
-                "date": "18 Nov 2023",
+                "date": "18 November 2023",
                 "title": "Weekend Workbench #14",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template 14.png",
@@ -1293,7 +1293,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 21,
-                "date": "02 Dec 2023",
+                "date": "02 December 2023",
                 "title": "Weekend Workbench #15",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template 15.png",
@@ -1301,7 +1301,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 22,
-                "date": "09 Dec 2023",
+                "date": "09 December 2023",
                 "title": "Weekend Workbench #16",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template 16.png",
@@ -1393,3 +1393,267 @@ export const getSocialPosts = async () => {
 
     return data;
 }
+
+
+
+// Get all authors of Inovus Blogs
+export const getBlogAuthors = async () => {
+
+    // try {
+    //     const res = await axios.get(`${import.meta.env.VITE_APP_INOVUS_BLOGS_BASE_URL}/ghost/api/content/authors/?key=${import.meta.env.VITE_APP_INOVUS_BLOGS_API_KEY}`);
+    //     return res.data.authors;
+    // } catch (error) {
+    //     console.log(error);
+    // }
+
+
+    return [
+        {
+            "id": "654666da0b27848ad66173a9",
+            "name": "Abhishek V Gopal",
+            "slug": "abhishek",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/12/abhi.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/abhishek/"
+        },
+        {
+            "id": "6540bc590b27848ad6616f50",
+            "name": "Arjun A Acharry",
+            "slug": "arjun-a-acharry",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+            "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+        },
+        {
+            "id": "653f7a27b14998447e1d36d5",
+            "name": "Arjun Krishna",
+            "slug": "arjun",
+            "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
+            "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/image-7.png",
+            "bio": "Yet another human being born towards the end of the 20th century, and continues his Exploration & Experimentation on the Technology that the 21st century has to offer.",
+            "website": "https://arjunkrishna.in/",
+            "location": "Pathanamthitta | Bangalore",
+            "facebook": null,
+            "twitter": "@Decoded_Cipher",
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/arjun/"
+        },
+        {
+            "id": "654cb82cd6af5204882b104e",
+            "name": "Athena Maria Vadakan",
+            "slug": "athena",
+            "profile_image": null,
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/athena/"
+        },
+        {
+            "id": "6540988cb14998447e1d3946",
+            "name": "Badhusha Shaji",
+            "slug": "badhusha",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/11/159407.jpg",
+            "cover_image": "https://blog.inovuslabs.org/content/images/2023/11/sukuna-mobile-3840-x-2160-9r69kpp8t3ensitv.jpg",
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/badhusha/"
+        },
+        {
+            "id": "65715b9fda4a454504859902",
+            "name": "Indhuchoodan R",
+            "slug": "indhuchoodan",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/12/photo_2023-02-12_23-57-25.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/indhuchoodan/"
+        },
+        {
+            "id": "1",
+            "name": "Inovus Labs IEDC",
+            "slug": "inovuslabs",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/Inovus_Logo-PNG-3.png",
+            "cover_image": "https://blog.inovuslabs.org/content/images/2023/12/0.jpg",
+            "bio": null,
+            "website": "https://inovuslabs.org/",
+            "location": null,
+            "facebook": null,
+            "twitter": "@InovusLabs",
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/inovuslabs/"
+        },
+        {
+            "id": "65715f4dda4a454504859925",
+            "name": "Jeevan Joseph",
+            "slug": "jeevan",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/12/135457348-ae6bf41e-2490-4a71-88aa-0bb2b252b66a--1-.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/jeevan/"
+        },
+        {
+            "id": "65715d59da4a454504859916",
+            "name": "Joseph Mathai Pathil",
+            "slug": "joseph",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/12/josephmathai10.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/joseph/"
+        },
+        {
+            "id": "65409075b14998447e1d393f",
+            "name": "Nikhil T Das",
+            "slug": "nikhil",
+            "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/da34f272-a6e1-4f6f-8414-79147fce3b5d.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "url": "https://blog.inovuslabs.org/author/nikhil/"
+        }
+    ];
+
+};
+
+
+
+// Get gallery images
+export const getGalleryAssets = async () => {
+
+    let data = [
+        {
+          id: 1,
+          title: 'Image 1',
+          description: 'Image 1 description',
+          largeURL: '/assets/gallery/001.jpg',
+          thumbnailURL: '/assets/gallery/001.jpg',
+        },
+        {
+          id: 2,
+          title: 'Image 2',
+          description: 'Image 2 description',
+          largeURL: '/assets/gallery/002.jpg',
+          thumbnailURL: '/assets/gallery/002.jpg',
+        },
+        {
+          id: 3,
+          title: 'Blessing Ceremony of Inovus Labs IEDC Post-renovation',
+        //   description: 'Image 3 description',
+          largeURL: '/assets/gallery/003.jpg',
+          thumbnailURL: '/assets/gallery/003.jpg',
+        },
+        {
+          id: 4,
+          title: 'Image 4',
+          description: 'Image 4 description',
+          largeURL: '/assets/gallery/004.jpg',
+          thumbnailURL: '/assets/gallery/004.jpg',
+        },
+        {
+          id: 5,
+          title: 'Image 5',
+          description: 'Image 5 description',
+          largeURL: '/assets/gallery/005.jpg',
+          thumbnailURL: '/assets/gallery/005.jpg',
+        },
+        {
+          id: 6,
+          title: 'Image 6',
+          description: 'Image 6 description',
+          largeURL: '/assets/gallery/006.jpg',
+          thumbnailURL: '/assets/gallery/006.jpg',
+        },
+        {
+          id: 7,
+        //   title: 'Image 7',
+        //   description: 'Image 7 description',
+          largeURL: '/assets/gallery/007.jpg',
+          thumbnailURL: '/assets/gallery/007.jpg',
+        },
+        {
+          id: 8,
+          title: 'Team Inovus with Mr. Deepu S Nath, MD, Faya USA.',
+          description: 'Image 8 description',
+          largeURL: '/assets/gallery/008.jpg',
+          thumbnailURL: '/assets/gallery/008.jpg',
+        },
+        {
+          id: 9,
+        //   title: 'Image 9',
+          description: 'Image 9 description',
+          largeURL: '/assets/gallery/009.jpg',
+          thumbnailURL: '/assets/gallery/009.jpg',
+        },
+        {
+          id: 10,
+          title: 'Image 10',
+          description: 'Image 10 description',
+          largeURL: '/assets/gallery/010.jpg',
+          thumbnailURL: '/assets/gallery/010.jpg',
+        },
+        {
+          id: 11,
+          title: 'Image 11',
+          description: 'Image 11 description',
+          largeURL: '/assets/gallery/011.jpg',
+          thumbnailURL: '/assets/gallery/011.jpg',
+        },
+        {
+          id: 12,
+          title: 'Team Inovus at IEDC Summit 2018',
+          description: 'Venue: Amal Jyothi College of Engineering, Kanjirappally',
+          largeURL: '/assets/gallery/iedc_ajce.jpg',
+          thumbnailURL: '/assets/gallery/iedc_ajce.jpg',
+        }
+    ]
+
+    return data;
+
+};

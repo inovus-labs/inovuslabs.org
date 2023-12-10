@@ -15,7 +15,7 @@
 
                         <template v-if="data.date.length === 1">
                             <span class="bg-green-100 text-green-800 px-2.5 py-0.5 rounded text-xs font-medium w-max">
-                                {{ date }}
+                                {{ formatDate(date, true) }}
                             </span>
                         </template>
 
@@ -24,7 +24,7 @@
                             <template v-if="Array.isArray(date)">
                                 <template v-for="dt in date">
                                     <span class="bg-green-100 text-green-800 px-2.5 py-0.5 rounded text-xs font-medium w-max">
-                                        {{ dt }}
+                                        {{ formatDate(dt, false) }}
                                     </span>
                                     <span v-if="date.indexOf(dt) === 0" class="text-gray-400 text-xs font-medium w-max">
                                         to
@@ -35,7 +35,7 @@
 
                             <template v-else>
                                 <span class="bg-green-100 text-green-800 px-2.5 py-0.5 rounded text-xs font-medium w-max">
-                                    {{ date }}
+                                    {{ formatDate(date, true) }}
                                 </span>
                                 <span v-if="data.date.indexOf(date) === 0" class="text-gray-400 text-xs font-medium w-max">
                                     to
@@ -77,6 +77,27 @@
             showReadMore: {
                 type: Boolean,
                 default: false
+            }
+        },
+        methods: {
+            formatDate(date, showYear) {
+                let dateObj = new Date(date);
+                let month = dateObj.toLocaleString('default', { month: 'short' });
+                let day = dateObj.getDate().toString().padStart(2, '0');
+                let year = dateObj.getFullYear();
+
+                if(year) {
+                
+                    if(day) {
+                        return showYear ? `${day} ${month} ${year}` : `${day} ${month}`;
+                    } else {
+                        return showYear ? `${month} ${year}` : `${month}`;
+                    }
+
+                } else {
+                    return `${day} ${month}`;
+                }
+
             }
         }
     }

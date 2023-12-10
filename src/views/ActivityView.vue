@@ -129,6 +129,10 @@
             let response = await getActivity();
             this.activities = response.activities;
             this.tags = ["All Events", ...response.tags];
+
+            this.activities.sort((a, b) => {
+              return new Date(b.date[0]) - new Date(a.date[0]);
+            });
           },
   
           selectTag(tag) {
@@ -158,7 +162,7 @@
               });
             }
           }
-  
+
         }
   
       }

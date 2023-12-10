@@ -170,7 +170,7 @@
                     {
                         name: "Amenda Maria Johnson",
                         role: "Editor",
-                        image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                        image: "/assets/inora/amenda.jpeg"
                     },
                     {
                         name: "Arjun A Acharry",

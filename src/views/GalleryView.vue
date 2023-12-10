@@ -51,147 +51,15 @@
       </p>
     </div>
 
+    
+    <!-- pass images only after the width and height are calculated -->
+    <PhotoSwipe :images="images" v-if="proceed > 0" />
 
 
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+  </section>
 
-      <!-- Start : Row-1 -->
-      <div class="grid gap-4">
+  
 
-        <div class="relative rounded-lg overflow-hidden">
-          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
-            alt="">
-          <div
-            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <h1 class="text-white text-2xl font-bold">Image Title</h1>
-          </div>
-        </div>
-
-        <div class="relative rounded-lg overflow-hidden">
-          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
-            alt="">
-          <div
-            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <h1 class="text-white text-2xl font-bold">Image Title</h1>
-          </div>
-        </div>
-
-        <div class="relative rounded-lg overflow-hidden">
-          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-            alt="">
-          <div
-            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <h1 class="text-white text-2xl font-bold">Image Title</h1>
-          </div>
-        </div>
-
-      </div>
-      <!-- End : Row-1 -->
-
-
-      <!-- Start : Row-2 -->
-      <div class="grid gap-4">
-
-        <div class="relative rounded-lg overflow-hidden">
-          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-            alt="">
-          <div
-            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <h1 class="text-white text-2xl font-bold">Image Title</h1>
-          </div>
-        </div>
-
-        <div class="relative rounded-lg overflow-hidden">
-          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-            alt="">
-          <div
-            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <h1 class="text-white text-2xl font-bold">Image Title</h1>
-          </div>
-        </div>
-
-        <div class="relative rounded-lg overflow-hidden">
-          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-            alt="">
-          <div
-            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <h1 class="text-white text-2xl font-bold">Image Title</h1>
-          </div>
-        </div>
-
-      </div>
-      <!-- End : Row-2 -->
-
-
-      <!-- Start : Row-3 -->
-      <div class="grid gap-4">
-
-        <div class="relative rounded-lg overflow-hidden">
-          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-            alt="">
-          <div
-            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <h1 class="text-white text-2xl font-bold">Image Title</h1>
-          </div>
-        </div>
-
-        <div class="relative rounded-lg overflow-hidden">
-          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-            alt="">
-          <div
-            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <h1 class="text-white text-2xl font-bold">Image Title</h1>
-          </div>
-        </div>
-
-        <div class="relative rounded-lg overflow-hidden">
-          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-            alt="">
-          <div
-            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <h1 class="text-white text-2xl font-bold">Image Title</h1>
-          </div>
-        </div>
-
-      </div>
-      <!-- End : Row-3 -->
-
-
-      <!-- Start : Row-4 -->
-      <div class="grid gap-4">
-
-        <div class="relative rounded-lg overflow-hidden">
-          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
-            alt="">
-          <div
-            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <h1 class="text-white text-2xl font-bold">Image Title</h1>
-          </div>
-        </div>
-
-        <div class="relative rounded-lg overflow-hidden">
-          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
-            alt="">
-          <div
-            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <h1 class="text-white text-2xl font-bold">Image Title</h1>
-          </div>
-        </div>
-
-        <div class="relative rounded-lg overflow-hidden">
-          <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
-            alt="">
-          <div
-            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <h1 class="text-white text-2xl font-bold">Image Title</h1>
-          </div>
-        </div>
-
-    </div>
-    <!-- End : Row-4 -->
-
-  </div>
-</section>
 
 
 
@@ -202,70 +70,61 @@
 
 
 <script>
-import Navbar from "@/components/reusable/Navbar.vue";
-import Footer from "@/components/reusable/Footer.vue";
+  import Navbar from "@/components/reusable/Navbar.vue";
+  import Footer from "@/components/reusable/Footer.vue";
+  import PhotoSwipe from "@/components/PhotoSwipe.vue";
 
-export default {
-  name: 'GalleryView',
-  components: {
-    Navbar,
-    Footer
-  },
-  data() {
-    return {
-      gallery: [
-        {
-          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg',
-          title: 'Image Title'
-        },
-        {
-          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg',
-          title: 'Image Title'
-        },
-        {
-          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg',
-          title: 'Image Title'
-        },
-        {
-          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg',
-          title: 'Image Title'
-        },
-        {
-          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg',
-          title: 'Image Title'
-        },
-        {
-          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg',
-          title: 'Image Title'
-        },
-        {
-          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg',
-          title: 'Image Title'
-        },
-        {
-          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg',
-          title: 'Image Title'
-        },
-        {
-          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg',
-          title: 'Image Title'
-        },
-        {
-          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg',
-          title: 'Image Title'
-        },
-        {
-          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg',
-          title: 'Image Title'
-        },
-        {
-          image: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg',
-          title: 'Image Title'
-        }
-      ],
+  import { getGalleryAssets } from "@/API/index.js";
 
-    }
-  }
-}
+  export default {
+    name: 'GalleryView',
+    components: {
+      Navbar,
+      Footer,
+      PhotoSwipe
+    },
+    data() {
+      return {
+        proceed: false,
+        images: [],
+      };
+    },
+    methods: {
+      // get the width and height of the image
+      async getImageSize(image) {
+        return new Promise((resolve, reject) => {
+          const img = new Image();
+          img.onload = () => {
+            resolve({
+              width: img.width,
+              height: img.height,
+            });
+          };
+          img.onerror = reject;
+          img.src = image.largeURL;
+        });
+      },
+    },
+
+    async mounted() {
+
+      this.images = await getGalleryAssets();
+
+      const images = await Promise.all(
+        this.images.map(async (image) => {
+          const { width, height } = await this.getImageSize(image);
+          return {
+            ...image,
+            width,
+            height,
+          };
+        })
+      );
+
+      this.images = images;
+      this.proceed = true;
+    },
+
+  };
 
 </script>
