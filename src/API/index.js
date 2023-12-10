@@ -909,13 +909,61 @@ export const getActivity = async () => {
                 "date": ["22nd Jan 2022"],
                 "tags": ["Celebration"]
             },
+            {
+                "id": 30,
+                "title": "Introduction To Figma",
+                "thumbnail": "/assets/activity/introfigma.png",
+                "description": "The efforts of Inovus Labs IEDC culminated in the Simple - Introduction to Design Using Figma workshop, a transformative online event held on July 3, 2021. With a robust participation of 36 eager learners, this workshop was designed to bridge the gap between design novices and the dynamic realm of visual creativity. Under the guidance of resource person Mr. Adhityan Jayakumar, participants embarked on an illuminating journey into the fundamentals of design, emphasizing the practical application of the Figma platform.",
+                "date": ["3rd July 2021"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 31,
+                "title": "Introduction to Hacktober Fest 2021",
+                "thumbnail": "/assets/activity/21hacktober.png",
+                "description": "Inovus Labs IEDC orchestrated the Simple - Introduction to Hacktober fest workshop on October 3, 2021, providing an online space for 16 participants to grasp the essence of this annual open-source event. The workshop served as a platform to elucidate the concept of Hacktober fest and its significance in the open-source realm. Through interactive discussions held on a Discord server, participants delved into the collaborative nature of open-source contributions and learned about the tangible impact they can make. Guided by the event's objective, participants emerged with a comprehensive understanding of Hacktober fest's purpose and avenues for meaningful contributions to open-source projects. This workshop stands as a testament to Inovus Labs IEDC's commitment to fostering a culture of collaboration and innovation, encouraging participants to actively engage in the open-source community and contribute positively to the digital landscape. ",
+                "date": ["3rd Oct 2021"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 32,
+                "title": "Learn.py",
+                "thumbnail": "/assets/activity/learnpy.1.jpg",
+                "description": "The Learn.py workshop, took place on January 20, 2021. The event aimed to introduce beginners to the world of programming using the Python programming language. The workshop was conducted online, enabling participants to learn and interact remotely. The workshop proved to be an insightful and educational experience for the participants. With a total attendance of 16 enthusiastic learners, the event successfully achieved its objective of introducing Python to beginners and helping them gain valuable insights into programming concepts. ",
+                "date": ["20th June 2021"],
+                "tags": ["Workshop"]
+            },
+            {
+                "id": 33,
+                "title": "Media Internship Program",
+                "thumbnail": "/assets/activity/mediainter.jpg",
+                "description": "The Media Team at Inovus Labs is the driving force behind creating and curating content that leaves a lasting impact on our audience. We believe that now is the perfect moment to elevate our media strategiesThe Media Team is often referred to as the face of a community, and at Inovus Labs, we're no exception. As a student community that's growing and evolving, we recognize the importance of revamping our media strategies to captivate, engage, and inspire. Our goal is to establish a meaningful connection with our audience through compelling content that sparks conversations, drives engagement, and leaves a positive impact. We looked for interns with expertise in:                ",
+                "date": ["20th Jan 2022"],
+                "tags": ["Internship"]
+            },
+            {
+                "id": 34,
+                "title": "Simply: Blockchain Technology",
+                "thumbnail": "/assets/activity/simply-blockchain.jpg",
+                "description": "On June 25, 2021, the digital realm bore witness to a transformative event coalescing education and innovation. Inovus Labs IEDC orchestrated the Simple: Block chain Technology workshop, welcoming 31 curious minds into the world of block chain.           ",
+                "date": ["25th June 2022"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 35,
+                "title": "Web Design Bootcamp for Absolute Beginners",
+                "thumbnail": "/assets/activity/WDB.png",
+                "description": "Inovus Labs IEDC orchestrated the Web Design Bootcamp on November 28, 2021, bringing together 39 participants for an immersive online exploration of web design. This intensive bootcamp aimed to equip attendees with foundational skills in web design, specifically focusing on HTML and CSS. Through interactive online sessions facilitated on Google Meet, participants delved into the core principles of crafting visually captivating and functionally effective web pages.",
+                "date": ["28th Nov 2021"],
+                "tags": ["Bootcamp"]
+            },
             // {
-            //     "id": 30,
-            //     "title": "Launch ATOM-EV 2022",
-            //     "thumbnail": "/assets/activity/atomlaunch.jpg",
-            //     "description": "As a stepping stone to endeavor, the students initiative of IEDC of Kristu Jyoti College of Management and Technology in association with the Department of Computer Application had launch a buggy car ATOM_EV_2022 on October 18th, 2022 at 11.00 am. The initiative was driven by Indhuchoodan R and Nikhil Das (Department of computer Application) of Kristu Jyoti College of Management and Technology, Changanassery, Kerala  ",
-            //     "date": ["18th Oct 2022"],
-            //     "tags": ["Exhibition"]
+            //     "id": 36,
+            //     "title": "Introduction To Figma",
+            //     "thumbnail": "/assets/activity/introfigma.png",
+            //     "description": "The efforts of Inovus Labs IEDC culminated in the Simple - Introduction to Design Using Figma workshop, a transformative online event held on July 3, 2021. With a robust participation of 36 eager learners, this workshop was designed to bridge the gap between design novices and the dynamic realm of visual creativity. Under the guidance of resource person Mr. Adhityan Jayakumar, participants embarked on an illuminating journey into the fundamentals of design, emphasizing the practical application of the Figma platform.",
+            //     "date": ["3rd July 2021"],
+            //     "tags": ["Workshop"]
             // }
         ]
     };
@@ -1100,7 +1148,7 @@ export const getReccuringEvents = async () => {
                
             },{
                 "id": 22,
-                "date": "0 Dec 2023",
+                "date": "09 Dec 2023",
                 "title": "Weekend Workbench #16",
                 "description": "",
                 "thumbnail": "/assets/reccuringevents/workbench/Template 16.png",
