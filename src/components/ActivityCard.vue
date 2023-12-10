@@ -1,8 +1,8 @@
 <template>
 
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 fit-content">
         
-        <div class="relative rounded-t-lg overflow-hidden h-80 border border-gray-200 dark:border-gray-800">
+        <div class="relative rounded-t-lg overflow-hidden border border-gray-200 dark:border-gray-800" :class="showReadMore ? 'h-80' : ''">
             <div class="relative h-full overflow-hidden transform transition duration-500 hover:scale-105">
                 <img class="h-full object-cover w-full" :src="data.thumbnail" :alt="data.title" />
             </div>
@@ -134,5 +134,8 @@
         -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
         overflow: hidden;
+    }
+    .fit-content {
+        height: fit-content;
     }
 </style>
