@@ -178,7 +178,7 @@
                         mode: "approximate"
                     }
                 ],
-                default_image: "/assets/default.svg"
+                default_image: "/assets/no-image.png",
             }
         },
 
