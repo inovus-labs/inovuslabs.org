@@ -72,9 +72,22 @@
                 
                 <template v-for="author in authors">
                     <div class="relative rounded-lg overflow-hidden h-80 border border-gray-200 dark:border-gray-800">
+                        
                         <div class="rounded-lg relative h-full overflow-hidden transform transition duration-500 hover:scale-105">
                             <img class="h-full object-cover w-full" :src="author.profile_image || default_image" :alt="author.name" />
                         </div>
+
+                        <a :href="author.url" target="_blank">
+                            <div class="absolute inset-0 bg-gray-900 bg-opacity-75 transition duration-500 ease-in-out opacity-0 hover:opacity-100 cursor-pointer">
+                                <div class="relative h-full flex flex-col justify-center items-center text-center">
+                                    <div class="px-4">
+                                        <h3 class="text-lg font-medium text-white mb-2">{{ author.name }}</h3>
+                                        <!-- <p class="text-sm text-gray-300">{{ author.bio }}</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
                     </div>
                 </template>
                 
