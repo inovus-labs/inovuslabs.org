@@ -54,6 +54,36 @@
 
     <!-- <section class="lg:p-10 p-4 my-10"></section> -->
 
+    <section class="lg:p-10 p-4 my-10">
+
+        <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
+            <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+                🌐 Dive into the minds shaping our narrative! 📖
+            </h1>
+
+            <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+                📚 Explore the Top Authors section to discover the brilliant voices behind Inovus Blogs. From industry experts to creative minds, these authors craft the stories that inspire and inform. Join us in celebrating the diverse perspectives that make our digital space vibrant. 🌟🖋️
+            </p>
+        </div>
+
+
+            <div class="py-8 mx-auto max-w-screen-xl text-center lg:py-12 lg:px-6">
+                <div class="grid gap-8 lg:gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-end">
+                    
+                    <template v-for="author in authors">
+                        <div class="relative rounded-lg overflow-hidden h-80 border border-gray-200 dark:border-gray-800">
+                            <div class="rounded-lg relative h-full overflow-hidden transform transition duration-500 hover:scale-105">
+                                <img class="h-full object-cover w-full" :src="author.profile_image" :alt="author.name" />
+                            </div>
+                        </div>
+                    </template>
+                    
+                </div>  
+            </div>
+
+
+        </section>
+
 
 
 
