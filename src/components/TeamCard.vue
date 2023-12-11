@@ -11,7 +11,7 @@
 
         <div class="w-max cursor-pointer" @click="toggleTeam">
             <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{ title }}</h3>
-            <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on {{ date }}</time>
+            <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{{ date }}</time>
         </div>
         
 

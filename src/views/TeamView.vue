@@ -93,7 +93,7 @@
       return {
         data: [
           {
-              title: 'Inovus 6th Generations',
+              title: 'Inovus 6th Generation',
               date: '2023-2024',
               showTeam: true,
               members: [
@@ -185,7 +185,7 @@
                   }, 
               ]
           }, {
-              title: 'Inovus 5th Generations',
+              title: 'Inovus 5th Generation',
               date: '2022-2023',
               showTeam: false,
               members: [
@@ -270,7 +270,7 @@
                   }, 
               ]
           }, {
-              title: 'Inovus 4th Generations',
+              title: 'Inovus 4th Generation',
               date: '2021-2022',
               showTeam: false,
               members: [
@@ -334,7 +334,7 @@
                   }, 
               ]
           }, {
-              title: 'Inovus 3rd Generations',
+              title: 'Inovus 3rd Generation',
               date: '2020-2021',
               showTeam: false,
               members: [
@@ -426,7 +426,7 @@
                   }, 
               ]
           }, {
-              title: 'Inovus 2nd Generations',
+              title: 'Inovus 2nd Generation',
               date: '2018-2020',
               showTeam: false,
               members: [
@@ -510,13 +510,13 @@
               members: [
 
               {
-                      name: '',
-                      position: '',
-                     avatar: '/assets/team/founders.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  },
+                name: '',
+                position: '',
+                avatar: '/assets/team/founders.jpg',
+                social: {
+                  facebook: ""
+                }
+              },
                
               
                
