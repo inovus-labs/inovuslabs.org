@@ -34,8 +34,8 @@
     
     
     <div class="mx-auto max-w-screen-xl text-center w-full py-4 lg:pt-10">
-      <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">We invest in the world’s potential</h1>
-      <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+      <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">🚀 Dive into the evolution of leadership! ✨</h1>
+      <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">🌟 Explore the Execom Teams section, a glimpse into the dynamic individuals who have steered our course over the years. Discover the faces and minds that have shaped our journey, each team contributing to the vibrant tapestry of Inovus.🚀👥</p>
     </div>
       
       
@@ -93,7 +93,7 @@
       return {
         data: [
           {
-              title: 'Inovus 6th Generations',
+              title: 'Inovus 6th Generation',
               date: '2023-2024',
               showTeam: true,
               members: [
@@ -185,7 +185,7 @@
                   }, 
               ]
           }, {
-              title: 'Inovus 5th Generations',
+              title: 'Inovus 5th Generation',
               date: '2022-2023',
               showTeam: false,
               members: [
@@ -270,7 +270,7 @@
                   }, 
               ]
           }, {
-              title: 'Inovus 4th Generations',
+              title: 'Inovus 4th Generation',
               date: '2021-2022',
               showTeam: false,
               members: [
@@ -334,7 +334,7 @@
                   }, 
               ]
           }, {
-              title: 'Inovus 3rd Generations',
+              title: 'Inovus 3rd Generation',
               date: '2020-2021',
               showTeam: false,
               members: [
@@ -426,7 +426,7 @@
                   }, 
               ]
           }, {
-              title: 'Inovus 2nd Generations',
+              title: 'Inovus 2nd Generation',
               date: '2018-2020',
               showTeam: false,
               members: [
@@ -510,13 +510,13 @@
               members: [
 
               {
-                      name: '',
-                      position: '',
-                     avatar: '/assets/team/founders.jpg',
-                      social: {
-                        facebook: ""
-                      }
-                  },
+                name: '',
+                position: '',
+                avatar: '/assets/team/founders.jpg',
+                social: {
+                  facebook: ""
+                }
+              },
                
               
                

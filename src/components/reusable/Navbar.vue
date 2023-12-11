@@ -179,12 +179,14 @@
                                 {
                                     name: 'Community',
                                     link: '/community',
-                                    description: 'Our community of students and alumni. Join us.'
+                                    description: 'Our community of students and alumni. Join us.',
+                                    disabled: true,
                                 },
                                 {
                                     name: 'Reports (Annual / Activity)',
                                     link: '/reports',
-                                    description: 'Reports of our activities and annual reports.'
+                                    description: 'Reports of our activities and annual reports.',
+                                    disabled: true,
                                 }
                             ]
                         ]
@@ -197,7 +199,8 @@
                                 {
                                     name: 'Mini IoT Lab',
                                     link: '/iot-lab',
-                                    description: 'A mini IoT lab for students to learn and explore.'
+                                    description: 'A mini IoT lab for students to learn and explore.',
+                                    disabled: true,
                                 },
                                 {
                                     name: 'Bootcamps / Workshops / Session',
@@ -208,11 +211,13 @@
                                     name: 'Nano Degree Program',
                                     link: '/nanodegree',
                                     description: 'Self paced learning program for students.',
+                                    disabled: true,
                                 },
                                 {
                                     name: 'Other Events',
                                     link: '/other-events',
-                                    description: 'Events that we take-up and cooridinate.'
+                                    description: 'Events that we take-up and cooridinate.',
+                                    disabled: true,
                                 }
                             ],
                             [
@@ -255,7 +260,8 @@
                                 {
                                     name: 'Outreach Programs',
                                     link: '/outreach',
-                                    description: 'Events and programs that we conduct outside our campus.'
+                                    description: 'Events and programs that we conduct outside our campus.',
+                                    disabled: true,
                                 }
                             ]
                         ]
