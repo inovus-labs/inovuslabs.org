@@ -211,7 +211,6 @@
                                     name: 'Nano Degree Program',
                                     link: '/nanodegree',
                                     description: 'Self paced learning program for students.',
-                                    disabled: true,
                                 },
                                 {
                                     name: 'Other Events',
