@@ -17,7 +17,7 @@
                           <a class="opacity-50 cursor-not-allowed">Certificates</a>
                       </li>
                       <li>
-                          <a class="opacity-50 cursor-not-allowed">API Status</a>
+                          <a href="https://status.inovuslabs.org" target="_blank">Status Page</a>
                       </li>
                   </ul>
               </div>
