@@ -23,6 +23,7 @@ import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
 import OutreachView from '@/views/OutreachView.vue'
 
 // Contact page
+import ResourcesView from '@/views/ResourcesView.vue'
 import ContactView from '@/views/ContactView.vue'
 
 // Guideline pages
@@ -144,6 +145,14 @@ const router = createRouter({
       component: ContactView,
       meta: { title: 'Contact' }
     },
+
+    // Resources page
+    // {
+    //   path: '/resources',
+    //   name: 'resources',
+    //   component: ResourcesView,
+    //   meta: { title: 'Resources' }
+    // },
 
     // Contact page
     {

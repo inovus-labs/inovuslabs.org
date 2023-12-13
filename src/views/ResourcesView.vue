@@ -7,18 +7,18 @@
         <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
 
         <div class="w-full lg:w-1/3 py-4 lg:py-20">
-            <img class="w-full h-full" src="../../public/assets/illustrations/reports.svg" />
+            <img class="w-full h-full" src="../../public/assets/illustrations/resources.svg" />
         </div>
 
         <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">
             <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">
-                Inovus Impact Unveiled: Annual Reports Hub!
+                InoRa: Amplifying Ideas, Empowering Minds
             </h1>
             <p class="mb-8 text-lg font-normal text-secondary lg:text-xl sm:px-16 lg:px-46">
-                A Year in Innovation – Dive into our Annual Reports for a Glimpse of Progress, Achievements, and Future Endeavors.
+                Discover Inspiring Stories of Impact – Tune into <span class="font-bold">The Inovus Radio</span> for Conversations with Society's Change Agents.
             </p>
             <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                <a href="/" target="_blank"
+                <a href="#" target="_blank"
                     class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary">
                     Start listening now
                     <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -48,9 +48,11 @@
 
 
         <div class="px-4 mx-auto max-w-screen-xl lg:px-6">
-            <div class="grid gap-8 lg:grid-cols-2">         
+            <div class="grid gap-8 lg:grid-cols-2">
 
-                
+
+                                
+
 
             </div>  
         </div>
@@ -67,21 +69,11 @@
     import Navbar from "@/components/reusable/Navbar.vue";
     import Footer from "@/components/reusable/Footer.vue";
 
-    import { getReports } from "@/API/index.js";
-
     export default {
-        name: 'ReportsView',
+        name: 'ResourcesView',
         components: {
             Navbar,
             Footer
-        },
-        data() {
-            return {
-                reports: []
-            }
-        },
-        async mounted() {
-            this.reports = await getReports();
-        },
+        }
     }
 </script>

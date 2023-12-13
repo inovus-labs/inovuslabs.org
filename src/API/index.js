@@ -2177,3 +2177,284 @@ export const getNanoDegreeDetails = async () => {
     return data;
     
 }
+
+
+
+// Get all reports
+export const getReports = async () => {
+
+    let data = [
+        {
+            id: 1,
+            title: "IEDC Monthly Report",
+            year: "January 2018 - December 2019",
+            thumbnail: "",
+            url: "https://docs.google.com/document/d/1JDD5wN1zIb5QgYzHNhDSqWCz11MCvREe"
+        },
+        {
+            id: 2,
+            title: "IEDC Activity Report",
+            year: "January 2019 - December 2019",
+            thumbnail: "",
+            url: "https://drive.google.com/file/d/1USpa2PH2aG7sbC-kY2ScDxJ829kOWx8N"
+        },
+        {
+            id: 3,
+            title: "IEDC Activity Report",
+            year: "January 2021 - December 2021",
+            thumbnail: "",
+            url: "https://drive.google.com/file/d/1USpa2PH2aG7sbC-kY2ScDxJ829kOWx8N"
+        }
+    ];
+
+    return data;
+
+};
+
+
+
+// Get all learning resources
+export const getLearningResources = async () => {
+
+    let data = [
+        {
+            id: 1,
+            title: "ഒരു സമ്പൂർണ മലയാള മെഷീൻ ലേർണിംഗ് ഗൈഡ്",
+            description: "Machine Learning Guide (For Absolute Beginners) by Sreeram Venkitesh",
+            category: ["AI/ML"],
+            resources: [
+                {
+                    url: "https://github.com/sreeram-venkitesh/Essence-of-ML",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 2,
+            title: "Learn Linux Basics – Bash Command Tutorial for Beginners",
+            description: "The Linux Command Handbook by FreeCodeCamp",
+            category: ["Linux", "DevOps"],
+            resources: [
+                {
+                    url: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 3,
+            title: "Artificial Intelligence Curriculum",
+            description: "Curated with support from Intel®️ (CBSE Class 10 - Facilitator Handbook)",
+            category: ["AI/ML"],
+            resources: [
+                {
+                    url: "http://cbseacademic.nic.in/web_material/Curriculum21/publication/secondary/Class10_Facilitator_Handbook.pdf",
+                    type: "PDF"
+                }
+            ]
+        },
+        {
+            id: 4,
+            title: "Machine Learning for Beginners - A Curriculum",
+            description: "12 weeks, 24 lessons, Classic Machine Learning for all",
+            category: ["AI/ML"],
+            resources: [
+                {
+                    url: "https://github.com/microsoft/ML-For-Beginners",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 5,
+            title: "IoT for Beginners - A Curriculum",
+            description: "2 weeks, 24 lessons, IoT for all",
+            category: ["IoT"],
+            resources: [
+                {
+                    url: "https://github.com/microsoft/IoT-For-Beginners",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 6,
+            title: "Machine Learning Crash Course with TensorFlow",
+            description: "Google's free, fast-paced, practical introduction to Machine Learning",
+            category: ["AI/ML"],
+            resources: [
+                {
+                    url: "https://developers.google.com/machine-learning/crash-course",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 7,
+            title: "roadmap.sh",
+            description: "roadmap.sh is a community effort to create road-maps, guides and other educational content to help guide the developers in picking up the path and guide their learnings",
+            category: ["General"],
+            resources: [
+                {
+                    url: "https://roadmap.sh/",
+                    type: "Website"
+                },
+                {
+                    url: "https://www.youtube.com/theroadmap",
+                    type: "YouTube"
+                }
+            ]
+        },
+        {
+            id: 8,
+            title: "Deep Dive Into Modern Web Development",
+            description: "Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This course will introduce you to modern JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js.",
+            category: ["Web Development", "React", "Node.js"],
+            resources: [
+                {
+                    url: "https://fullstackopen.com/en/",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 9,
+            title: "Node.js - Notes for Professionals",
+            description: "This is an unofficial free book created for educational purposes and is not affiliated with official Node.js group(s) or company(s)",
+            category: ["Web Development", "Node.js"],
+            resources: [
+                {
+                    url: "https://github.com/milan-sony/hacktoberfest2023/files/13665968/NodeJSNotesForProfessionals.pdf",
+                    type: "PDF"
+                }
+            ]
+        },
+        {
+            id: 10,
+            title: "Modular JavaScript Book Series",
+            description: "Modular JavaScript is an open effort to improve our collective understanding of writing robust, well-tested & modular applications. It consists of five books, each of which explores a key aspect of JavaScript development — comprehensively. The books are produced in the open: anyone can track their progress, report issues & contribute fixes or content. A free-to-read version is available online! Digital & print books can be purchased via O’Reilly Media.",
+            category: ["Web Development", "JavaScript"],
+            resources: [
+                {
+                    url: "https://mjavascript.com/",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 11,
+            title: "The Modern JavaScript Tutorial",
+            description: "From the basics to advanced topics with simple, but detailed explanations.",
+            category: ["Web Development", "JavaScript"],
+            resources: [
+                {
+                    url: "https://javascript.info/",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 12,
+            title: "DevOps Resources",
+            description: "DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP",
+            category: ["DevOps"],
+            resources: [
+                {
+                    url: "https://github.com/bregman-arie/devops-resources",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 13,
+            title: "CodeCrafters",
+            description: "Have you heard about 'Code Crafters'. They do have an awesome GitHub Organization page with some really awesome learning resource repositories. If interested, do check them out.",
+            category: ["General"],
+            resources: [
+                {
+                    url: "https://github.com/codecrafters-io",
+                    type: "GitHub"
+                },
+                {
+                    url: "https://codecrafters.io/",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 14,
+            title: "How the Web Works",
+            description: "What happens behind the scenes when we type www.google.com in a browser?",
+            category: ["General"],
+            resources: [
+                {
+                    url: "https://github.com/vasanthk/how-web-works",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 15,
+            title: "System Design",
+            description: "Learn how to design systems at scale and prepare for system design interviews",
+            category: ["General", "System Design"],
+            resources: [
+                {
+                    url: "https://www.karanpratapsingh.com/courses/system-design",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 16,
+            title: "ByteByteGo",
+            description: "Covering topics and trends in large-scale system design, from the authors of the best-selling System Design Interview book series",
+            category: ["General"],
+            resources: [
+                {
+                    url: "https://youtube.com/c/ByteByteGo",
+                    type: "YouTube"
+                }
+            ]
+        },
+        {
+            id: 17,
+            title: "System Design Primer",
+            description: "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards",
+            category: ["General", "System Design"],
+            resources: [
+                {
+                    url: "https://github.com/donnemartin/system-design-primer",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 18,
+            title: "Computer Science",
+            description: "Path to a free self-taught education in Computer Science!",
+            category: ["General"],
+            resources: [
+                {
+                    url: "https://github.com/ossu/computer-science#advanced-programming",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 19,
+            title: "The Concise TypeScript Book",
+            description: "A Concise Guide to Effective Development in TypeScript. Free and Open Source",
+            category: ["Web Development", "TypeScript"],
+            resources: [
+                {
+                    url: "https://github.com/gibbok/typescript-book",
+                    type: "GitHub"
+                }
+            ]
+        },
+    ];
+
+    return data;
+
+};
