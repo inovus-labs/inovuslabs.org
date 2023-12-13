@@ -1840,3 +1840,340 @@ export const getGalleryAssets = async () => {
     return data;
 
 };
+
+
+
+// Get nanodegree details
+export const getNanoDegreeDetails = async () => {
+
+    let data = [
+                    
+        {
+            id: 1,
+            title: "Internet of Things (IoT) with Arduino",
+            description: "The 'Internet of Things (IoT) with Arduino' nano degree program is an ideal starting point for beginners eager to explore the exciting world of IoT. This user-friendly program introduces participants to the basics of Arduino, a popular open-source electronics platform, and seamlessly integrates IoT concepts. Through hands-on projects and step-by-step guidance, learners gain practical skills in building smart, connected devices. By the end of the program, students will have a solid foundation in IoT development, empowering them to bring their creative ideas to life in the rapidly evolving digital landscape.",
+            level: "Beginner",
+            status: true,
+            
+            syllabus: [
+                {
+                    id: 1,
+                    title: "Introduction to the IoT",
+                    lessons: [
+                        "Simple explanation of IoT and its impact on daily life",
+                        "Examples of IoT in various sectors: home automation, healthcare, and agriculture",
+                        "Brief discussion on the future potential of IoT",
+                    ],
+                    resources: [
+                        "https://www.youtube.com/embed/PXP4VSaD7H4?si=5Dtyy1Kn_02bnGJ-"
+                    ]
+                },
+
+                {
+                    id: 2,
+                    title: "Introduction to Microcontrollers and Microprocessors and Arduino",
+                    lessons: [
+                        "Simple definitions suitable for beginners",
+                        "Contrast in usage with real-life examples",
+                        "Microcontroller: Used in a thermostat",
+                        "Microprocessor: Powering a smartphone",
+                        "Basic components and functionalities of each",
+                        "What is Arduino and why is it popular among beginners?",
+                        "Overview of different Arduino boards",
+                        "Overview of different Arduino boards",
+                    ],
+                    resources: [
+                        "https://www.youtube.com/embed/1ENiVwk8idM?si=o6LnT0gCM5vZCykO",
+                        "https://www.youtube.com/embed/7vhvnaWUZjE?si=DOVH4ar_YNSZBP2U"
+                    ]
+                },
+
+                {
+                    id: 3,
+                    title: "Inputs and Outputs in Arduino",
+                    lessons: [
+                        "Explanation of digital and analog pins",
+                        "How to read signals from sensors",
+                        "How to send signals to actuators like LEDs or motors",
+                    ],
+                    resources: [
+                        "https://www.youtube.com/embed/BMMnOAzcqoE?si=h6eDFrCI-hmROzBu"
+                    ]
+                },
+
+                {
+                    id: 4,
+                    title: "Introduction to Online Simulator: Wowki and Tinkercad",
+                    lessons: [
+                        "Benefits of using Wowki and Tinkercad for beginners",
+                        "How to set up a virtual circuit",
+                        "Simulating the tasks above in Wowki or Thinkercad"
+                    ],
+                    resources: [
+                        "https://www.youtube.com/embed/c5btoce--ZU?si=erHTU9YHsgA4ql5y"
+                    ],
+                    tasks: [
+                        {
+                            id: 1,
+                            title: "LED Blinking",
+                            description: [
+                                "Blink an LED using Arduino"
+                            ],
+                        }
+                    ]
+                },
+
+                {
+                    id: 5,
+                    title: "Working with Sensors",
+                    lessons: [
+                        "Ultrasonic Sensor",
+                        "Humidity Sensor",
+                        "Gas Sensor",
+                        "IR Receiver",
+                        "LDR (Light-Dependent Resistor)",
+                        "PIR (Passive Infrared) Sensor",
+                        "Pushbutton",
+                        "Joystick Module",
+                    ],
+                    resources: [
+                        "https://www.youtube.com/embed/0Lhgd8PQmn0?si=uwHoi4Kp7p3OW0iQ"
+                    ],
+                    tasks: [
+                        {
+                            id: 2,
+                            title: "Distance Measurement",
+                            description: [
+                                "Creating a simple distance meter"
+                            ],
+                        },
+                        {
+                            id: 3,
+                            title: "Humidity Monitoring",
+                            description: [
+                                "Building a basic humidity level indicator"
+                            ],
+                        },
+                        {
+                            id: 4,
+                            title: "Gas Leak Detector",
+                            description: [
+                                "Designing a simple gas leak alarm"
+                            ],
+                        },
+                        {
+                            id: 5,
+                            title: "Remote Control Command Reception",
+                            description: [
+                                "Understanding how to receive and interpret IR signals"
+                            ],
+                        },
+                        {
+                            id: 6,
+                            title: "Light Intensity Measurement",
+                            description: [
+                                "Creating a system that reacts to changing light conditions"
+                            ],
+                        },
+                        {
+                            id: 7,
+                            title: "Motion Detection System",
+                            description: [
+                                "Building a motion-activated device"
+                            ],
+                        },
+                        {
+                            id: 8,
+                            title: "Interactive Control",
+                            description: [
+                                "Using a pushbutton to control an LED or a buzzer"
+                            ],
+                        },
+                        {
+                            id: 9,
+                            title: "Directional Control",
+                            description: [
+                                "Using a joystick to control an LED array or a small display"
+                            ],
+                        },
+                    ]
+                },
+
+                {
+                    id: 6,
+                    title: "Connecting and Controlling a Servo Motor",
+                    lessons: [
+                        "Understanding servo motors and their uses",
+                    ],
+                    tasks: [
+                        {
+                            id: 10,
+                            title: "Controlling Servo Motor",
+                            description: [
+                                "Move a servo motor to specific angles"
+                            ],
+                        },
+                    ]
+                },
+
+                {
+                    id: 7,
+                    title: "Using LCD Displays",
+                    lessons: [
+                        "Introduction to LCD displays and their types",
+                    ],
+                    tasks: [
+                        {
+                            id: 11,
+                            title: "Displaying Sensor Readings",
+                            description: [
+                                "Show readings from sensors on an LCD"
+                            ],
+                        }
+                    ]
+                },
+                
+            ],
+
+            projects: [
+                
+                {
+                    id: 1,
+                    title: "Automated Room Lighting System",
+                    objective: "Build an automatic lighting system that turns on in the dark and off in bright conditions",
+                    components: [
+                        "Arduino",
+                        "Light-Dependent Resistor (LDR)",
+                        "LED or LED strip",
+                    ],
+                    skills: [
+                        "Reading analog input from LDR",
+                        "Controlling LED output"
+                    ],
+                    description: "This project uses an LDR to detect the amount of light in the room. When the light level falls below a certain threshold, the Arduino commands an LED to turn on. The LED turns off again when the light level rises above the threshold."
+                },
+
+                {
+                    id: 2,
+                    title: "Basic Security System",
+                    objective: "Design a simple security system that sounds an alarm when motion is detected",
+                    components: [
+                        "Arduino",
+                        "Passive Infrared (PIR) sensor",
+                        "Buzzer",
+                        "LED indicators",
+                    ],
+                    skills: [
+                        "Digital input from PIR sensor",
+                        "Output control with buzzer and LED"
+                    ],
+                    description: "This project uses a PIR sensor to detect motion in the room. When the sensor detects motion, the Arduino commands a buzzer to sound an alarm and an LED to flash. The alarm and LED turn off again when the sensor no longer detects motion."
+                },
+
+                {
+                    id: 3,
+                    title: "Personal Room Thermostat",
+                    objective: "Implement a thermostat to monitor and control room temperature",
+                    components: [
+                        "Arduino",
+                        "Temperature sensor",
+                        "LCD display",
+                        "Buttons / Potentiometer",
+                    ],
+                    skills: [
+                        "Temperature sensing",
+                        "Data display on LCD",
+                        "User input handling"
+                    ],
+                    description: "This project uses a temperature sensor to detect the temperature in the room. The Arduino displays the temperature on an LCD screen and allows the user to set a desired temperature using buttons or a potentiometer. When the temperature rises above the desired level, the Arduino commands a buzzer to sound an alarm and an LED to flash. The alarm and LED turn off again when the temperature falls below the desired level."
+                },
+
+                {
+                    id: 4,
+                    title: "Smart Dustbin",
+                    objective: "Create an automated dustbin that opens its lid when someone approaches",
+                    components: [
+                        "Arduino",
+                        "Ultrasonic Sensor",
+                        "Servo Motor",
+                    ],
+                    skills: [
+                        "Reading analog input from temperature sensor",
+                        "Controlling LED output"
+                    ],
+                    description: "This project uses an ultrasonic sensor to detect the presence of a person or object near the dustbin. When the sensor detects someone within a certain distance, the Arduino commands a servo motor to open the lid of the dustbin, closing it again after a set period or when the object moves away."
+                },
+
+                {
+                    id: 5,
+                    title: "Remote-Controlled Light Dimmer",
+                    objective: "Construct a light dimming system controlled by an IR remote",
+                    components: [
+                        "Arduino",
+                        "IR receiver",
+                        "LED / dimmable light",
+                        "IR remote control",
+                    ],
+                    skills: [
+                        "IR signal decoding",
+                        "Light dimming using PWM",
+                        "Remote control usage"
+                    ],
+                    description: "This project uses an IR receiver to detect signals from an IR remote control. When the Arduino receives a signal, it commands an LED to turn on or off, or to dim or brighten."
+                },
+
+                {
+                    id: 6,
+                    title: "Pin Locker with Keypad and LCD",
+                    objective: "Create a pin-based locker system using a keypad and LCD display",
+                    components: [
+                        "Arduino",
+                        "Numeric keypad",
+                        "16x2 LCD screen", 
+                        "Servo motor",
+                    ],
+                    skills: [
+                        "Input handling from keypad",
+                        "Displaying information on LCD",
+                        "Controlling servo to lock/unlock"
+                    ],
+                    description: "This project uses a numeric keypad to allow the user to enter a PIN. When the correct PIN is entered, the Arduino commands a servo motor to unlock the locker. The Arduino also displays the status of the locker on an LCD screen."
+                }
+
+            ]
+        },
+
+        {
+            id: 2,
+            title: "Web Designing for Absolute Beginners",
+            description: "The 'Web Design for Absolute Beginners' nano degree program is a user-friendly and comprehensive introduction to the world of web design. Tailored specifically for those with no prior experience, this program covers fundamental concepts such as HTML, CSS, and basic design principles. With hands-on projects and step-by-step guidance, participants will gain practical skills to create visually appealing and functional websites from scratch. Perfect for absolute beginners, this nano degree program provides a supportive learning environment to build a solid foundation in web design.",
+            level: "Beginner",
+            status: false,
+            syllabus: [],
+            projects: []
+        },
+
+        {
+            id: 3,
+            title: "Getting Started with UI/UX Design",
+            description: "The 'Getting Started with UI/UX Design' nano degree program is a comprehensive and hands-on course designed for beginners eager to dive into the dynamic world of User Interface (UI) and User Experience (UX) design. Participants will learn fundamental design principles, industry-standard tools, and practical techniques to create visually appealing and user-friendly digital experiences. Through a combination of theory and real-world projects, students will develop the skills needed to craft intuitive interfaces and enhance user interactions, setting a strong foundation for a successful career in UI/UX design.",
+            level: "Beginner",
+            status: false,
+            syllabus: [],
+            projects: []
+        },
+
+        {
+            id: 4,
+            title: "DevOps for Nerds",
+            description: "'DevOps for Nerds' is an intermediate-level nano degree program designed to empower tech enthusiasts with the skills and knowledge needed to excel in the world of DevOps. This hands-on program delves into advanced concepts of development and operations integration, automation, continuous integration/continuous deployment (CI/CD), and infrastructure as code (IaC). Tailored for those with a nerdy passion for technology, the program combines practical exercises, real-world scenarios, and collaborative projects to deepen participants' understanding of DevOps practices, enabling them to streamline processes and enhance collaboration between development and operations teams. Graduates emerge with a robust skill set, ready to contribute to the efficiency and agility of modern software development and delivery pipelines.",
+            level: "Intermediate",
+            status: false,
+            syllabus: [],
+            projects: []
+        }
+    ]
+
+    return data;
+    
+}
