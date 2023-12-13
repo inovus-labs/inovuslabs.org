@@ -226,7 +226,7 @@
     
     import InstagramCard from "@/components/Socials/InstagramCard.vue";
     import LinkedinCard from "@/components/Socials/LinkedinCard.vue";
-    import YoutubeCard from "../components/Socials/YoutubeCard.vue";
+    import YoutubeCard from "@/components/Socials/YoutubeCard.vue";
     import TwitterCard from "@/components/Socials/TwitterCard.vue";
     import ThreadsCard from "@/components/Socials/ThreadsCard.vue";
 

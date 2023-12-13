@@ -39,7 +39,7 @@
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Guidelines</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-2">
-                          <a href="/code-of-conduct" class="hover:underline">Code of Conduct</a>
+                          <a class="opacity-50 cursor-not-allowed">Code of Conduct</a>
                       </li>
                       <li>
                           <a href="/iedc-guidelines" class="hover:underline">IEDC Guidelines</a>
