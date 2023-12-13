@@ -49,9 +49,9 @@
                                     </h2>
 
                                     <div :id="'accordion-collapse-body-' + chapter.id" class="hidden">
-                                        <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                        <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900">
                                             
-                                            <div :class="isMobile ? '' : 'border rounded p-4' ">
+                                            <div :class="isMobile ? '' : 'border rounded p-4' " class="bg-white">
                                                 <p v-if="!isMobile" class="underline pb-3 text-gray-500 dark:text-gray-400">Areas to explore</p>
                                                 <ol class="list-decimal" :class="isMobile ? 'list-outside pl-6' : 'list-inside'">
                                                     <template v-for="lesson in chapter.lessons">
@@ -62,7 +62,7 @@
 
 
                                             <template v-if="chapter.resources && !isMobile">
-                                                <div class="border p-5 pb-3 mt-3 rounded">
+                                                <div class="border p-5 pb-3 mt-3 rounded bg-white">
                                                     <p class="underline pb-3 text-gray-500 dark:text-gray-400">Basic Resources</p>
                                                     <div class="flex justify-between">
                                                         <template v-for="resource in chapter.resources">
@@ -78,8 +78,7 @@
 
 
                                             <template v-if="chapter.tasks && !isMobile">
-                                                
-                                                <div class="mt-4 p-4 rounded border">
+                                                <div class="mt-4 p-4 rounded border bg-white">
                                                     
                                                     <p class="underline pb-3 text-gray-500 dark:text-gray-400">Tasks</p>
 
@@ -92,7 +91,6 @@
                                                     </div>
     
                                                 </div>
-
                                             </template>
 
                                         </div>
@@ -103,17 +101,27 @@
                             
 
 
-                            <template v-if="data.projects">
-                                <div>
+                            <!-- <template v-if="data.projects">
+                                <div class="my-4 border rounded-xl p-4">
+                                    <div>
 
-                                    <template v-for="project in data.projects">
-    
-                                        <!-- <p>Hai</p> -->
-    
-                                    </template>
+                                        <p class="underline pb-3 text-gray-500 dark:text-gray-400">Projects</p>
 
+                                        <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+                                            <template v-for="project in data.projects">
+
+                                                <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ project.title }}</h5>
+                                                    <p class="font-normal text-gray-700 dark:text-gray-400">{{ project.description.length > 135 ? data.description.substring(0, 135) + '...' : project.description }}</p>
+                                                    <p class="font-normal text-gray-700 dark:text-gray-400">{{ project.description }}</p>
+                                                </div>
+
+                                            </template>
+                                        </div>
+                                        
+                                    </div>
                                 </div>
-                            </template>
+                            </template> -->
 
 
 
