@@ -2220,8 +2220,10 @@ export const getLearningResources = async () => {
         {
             id: 1,
             title: "ഒരു സമ്പൂർണ മലയാള മെഷീൻ ലേർണിംഗ് ഗൈഡ്",
+            lang: "ml-IN",
             description: "Machine Learning Guide (For Absolute Beginners) by Sreeram Venkitesh",
             category: ["AI/ML"],
+            date: "01 June 2021",
             resources: [
                 {
                     url: "https://github.com/sreeram-venkitesh/Essence-of-ML",
@@ -2234,6 +2236,7 @@ export const getLearningResources = async () => {
             title: "Learn Linux Basics – Bash Command Tutorial for Beginners",
             description: "The Linux Command Handbook by FreeCodeCamp",
             category: ["Linux", "DevOps"],
+            date: "01 June 2021",
             resources: [
                 {
                     url: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
@@ -2246,6 +2249,7 @@ export const getLearningResources = async () => {
             title: "Artificial Intelligence Curriculum",
             description: "Curated with support from Intel®️ (CBSE Class 10 - Facilitator Handbook)",
             category: ["AI/ML"],
+            date: "07 June 2021",
             resources: [
                 {
                     url: "http://cbseacademic.nic.in/web_material/Curriculum21/publication/secondary/Class10_Facilitator_Handbook.pdf",
@@ -2258,6 +2262,7 @@ export const getLearningResources = async () => {
             title: "Machine Learning for Beginners - A Curriculum",
             description: "12 weeks, 24 lessons, Classic Machine Learning for all",
             category: ["AI/ML"],
+            date: "07 June 2021",
             resources: [
                 {
                     url: "https://github.com/microsoft/ML-For-Beginners",
@@ -2267,9 +2272,10 @@ export const getLearningResources = async () => {
         },
         {
             id: 5,
-            title: "IoT for Beginners - A Curriculum",
+            title: "IoT for Beginners - A Curriculum from Microsoft",
             description: "2 weeks, 24 lessons, IoT for all",
             category: ["IoT"],
+            date: "20 June 2021",
             resources: [
                 {
                     url: "https://github.com/microsoft/IoT-For-Beginners",
@@ -2282,6 +2288,7 @@ export const getLearningResources = async () => {
             title: "Machine Learning Crash Course with TensorFlow",
             description: "Google's free, fast-paced, practical introduction to Machine Learning",
             category: ["AI/ML"],
+            date: "26 August 2021",
             resources: [
                 {
                     url: "https://developers.google.com/machine-learning/crash-course",
@@ -2294,6 +2301,7 @@ export const getLearningResources = async () => {
             title: "roadmap.sh",
             description: "roadmap.sh is a community effort to create road-maps, guides and other educational content to help guide the developers in picking up the path and guide their learnings",
             category: ["General"],
+            date: "09 September 2021",
             resources: [
                 {
                     url: "https://roadmap.sh/",
@@ -2310,6 +2318,7 @@ export const getLearningResources = async () => {
             title: "Deep Dive Into Modern Web Development",
             description: "Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This course will introduce you to modern JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js.",
             category: ["Web Development", "React", "Node.js"],
+            date: "18 September 2021",
             resources: [
                 {
                     url: "https://fullstackopen.com/en/",
@@ -2319,21 +2328,10 @@ export const getLearningResources = async () => {
         },
         {
             id: 9,
-            title: "Node.js - Notes for Professionals",
-            description: "This is an unofficial free book created for educational purposes and is not affiliated with official Node.js group(s) or company(s)",
-            category: ["Web Development", "Node.js"],
-            resources: [
-                {
-                    url: "https://github.com/milan-sony/hacktoberfest2023/files/13665968/NodeJSNotesForProfessionals.pdf",
-                    type: "PDF"
-                }
-            ]
-        },
-        {
-            id: 10,
             title: "Modular JavaScript Book Series",
-            description: "Modular JavaScript is an open effort to improve our collective understanding of writing robust, well-tested & modular applications. It consists of five books, each of which explores a key aspect of JavaScript development — comprehensively. The books are produced in the open: anyone can track their progress, report issues & contribute fixes or content. A free-to-read version is available online! Digital & print books can be purchased via O’Reilly Media.",
+            description: "Modular JavaScript is an open effort to improve our collective understanding of writing robust, well-tested & modular applications. It consists of five books, each of which explores a key aspect of JavaScript development — comprehensively. The books are produced in the open: anyone can track their progress, report issues & contribute fixes or content.",
             category: ["Web Development", "JavaScript"],
+            date: "24 March 2022",
             resources: [
                 {
                     url: "https://mjavascript.com/",
@@ -2342,10 +2340,24 @@ export const getLearningResources = async () => {
             ]
         },
         {
+            id: 10,
+            title: "Node.js - Notes for Professionals",
+            description: "This is an unofficial free book created for educational purposes and is not affiliated with official Node.js group(s) or company(s)",
+            category: ["Web Development", "Node.js"],
+            date: "08 February 2022",
+            resources: [
+                {
+                    url: "https://github.com/milan-sony/hacktoberfest2023/files/13665968/NodeJSNotesForProfessionals.pdf",
+                    type: "PDF"
+                }
+            ]
+        },
+        {
             id: 11,
             title: "The Modern JavaScript Tutorial",
             description: "From the basics to advanced topics with simple, but detailed explanations.",
             category: ["Web Development", "JavaScript"],
+            date: "07 July 2022",
             resources: [
                 {
                     url: "https://javascript.info/",
@@ -2358,6 +2370,7 @@ export const getLearningResources = async () => {
             title: "DevOps Resources",
             description: "DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP",
             category: ["DevOps"],
+            date: "12 July 2022",
             resources: [
                 {
                     url: "https://github.com/bregman-arie/devops-resources",
@@ -2370,6 +2383,7 @@ export const getLearningResources = async () => {
             title: "CodeCrafters",
             description: "Have you heard about 'Code Crafters'. They do have an awesome GitHub Organization page with some really awesome learning resource repositories. If interested, do check them out.",
             category: ["General"],
+            date: "10 August 2022",
             resources: [
                 {
                     url: "https://github.com/codecrafters-io",
@@ -2386,6 +2400,7 @@ export const getLearningResources = async () => {
             title: "How the Web Works",
             description: "What happens behind the scenes when we type www.google.com in a browser?",
             category: ["General"],
+            date: "15 September 2022",
             resources: [
                 {
                     url: "https://github.com/vasanthk/how-web-works",
@@ -2398,6 +2413,7 @@ export const getLearningResources = async () => {
             title: "System Design",
             description: "Learn how to design systems at scale and prepare for system design interviews",
             category: ["General", "System Design"],
+            date: "23 September 2022",
             resources: [
                 {
                     url: "https://www.karanpratapsingh.com/courses/system-design",
@@ -2410,6 +2426,7 @@ export const getLearningResources = async () => {
             title: "ByteByteGo",
             description: "Covering topics and trends in large-scale system design, from the authors of the best-selling System Design Interview book series",
             category: ["General"],
+            date: "23 September 2022",
             resources: [
                 {
                     url: "https://youtube.com/c/ByteByteGo",
@@ -2422,6 +2439,7 @@ export const getLearningResources = async () => {
             title: "System Design Primer",
             description: "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards",
             category: ["General", "System Design"],
+            date: "14 October 2022",
             resources: [
                 {
                     url: "https://github.com/donnemartin/system-design-primer",
@@ -2434,6 +2452,7 @@ export const getLearningResources = async () => {
             title: "Computer Science",
             description: "Path to a free self-taught education in Computer Science!",
             category: ["General"],
+            date: "22 December 2022",
             resources: [
                 {
                     url: "https://github.com/ossu/computer-science#advanced-programming",
@@ -2446,10 +2465,24 @@ export const getLearningResources = async () => {
             title: "The Concise TypeScript Book",
             description: "A Concise Guide to Effective Development in TypeScript. Free and Open Source",
             category: ["Web Development", "TypeScript"],
+            date: "09 July 2023",
             resources: [
                 {
                     url: "https://github.com/gibbok/typescript-book",
                     type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 20,
+            title: "What are Microservices?",
+            description: "Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of loosely coupled services, which implement business capabilities.",
+            category: ["Web Development", "System Design"],
+            date: "14 December 2023",
+            resources: [
+                {
+                    url: "https://microservices.io/",
+                    type: "Website"
                 }
             ]
         },

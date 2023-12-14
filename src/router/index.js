@@ -147,12 +147,12 @@ const router = createRouter({
     },
 
     // Resources page
-    // {
-    //   path: '/resources',
-    //   name: 'resources',
-    //   component: ResourcesView,
-    //   meta: { title: 'Resources' }
-    // },
+    {
+      path: '/resources',
+      name: 'resources',
+      component: ResourcesView,
+      meta: { title: 'Resources' }
+    },
 
     // Contact page
     {
