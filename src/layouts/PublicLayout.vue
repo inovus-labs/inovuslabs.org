@@ -1,7 +1,7 @@
 
 <template>
 
-    <Navbar />
+    <Navbar :maintainance = "maintainance" />
 
     <SnowFall />
     
@@ -23,6 +23,12 @@
             Navbar,
             SnowFall,
             Footer
+        },
+        props: {
+            maintainance: {
+                type: Boolean,
+                default: false
+            }
         },
     }
 </script>

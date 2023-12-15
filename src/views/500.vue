@@ -1,22 +1,29 @@
 
-
 <template>
-    
-    <section class="bg-bgPrimary">
-        <div class="flex h-screen mx-auto w-screen p-4 items-center justify-center">
+    <ErrorLayout>
 
-            <div class="w-full lg:w-1/3">
-                <img class="w-full h-full" src="../../public/assets/illustrations/500.svg" />
+
+        <section class="bg-bgPrimary">
+            <div class="flex h-screen mx-auto w-screen p-4 items-center justify-center">
+
+                <div class="w-full lg:w-1/3">
+                    <img class="w-full h-full" src="../../public/assets/illustrations/500.svg" />
+                </div>
+
             </div>
+        </section>
 
-        </div>
-    </section>
-
+        
+    </ErrorLayout>
 </template>
 
 
 <script>
+    import ErrorLayout from "@/layouts/ErrorLayout.vue"
     export default {
-        name: '404'
+        name: '500',
+        components: {
+            ErrorLayout,
+        }
     }
 </script>
