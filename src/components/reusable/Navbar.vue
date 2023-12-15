@@ -112,14 +112,20 @@
     </nav>
 
 
+    <SnowFall />
 
 
 </template>
 
 
 <script>
+    import SnowFall from "@/components/Overlay/SnowFall.vue";
+
     export default {
         name: 'Navbar',
+        components: {
+            SnowFall
+        },
         props: {
             maintainance: {
                 type: Boolean,
