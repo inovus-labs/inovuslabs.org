@@ -2491,3 +2491,483 @@ export const getLearningResources = async () => {
     return data;
 
 };
+
+
+
+// Get team members
+export const getTeamMembers = async () => {
+
+    let data = [
+        {
+            title: 'Inovus 6th Generation',
+            date: '2023-2024',
+            showTeam: true,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodel Officer',
+                    avatar: '/assets/team/2018-2020/rojithomas.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Cina Mathew',
+                    position: 'Assistant Nodal Officer',
+                   avatar: '/assets/team/2023/cinamathew.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun Krishna',
+                    position: 'Mentor',
+                   avatar: '/assets/team/2018-2020/arjunkrishna.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Badhusha Shaji',
+                    position: 'Chief Executive Officer',
+                   avatar: '/assets/team/2024/BadhushaShaji.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Abhishek V Gopal',
+                    position: 'Chief Technical Officer',
+                   avatar: '/assets/team/2024/Abhishek.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Nikhil T Das',
+                    position: 'Chief Operations Officer',
+                   avatar: '/assets/team/2024/NikilTDas.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Nithin Daniel',
+                    position: 'Chief Financial Officer',
+                   avatar: '/assets/team/2024/Nithin.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun A Acharry',
+                    position: 'Chief Creative Officer',
+                   avatar: '/assets/team/2024/ArjunAcharry.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                },{
+                    name: ' Joel Jacob Thomas',
+                    position: 'Chief Marketing Officer',
+                   avatar: '/assets/team/2024/JoelJacob.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Lekshmi Sree J',
+                    position: 'Women in Tech Lead',
+                   avatar: '/assets/team/2024/lekshmisree.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Milan Sony',
+                    position: 'Community Lead',
+                   avatar: '/assets/team/2024/milansony.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Anu Tiji',
+                    position: 'IPR & Research Lead',
+                   avatar: '/assets/team/2024/Anutiji.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, 
+            ]
+        }, {
+            title: 'Inovus 5th Generation',
+            date: '2022-2023',
+            showTeam: false,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodal Officer',
+                   avatar: '/assets/team/2018-2020/rojithomas.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Cina Mathew',
+                    position: 'Assistant Nodal Officer',
+                   avatar: '/assets/team/2023/cinamathew.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun Krishna',
+                    position: 'Mentor',
+                   avatar: '/assets/team/2018-2020/arjunkrishna.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: 'Jeeven Josheph',
+                    position: 'Chief Executive Officer',
+                   avatar: '/assets/team/2022/jeevenjosheph.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Nikhil T Das',
+                    position: 'Chief Financial Officer',
+                   avatar: '/assets/team/2023/Nikhiltdas.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Joseph Mathai Pathil',
+                    position: 'Chief Operations Officer',
+                   avatar: '/assets/team/2022/josephmathai.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Induchoodan R',
+                    position: 'Chief Technical Officer',
+                   avatar: '/assets/team/2023/Indhuchoodan.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Meretta Suresh',
+                    position: 'Chief Marketing Officer',
+                   avatar: '/assets/team/2023/Meritta.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                },  {
+                    name: ' Badhusha Shaji',
+                    position: 'Chief Creative Officer',
+                   avatar: '/assets/team/2023/badhushashaji.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Aryadevi C S',
+                    position: 'Chief Social Officer',
+                   avatar: '/assets/team/2023/aryadevics.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Amal Joseph',
+                    position: 'Chief Innovations Officer',
+                   avatar: '/assets/team/2023/AmalJoseph.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                }, 
+            ]
+        }, {
+            title: 'Inovus 4th Generation',
+            date: '2021-2022',
+            showTeam: false,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodal Officer',
+                   avatar: '/assets/team/2018-2020/rojithomas.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun Krishna',
+                    position: 'Student Co-ordinator',
+                   avatar: '/assets/team/2018-2020/arjunkrishna.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Sreelakshmi Anilkumar',
+                    position: 'Chief Executive Officer',
+                   avatar: '/assets/team/2022/srelekshmi.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Jeevan Joseph',
+                    position: 'Chief Technical Officer',
+                   avatar: '/assets/team/2022/jeevenjosheph.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Sandra Krishnan',
+                    position: 'Chief Financial Officer',
+                   avatar: '/assets/team/2022/sandra.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Joseph Mathai Pathi',
+                    position: 'Chief operations Officer',
+                   avatar: '/assets/team/2022/josephmathai.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Christeena Zachariah',
+                    position: 'Chief Creative Officer',
+                   avatar: '/assets/team/2022/christeena.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Meretta Suresh',
+                    position: 'Chief Social Officer',
+                   avatar: '/assets/team/2022/meretta.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, 
+            ]
+        }, {
+            title: 'Inovus 3rd Generation',
+            date: '2020-2021',
+            showTeam: false,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodal Offier',
+                   avatar: '/assets/team/2018-2020/rojithomas.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Jithin Shah',
+                    position: 'Student Co-ordinato',
+                   avatar: '/assets/team/2018-2020/jithinshah.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Antony Frenandez',
+                    position: 'Chief Executive Officer',
+                   avatar: '/assets/team/2021/antonyfernandez.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Indhuchoodan R',
+                    position: 'Cheif Technical Officer',
+                   avatar: '/assets/team/2021/induchoodan.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Franklin Jetty Johnson',
+                    position: 'Chief Financial Officer',
+                   avatar: '/assets/team/2021/franklin.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Thomas George',
+                    position: 'Chief Marketing Officer',
+                   avatar: '/assets/team/2021/thomasgeorge.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Ckesiah Mary Sam',
+                    position: 'Chief Innovations Officer',
+                   avatar: '/assets/team/2021/ckeiah.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Jaike Jacob Binoy',
+                    position: 'Chief Operations Officer',
+                   avatar: '/assets/team/2021/jaikejacob.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: 'Sheril Susan Manu',
+                    position: 'Chief Creative Officer',
+                   avatar: '/assets/team/2021/sherilsusan.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Nikhil T Das',
+                    position: 'Chief Social Officer',
+                   avatar: '/assets/team/2021/nikhiltdas.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Meera Mariam Jacob',
+                    position: 'Stock Manager',
+                   avatar: '/assets/team/2021/meeramariam.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Anuraj T R',
+                    position: 'Event Curator',
+                   avatar: '/assets/team/2021/anuraj.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, 
+            ]
+        }, {
+            title: 'Inovus 2nd Generation',
+            date: '2018-2020',
+            showTeam: false,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodal Officer',
+                   avatar: '/assets/team/2018-2020/rojithomas.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Jithin Shah',
+                    position: 'Student Co-ordinator',
+                   avatar: '/assets/team/2018-2020/jithinshah.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Laya Anna Lalan',
+                    position: 'Chief Executive Officer',
+                   avatar: '/assets/team/2018-2020/layaanna.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Midhun Murali',
+                    position: 'Chief Technical Officer',
+                   avatar: '/assets/team/2018-2020/midhunmurali.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Megha Manoj',
+                    position: 'Chief Financial Officer',
+                   avatar: '/assets/team/2018-2020/meghamanoj.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Karpaka Devi',
+                    position: 'Chief Marketing Officer',
+                   avatar: '/assets/team/2018-2020/karpaka.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name:' Arjun Krishna',
+                    position: 'Chief Innovations Officer',
+                   avatar: '/assets/team/2018-2020/arjunkrishna.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Johna Aswin Selva',
+                    position: 'Chief Operations Officer',
+                   avatar: '/assets/team/2018-2020/johnaaswin.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                },{
+                    name:' Justin Titus',
+                    position: 'Chief Creative Officer',
+                   avatar: '/assets/team/2018-2020/justin.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Alan Varghese ',
+                    position: 'Chief Social Officer',
+                   avatar: '/assets/team/2018-2020/alanvarghese.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                },  
+            ]
+        }, {
+            title: 'The Founders of Inovus Labs IEDC',
+            date: '2017',
+            showTeam: false,
+            members: [
+
+            {
+              name: '',
+              position: '',
+              avatar: '/assets/team/founders.jpg',
+              social: {
+                facebook: ""
+              }
+            },
+             
+            
+             
+            ]
+        },
+    ];
+
+    return data;
+
+}
+
+
+
+// Get all news
+export const getNewsReports = async () => {
+
+    let data = [
+        {
+            date: "28 Oct 2022",
+            type: "YouTube",
+            platform: "Manorama News",
+            url: "https://www.youtube.com/embed/FwNgw0Rff6I?si=e5U_ct0dVZKQDkYF"
+        },
+        {
+            date: "20 Oct 2022",
+            type: "Newspaper",
+            edition: "Kottayam Edition",
+            platform: "Deepika",
+            url: "/assets/news/deepika.jpeg"
+        },
+        {
+            date: "22 Oct 2022",
+            type: "Newspaper",
+            edition: "Kottayam Edition",
+            platform: "Malayala Manorama",
+            url: "/assets/news/manorama.jpeg"
+        },
+        {
+            date: "22 Oct 2022",
+            type: "Newsletter",
+            platform: "IEDC Monthly Newsletter",
+            url: "/assets/news/iedc_newsletter.jpeg"
+        },
+    ]
+
+    return data;
+
+}

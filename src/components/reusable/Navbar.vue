@@ -113,23 +113,13 @@
 
 
 
-    <template v-if="showOverlay">
-        <SnowFall />
-    </template>
-
-
 
 </template>
 
 
 <script>
-    import SnowFall from "@/components/Overlay/SnowFall.vue";
-
     export default {
         name: 'Navbar',
-        components: {
-            SnowFall
-        },
         props: {
             maintainance: {
                 type: Boolean,
@@ -141,7 +131,6 @@
                 deviceWidth: null,
                 isMobile: false,
                 openDropdown: null,
-                showOverlay: true,
                 navbar: [
                     {
                         name: 'Home',

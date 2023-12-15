@@ -1,85 +1,84 @@
 
 <template>
-
-    <Navbar />
-
-    <section class="bg-bgPrimary">
-        <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
-
-        <div class="w-full lg:w-1/3 py-4 lg:py-20">
-            <img class="w-full h-full" src="../../public/assets/illustrations/guidelines.svg" />
-        </div>
-
-        <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">
-            <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">
-                Guiding the Guardians: The Handbook Unleashed!
-            </h1>
-            <p class="mb-8 text-lg font-normal text-secondary lg:text-xl sm:px-16 lg:px-46">
-                Empowering Innovation through Clearly Defined Rules and Responsibilities – Unleashing the Potential at Inovus Labs IEDC.
-            </p>
-            <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                <a href="#" target="_blank"
-                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary">
-                    <span>Download IEDC Handbook</span>
-                    <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                    </svg>
-                </a>
-            </div>
-        </div>
-
-        </div>
-    </section>
+    <PublicLayout>
 
         
 
+        <section class="bg-bgPrimary">
+            <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
 
-    <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="w-full lg:w-1/3 py-4 lg:py-20">
+                <img class="w-full h-full" src="../../public/assets/illustrations/guidelines.svg" />
+            </div>
 
-            <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
-                <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-                    🌟 Discover your role in our story! 🌐
+            <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">
+                <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">
+                    Guiding the Guardians: The Handbook Unleashed!
                 </h1>
-
-                <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-                    Explore the essence of each position in our dynamic team on the Roles and Responsibilities page. Uncover how you can contribute to our journey and make an impact. Join us in shaping the narrative! 🚀
+                <p class="mb-8 text-lg font-normal text-secondary lg:text-xl sm:px-16 lg:px-46">
+                    Empowering Innovation through Clearly Defined Rules and Responsibilities – Unleashing the Potential at Inovus Labs IEDC.
                 </p>
+                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                    <a href="#" target="_blank"
+                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary">
+                        <span>Download IEDC Handbook</span>
+                        <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
             </div>
 
-            
-            
-            <div class="grid text-left gap-8 md:grid-cols-3">
-                <template v-for="item in guideline" :key="item.id">
-            
-                    <Guidelines
-                        :item="item"
-                        :showReadMore=true
-                    /> 
-                    
-                </template>
             </div>
+        </section>
 
-        </div>
-    </section>
+            
 
 
-  <Footer />
+        <section class="bg-white dark:bg-gray-900">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
 
+                <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
+                    <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+                        🌟 Discover your role in our story! 🌐
+                    </h1>
+
+                    <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+                        Explore the essence of each position in our dynamic team on the Roles and Responsibilities page. Uncover how you can contribute to our journey and make an impact. Join us in shaping the narrative! 🚀
+                    </p>
+                </div>
+
+                
+                
+                <div class="grid text-left gap-8 md:grid-cols-3">
+                    <template v-for="item in guideline" :key="item.id">
+                
+                        <Guidelines
+                            :item="item"
+                            :showReadMore=true
+                        /> 
+                        
+                    </template>
+                </div>
+
+            </div>
+        </section>
+
+
+        
+    </PublicLayout>
 </template>
 
 
 <script>
-    import Navbar from "@/components/Reusable/Navbar.vue";
-    import Footer from "@/components/Reusable/Footer.vue";
     import Guidelines from "@/components/Guidelines.vue";
+    import PublicLayout from "@/layouts/PublicLayout.vue";
 
     export default {
         name: 'GuidelinesView',
         components: {
-            Navbar,
+            PublicLayout,
             Guidelines,
-            Footer
         },
         data() {
             return {
