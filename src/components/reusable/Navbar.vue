@@ -112,7 +112,11 @@
     </nav>
 
 
-    <SnowFall />
+
+    <template v-if="showOverlay">
+        <SnowFall />
+    </template>
+
 
 
 </template>
@@ -137,6 +141,7 @@
                 deviceWidth: null,
                 isMobile: false,
                 openDropdown: null,
+                showOverlay: true,
                 navbar: [
                     {
                         name: 'Home',

@@ -1,6 +1,6 @@
 
 <template>
-    <div id="snowfall" class="absolute inset-0 z-50 flex items-center justify-center w-full pointer-events-none overflow-hidden" style="height:200%;">
+    <div id="snowfall" class="absolute inset-0 z-50 flex items-center justify-center w-full h-full pointer-events-none overflow-hidden">
         <div class='snow-flakes'>
 
             <template v-for="i in 150">
