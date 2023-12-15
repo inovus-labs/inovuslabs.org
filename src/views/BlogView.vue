@@ -140,7 +140,7 @@
 
 <script>
     import BlogCard from "@/components/BlogCard.vue";
-    import StatsCounter from "../components/Reusable/StatsCounter.vue";
+    import StatsCounter from "@/components/Reusable/StatsCounter.vue";
 
     import PublicLayout from "@/layouts/PublicLayout.vue";
 
