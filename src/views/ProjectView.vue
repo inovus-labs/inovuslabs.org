@@ -94,9 +94,9 @@
   
   
 <script>
-    import Navbar from "@/components/reusable/Navbar.vue";
+    import Navbar from "@/components/Reusable/Navbar.vue";
     import ProjectCard from "@/components/ProjectCard.vue";
-    import Footer from "@/components/reusable/Footer.vue";
+    import Footer from "@/components/Reusable/Footer.vue";
 
     import { getProjects } from "@/API/index.js";
   

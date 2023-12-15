@@ -91,9 +91,9 @@
     
     
   <script>
-      import Navbar from "@/components/reusable/Navbar.vue";
+      import Navbar from "@/components/Reusable/Navbar.vue";
       import ActivityCard from "@/components/ActivityCard.vue";
-      import Footer from "@/components/reusable/Footer.vue";
+      import Footer from "@/components/Reusable/Footer.vue";
   
       import { getActivity } from "@/API/index.js";
     

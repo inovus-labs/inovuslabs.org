@@ -151,14 +151,14 @@
   import 'swiper/scss/autoplay';
   import { Autoplay } from 'swiper/modules';
 
-  import Navbar from "@/components/reusable/Navbar.vue";
-  import Footer from "@/components/reusable/Footer.vue";
+  import Navbar from "@/components/Reusable/Navbar.vue";
+  import Footer from "@/components/Reusable/Footer.vue";
 
   import Testimonial from "@/components/Home/Testimonial.vue";
   import Features from "@/components/Home/Features.vue";
   import Partners from "@/components/Home/Partners.vue";
   import About from "@/components/Home/About.vue";
-  import StatsCounter from "@/components/reusable/StatsCounter.vue";
+  import StatsCounter from "@/components/Reusable/StatsCounter.vue";
 
   export default {
     name: 'HomeView',

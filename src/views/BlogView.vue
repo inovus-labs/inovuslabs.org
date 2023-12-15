@@ -139,10 +139,10 @@
 
 
 <script>
-    import Navbar from "@/components/reusable/Navbar.vue";
-    import Footer from "@/components/reusable/Footer.vue";
+    import Navbar from "@/components/Reusable/Navbar.vue";
+    import Footer from "@/components/Reusable/Footer.vue";
     import BlogCard from "@/components/BlogCard.vue";
-    import StatsCounter from "../components/reusable/StatsCounter.vue";
+    import StatsCounter from "../components/Reusable/StatsCounter.vue";
 
     import { getBlogPosts, getBlogAuthors } from "@/API/index.js";
 

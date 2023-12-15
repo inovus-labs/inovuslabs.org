@@ -33,8 +33,8 @@
 
 
 <script>
-    import Navbar from "@/components/reusable/Navbar.vue";
-    import Footer from "@/components/reusable/Footer.vue";
+    import Navbar from "@/components/Reusable/Navbar.vue";
+    import Footer from "@/components/Reusable/Footer.vue";
 
     export default {
         name: 'MaintainanceView',
