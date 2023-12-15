@@ -37,7 +37,7 @@
 
 
 <script>
-    import TeamMember from '@/components/Reusable/TeamMember.vue'
+    import TeamMember from '@/components/reusable/TeamMember.vue'
 
     export default {
         name: 'TeamCard',

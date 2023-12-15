@@ -151,7 +151,7 @@
   import Features from "@/components/Home/Features.vue";
   import Partners from "@/components/Home/Partners.vue";
   import About from "@/components/Home/About.vue";
-  import StatsCounter from "@/components/Reusable/StatsCounter.vue";
+  import StatsCounter from "@/components/reusable/StatsCounter.vue";
 
   export default {
     name: 'HomeView',
