@@ -21,7 +21,7 @@
 <script>
     import ErrorLayout from "@/layouts/ErrorLayout.vue"
     export default {
-        name: '500',
+        name: '404',
         components: {
             ErrorLayout,
         }
