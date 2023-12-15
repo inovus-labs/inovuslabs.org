@@ -50,7 +50,7 @@
                             counter.innerText = Math.ceil(count + inc)
                             setTimeout(updateCount, 10)
                         } else {
-                            count.innerText = target
+                            // count.innerText = target
                         }
                     }
 
