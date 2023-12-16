@@ -570,7 +570,7 @@ export const getProjects = async () => {
                 "id": 30,
                 "title": "Mr.Bilberto",
                 "description": "A robot which only have a leg",
-                "thumbnail": "/assets/projects/Ino-mail.jpeg",
+                "thumbnail": "/assets/projects/mr.bilbort.jpg",
                 "status": "progress",
                 "tags": ["Electronics, Internet of Things"],
                 "contributors": [
@@ -601,6 +601,24 @@ export const getProjects = async () => {
                     }
                 ]
             }
+            // ,
+            // {
+            //     "id": 32,
+            //     "title": "",
+            //     "description": "",
+            //     "thumbnail": "/assets/projects/otto.jpg",
+            //     "status": "progress",
+            //     "tags": ["Electronics, Internet of Things"],
+            //     "contributors": [
+            //         {
+            //             "name": "Badhusha Shaji",
+            //             "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+            //         },{
+            //             "name": "Abhishek V Gopal",
+            //             "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+            //         }
+            //     ]
+            // }
         ]
     };
 
@@ -865,14 +883,14 @@ export const getActivity = async () => {
                 "id": 1,
                 "title": "Web Design Bootcamp v3.0",
                 "thumbnail": "/assets/activity/WDB.jpg",
-                "description": "A nano degree program to develop the web designing skills of students at kristu jyothi college. It have been successfully completed and given the certificate of the nano degree program.",
+                "description": "A nano degree program to develop the web designing skills of students at Kristu Jyoti college. It have been successfully completed and given the certificate of the nano degree program.",
                 "date": ["01 June 2023", "14 June 2013"],
                 "tags": ["Bootcamp"]
             },{
                 "id": 2,
                 "title": "Kerala Piravi @ Govt. LP School",
                 "thumbnail": "/assets/activity/schoolvisit.jpg",
-                "description": "On kerala piravi we have went to Gov. LP School Madappaly to intact with LKG students and have coundected small small activities.",
+                "description": "On Kerala piravi we have went to Gov. LP School Madappaly to interact with LKG students and have condected small small activities.",
                 "date": ["01 November 2023"],
                 "tags": ["Celebration"]
             },
@@ -886,9 +904,9 @@ export const getActivity = async () => {
             },
             {
                 "id": 4,
-                "title": "Debate compatition",
+                "title": "Debate Competition",
                 "thumbnail": "/assets/activity/debate.png",
-                "description": "A cpmpatition to encourage the talking ability of students. Severals students have participated and all have recived participation certificate",
+                "description": "A Competition to enhance the talking ability of students.Several students have participated and all have received participation certificate",
                 "date": ["25 November 2022"],
                 "tags": ["Challenge"]
             },
@@ -896,7 +914,7 @@ export const getActivity = async () => {
                 "id": 5,
                 "title": "Stupid Idea Contest",
                 "thumbnail": "/assets/activity/stupid.png",
-                "description": "A contest to devalop the ideas of KJCMT students. They have submitted several Ideas and we have selected the best one and promoted them to do that by giving some prize to them.",
+                "description": "A contest to develop the ideas of KJCMT students. They have submitted several Ideas and we have selected the best one and promoted them to do that by giving some prize to them.",
                 "date": ["03 November 2022", "12 November 2022"],
                 "tags": ["Challenge"]
             },
@@ -912,7 +930,7 @@ export const getActivity = async () => {
                 "id": 7,
                 "title": "Date with Figma",
                 "thumbnail": "/assets/activity/date_with_figma.jpg",
-                "description": "First step to figma. This event is hosted for KJCMT students to know about figma and learn about graphics designing",
+                "description": "First step to figma. This event was hosted for KJCMT students to know about figma and learn about graphic designing",
                 "date": ["09 October 2023", "14 October 2023"],
                 "tags": ["Workshop"]
             },
@@ -920,7 +938,7 @@ export const getActivity = async () => {
                 "id": 8,
                 "title": "Intro to Hacktober Fest",
                 "thumbnail": "/assets/activity/hacktober.jpg",
-                "description": "This is a event we conducted to make out students understand what is open sourec and how to conndribute in a opensource projuct, for that we have contributer several contribution to hacktober fest",
+                "description": "This is a event we conducted to make out students understand what is opensource and how to contribute in a opensource project, for that we have contributer several contribution to hacktober fest",
                 "date": ["October 2023"],
                 "tags": ["Workshop"]
             },
@@ -928,15 +946,15 @@ export const getActivity = async () => {
                 "id": 9,
                 "title": "Invention vs Innovation",
                 "thumbnail": "/assets/activity/IvsI.jpg",
-                "description": "An orientation section for the kjcmt students to know about what is invention and innovation.It halps the students to rectify the difference birween invention and innovation . ",
-                "date": ["09 October 2022"],
+                "description": "An orientation session for the KJCMT students to know about what is invention and innovation.It helps the students to rectify the difference between invention and innovation . ",
+                "date": ["09 October 2023"],
                 "tags": ["Session"]
             },
             {
                 "id": 10,
                 "title": "Call for extended team",
                 "thumbnail": "/assets/activity/Exetended.jpg",
-                "description": "The selection of our extened team. We have conducted interview of all apllayed students and selected a bunch of intrested students to inovus Fam.",
+                "description": "The selection of our extened team. We have conducted interview of all applied students and selected a bunch of intrested students to inovus Fam.",
                 "date": ["04 October 2023", "06 October 2023"],
                 "tags": ["Internship"]
             },
@@ -944,7 +962,7 @@ export const getActivity = async () => {
                 "id": 11,
                 "title": "Hands-on IoT Workshop",
                 "thumbnail": "/assets/activity/handonIOT.jpg",
-                "description": "This is a exibition counducted at MBC kuttikanam. A bunch of intrested students to learn IoT ",
+                "description": "This is a exhibition conducted at MBC kuttikanam. For a bunch of intrested students to learn IoT ",
                 "date": ["27 April 2023", "28 April 2023"],
                 "tags": ["Workshop"]
             },
@@ -952,7 +970,7 @@ export const getActivity = async () => {
                 "id": 12,
                 "title": "IoT & Robotics Exhibition",
                 "thumbnail": "/assets/activity/Iotexebition.jpeg",
-                "description": "An exebition counducted on SB high school based on IT.They have interacted with VR glasses, hoverboard, etc . ",
+                "description": "An exhibition conducted on SB high school based on IT.They interacted with VR glasses, hoverboard, etc . ",
                 "date": ["03 February 2023"],
                 "tags": ["Exhibition"]
             },
@@ -960,7 +978,7 @@ export const getActivity = async () => {
                 "id": 13,
                 "title": "XPOVISTA ’23",
                 "thumbnail": "/assets/activity/xpovista.JPG",
-                "description": "This is a exibition counducted by kristu jyoti HSS, We the students of inovus Labs IEDC have displayed some of our products too ",
+                "description": "This is an exibition conducted by Kristu Jyoti HSS, We the students of Inovus Labs IEDC have displayed some of our products too ",
                 "date": ["20 September 2023", "22 September 2023"],
                 "tags": ["Exhibition"]
             },
@@ -968,7 +986,7 @@ export const getActivity = async () => {
                 "id": 14,
                 "title": "Learn.py 2.0",
                 "thumbnail": "/assets/activity/learnpy.JPG",
-                "description": "An online event counducted for KJCMT studens to learn python. the students will get the basic knowleadge to understand and program in python",
+                "description": "An online event conducted for KJCMT studens to learn python. the students will get the basic knowledge to understand and program in python",
                 "date": ["09 September 2022"],
                 "tags": ["Workshop"]
             },
@@ -976,7 +994,7 @@ export const getActivity = async () => {
                 "id": 15,
                 "title": "LED Bulb Making Workshop",
                 "thumbnail": "/assets/activity/LEDworkshop.jpg",
-                "description": "A workshop to teach students how to make LED bulbs so that make bulb and sell them there own. ",
+                "description": "A workshop to teach students how to make LED bulbs so that they can make bulbs and sell them on their own. ",
                 "date": ["24 January 2023"],
                 "tags": ["workshops"]
             },
@@ -984,7 +1002,7 @@ export const getActivity = async () => {
                 "id": 16,
                 "title": "Arduino Workshop",
                 "thumbnail": "/assets/activity/arduinoIHRD.jpeg",
-                "description": "We have counducted Arduino workshop for the students of IHRD mallapally students. It was a wonderfull experience to intract with new fellows",
+                "description": "We have conducted Arduino workshop for the students of IHRD Mallapally students. It was a wonderfull experience to interact with new fellows",
                 "date": ["23 January 2023"],
                 "tags": ["Workshop"]
             },
@@ -1016,7 +1034,7 @@ export const getActivity = async () => {
                 "id": 20,
                 "title": "Inspire Orientation",
                 "thumbnail": "/assets/activity/Inspire.png",
-                "description": "The Inspire Orientation program, organized by Inovus Labs IEDC, was a significant step in empowering students to participate in the Inspire initiative conducted by the Indian Government. This initiative aims to cultivate innovation and creativity among young minds. The program featured accomplished resource persons, Nikhil T Das, Badhusha Shaji, and Abhishek V Gopal, and took place at the Offline Placid Vidhyavihar. It served as a platform to inspire and equip students from Classes 7 to 9 to turn their innovative ideas into reality",
+                "description": "The Inspire Orientation program, organized by Inovus Labs IEDC, was a significant step in empowering students to participate in the Inspire initiative conducted by the Indian Government. This initiative aims to cultivate innovation and creativity among young minds. The program featured accomplished resource persons, Nikhil T Das, Badhusha Shaji, and Abhishek V Gopal, and took place at Placid Vidhyavihar. It served as a platform to inspire and equip students from Classes 7 to 9 to turn their innovative ideas into reality",
                 "date": ["12 July 2023"],
                 "tags": ["Session"]
             },
@@ -1038,7 +1056,7 @@ export const getActivity = async () => {
             },
             {
                 "id": 23,
-                "title": "Dislexia Awareness Section",
+                "title": "Dyslexia Awareness Session",
                 "thumbnail": "/assets/activity/dyslexia.jpg",
                 "description": "The INOVUS LABS IEDC of Kristu Jyoti College of Management and Technology and Post Graduate department of Psychology organized a Dyslexia Awareness Class with the goal of enhancing understanding and awareness of Dyslexia among students. The class aimed to equip participants with knowledge about Dyslexia, its signs, and effective strategies for supporting individuals with Dyslexia. ",
                 "date": ["04 October 2023"],
@@ -1101,7 +1119,7 @@ export const getActivity = async () => {
                 "tags": ["Workshop"]
             },
             {
-                "id": 31,
+                "id": 31,              
                 "title": "Introduction to Hacktober Fest 2021",
                 "thumbnail": "/assets/activity/21hacktober.png",
                 "description": "Inovus Labs IEDC orchestrated the Simple - Introduction to Hacktober fest workshop on October 3, 2021, providing an online space for 16 participants to grasp the essence of this annual open-source event. The workshop served as a platform to elucidate the concept of Hacktober fest and its significance in the open-source realm. Through interactive discussions held on a Discord server, participants delved into the collaborative nature of open-source contributions and learned about the tangible impact they can make. Guided by the event's objective, participants emerged with a comprehensive understanding of Hacktober fest's purpose and avenues for meaningful contributions to open-source projects. This workshop stands as a testament to Inovus Labs IEDC's commitment to fostering a culture of collaboration and innovation, encouraging participants to actively engage in the open-source community and contribute positively to the digital landscape. ",
@@ -1490,7 +1508,16 @@ export const getReccuringEvents = async () => {
                 "thumbnail": "/assets/reccuringevents/workbench/Template 16.jpg",
                 "tags": ["Weekend Workbench"]
                
-            }       
+            }
+            ,{
+                "id": 23,
+                "date": "16 December 2023",
+                "title": "Weekend Workbench #17",
+                "description": "",
+                "thumbnail": "/assets/reccuringevents/workbench/17.jpg",
+                "tags": ["Weekend Workbench"]
+               
+            }              
         ]
     };
 
