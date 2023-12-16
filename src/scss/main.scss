@@ -6,6 +6,8 @@
     font-weight: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@400;500;600;700&display=swap');
+
 // @font-face {
 //     font-family: "CircularStd";
 //     src: local("CircularStd"),
@@ -61,6 +63,10 @@
 
 * {
     font-family: "CircularStd", sans-serif;
+}
+
+.malayalam-font {
+    font-family: 'Noto Sans Malayalam', sans-serif;
 }
 
 // ------------------------------ Global SCSS ------------------------------

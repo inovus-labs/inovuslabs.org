@@ -17,7 +17,7 @@
                           <a class="opacity-50 cursor-not-allowed">Certificates</a>
                       </li>
                       <li>
-                          <a class="opacity-50 cursor-not-allowed">API Status</a>
+                          <a href="https://status.inovuslabs.org" target="_blank">Status Page</a>
                       </li>
                   </ul>
               </div>
@@ -39,7 +39,7 @@
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Guidelines</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-2">
-                          <a href="/code-of-conduct" class="hover:underline">Code of Conduct</a>
+                          <a class="opacity-50 cursor-not-allowed">Code of Conduct</a>
                       </li>
                       <li>
                           <a href="/iedc-guidelines" class="hover:underline">IEDC Guidelines</a>
@@ -50,7 +50,8 @@
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#/" class="hover:underline">Inovus Labs</a>. All Rights Reserved.
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© {{ new Date().getFullYear() }}
+            <a href="/" class="hover:underline">Inovus Labs</a>. All Rights Reserved.
           </span>
           <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
               <a href="https://www.instagram.com/inovuslabs/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">

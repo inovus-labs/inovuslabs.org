@@ -1867,3 +1867,1134 @@ export const getGalleryAssets = async () => {
     return data;
 
 };
+
+
+
+// Get nanodegree details
+export const getNanoDegreeDetails = async () => {
+
+    let data = [
+                    
+        {
+            id: 1,
+            title: "Internet of Things (IoT) with Arduino",
+            description: "The 'Internet of Things (IoT) with Arduino' nano degree program is an ideal starting point for beginners eager to explore the exciting world of IoT. This user-friendly program introduces participants to the basics of Arduino, a popular open-source electronics platform, and seamlessly integrates IoT concepts. Through hands-on projects and step-by-step guidance, learners gain practical skills in building smart, connected devices. By the end of the program, students will have a solid foundation in IoT development, empowering them to bring their creative ideas to life in the rapidly evolving digital landscape.",
+            level: "Beginner",
+            status: true,
+            
+            syllabus: [
+                {
+                    id: 1,
+                    title: "Introduction to the IoT",
+                    lessons: [
+                        "Simple explanation of IoT and its impact on daily life",
+                        "Examples of IoT in various sectors: home automation, healthcare, and agriculture",
+                        "Brief discussion on the future potential of IoT",
+                    ],
+                    resources: [
+                        "https://www.youtube.com/embed/PXP4VSaD7H4?si=5Dtyy1Kn_02bnGJ-"
+                    ]
+                },
+
+                {
+                    id: 2,
+                    title: "Introduction to Microcontrollers and Microprocessors and Arduino",
+                    lessons: [
+                        "Simple definitions suitable for beginners",
+                        "Contrast in usage with real-life examples",
+                        "Microcontroller: Used in a thermostat",
+                        "Microprocessor: Powering a smartphone",
+                        "Basic components and functionalities of each",
+                        "What is Arduino and why is it popular among beginners?",
+                        "Overview of different Arduino boards",
+                        "Overview of different Arduino boards",
+                    ],
+                    resources: [
+                        "https://www.youtube.com/embed/1ENiVwk8idM?si=o6LnT0gCM5vZCykO",
+                        "https://www.youtube.com/embed/7vhvnaWUZjE?si=DOVH4ar_YNSZBP2U"
+                    ]
+                },
+
+                {
+                    id: 3,
+                    title: "Inputs and Outputs in Arduino",
+                    lessons: [
+                        "Explanation of digital and analog pins",
+                        "How to read signals from sensors",
+                        "How to send signals to actuators like LEDs or motors",
+                    ],
+                    resources: [
+                        "https://www.youtube.com/embed/BMMnOAzcqoE?si=h6eDFrCI-hmROzBu"
+                    ]
+                },
+
+                {
+                    id: 4,
+                    title: "Introduction to Online Simulator: Wowki and Tinkercad",
+                    lessons: [
+                        "Benefits of using Wowki and Tinkercad for beginners",
+                        "How to set up a virtual circuit",
+                        "Simulating the tasks above in Wowki or Thinkercad"
+                    ],
+                    resources: [
+                        "https://www.youtube.com/embed/c5btoce--ZU?si=erHTU9YHsgA4ql5y"
+                    ],
+                    tasks: [
+                        {
+                            id: 1,
+                            title: "LED Blinking",
+                            description: [
+                                "Blink an LED using Arduino"
+                            ],
+                        }
+                    ]
+                },
+
+                {
+                    id: 5,
+                    title: "Working with Sensors",
+                    lessons: [
+                        "Ultrasonic Sensor",
+                        "Humidity Sensor",
+                        "Gas Sensor",
+                        "IR Receiver",
+                        "LDR (Light-Dependent Resistor)",
+                        "PIR (Passive Infrared) Sensor",
+                        "Pushbutton",
+                        "Joystick Module",
+                    ],
+                    resources: [
+                        "https://www.youtube.com/embed/0Lhgd8PQmn0?si=uwHoi4Kp7p3OW0iQ"
+                    ],
+                    tasks: [
+                        {
+                            id: 2,
+                            title: "Distance Measurement",
+                            description: [
+                                "Creating a simple distance meter"
+                            ],
+                        },
+                        {
+                            id: 3,
+                            title: "Humidity Monitoring",
+                            description: [
+                                "Building a basic humidity level indicator"
+                            ],
+                        },
+                        {
+                            id: 4,
+                            title: "Gas Leak Detector",
+                            description: [
+                                "Designing a simple gas leak alarm"
+                            ],
+                        },
+                        {
+                            id: 5,
+                            title: "Remote Control Command Reception",
+                            description: [
+                                "Understanding how to receive and interpret IR signals"
+                            ],
+                        },
+                        {
+                            id: 6,
+                            title: "Light Intensity Measurement",
+                            description: [
+                                "Creating a system that reacts to changing light conditions"
+                            ],
+                        },
+                        {
+                            id: 7,
+                            title: "Motion Detection System",
+                            description: [
+                                "Building a motion-activated device"
+                            ],
+                        },
+                        {
+                            id: 8,
+                            title: "Interactive Control",
+                            description: [
+                                "Using a pushbutton to control an LED or a buzzer"
+                            ],
+                        },
+                        {
+                            id: 9,
+                            title: "Directional Control",
+                            description: [
+                                "Using a joystick to control an LED array or a small display"
+                            ],
+                        },
+                    ]
+                },
+
+                {
+                    id: 6,
+                    title: "Connecting and Controlling a Servo Motor",
+                    lessons: [
+                        "Understanding servo motors and their uses",
+                    ],
+                    tasks: [
+                        {
+                            id: 10,
+                            title: "Controlling Servo Motor",
+                            description: [
+                                "Move a servo motor to specific angles"
+                            ],
+                        },
+                    ]
+                },
+
+                {
+                    id: 7,
+                    title: "Using LCD Displays",
+                    lessons: [
+                        "Introduction to LCD displays and their types",
+                    ],
+                    tasks: [
+                        {
+                            id: 11,
+                            title: "Displaying Sensor Readings",
+                            description: [
+                                "Show readings from sensors on an LCD"
+                            ],
+                        }
+                    ]
+                },
+                
+            ],
+
+            projects: [
+                
+                {
+                    id: 1,
+                    title: "Automated Room Lighting System",
+                    objective: "Build an automatic lighting system that turns on in the dark and off in bright conditions",
+                    components: [
+                        "Arduino",
+                        "Light-Dependent Resistor (LDR)",
+                        "LED or LED strip",
+                    ],
+                    skills: [
+                        "Reading analog input from LDR",
+                        "Controlling LED output"
+                    ],
+                    description: "This project uses an LDR to detect the amount of light in the room. When the light level falls below a certain threshold, the Arduino commands an LED to turn on. The LED turns off again when the light level rises above the threshold."
+                },
+
+                {
+                    id: 2,
+                    title: "Basic Security System",
+                    objective: "Design a simple security system that sounds an alarm when motion is detected",
+                    components: [
+                        "Arduino",
+                        "Passive Infrared (PIR) sensor",
+                        "Buzzer",
+                        "LED indicators",
+                    ],
+                    skills: [
+                        "Digital input from PIR sensor",
+                        "Output control with buzzer and LED"
+                    ],
+                    description: "This project uses a PIR sensor to detect motion in the room. When the sensor detects motion, the Arduino commands a buzzer to sound an alarm and an LED to flash. The alarm and LED turn off again when the sensor no longer detects motion."
+                },
+
+                {
+                    id: 3,
+                    title: "Personal Room Thermostat",
+                    objective: "Implement a thermostat to monitor and control room temperature",
+                    components: [
+                        "Arduino",
+                        "Temperature sensor",
+                        "LCD display",
+                        "Buttons / Potentiometer",
+                    ],
+                    skills: [
+                        "Temperature sensing",
+                        "Data display on LCD",
+                        "User input handling"
+                    ],
+                    description: "This project uses a temperature sensor to detect the temperature in the room. The Arduino displays the temperature on an LCD screen and allows the user to set a desired temperature using buttons or a potentiometer. When the temperature rises above the desired level, the Arduino commands a buzzer to sound an alarm and an LED to flash. The alarm and LED turn off again when the temperature falls below the desired level."
+                },
+
+                {
+                    id: 4,
+                    title: "Smart Dustbin",
+                    objective: "Create an automated dustbin that opens its lid when someone approaches",
+                    components: [
+                        "Arduino",
+                        "Ultrasonic Sensor",
+                        "Servo Motor",
+                    ],
+                    skills: [
+                        "Reading analog input from temperature sensor",
+                        "Controlling LED output"
+                    ],
+                    description: "This project uses an ultrasonic sensor to detect the presence of a person or object near the dustbin. When the sensor detects someone within a certain distance, the Arduino commands a servo motor to open the lid of the dustbin, closing it again after a set period or when the object moves away."
+                },
+
+                {
+                    id: 5,
+                    title: "Remote-Controlled Light Dimmer",
+                    objective: "Construct a light dimming system controlled by an IR remote",
+                    components: [
+                        "Arduino",
+                        "IR receiver",
+                        "LED / dimmable light",
+                        "IR remote control",
+                    ],
+                    skills: [
+                        "IR signal decoding",
+                        "Light dimming using PWM",
+                        "Remote control usage"
+                    ],
+                    description: "This project uses an IR receiver to detect signals from an IR remote control. When the Arduino receives a signal, it commands an LED to turn on or off, or to dim or brighten."
+                },
+
+                {
+                    id: 6,
+                    title: "Pin Locker with Keypad and LCD",
+                    objective: "Create a pin-based locker system using a keypad and LCD display",
+                    components: [
+                        "Arduino",
+                        "Numeric keypad",
+                        "16x2 LCD screen", 
+                        "Servo motor",
+                    ],
+                    skills: [
+                        "Input handling from keypad",
+                        "Displaying information on LCD",
+                        "Controlling servo to lock/unlock"
+                    ],
+                    description: "This project uses a numeric keypad to allow the user to enter a PIN. When the correct PIN is entered, the Arduino commands a servo motor to unlock the locker. The Arduino also displays the status of the locker on an LCD screen."
+                }
+
+            ]
+        },
+
+        {
+            id: 2,
+            title: "Web Designing for Absolute Beginners",
+            description: "The 'Web Design for Absolute Beginners' nano degree program is a user-friendly and comprehensive introduction to the world of web design. Tailored specifically for those with no prior experience, this program covers fundamental concepts such as HTML, CSS, and basic design principles. With hands-on projects and step-by-step guidance, participants will gain practical skills to create visually appealing and functional websites from scratch. Perfect for absolute beginners, this nano degree program provides a supportive learning environment to build a solid foundation in web design.",
+            level: "Beginner",
+            status: false,
+            syllabus: [],
+            projects: []
+        },
+
+        {
+            id: 3,
+            title: "Getting Started with UI/UX Design",
+            description: "The 'Getting Started with UI/UX Design' nano degree program is a comprehensive and hands-on course designed for beginners eager to dive into the dynamic world of User Interface (UI) and User Experience (UX) design. Participants will learn fundamental design principles, industry-standard tools, and practical techniques to create visually appealing and user-friendly digital experiences. Through a combination of theory and real-world projects, students will develop the skills needed to craft intuitive interfaces and enhance user interactions, setting a strong foundation for a successful career in UI/UX design.",
+            level: "Beginner",
+            status: false,
+            syllabus: [],
+            projects: []
+        },
+
+        {
+            id: 4,
+            title: "DevOps for Nerds",
+            description: "'DevOps for Nerds' is an intermediate-level nano degree program designed to empower tech enthusiasts with the skills and knowledge needed to excel in the world of DevOps. This hands-on program delves into advanced concepts of development and operations integration, automation, continuous integration/continuous deployment (CI/CD), and infrastructure as code (IaC). Tailored for those with a nerdy passion for technology, the program combines practical exercises, real-world scenarios, and collaborative projects to deepen participants' understanding of DevOps practices, enabling them to streamline processes and enhance collaboration between development and operations teams. Graduates emerge with a robust skill set, ready to contribute to the efficiency and agility of modern software development and delivery pipelines.",
+            level: "Intermediate",
+            status: false,
+            syllabus: [],
+            projects: []
+        }
+    ]
+
+    return data;
+    
+}
+
+
+
+// Get all reports
+export const getReports = async () => {
+
+    let data = [
+        {
+            id: 1,
+            title: "IEDC Monthly Report",
+            year: "January 2018 - December 2019",
+            thumbnail: "",
+            url: "https://docs.google.com/document/d/1JDD5wN1zIb5QgYzHNhDSqWCz11MCvREe"
+        },
+        {
+            id: 2,
+            title: "IEDC Activity Report",
+            year: "January 2019 - December 2019",
+            thumbnail: "",
+            url: "https://drive.google.com/file/d/1USpa2PH2aG7sbC-kY2ScDxJ829kOWx8N"
+        },
+        {
+            id: 3,
+            title: "IEDC Activity Report",
+            year: "January 2021 - December 2021",
+            thumbnail: "",
+            url: "https://drive.google.com/file/d/1USpa2PH2aG7sbC-kY2ScDxJ829kOWx8N"
+        }
+    ];
+
+    return data;
+
+};
+
+
+
+// Get all learning resources
+export const getLearningResources = async () => {
+
+    let data = [
+        {
+            id: 1,
+            title: "ഒരു സമ്പൂർണ മലയാള മെഷീൻ ലേർണിംഗ് ഗൈഡ്",
+            lang: "ml-IN",
+            description: "Machine Learning Guide (For Absolute Beginners) by Sreeram Venkitesh",
+            category: ["AI/ML"],
+            date: "01 June 2021",
+            resources: [
+                {
+                    url: "https://github.com/sreeram-venkitesh/Essence-of-ML",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 2,
+            title: "Learn Linux Basics – Bash Command Tutorial for Beginners",
+            description: "The Linux Command Handbook by FreeCodeCamp",
+            category: ["Linux", "DevOps"],
+            date: "01 June 2021",
+            resources: [
+                {
+                    url: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 3,
+            title: "Artificial Intelligence Curriculum",
+            description: "Curated with support from Intel®️ (CBSE Class 10 - Facilitator Handbook)",
+            category: ["AI/ML"],
+            date: "07 June 2021",
+            resources: [
+                {
+                    url: "http://cbseacademic.nic.in/web_material/Curriculum21/publication/secondary/Class10_Facilitator_Handbook.pdf",
+                    type: "PDF"
+                }
+            ]
+        },
+        {
+            id: 4,
+            title: "Machine Learning for Beginners - A Curriculum",
+            description: "12 weeks, 24 lessons, Classic Machine Learning for all",
+            category: ["AI/ML"],
+            date: "07 June 2021",
+            resources: [
+                {
+                    url: "https://github.com/microsoft/ML-For-Beginners",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 5,
+            title: "IoT for Beginners - A Curriculum from Microsoft",
+            description: "2 weeks, 24 lessons, IoT for all",
+            category: ["IoT"],
+            date: "20 June 2021",
+            resources: [
+                {
+                    url: "https://github.com/microsoft/IoT-For-Beginners",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 6,
+            title: "Machine Learning Crash Course with TensorFlow",
+            description: "Google's free, fast-paced, practical introduction to Machine Learning",
+            category: ["AI/ML"],
+            date: "26 August 2021",
+            resources: [
+                {
+                    url: "https://developers.google.com/machine-learning/crash-course",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 7,
+            title: "roadmap.sh",
+            description: "roadmap.sh is a community effort to create road-maps, guides and other educational content to help guide the developers in picking up the path and guide their learnings",
+            category: ["General"],
+            date: "09 September 2021",
+            resources: [
+                {
+                    url: "https://roadmap.sh/",
+                    type: "Website"
+                },
+                {
+                    url: "https://www.youtube.com/theroadmap",
+                    type: "YouTube"
+                }
+            ]
+        },
+        {
+            id: 8,
+            title: "Deep Dive Into Modern Web Development",
+            description: "Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This course will introduce you to modern JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js.",
+            category: ["Web Development", "React", "Node.js"],
+            date: "18 September 2021",
+            resources: [
+                {
+                    url: "https://fullstackopen.com/en/",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 9,
+            title: "Modular JavaScript Book Series",
+            description: "Modular JavaScript is an open effort to improve our collective understanding of writing robust, well-tested & modular applications. It consists of five books, each of which explores a key aspect of JavaScript development — comprehensively. The books are produced in the open: anyone can track their progress, report issues & contribute fixes or content.",
+            category: ["Web Development", "JavaScript"],
+            date: "24 March 2022",
+            resources: [
+                {
+                    url: "https://mjavascript.com/",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 10,
+            title: "Node.js - Notes for Professionals",
+            description: "This is an unofficial free book created for educational purposes and is not affiliated with official Node.js group(s) or company(s)",
+            category: ["Web Development", "Node.js"],
+            date: "08 February 2022",
+            resources: [
+                {
+                    url: "https://github.com/milan-sony/hacktoberfest2023/files/13665968/NodeJSNotesForProfessionals.pdf",
+                    type: "PDF"
+                }
+            ]
+        },
+        {
+            id: 11,
+            title: "The Modern JavaScript Tutorial",
+            description: "From the basics to advanced topics with simple, but detailed explanations.",
+            category: ["Web Development", "JavaScript"],
+            date: "07 July 2022",
+            resources: [
+                {
+                    url: "https://javascript.info/",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 12,
+            title: "DevOps Resources",
+            description: "DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP",
+            category: ["DevOps"],
+            date: "12 July 2022",
+            resources: [
+                {
+                    url: "https://github.com/bregman-arie/devops-resources",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 13,
+            title: "CodeCrafters",
+            description: "Have you heard about 'Code Crafters'. They do have an awesome GitHub Organization page with some really awesome learning resource repositories. If interested, do check them out.",
+            category: ["General"],
+            date: "10 August 2022",
+            resources: [
+                {
+                    url: "https://github.com/codecrafters-io",
+                    type: "GitHub"
+                },
+                {
+                    url: "https://codecrafters.io/",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 14,
+            title: "How the Web Works",
+            description: "What happens behind the scenes when we type www.google.com in a browser?",
+            category: ["General"],
+            date: "15 September 2022",
+            resources: [
+                {
+                    url: "https://github.com/vasanthk/how-web-works",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 15,
+            title: "System Design",
+            description: "Learn how to design systems at scale and prepare for system design interviews",
+            category: ["General", "System Design"],
+            date: "23 September 2022",
+            resources: [
+                {
+                    url: "https://www.karanpratapsingh.com/courses/system-design",
+                    type: "Website"
+                }
+            ]
+        },
+        {
+            id: 16,
+            title: "ByteByteGo",
+            description: "Covering topics and trends in large-scale system design, from the authors of the best-selling System Design Interview book series",
+            category: ["General"],
+            date: "23 September 2022",
+            resources: [
+                {
+                    url: "https://youtube.com/c/ByteByteGo",
+                    type: "YouTube"
+                }
+            ]
+        },
+        {
+            id: 17,
+            title: "System Design Primer",
+            description: "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards",
+            category: ["General", "System Design"],
+            date: "14 October 2022",
+            resources: [
+                {
+                    url: "https://github.com/donnemartin/system-design-primer",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 18,
+            title: "Computer Science",
+            description: "Path to a free self-taught education in Computer Science!",
+            category: ["General"],
+            date: "22 December 2022",
+            resources: [
+                {
+                    url: "https://github.com/ossu/computer-science#advanced-programming",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 19,
+            title: "The Concise TypeScript Book",
+            description: "A Concise Guide to Effective Development in TypeScript. Free and Open Source",
+            category: ["Web Development", "TypeScript"],
+            date: "09 July 2023",
+            resources: [
+                {
+                    url: "https://github.com/gibbok/typescript-book",
+                    type: "GitHub"
+                }
+            ]
+        },
+        {
+            id: 20,
+            title: "What are Microservices?",
+            description: "Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of loosely coupled services, which implement business capabilities.",
+            category: ["Web Development", "System Design"],
+            date: "14 December 2023",
+            resources: [
+                {
+                    url: "https://microservices.io/",
+                    type: "Website"
+                }
+            ]
+        },
+    ];
+
+    return data;
+
+};
+
+
+
+// Get team members
+export const getTeamMembers = async () => {
+
+    let data = [
+        {
+            title: 'Inovus 6th Generation',
+            date: '2023-2024',
+            showTeam: true,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodel Officer',
+                    avatar: '/assets/team/2018-2020/rojithomas.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Cina Mathew',
+                    position: 'Assistant Nodal Officer',
+                   avatar: '/assets/team/2023/cinamathew.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun Krishna',
+                    position: 'Mentor',
+                   avatar: '/assets/team/2018-2020/arjunkrishna.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Badhusha Shaji',
+                    position: 'Chief Executive Officer',
+                   avatar: '/assets/team/2024/BadhushaShaji.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Abhishek V Gopal',
+                    position: 'Chief Technical Officer',
+                   avatar: '/assets/team/2024/Abhishek.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Nikhil T Das',
+                    position: 'Chief Operations Officer',
+                   avatar: '/assets/team/2024/NikilTDas.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Nithin Daniel',
+                    position: 'Chief Financial Officer',
+                   avatar: '/assets/team/2024/Nithin.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun A Acharry',
+                    position: 'Chief Creative Officer',
+                   avatar: '/assets/team/2024/ArjunAcharry.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                },{
+                    name: ' Joel Jacob Thomas',
+                    position: 'Chief Marketing Officer',
+                   avatar: '/assets/team/2024/JoelJacob.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Lekshmi Sree J',
+                    position: 'Women in Tech Lead',
+                   avatar: '/assets/team/2024/lekshmisree.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Milan Sony',
+                    position: 'Community Lead',
+                   avatar: '/assets/team/2024/milansony.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Anu Tiji',
+                    position: 'IPR & Research Lead',
+                   avatar: '/assets/team/2024/Anutiji.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, 
+            ]
+        }, {
+            title: 'Inovus 5th Generation',
+            date: '2022-2023',
+            showTeam: false,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodal Officer',
+                   avatar: '/assets/team/2018-2020/rojithomas.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Cina Mathew',
+                    position: 'Assistant Nodal Officer',
+                   avatar: '/assets/team/2023/cinamathew.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun Krishna',
+                    position: 'Mentor',
+                   avatar: '/assets/team/2018-2020/arjunkrishna.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: 'Jeeven Josheph',
+                    position: 'Chief Executive Officer',
+                   avatar: '/assets/team/2022/jeevenjosheph.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Nikhil T Das',
+                    position: 'Chief Financial Officer',
+                   avatar: '/assets/team/2023/Nikhiltdas.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Joseph Mathai Pathil',
+                    position: 'Chief Operations Officer',
+                   avatar: '/assets/team/2022/josephmathai.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Induchoodan R',
+                    position: 'Chief Technical Officer',
+                   avatar: '/assets/team/2023/Indhuchoodan.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Meretta Suresh',
+                    position: 'Chief Marketing Officer',
+                   avatar: '/assets/team/2023/Meritta.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                },  {
+                    name: ' Badhusha Shaji',
+                    position: 'Chief Creative Officer',
+                   avatar: '/assets/team/2023/badhushashaji.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Aryadevi C S',
+                    position: 'Chief Social Officer',
+                   avatar: '/assets/team/2023/aryadevics.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Amal Joseph',
+                    position: 'Chief Innovations Officer',
+                   avatar: '/assets/team/2023/AmalJoseph.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                }, 
+            ]
+        }, {
+            title: 'Inovus 4th Generation',
+            date: '2021-2022',
+            showTeam: false,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodal Officer',
+                   avatar: '/assets/team/2018-2020/rojithomas.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun Krishna',
+                    position: 'Student Co-ordinator',
+                   avatar: '/assets/team/2018-2020/arjunkrishna.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Sreelakshmi Anilkumar',
+                    position: 'Chief Executive Officer',
+                   avatar: '/assets/team/2022/srelekshmi.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Jeevan Joseph',
+                    position: 'Chief Technical Officer',
+                   avatar: '/assets/team/2022/jeevenjosheph.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Sandra Krishnan',
+                    position: 'Chief Financial Officer',
+                   avatar: '/assets/team/2022/sandra.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Joseph Mathai Pathi',
+                    position: 'Chief operations Officer',
+                   avatar: '/assets/team/2022/josephmathai.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Christeena Zachariah',
+                    position: 'Chief Creative Officer',
+                   avatar: '/assets/team/2022/christeena.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Meretta Suresh',
+                    position: 'Chief Social Officer',
+                   avatar: '/assets/team/2022/meretta.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, 
+            ]
+        }, {
+            title: 'Inovus 3rd Generation',
+            date: '2020-2021',
+            showTeam: false,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodal Offier',
+                   avatar: '/assets/team/2018-2020/rojithomas.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Jithin Shah',
+                    position: 'Student Co-ordinato',
+                   avatar: '/assets/team/2018-2020/jithinshah.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Antony Frenandez',
+                    position: 'Chief Executive Officer',
+                   avatar: '/assets/team/2021/antonyfernandez.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Indhuchoodan R',
+                    position: 'Cheif Technical Officer',
+                   avatar: '/assets/team/2021/induchoodan.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Franklin Jetty Johnson',
+                    position: 'Chief Financial Officer',
+                   avatar: '/assets/team/2021/franklin.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Thomas George',
+                    position: 'Chief Marketing Officer',
+                   avatar: '/assets/team/2021/thomasgeorge.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Ckesiah Mary Sam',
+                    position: 'Chief Innovations Officer',
+                   avatar: '/assets/team/2021/ckeiah.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Jaike Jacob Binoy',
+                    position: 'Chief Operations Officer',
+                   avatar: '/assets/team/2021/jaikejacob.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: 'Sheril Susan Manu',
+                    position: 'Chief Creative Officer',
+                   avatar: '/assets/team/2021/sherilsusan.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Nikhil T Das',
+                    position: 'Chief Social Officer',
+                   avatar: '/assets/team/2021/nikhiltdas.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Meera Mariam Jacob',
+                    position: 'Stock Manager',
+                   avatar: '/assets/team/2021/meeramariam.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Anuraj T R',
+                    position: 'Event Curator',
+                   avatar: '/assets/team/2021/anuraj.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, 
+            ]
+        }, {
+            title: 'Inovus 2nd Generation',
+            date: '2018-2020',
+            showTeam: false,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodal Officer',
+                   avatar: '/assets/team/2018-2020/rojithomas.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Jithin Shah',
+                    position: 'Student Co-ordinator',
+                   avatar: '/assets/team/2018-2020/jithinshah.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Laya Anna Lalan',
+                    position: 'Chief Executive Officer',
+                   avatar: '/assets/team/2018-2020/layaanna.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Midhun Murali',
+                    position: 'Chief Technical Officer',
+                   avatar: '/assets/team/2018-2020/midhunmurali.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Megha Manoj',
+                    position: 'Chief Financial Officer',
+                   avatar: '/assets/team/2018-2020/meghamanoj.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Karpaka Devi',
+                    position: 'Chief Marketing Officer',
+                   avatar: '/assets/team/2018-2020/karpaka.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name:' Arjun Krishna',
+                    position: 'Chief Innovations Officer',
+                   avatar: '/assets/team/2018-2020/arjunkrishna.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Johna Aswin Selva',
+                    position: 'Chief Operations Officer',
+                   avatar: '/assets/team/2018-2020/johnaaswin.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                },{
+                    name:' Justin Titus',
+                    position: 'Chief Creative Officer',
+                   avatar: '/assets/team/2018-2020/justin.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Alan Varghese ',
+                    position: 'Chief Social Officer',
+                   avatar: '/assets/team/2018-2020/alanvarghese.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                },  
+            ]
+        }, {
+            title: 'The Founders of Inovus Labs IEDC',
+            date: '2017',
+            showTeam: false,
+            members: [
+
+            {
+              name: '',
+              position: '',
+              avatar: '/assets/team/founders.jpg',
+              social: {
+                facebook: ""
+              }
+            },
+             
+            
+             
+            ]
+        },
+    ];
+
+    return data;
+
+}
+
+
+
+// Get all news
+export const getNewsReports = async () => {
+
+    let data = [
+        {
+            date: "28 Oct 2022",
+            type: "YouTube",
+            platform: "Manorama News",
+            url: "https://www.youtube.com/embed/FwNgw0Rff6I?si=e5U_ct0dVZKQDkYF"
+        },
+        {
+            date: "20 Oct 2022",
+            type: "Newspaper",
+            edition: "Kottayam Edition",
+            platform: "Deepika",
+            url: "/assets/news/deepika.jpeg"
+        },
+        {
+            date: "22 Oct 2022",
+            type: "Newspaper",
+            edition: "Kottayam Edition",
+            platform: "Malayala Manorama",
+            url: "/assets/news/manorama.jpeg"
+        },
+        {
+            date: "22 Oct 2022",
+            type: "Newsletter",
+            platform: "IEDC Monthly Newsletter",
+            url: "/assets/news/iedc_newsletter.jpeg"
+        },
+    ]
+
+    return data;
+
+}
