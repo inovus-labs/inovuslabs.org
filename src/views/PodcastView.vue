@@ -203,17 +203,17 @@
                     },
                     {
                         name: "Nikhil T Das",
-                        role: "Teachnical Crew",
+                        role: "Technical Crew",
                         image: "/assets/team/2024/NikilTDas.jpeg"
                     },
                     {
                         name: "Abhishek V Gopal",
-                        role: "Teachnical Crew",
+                        role: "Technical Crew",
                         image: "/assets/team/2024/Abhishek.jpg"
                     },
                     {
                         name: "Badhusha Shaji",
-                        role: "Teachnical Crew",
+                        role: "Technical Crew",
                         image: "/assets/team/2024/BadhushaShaji.jpeg"
                     },
                 ]

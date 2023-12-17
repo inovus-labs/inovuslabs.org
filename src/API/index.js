@@ -126,7 +126,7 @@ export const getProjects = async () => {
             {
                 "id": 7,
                 "title": "Sound Thoma",
-                "description": "Sound Thoma is our bot for Discord, designed to make your music experience during their work time. The engagement is funnier sometimes, we often conduct video chats and calls during the work. We usually rely on Spotify for listening to music to make the time more enjoyable. Literally the ads coming unexpectedly are mood spoilers especially during romantic songs. We’ve introduced a better alternative for this. Here you can listen to unlimited music without ads. sounds interesting right. Here you can create and manage your playlists directly within Discord. Simply type /play followed by the song or artist you want to hear.",
+                "description": "Sound Thoma is our bot for Discord, designed to make your music experience during their work time. The engagement is funnier sometimes, we often conduct video chats and calls during the work. We usually rely on Spotify for listening to music to make the time more enjoyable. Literally the ads coming unexpectedly are mood spoilers especially during romantic songs. We’ve introduced a better alternative for this. Here you can listen to unlimited music without ads. Sounds interesting right? Here you can create and manage your playlists directly within Discord. Simply type '/play' followed by the song or artist you want to hear.",
                 "thumbnail": "/assets/projects/sound_thoma.jpeg",
                 "status": "Completed",
                 "tags": ["Software"],
@@ -166,7 +166,7 @@ export const getProjects = async () => {
             {
                 "id": 9,
                 "title": "Inovus API",
-                "description": "The API which controls all the softwares roming around inovuslabs",
+                "description": "The API which controls all the softwares roaming around Inovus Labs",
                 "thumbnail": "/assets/projects/API.jpeg",
                 "status": "Progress",
                 "tags": ["Software"],
@@ -216,7 +216,7 @@ export const getProjects = async () => {
             {
                 "id": 12,
                 "title": "Morse Code Generator",
-                "description": "A list of noteworthy technology acquisitions 2021. This list is updated on a regular basis.",
+                "description": "Morse code generator is a device or software application designed to convert text or messages into Morse code, a method of encoding characters using sequences of dots and dashes.",
                 "thumbnail": "/assets/projects/morsecode.png",
                 "status": "Completed",
                 "tags": ["Software"],
@@ -234,7 +234,7 @@ export const getProjects = async () => {
             {
                 "id": 13,
                 "title": "Blind Stick",
-                "description": "A small prototype to aware blind peoples to be alerted about the obsticles.",
+                "description": "A small prototype to aware blind people to be alert about the obstacles.",
                 "thumbnail": "/assets/projects/Blind_stick.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
@@ -270,7 +270,7 @@ export const getProjects = async () => {
             {
                 "id": 15,
                 "title": "RFID based Smart Lock (using Arduino)",
-                "description": "A prototype of a door lock which can be unlocked using rfid tags",
+                "description": "A prototype of a door lock which can be unlocked using RFID tags",
                 "thumbnail": "/assets/projects/smart_lock.jpg",
                 "status": "Completed",
                 "tags": ["Electronics", "Internet of Things"],
@@ -288,7 +288,7 @@ export const getProjects = async () => {
             {
                 "id": 16,
                 "title": "Smart Traffic Lights using VR Module",
-                "description": "VR module is used to sence sound, this project will hwlp the light to indicate if any ambulance is coming so that the signal can turn to green.",
+                "description": "VR module is used to sense sound. This project will help the light to indicate the approch of an ambulance so that the signal can turn green.",
                 "thumbnail": "/assets/projects/traffic_light.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
@@ -306,7 +306,7 @@ export const getProjects = async () => {
             {
                 "id": 17,
                 "title": "E-waste Bin",
-                "description": "Automatic waste bin which dictect a persone and turns open automaticaly .",
+                "description": "Automatic waste bin which detect a person and turns open automatically .",
                 "thumbnail": "/assets/projects/E-waste_Bin.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
@@ -374,7 +374,7 @@ export const getProjects = async () => {
             {
                 "id": 21,
                 "title": "QuikSubmit",
-                "description": "The main feature of this product was it can send multiple assets in a single mail through ino mail. It can send bulk emails with ease, whether you're reaching out to a small team or a massive audience. Ino Mail automates the process, saving you time and eliminating the risk of errors. The product can be trusted in its security of your data. Ino Mail prioritizes the protection of your information, ensuring that your communications are delivered safely and securely. In short, InoMail empowers you to communicate efficiently, personally, and at scale. Whether you're a business professional, marketer, or educator, our software simplifies the process of sending personalized messages",
+                "description": "A pivotal tool enabling email transmission directly from a website, overcoming the inherent constraints of static sites.",
                 "thumbnail": "/assets/projects/Ino-mail.jpeg",
                 "status": "Progress",
                 "tags": ["Software"],
@@ -449,7 +449,7 @@ export const getProjects = async () => {
             {
                 "id": 25,
                 "title": "KJCMT Kiosk Display",
-                "description": "The college student-created LPG (liquefied petroleum gas) detector is an innovative device designed to enhance safety in domestic and commercial environments by detecting the presence of potentially hazardous gas leaks. This compact and user-friendly device is the result of collaborative efforts and cutting-edge engineering from a group of talented and ambitious college students.",
+                "description": "The  KJCMT'  Kiosk Display , a cutting-edge creation meticulously crafted by the brilliant minds of KJCMT's own student innovators. More than just a tool, this sleek display stands as a testament to the unparalleled creativity and technical prowess inherent in our dynamic student community. We have ensured that the interface is not just functional but also visually appealing, providing an engaging platform for all users.  The kiosk allows for the promotion of events, workshops, and other information in real-time, creating a lively and ever-changing digital bulletin board for the entire college community",
                 "thumbnail": "/assets/projects/kiosk.png",
                 "status": "progress",
                 "tags": ["Electronics, Internet of Things"],
@@ -498,7 +498,7 @@ export const getProjects = async () => {
             {
                 "id": 27,
                 "title": "Inovus Platform",
-                "description": "All the things done in inovus labs IEDC are showcased in this platform and it will support the enthusiasts to learn technologys and etc",
+                "description": "All the updates in Inovus labs IEDC are showcased in this platform and it will help the enthusiasts to learn technologys and etc",
                 "thumbnail": "/assets/projects/inovusplatform.png",
                 "status": "progress",
                 "tags": ["Software"],
@@ -529,7 +529,7 @@ export const getProjects = async () => {
             {
                 "id": 28,
                 "title": "Object detection model using OpenCV",
-                "description": "To identify the objects come in front of camera",
+                "description": "To identify the objects that come in front of the camera",
                 "thumbnail": "/assets/projects/Ino-mail.jpeg",
                 "status": "progress",
                 "tags": ["Electronics, Internet of Things"],
@@ -555,7 +555,7 @@ export const getProjects = async () => {
             {
                 "id": 29,
                 "title": "SOS location sending using ESP32",
-                "description": "This is a security equipment.When a person is in a emergency state they can ask help by simply cliking on a button",
+                "description": "This system has many useful applications including human safety during emergencies.",
                 "thumbnail": "/assets/projects/sos.png",
                 "status": "Completed",
                 "tags": ["Electronics, Internet of Things"],
@@ -569,7 +569,7 @@ export const getProjects = async () => {
             {
                 "id": 30,
                 "title": "Mr.Bilberto",
-                "description": "A robot which only have a leg",
+                "description": "Bilerto Robot, an ingenious creation by the innovative minds at Inovus, stands as a testament to simplicity and functionality in robotics. Developed with a focus on kinematics, this robotic project serves as an ideal introduction for absolute beginners, providing a comprehensive understanding of legged robot movements.  Tailored with the novice in mind, Bilerto Robot is designed to be exceptionally beginner-friendly. The project provides a gentle introduction to robotics concepts, allowing individuals with limited experience to delve into the world of legged robot dynamic",
                 "thumbnail": "/assets/projects/mr.bilbort.jpg",
                 "status": "progress",
                 "tags": ["Electronics, Internet of Things"],
@@ -587,7 +587,7 @@ export const getProjects = async () => {
             {
                 "id": 31,
                 "title": "Otto Robo",
-                "description": "A Desktop pet",
+                "description": "Otto is conceived as a tabletop robotic pet, combining technological innovation with a playful and interactive character. As a companion, it brings a delightful element to the user experience, making it an engaging project for both enthusiasts and those new to robotics. : Otto's design prioritizes stability during movement. The incorporation of edge detection not only enhances safety but also contributes to a smooth and controlled traversal across tabletops. Users can confidently interact with Otto without concerns about accidental falls.",
                 "thumbnail": "/assets/projects/otto.jpg",
                 "status": "progress",
                 "tags": ["Electronics, Internet of Things"],
@@ -890,7 +890,7 @@ export const getActivity = async () => {
                 "id": 2,
                 "title": "Kerala Piravi @ Govt. LP School",
                 "thumbnail": "/assets/activity/schoolvisit.jpg",
-                "description": "On Kerala piravi we have went to Gov. LP School Madappaly to interact with LKG students and have condected small small activities.",
+                "description": "On Kerala Piravi day, we had the privilege of visiting the govt. LP School Madapally, where we actively engaged with the enthusiastic young minds, fostering meaningful interactions with the students and celebrating the essence of Kerala Piravi together.",
                 "date": ["01 November 2023"],
                 "tags": ["Celebration"]
             },
@@ -898,7 +898,7 @@ export const getActivity = async () => {
                 "id": 3,
                 "title": "IoT workshop",
                 "thumbnail": "/assets/activity/IOT23.jpg",
-                "description": "A holding first step to IoT. The intrested students in KJCMT have participated and gained the first step on IoT.",
+                "description": "Taking the initial stride into the realm of IoT, interested students at KJCMT actively participated and achieved their first milestone in this technology.",
                 "date": [["19 July 2023", "20 July 2023"], "10 August 2023"],
                 "tags": ["Workshop"]
             },
@@ -938,7 +938,7 @@ export const getActivity = async () => {
                 "id": 8,
                 "title": "Intro to Hacktober Fest",
                 "thumbnail": "/assets/activity/hacktober.jpg",
-                "description": "This is a event we conducted to make out students understand what is opensource and how to contribute in a opensource project, for that we have contributer several contribution to hacktober fest",
+                "description": "We organized an event aimed at enlightening our students about the concept of open source and guiding them on how to contribute to open source projects. As part of this initiative, we made numerous contributions to Hacktoberfest, providing hands-on experience and fostering a deeper understanding of open source collaboration.               ",
                 "date": ["October 2023"],
                 "tags": ["Workshop"]
             },
@@ -962,7 +962,7 @@ export const getActivity = async () => {
                 "id": 11,
                 "title": "Hands-on IoT Workshop",
                 "thumbnail": "/assets/activity/handonIOT.jpg",
-                "description": "This is a exhibition conducted at MBC kuttikanam. For a bunch of intrested students to learn IoT ",
+                "description": "Conducted at MBC Kuttikanam, this exhibition catered to a gathering of students eager to explore and learn about the intricacies of IoT (Internet of Things).",
                 "date": ["27 April 2023", "28 April 2023"],
                 "tags": ["Workshop"]
             },
@@ -970,7 +970,7 @@ export const getActivity = async () => {
                 "id": 12,
                 "title": "IoT & Robotics Exhibition",
                 "thumbnail": "/assets/activity/Iotexebition.jpeg",
-                "description": "An exhibition conducted on SB high school based on IT.They interacted with VR glasses, hoverboard, etc . ",
+                "description": "The IoT and Robotics Exhibition held at SB High School was a comprehensive event centered around Information Technology. Attendees had the opportunity to immerse themselves in cutting-edge technologies, including hands-on experiences with VR glasses and hoverboards. The interactive nature of the exhibition not only provided valuable insights into the world of IoT and robotics but also allowed participants to explore and engage with the showcased technologies firsthand. The event fostered a dynamic learning environment, sparking curiosity and interest among the attendees as they delved into the exciting possibilities offered by IT-related advancements. ",
                 "date": ["03 February 2023"],
                 "tags": ["Exhibition"]
             },
@@ -978,7 +978,7 @@ export const getActivity = async () => {
                 "id": 13,
                 "title": "XPOVISTA ’23",
                 "thumbnail": "/assets/activity/xpovista.JPG",
-                "description": "This is an exibition conducted by Kristu Jyoti HSS, We the students of Inovus Labs IEDC have displayed some of our products too ",
+                "description": "XPOVISTA '23 stands as an exhibition organized by Kristu Jyoti Higher Secondary School. As active participants from Inovus Labs Innovation and Entrepreneurship Development Cell (IEDC), we proudly presented an array of our innovative products at the exhibition. Our involvement in XPOVISTA allowed us to showcase the results of our creative endeavors and share our contributions with the broader community. The event served as a platform for us to engage with fellow participants, visitors, and enthusiasts, creating a collaborative environment for the exchange of ideas and showcasing the spirit of innovation fostered by Inovus Labs IEDC.",
                 "date": ["20 September 2023", "22 September 2023"],
                 "tags": ["Exhibition"]
             },
@@ -994,7 +994,7 @@ export const getActivity = async () => {
                 "id": 15,
                 "title": "LED Bulb Making Workshop",
                 "thumbnail": "/assets/activity/LEDworkshop.jpg",
-                "description": "A workshop to teach students how to make LED bulbs so that they can make bulbs and sell them on their own. ",
+                "description": "The LED Bulb Making Workshop was organized with the primary objective of imparting practical skills to students, empowering them to create LED bulbs independently. This hands-on workshop aimed not only to educate participants on the technical aspects of LED bulb assembly but also to instill an entrepreneurial spirit by encouraging them to consider selling the bulbs they create. By providing step-by-step guidance and fostering a creative learning environment, the workshop equipped students with the knowledge and confidence to engage in the production and potential marketing of LED bulbs. This initiative not only contributed to their technical proficiency but also inspired an entrepreneurial mindset, encouraging self-sufficiency and practical application of the skills acquired during the workshop.",
                 "date": ["24 January 2023"],
                 "tags": ["workshops"]
             },
@@ -1026,8 +1026,8 @@ export const getActivity = async () => {
                 "id": 19,
                 "title": "Figma Pookalam",
                 "thumbnail": "/assets/activity/pookalam.png",
-                "description": "Reading day was observed on June 19. Inovus labs celebrated reading day by introducing Vayanavaram which lasted a week. This event was all about completing a book or reading a book a full week and then sharing a picture with the book on Instagram. ",
-                "date": ["20 June 2022", "26 June 2022"],
+                "description": "In an inspiring amalgamation of tradition and technology, Inovus Labs IEDC orchestrated the Simple - Figma Pookalam competition on August 20, 2021. With a virtual attendance of 20 participants, the event breathed new life into the traditional Pookalam art form by challenging participants to create stunning digital renditions using the Figma platform. This innovative twist allowed participants to infuse modern design technology with the rich heritage of Pookalam, resulting in captivating creations that echoed both the past and the present.",
+                "date": ["20 Aug 2021"],
                 "tags": ["Workshop"]
             },
             {
@@ -1251,7 +1251,7 @@ export const getActivity = async () => {
                 "id": 47,
                 "title": "IEDC SUMMIT 2023",
                 "thumbnail": "/assets/activity/summit2023.png",
-                "description": "The eighth edition of the IEDC (Innovation and Entrepreneurship Development Cell) Summit, organized by the Kerala Startup Mission, was held on 12th October 2023 at the College of Engineering Trivandrum. The following 15 students of Kristu Jyoti college of management and technology (which includes core team members of Inovus Labs); Mentor, Arjun Krishna and Nodal officer Mr Roji Thomas  attended this event. ",
+                "description": "The eighth edition of the IEDC (Innovation and Entrepreneurship Development Cell) Summit, organized by the Kerala Startup Mission, was held on 12th October 2023 at the College of Engineering Trivandrum. 15 students of Kristu Jyoti college of management and technology (which includes core team members of Inovus Labs) along with Mentor, Arjun Krishna and Nodal officer Mr Roji Thomas attended this event. ",
                 "date": ["12 October 2023"],
                 "tags": ["Celebration"]
             },
@@ -2438,7 +2438,7 @@ export const getLearningResources = async () => {
         {
             id: 15,
             title: "System Design",
-            description: "Learn how to design systems at scale and prepare for system design interviews",
+            description: "Learn how to design systems at large-scale and prepare for system design interviews",
             category: ["General", "System Design"],
             date: "23 September 2022",
             resources: [
@@ -2533,7 +2533,7 @@ export const getTeamMembers = async () => {
 
                 {
                     name: ' Roji Thomas',
-                    position: 'Nodel Officer',
+                    position: 'Nodal Officer',
                     avatar: '/assets/team/2018-2020/rojithomas.jpg',
                     social: {
                       facebook: ""
@@ -2781,7 +2781,7 @@ export const getTeamMembers = async () => {
                     }
                 }, {
                     name: ' Jithin Shah',
-                    position: 'Student Co-ordinato',
+                    position: 'Student Co-ordinator',
                    avatar: '/assets/team/2018-2020/jithinshah.jpg',
                     social: {
                       facebook: ""
