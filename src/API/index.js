@@ -978,7 +978,7 @@ export const getActivity = async () => {
                 "id": 13,
                 "title": "XPOVISTA ’23",
                 "thumbnail": "/assets/activity/xpovista.JPG",
-                "description": "This is an exibition conducted by Kristu Jyoti HSS, We the students of Inovus Labs IEDC have displayed some of our products too ",
+                "description": "This is an exhibition conducted by Kristu Jyoti HSS, We the students of Inovus Labs IEDC have displayed some of our products too ",
                 "date": ["20 September 2023", "22 September 2023"],
                 "tags": ["Exhibition"]
             },
@@ -1026,8 +1026,8 @@ export const getActivity = async () => {
                 "id": 19,
                 "title": "Figma Pookalam",
                 "thumbnail": "/assets/activity/pookalam.png",
-                "description": "Reading day was observed on June 19. Inovus labs celebrated reading day by introducing Vayanavaram which lasted a week. This event was all about completing a book or reading a book a full week and then sharing a picture with the book on Instagram. ",
-                "date": ["20 June 2022", "26 June 2022"],
+                "description": "In an inspiring amalgamation of tradition and technology, Inovus Labs IEDC orchestrated the Simple - Figma Pookalam competition on August 20, 2021. With a virtual attendance of 20 participants, the event breathed new life into the traditional Pookalam art form by challenging participants to create stunning digital renditions using the Figma platform. This innovative twist allowed participants to infuse modern design technology with the rich heritage of Pookalam, resulting in captivating creations that echoed both the past and the present.",
+                "date": ["20 Aug 2021"],
                 "tags": ["Workshop"]
             },
             {
@@ -2533,7 +2533,7 @@ export const getTeamMembers = async () => {
 
                 {
                     name: ' Roji Thomas',
-                    position: 'Nodel Officer',
+                    position: 'Nodal Officer',
                     avatar: '/assets/team/2018-2020/rojithomas.jpg',
                     social: {
                       facebook: ""
@@ -2781,7 +2781,7 @@ export const getTeamMembers = async () => {
                     }
                 }, {
                     name: ' Jithin Shah',
-                    position: 'Student Co-ordinato',
+                    position: 'Student Co-ordinator',
                    avatar: '/assets/team/2018-2020/jithinshah.jpg',
                     social: {
                       facebook: ""
