@@ -994,7 +994,7 @@ export const getActivity = async () => {
                 "id": 15,
                 "title": "LED Bulb Making Workshop",
                 "thumbnail": "/assets/activity/LEDworkshop.jpg",
-                "description": "A workshop to teach students how to make LED bulbs so that they can make bulbs and sell them on their own. ",
+                "description": "The LED Bulb Making Workshop was organized with the primary objective of imparting practical skills to students, empowering them to create LED bulbs independently. This hands-on workshop aimed not only to educate participants on the technical aspects of LED bulb assembly but also to instill an entrepreneurial spirit by encouraging them to consider selling the bulbs they create. By providing step-by-step guidance and fostering a creative learning environment, the workshop equipped students with the knowledge and confidence to engage in the production and potential marketing of LED bulbs. This initiative not only contributed to their technical proficiency but also inspired an entrepreneurial mindset, encouraging self-sufficiency and practical application of the skills acquired during the workshop.",
                 "date": ["24 January 2023"],
                 "tags": ["workshops"]
             },
