@@ -30,7 +30,7 @@
                       <li class="mb-2">
                           <a href="https://open.spotify.com/show/4QXEeK8ZWxewcXuLKCRR8R" target="_blank" class="hover:underline ">Inovus Radio</a>
                         </li>
-                        <li class="mb-2">
+                        <li>
                           <a class="opacity-50 cursor-not-allowed">Inovus Profiles</a>
                       </li>
                   </ul>
@@ -38,6 +38,9 @@
               <div class="col-span-2 sm:col-span-1">
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Guidelines</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-2">
+                          <a class="opacity-50 cursor-not-allowed">Brand Guide</a>
+                      </li>
                       <li class="mb-2">
                           <a class="opacity-50 cursor-not-allowed">Code of Conduct</a>
                       </li>
