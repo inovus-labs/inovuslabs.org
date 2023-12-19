@@ -8,7 +8,7 @@
             </span>
             <span class="text-sm">{{ getFormattedDate(data.published_at) }}</span>
         </div>
-        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">{{ data.title }}</a></h2>
+        <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white" :class="!isMobile ? 'custom-ellipsis' : ''"><a :href="data.url" target="_blank">{{ data.title }}</a></h2>
         <p class="mb-5 font-light text-gray-500 dark:text-gray-400">{{ data.custom_excerpt ? (data.custom_excerpt.length > 135 ? data.custom_excerpt.substring(0, 135) + '...' : data.custom_excerpt) : (data.excerpt.length > 135 ? data.excerpt.substring(0, 135) + '...' : data.excerpt) }}</p>
         <div class="flex justify-between items-center">
             <div class="flex items-center space-x-4">
@@ -46,13 +46,38 @@
         },
         data() {
             return {
-                timeago: timeago
+                timeago: timeago,
+                isMobile: false
             }
         },
         methods: {
             getFormattedDate(date) {
                 return this.timeago.format(date);
+            },
+            checkMobile() {
+                if (window.innerWidth <= 768) {
+                    this.isMobile = true;
+                } else {
+                    this.isMobile = false;
+                }
             }
-        }
+        },
+        mounted() {
+            this.checkMobile();
+            window.addEventListener('resize', this.checkMobile);
+        },
+        beforeDestroy() {
+            window.removeEventListener('resize', this.checkMobile);
+        },
     }
 </script>
+
+
+<style scoped lang="scss">
+    .custom-ellipsis {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+    }
+</style>
