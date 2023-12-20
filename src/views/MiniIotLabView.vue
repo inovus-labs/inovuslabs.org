@@ -33,31 +33,26 @@
         </section>
 
 
+        
+        <section class="border-b lg:p-10 p-4 my-10">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+                <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                    <h2 class="mb-8 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">🚀 Welcome to Mini IoT Lab: Where Innovation & Possibilities Unfold! ✨</h2>
+                    <p class="text-justify mb-4 font-medium">Our <span class="text-primary">Mini IoT Lab</span> is a compact, hands-on learning environment designed to introduce individuals, students, and enthusiasts to the fascinating world of the Internet of Things (IoT). This portable lab provides an accessible and give experience for understanding, experimenting, and building IoT projects, making it an ideal resource for educational institutions, workshops, and DIY enthusiasts.</p>
+                    <p class="text-justify mb-4 font-medium"> The lab comes with a user-friendly programming environment, allowing users to write and upload code to control and monitor IoT devices. Whether you are a newbie or an experienced developer, the platform supports various programming languages, making it adaptable to different skill levels.</p>
+                    <p class="text-justify font-medium">Looking ahead, the Mini IoT Lab is poised to be a catalyst for innovation and creativity. We're planning to expand the lab's capabilities and features, including the addition of new devices, sensors and machinery.</p>
+                </div>
+            </div>
+        </section>
+
 
 
         <section class="lg:p-10 p-4 my-10">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+                
+                <SearchPanel />
 
-            <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
-                <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-                    🎙️ Welcome to The Inovus Radio Experience. 🌐
-                </h1>
-
-                <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-                    🎧 Tune in for a unique audio experience that transcends boundaries, brought to you by Inovus Radio on the world's leading streaming platform. Discover, engage, and enjoy the best of our curated podcasts right here! ✨
-                </p>
             </div>
-
-
-            <div class="px-4 mx-auto max-w-screen-xl lg:px-6">
-                <div class="grid gap-8 lg:grid-cols-2">
-
-
-                                    
-
-
-                </div>  
-            </div>
-
         </section>
 
 
@@ -68,11 +63,13 @@
 
 <script>
     import PublicLayout from "@/layouts/PublicLayout.vue";
+    import SearchPanel from "../components/IoT/SearchPanel.vue";
 
     export default {
-        name: 'MiniIotLabView.vue',
+        name: 'MiniIotLabView',
         components: {
             PublicLayout,
+            SearchPanel
         }
     }
 </script>

@@ -639,6 +639,56 @@ export const getBlogPosts = async () => {
 
     return [
         {
+            "title": "Cyber Addiction & Recovery Methods",
+            "feature_image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRpZ2l0YWwlMjB3b3JsZHxlbnwwfHx8fDE3MDI5OTg4Njd8MA&ixlib=rb-4.0.3&q=80&w=2000",
+            "custom_excerpt": null,
+            "published_at": "2023-12-19T20:50:46.000+05:30",
+            "reading_time": 3,
+            "tags": [
+                {
+                    "id": "653f71fb5d18573f9b9f3d79",
+                    "name": "Science & Technology",
+                    "slug": "science-technology",
+                    "description": null,
+                    "feature_image": "https://images.unsplash.com/photo-1607988795691-3d0147b43231?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxzY2llbmNlfGVufDB8fHx8MTY5ODkwMjM5OHww&ixlib=rb-4.0.3&q=80&w=2000",
+                    "visibility": "public",
+                    "og_image": null,
+                    "og_title": null,
+                    "og_description": null,
+                    "twitter_image": null,
+                    "twitter_title": null,
+                    "twitter_description": null,
+                    "meta_title": null,
+                    "meta_description": null,
+                    "codeinjection_head": null,
+                    "codeinjection_foot": null,
+                    "canonical_url": null,
+                    "accent_color": "#617bff",
+                    "url": "https://blog.inovuslabs.org/tag/science-technology/"
+                }
+            ],
+            "authors": [
+                {
+                    "id": "6540bc590b27848ad6616f50",
+                    "name": "Arjun A Acharry",
+                    "slug": "arjun-a-acharry",
+                    "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+                    "bio": null,
+                    "website": null,
+                    "location": null,
+                    "facebook": null,
+                    "twitter": null,
+                    "meta_title": null,
+                    "meta_description": null,
+                    "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+                }
+            ],
+            "url": "https://blog.inovuslabs.org/cyber-addiction-recovery-methods/",
+            "excerpt": "CYBER ADDICTION\n\nAn excessive amount of time spent on computers, phones, or the internet is known as cyber addiction. It can be problematic in day-to-day living and lead to issues at job, school, or in relationships.\n\nSigns of Cyber Addiction:\n\n 1. Excessive Internet Use: Spending an inordinate amount of time online.\n 2. Negative Impact on Daily Life: Affecting work, school, or relationships adversely.\n 3. Loss of Control: Difficulty managing and limiting online activities.\n 4. Withdrawal Sympto",
+            "reading_time": 3
+        },
+        {
             "title": "Rising from the Ashes: Restoring Inovus Blogs Post-Termination",
             "feature_image": "https://images.unsplash.com/photo-1591913139332-f8172ef511da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRhdGElMjByZWNvdmVyeXxlbnwwfHx8fDE2OTkwNDUwOTJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
             "custom_excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated.",
@@ -784,74 +834,6 @@ export const getBlogPosts = async () => {
             ],
             "url": "https://blog.inovuslabs.org/instagram-vs-health/",
             "excerpt": "Instagram is a popular social media platform and mobile app designed for sharing photos and videos. It was launched in October 2010 and has since become one of the most widely used social networking platforms in the world. Instagram allows users to create profiles, post photos and videos, and interact with others through likes, comments, and direct messages.\n\nInstagram has evolved significantly since its inception and has played a crucial role in shaping how people share and consume visual conte"
-        },
-        {
-            "title": "The story behind a simple, yet complicated Smart Door!",
-            "feature_image": "https://images.unsplash.com/photo-1553341640-6b28ff92098a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEwfHxpb3R8ZW58MHx8fHwxNjk4NjQ1MDUxfDA&ixlib=rb-4.0.3&q=80&w=2000",
-            "custom_excerpt": "Here's an interesting tale behind the development of an RFID-based Smart Access Door (frankly speaking, an over-engineered one), that we've put together recently at Inovus Labs.",
-            "published_at": "2023-08-21T14:39:00.000+05:30",
-            "reading_time": 4,
-            "tags": [
-                {
-                    "id": "653f72d95d18573f9b9f3d91",
-                    "name": "Internet of Things",
-                    "slug": "iot",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE3fHxlbGVjdHJvbmljc3xlbnwwfHx8fDE2OTg5MDI2MDV8MA&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#794dcb",
-                    "url": "https://blog.inovuslabs.org/tag/iot/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "653f7a27b14998447e1d36d5",
-                    "name": "Arjun Krishna",
-                    "slug": "arjun",
-                    "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
-                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/image-7.png",
-                    "bio": "Yet another human being born towards the end of the 20th century, and continues his Exploration & Experimentation on the Technology that the 21st century has to offer.",
-                    "website": "https://arjunkrishna.in/",
-                    "location": "Pathanamthitta | Bangalore",
-                    "facebook": null,
-                    "twitter": "@Decoded_Cipher",
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/arjun/",
-                    "social" : {
-                        "twitter": ["@Decoded_Cipher", "https://twitter.com/Decoded_Cipher"],
-                        "github": ""
-                    }
-                },
-                {
-                    "id": "65409075b14998447e1d393f",
-                    "name": "Nikhil T Das",
-                    "slug": "nikhil",
-                    "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/da34f272-a6e1-4f6f-8414-79147fce3b5d.jpg",
-                    "cover_image": null,
-                    "bio": null,
-                    "website": null,
-                    "location": null,
-                    "facebook": null,
-                    "twitter": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/nikhil/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/inovus-smart-door/",
-            "excerpt": "Here's an interesting tale behind the development of an RFID-based Smart Access Door (frankly speaking, an over-engineered one), that we've put together recently at Inovus Labs."
         }
     ];
 }
@@ -2998,3 +2980,83 @@ export const getNewsReports = async () => {
     return data;
 
 }
+
+
+
+
+
+let stockList = [
+    'Arduino Uno',
+    'Arduino Mega',
+    'Arduino Nano',
+    'Arduino Pro Mini',
+    'Arduino Leonardo',
+    'Arduino Micro',
+    'Arduino Due',
+    'Arduino Zero',
+    'Arduino MKR1000',
+    'Arduino MKRZero',
+    'Arduino MKR FOX 1200',
+    'Arduino MKR WAN 1300',
+    'Arduino MKR GSM 1400',
+    'Arduino MKR NB 1500',
+    'Arduino MKR WiFi 1010',
+    'Arduino MKR Vidor 4000',
+    'Arduino MKR WAN 1300 (LoRa Connectivity)',
+    'Arduino MKR WAN 1310 (LoRa Connectivity)',
+    'Arduino MKR NB 1500 (NB-IoT + eMTC Connectivity)',
+    'Arduino MKR WiFi 1010',
+    'Arduino MKR VIDOR 4000 (FPGA)',
+    'Arduino NANO 33 IoT',
+    'Arduino NANO 33 BLE',
+    'Arduino NANO 33 BLE Sense',
+    'Arduino Nano Every',
+    'Arduino Nano 33 IoT',
+    'Arduino Nano 33 BLE',
+    'Arduino Nano 33 BLE Sense',
+    'Arduino Nano Every',
+    'Arduino Due',
+    'Arduino 101',
+    'Arduino Mega',
+    'Arduino Leonardo',
+    'Arduino Micro',
+    'Arduino Esplora',
+    'Arduino Mini',
+    'Arduino Ethernet',
+    'Arduino Fio',
+    'Arduino BT',
+    'Arduino NG',
+    'Arduino Robot Control',
+    'Arduino Robot Motor',
+    'Arduino Gemma',
+    'Arduino Yún',
+    'Arduino Tian',
+    'Arduino Industrial 101',
+    'Arduino Uno WiFi Rev.2',
+    'Arduino MKR1000 WIFI',
+    'Arduino MKR ZERO',
+    'Arduino MKR FOX 1200',
+    'Arduino MKR WAN 1300',
+    'Arduino MKR GSM 1400',
+    'Arduino MKR NB 1500',
+    'Arduino MKR WiFi 1010',
+    'Arduino MKR VIDOR 4000',
+    'Arduino MKR WAN 1300 (LoRa Connectivity)',
+    'Arduino MKR WAN 1310 (LoRa Connectivity)',
+    'Arduino MKR NB 1500 (NB-IoT + eMTC Connectivity)'
+];
+
+
+// Search Component
+export const SearchComponent = (search) => {
+    
+        let result = [];
+    
+        for(let i=0; i<stockList.length; i++) {
+            if(stockList[i].toLowerCase().includes(search.toLowerCase())) {
+                result.push(stockList[i]);
+            }
+        }
+    
+        return result;
+};

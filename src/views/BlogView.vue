@@ -167,12 +167,12 @@
                     {
                         title: "Frequent Authors",
                         value: 10,
-                        mode: "approximate"
+                        mode: "accurate"
                     },
                     {
                         title: "Blogs Published",
-                        value: 25,
-                        mode: "approximate"
+                        value: 28,
+                        mode: "accurate"
                     },
                     {
                         title: "Active Users",
@@ -186,7 +186,7 @@
                     },
                     {
                         title: "Engagements",
-                        value: 11600,
+                        value: 12000,
                         mode: "approximate"
                     }
                 ],
