@@ -45,8 +45,9 @@
         
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Mission</h2>
-          <p class="mb-4 text-justify">Inovus Labs IEDC is dedicated to inspiring, supporting, and propelling the next generation of innovators and entrepreneurs. Our mission is to provide a conducive environment where aspiring minds can explore, ideate, and execute groundbreaking solutions.</p>
-          <p class="mb-4 text-justify">We aim to be the catalyst for a sustainable and thriving entrepreneurial community by offering comprehensive resources, mentorship, and a platform for the development of cutting-edge ideas.</p>
+          <p class="mb-4 text-justify">To create an innovation culture among Innovators by introducing them the State-of-the-art technologies and positioning the Institution as a Learning and Innovation Platform by delivering technically competent and skilled Entrepreneurs.</p>
+          <!-- <p class="mb-4 text-justify">Inovus Labs IEDC is dedicated to inspiring, supporting, and propelling the next generation of innovators and entrepreneurs. Our mission is to provide a conducive environment where aspiring minds can explore, ideate, and execute groundbreaking solutions.</p>
+          <p class="mb-4 text-justify">We aim to be the catalyst for a sustainable and thriving entrepreneurial community by offering comprehensive resources, mentorship, and a platform for the development of cutting-edge ideas.</p> -->
         </div>
 
         <div class="w-full" :class="{'hidden': isMobile}">
@@ -68,8 +69,9 @@
         
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Vision</h2>
-          <p class="mb-4 text-justify">Our vision at Inovus Labs IEDC is to be a global hub for innovation and entrepreneurship, contributing to the creation of a better world through pioneering solutions.</p>
-          <p class="mb-4 text-justify">We aspire to be the go-to destination for individuals and teams seeking to bring about meaningful change by providing unparalleled support, fostering groundbreaking collaborations, and building a community that transcends geographical boundaries.</p>
+          <p class="mb-4 text-justify">To create IEDC as an Innovation Platform and to create future founders by promoting Innovation, Technology and Business Learning among student community.</p>
+          <!-- <p class="mb-4 text-justify">Our vision at Inovus Labs IEDC is to be a global hub for innovation and entrepreneurship, contributing to the creation of a better world through pioneering solutions.</p>
+          <p class="mb-4 text-justify">We aspire to be the go-to destination for individuals and teams seeking to bring about meaningful change by providing unparalleled support, fostering groundbreaking collaborations, and building a community that transcends geographical boundaries.</p> -->
         </div>
 
       </div>
@@ -87,13 +89,17 @@
         
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Objective</h2>
-          <p class="mb-4 text-justify"><span class="text-primary font-medium">Empowerment:</span> Empower individuals with the skills, knowledge, and resources necessary to transform innovative ideas into successful ventures.</p>
+
+          <p class="mb-4 text-justify">To foster an entrepreneurial spirit and an innovative way of thinking in students. To augment self-sufficiency and self-reliance in students. To provide financial support to feasible innovative 
+projects. To organize workshops and classes to promote technology-based innovation and 
+entrepreneurship among the students.</p>
+          <!-- <p class="mb-4 text-justify"><span class="text-primary font-medium">Empowerment:</span> Empower individuals with the skills, knowledge, and resources necessary to transform innovative ideas into successful ventures.</p>
           <p class="mb-4 text-justify"><span class="text-primary font-medium">Collaboration:</span> Foster a collaborative ecosystem by facilitating partnerships between industry experts, mentors, and aspiring entrepreneurs, promoting knowledge exchange and mutual growth.</p>
           <p class="mb-4 text-justify"><span class="text-primary font-medium">Resource Accessibility:</span> Provide comprehensive resources, including funding, workspace, technology, and mentorship, to eliminate barriers hindering the realization of innovative projects.</p>
           <p class="mb-4 text-justify"><span class="text-primary font-medium">Community Building:</span> Cultivate a vibrant and inclusive community of innovators, entrepreneurs, and mentors, fostering a culture of support, encouragement, and shared success.</p>
           <p class="mb-4 text-justify"><span class="text-primary font-medium">Global Impact:</span> Encourage the development of solutions with a global perspective, aiming to address societal challenges and contribute to the betterment of communities worldwide.</p>
           <p class="mb-4 text-justify"><span class="text-primary font-medium">Sustainability: </span>Promote environmentally and socially responsible innovation, encouraging the development of solutions that align with sustainable practices and contribute to a positive impact on the planet.</p>
-          <p class="mb-4 text-justify"><span class="text-primary font-medium">Continuous Learning:</span> Facilitate a culture of continuous learning and adaptation, staying at the forefront of emerging trends and technologies to provide our community with the most relevant and valuable resources.</p>
+          <p class="mb-4 text-justify"><span class="text-primary font-medium">Continuous Learning:</span> Facilitate a culture of continuous learning and adaptation, staying at the forefront of emerging trends and technologies to provide our community with the most relevant and valuable resources.</p> -->
         </div>
 
         <div class="w-full" :class="{'hidden': isMobile}">
