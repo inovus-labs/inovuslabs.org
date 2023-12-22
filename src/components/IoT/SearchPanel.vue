@@ -2,6 +2,11 @@
 <template>
 
     <div class="flex flex-col items-center justify-center">
+
+        <!-- <div class="flex items-center justify-center w-full lg:w-2/3 mb-6">
+            <h1 class="text-3xl font-bold text-gray-700">Component Search Engine</h1>
+        </div> -->
+
         <div class="flex items-center lg:w-2/3 w-full justify-center">
             
             <div class="relative w-full">
@@ -42,6 +47,11 @@
             <button class="lg:w-44 bg-primary hover:bg-blue-500 text-white font-medium py-3 px-6 rounded-r-full border border-primary hover:border-blue-500">Search</button>
 
         </div>
+
+        <!-- <div class="flex items-center justify-center w-full lg:w-2/3 mt-6">
+            <p class="text-gray-500">This functionality is currently a work in progress and cannot be accessed at the moment.</p>
+        </div> -->
+
     </div>
 
 
