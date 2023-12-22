@@ -10,6 +10,7 @@ import NewsView from '@/views/NewsView.vue'
 import SocialsView from '@/views/SocialsView.vue'
 import ReportsView from '@/views/ReportsView.vue'
 
+import NowView from '@/views/NowView.vue'
 
 // Initiatives pages
 import MiniIotLabView from '@/views/MiniIotLabView.vue'
@@ -136,6 +137,13 @@ const router = createRouter({
       name: 'inora',
       component: PodcastView,
       meta: { title: 'Inora' }
+    },
+
+    {
+      path: '/now',
+      name: 'now',
+      component: NowView,
+      meta: { title: 'Now' }
     },
 
     // Contact page
