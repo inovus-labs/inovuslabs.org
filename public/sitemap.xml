@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    <!-- Home Page -->
     <url>
         <loc>https://inovuslabs.org</loc>
         <lastmod>2023-12-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
-
-    <!-- About Section -->
     <url>
         <loc>https://inovuslabs.org/about</loc>
         <lastmod>2023-12-20</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
@@ -25,7 +21,7 @@
     <url>
         <loc>https://inovuslabs.org/team</loc>
         <lastmod>2023-12-20</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
@@ -37,21 +33,19 @@
     <url>
         <loc>https://inovuslabs.org/community</loc>
         <lastmod>2023-12-20</lastmod>
-        <changefreq>monthly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://inovuslabs.org/reports</loc>
         <lastmod>2023-12-20</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
-
-    <!-- Initiatives Section -->
     <url>
         <loc>https://inovuslabs.org/iot-lab</loc>
         <lastmod>2023-12-20</lastmod>
-        <changefreq>monthly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
@@ -63,7 +57,7 @@
     <url>
         <loc>https://inovuslabs.org/nanodegree</loc>
         <lastmod>2023-12-20</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
@@ -90,32 +84,22 @@
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
-
-    <!-- Resources Page -->
     <url>
         <loc>https://inovuslabs.org/resources</loc>
         <lastmod>2023-12-20</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
     </url>
-
-    <!-- Contact Page -->
     <url>
         <loc>https://inovuslabs.org/contact</loc>
         <lastmod>2023-12-20</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
     </url>
-
-    <!-- External Links -->
-
     <url>
         <loc>https://blog.inovuslabs.org</loc>
         <lastmod>2023-12-20</lastmod>
         <changefreq>daily</changefreq>
-        <priority>0.7</priority>
+        <priority>0.8</priority>
     </url>
-
-    <!-- Add more URLs as needed -->
-
 </urlset>
