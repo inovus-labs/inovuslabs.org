@@ -9,6 +9,7 @@ import TeamView from '@/views/TeamView.vue'
 import NewsView from '@/views/NewsView.vue'
 import SocialsView from '@/views/SocialsView.vue'
 import ReportsView from '@/views/ReportsView.vue'
+import LearningStories from '@/views/LearningStoriesView.vue'
 
 import NowView from '@/views/NowView.vue'
 
@@ -71,6 +72,14 @@ const router = createRouter({
       component: TeamView,
       meta: { title: 'Team' }
     },
+    {
+      path: '/learning-stories',
+      name: 'learning-stories',
+      component: LearningStories,
+      meta: { title: 'Learning Stories' }
+    },
+
+    // Navbar : Initiatives pages
     {
       path: '/events',
       name: 'events',

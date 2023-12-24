@@ -197,7 +197,6 @@
                                     name: 'Reports (Annual / Activity)',
                                     link: '/reports',
                                     description: 'Reports of our activities and annual reports.',
-                                    disabled: true,
                                 }
                             ]
                         ]
