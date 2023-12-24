@@ -211,7 +211,6 @@
                                     name: 'Mini IoT Lab',
                                     link: '/iot-lab',
                                     description: 'A mini IoT lab for students to learn and explore.',
-                                    disabled: true,
                                 },
                                 {
                                     name: 'Bootcamps / Workshops / Session',

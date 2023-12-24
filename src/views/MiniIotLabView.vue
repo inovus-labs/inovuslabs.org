@@ -50,7 +50,7 @@
 
 
 
-        <section class="border bg-bgPrimary py-10 cursor-not-allowed opacity-50">
+        <section class="border bg-bgPrimary py-10 cursor-not-allowed">
             <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                 <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                     
@@ -79,12 +79,12 @@
                 </div>
 
                 <div class="mx-auto max-w-screen-2xl text-center w-full">
-                    <div id="image-gallery" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+                    <div id="iot-gallery" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
 
                         <PhotoSwipe 
-                        gallery="image-gallery"
-                        :images="images" 
-                        v-if="proceed > 0" 
+                            gallery="iot-gallery"
+                            :images="images" 
+                            v-if="proceed > 0" 
                         />
                         
                     </div>
