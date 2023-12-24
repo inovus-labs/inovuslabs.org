@@ -88,12 +88,23 @@
                                     <div :class="isMobile && subitem.disabled ? 'hidden' : ''">
                                         <div :class="isMobile ? 'border-b border-gray-100 dark:border-gray-700' : ''">
                                             
-                                            <a :href="subitem.disabled ? null : subitem.link" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700" :class="{'opacity-50 cursor-not-allowed': subitem.disabled}">
-                                                <div class="font-semibold" :class="{'text-primary dark:text-blue-400': subitem.featured}">
-                                                    {{ subitem.name }}
-                                                </div>
-                                                <span v-if="!isMobile" class="text-sm text-gray-500 dark:text-gray-400">{{ subitem.description }}</span>
-                                            </a>
+                                            <template v-if="subitem.disabled">
+                                                <p class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 opacity-50 cursor-not-allowed">
+                                                    <div class="font-semibold" :class="{'text-primary dark:text-blue-400': subitem.featured}">
+                                                        {{ subitem.name }}
+                                                    </div>
+                                                    <span v-if="!isMobile" class="text-sm text-gray-500 dark:text-gray-400">{{ subitem.description }}</span>
+                                                </p>
+                                            </template>
+
+                                            <template v-else>
+                                                <a :href="subitem.link" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                                                    <div class="font-semibold" :class="{'text-primary dark:text-blue-400': subitem.featured}">
+                                                        {{ subitem.name }}
+                                                    </div>
+                                                    <span v-if="!isMobile" class="text-sm text-gray-500 dark:text-gray-400">{{ subitem.description }}</span>
+                                                </a>
+                                            </template>
                                             
                                         </div>
                                     </div>
