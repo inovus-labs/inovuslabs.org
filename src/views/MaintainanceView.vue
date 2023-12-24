@@ -9,7 +9,7 @@
             <div class="flex flex-col h-full w-full lg:flex-row mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
 
             <div class="w-full lg:w-1/3 py-4 lg:py-20">
-                <img class="w-full h-full" src="../../public/assets/illustrations/maintainance.svg" />
+                <img class="w-full h-full" src="../../public/assets/illustrations/maintainance.svg" alt="Maintainance" />
             </div>
 
             <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">

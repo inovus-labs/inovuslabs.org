@@ -8,7 +8,7 @@
       <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
 
         <div class="w-full lg:w-1/3 py-4 lg:py-20">
-          <img class="w-full h-full" src="../../public/assets/illustrations/gallery.svg" />
+          <img class="w-full h-full" src="../../public/assets/illustrations/gallery.svg" alt="Gallery" />
         </div>
 
         <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">
@@ -54,7 +54,15 @@
       </div>
 
       <div class="mx-auto max-w-screen-2xl text-center w-full">
-        <PhotoSwipe :images="images" v-if="proceed > 0" />
+        <div id="image-gallery" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+          <PhotoSwipe 
+            gallery="image-gallery"
+            :images="images" 
+            v-if="proceed > 0" 
+          />
+          
+        </div>
       </div>
 
 

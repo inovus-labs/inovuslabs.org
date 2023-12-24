@@ -12,7 +12,7 @@
             <div class="relative w-full">
 
                 <div class="relative">
-                    <input type="text" class="w-full px-6 py-3 text-gray-500 placeholder-gray-400 border border-r-transparent rounded-l-full border-gray-300 focus:outline-none focus:ring-0 focus:border-primary" placeholder="Search for a component..." v-model="search" @input="openSuggestions = true" />
+                    <input type="text" class="w-full px-6 py-3 text-gray-500 placeholder-gray-400 border border-r-transparent rounded-l-full border-gray-300 focus:outline-none focus:ring-0 focus:border-primary cursor-not-allowed pointer-events-none" placeholder="Search for a component..." v-model="search" @input="openSuggestions = true" />
                     
                     <template v-if="search.length > 0">
                         <button class="absolute top-0 right-0 mt-3 mr-4" @click="clearSearch">
@@ -44,7 +44,7 @@
 
             </div>
 
-            <button class="lg:w-44 bg-primary hover:bg-blue-500 text-white font-medium py-3 px-6 rounded-r-full border border-primary hover:border-blue-500">Search</button>
+            <button class="lg:w-44 bg-primary hover:bg-blue-500 text-white font-medium py-3 px-6 rounded-r-full border border-primary hover:border-blue-500 cursor-not-allowed pointer-events-none">Search</button>
 
         </div>
 
