@@ -54,7 +54,15 @@
       </div>
 
       <div class="mx-auto max-w-screen-2xl text-center w-full">
-        <PhotoSwipe :images="images" v-if="proceed > 0" />
+        <div id="image-gallery" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+          <PhotoSwipe 
+            gallery="image-gallery"
+            :images="images" 
+            v-if="proceed > 0" 
+          />
+          
+        </div>
       </div>
 
 

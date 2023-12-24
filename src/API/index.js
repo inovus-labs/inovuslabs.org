@@ -2983,8 +2983,6 @@ export const getNewsReports = async () => {
 
 
 
-
-
 let stockList = [
     'Arduino Uno',
     'Arduino Mega',
@@ -3047,6 +3045,7 @@ let stockList = [
 ];
 
 
+
 // Search Component
 export const SearchComponent = (search) => {
     
@@ -3059,4 +3058,79 @@ export const SearchComponent = (search) => {
         }
     
         return result;
+};
+
+
+
+// Get gallery images
+export const getIotGalleryAssets = async () => {
+
+    let data = [
+        {
+          id: 1,
+        //   title: 'Image 1',
+        //   description: 'Image 1 description',
+          largeURL: '/assets/iotGallery/01.jpeg',
+          thumbnailURL: '/assets/iotGallery/01.jpeg',
+        },
+        {
+          id: 2,
+        //   title: 'Image 2',
+        //   description: 'Image 2 description',
+          largeURL: '/assets/iotGallery/02.jpeg',
+          thumbnailURL: '/assets/iotGallery/02.jpeg',
+        },
+        {
+          id: 3,
+        //   title: 'Blessing Ceremony of Inovus Labs IEDC Post-renovation',
+        //   description: 'Image 3 description',
+          largeURL: '/assets/iotGallery/03.jpeg',
+          thumbnailURL: '/assets/iotGallery/03.jpeg',
+        },
+        {
+          id: 4,
+        //   title: 'Image 4',
+        //   description: 'Image 4 description',
+          largeURL: '/assets/iotGallery/04.jpeg',
+          thumbnailURL: '/assets/iotGallery/04.jpeg',
+        },
+        {
+          id: 5,
+        //   title: 'Image 5',
+        //   description: 'Image 5 description',
+          largeURL: '/assets/iotGallery/05.jpeg',
+          thumbnailURL: '/assets/iotGallery/05.jpeg',
+        },
+        {
+          id: 6,
+        //   title: 'Image 6',
+        //   description: 'Image 6 description',
+          largeURL: '/assets/iotGallery/06.jpeg',
+          thumbnailURL: '/assets/iotGallery/06.jpeg',
+        },
+        {
+          id: 7,
+        //   title: 'Image 7',
+        //   description: 'Image 7 description',
+          largeURL: '/assets/iotGallery/07.jpeg',
+          thumbnailURL: '/assets/iotGallery/07.jpeg',
+        },
+        {
+          id: 8,
+        //   title: 'Team Inovus with Mr. Deepu S Nath, MD, Faya USA.',
+        //   description: 'Image 8 description',
+          largeURL: '/assets/iotGallery/08.jpeg',
+          thumbnailURL: '/assets/iotGallery/08.jpeg',
+        },
+        {
+          id: 9,
+        //   title: 'Image 9',
+        //   description: 'Image 9 description',
+          largeURL: '/assets/iotGallery/09.jpeg',
+          thumbnailURL: '/assets/iotGallery/09.jpeg',
+        },
+    ]
+
+    return data;
+
 };
