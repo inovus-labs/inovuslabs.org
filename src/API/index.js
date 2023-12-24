@@ -2197,21 +2197,36 @@ export const getReports = async () => {
             id: 1,
             title: "IEDC Monthly Report",
             year: "January 2018 - December 2019",
-            thumbnail: "",
             url: "https://docs.google.com/document/d/1JDD5wN1zIb5QgYzHNhDSqWCz11MCvREe"
         },
         {
             id: 2,
             title: "IEDC Activity Report",
             year: "January 2019 - December 2019",
-            thumbnail: "",
             url: "https://drive.google.com/file/d/1USpa2PH2aG7sbC-kY2ScDxJ829kOWx8N"
         },
         {
             id: 3,
             title: "IEDC Activity Report",
             year: "January 2021 - December 2021",
-            thumbnail: "",
+            url: "https://drive.google.com/file/d/1USpa2PH2aG7sbC-kY2ScDxJ829kOWx8N"
+        },
+        {
+            id: 4,
+            title: "IEDC Activity Report",
+            year: "January 2022 - December 2022",
+            url: "https://drive.google.com/file/d/1USpa2PH2aG7sbC-kY2ScDxJ829kOWx8N"
+        },
+        {
+            id: 5,
+            title: "IEDC Activity Report",
+            year: "January 2023 - October 2023",
+            url: "https://drive.google.com/file/d/1USpa2PH2aG7sbC-kY2ScDxJ829kOWx8N"
+        },
+        {
+            id: 6,
+            title: "IEDC Activity Report",
+            year: "January 2023 - October 2023",
             url: "https://drive.google.com/file/d/1USpa2PH2aG7sbC-kY2ScDxJ829kOWx8N"
         }
     ];
