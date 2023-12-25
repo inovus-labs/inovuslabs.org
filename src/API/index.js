@@ -4,6 +4,68 @@ import axios from 'axios';
 const BASE_URL = "https://storage.googleapis.com/inovuslabs-cdn.appspot.com";
 
 
+let stockList = [
+    'Arduino Uno',
+    'Arduino Mega',
+    'Arduino Nano',
+    'Arduino Pro Mini',
+    'Arduino Leonardo',
+    'Arduino Micro',
+    'Arduino Due',
+    'Arduino Zero',
+    'Arduino MKR1000',
+    'Arduino MKRZero',
+    'Arduino MKR FOX 1200',
+    'Arduino MKR WAN 1300',
+    'Arduino MKR GSM 1400',
+    'Arduino MKR NB 1500',
+    'Arduino MKR WiFi 1010',
+    'Arduino MKR Vidor 4000',
+    'Arduino MKR WAN 1300 (LoRa Connectivity)',
+    'Arduino MKR WAN 1310 (LoRa Connectivity)',
+    'Arduino MKR NB 1500 (NB-IoT + eMTC Connectivity)',
+    'Arduino MKR WiFi 1010',
+    'Arduino MKR VIDOR 4000 (FPGA)',
+    'Arduino NANO 33 IoT',
+    'Arduino NANO 33 BLE',
+    'Arduino NANO 33 BLE Sense',
+    'Arduino Nano Every',
+    'Arduino Nano 33 IoT',
+    'Arduino Nano 33 BLE',
+    'Arduino Nano 33 BLE Sense',
+    'Arduino Nano Every',
+    'Arduino Due',
+    'Arduino 101',
+    'Arduino Mega',
+    'Arduino Leonardo',
+    'Arduino Micro',
+    'Arduino Esplora',
+    'Arduino Mini',
+    'Arduino Ethernet',
+    'Arduino Fio',
+    'Arduino BT',
+    'Arduino NG',
+    'Arduino Robot Control',
+    'Arduino Robot Motor',
+    'Arduino Gemma',
+    'Arduino Yún',
+    'Arduino Tian',
+    'Arduino Industrial 101',
+    'Arduino Uno WiFi Rev.2',
+    'Arduino MKR1000 WIFI',
+    'Arduino MKR ZERO',
+    'Arduino MKR FOX 1200',
+    'Arduino MKR WAN 1300',
+    'Arduino MKR GSM 1400',
+    'Arduino MKR NB 1500',
+    'Arduino MKR WiFi 1010',
+    'Arduino MKR VIDOR 4000',
+    'Arduino MKR WAN 1300 (LoRa Connectivity)',
+    'Arduino MKR WAN 1310 (LoRa Connectivity)',
+    'Arduino MKR NB 1500 (NB-IoT + eMTC Connectivity)'
+];
+
+
 
 // Get all projects 
 export const getProjects = async () => {
@@ -859,7 +921,7 @@ export const getPodcasts = async () => {
 // Get all projects
 export const getActivity = async () => {
     let data = {
-        "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Exhibition","Celebration"],
+        "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Celebration"],
         "activities": [
             {
                 "id": 1,
@@ -940,30 +1002,30 @@ export const getActivity = async () => {
                 "date": ["04 October 2023", "06 October 2023"],
                 "tags": ["Internship"]
             },
-            {
-                "id": 11,
-                "title": "Hands-on IoT Workshop",
-                "thumbnail": BASE_URL + "/assets/activity/handonIOT.jpg",
-                "description": "Conducted at MBC Kuttikanam, this exhibition catered to a gathering of students eager to explore and learn about the intricacies of IoT (Internet of Things).",
-                "date": ["27 April 2023", "28 April 2023"],
-                "tags": ["Workshop"]
-            },
-            {
-                "id": 12,
-                "title": "IoT & Robotics Exhibition",
-                "thumbnail": BASE_URL + "/assets/activity/Iotexebition.jpeg",
-                "description": "The IoT and Robotics Exhibition held at SB High School was a comprehensive event centered around Information Technology. Attendees had the opportunity to immerse themselves in cutting-edge technologies, including hands-on experiences with VR glasses and hoverboards. The interactive nature of the exhibition not only provided valuable insights into the world of IoT and robotics but also allowed participants to explore and engage with the showcased technologies firsthand. The event fostered a dynamic learning environment, sparking curiosity and interest among the attendees as they delved into the exciting possibilities offered by IT-related advancements. ",
-                "date": ["03 February 2023"],
-                "tags": ["Exhibition"]
-            },
-            {
-                "id": 13,
-                "title": "XPOVISTA ’23",
-                "thumbnail": BASE_URL + "/assets/activity/xpovista.JPG",
-                "description": "XPOVISTA '23 stands as an exhibition organized by Kristu Jyoti Higher Secondary School. As active participants from Inovus Labs Innovation and Entrepreneurship Development Cell (IEDC), we proudly presented an array of our innovative products at the exhibition. Our involvement in XPOVISTA allowed us to showcase the results of our creative endeavors and share our contributions with the broader community. The event served as a platform for us to engage with fellow participants, visitors, and enthusiasts, creating a collaborative environment for the exchange of ideas and showcasing the spirit of innovation fostered by Inovus Labs IEDC.",
-                "date": ["20 September 2023", "22 September 2023"],
-                "tags": ["Exhibition"]
-            },
+            // {
+            //     "id": 11,
+            //     "title": "Hands-on IoT Workshop",
+            //     "thumbnail": BASE_URL + "/assets/activity/handonIOT.jpg",
+            //     "description": "Conducted at MBC Kuttikanam, this exhibition catered to a gathering of students eager to explore and learn about the intricacies of IoT (Internet of Things).",
+            //     "date": ["27 April 2023", "28 April 2023"],
+            //     "tags": ["Workshop"]
+            // },
+            // {
+            //     "id": 12,
+            //     "title": "IoT & Robotics Exhibition",
+            //     "thumbnail": BASE_URL + "/assets/activity/Iotexebition.jpeg",
+            //     "description": "The IoT and Robotics Exhibition held at SB High School was a comprehensive event centered around Information Technology. Attendees had the opportunity to immerse themselves in cutting-edge technologies, including hands-on experiences with VR glasses and hoverboards. The interactive nature of the exhibition not only provided valuable insights into the world of IoT and robotics but also allowed participants to explore and engage with the showcased technologies firsthand. The event fostered a dynamic learning environment, sparking curiosity and interest among the attendees as they delved into the exciting possibilities offered by IT-related advancements. ",
+            //     "date": ["03 February 2023"],
+            //     "tags": ["Exhibition"]
+            // },
+            // {
+            //     "id": 13,
+            //     "title": "XPOVISTA ’23",
+            //     "thumbnail": BASE_URL + "/assets/activity/xpovista.JPG",
+            //     "description": "XPOVISTA '23 stands as an exhibition organized by Kristu Jyoti Higher Secondary School. As active participants from Inovus Labs Innovation and Entrepreneurship Development Cell (IEDC), we proudly presented an array of our innovative products at the exhibition. Our involvement in XPOVISTA allowed us to showcase the results of our creative endeavors and share our contributions with the broader community. The event served as a platform for us to engage with fellow participants, visitors, and enthusiasts, creating a collaborative environment for the exchange of ideas and showcasing the spirit of innovation fostered by Inovus Labs IEDC.",
+            //     "date": ["20 September 2023", "22 September 2023"],
+            //     "tags": ["Exhibition"]
+            // },
             {
                 "id": 14,
                 "title": "Learn.py 2.0",
@@ -980,14 +1042,14 @@ export const getActivity = async () => {
                 "date": ["24 January 2023"],
                 "tags": ["workshops"]
             },
-            {
-                "id": 16,
-                "title": "Arduino Workshop",
-                "thumbnail": BASE_URL + "/assets/activity/arduinoIHRD.jpeg",
-                "description": "We have conducted Arduino workshop for the students of IHRD Mallapally students. It was a wonderfull experience to interact with new fellows",
-                "date": ["23 January 2023"],
-                "tags": ["Workshop"]
-            },
+            // {
+            //     "id": 16,
+            //     "title": "Arduino Workshop",
+            //     "thumbnail": BASE_URL + "/assets/activity/arduinoIHRD.jpeg",
+            //     "description": "We have conducted Arduino workshop for the students of IHRD Mallapally students. It was a wonderfull experience to interact with new fellows",
+            //     "date": ["23 January 2023"],
+            //     "tags": ["Workshop"]
+            // },
             {
                 "id": 17,
                 "title": "Onam Trivia 2K22",
@@ -1012,22 +1074,22 @@ export const getActivity = async () => {
                 "date": ["20 Aug 2021"],
                 "tags": ["Workshop"]
             },
-            {
-                "id": 20,
-                "title": "Inspire Orientation",
-                "thumbnail": BASE_URL + "/assets/activity/Inspire.png",
-                "description": "The Inspire Orientation program, organized by Inovus Labs IEDC, was a significant step in empowering students to participate in the Inspire initiative conducted by the Indian Government. This initiative aims to cultivate innovation and creativity among young minds. The program featured accomplished resource persons, Nikhil T Das, Badhusha Shaji, and Abhishek V Gopal, and took place at Placid Vidhyavihar. It served as a platform to inspire and equip students from Classes 7 to 9 to turn their innovative ideas into reality",
-                "date": ["12 July 2023"],
-                "tags": ["Session"]
-            },
-            {
-                "id": 21,
-                "title": "Empower The Students",
-                "thumbnail": BASE_URL + "/assets/activity/Empower.png",
-                "description": "The Empower The Students program, organized by Inovus Labs IEDC, was a transformative initiative designed to empower students to develop their innovative ideas. With a distinguished panel of resource persons, including Nikhil T Das, Badhusha Shaji, Abhishek V Gopal, and Nithin Daniel, this program aimed to equip students from Classes 5 to 10 at St. Berchman's High School (SB) with the knowledge, skills, and motivation needed to participate effectively in the Indian Government's Inspire initiative.  ",
-                "date": ["14 July 2023"],
-                "tags": ["Session"]
-            },
+            // {
+            //     "id": 20,
+            //     "title": "Inspire Orientation",
+            //     "thumbnail": BASE_URL + "/assets/activity/Inspire.png",
+            //     "description": "The Inspire Orientation program, organized by Inovus Labs IEDC, was a significant step in empowering students to participate in the Inspire initiative conducted by the Indian Government. This initiative aims to cultivate innovation and creativity among young minds. The program featured accomplished resource persons, Nikhil T Das, Badhusha Shaji, and Abhishek V Gopal, and took place at Placid Vidhyavihar. It served as a platform to inspire and equip students from Classes 7 to 9 to turn their innovative ideas into reality",
+            //     "date": ["12 July 2023"],
+            //     "tags": ["Session"]
+            // },
+            // {
+            //     "id": 21,
+            //     "title": "Empower The Students",
+            //     "thumbnail": BASE_URL + "/assets/activity/Empower.png",
+            //     "description": "The Empower The Students program, organized by Inovus Labs IEDC, was a transformative initiative designed to empower students to develop their innovative ideas. With a distinguished panel of resource persons, including Nikhil T Das, Badhusha Shaji, Abhishek V Gopal, and Nithin Daniel, this program aimed to equip students from Classes 5 to 10 at St. Berchman's High School (SB) with the knowledge, skills, and motivation needed to participate effectively in the Indian Government's Inspire initiative.  ",
+            //     "date": ["14 July 2023"],
+            //     "tags": ["Session"]
+            // },
             {
                 "id": 22,
                 "title": "Ideation Workshop",
@@ -1490,8 +1552,7 @@ export const getReccuringEvents = async () => {
                 "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/Template 16.jpg",
                 "tags": ["Weekend Workbench"]
                
-            }
-            ,{
+            },{
                 "id": 23,
                 "date": "16 December 2023",
                 "title": "Weekend Workbench #17",
@@ -1499,7 +1560,15 @@ export const getReccuringEvents = async () => {
                 "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/17.jpg",
                 "tags": ["Weekend Workbench"]
                
-            }              
+            },{
+                "id": 24,
+                "date": "23 December 2023",
+                "title": "Weekend Workbench #18",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/18.jpg",
+                "tags": ["Weekend Workbench"]
+               
+            }
         ]
     };
 
@@ -2998,69 +3067,6 @@ export const getNewsReports = async () => {
 
 
 
-let stockList = [
-    'Arduino Uno',
-    'Arduino Mega',
-    'Arduino Nano',
-    'Arduino Pro Mini',
-    'Arduino Leonardo',
-    'Arduino Micro',
-    'Arduino Due',
-    'Arduino Zero',
-    'Arduino MKR1000',
-    'Arduino MKRZero',
-    'Arduino MKR FOX 1200',
-    'Arduino MKR WAN 1300',
-    'Arduino MKR GSM 1400',
-    'Arduino MKR NB 1500',
-    'Arduino MKR WiFi 1010',
-    'Arduino MKR Vidor 4000',
-    'Arduino MKR WAN 1300 (LoRa Connectivity)',
-    'Arduino MKR WAN 1310 (LoRa Connectivity)',
-    'Arduino MKR NB 1500 (NB-IoT + eMTC Connectivity)',
-    'Arduino MKR WiFi 1010',
-    'Arduino MKR VIDOR 4000 (FPGA)',
-    'Arduino NANO 33 IoT',
-    'Arduino NANO 33 BLE',
-    'Arduino NANO 33 BLE Sense',
-    'Arduino Nano Every',
-    'Arduino Nano 33 IoT',
-    'Arduino Nano 33 BLE',
-    'Arduino Nano 33 BLE Sense',
-    'Arduino Nano Every',
-    'Arduino Due',
-    'Arduino 101',
-    'Arduino Mega',
-    'Arduino Leonardo',
-    'Arduino Micro',
-    'Arduino Esplora',
-    'Arduino Mini',
-    'Arduino Ethernet',
-    'Arduino Fio',
-    'Arduino BT',
-    'Arduino NG',
-    'Arduino Robot Control',
-    'Arduino Robot Motor',
-    'Arduino Gemma',
-    'Arduino Yún',
-    'Arduino Tian',
-    'Arduino Industrial 101',
-    'Arduino Uno WiFi Rev.2',
-    'Arduino MKR1000 WIFI',
-    'Arduino MKR ZERO',
-    'Arduino MKR FOX 1200',
-    'Arduino MKR WAN 1300',
-    'Arduino MKR GSM 1400',
-    'Arduino MKR NB 1500',
-    'Arduino MKR WiFi 1010',
-    'Arduino MKR VIDOR 4000',
-    'Arduino MKR WAN 1300 (LoRa Connectivity)',
-    'Arduino MKR WAN 1310 (LoRa Connectivity)',
-    'Arduino MKR NB 1500 (NB-IoT + eMTC Connectivity)'
-];
-
-
-
 // Search Component
 export const SearchComponent = (search) => {
     
@@ -3173,6 +3179,90 @@ export const getIotGalleryAssets = async () => {
             thumbnailURL: BASE_URL + '/assets/iotGallery/13.jpg',
         },
     ]
+
+    return data;
+
+};
+
+
+
+// Get Outreach Events
+export const getOutreachEvents = async () => {
+
+    let data = [
+        {
+            id: 1,
+            title: "Inspire Orientation",
+            location: "Placid Vidya Vihar Senior Secondary School, Changanacherry",
+            description: "The Inspire Orientation program, organized by Inovus Labs IEDC, was a significant step in empowering students to participate in the Inspire initiative conducted by the Indian Government. This initiative aims to cultivate innovation and creativity among young minds. The program featured accomplished resource persons, Nikhil T Das, Badhusha Shaji, and Abhishek V Gopal, and took place at Placid Vidhyavihar. It served as a platform to inspire and equip students from Classes 7 to 9 to turn their innovative ideas into reality.",
+            date: ["12 July 2023"],
+            tags: ["Session"],
+            thumbnail: BASE_URL + "/assets/activity/Inspire.png",
+            images: [
+                BASE_URL + "/assets/activity/Inspire.png"
+            ]
+        },
+        {
+            id: 2,
+            title: "Empower the Students",
+            location: "St Berchmans Higher Secondary School, Changanacherry",
+            description: "The Empower The Students program, organized by Inovus Labs IEDC, was a transformative initiative designed to empower students to develop their innovative ideas. With a distinguished panel of resource persons, including Nikhil T Das, Badhusha Shaji, Abhishek V Gopal, and Nithin Daniel, this program aimed to equip students from Classes 5 to 10 at St. Berchman's High School (SB) with the knowledge, skills, and motivation needed to participate effectively in the Indian Government's Inspire initiative.",
+            date: ["14 July 2023"],
+            tags: ["Session"],
+            thumbnail: BASE_URL + "/assets/activity/Empower.png",
+            images: [
+                BASE_URL + "/assets/activity/Empower.png"
+            ]
+        },
+        {
+            id: 3,
+            title: "Arduino Workshop",
+            location: "Institute of Human Resources Development, Mallappally",
+            description: "We have conducted Arduino workshop for the students of IHRD Mallapally students. It was a wonderfull experience to interact with new fellows",
+            date: ["23 January 2023"],
+            tags: ["Workshop"],
+            thumbnail: BASE_URL + "/assets/activity/arduinoIHRD.jpeg",
+            images: [
+                BASE_URL + "/assets/activity/arduinoIHRD.jpeg"
+            ]
+        },
+        {
+            id: 4,
+            title: "IoT & Robotics Exhibition",
+            location: "St Berchmans Higher Secondary School, Changanacherry",
+            description: "The IoT and Robotics Exhibition held at SB High School was a comprehensive event centered around Information Technology. Attendees had the opportunity to immerse themselves in cutting-edge technologies, including hands-on experiences with VR glasses and hoverboards. The interactive nature of the exhibition not only provided valuable insights into the world of IoT and robotics but also allowed participants to explore and engage with the showcased technologies firsthand. The event fostered a dynamic learning environment, sparking curiosity and interest among the attendees as they delved into the exciting possibilities offered by IT-related advancements. ",
+            date: ["03 February 2023"],
+            tags: ["Exhibition"],
+            thumbnail: BASE_URL + "/assets/activity/Iotexebition.jpeg",
+            images: [
+                BASE_URL + "/assets/activity/Iotexebition.jpeg"
+            ]
+        },
+        {
+            id: 5,
+            title: "Hands-on IoT Workshop",
+            location: "Mar Baselios Christian College of Engineering & Technology, Kuttikkanam",
+            description: "Conducted at MBC Kuttikanam, this exhibition catered to a gathering of students eager to explore and learn about the intricacies of IoT (Internet of Things).",
+            date: ["27 April 2023", "28 April 2023"],
+            tags: ["Workshop"],
+            thumbnail: BASE_URL + "/assets/activity/handonIOT.jpg",
+            images: [
+                BASE_URL + "/assets/activity/handonIOT.jpg"
+            ]
+        },
+        {
+            id: 6,
+            title: "XPOVISTA ’23",
+            location: "Kristu Jyoti Higher Secondary School, Changanacherry",
+            description: "XPOVISTA '23 stands as an exhibition organized by Kristu Jyoti Higher Secondary School. As active participants from Inovus Labs Innovation and Entrepreneurship Development Cell (IEDC), we proudly presented an array of our innovative products at the exhibition. Our involvement in XPOVISTA allowed us to showcase the results of our creative endeavors and share our contributions with the broader community. The event served as a platform for us to engage with fellow participants, visitors, and enthusiasts, creating a collaborative environment for the exchange of ideas and showcasing the spirit of innovation fostered by Inovus Labs IEDC.",
+            date: ["20 September 2023", "22 September 2023"],
+            tags: ["Exhibition"],
+            thumbnail: BASE_URL + "/assets/activity/xpovista.JPG",
+            images: [
+                BASE_URL + "/assets/activity/xpovista.JPG"
+            ]
+        },
+    ];
 
     return data;
 

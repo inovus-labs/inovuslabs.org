@@ -269,7 +269,6 @@
                                     name: 'Outreach Programs',
                                     link: '/outreach',
                                     description: 'Events and programs that we conduct outside our campus.',
-                                    disabled: true,
                                 }
                             ]
                         ]
