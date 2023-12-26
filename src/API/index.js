@@ -2579,6 +2579,19 @@ export const getLearningResources = async () => {
                 }
             ]
         },
+        {
+            id: 21,
+            title: "Learn to Code Blockchain DApps by Building Simple Games",
+            description: "CryptoZombies is an interactive school that teaches you all things technical about blockchains. Learn to write smart contracts by making your own crypto-collectibles game.",
+            category: ["Blockchain"],
+            date: "26 December 2023",
+            resources: [
+                {
+                    url: "https://cryptozombies.io/",
+                    type: "Website"
+                }
+            ]
+        },
     ];
 
     return data;
