@@ -1,7 +1,19 @@
 <template>
 
     <div class="max-w-sm bg-white fit-content border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <img class="rounded-t-lg h-55 w-full" :src="data.thumbnail" :alt="data.title" />
+   
+        <template v-if="data.thumbnail">
+            
+            <img class="rounded-t-lg h-55 w-full" :src="data.thumbnail" :alt="data.title" />
+
+         </template>
+         <template v-if="data.video">
+            
+            <!-- <img class="rounded-t-lg h-55 w-full" :src="data.thumbnail" :alt="data.title" /> -->
+            <video class="rounded-t-lg h-55 w-full" :src="data.video" autoplay muted controls :alt="data.title"></video>
+
+         </template>
+
         
         <div class="p-5 flex flex-col justify-between">
             
