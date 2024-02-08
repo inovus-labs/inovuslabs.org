@@ -1559,7 +1559,6 @@ export const getReccuringEvents = async () => {
                 "description": "",
                 "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/17.jpg",
                 "tags": ["Weekend Workbench"]
-               
             },{
                 "id": 24,
                 "date": "23 December 2023",
@@ -1567,7 +1566,27 @@ export const getReccuringEvents = async () => {
                 "description": "",
                 "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/18.jpg",
                 "tags": ["Weekend Workbench"]
-               
+            },{
+                "id": 25,
+                "date": "13 January 2024",
+                "title": "Weekend Workbench #19",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/Weekend Workbench 19.jpg",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 26,
+                "date": "20 January 2024",
+                "title": "Weekend Workbench #20",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/Weekend Workbench.jpg",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 27,
+                "date": "27 January 2024",
+                "title": "Weekend Workbench #21",
+                "description": "",
+                "video": BASE_URL + "/assets/reccuringevents/workbench/Weekend workbench 21.mp4",
+                "tags": ["Weekend Workbench"]
             }
         ]
     };
