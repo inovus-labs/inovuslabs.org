@@ -11,8 +11,8 @@
           <img class="w-full h-full" src="../../public/assets/illustrations/outreach.svg" alt="Outreach" />
         </div>
         <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">
-          <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">Innovate. Inspire. Illuminate</h1>
-          <p class="mb-8 text-lg font-normal text-secondary lg:text-xl sm:px-16 lg:px-48">Embark on a journey through our diverse portfolio of IoT, Hardware, and Software ventures, pioneering solutions for the Digital Age.</p>
+          <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">Beyond the Campus: Outsourcing Adventures Await!</h1>
+          <p class="mb-8 text-lg font-normal text-secondary lg:text-xl sm:px-16 lg:px-48">Step Outside, Dive In - Curated Programs Tailored for Experiential Learning Beyond College Walls.</p>
           <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary">
                   Get started
@@ -32,6 +32,22 @@
 
 
 
+    <!-- <section class="py-10 border-b border-gray-200 dark:border-gray-700">
+      <div class="lg:p-10 p-4">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+            <h2 class="mb-8 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Welcome to Mini IoT Lab: Where Innovation & Possibilities Unfold! ✨🚀</h2>
+            <p class="text-justify mb-4 font-medium">Our <span class="text-primary">Mini IoT Lab</span> is a compact, hands-on learning environment designed to introduce individuals, students, and enthusiasts to the fascinating world of the Internet of Things (IoT). This portable lab provides an accessible and give experience for understanding, experimenting, and building IoT projects, making it an ideal resource for educational institutions, workshops, and DIY enthusiasts.</p>
+            <p class="text-justify mb-4 font-medium"> The lab comes with a user-friendly programming environment, allowing users to write and upload code to control and monitor IoT devices. Whether you are a newbie or an experienced developer, the platform supports various programming languages, making it adaptable to different skill levels.</p>
+            <p class="text-justify font-medium">Looking ahead, the Mini IoT Lab is poised to be a catalyst for innovation and creativity. We're planning to expand the lab's capabilities and features, including the addition of new devices, sensors and machinery.</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+
+
 
 
     <section class="lg:p-10 p-4 mb-5 lg:my-10">
@@ -39,23 +55,26 @@
 
       <div class="mx-auto max-w-screen-xl text-center w-full py-4">
         <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-          🚀 Welcome to our Showcase of Innovation! 🌟
+          🌍 Beyond campus borders, embracing the community! 🤝
         </h1>
 
         <p class="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-          We proudly present a curated collection of projects crafted by our talented fellows during their exploration, experimentation, and continuous learning journey. Dive into a diverse array of endeavors that reflect the spirit of creativity, curiosity, and the relentless pursuit of knowledge.
+          🌟 Explore the Outreach Programs section to discover how we're making a positive impact beyond our walls. Dive into our efforts to foster growth, education, and innovation in the broader community. ✨
         </p>
       </div>
 
 
 
-      <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-        <div class="w-full flex items-center justify-center py-4 md:py-8 flex-wrap">
+      <div class="flex flex-wrap justify-between mt-6 items-center mx-auto max-w-screen-xl">
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-4">
 
+          <template v-for="Outreach in outreachEvents">
+            <OutreachCard
+              :data="Outreach"
+              :showReadMore="true"
+            />
+          </template>
 
-          
-
-          
         </div>
       </div>
 
@@ -68,78 +87,27 @@
   
   
 <script>
-    import ReccuringEventsCard from "@/components/ReccuringEventsCard.vue";
+    import OutreachCard from "@/components/OutreachCard.vue";
     import PublicLayout from "@/layouts/PublicLayout.vue";
 
-    import { getReccuringEvents } from "@/API/index.js";
+    import { getOutreachEvents } from "@/API/index.js";
   
     export default {
       name: 'ReccuringEventsView',
       components: {
         PublicLayout,
-        ReccuringEventsCard,
+        OutreachCard,
       },
 
       data() {
         return {
-          reccuringEvents: [],
-          tags: [],
-          selectedTags: "All Events"
+          outreachEvents: [],
         }
       },
 
       async mounted() {
-        await this.getReccuringEvents();
+        this.outreachEvents = await getOutreachEvents();
       },
-
-      computed: {
-        filteredReccuringEvents() {
-          return this.updateReccuringEvents();
-        }
-      },
-
-      methods: {
-
-        async getReccuringEvents() {
-          let response = await getReccuringEvents();
-          this.reccuringEvents = response.events;
-          this.tags = ["All Events", ...response.tags];
-
-          this.reccuringEvents.sort((a, b) => {
-            return new Date(b.date) - new Date(a.date);
-          });
-
-        },
-
-        selectTag(tag) {
-          if (tag === "All Events") {
-            this.selectedTags = "All Events";
-          } else {
-
-            if (this.selectedTags === "All Events") {
-              this.selectedTags = [];
-            }
-
-            if (this.selectedTags === tag) {
-              this.selectedTags = "All Events";
-            } else {
-              this.selectedTags = tag;
-            }
-
-          }
-        },
-
-        updateReccuringEvents() {
-          if (this.selectedTags === "All Events") {
-            return this.reccuringEvents;
-          } else {
-            return this.reccuringEvents.filter(project => {
-              return project.tags.some(tag => this.selectedTags.includes(tag));
-            });
-          }
-        }
-
-      }
 
     }
 </script>
