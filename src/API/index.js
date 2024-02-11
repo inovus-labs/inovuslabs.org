@@ -912,6 +912,9 @@ export const getPodcasts = async () => {
         {
             id: "4NM5QuIiDVeUAy8FaKou4Q",
         },
+        {
+            id: "1vGHYAQqzAQg7X7wNN0SQA",
+        },
     ]
 
 }
@@ -1519,7 +1522,7 @@ export const getReccuringEvents = async () => {
                 "description": "",
                 "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/Template 12.png",
                 "tags": ["Weekend Workbench"]
-               
+           
             },{
                 "id": 19,
                 "date": "11 November 2023",
@@ -1586,6 +1589,20 @@ export const getReccuringEvents = async () => {
                 "title": "Weekend Workbench #21",
                 "description": "",
                 "video": BASE_URL + "/assets/reccuringevents/workbench/Weekend workbench 21.mp4",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 28,
+                "date": "3 February 2024",
+                "title": "Weekend Workbench #22",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/Weekend Workbech 22.png",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 29,
+                "date": "10 February 2024",
+                "title": "Weekend Workbench #23",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/Weekend Workbench 23.png",
                 "tags": ["Weekend Workbench"]
             }
         ]
@@ -3292,6 +3309,18 @@ export const getOutreachEvents = async () => {
             thumbnail: BASE_URL + "/assets/activity/xpovista.JPG",
             images: [
                 BASE_URL + "/assets/activity/xpovista.JPG"
+            ]
+        },
+        {
+            id: 7,
+            title: "Arduino Training Programme",
+            location: "Assumption College Autonomous, Changanassery",
+            description: "The Arduino Training Program conducted by Inovus Labs IEDC at Assumption College Autonomous, Changanassery, was a resounding success. The two-day workshop, held on December 27th and 28th, 2023, saw the active participation of nine students who immersed themselves in a journey of experiential learning and hands-on exploration.",
+            date: ["27 December 2023", "28 December 2023"],
+            tags: ["Workshop"],
+            thumbnail: BASE_URL + "/assets/activity/Frame 1 (6).png",
+            images: [
+                BASE_URL + "/assets/activity/Frame 1 (6).png"
             ]
         },
     ];
