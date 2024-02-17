@@ -1604,6 +1604,13 @@ export const getReccuringEvents = async () => {
                 "description": "",
                 "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/Weekend Workbench 23.png",
                 "tags": ["Weekend Workbench"]
+            },{
+                "id": 30,
+                "date": "17 February 2024",
+                "title": "Weekend Workbench #24",
+                "description": "",
+                "video": BASE_URL + "/assets/reccuringevents/workbench/Weekend workbench 24.mp4",
+                "tags": ["Weekend Workbench"]
             }
         ]
     };
