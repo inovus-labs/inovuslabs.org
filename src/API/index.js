@@ -2648,9 +2648,101 @@ export const getTeamMembers = async () => {
 
     let data = [
         {
+            title: 'Inovus 7th Generation',
+            date: '2024',
+            showTeam: true,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodal Officer',
+                    avatar: BASE_URL + '/assets/team/2018-2020/rojithomas.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Cina Mathew',
+                    position: 'Assistant Nodal Officer',
+                   avatar: BASE_URL + '/assets/team/2023/cinamathew.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun Krishna',
+                    position: 'Mentor',
+                   avatar: BASE_URL + '/assets/team/2018-2020/arjunkrishna.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Badhusha Shaji',
+                    position: 'Chief Executive Officer',
+                   avatar: BASE_URL + '/assets/team/2024/BadhushaShaji.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Abhishek V Gopal',
+                    position: 'Chief Technical Officer',
+                   avatar: BASE_URL + '/assets/team/2024/Abhishek.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Nikhil T Das',
+                    position: 'Chief Operations Officer',
+                   avatar: BASE_URL + '/assets/team/2024/NikilTDas.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Nithin Daniel',
+                    position: 'Chief Financial Officer',
+                   avatar: BASE_URL + '/assets/team/2024/Nithin.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun A Acharry',
+                    position: 'Chief Creative Officer',
+                   avatar: BASE_URL + '/assets/team/2024/ArjunAcharry.JPG',
+                    social: {
+                      facebook: ""
+                    }
+                },{
+                    name: ' Joel Jacob Thomas',
+                    position: 'Chief Marketing Officer',
+                   avatar: BASE_URL + '/assets/team/2024/JoelJacob.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Lekshmi Sree J',
+                    position: 'Women in Tech Lead',
+                   avatar: BASE_URL + '/assets/team/2024/lekshmisree.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Milan Sony',
+                    position: 'Community Lead',
+                   avatar: BASE_URL + '/assets/team/2024/milansony.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Anu Tiji',
+                    position: 'IPR & Research Lead',
+                   avatar: BASE_URL + '/assets/team/2024/Anutiji.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                }, 
+            ]
+        },{
             title: 'Inovus 6th Generation',
             date: '2023-2024',
-            showTeam: true,
+            showTeam: false,
             members: [
 
                 {
