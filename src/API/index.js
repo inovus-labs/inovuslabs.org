@@ -1611,6 +1611,27 @@ export const getReccuringEvents = async () => {
                 "description": "",
                 "video": BASE_URL + "/assets/reccuringevents/workbench/Weekend workbench 24.mp4",
                 "tags": ["Weekend Workbench"]
+            },{
+                "id": 31,
+                "date": "24 February 2024",
+                "title": "Weekend Workbench #25",
+                "description": "",
+                "video": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 25.mp4",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 32,
+                "date": "2 March 2024",
+                "title": "Weekend Workbench #26",
+                "description": "",
+                "video": BASE_URL + "/assets/reccuringevents/workbench/Weekend workbench 24.mp4",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 31,
+                "date": "9 March 2024",
+                "title": "Weekend Workbench #27",
+                "description": "",
+                "video": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 27.mp4",
+                "tags": ["Weekend Workbench"]
             }
         ]
     };
