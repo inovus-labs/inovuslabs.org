@@ -2677,14 +2677,21 @@ export const getTeamMembers = async () => {
                 {
                     name: ' Roji Thomas',
                     position: 'Nodal Officer',
-                    avatar: BASE_URL + '/assets/team/2018-2020/rojithomas.jpg',
+                    avatar: BASE_URL + '/assets/team/2024-2025/Nodal Officer.png',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Cina Mathew',
                     position: 'Assistant Nodal Officer',
-                   avatar: BASE_URL + '/assets/team/2023/cinamathew.jpg',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Asst.Nodal Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Jithin Sha',
+                    position: 'Mentor',
+                   avatar: BASE_URL + '/assets/team/2018-2020/jithinshah.jpg',
                     social: {
                       facebook: ""
                     }
@@ -2695,70 +2702,121 @@ export const getTeamMembers = async () => {
                     social: {
                       facebook: ""
                     }
-                }, {
-                    name: ' Badhusha Shaji',
-                    position: 'Chief Executive Officer',
-                   avatar: BASE_URL + '/assets/team/2024/BadhushaShaji.jpeg',
-                    social: {
-                      facebook: ""
-                    }
-                }, {
-                    name: ' Abhishek V Gopal',
-                    position: 'Chief Technical Officer',
-                   avatar: BASE_URL + '/assets/team/2024/Abhishek.jpg',
-                    social: {
-                      facebook: ""
-                    }
-                }, {
+                },
+                {
                     name: ' Nikhil T Das',
-                    position: 'Chief Operations Officer',
+                    position: 'Mentor',
                    avatar: BASE_URL + '/assets/team/2024/NikilTDas.jpeg',
                     social: {
                       facebook: ""
                     }
-                }, {
-                    name: ' Nithin Daniel',
-                    position: 'Chief Financial Officer',
-                   avatar: BASE_URL + '/assets/team/2024/Nithin.jpg',
-                    social: {
-                      facebook: ""
-                    }
-                }, {
-                    name: ' Arjun A Acharry',
-                    position: 'Chief Creative Officer',
-                   avatar: BASE_URL + '/assets/team/2024/ArjunAcharry.JPG',
-                    social: {
-                      facebook: ""
-                    }
-                },{
-                    name: ' Joel Jacob Thomas',
-                    position: 'Chief Marketing Officer',
-                   avatar: BASE_URL + '/assets/team/2024/JoelJacob.jpg',
-                    social: {
-                      facebook: ""
-                    }
-                }, {
-                    name: ' Lekshmi Sree J',
-                    position: 'Women in Tech Lead',
-                   avatar: BASE_URL + '/assets/team/2024/lekshmisree.jpeg',
-                    social: {
-                      facebook: ""
-                    }
-                }, {
+                },
+                {
                     name: ' Milan Sony',
-                    position: 'Community Lead',
+                    position: 'Mentor',
                    avatar: BASE_URL + '/assets/team/2024/milansony.jpg',
                     social: {
                       facebook: ""
                     }
                 }, {
-                    name: ' Anu Tiji',
-                    position: 'IPR & Research Lead',
-                   avatar: BASE_URL + '/assets/team/2024/Anutiji.jpeg',
+                    name: ' Abhishek V Gopal',
+                    position: 'Chief Executive Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Executive Officer.png',
                     social: {
                       facebook: ""
                     }
-                }, 
+                }, {
+                    name: ' Badhusha Shaji',
+                    position: 'Chief Technical Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Technical Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun A Acharry',
+                    position: 'Chief Operations Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Operations Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Devika Anil',
+                    position: 'Women In Tech',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Women in tech.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Lekshmi Sree J',
+                    position: 'Chief Innovations Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Innovations Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Joel Jacob Thomas',
+                    position: 'Chief Creative Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Creative Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                },{
+                    name: ' Alen Rajan',
+                    position: 'IPR & Research Lead',
+                   avatar: BASE_URL + '/assets/team/2024-2025/IPR & Reserch Lead.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Nithin Daniel',
+                    position: 'Chief Finance Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Finance Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Amenda Maria Johnson',
+                    position: 'Chief Marketing Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Marketing Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Amith Abey Stephen',
+                    position: 'Stock Manager',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Stock Manager.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Sane Sunil',
+                    position: 'Project Manager',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Project Manager.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Angel K Agnes',
+                    position: 'Community Lead',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Community Lead.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Bhagya V',
+                    position: 'Event Curator',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Event Curator.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Ashlin Sara Tomy',
+                    position: 'Event Curator',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Event Curator-1.png',
+                    social: {
+                      facebook: ""
+                    }
+                },  
             ]
         },{
             title: 'Inovus 6th Generation',
