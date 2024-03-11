@@ -94,6 +94,13 @@
                         image: '/assets/team/2018-2020/arjunkrishna.jpg',
                         text: 'We encourage our fellows to think out of the box in every sort of activities and promote stupid ideas, as, today\'s stupidity is tomorrow\'s wonder.'
                     },
+                    {
+                        id: 4,
+                        name: 'Dr. Thomas George',
+                        position: 'Chairman, LEAD College of Management',
+                        image: '/assets/testimoniel/thomman.jpg',
+                        text: 'Special Congratulations to team Inovus Labs IEDC of Kristu Jyoti. The students are highly motivated and ambitious.They are open to learn and ready to implement their creativity. The faculty members and college management are highly supportive'
+                    }
                 ]
             }
         }

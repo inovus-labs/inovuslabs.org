@@ -151,27 +151,27 @@
                 podcastStats: [
                     {
                         title: "Episodes",
-                        value: 2,
+                        value: 3,
                         mode: "accurate"
                     },
                     {
                         title: "Months",
-                        value: 4,
+                        value: 6,
                         mode: "accurate"
                     },
                     {
                         title: "Spotify Followers",
-                        value: 60,
+                        value: 70,
                         mode: "approximate"
                     },
                     {
                         title: "All-time Plays",
-                        value: 250,
+                        value: 400,
                         mode: "approximate"
                     },
                     {
                         title: "Monthly Impressions",
-                        value: 8000,
+                        value: 15000,
                         mode: "approximate"
                     },
                     {
