@@ -1623,7 +1623,7 @@ export const getReccuringEvents = async () => {
                 "date": "2 March 2024",
                 "title": "Weekend Workbench #26",
                 "description": "",
-                "video": BASE_URL + "/assets/reccuringevents/workbench/Weekend workbench 24.mp4",
+                "video": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 26.mp4",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 31,
