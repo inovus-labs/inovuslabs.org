@@ -29,11 +29,9 @@
       </div>
     </section>
 
-
-
     <About />
 
-
+    <ActiveEvents />
     
     <Partners />  
     
@@ -152,6 +150,7 @@
   import Partners from "@/components/Home/Partners.vue";
   import About from "@/components/Home/About.vue";
   import StatsCounter from "@/components/reusable/StatsCounter.vue";
+  import ActiveEvents from "@/components/Home/ActiveEvents.vue";
 
   export default {
     name: 'HomeView',
@@ -165,7 +164,8 @@
       Features,
       Partners,
       About,
-      StatsCounter
+      StatsCounter,
+      ActiveEvents
     },
 
     data() {

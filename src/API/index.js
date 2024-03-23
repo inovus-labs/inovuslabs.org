@@ -3506,3 +3506,50 @@ export const getOutreachEvents = async () => {
     return data;
 
 };
+
+
+//----------------------------------------------------------------------------------------------------------------
+export const getActiveEvents = async () => {
+    const data = {
+      "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Celebration"],
+      "activities": [
+        {
+          "id": 1,
+          "title": "Web Design Bootcamp v3.0",
+          "description": "A nano degree program to develop the web designing skills of students at Kristu Jyoti college. It have been successfully completed and given the certificate of the nano degree program.",
+          "date": ["2023-06-01", "2023-06-14"],
+          "tags": ["Bootcamp"]
+        },
+        {
+          "id": 2,
+          "title": "Kerala Piravi @ Govt. LP School",
+          "description": "On Kerala Piravi day, we had the privilege of visiting the govt. LP School Madapally, where we actively engaged with the enthusiastic young minds, fostering meaningful interactions with the students and celebrating the essence of Kerala Piravi together.",
+          "date": ["2024-11-01"],
+          "tags": ["Celebration"]
+        },
+        {
+          "id": 3,
+          "title": "IoT workshop",
+          "description": "Taking the initial stride into the realm of IoT, interested students at KJCMT actively participated and achieved their first milestone in this technology.",
+          "date": [["2023-07-19", "2023-07-20"], "2023-08-10"],
+          "tags": ["Workshop"]
+        },
+        {
+          "id": 4,
+          "title": "Debate Competition",
+          "description": "A competition to enhance the talking ability of students. Several students have participated and all have received a participation certificate.",
+          "date": ["2022-11-25"],
+          "tags": ["Challenge"]
+        },
+        {
+          "id": 5,
+          "title": "Stupid Idea Contest",
+          "description": "A contest to develop the ideas of KJCMT students. They have submitted several ideas, and we have selected the best one and promoted them to execute it by giving them a prize.",
+          "date": ["2022-11-03", "2022-11-12"],
+          "tags": ["Challenge"]
+        }
+      ]
+    };
+  
+    return data;
+  };
