@@ -73,7 +73,7 @@
             </div>
 
             <div class="flex justify-between mt-5 gap-2 w-full">
-                <button id="read_more" @click="showReadMore = !showReadMore" class="items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded hover:bg-blue-800 dark:bg-blue-600 w-1/2 text-center">
+                <button id="read_more" @click="showReadMore = !showReadMore" class="items-center px-3 py-2 text-sm font-medium text-white bg-primary rounded hover:bg-secondary dark:bg-blue-600 w-1/2 text-center">
                     {{ showReadMore ? 'Read More' : 'Read Less' }}
                 </button>
             </div>
