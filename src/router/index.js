@@ -23,7 +23,6 @@ import BlogView from '@/views/BlogView.vue'
 import PodcastView from '@/views/PodcastView.vue'
 import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
 import OutreachView from '@/views/OutreachView.vue'
-import BuggyNews from '@/views/BuggyNews.vue'
 
 // Contact page
 import ResourcesView from '@/views/ResourcesView.vue'
@@ -104,11 +103,6 @@ const router = createRouter({
       name: 'news',
       component: NewsView,
       meta: { title: 'News' }
-    },{
-      path: '/buggy',
-      name: 'Buggy',
-      component: BuggyNews,
-      meta: { title: 'Buggy' }
     },
     {
       path: '/reports',

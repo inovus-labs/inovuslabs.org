@@ -56,7 +56,7 @@
 
       <div class="mx-auto max-w-screen-xl text-left w-full py-4">
         <h1
-          class="mb-4 text-2xl font-bold leading-none tracking-tight md:text-3xl lg:text-4xl dark:text-white">
+          class="mb-4 text-2xl font-semibold leading-none tracking-tight md:text-3xl lg:text-4xl dark:text-white">
           🌱 Unveiling the Seeds of Innovation! ✨</h1>
         <p class="mb-6 text-lg font-light text-secondary lg:text-xl  dark:text-gray-400">💼 Explore the
           business ideas and non-profit initiatives nurtured in the fertile grounds of Inovus Labs IEDC. From inception
