@@ -9,10 +9,10 @@
 
                 
                 <div class="mx-auto max-w-screen-xl text-left w-full lg:w-2/3 py-4 lg:py-20">
-                    <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">
+                    <h1 class="mb-4 text-4xl font-semibold text-primary md:text-5xl lg:text-6xl">
                         Inovus Insights: Unveiling Our Impact in Every Byte!
                     </h1>
-                    <p class="mb-8 text-lg font-normal text-secondary lg:text-xl ">
+                    <p class="mb-8 text-lg font-light text-secondary lg:text-xl ">
                         Stay Informed with the Latest News, Bytes, and Reports – Navigate the Innovation Landscape with Inovus Labs IEDC.
                     </p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:justify-left sm:space-y-0 sm:space-x-4">
@@ -38,11 +38,11 @@
         <section class="lg:p-10 p-4 my-10">
 
             <div class="mx-auto max-w-screen-xl text-left w-full p-4 lg:mb-4">
-                <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+                <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
                     🚀 Dive into the latest buzz about us! 🌐
                 </h1>
 
-                <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+                <p class="mb-6 text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
                     Explore news, bytes, and reports that spotlight our journey, innovations, and impact. Stay in the loop with dynamic updates and narratives that shape our narrative in the wider world. 📰✨
                 </p>
             </div>

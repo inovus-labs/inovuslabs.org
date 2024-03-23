@@ -9,10 +9,10 @@
 
                 
                 <div class="mx-auto max-w-screen-xl text-left w-full lg:w-2/3 py-4 lg:py-20">
-                    <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">
+                    <h1 class="mb-4 text-4xl font-semibold text-primary md:text-5xl lg:text-6xl">
                         Ignite the Future: Inovus Mini IoT Lab Showcase
                     </h1>
-                    <p class="mb-8 text-lg font-normal text-secondary lg:text-xl">
+                    <p class="mb-8 text-lg font-light text-secondary lg:text-xl">
                         Small Space, Big Ideas – Immerse Yourself in the Future with Inovus Labs IEDC's Mini IoT Lab.
                     </p>
                     <div class="flex flex-col space-y-4 sm:flex-row sm:justify-left sm:space-y-0 sm:space-x-4">
@@ -38,10 +38,10 @@
             <div class="lg:p-10 p-4">
                 <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                     <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-                        <h2 class="mb-8 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Welcome to Mini IoT Lab: Where Innovation & Possibilities Unfold! ✨🚀</h2>
-                        <p class="text-justify mb-4 font-medium">Our <span class="text-primary">Mini IoT Lab</span> is a compact, hands-on learning environment designed to introduce individuals, students, and enthusiasts to the fascinating world of the Internet of Things (IoT). This portable lab provides an accessible and give experience for understanding, experimenting, and building IoT projects, making it an ideal resource for educational institutions, workshops, and DIY enthusiasts.</p>
-                        <p class="text-justify mb-4 font-medium"> The lab comes with a user-friendly programming environment, allowing users to write and upload code to control and monitor IoT devices. Whether you are a newbie or an experienced developer, the platform supports various programming languages, making it adaptable to different skill levels.</p>
-                        <p class="text-justify font-medium">Looking ahead, the Mini IoT Lab is poised to be a catalyst for innovation and creativity. We're planning to expand the lab's capabilities and features, including the addition of new devices, sensors and machinery.</p>
+                        <h2 class="mb-8 text-4xl tracking-tight font-semibold text-gray-900 dark:text-white">Welcome to Mini IoT Lab: Where Innovation & Possibilities Unfold! ✨🚀</h2>
+                        <p class="text-justify mb-4 font-light">Our <span class="text-primary">Mini IoT Lab</span> is a compact, hands-on learning environment designed to introduce individuals, students, and enthusiasts to the fascinating world of the Internet of Things (IoT). This portable lab provides an accessible and give experience for understanding, experimenting, and building IoT projects, making it an ideal resource for educational institutions, workshops, and DIY enthusiasts.</p>
+                        <p class="text-justify mb-4 font-light"> The lab comes with a user-friendly programming environment, allowing users to write and upload code to control and monitor IoT devices. Whether you are a newbie or an experienced developer, the platform supports various programming languages, making it adaptable to different skill levels.</p>
+                        <p class="text-justify font-light">Looking ahead, the Mini IoT Lab is poised to be a catalyst for innovation and creativity. We're planning to expand the lab's capabilities and features, including the addition of new devices, sensors and machinery.</p>
                     </div>
                 </div>
             </div>
@@ -68,11 +68,11 @@
 
 
                 <div class="mx-auto max-w-screen-xl text-left w-full pb-4">
-                    <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+                    <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
                         🎉 Some random clicks from our IoT Lab 🎉
                     </h1>
 
-                    <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+                    <p class="mb-6 text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
                         <!-- Celebrate with us as we reminisce about the incredible journey we've embarked on over the past year. Dive into a visual feast of significant moments that have shaped our story, from exciting milestones to heartwarming memories. -->
                         Just a few clicks from our IoT Lab. We are working on it to make it more interactive and user friendly. Stay tuned for more updates. 
                     </p>

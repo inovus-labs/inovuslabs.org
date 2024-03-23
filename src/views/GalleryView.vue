@@ -44,11 +44,11 @@
 
 
       <div class="mx-auto max-w-screen-xl text-left w-full py-4">
-        <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+        <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
           🎉 Welcome to our Gallery! 📸
         </h1>
 
-        <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl  dark:text-gray-400">
+        <p class="mb-6 text-lg font-light text-gray-500 lg:text-xl  dark:text-gray-400">
           Celebrate with us as we reminisce about the incredible journey we've embarked on over the past year. Dive into a visual feast of significant moments that have shaped our story, from exciting milestones to heartwarming memories.
         </p>
       </div>

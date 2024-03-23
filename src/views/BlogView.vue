@@ -9,10 +9,10 @@
 
                 
                 <div class="mx-auto max-w-screen-xl text-left w-full lg:w-2/3 py-4 lg:py-20">
-                    <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">
+                    <h1 class="mb-4 text-4xl font-semibold text-primary md:text-5xl lg:text-6xl">
                     Blog Odyssey: Navigating Ideas and Insights
                 </h1>
-                <p class="mb-8 text-lg font-normal text-secondary lg:text-xl ">
+                <p class="mb-8 text-lg font-light text-secondary lg:text-xl ">
                     Dive into a world of ideas with our curated collection of blogs - where knowledge meets creativity, and every post is a journey of discovery!
                 </p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:justify-left sm:space-y-0 sm:space-x-4">
@@ -42,10 +42,10 @@
         <section class="border-b lg:p-10 p-4 my-10">
             <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                 <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-                    <h2 class="mb-8 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Welcome to Inovus Blogs – where words come to life! 🚀✨</h2>
+                    <h2 class="mb-8 text-4xl tracking-tight font-semibold text-gray-900 dark:text-white">Welcome to Inovus Blogs – where words come to life! 🚀✨</h2>
                     <p class="text-justify mb-4 font-light"><a href="https://blog.inovuslabs.org/" target="_blank" class="font-medium text-primary">Inovus Blogs</a> emerged from a vision to create a dynamic space where ideas thrive and conversations flourish. Formed with the purpose of fostering a digital haven for insightful content, Inovus Blogs aims to serve as a thought-provoking platform where diverse perspectives, stories, and expertise converge. We believe in the power of words to inspire, educate, and connect.</p>
-                    <p class="text-justify mb-4 font-medium">Our journey began with a commitment to providing valuable, engaging, and relevant content across a spectrum of topics. Whether it's industry insights, creative narratives, or informative pieces, Inovus Blogs is designed to be a hub where knowledge meets curiosity. We aspire to cultivate a community that not only consumes but actively participates in the exchange of ideas.</p>
-                    <p class="text-justify font-medium">Looking ahead, the future of Inovus Blogs is vibrant and evolving. We are dedicated to expanding our content horizons, embracing emerging trends, and staying at the forefront of meaningful discourse. As we continue to grow, our commitment remains steadfast – to enrich, enlighten, and contribute to the ever-expanding landscape of digital content.</p>
+                    <p class="text-justify mb-4 font-light">Our journey began with a commitment to providing valuable, engaging, and relevant content across a spectrum of topics. Whether it's industry insights, creative narratives, or informative pieces, Inovus Blogs is designed to be a hub where knowledge meets curiosity. We aspire to cultivate a community that not only consumes but actively participates in the exchange of ideas.</p>
+                    <p class="text-justify font-light">Looking ahead, the future of Inovus Blogs is vibrant and evolving. We are dedicated to expanding our content horizons, embracing emerging trends, and staying at the forefront of meaningful discourse. As we continue to grow, our commitment remains steadfast – to enrich, enlighten, and contribute to the ever-expanding landscape of digital content.</p>
                 </div>
             </div>
         </section>
@@ -57,11 +57,11 @@
         <section class="lg:p-10 p-4 my-10">
 
             <div class="mx-auto max-w-screen-xl text-left w-full p-4 lg:mb-4">
-                <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+                <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
                     🌐 Dive into the minds shaping our narrative! 📖
                 </h1>
 
-                <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+                <p class="mb-6 text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
                     📚 Explore the Top Authors section to discover the brilliant voices behind Inovus Blogs. From industry experts to creative minds, these authors craft the stories that inspire and inform. Join us in celebrating the diverse perspectives that make our digital space vibrant. 🌟🖋️
                 </p>
             </div>

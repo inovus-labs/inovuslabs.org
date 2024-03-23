@@ -9,8 +9,8 @@
     
           
           <div class="mx-auto max-w-screen-xl text-left w-full lg:w-2/3 py-4 lg:py-20">
-            <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">Innovation Unleashed Series</h1>
-            <p class="mb-8 text-lg font-normal text-secondary lg:text-xl">Dive into the archive of brilliance as we showcase the innovative workshops, dynamic bootcamps, and transformative internships from our past events!</p>
+            <h1 class="mb-4 text-4xl font-semibold text-primary md:text-5xl lg:text-6xl">Innovation Unleashed Series</h1>
+            <p class="mb-8 text-lg font-light text-secondary lg:text-xl">Dive into the archive of brilliance as we showcase the innovative workshops, dynamic bootcamps, and transformative internships from our past events!</p>
             
             <div class="flex flex-col space-y-4 sm:flex-row sm:justify-left sm:space-y-0 sm:space-x-4">
               <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary">
@@ -41,11 +41,11 @@
     
     
         <div class="mx-auto max-w-screen-xl text-left w-full py-4">
-          <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+          <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
             🚀 Welcome to our Showcase of Events! 🌟
           </h1>
     
-          <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+          <p class="text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
               We are presting our world of events infront of you 
           </p>
         </div>
