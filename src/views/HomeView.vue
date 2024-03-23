@@ -3,7 +3,7 @@
 
 
 
-    <section class="bg-bgmain">
+    <section>
       <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
 
         <div class="mx-auto max-w-screen-xl text-left	 w-full lg:w-2/3 py-4 lg:py-20">
@@ -54,11 +54,11 @@
 
     <section class="my-8 bg-white dark:bg-gray-900 py-10 px-4">
 
-      <div class="mx-auto max-w-screen-xl text-center w-full py-4">
+      <div class="mx-auto max-w-screen-xl text-left w-full py-4">
         <h1
-          class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+          class="mb-4 text-2xl font-bold leading-none tracking-tight md:text-3xl lg:text-4xl dark:text-white">
           🌱 Unveiling the Seeds of Innovation! ✨</h1>
-        <p class="mb-6 text-lg font-light text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">💼 Explore the
+        <p class="mb-6 text-lg font-light text-secondary lg:text-xl  dark:text-gray-400">💼 Explore the
           business ideas and non-profit initiatives nurtured in the fertile grounds of Inovus Labs IEDC. From inception
           to fruition, witness the evolution of groundbreaking concepts and entrepreneurial ventures that redefine the
           landscape. 💡</p>
@@ -90,8 +90,7 @@
                 <div class="p-5 flex flex-col m-auto" :class="isMobile ? 'border-t w-full' : 'border-l w-3/4'">
                   <h5 class="mb-2 text-xl font-semibold text-gray-900 dark:text-white">{{ startup.name }}</h5>
                   <div class="flex flex-col gap-2">
-                    <p id="project_description" class="font-light text-gray-700 dark:text-gray-400">{{
-      startup.description }}</p>
+                    <p id="project_description" class="font-light text- dark:secondary text-gray-400">{{ startup.description }}</p>
                   </div>
                 </div>
 
@@ -111,7 +110,7 @@
 
 
 
-    <div class="border-b border-gray-300 dark:border-gray-800">
+    <div class="border-b border-gray-300 dark:border-gray-800  ">
       <Testimonial />
     </div>
 
