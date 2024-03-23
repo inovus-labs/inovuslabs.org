@@ -9,8 +9,7 @@
         <div class="mx-auto max-w-screen-xl text-left	 w-full lg:w-2/3 py-4 lg:py-20">
           <h1 class="mb-4 text-4xl font-semibold text-primary md:text-5xl lg:text-6xl">Igniting Innovation,
             Transforming Tomorrow.</h1>
-            <p class="mb-8 text-lg font-light text-secondary lg:text-xl">Join our vibrant community of
-              creators, thinkers, and innovators, and be part of something extraordinary.</p>
+            <p class="mb-8 text-lg font-light text-secondary lg:text-xl">Welcome all to the inovus community, a bunch of 21st century human beings. We provide the walls and you’re the artist. Come join us to be a part of this journey of relevation.</p>
               <div class="flex flex-col space-y-4 sm:flex-row sm:justify-left sm:space-y-0 sm:space-x-4">
                 <a href="#"
                 class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary hover:bg-secondary">

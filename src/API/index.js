@@ -2677,6 +2677,7 @@ export const getTeamMembers = async () => {
                 {
                     name: ' Roji Thomas',
                     position: 'Nodal Officer',
+                    description: '',
                     avatar: BASE_URL + '/assets/team/2024-2025/Nodal Officer.png',
                     social: {
                       facebook: ""
@@ -2684,6 +2685,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Cina Mathew',
                     position: 'Assistant Nodal Officer',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024-2025/Asst.Nodal Officer.png',
                     social: {
                       facebook: ""
@@ -2691,14 +2693,16 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Jithin Sha',
                     position: 'Mentor',
-                   avatar: BASE_URL + '/assets/team/2018-2020/jithinshah.jpg',
+                    description: '',
+                   avatar: BASE_URL + '/assets/team/2024/Mentor Jithin sha.png',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Arjun Krishna',
                     position: 'Mentor',
-                   avatar: BASE_URL + '/assets/team/2018-2020/arjunkrishna.jpg',
+                    description: '',
+                   avatar: BASE_URL + '/assets/team/2024/Mentor Arjun.png',
                     social: {
                       facebook: ""
                     }
@@ -2706,7 +2710,8 @@ export const getTeamMembers = async () => {
                 {
                     name: ' Nikhil T Das',
                     position: 'Mentor',
-                   avatar: BASE_URL + '/assets/team/2024/NikilTDas.jpeg',
+                    description: '',
+                   avatar: BASE_URL + '/assets/team/2024/Mentor Nikhil T Das.png',
                     social: {
                       facebook: ""
                     }
@@ -2714,13 +2719,15 @@ export const getTeamMembers = async () => {
                 {
                     name: ' Milan Sony',
                     position: 'Mentor',
-                   avatar: BASE_URL + '/assets/team/2024/milansony.jpg',
+                    description: '',
+                   avatar: BASE_URL + '/assets/team/2024/Mentor  Milan.png',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Abhishek V Gopal',
                     position: 'Chief Executive Officer',
+                    description: 'Hi I’m the CEO of inovus labs, provides effective guidance in coordinating events and activities of the community.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Executive Officer.png',
                     social: {
                       facebook: ""
@@ -2728,6 +2735,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Badhusha Shaji',
                     position: 'Chief Technical Officer',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Technical Officer.png',
                     social: {
                       facebook: ""
@@ -2735,6 +2743,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Arjun A Acharry',
                     position: 'Chief Operations Officer',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Operations Officer.png',
                     social: {
                       facebook: ""
@@ -2742,6 +2751,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Devika Anil',
                     position: 'Women In Tech',
+                    description: 'I’m the women in tech lead of inovus labs. I’m the one who lead and mentor all kind of women exclusive programs. I guide and mentor students and be the spearhead of all women exclusive programs.  ',
                    avatar: BASE_URL + '/assets/team/2024-2025/Women in tech.png',
                     social: {
                       facebook: ""
@@ -2749,6 +2759,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Lekshmi Sree J',
                     position: 'Chief Innovations Officer',
+                    description: 'An innovator is someone who introduces new ideas, methods, products, or processes, often with the aim of improving existing systems or creating entirely new ones. My tag is Chief innovation officer.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Innovations Officer.png',
                     social: {
                       facebook: ""
@@ -2756,6 +2767,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Joel Jacob Thomas',
                     position: 'Chief Creative Officer',
+                    description: 'I’m the creative lead of inovus labs, I’m monitor all kind of media production activities includes contents for social media, podcasts, posters, flyers and brochures for events.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Creative Officer.png',
                     social: {
                       facebook: ""
@@ -2763,6 +2775,7 @@ export const getTeamMembers = async () => {
                 },{
                     name: ' Alen Rajan',
                     position: 'IPR & Research Lead',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024-2025/IPR & Reserch Lead.png',
                     social: {
                       facebook: ""
@@ -2770,6 +2783,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Nithin Daniel',
                     position: 'Chief Finance Officer',
+                    description: 'I’m the financial lead of inovus labs IEDC, monitors all kind of financial transactions and the bill-laden of Inovus Labs.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Finance Officer.png',
                     social: {
                       facebook: ""
@@ -2777,6 +2791,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Amenda Maria Johnson',
                     position: 'Chief Marketing Officer',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Marketing Officer.png',
                     social: {
                       facebook: ""
@@ -2784,6 +2799,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Amith Abey Stephen',
                     position: 'Stock Manager',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024-2025/Stock Manager.png',
                     social: {
                       facebook: ""
@@ -2791,6 +2807,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Sane Sunil',
                     position: 'Project Manager',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024-2025/Project Manager.png',
                     social: {
                       facebook: ""
@@ -2798,6 +2815,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Angel K Agnes',
                     position: 'Community Lead',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024-2025/Community Lead.png',
                     social: {
                       facebook: ""
@@ -2805,6 +2823,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Bhagya V',
                     position: 'Event Curator',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024-2025/Event Curator.png',
                     social: {
                       facebook: ""
@@ -2812,6 +2831,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Ashlin Sara Tomy',
                     position: 'Event Curator',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024-2025/Event Curator-1.png',
                     social: {
                       facebook: ""
