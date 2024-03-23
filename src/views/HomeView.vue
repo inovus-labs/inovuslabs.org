@@ -46,6 +46,8 @@
     <Features />
 
 
+    <HomeTeam />
+
 
     <StatsCounter :stats="inovusStats" />
 
@@ -152,6 +154,7 @@ import Features from "@/components/Home/Features.vue";
 import Partners from "@/components/Home/Partners.vue";
 import About from "@/components/Home/About.vue";
 import StatsCounter from "@/components/reusable/StatsCounter.vue";
+import HomeTeam from "@/components/Home/HomeTeam.vue";
 
 export default {
   name: 'HomeView',
@@ -165,7 +168,8 @@ export default {
     Features,
     Partners,
     About,
-    StatsCounter
+    StatsCounter,
+    HomeTeam
   },
 
   data() {

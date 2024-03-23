@@ -2663,6 +2663,169 @@ export const getLearningResources = async () => {
 };
 
 
+//team on home page(current team only)
+export const getcurrentTeam = async () => {
+
+    let data = [
+        {
+            title: 'Inovus 7th Generation',
+            date: '2024',
+            showTeam: true,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodal Officer',
+                    avatar: BASE_URL + '/assets/team/2024-2025/Nodal Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Cina Mathew',
+                    position: 'Assistant Nodal Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Asst.Nodal Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Jithin Sha',
+                    position: 'Mentor',
+                   avatar: BASE_URL + '/assets/team/2018-2020/jithinshah.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun Krishna',
+                    position: 'Mentor',
+                   avatar: BASE_URL + '/assets/team/2018-2020/arjunkrishna.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                },
+                {
+                    name: ' Nikhil T Das',
+                    position: 'Mentor',
+                   avatar: BASE_URL + '/assets/team/2024/NikilTDas.jpeg',
+                    social: {
+                      facebook: ""
+                    }
+                },
+                {
+                    name: ' Milan Sony',
+                    position: 'Mentor',
+                   avatar: BASE_URL + '/assets/team/2024/milansony.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Abhishek V Gopal',
+                    position: 'Chief Executive Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Executive Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Badhusha Shaji',
+                    position: 'Chief Technical Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Technical Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Arjun A Acharry',
+                    position: 'Chief Operations Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Operations Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Devika Anil',
+                    position: 'Women In Tech',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Women in tech.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Lekshmi Sree J',
+                    position: 'Chief Innovations Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Innovations Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Joel Jacob Thomas',
+                    position: 'Chief Creative Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Creative Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                },{
+                    name: ' Alen Rajan',
+                    position: 'IPR & Research Lead',
+                   avatar: BASE_URL + '/assets/team/2024-2025/IPR & Reserch Lead.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Nithin Daniel',
+                    position: 'Chief Finance Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Finance Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Amenda Maria Johnson',
+                    position: 'Chief Marketing Officer',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Chief Marketing Officer.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Amith Abey Stephen',
+                    position: 'Stock Manager',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Stock Manager.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Sane Sunil',
+                    position: 'Project Manager',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Project Manager.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Angel K Agnes',
+                    position: 'Community Lead',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Community Lead.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Bhagya V',
+                    position: 'Event Curator',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Event Curator.png',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
+                    name: ' Ashlin Sara Tomy',
+                    position: 'Event Curator',
+                   avatar: BASE_URL + '/assets/team/2024-2025/Event Curator-1.png',
+                    social: {
+                      facebook: ""
+                    }
+                },  
+            ]
+        }
+            
+        
+    ]
+
+    return data;
+
+}
+
 
 // Get team members
 export const getTeamMembers = async () => {
@@ -3293,6 +3456,8 @@ export const getNewsReports = async () => {
 
 }
 
+
+// news of atom ev
 export const Buggy = async () => {
 
     let data = [
