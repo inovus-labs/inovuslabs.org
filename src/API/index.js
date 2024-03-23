@@ -3261,6 +3261,22 @@ export const getNewsReports = async () => {
 
     let data = [
         {
+            title: "Atom EV",
+            discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. L.",
+            imgSrc: BASE_URL + "/assets/projects/Atom.jpg"
+          }, 
+            
+        
+    ]
+
+    return data;
+
+}
+
+export const Buggy = async () => {
+
+    let data = [
+        {
             date: "28 Oct 2022",
             type: "YouTube",
             platform: "Manorama News",
