@@ -56,8 +56,8 @@
           <template v-for="tag in tags" :key="tag">
             <button
               type="button"
-              class="border border-blue-600 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3"
-              :class="selectedTags === tag ? 'text-white bg-blue-700' : 'text-blue-700 bg-white hover:bg-blue-700 hover:text-white'"
+              class="border border-primary rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3"
+              :class="selectedTags === tag ? 'text-white bg-primary' : 'text-primary bg-white hover:bg-primary hover:text-white'"
               @click="selectTag(tag)"
             >
               {{ tag }}
