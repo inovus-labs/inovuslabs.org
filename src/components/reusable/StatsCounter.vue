@@ -8,7 +8,7 @@
                 <template v-for="item, index in stats" :key="index">
                     <div class="flex flex-col items-center justify-center">
                         <div class="flex items-center justify-center">
-                            <dt v-if="item.mode !== 'string'" class="statsCounter_value mb-2 text-3xl md:text-4xl font-extrabold" :data-target="item.value">0</dt>
+                            <dt v-if="item.mode !== 'string'" class="statsCounter_value mb-2 text-3xl md:text-4xl font-bold" :data-target="item.value">0</dt>
                             <dt v-if="item.mode == 'string'" class="mb-2 text-3xl md:text-4xl font-extrabold">{{ item.value }}</dt>
                             <dt v-if="item.mode === 'approximate'" class="mb-2 text-3xl md:text-4xl font-extrabold">+</dt>
                         </div>
