@@ -15,13 +15,13 @@
 <script>
     import Navbar from "@/components/reusable/Navbar.vue";
     import Footer from "@/components/reusable/Footer.vue";
-    import SnowFall from "@/components/Overlay/SnowFall.vue";
+    // import SnowFall from "@/components/Overlay/SnowFall.vue";
 
     export default {
         name: 'PublicLayout',
         components: {
             Navbar,
-            SnowFall,
+            // SnowFall,
             Footer
         },
         props: {
