@@ -1,26 +1,29 @@
 <template>
 
     <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div class="px-4 max-w-screen-xl lg:px-6">
             <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
                 <div
-        class="relative w-full max-w-2xl my-8 md:my-16 flex flex-col items-start space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6 px-4 py-8 border-gray-400 dark:border-gray-400 shadow-lg rounded-lg">
+        class="relative w-full max-w-2xl flex flex-col items-start space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6 p-4 border-gray-400 dark:border-gray-400 shadow-lg rounded-lg">
 
         <div class="w-full flex justify-center sm:justify-start sm:w-auto">
-            <img class="object-cover w-20 h-20 mt-3 mr-3 rounded-full" src="https://lh3.googleusercontent.com/a/AEdFTp70cvwI5eevfcr4LonOEX5gB2rzx7JnudOcnYbS1qU=s96-c">
+            <img class="object-cover w-20 h-20 mt-3 mr-3 rounded-full" :src="data.avatar" :alt="data.name">
         </div>
 
         <div class="w-full sm:w-auto flex flex-col items-center sm:items-start">
 
-            <p class="font-display mb-2 text-2xl font-semibold dark:text-gray-200" itemprop="author">
+            <p class="font-display mb-1 text-2xl font-bold dark:text-gray-200" itemprop="author">
                 {{ data.name }}
             </p>
+            <p class="font-display mb-2 text-lg font-semibold dark:text-gray-200" itemprop="author">
+                {{ data.position }}
+            </p>
 
-            <div class="mb-4 md:text-lg text-gray-400">
-                <p>Prajwal is a versatile content writer with a strong background in web development.</p>
+            <div class="mb-4 text-sm text-gray-400">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.</p>
             </div>
 
-            <div class="flex gap-4">
+            <!-- <div class="flex gap-4">
 
                 <a title="youtube url" href="https://www.youtube.com/@mcqmate" target="_blank"
                     rel="noopener noreferrer">
@@ -41,7 +44,8 @@
                     </svg>
                 </a>
 
-            </div>
+            </div> -->
+
         </div>
 
     </div>

@@ -18,8 +18,8 @@
 
 
         <template v-if="showTeam">
-            <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-                <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:px-6">
+                <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
 
                     <template v-for="member in members">
                         <OurTeamMember :data="member" />
