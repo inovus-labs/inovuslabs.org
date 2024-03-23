@@ -12,7 +12,7 @@
 
         <div class="w-full sm:w-auto flex flex-col items-center sm:items-start">
 
-            <p class="font-display mb-1 text-2xl font-bold dark:text-gray-200" itemprop="author">
+            <p class="font-display mb-1 text-2xl text-primary font-bold dark:text-gray-200" itemprop="author">
                 {{ data.name }}
             </p>
             <p class="font-display mb-2 text-lg font-semibold dark:text-gray-200" itemprop="author">
