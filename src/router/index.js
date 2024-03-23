@@ -6,6 +6,7 @@ import HomeView from '@/views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 import GalleryView from '@/views/GalleryView.vue'
 import TeamView from '@/views/TeamView.vue'
+import OurTeamView from '@/views/OurTeamView.vue'
 import NewsView from '@/views/NewsView.vue'
 import SocialsView from '@/views/SocialsView.vue'
 import ReportsView from '@/views/ReportsView.vue'
@@ -69,8 +70,8 @@ const router = createRouter({
     {
       path: '/team',
       name: 'team',
-      component: TeamView,
-      meta: { title: 'Team' }
+      component: OurTeamView,
+      meta: { title: 'Our Team' }
     },
     {
       path: '/learning-stories',
