@@ -6,10 +6,12 @@ import HomeView from '@/views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 import GalleryView from '@/views/GalleryView.vue'
 import TeamView from '@/views/TeamView.vue'
+import OurTeamView from '@/views/OurTeamView.vue'
 import NewsView from '@/views/NewsView.vue'
 import SocialsView from '@/views/SocialsView.vue'
 import ReportsView from '@/views/ReportsView.vue'
 import LearningStories from '@/views/LearningStoriesView.vue'
+import BuggyNews from '@/views/BuggyNews.vue'
 
 import NowView from '@/views/NowView.vue'
 
@@ -23,7 +25,6 @@ import BlogView from '@/views/BlogView.vue'
 import PodcastView from '@/views/PodcastView.vue'
 import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
 import OutreachView from '@/views/OutreachView.vue'
-import BuggyNews from '@/views/BuggyNews.vue'
 
 // Contact page
 import ResourcesView from '@/views/ResourcesView.vue'
@@ -70,8 +71,8 @@ const router = createRouter({
     {
       path: '/team',
       name: 'team',
-      component: TeamView,
-      meta: { title: 'Team' }
+      component: OurTeamView,
+      meta: { title: 'Our Team' }
     },
     {
       path: '/learning-stories',
@@ -100,15 +101,16 @@ const router = createRouter({
       meta: { title: 'Other Events' }
     },
     {
+      path: '/buggy',
+      name: 'BuggyNews',
+      component: BuggyNews,
+      meta: { title: 'BuggyNews' }
+    },
+    {
       path: '/news',
       name: 'news',
       component: NewsView,
       meta: { title: 'News' }
-    },{
-      path: '/buggy',
-      name: 'Buggy',
-      component: BuggyNews,
-      meta: { title: 'Buggy' }
     },
     {
       path: '/reports',

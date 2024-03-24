@@ -5,7 +5,7 @@
     <section class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white hover:text-secondary">What is <span class="text-secondary hover:text-primary">Inovus Labs.</span></h2>
+                <h2 class="mb-4 text-4xl tracking-tight font-semibold text-gray-900 dark:text-white text-secondary">What is <span class="text-primary">Inovus Labs.</span></h2>
                 <p class="mb-4 font-light">We are a team of enthusiast in creating new stuffs and marked by our eagerness to solve challenges, whether they be in the form of complex problems, unconventional projects, or social and political initiatives.</p>
                 <p class="mb-4 font-light">We believe that education will go forward only when we do crazy stuffs and unconventional things. Moreover we always try to do something which is difficult to imitate. Because imitations are still imitations.</p>
 

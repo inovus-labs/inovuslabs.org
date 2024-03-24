@@ -25,7 +25,7 @@
         </div>
         
         <div class="w-full lg:w-1/3 py-4 lg:py-20">
-          <img class="w-full h-full" src="../../public/assets/illustrations/about.svg" alt="About" />
+          <img class="w-full h-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/about-us-page-animate.svg" alt="About" />
         </div>
       </div>
     </section>
@@ -40,7 +40,7 @@
       <div class="items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6">
         
         <div class="w-full" :class="{'hidden': !isMobile}">
-          <img src="../../public/assets/illustrations/about/mission.svg" alt="office content 1">
+          <img src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/Mission Impossible-bro.svg" alt="office content 1">
         </div>
         
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
@@ -51,7 +51,7 @@
         </div>
 
         <div class="w-full" :class="{'hidden': isMobile}">
-          <img src="../../public/assets/illustrations/about/mission.svg" alt="office content 1">
+          <img src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/Mission Impossible-bro.svg" alt="office content 1">
         </div>
 
       </div>
@@ -64,11 +64,11 @@
       <div class="items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6">
         
         <div class="w-full" :class="{'pr-16': !isMobile, 'my-12': isMobile}">
-          <img class="" src="../../public/assets/illustrations/about/vision.svg" alt="office content 1">
+          <img class="" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/Creative writing-pana.svg" alt="office content 1">
         </div>
         
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold font-bold text-gray-900 dark:text-white">Vision</h2>
+          <h2 class="mb-4 text-4xl tracking-tight font-semibold font-bold text-gray-900 dark:text-white">Vision</h2>
           <p class="mb-4 text-justify font-light">To create IEDC as an Innovation Platform and to create future founders by promoting Innovation, Technology and Business Learning among student community.</p>
           <!-- <p class="mb-4 text-justify">Our vision at Inovus Labs IEDC is to be a global hub for innovation and entrepreneurship, contributing to the creation of a better world through pioneering solutions.</p>
           <p class="mb-4 text-justify">We aspire to be the go-to destination for individuals and teams seeking to bring about meaningful change by providing unparalleled support, fostering groundbreaking collaborations, and building a community that transcends geographical boundaries.</p> -->
@@ -103,7 +103,7 @@ entrepreneurship among the students.</p>
         </div>
 
         <div class="w-full" :class="{'hidden': isMobile}">
-          <img class="pl-16" src="../../public/assets/illustrations/about/objective.svg" alt="office content 1">
+          <img class="pl-16" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/Shared goals-amico.svg" alt="office content 1">
         </div>
 
       </div>
