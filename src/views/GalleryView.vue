@@ -9,7 +9,7 @@
 
         
         <div class="mx-auto max-w-screen-xl text-left w-full lg:w-2/3 py-4 lg:py-20">
-          <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">A Pictorial Chronicle of Innovation.
+          <h1 class="mb-4 text-4xl font-semibold text-primary md:text-5xl lg:text-6xl">A Pictorial Chronicle of Innovation.
           </h1>
           <p class="mb-8 text-lg font-normal text-secondary lg:text-xl">Witness the spirit of creativity,
             experimentation, and collaboration through our visual stories.</p>
@@ -31,7 +31,7 @@
       </div>
       
       <div class="w-full lg:w-1/3 py-4 lg:py-20">
-        <img class="w-full h-full" src="../../public/assets/illustrations/gallery.svg" alt="Gallery" />
+        <img class="w-full h-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/online-gallery-animate.svg" alt="Gallery" />
       </div>
     </div>
   </section>
@@ -45,7 +45,7 @@
 
       <div class="mx-auto max-w-screen-xl text-left w-full py-4">
         <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-          🎉 Welcome to our Gallery! 📸
+         Welcome to our Gallery! 
         </h1>
 
         <p class="mb-6 text-lg font-light text-gray-500 lg:text-xl  dark:text-gray-400">

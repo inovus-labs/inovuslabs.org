@@ -1647,29 +1647,29 @@ export const getSocialPosts = async () => {
         "instagram": [
             {
                 "id": 1,
-                "url": "https://www.instagram.com/p/C0bv6zuJkq2"
+                "url": "https://www.instagram.com/reel/C4t6aT-PqeA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
             },
             {
                 "id": 2,
-                "url": "https://www.instagram.com/p/C0ZJZnvPPn1"
+                "url": "https://www.instagram.com/p/C4mgCZiJTpE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
             },
             {
                 "id": 3,
-                "url": "https://www.instagram.com/p/Cyvo6lUJpQR"
+                "url": "https://www.instagram.com/reel/C4kzEu-plIy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
             }
         ],
         "linkedin": [
             {
                 "id": 1,
-                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7137095376020393984"
+                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7171846636627812352"
             },
             {
                 "id": 2,
-                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7118418226442604544"
+                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7171590341177925634"
             },
             {
                 "id": 3,
-                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7099761784420528128"
+                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7164639903383797760    "
             }
         ],
         "youtube": [
@@ -2676,12 +2676,14 @@ export const getcurrentTeam = async () => {
                 {
                     name: ' Roji Thomas',
                     position: 'Nodal Officer',
+                    description: 'Nodal Officer fosters talent, guides IEDC growth, oversees committee. hahahahahahah',
                     avatar: BASE_URL + '/assets/team/2024-2025/Nodal Officer.png',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Cina Mathew',
+                    description: 'As Assistant Nodal Officer, I support talent, drive IEDC forward',
                     position: 'Assistant Nodal Officer',
                    avatar: BASE_URL + '/assets/team/2024-2025/Asst.Nodal Officer.png',
                     social: {
@@ -2690,14 +2692,16 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Jithin Sha',
                     position: 'Mentor',
-                   avatar: BASE_URL + '/assets/team/2018-2020/jithinshah.jpg',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                   avatar: BASE_URL + '/assets/team/2024/Mentor Jithin sha.png',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Arjun Krishna',
                     position: 'Mentor',
-                   avatar: BASE_URL + '/assets/team/2018-2020/arjunkrishna.jpg',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                   avatar: BASE_URL + '/assets/team/2024/Mentor Arjun.png',
                     social: {
                       facebook: ""
                     }
@@ -2705,7 +2709,8 @@ export const getcurrentTeam = async () => {
                 {
                     name: ' Nikhil T Das',
                     position: 'Mentor',
-                   avatar: BASE_URL + '/assets/team/2024/NikilTDas.jpeg',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                   avatar: BASE_URL + '/assets/team/2024/Mentor Nikhil T Das.png',
                     social: {
                       facebook: ""
                     }
@@ -2713,13 +2718,15 @@ export const getcurrentTeam = async () => {
                 {
                     name: ' Milan Sony',
                     position: 'Mentor',
-                   avatar: BASE_URL + '/assets/team/2024/milansony.jpg',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                   avatar: BASE_URL + '/assets/team/2024/Mentor  Milan.png',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Abhishek V Gopal',
                     position: 'Chief Executive Officer',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Executive Officer.png',
                     social: {
                       facebook: ""
@@ -2727,6 +2734,7 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Badhusha Shaji',
                     position: 'Chief Technical Officer',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Technical Officer.png',
                     social: {
                       facebook: ""
@@ -2734,6 +2742,7 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Arjun A Acharry',
                     position: 'Chief Operations Officer',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Operations Officer.png',
                     social: {
                       facebook: ""
@@ -2741,6 +2750,7 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Devika Anil',
                     position: 'Women In Tech',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Women in tech.png',
                     social: {
                       facebook: ""
@@ -2748,6 +2758,7 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Lekshmi Sree J',
                     position: 'Chief Innovations Officer',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Innovations Officer.png',
                     social: {
                       facebook: ""
@@ -2755,6 +2766,7 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Joel Jacob Thomas',
                     position: 'Chief Creative Officer',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Creative Officer.png',
                     social: {
                       facebook: ""
@@ -2762,6 +2774,7 @@ export const getcurrentTeam = async () => {
                 },{
                     name: ' Alen Rajan',
                     position: 'IPR & Research Lead',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/IPR & Reserch Lead.png',
                     social: {
                       facebook: ""
@@ -2769,6 +2782,7 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Nithin Daniel',
                     position: 'Chief Finance Officer',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Finance Officer.png',
                     social: {
                       facebook: ""
@@ -2776,6 +2790,7 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Amenda Maria Johnson',
                     position: 'Chief Marketing Officer',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Chief Marketing Officer.png',
                     social: {
                       facebook: ""
@@ -2783,6 +2798,7 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Amith Abey Stephen',
                     position: 'Stock Manager',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Stock Manager.png',
                     social: {
                       facebook: ""
@@ -2790,6 +2806,7 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Sane Sunil',
                     position: 'Project Manager',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Project Manager.png',
                     social: {
                       facebook: ""
@@ -2797,6 +2814,7 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Angel K Agnes',
                     position: 'Community Lead',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Community Lead.png',
                     social: {
                       facebook: ""
@@ -2804,6 +2822,7 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Bhagya V',
                     position: 'Event Curator',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Event Curator.png',
                     social: {
                       facebook: ""
@@ -2811,6 +2830,7 @@ export const getcurrentTeam = async () => {
                 }, {
                     name: ' Ashlin Sara Tomy',
                     position: 'Event Curator',
+                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Event Curator-1.png',
                     social: {
                       facebook: ""
@@ -2840,7 +2860,7 @@ export const getTeamMembers = async () => {
                 {
                     name: ' Roji Thomas',
                     position: 'Nodal Officer',
-                    description: '',
+                    description: 'As Nodal Officer, I foster talent, guide growth, oversee committee selection.',
                     avatar: BASE_URL + '/assets/team/2024-2025/Nodal Officer.png',
                     social: {
                       facebook: ""
@@ -2848,7 +2868,7 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Cina Mathew',
                     position: 'Assistant Nodal Officer',
-                    description: '',
+                    description: 'As Assistant Nodal Officer, I support talent, drive IEDC growth, aid committee selection.',
                    avatar: BASE_URL + '/assets/team/2024-2025/Asst.Nodal Officer.png',
                     social: {
                       facebook: ""

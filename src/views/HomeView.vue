@@ -7,8 +7,8 @@
       <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
 
         <div class="mx-auto max-w-screen-xl text-left	 w-full lg:w-2/3 py-4 lg:py-20">
-          <h1 class="mb-4 text-4xl font-semibold text-primary md:text-5xl lg:text-6xl">Igniting Innovation,
-            Transforming Tomorrow.</h1>
+          <h1 class="mb-4 text-4xl font-semibold text-primary md:text-5xl lg:text-6xl">Sparking Tomorrow's 
+            Innovations.</h1>
             <p class="mb-8 text-lg font-light text-secondary lg:text-xl">Welcome all to the inovus community, a bunch of 21st century human beings. We provide the walls and you’re the artist. Come join us to be a part of this journey of relevation.</p>
               <div class="flex flex-col space-y-4 sm:flex-row sm:justify-left sm:space-y-0 sm:space-x-4">
                 <a href="#"
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="w-full lg:w-1/3 py-4 lg:py-20">
-        <img class="w-full h-full" src="../../public/assets/illustrations/bg.svg" alt="Gallery" />
+        <img class="w-full h-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/innovation-animate.svg" alt="Gallery" />
       </div>
       
     </div>
@@ -45,9 +45,9 @@
 
     <Features />
 
-
+   
     <HomeTeam />
-
+    <!-- Need to fix the size of the card content -->
 
     <StatsCounter :stats="inovusStats" />
 
@@ -58,11 +58,11 @@
       <div class="mx-auto max-w-screen-xl text-left w-full py-4">
         <h1
           class="mb-4 text-2xl font-semibold leading-none tracking-tight md:text-3xl lg:text-4xl dark:text-white">
-          🌱 Unveiling the Seeds of Innovation! ✨</h1>
-        <p class="mb-6 text-lg font-light text-secondary lg:text-xl  dark:text-gray-400">💼 Explore the
+          Unveiling the Seeds of Innovation!</h1>
+        <p class="mb-6 text-lg font-light text-secondary lg:text-xl  dark:text-gray-400">Explore the
           business ideas and non-profit initiatives nurtured in the fertile grounds of Inovus Labs IEDC. From inception
           to fruition, witness the evolution of groundbreaking concepts and entrepreneurial ventures that redefine the
-          landscape. 💡</p>
+          landscape.</p>
       </div>
 
 
@@ -213,7 +213,7 @@ export default {
           id: 1,
           name: "Entinker Technology Solutions Pvt. Ltd.",
           incubators: ["Jithin Shah M A", "Joseph Sabu"],
-          image: "/assets/logos/entinker.png",
+          image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/entinker.png",
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo.",
           link: "https://inovuslabs.com/"
         },
@@ -221,7 +221,7 @@ export default {
           id: 2,
           name: "Simple Print",
           incubators: ["Freddy Jetty Johnson"],
-          image: "/assets/logos/simple_print_black.png",
+          image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/simple_print_black.png",
           description: "Simpleprint is an online print service system that will serve to be a huge releif to the inefficient print media services available at present. It is an aggregator service and connects customers with Print Service Providers, thereby acting as an interface between them.",
           link: "https://inovuslabs.com/"
         },
@@ -229,7 +229,7 @@ export default {
           id: 3,
           name: "Eduknow Techno Solutions",
           incubators: ["Jithin Shah M A"],
-          image: "/assets/logos/eduknow.png",
+          image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/eduknow.png",
           description: "Eduknow is an engagement and marketing tool for educational institutions. It helps in updating the parents with relevant information of activities related with their ward and educational institution.",
           link: "https://inovuslabs.com/"
         },
@@ -237,15 +237,15 @@ export default {
           id: 4,
           name: "DevMorphix",
           incubators: ["Badusha Shaji", "Abhishek V Gopal", "Arjun A Acharry", ""],
-          image: "/assets/no-image.png",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo.",
+          image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/DevMorphix.png",
+          description: "Where digital dreams come to life! We specialize in web development, IoT solutions, automations, design, and captivating kiosk displays. Elevate your business with our innovative, customized, and reliable digital services. Let's create a future that's as unique as your vision. Welcome to the digital revolution!",
           link: "https://inovuslabs.com/"
         },
         {
           id: 5,
           name: "EduNext Community",
           incubators: ["Nikhil T Das"],
-          image: "/assets/no-image.png",
+          image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/EDUNEXT COMMUNITY LOGO.png",
           description: "Edunext is a non-profit initiative aimed to develop interpersonal skills in school students through workshops,bootcamps, fireside and analytical chats",
           link: "https://inovuslabs.com/"
         },

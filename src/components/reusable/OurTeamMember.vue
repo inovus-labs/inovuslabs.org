@@ -19,8 +19,8 @@
                 {{ data.position }}
             </p>
 
-            <div class="mb-4 text-sm text-gray-400">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.</p>
+            <div class="mb-4  text-sm text-gray-400">
+                <p>{{ data.description }}</p>
             </div>
 
             <!-- <div class="flex gap-4">
