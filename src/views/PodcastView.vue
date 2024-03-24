@@ -7,19 +7,16 @@
         <section class="bg-bgPrimary">
             <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
 
-            <div class="w-full lg:w-1/3 py-4 lg:py-20">
-                <img class="w-full h-full" src="../../public/assets/illustrations/podcast.svg" alt="Podcast" />
-            </div>
-
-            <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">
-                <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">
-                    InoRa: Amplifying Ideas, Empowering Minds
-                </h1>
-                <p class="mb-8 text-lg font-normal text-secondary lg:text-xl sm:px-16 lg:px-46">
-                    Discover Inspiring Stories of Impact – Tune into <span class="font-bold">The Inovus Radio</span> for Conversations with Society's Change Agents.
-                </p>
-                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                    <a href="https://open.spotify.com/show/4QXEeK8ZWxewcXuLKCRR8R" target="_blank"
+                
+                <div class="mx-auto max-w-screen-xl text-left w-full lg:w-2/3 py-4 lg:py-20">
+                    <h1 class="mb-4 text-4xl font-semibold text-primary md:text-5xl lg:text-6xl">
+                        InoRa: Amplifying Ideas, Empowering Minds
+                    </h1>
+                    <p class="mb-8 text-lg font-light text-secondary lg:text-xl">
+                        Discover Inspiring Stories of Impact – Tune into <span class="font-bold">The Inovus Radio</span> for Conversations with Society's Change Agents.
+                    </p>
+                    <div class="flex flex-col space-y-4 sm:flex-row sm:justify-left sm:space-y-0 sm:space-x-4">
+                        <a href="https://open.spotify.com/show/4QXEeK8ZWxewcXuLKCRR8R" target="_blank"
                         class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary">
                         Start listening now
                         <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -28,9 +25,12 @@
                     </a>
                 </div>
             </div>
-
+            
+            <div class="w-full lg:w-1/3 py-4 lg:py-20">
+                <img class="w-full h-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/broadcast-animate.svg" alt="Podcast" />
             </div>
-        </section>
+        </div>
+    </section>
 
 
 
@@ -40,8 +40,8 @@
                 <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                     
                     <div class="mb-12">
-                        <h2 class="text-4xl tracking-tight font-bold text-gray-900 dark:text-white mb-2">Welcome to InoRa: The Inovus Radio! 🎙️</h2>
-                        <h3>A Bi-Monthly Spotify Podcast by Inovus – 🌐 Unveiling Stories, 💡 Inspiring Conversations, and 🚀 Shaping the Future of Auditory Exploration</h3>
+                        <h2 class="text-4xl tracking-tight font-semibold text-gray-900 dark:text-white mb-2">Welcome to InoRa: The Inovus Radio! </h2>
+                        <h3>A Bi-Monthly Spotify Podcast by Inovus – Unveiling Stories, Inspiring Conversations, and Shaping the Future of Auditory Exploration</h3>                
                     </div>
 
                     <p class="text-justify mb-4 font-light"><a href="https://open.spotify.com/show/4QXEeK8ZWxewcXuLKCRR8R" target="_blank" class="font-medium text-primary">InoRa: The Inovus Radio</a> is not just a podcast; it's an auditory journey crafted with purpose and passion. Formed as a bi-monthly Spotify podcast, INORA stands as a testament to the belief that storytelling and meaningful conversations transcend boundaries, connecting individuals through the power of shared narratives.</p>
@@ -57,13 +57,13 @@
 
         <section class="lg:p-10 p-4 mt-10">
 
-            <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
-                <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-                    🎙️ Meet the maestros behind the mic! ✨
+            <div class="mx-auto max-w-screen-xl text-left w-full p-4 lg:mb-4">
+                <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+                     Meet the maestros behind the mic! 
                 </h1>
 
-                <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-                    🎙️ Get acquainted with the talented individuals shaping Inora: The Inovus Radio. Discover the faces, voices, and stories that bring our narrative to life. Join us on this behind-the-scenes journey. 🌟🎧
+                <p class="mb-6 text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
+                     Get acquainted with the talented individuals shaping Inora: The Inovus Radio. Discover the faces, voices, and stories that bring our narrative to life. Join us on this behind-the-scenes journey. 
                 </p>
                 
                 
@@ -100,13 +100,13 @@
 
         <section class="lg:p-10 p-4 my-10">
 
-            <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
-                <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-                    🎙️ Welcome to The Inovus Radio Experience. 🌐
+            <div class="mx-auto max-w-screen-xl text-left w-full p-4 lg:mb-4">
+                <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+                     Welcome to The Inovus Radio Experience. 
                 </h1>
 
-                <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-                    🎧 Tune in for a unique audio experience that transcends boundaries, brought to you by Inovus Radio on the world's leading streaming platform. Discover, engage, and enjoy the best of our curated podcasts right here! ✨
+                <p class="mb-6 text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
+                     Tune in for a unique audio experience that transcends boundaries, brought to you by Inovus Radio on the world's leading streaming platform. Discover, engage, and enjoy the best of our curated podcasts right here! 
                 </p>
             </div>
 

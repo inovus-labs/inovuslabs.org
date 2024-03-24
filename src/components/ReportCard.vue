@@ -5,13 +5,13 @@
         
             <div class="relative rounded-t-lg overflow-hidden border border-gray-200 dark:border-gray-800 h-44">
                 <div class="relative h-full overflow-hidden transform transition duration-500 hover:scale-105">
-                    <img class="h-full object-cover w-full" src="../../public/assets/illustrations/reports/_report.svg" :alt="data.title" />
+                    <img class="h-full object-cover w-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/Documents-amico.svg" :alt="data.title" />
                 </div>
             </div>
             
             
             <div class="p-5 flex flex-col justify-between">
-                <h5 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">{{ data.title }}</h5>
+                <h5 class="mb-2 text-xl font-semibold text-gray-900 dark:text-white">{{ data.title }}</h5>
                 
                 <div class="flex flex-col gap-2">
                     <div class="flex items-center gap-2 mb-2 align-middle text-align-center">

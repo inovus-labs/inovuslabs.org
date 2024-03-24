@@ -7,45 +7,45 @@
         <section class="bg-bgPrimary">
             <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
 
-            <div class="w-full lg:w-1/3 py-4 lg:py-20">
-                <img class="w-full h-full" src="../../public/assets/illustrations/socials.svg" alt="Socials" />
-            </div>
-
-            <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">
-                <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">
-                    Inovus Connects: Follow the Buzz Across Platforms!
-                </h1>
-                <p class="mb-8 text-lg font-normal text-secondary lg:text-xl sm:px-16 lg:px-46">
-                    Follow Us for a Digital Journey – Stay Updated with Featured Posts, Trends, and Tech Brilliance from Inovus Labs IEDC.
-                </p>
-                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary">
-                    Get started
-                    <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                    </svg>
-                </a>
-                <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-secondary rounded border border-secondary">
-                    Learn more
-                </a>  
-            </div>
-            </div>
-
+                
+                <div class="mx-auto max-w-screen-xl text-left w-full lg:w-2/3 py-4 lg:py-20">
+                    <h1 class="mb-4 text-4xl font-semibold text-primary md:text-5xl lg:text-6xl">
+                        Inovus Connects: Follow the Buzz Across Platforms!
+                    </h1>
+                    <p class="mb-8 text-lg font-light text-secondary lg:text-xl">
+                        Follow Us for a Digital Journey – Stay Updated with Featured Posts, Trends, and Tech Brilliance from Inovus Labs IEDC.
+                    </p>
+                    <div class="flex flex-col space-y-4 sm:flex-row sm:justify-left sm:space-y-0 sm:space-x-4">
+                        <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary">
+                            Get started
+                            <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-secondary rounded border border-secondary">
+                            Learn more
+                        </a>  
+                    </div>
+                </div>
+                
+                <div class="w-full lg:w-1/3 py-4 lg:py-20">
+                    <img class="w-full h-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/social-ideas-animate.svg" alt="Socials" />
+                </div>
             </div>
         </section>
-
-
+        
+        
 
 
         <section class="lg:p-10 p-4 my-10">
 
-            <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
-                <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-                    🎙️ Explore our Social Media universe! 🚀
+            <div class="mx-auto max-w-screen-xl text-left w-full p-4 lg:mb-4">
+                <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+                     Explore our Social Media universe! 
                 </h1>
 
-                <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-                    ✨ Immerse yourself in a curated collection of Instagram snapshots, Twitter updates, and insightful threads. Click, scroll, and stay connected with our latest updates and engaging content across platforms. 📸
+                <p class="mb-6 text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
+                     Immerse yourself in a curated collection of Instagram snapshots, Twitter updates, and insightful threads. Click, scroll, and stay connected with our latest updates and engaging content across platforms. 
                 </p>
             </div>
 
@@ -83,8 +83,8 @@
             <section class="bg-white dark:bg-gray-900">
                 <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <div class="max-w-screen-md">
-                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Dive into our Instagram world!</h2>
-                        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">📸 Explore the essence of our journey through captivating visuals and moments. Scroll through our curated Instagram feed below for a glimpse into the stories we share. ✨</p>
+                        <h2 class="mb-4 text-4xl tracking-tight font-semibold text-gray-900 dark:text-white">Dive into our Instagram world!</h2>
+                        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400"> Explore the essence of our journey through captivating visuals and moments. Scroll through our curated Instagram feed below for a glimpse into the stories we share. </p>
                     </div>
                 </div>
             </section>
@@ -110,8 +110,8 @@
             <section class="bg-white dark:bg-gray-900">
                 <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <div class="max-w-screen-md">
-                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Discover our professional pulse on LinkedIn!</h2>
-                        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">💼 Scroll through a collection of curated insights, updates, and industry highlights. Engage with our network and explore the business side of our narrative. 🌐</p>
+                        <h2 class="mb-4 text-4xl tracking-tight font-semibold text-gray-900 dark:text-white">Discover our professional pulse on LinkedIn!</h2>
+                        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400"> Scroll through a collection of curated insights, updates, and industry highlights. Engage with our network and explore the business side of our narrative. </p>
                     </div>
                 </div>
             </section>
@@ -137,8 +137,8 @@
             <section class="bg-white dark:bg-gray-900">
                 <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <div class="max-w-screen-md">
-                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Lights, camera, action!</h2>
-                        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">🎥 Immerse yourself in our YouTube channel's curated showcase. From captivating stories to insightful discussions, explore the visual essence of our narrative. Hit play and join us on the screen. 📺✨</p>
+                        <h2 class="mb-4 text-4xl tracking-tight font-semibold text-gray-900 dark:text-white">Lights, camera, action!</h2>
+                        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400"> Immerse yourself in our YouTube channel's curated showcase. From captivating stories to insightful discussions, explore the visual essence of our narrative. Hit play and join us on the screen. </p>
                     </div>
                 </div>
             </section>
@@ -164,8 +164,8 @@
             <section class="bg-white dark:bg-gray-900">
                 <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <div class="max-w-screen-md">
-                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Unravel the threads of our discourse!</h2>
-                        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">🧵 Dive into insightful conversations and deep dives encapsulated in our Threads platform posts. Explore a tapestry of ideas, opinions, and discussions that define our narrative. 🗣️</p>
+                        <h2 class="mb-4 text-4xl tracking-tight font-semibold text-gray-900 dark:text-white">Unravel the threads of our discourse!</h2>
+                        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400"> Dive into insightful conversations and deep dives encapsulated in our Threads platform posts. Explore a tapestry of ideas, opinions, and discussions that define our narrative. </p>
                     </div>
                 </div>
             </section>
@@ -191,8 +191,8 @@
             <section class="bg-white dark:bg-gray-900">
                 <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <div class="max-w-screen-md">
-                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Chirp into our Twitterverse!</h2>
-                        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">🐦 Scroll through a curated collection of tweets that capture the essence of our thoughts in 280 characters or less. Join the conversation and stay updated with our bite-sized insights. 🌐</p>
+                        <h2 class="mb-4 text-4xl tracking-tight font-semibold text-gray-900 dark:text-white">Chirp into our Twitterverse!</h2>
+                        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400"> Scroll through a curated collection of tweets that capture the essence of our thoughts in 280 characters or less. Join the conversation and stay updated with our bite-sized insights. </p>
                     </div>
                 </div>
             </section>
