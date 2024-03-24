@@ -9,9 +9,10 @@
                     <span class="bg-green-100 text-green-800 px-2.5 py-0.5 rounded text-xs font-medium w-max">
                         {{ formatDate(nearestDate, true) }}
                     </span>
-                </div>
-                <span v-if="isCompleted" class="bg-green-100 text-green-800 px-2.5 py-0.5 rounded text-xs font-medium w-max">Completed</span>
+                    <span v-if="isCompleted" class="bg-green-100 text-green-800 px-2.5 py-0.5 rounded text-xs font-medium w-max">Completed</span>
                 <span v-else class="bg-red-100 text-red-800 px-2.5 py-0.5 rounded text-xs font-medium w-max">In Progress</span>
+                </div>
+                
             </div>
 
             <div class="flex justify-between mt-5 gap-2 w-full">

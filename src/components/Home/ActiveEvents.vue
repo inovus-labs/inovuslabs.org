@@ -1,9 +1,17 @@
   <template>
+
+<section class="bg-white dark:bg-gray-900 -mt-9">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            
+                <h2 class="mb-4 text-4xl tracking-tight font-semibold text-gray-900 dark:text-white text-secondary">Our <span class="text-primary">Latest Events</span></h2>
+                <p class="mb-4 font-light">These are the latest event of our IEDC, we have also conducted several </p>
+                <!-- <p class="mb-4 font-light">We believe that education will go forward only when we do crazy stuffs and unconventional things. Moreover we always try to do something which is difficult to imitate. Because imitations are still imitations.</p> -->
+
+        </div>
+    </section>
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-      <div class="w-full flex items-center justify-center py-4 md:py-8 flex-wrap">
-        <!-- Add your content here -->
-      </div>
-      <div class="grid grid-cols-1 gap-4 md:grid-cols-4">
+      
+      <div class="grid grid-cols-1 mb-8 gap-4 md:grid-cols-4">
         <template v-for="Activity in filteredProjects.slice(0, 4)" :key="Activity.id">
           <ActiveCard :data="Activity" :showReadMore="true" :isCompleted="isEventCompleted(Activity.date[0])" />
         </template>
@@ -15,6 +23,7 @@
               <div class="carousel-item absolute transition-transform duration-1000" :class="{'active': index === currentSlide, 'slide-left': index === currentSlide - 1 || (currentSlide === 0 && index === filteredProjects.slice(0, 4).length - 1), 'slide-right': index === currentSlide + 1 || (currentSlide === filteredProjects.slice(0, 4).length - 1 && index === 0)}">
                 <ActiveCard :data="Activity" :showReadMore="true" :isCompleted="isEventCompleted(Activity.date[0])" />
               </div>
+              
             </template>
           </div>
           <button class="carousel-control-prev absolute top-0 bottom-0 left-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" @click="prevSlide">
