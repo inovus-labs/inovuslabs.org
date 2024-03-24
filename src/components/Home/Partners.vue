@@ -102,7 +102,7 @@
                     },
                     {
                         name: 'GTech µLearn',
-                        logo: 'muLearn.png',
+                        logo: 'Mulearnkjcmt.png',
                         url: 'https://mulearn.org/'
                     },
                     {

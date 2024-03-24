@@ -5,7 +5,7 @@
         
             <div class="relative rounded-t-lg overflow-hidden border border-gray-200 dark:border-gray-800 h-44">
                 <div class="relative h-full overflow-hidden transform transition duration-500 hover:scale-105">
-                    <img class="h-full object-cover w-full" src="../../public/assets/illustrations/reports/_report.svg" :alt="data.title" />
+                    <img class="h-full object-cover w-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/Documents-amico.svg" :alt="data.title" />
                 </div>
             </div>
             
