@@ -37,11 +37,9 @@
 
     <About />
 
-
+    <ActiveEvents />
 
     <Partners />
-
-
 
     <Features />
 
@@ -149,6 +147,8 @@ import { Autoplay } from 'swiper/modules';
 
 import PublicLayout from "@/layouts/PublicLayout.vue";
 
+
+import ActiveEvents from "@/components/Home/ActiveEvents.vue";
 import Testimonial from "@/components/Home/Testimonial.vue";
 import Features from "@/components/Home/Features.vue";
 import Partners from "@/components/Home/Partners.vue";
@@ -169,7 +169,8 @@ export default {
     Partners,
     About,
     StatsCounter,
-    HomeTeam
+    HomeTeam,
+    ActiveEvents,
   },
 
   data() {

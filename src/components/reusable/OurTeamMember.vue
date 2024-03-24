@@ -19,10 +19,11 @@
                 {{ data.position }}
             </p>
 
-            <div class="mb-4 text-sm text-gray-400">
-                           <p>{{ data.description.split(' ').slice(0, 6).join(' ') }}{{ data.description.split(' ').length > 10 ? '...' : '' }}</p>
-                       </div>
 
+            <!-- Add discription -->
+            <!-- <div class="mb-4 text-sm text-gray-400">
+                           <p>{{ data.description.split(' ').slice(0, 6).join(' ') }}{{ data.description.split(' ').length > 10 ? '...' : '' }}</p>
+                       </div> -->
             
 
             <ul class="flex justify-center mt-4 space-x-4">
