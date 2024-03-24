@@ -214,7 +214,7 @@ export default {
           name: "Entinker Technology Solutions Pvt. Ltd.",
           incubators: ["Jithin Shah M A", "Joseph Sabu"],
           image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/entinker.png",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo.",
+          description: "One pistop solution for all your technological barriers.   Entinker",
           link: "https://inovuslabs.com/"
         },
         {
@@ -238,7 +238,7 @@ export default {
           name: "DevMorphix",
           incubators: ["Badusha Shaji", "Abhishek V Gopal", "Arjun A Acharry", ""],
           image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/DevMorphix.png",
-          description: "Where digital dreams come to life! We specialize in web development, IoT solutions, automations, design, and captivating kiosk displays. Elevate your business with our innovative, customized, and reliable digital services. Let's create a future that's as unique as your vision. Welcome to the digital revolution!",
+          description: "Welcome to the digital revolution! Elevate your business with our innovative web development, IoT solutions, automations, design, and captivating kiosk displays.",
           link: "https://inovuslabs.com/"
         },
         {
