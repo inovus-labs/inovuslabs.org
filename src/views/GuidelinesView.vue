@@ -7,18 +7,15 @@
         <section class="bg-bgPrimary">
             <div class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
 
-            <div class="w-full lg:w-1/3 py-4 lg:py-20">
-                <img class="w-full h-full" src="../../public/assets/illustrations/guidelines.svg" alt="Guidelines" />
-            </div>
-
-            <div class="mx-auto max-w-screen-xl text-center w-full lg:w-2/3 py-4 lg:py-20">
-                <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">
-                    Guiding the Guardians: The Handbook Unleashed!
-                </h1>
-                <p class="mb-8 text-lg font-normal text-secondary lg:text-xl sm:px-16 lg:px-46">
+                
+                <div class="mx-auto max-w-screen-xl text-left w-full lg:w-2/3 py-4 lg:py-20">
+                    <h1 class="mb-4 text-4xl font-extrabold text-primary md:text-5xl lg:text-6xl">
+                        Guiding the Guardians: The Handbook Unleashed!
+                    </h1>
+                    <p class="mb-8 text-lg font-normal text-secondary lg:text-xl">
                     Empowering Innovation through Clearly Defined Rules and Responsibilities – Unleashing the Potential at Inovus Labs IEDC.
                 </p>
-                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-left sm:space-y-0 sm:space-x-4">
                     <a href="#" target="_blank"
                         class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary">
                         <span>Download IEDC Handbook</span>
@@ -28,23 +25,26 @@
                     </a>
                 </div>
             </div>
-
+            <div class="w-full lg:w-1/3 py-4 lg:py-20">
+                <img class="w-full h-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/Guideline main animated.svg" alt="Guidelines" />
             </div>
-        </section>
-
             
-
-
+        </div>
+        </section>
+        
+        
+        
+        
         <section class="bg-white dark:bg-gray-900">
             <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-
-                <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
+                
+                <div class="mx-auto max-w-screen-xl text-left w-full p-4 lg:mb-4">
                     <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-                        🌟 Discover your role in our story! 🌐
+                        Discover your role in our story! 
                     </h1>
 
-                    <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-                        Explore the essence of each position in our dynamic team on the Roles and Responsibilities page. Uncover how you can contribute to our journey and make an impact. Join us in shaping the narrative! 🚀
+                    <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+                        Explore the essence of each position in our dynamic team on the Roles and Responsibilities page. Uncover how you can contribute to our journey and make an impact. Join us in shaping the narrative! 
                     </p>
                 </div>
 
@@ -74,6 +74,8 @@
     import Guidelines from "@/components/Guidelines.vue";
     import PublicLayout from "@/layouts/PublicLayout.vue";
 
+    const BASE_URL = "https://storage.googleapis.com/inovuslabs-cdn.appspot.com";
+
     export default {
         name: 'GuidelinesView',
         components: {
@@ -86,7 +88,7 @@
                     {
                         id: 2,
                         title: 'Nodal Officer',
-                        image: '/assets/illustrations/guidelines/nodal_officer.svg',
+                        image: BASE_URL + '/assets/illustrations/Nodal.svg',
                         description: [
                             "The Nodal Officer is advised to nurture the talent and it undergoes multiple phases during its journey from identifying right students, right scalable idea and sustainability of the idea, team and IEDC.",
                             "The IEDC student committee members shall be selected under an evaluation of committee headed by Nodal officer."
@@ -95,7 +97,7 @@
                     {
                         id: 2,
                         title: 'Mentor',
-                        image: '/assets/illustrations/guidelines/mentor.svg',
+                        image: BASE_URL + '/assets/illustrations/boat captain-bro.svg',
                         description: [
                             "A person, usually an IEDC alumnus who actively involves in the skill-upliftment of the students, more from an industry point-of-view.",
                             "Can act as a resource person for tech events, mentor for projects and initiatives from IEDC, a guide for day-to-day activities, and what else.",
@@ -109,7 +111,7 @@
                     {
                         id: 3,
                         title: 'Chief Executive Officer',
-                        image: '/assets/illustrations/guidelines/ceo.svg',
+                        image: BASE_URL + '/assets/illustrations/CEO.svg',
                         description: [
                             "The point-of-contact between other IEDC officials outside the college and KSUM Officials.",
                             "Present monthly report at Exe-com meeting.",
@@ -125,7 +127,7 @@
                     {
                         id: 4,
                         title: 'Chief Technical Officer',
-                        image: '/assets/illustrations/guidelines/cto.svg',
+                        image: BASE_URL + '/assets/illustrations/CTO.svg',
                         description: [
                             "Head of all technical activities, project works, and production works at IEDC",
                             "In charge of all the technical events conducted at or by IEDC.",
@@ -137,7 +139,7 @@
                     {
                         id: 5,
                         title: 'Chief Operations Officer',
-                        image: '/assets/illustrations/guidelines/coo.svg',
+                        image: BASE_URL + '/assets/illustrations/COO.svg',
                         description: [
                             "Commander of all operations and events conducted at and by IEDC, both inside and outside the college.",
                             "Should act as the bridge between the Exe-com members and the gathered special interest groups (event coordination team).",
@@ -147,7 +149,7 @@
                     {
                         id: 6,
                         title: 'Chief Financial Officer',
-                        image: '/assets/illustrations/guidelines/cfo.svg',
+                        image: BASE_URL + '/assets/illustrations/CFO.svg',
                         description: [
                             "Should record each and every transaction of funds in IEDC.",
                             "Documents like bills, challans, etc.. that are related to fund flow, daily transactions, and other financial documents should be maintained safely.",
@@ -160,7 +162,7 @@
                     {
                         id: 7,
                         title: 'Chief Marketing Officer',
-                        image: '/assets/illustrations/guidelines/cmo.svg',
+                        image: BASE_URL + '/assets/illustrations/CMO.svg',
                         description: [
                             "In charge of all PR activities conducted for any events and of IEDC itself",
                             "In charge of all pre-event and post-event activities of an event. Purchase of Goods, Momentous, Certificates, and other things related to IEDC shop-keeping should be managed. Make sure that, every activity is photographed and video graphed for after-event promotion and archiving.",
@@ -171,7 +173,7 @@
                     {
                         id: 8,
                         title: 'Chief Innovations Officer',
-                        image: '/assets/illustrations/guidelines/cio.svg',
+                        image: BASE_URL + '/assets/illustrations/CIO.svg',
                         description: [
                             "Develop and implement an innovation strategy aligned with the IEDC's goals and objectives. ",
                             "Foster a culture of creativity and ideation within the IEDC. Evaluate and prioritize ideas based on their feasibility, potential impact, and alignment with the IEDC's mission.",
@@ -184,7 +186,7 @@
                     {
                         id: 9,
                         title: 'Chief Creative Officer',
-                        image: '/assets/illustrations/guidelines/cco.svg',
+                        image: BASE_URL + '/assets/illustrations/CCO.svg',
                         description: [
                             "One-stop shop for all creative asset requirements of IEDC.",
                             "Head of the Social-media Team and is responsible for every creative asset generated/published from IEDC.",
@@ -197,7 +199,7 @@
                     {
                         id: 10,
                         title: 'Chief Social Officer',
-                        image: '/assets/illustrations/guidelines/cso.svg',
+                        image: BASE_URL + '/assets/illustrations/CSO.svg',
                         description: [
                             "The person is often referred to, as the Community Leader and is responsible to watch-over the IEDC more as a student community and prevent it from sliding over towards a hierarchical organization.",
                             "Should act as the bridge between every sector of IEDC, beholding the core ethical and moral principles of the community.",
@@ -207,7 +209,7 @@
                     {
                         id: 11,
                         title: 'Ex-Members',
-                        image: '/assets/illustrations/guidelines/ex-members.svg',
+                        image: BASE_URL + '/assets/illustrations/Ex Members.svg',
                         description: [
                             "Alumni/ex-members often have the opportunity to attend special events and reunions organized by the college and IEDC. These events can foster a sense of belonging, facilitate networking, and provide a chance to reconnect with former classmates and faculty.",
                             "The college management and inovus labs IEDC has granted the permission to the Alumni/ex members, the access to visit occasionally and make conversation with the team members of inovus labs IEDC.  ",

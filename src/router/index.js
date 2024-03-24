@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import HomeView from '@/views/HomeView.vue'
+import Splash from '@/views/SplashScreen.vue'
 
 // About pages
 import AboutView from '@/views/AboutView.vue'
@@ -42,6 +43,14 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      name: 'SplashScreen',
+      component: Splash,
+      meta: {
+        title: 'SplashScreen'
+      }
+    },
+    {
+      path: '/home',
       name: 'home',
       component: HomeView,
       meta: {
