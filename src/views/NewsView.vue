@@ -24,7 +24,7 @@
             </div>
             
             <div class="w-full lg:w-1/3 py-4 lg:py-20">
-                <img class="w-full h-full" src="../../public/assets/illustrations/news.svg" alt="News" />
+                <img class="w-full h-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/people-watching-the-news-animate.svg" alt="News" />
             </div>
         </div>
     </section>
@@ -34,11 +34,11 @@
 
             <div class="mx-auto max-w-screen-xl text-left w-full p-4 lg:mb-4">
                 <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-                    🚀 Dive into the latest buzz about us! 🌐
+                    Dive into the latest buzz about us! 
                 </h1>
 
                 <p class="mb-6 text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
-                    Explore news, bytes, and reports that spotlight our journey, innovations, and impact. Stay in the loop with dynamic updates and narratives that shape our narrative in the wider world. 📰✨
+                    Explore news, bytes, and reports that spotlight our journey, innovations, and impact. Stay in the loop with dynamic updates and narratives that shape our narrative in the wider world. 
                 </p>
             </div>
 

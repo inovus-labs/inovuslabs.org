@@ -24,7 +24,7 @@
         </div>
         
         <div class="w-full lg:w-1/3 py-4 lg:py-20">
-          <img class="w-full h-full" src="../../public/assets/illustrations/outreach.svg" alt="Outreach" />
+          <img class="w-full h-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/new-team-members-animate.svg" alt="Outreach" />
         </div>
       </div>
     </section>
@@ -55,11 +55,11 @@
 
       <div class="mx-auto max-w-screen-xl text-left w-full py-4">
         <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-          🌍 Beyond campus borders, embracing the community! 🤝
+           Beyond campus borders, embracing the community! 
         </h1>
 
         <p class="text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
-          🌟 Explore the Outreach Programs section to discover how we're making a positive impact beyond our walls. Dive into our efforts to foster growth, education, and innovation in the broader community. ✨
+           Explore the Outreach Programs section to discover how we're making a positive impact beyond our walls. Dive into our efforts to foster growth, education, and innovation in the broader community. 
         </p>
       </div>
 

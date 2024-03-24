@@ -7,7 +7,7 @@
 
             <div class="max-w-screen-md mb-8 lg:mb-16">
                 <h2 class="mb-4 text-4xl tracking-tight font-semibold text-gray-900 dark:text-white text-secondary">Our <span class="text-primary">Team</span>.</h2>
-                <p class="text-gray-500 sm:text-xl font-light dark:text-gray-400">Our Team is the main strength of InovusLabsIEDC, They are focused of empowering our college,IEDC and mainly our students.</p>
+                <p class="text-gray-500 sm:text-xl font-light dark:text-gray-400">We’re excited in providing assistance could be either financial or infrastructure for new initiatives and ideas which seems impossible for majority.</p>
             </div>
             <div
                 class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-10">
