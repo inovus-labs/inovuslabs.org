@@ -27,7 +27,7 @@
             </div>
             
             <div class="w-full lg:w-1/3 py-4 lg:py-20">
-                <img class="w-full h-full" src="../../public/assets/illustrations/contact.svg" alt="Contact" />
+                <img class="w-full h-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/social-interaction-1-animate.svg" alt="Contact" />
             </div>
             </div>
         </section>
@@ -39,11 +39,11 @@
 
             <div class="mx-auto max-w-screen-xl text-left w-full p-4 lg:mb-4">
                 <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-                    🤝 Get in touch, stay connected! ✨
+                    Get in touch, stay connected! 
                 </h1>
 
                 <p class="text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
-                    📩 Reach out through our contact section to share thoughts, inquiries, or simply say hello. We value every connection and look forward to hearing from you. Let's build bridges together! 🌐
+                    Reach out through our contact section to share thoughts, inquiries, or simply say hello. We value every connection and look forward to hearing from you. Let's build bridges together! 
                 </p>
             </div>
 
@@ -66,8 +66,8 @@
                         </div>
                         <h3 class="mb-2 text-xl font-bold dark:text-white">Support:</h3>
                         <div class="justify-center items-center text-center">
-                            <p class="text-gray-500 text-left dark:text-gray-400">Email: <a class="text-primary hover:text-blue-500" href="mailto:mail@inovuslabs.org">mail@inovuslabs.org</a></p>
-                            <p class="text-gray-500 text-left dark:text-gray-400">Mobile: <a class="text-primary hover:text-blue-500" href="tel:+919995555555">+91 999 555 5555</a></p>
+                            <p class="text-gray-500 text-left dark:text-gray-400">Email: <a class="text-primary hover:text-blue-500" href="mailto:inovuslabs@kjcmt.ac.in">inovuslabs@kjcmt.ac.in</a></p>
+                            <p class="text-gray-500 text-left dark:text-gray-400">Mobile: <a class="text-primary hover:text-blue-500" href="tel:+919400057152">+91 94000 57152</a></p>
                         </div>
                     </div>
 
@@ -94,7 +94,7 @@
                             <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
                             <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
                         </div>
-                        <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary sm:w-fit hover:bg-blue-500 dark:bg-primary dark:hover:bg-blue-500">Send message</button>
+                        <button type="submit" class="py-2 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary sm:w-fit hover:bg-blue-500 dark:bg-primary dark:hover:bg-blue-500">Send message</button>
                     </form>
                 </div>
                 
@@ -109,10 +109,10 @@
                 
                 <div class="mb-16">
                     <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-                        🌐 Locate us on the map! 🗺️
+                         Locate us on the map! 
                     </h1>
                     <p class="text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
-                        📍 We are located in the heart of Kerala, India. We are a global team of innovators, creators, and educators. We are always looking for new opportunities to collaborate and build bridges.
+                         We are located in the heart of Kerala, India. We are a global team of innovators, creators, and educators. We are always looking for new opportunities to collaborate and build bridges.
                     </p>
                 </div>
 
