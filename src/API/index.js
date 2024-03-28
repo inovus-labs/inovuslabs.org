@@ -3051,63 +3051,63 @@ export const getTeamMembers = async () => {
                 }, {
                     name: ' Badhusha Shaji',
                     position: 'Chief Executive Officer',
-                   avatar: BASE_URL + '/assets/team/2024/BadhushaShaji.jpeg',
+                   avatar: BASE_URL + '/assets/team/2023-2024/BadhushaShaji.jpg',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Abhishek V Gopal',
                     position: 'Chief Technical Officer',
-                   avatar: BASE_URL + '/assets/team/2024/Abhishek.jpg',
+                   avatar: BASE_URL + '/assets/team/2023-2024/Abhishek.jpg',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Nikhil T Das',
                     position: 'Chief Operations Officer',
-                   avatar: BASE_URL + '/assets/team/2024/NikilTDas.jpeg',
+                   avatar: BASE_URL + '/assets/team/2023-2024/NikilTDas.jpg',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Nithin Daniel',
                     position: 'Chief Financial Officer',
-                   avatar: BASE_URL + '/assets/team/2024/Nithin.jpg',
+                   avatar: BASE_URL + '/assets/team/2023-2024/Nithin.jpg',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Arjun A Acharry',
                     position: 'Chief Creative Officer',
-                   avatar: BASE_URL + '/assets/team/2024/ArjunAcharry.JPG',
+                   avatar: BASE_URL + '/assets/team/2023-2024/ArjunAcharry.jpg',
                     social: {
                       facebook: ""
                     }
                 },{
                     name: ' Joel Jacob Thomas',
                     position: 'Chief Marketing Officer',
-                   avatar: BASE_URL + '/assets/team/2024/JoelJacob.jpg',
+                   avatar: BASE_URL + '/assets/team/2023-2024/JoelJacob.jpg',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Lekshmi Sree J',
                     position: 'Women in Tech Lead',
-                   avatar: BASE_URL + '/assets/team/2024/lekshmisree.jpeg',
+                   avatar: BASE_URL + '/assets/team/2023-2024/lekshmisree.jpg',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Milan Sony',
                     position: 'Community Lead',
-                   avatar: BASE_URL + '/assets/team/2024/milansony.jpg',
+                   avatar: BASE_URL + '/assets/team/2023-2024/milansony.jpg',
                     social: {
                       facebook: ""
                     }
                 }, {
                     name: ' Anu Tiji',
                     position: 'IPR & Research Lead',
-                   avatar: BASE_URL + '/assets/team/2024/Anutiji.jpeg',
+                   avatar: BASE_URL + '/assets/team/2023-2024/Anutiji.jpg',
                     social: {
                       facebook: ""
                     }

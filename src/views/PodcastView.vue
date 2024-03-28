@@ -137,6 +137,8 @@
 
     import { getPodcasts } from "@/API/index.js";
 
+    const BASE_URL = "https://storage.googleapis.com/inovuslabs-cdn.appspot.com";
+
     export default {
         name: 'PodcastView',
         components: {
@@ -184,37 +186,37 @@
                     {
                         name: "Alita Mariam Varghese",
                         role: "Host",
-                        image: "/assets/inora/_alita.jpeg"
+                        image: BASE_URL + "/assets/inora/_alita.jpeg"
                     },
                     {
                         name: "Amenda Maria Johnson",
                         role: "Editor",
-                        image: "/assets/inora/amenda.jpeg"
+                        image: BASE_URL + "/assets/inora/amenda.jpeg"
                     },
                     {
                         name: "Arjun A Acharry",
                         role: "Creative Support",
-                        image: "/assets/team/2024/ArjunAcharry.JPG"
+                        image: BASE_URL + "/assets/inora/ArjunAcharry.JPG"
                     },
                     {
                         name: "Joel Jacob Thomas",
                         role: "Creative Support",
-                        image: "/assets/team/2024/JoelJacob.jpg"
+                        image: BASE_URL + "/assets/inora/JoelJacob.jpg"
                     },
                     {
                         name: "Nikhil T Das",
                         role: "Technical Crew",
-                        image: "/assets/team/2024/NikilTDas.jpeg"
+                        image: BASE_URL + "/assets/inora/NikilTDas.jpeg"
                     },
                     {
                         name: "Abhishek V Gopal",
                         role: "Technical Crew",
-                        image: "/assets/team/2024/Abhishek.jpg"
+                        image: BASE_URL + "/assets/inora/Abhishek.jpg"
                     },
                     {
                         name: "Badhusha Shaji",
                         role: "Technical Crew",
-                        image: "/assets/team/2024/BadhushaShaji.jpeg"
+                        image: BASE_URL + "/assets/inora/BadhushaShaji.jpeg"
                     },
                 ]
             }
