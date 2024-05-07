@@ -13,7 +13,7 @@
                 class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-10">
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
 
-                    <OurTeamCard v-for="item in team" 
+                    <HomeTeamCard v-for="item in team" 
                         :members="item.members" :showTeam="item.showTeam"  />
 
                 </ol>
@@ -28,7 +28,7 @@
 
 
 <script>
-import OurTeamCard from "@/components/OurTeamCard.vue";
+import HomeTeamCard from "@/components/HomeTeamCard.vue";
 import PublicLayout from "@/layouts/PublicLayout.vue";
 
 import { getcurrentTeam } from "@/API/index.js";
@@ -36,7 +36,7 @@ import { getcurrentTeam } from "@/API/index.js";
 export default {
     name: 'HomeTeam',
     components: {
-        OurTeamCard,
+        HomeTeamCard,
         PublicLayout
     },
 
@@ -59,6 +59,7 @@ export default {
 
     async mounted() {
         this.team = await getcurrentTeam();
+
     },
 }
 </script>

@@ -1,27 +1,14 @@
-
 <template>
     <section class=" dark:bg-gray-900 lg:py-1 py-8">
-        
-        <swiper
-            :modules="modules"
-            :slides-per-view="1"
-            :space-between="0"
-            :speed="1000"
-            :loop="true"
-            :centeredSlides="true"
-            :autoplay="{
-                delay: 3000,
-                disableOnInteraction: false,
-            }"
-            @swiper="onSwiper"
-            @slideChange="onSlideChange"
-        >
-        
-            <template
-                v-for="testimonial in testimonials"
-                :key="testimonial.id"
-            >
-                
+
+        <swiper :modules="modules" :slides-per-view="1" :space-between="0" :speed="1000" :loop="true"
+            :centeredSlides="true" :autoplay="{
+            delay: 3000,
+            disableOnInteraction: false,
+        }" @swiper="onSwiper" @slideChange="onSlideChange">
+
+            <template v-for="testimonial in testimonials" :key="testimonial.id">
+
                 <swiper-slide>
 
                     <!-- <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
@@ -41,32 +28,36 @@
                             </figcaption>
                         </figure>   
                     </div> -->
-                    
+
 
                     <div class="flex flex-col items-center pb-10 ">
-                    <div class="p-6 w-9/12 h-64 bg-white border border-gray-200 rounded-lg flex items-center shadow dark:bg-gray-800 dark:border-gray-700 ">
-                        <div class="flex flex-col items-center ">
-                            <p class="mb-3 font-light text-center text-gray-500 dark:text-gray-400">{{ testimonial.text }}</p>
-                            <img class="w-6 h-6 place-content-center rounded-full" :src="testimonial.image" :alt="testimonial.name" />
-                            <div class="font-medium text-gray-900 dark:text-white">{{ testimonial.name }}</div>
-                            <div class="text-sm font-light text-gray-500 dark:text-gray-400">{{ testimonial.position }}</div>       
-                        </div>
+                        <div
+                            class="p-6 w-9/12 h-64 bg-white border border-gray-200 rounded-lg flex items-center shadow dark:bg-gray-800 dark:border-gray-700 ">
+                            <div class="flex flex-col items-center ">
+                                <p class="mb-3 font-light text-center text-gray-500 dark:text-gray-400">{{
+            testimonial.text }}</p>
+                                <img class="w-6 h-6 place-content-center rounded-full" :src="testimonial.image"
+                                    :alt="testimonial.name" />
+                                <div class="font-medium text-gray-900 dark:text-white">{{ testimonial.name }}</div>
+                                <div class="text-sm font-light text-gray-500 dark:text-gray-400">{{ testimonial.position
+                                    }}</div>
+                            </div>
                         </div>
                     </div>
 
 
                 </swiper-slide>
-                            
+
             </template>
-                    
+
         </swiper>
-        
+
     </section>
 </template>
 
 
 <script>
-    
+
     import { Swiper, SwiperSlide } from 'swiper/vue';
     import 'swiper/scss';
     import 'swiper/scss/autoplay';
@@ -118,6 +109,15 @@
                     }
                 ]
             }
-        }
+        },
+        methods: {
+
+            onSwiper(swiper) {
+
+            },
+            onSlideChange() {
+
+            },
+        },
     }
 </script>
