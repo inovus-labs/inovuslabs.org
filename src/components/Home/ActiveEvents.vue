@@ -13,7 +13,7 @@
       
       <div class="grid grid-cols-1 mb-8 gap-4 md:grid-cols-4">
         <template v-for="Activity in filteredProjects.slice(0, 4)" :key="Activity.id">
-          <ActiveCard :data="Activity" :showReadMore="true" :isCompleted="isEventCompleted(Activity.date[0])" />
+          <ActiveCard  :title="activities.title" :data="Activity" :showReadMore="true" :isCompleted="isEventCompleted(Activity.date[0])" />
         </template>
       </div>
       <div class="md:hidden">
@@ -66,6 +66,7 @@
       async getActivity() {
         let response = await getActivity();
         this.activities = response.activities;
+
         this.activities.sort((a, b) => {
           const aDate = new Date(a.date[0]);
           const bDate = new Date(b.date[0]);

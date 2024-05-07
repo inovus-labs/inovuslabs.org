@@ -1,40 +1,33 @@
-
 <template>
 
     <section class="bg-bgPrimary">
         <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
-        
-        <div class="flex flex-wrap lg:justify-between items-center justify-center">
-            
-            <swiper
-                :modules="modules"
-                :slides-per-view="isMobile ? 1 : 4"
-                :space-between="30"
-                :loop="true"
-                :autoplay="{
+
+            <div class="flex flex-wrap lg:justify-between items-center justify-center">
+
+                <swiper :modules="modules" :slides-per-view="isMobile ? 1 : 4" :space-between="30" :loop="true"
+                    :autoplay="{
                     delay: 2000,
                     disableOnInteraction: false,
-                }"
-                @swiper="onSwiper"
-                @slideChange="onSlideChange"
-            >
+                }" @swiper="onSwiper" @slideChange="onSlideChange">
 
-                <template v-for="partner in partners">
-
+                    <template v-for="partner in partners">
+                    
                     <swiper-slide>
                         <a :href="partner.url" target="_blank">
                             <div class="flex justify-center items-center">
-                                <img class="partner_logo max-h-24" :src="'../../assets/logos/' + partner.logo" :alt="partner.name" />
+                                <img class="partner_logo max-h-24" :src="'../../assets/logos/' + partner.logo"
+                                    :alt="partner.name" />
                             </div>
                         </a>
                     </swiper-slide>
 
-                </template>
+                    </template>
 
-            </swiper>
+                </swiper>
 
-        </div>
-            
+            </div>
+
         </div>
     </section>
 
@@ -52,7 +45,7 @@
         name: 'Partners',
         components: {
             Swiper,
-            SwiperSlide
+            SwiperSlide,
         },
         setup() {
             return {
@@ -114,6 +107,13 @@
             }
         },
         methods: {
+
+            onSwiper(swiper) {
+
+            },
+            onSlideChange() {
+
+            },
             checkMobile() {
                 if (window.innerWidth <= 768) {
                     this.isMobile = true;
@@ -127,14 +127,15 @@
 
 
 <style>
-    .partner_logo {
-        filter: grayscale(100%);
-        transition: all 0.3s ease-in-out;
-        aspect-ratio: 3/1.5;
-        object-fit: contain;
-        /* mix-blend-mode: color-burn; */
-    }
-    .partner_logo:hover {
-        filter: grayscale(0%);
-    }
+.partner_logo {
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+    aspect-ratio: 3/1.5;
+    object-fit: contain;
+    /* mix-blend-mode: color-burn; */
+}
+
+.partner_logo:hover {
+    filter: grayscale(0%);
+}
 </style>
