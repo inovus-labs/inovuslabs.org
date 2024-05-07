@@ -27,7 +27,7 @@
               </div>
               
               <div class="w-full lg:w-1/3 py-4 lg:py-20">
-                <img class="w-full h-full" src="../../public/assets/illustrations/activity.svg" alt="Activity" />
+                <img class="w-full h-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/work-chat-animate.svg" alt="Activity" />
               </div>
             </div>
       </section>
@@ -42,7 +42,7 @@
     
         <div class="mx-auto max-w-screen-xl text-left w-full py-4">
           <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-            🚀 Welcome to our Showcase of Events! 🌟
+             Welcome to our Showcase of Events! 
           </h1>
     
           <p class="text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">

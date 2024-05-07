@@ -57,7 +57,7 @@
     import { Buggy } from "@/API/index.js";
 
     export default {
-        name: 'NewsView',
+        name: 'BuggyNews',
         components: {
             PublicLayout,
         },

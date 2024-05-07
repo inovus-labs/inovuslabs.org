@@ -3,7 +3,7 @@
 
     <Navbar :maintainance = "maintainance" />
 
-    <SnowFall />
+    <!-- <SnowFall /> -->
     
     <slot />
 

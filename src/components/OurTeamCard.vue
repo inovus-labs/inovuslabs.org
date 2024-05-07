@@ -40,7 +40,7 @@
 import OurTeamMember from '@/components/reusable/OurTeamMember.vue'
 
 export default {
-    name: 'OurTeamCard',
+    name: 'HomeTeamCard',
     components: {
         OurTeamMember
     },
