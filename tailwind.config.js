@@ -15,6 +15,7 @@ export default {
         border: '#484848', // border / line color
         link: '#4A8FFF', // link color
         bgwhite: '#FFFFFF',//background in main section
+        footercolor:'#111828',
       }
     }
   },

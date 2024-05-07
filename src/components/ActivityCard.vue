@@ -6,17 +6,6 @@
             <div class="relative h-full overflow-hidden transform transition duration-500 hover:scale-105">
                 <img class="h-full object-cover w-full" :src="data.thumbnail" :alt="data.title" />
             </div>
-
-            <!-- <div class="absolute inset-0 bg-black bg-opacity-50 rounded-lg shadow-md flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300 ease-in-out">
-                <div class="text-center text-white flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                </div>
-            </div> -->
-
-
         </div>
 
         
@@ -66,7 +55,7 @@
             </div>
 
             <div class="flex justify-between mt-5 gap-2 w-full">
-                <button id="read_more" @click="showReadMore = !showReadMore" class="items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded hover:bg-blue-800 dark:bg-blue-600 w-1/2 text-center">
+                <button id="read_more" @click="showReadMore = !showReadMore" class="items-center px-3 py-2 text-sm font-medium text-white bg-primary rounded hover:bg-secondary dark:bg-blue-600 w-1/2 text-center">
                     {{ showReadMore ? 'Read More' : 'Read Less' }}
                 </button>
 

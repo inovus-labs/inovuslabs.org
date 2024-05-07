@@ -24,7 +24,7 @@
         </div>
       
         <div class="w-full lg:w-1/3 py-4 lg:py-20">
-          <img class="w-full h-full" src="../../public/assets/illustrations/project.svg" alt="Project" />
+          <img class="w-full h-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/starting-a-business-proyect-animate.svg" alt="Project" />
         </div>
       </div>
     </section>
@@ -39,7 +39,7 @@
 
       <div class="mx-auto max-w-screen-xl text-left w-full py-4">
         <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-          🚀 Welcome to our Showcase of Innovation! 🌟
+           Welcome to our Showcase of Innovation! 
         </h1>
 
         <p class="text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
@@ -56,8 +56,8 @@
           <template v-for="tag in tags" :key="tag">
             <button
               type="button"
-              class="border border-blue-600 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3"
-              :class="selectedTags === tag ? 'text-white bg-blue-700' : 'text-blue-700 bg-white hover:bg-blue-700 hover:text-white'"
+              class="border border-primary rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3"
+              :class="selectedTags === tag ? 'text-white bg-primary' : 'text-primary bg-white hover:bg-primary hover:text-white'"
               @click="selectTag(tag)"
             >
               {{ tag }}
