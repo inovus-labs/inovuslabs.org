@@ -2827,15 +2827,7 @@ export const getcurrentTeam = async () => {
                     social: {
                       facebook: ""
                     }
-                }, {
-                    name: ' Ashlin Sara Tomy',
-                    position: 'Event Curator',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
-                   avatar: BASE_URL + '/assets/team/2024/Event Curator-1.jpg',
-                    social: {
-                      facebook: ""
-                    }
-                },  
+                },
             ]
         }
             
@@ -3011,15 +3003,7 @@ export const getTeamMembers = async () => {
                     social: {
                       facebook: ""
                     }
-                }, {
-                    name: ' Ashlin Sara Tomy',
-                    position: 'Event Curator',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Event Curator-1.jpg',
-                    social: {
-                      facebook: ""
-                    }
-                },  
+                },   
             ]
         },{
             title: 'Inovus 6th Generation',
