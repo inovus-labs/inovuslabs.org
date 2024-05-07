@@ -84,7 +84,7 @@
       <div class="items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6 lg:pt-24 mb-12">
         
         <div class="w-full" :class="{'hidden': !isMobile, 'my-12': isMobile}">
-          <img src="../../public/assets/illustrations/about/objective.svg" alt="office content 1">
+          <img src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/Shared goals-amico.svg" alt="office content 1">
         </div>
         
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">

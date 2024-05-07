@@ -63,6 +63,8 @@
     import 'swiper/scss/autoplay';
     import { Autoplay } from 'swiper/modules';
 
+    const BASE_URL = "https://storage.googleapis.com/inovuslabs-cdn.appspot.com";
+
     export default {
         name: 'Testimonial',
         components: {
@@ -81,28 +83,28 @@
                         id: 1,
                         name: 'Roji Thomas',
                         position: 'Nodal Officer',
-                        image: '/assets/team/2018-2020/rojithomas.jpg',
+                        image: BASE_URL + '/assets/Testimonials/rojithomas.jpg',
                         text: 'Inovus Labs is a platform for developing entrepreneurial culture in our college. We here are not teaching to see the dreams, but to fulfill them.'
                     },
                     {
                         id: 2,
                         name: 'Jithin Shah M A',
                         position: 'Founder',
-                        image: '/assets/team/2018-2020/jithinshah.jpg',
+                        image: BASE_URL + '/assets/Testimonials/jithinshah.jpg',
                         text: 'We at Inovus Labs not only activate people to their full potential, but also develop a personalized experience that make our collegues feel more at home.'
                     },
                     {
                         id: 3,
                         name: 'Arjun Krishna',
                         position: 'Mentor',
-                        image: '/assets/team/2018-2020/arjunkrishna.jpg',
+                        image: BASE_URL + '/assets/Testimonials/arjunkrishna.jpg',
                         text: 'We encourage our fellows to think out of the box in every sort of activities and promote stupid ideas, as, today\'s stupidity is tomorrow\'s wonder.'
                     },
                     {
                         id: 4,
                         name: 'Dr. Thomas George',
                         position: 'Chairman, LEAD College of Management',
-                        image: '/assets/testimoniel/thomman.jpg',
+                        image: BASE_URL + '/assets/Testimonials/thomman.jpg',
                         text: 'Special Congratulations to team Inovus Labs IEDC of Kristu Jyoti. The students are highly motivated and ambitious.They are open to learn and ready to implement their creativity. The faculty members and college management are highly supportive'
                     }
                 ]

@@ -12,15 +12,15 @@
                 }" @swiper="onSwiper" @slideChange="onSlideChange">
 
                     <template v-for="partner in partners">
-
-                        <swiper-slide>
-                            <a :href="partner.url" target="_blank">
-                                <div class="flex justify-center items-center">
-                                    <img class="partner_logo max-h-24" :src="'../../assets/logos/' + partner.logo"
-                                        :alt="partner.name" />
-                                </div>
-                            </a>
-                        </swiper-slide>
+                    
+                    <swiper-slide>
+                        <a :href="partner.url" target="_blank">
+                            <div class="flex justify-center items-center">
+                                <img class="partner_logo max-h-24" :src="'../../assets/logos/' + partner.logo"
+                                    :alt="partner.name" />
+                            </div>
+                        </a>
+                    </swiper-slide>
 
                     </template>
 
