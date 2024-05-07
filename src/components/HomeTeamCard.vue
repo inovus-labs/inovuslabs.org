@@ -12,8 +12,8 @@
         </span>
 
         <div class="w-max cursor-pointer" @click="toggleTeam">
-            <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{ title }}</h3>
-            <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{{ date }}</time>
+            <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white"></h3>
+            <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"></time>
         </div>
 
 
@@ -40,19 +40,11 @@
 import OurTeamMember from '@/components/reusable/OurTeamMember.vue'
 
 export default {
-    name: 'HomeTeamCard',
+    name: 'OurTeamCard',
     components: {
         OurTeamMember
     },
     props: {
-        title: {
-            type: String,
-            required: true
-        },
-        date: {
-            type: String,
-            required: true
-        },
         showTeam: {
             type: Boolean,
             required: false,
