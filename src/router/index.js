@@ -10,7 +10,6 @@ import OurTeamView from '@/views/OurTeamView.vue'
 import NewsView from '@/views/NewsView.vue'
 import SocialsView from '@/views/SocialsView.vue'
 import ReportsView from '@/views/ReportsView.vue'
-import LearningStories from '@/views/LearningStoriesView.vue'
 import BuggyNews from '@/views/BuggyNews.vue'
 
 import NowView from '@/views/NowView.vue'
@@ -81,12 +80,6 @@ const router = createRouter({
       name: 'team',
       component: OurTeamView,
       meta: { title: 'Our Team' }
-    },
-    {
-      path: '/learning-stories',
-      name: 'learning-stories',
-      component: LearningStories,
-      meta: { title: 'Learning Stories' }
     },
 
     // Navbar : Initiatives pages
