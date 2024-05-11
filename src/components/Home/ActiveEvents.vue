@@ -40,7 +40,7 @@
   </template>
 
   <script>
-  import ActiveCard from "@/components/ActiveCard.vue";
+  import ActiveCard from "@/components/Activecard.vue";
   import { getActivity } from "@/API/index.js";
 
   export default {
