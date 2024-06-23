@@ -2855,7 +2855,9 @@ export const getTeamMembers = async () => {
                     description: 'As Nodal Officer, I foster talent, guide growth, oversee committee selection.',
                     avatar: BASE_URL + '/assets/team/2024/Nodal Officer.jpg',
                     social: {
-                      facebook: ""
+                      facebook: "https://www.google.com/",
+                      github: "https://devmorphix.com",
+                      linkedin: "https://edu.com"
                     }
                 }, {
                     name: ' Cina Mathew',
@@ -2863,7 +2865,7 @@ export const getTeamMembers = async () => {
                     description: 'As Assistant Nodal Officer, I support talent, drive IEDC growth, aid committee selection.',
                    avatar: BASE_URL + '/assets/team/2024/Asst.Nodal Officer.jpg',
                     social: {
-                      facebook: ""
+                      facebook: "https://devmorphix.com"
                     }
                 }, {
                     name: ' Jithin Sha',
