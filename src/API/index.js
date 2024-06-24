@@ -2966,10 +2966,10 @@ export const getTeamMembers = async () => {
                       facebook: ""
                     }
                 }, {
-                    name: ' Amenda Maria Johnson',
+                    name: ' Anasuya S Kurup',
                     position: 'Chief Marketing Officer',
                     description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Chief Marketing Officer.jpg',
+                   avatar: BASE_URL + '/assets/team/2024/Chief Marketing Officer anasuya.jpg',
                     social: {
                       facebook: ""
                     }
@@ -2998,8 +2998,16 @@ export const getTeamMembers = async () => {
                       facebook: ""
                     }
                 }, {
+                    name: ' Amenda Maria Johnson',
+                    position: 'Chief Social Officer',
+                    description: '',
+                   avatar: BASE_URL + '/assets/team/2024/Chief Marketing Officer.jpg',
+                    social: {
+                      facebook: ""
+                    }
+                }, {
                     name: ' Bhagya V',
-                    position: 'Event Curator',
+                    position: 'Chief Quality Officer',
                     description: '',
                    avatar: BASE_URL + '/assets/team/2024/Event Curator.jpg',
                     social: {
