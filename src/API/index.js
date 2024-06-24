@@ -2896,7 +2896,7 @@ export const getTeamMembers = async () => {
                     description: '',
                    avatar: BASE_URL + '/assets/team/2024/Mentor Nikhil T Das.jpg',
                     social: {
-                      instagram: "https://www.instagram.com/nikhil_dasz",
+                        instagram: "https://www.instagram.com/nikhil_dasz",
                         github: "https://github.com/nikhiltdas",
                         linkedin: "https://www.linkedin.com/in/nikhil-das-9404ab1a4"
                     }
@@ -2907,7 +2907,7 @@ export const getTeamMembers = async () => {
                     description: '',
                    avatar: BASE_URL + '/assets/team/2024/Mentor  Milan.jpg',
                     social: {
-                      instagram: "https://www.instagram.com/milansony_",
+                        instagram: "https://www.instagram.com/milansony_",
                         github: "https://github.com/milan-sony",
                         linkedin: "https://www.linkedin.com/in/milansony"
                     }
@@ -2917,7 +2917,7 @@ export const getTeamMembers = async () => {
                     description: 'Hi I’m the CEO of inovus labs, provides effective guidance in coordinating events and activities of the community.',
                    avatar: BASE_URL + '/assets/team/2024/Chief Executive Officer.jpg',
                     social: {
-                      instagram: "https://www.instagram.com/abhishek_oorukary_",
+                        instagram: "https://www.instagram.com/abhishek_oorukary_",
                         github: "https://github.com/abhishek-v-gopal",
                         linkedin: "https://www.linkedin.com/in/abhishekvgopal"
                     }
@@ -2927,7 +2927,7 @@ export const getTeamMembers = async () => {
                     description: '',
                    avatar: BASE_URL + '/assets/team/2024/Chief Technical Officer.jpg',
                     social: {
-                      instagram: "https://www.instagram.com/_badhu_._sha_",
+                        instagram: "https://www.instagram.com/_badhu_._sha_",
                         github: "https://github.com/Badhusha3214",
                         linkedin: "https://www.linkedin.com/in/badhushashaji"
                     }
@@ -2937,7 +2937,7 @@ export const getTeamMembers = async () => {
                     description: '',
                    avatar: BASE_URL + '/assets/team/2024/Chief Operations Officer.jpg',
                     social: {
-                      instagram: "https://www.instagram.com/arjun_a_acharry",
+                        instagram: "https://www.instagram.com/arjun_a_acharry",
                         github: "https://github.com/arjunaacharry",
                         linkedin: "https://www.linkedin.com/in/arjun-a-acharry"
                     }
@@ -2957,7 +2957,7 @@ export const getTeamMembers = async () => {
                     description: 'An innovator is someone who introduces new ideas, methods, products, or processes, often with the aim of improving existing systems or creating entirely new ones. My tag is Chief innovation officer.',
                    avatar: BASE_URL + '/assets/team/2024/Chief Innovations Officer.jpg',
                     social: {
-                      instagram: "",
+                        instagram: "",
                         github: "",
                         linkedin: "https://www.linkedin.com/in/lekshmi-sree-j"
                     }
@@ -2967,7 +2967,7 @@ export const getTeamMembers = async () => {
                     description: 'I’m the creative lead of inovus labs, I’m monitor all kind of media production activities includes contents for social media, podcasts, posters, flyers and brochures for events.',
                    avatar: BASE_URL + '/assets/team/2024/Chief Creative Officer.jpg',
                     social: {
-                      instagram: "https://www.instagram.com/joel_jacob04",
+                        instagram: "https://www.instagram.com/joel_jacob04",
                         github: "https://github.com/thomasjojacob04",
                         linkedin: "https://www.linkedin.com/in/joel-jacob-283322262/"
                     }
@@ -2977,7 +2977,7 @@ export const getTeamMembers = async () => {
                     description: '',
                    avatar: BASE_URL + '/assets/team/2024/IPR & Reserch Lead.jpg',
                     social: {
-                      instagram: "",
+                        instagram: "",
                         github: "",
                         linkedin: "https://www.linkedin.com/in/alan-rajan-b938802b3"
                     }
@@ -2987,7 +2987,7 @@ export const getTeamMembers = async () => {
                     description: 'I’m the financial lead of inovus labs IEDC, monitors all kind of financial transactions and the bill-laden of Inovus Labs.',
                    avatar: BASE_URL + '/assets/team/2024/Chief Finance Officer.jpg',
                     social: {
-                      instagram: "https://www.instagram.com/nithin_daniel_",
+                        instagram: "https://www.instagram.com/nithin_daniel_",
                         github: "https://github.com/nithin-daniel",
                         linkedin: "https://www.linkedin.com/in/nithindaniel"
                     }
@@ -3064,77 +3064,99 @@ export const getTeamMembers = async () => {
                     position: 'Nodal Officer',
                     avatar: BASE_URL + '/assets/team/2018-2020/rojithomas.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/roji1978",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/roji-thomas-thomas"
                     }
                 }, {
                     name: ' Cina Mathew',
                     position: 'Assistant Nodal Officer',
                    avatar: BASE_URL + '/assets/team/2023/cinamathew.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/cina_kadathukalam",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/cina-mathew-883372195"
                     }
                 }, {
                     name: ' Arjun Krishna',
                     position: 'Mentor',
                    avatar: BASE_URL + '/assets/team/2018-2020/arjunkrishna.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/decoded_cipher",
+                        github: "https://github.com/decoded-cipher",
+                        linkedin: "https://www.linkedin.com/in/-arjunkrishna"
                     }
                 }, {
                     name: ' Badhusha Shaji',
                     position: 'Chief Executive Officer',
                    avatar: BASE_URL + '/assets/team/2023-2024/BadhushaShaji.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/_badhu_._sha_",
+                        github: "https://github.com/Badhusha3214",
+                        linkedin: "https://www.linkedin.com/in/badhushashaji"
                     }
                 }, {
                     name: ' Abhishek V Gopal',
                     position: 'Chief Technical Officer',
                    avatar: BASE_URL + '/assets/team/2023-2024/Abhishek.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/abhishek_oorukary_",
+                        github: "https://github.com/abhishek-v-gopal",
+                        linkedin: "https://www.linkedin.com/in/abhishekvgopal"
                     }
                 }, {
                     name: ' Nikhil T Das',
                     position: 'Chief Operations Officer',
                    avatar: BASE_URL + '/assets/team/2023-2024/NikilTDas.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/nikhil_dasz",
+                        github: "https://github.com/nikhiltdas",
+                        linkedin: "https://www.linkedin.com/in/nikhil-das-9404ab1a4"
                     }
                 }, {
                     name: ' Nithin Daniel',
                     position: 'Chief Financial Officer',
                    avatar: BASE_URL + '/assets/team/2023-2024/Nithin.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/nithin_daniel_",
+                        github: "https://github.com/nithin-daniel",
+                        linkedin: "https://www.linkedin.com/in/nithindaniel"
                     }
                 }, {
                     name: ' Arjun A Acharry',
                     position: 'Chief Creative Officer',
                    avatar: BASE_URL + '/assets/team/2023-2024/ArjunAcharry.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/arjun_a_acharry",
+                        github: "https://github.com/arjunaacharry",
+                        linkedin: "https://www.linkedin.com/in/arjun-a-acharry"
                     }
                 },{
                     name: ' Joel Jacob Thomas',
                     position: 'Chief Marketing Officer',
                    avatar: BASE_URL + '/assets/team/2023-2024/JoelJacob.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/joel_jacob04",
+                        github: "https://github.com/thomasjojacob04",
+                        linkedin: "https://www.linkedin.com/in/joel-jacob-283322262/"
                     }
                 }, {
                     name: ' Lekshmi Sree J',
                     position: 'Women in Tech Lead',
                    avatar: BASE_URL + '/assets/team/2023-2024/lekshmisree.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/lekshmi-sree-j"
                     }
                 }, {
                     name: ' Milan Sony',
                     position: 'Community Lead',
                    avatar: BASE_URL + '/assets/team/2023-2024/milansony.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/milansony_",
+                        github: "https://github.com/milan-sony",
+                        linkedin: "https://www.linkedin.com/in/milansony"
                     }
                 }, {
                     name: ' Anu Tiji',
