@@ -2955,7 +2955,7 @@ export const getTeamMembers = async () => {
                     description: 'An innovator is someone who introduces new ideas, methods, products, or processes, often with the aim of improving existing systems or creating entirely new ones. My tag is Chief innovation officer.',
                    avatar: BASE_URL + '/assets/team/2024/Chief Innovations Officer.jpg',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/es_ter_lla_",
                         github: "",
                         linkedin: "https://www.linkedin.com/in/lekshmi-sree-j"
                     }
@@ -2967,7 +2967,7 @@ export const getTeamMembers = async () => {
                     social: {
                         instagram: "https://www.instagram.com/joel_jacob04",
                         github: "https://github.com/thomasjojacob04",
-                        linkedin: "https://www.linkedin.com/in/joel-jacob-283322262/"
+                        linkedin: "https://www.linkedin.com/in/joel-jacob-283322262"
                     }
                 }, {
                     name: ' Alen Rajan',
@@ -3005,7 +3005,7 @@ export const getTeamMembers = async () => {
                     description: '',
                    avatar: BASE_URL + '/assets/team/2024/Stock Manager.jpg',
                     social: {
-                      instagram: "https://www.instagram.com/its.me_amith_",
+                      instagram: "https://www.instagram.com/amith_abey_stephen",
                         github: "https://github.com/Amith-Abey-Stephen",
                         linkedin: "https://www.linkedin.com/in/amith-abey-stephen"
                     }
@@ -3136,14 +3136,14 @@ export const getTeamMembers = async () => {
                     social: {
                         instagram: "https://www.instagram.com/joel_jacob04",
                         github: "https://github.com/thomasjojacob04",
-                        linkedin: "https://www.linkedin.com/in/joel-jacob-283322262/"
+                        linkedin: "https://www.linkedin.com/in/joel-jacob-283322262"
                     }
                 }, {
                     name: ' Lekshmi Sree J',
                     position: 'Women in Tech Lead',
                    avatar: BASE_URL + '/assets/team/2023-2024/lekshmisree.jpg',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/es_ter_lla_",
                         github: "",
                         linkedin: "https://www.linkedin.com/in/lekshmi-sree-j"
                     }
@@ -3163,7 +3163,7 @@ export const getTeamMembers = async () => {
                     social: {
                         instagram: "https://www.instagram.com/a_n_u.t_i_j_i",
                         github: "",
-                        linkedin: "https://www.linkedin.com/in/anu-tiji-4b9896257/"
+                        linkedin: "https://www.linkedin.com/in/anu-tiji-4b9896257"
                     }
                 }, 
             ]
@@ -3383,63 +3383,63 @@ export const getTeamMembers = async () => {
                     position: 'Chief Executive Officer',
                    avatar: BASE_URL + '/assets/team/2021/antonyfernandez.png',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/_anto_ny_fernandez",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/antonyfernandez77"
                     }
                 }, {
                     name: ' Indhuchoodan R',
                     position: 'Cheif Technical Officer',
                    avatar: BASE_URL + '/assets/team/2021/induchoodan.png',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/_indhuchoodan_r_",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/indhuchoodan-r-58a824196"
                     }
                 }, {
                     name: ' Franklin Jetty Johnson',
                     position: 'Chief Financial Officer',
                    avatar: BASE_URL + '/assets/team/2021/franklin.png',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/jhonsfranky17",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/franklin-jetty-johnson-a02961170"
                     }
                 }, {
                     name: ' Thomas George',
                     position: 'Chief Marketing Officer',
                    avatar: BASE_URL + '/assets/team/2021/thomasgeorge.png',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/tommy._.zephyrus",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/tommycyki"
                     }
                 }, {
                     name: ' Ckesiah Mary Sam',
                     position: 'Chief Innovations Officer',
                    avatar: BASE_URL + '/assets/team/2021/ckeiah.png',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/ck_msj",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/ckesiah-mary-sam-65a48a224"
                     }
                 }, {
                     name: ' Jaike Jacob Binoy',
                     position: 'Chief Operations Officer',
                    avatar: BASE_URL + '/assets/team/2021/jaikejacob.png',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/whitedeist",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/jaike-jacob-binoy-3168ab180"
                     }
                 }, {
                     name: 'Sheril Susan Manu',
                     position: 'Chief Creative Officer',
                    avatar: BASE_URL + '/assets/team/2021/sherilsusan.png',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/susan_sheril",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/sheril-susan-manu-a423bb1a6"
                     }
                 }, {
                     name: ' Nikhil T Das',
@@ -3455,9 +3455,9 @@ export const getTeamMembers = async () => {
                     position: 'Stock Manager',
                    avatar: BASE_URL + '/assets/team/2021/meeramariam.png',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/merzm.e",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/meera-jacob-407a1a196/"
                     }
                 }, {
                     name: ' Anuraj T R',
@@ -3499,16 +3499,16 @@ export const getTeamMembers = async () => {
                     position: 'Chief Executive Officer',
                    avatar: BASE_URL + '/assets/team/2018-2020/layaanna.jpg',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/_laya.anna_",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/layaannalalan"
                     }
                 }, {
                     name: ' Midhun Murali',
                     position: 'Chief Technical Officer',
                    avatar: BASE_URL + '/assets/team/2018-2020/midhunmurali.jpg',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/midhun_art",
                         github: "",
                         linkedin: ""
                     }
@@ -3519,7 +3519,7 @@ export const getTeamMembers = async () => {
                     social: {
                         instagram: "",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/megha-manoj-598057162"
                     }
                 }, {
                     name: ' Karpaka Devi',
@@ -3546,16 +3546,16 @@ export const getTeamMembers = async () => {
                     social: {
                         instagram: "",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/johna-aswin-selva"
                     }
                 },{
                     name:' Justin Titus',
                     position: 'Chief Creative Officer',
                    avatar: BASE_URL + '/assets/team/2018-2020/justin.jpg',
                     social: {
-                        instagram: "",
+                        instagram: "https://www.instagram.com/justinkuriantitus",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/justin-titus-psycho-oncologist-151458a8"
                     }
                 }, {
                     name: ' Alan Varghese ',
@@ -3564,7 +3564,7 @@ export const getTeamMembers = async () => {
                     social: {
                         instagram: "",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/mindtraveller64"
                     }
                 },  
             ]
