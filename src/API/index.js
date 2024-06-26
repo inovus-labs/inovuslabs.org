@@ -2676,156 +2676,202 @@ export const getcurrentTeam = async () => {
                 {
                     name: ' Roji Thomas',
                     position: 'Nodal Officer',
-                    description: 'Nodal Officer fosters talent, guides IEDC growth, oversees committee. hahahahahahah',
+                    description: 'As Nodal Officer, I foster talent, guide growth, oversee committee selection.',
                     avatar: BASE_URL + '/assets/team/2024/Nodal Officer.jpg',
                     social: {
-                      facebook: ""
+                      instagram: "https://www.instagram.com/roji1978",
+                      github: "",
+                      linkedin: "https://www.linkedin.com/in/roji-thomas-thomas"
                     }
                 }, {
                     name: ' Cina Mathew',
-                    description: 'As Assistant Nodal Officer, I support talent, drive IEDC forward',
                     position: 'Assistant Nodal Officer',
+                    description: 'As Assistant Nodal Officer, I support talent, drive IEDC growth, aid committee selection.',
                    avatar: BASE_URL + '/assets/team/2024/Asst.Nodal Officer.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/cina_kadathukalam",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/cina-mathew-883372195"
                     }
                 }, {
                     name: ' Jithin Sha',
                     position: 'Mentor',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024/Mentor Jithin sha.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/last_riddler",
+                        github: "https://github.com/Waterloo",
+                        linkedin: "https://www.linkedin.com/in/jithinsha"
                     }
                 }, {
                     name: ' Arjun Krishna',
                     position: 'Mentor',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024/Mentor Arjun.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/decoded_cipher",
+                        github: "https://github.com/decoded-cipher",
+                        linkedin: "https://www.linkedin.com/in/-arjunkrishna"
                     }
-                },
-                {
+                }, {
                     name: ' Nikhil T Das',
                     position: 'Mentor',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024/Mentor Nikhil T Das.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/nikhil_dasz",
+                        github: "https://github.com/nikhiltdas",
+                        linkedin: "https://www.linkedin.com/in/nikhil-das-9404ab1a4"
                     }
-                },
-                {
+                }, {
                     name: ' Milan Sony',
                     position: 'Mentor',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024/Mentor  Milan.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/milansony_",
+                        github: "https://github.com/milan-sony",
+                        linkedin: "https://www.linkedin.com/in/milansony"
                     }
                 }, {
                     name: ' Abhishek V Gopal',
                     position: 'Chief Executive Officer',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: 'Hi I’m the CEO of inovus labs, provides effective guidance in coordinating events and activities of the community.',
                    avatar: BASE_URL + '/assets/team/2024/Chief Executive Officer.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/abhishek_oorukary_",
+                        github: "https://github.com/abhishek-v-gopal",
+                        linkedin: "https://www.linkedin.com/in/abhishekvgopal"
                     }
                 }, {
                     name: ' Badhusha Shaji',
                     position: 'Chief Technical Officer',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024/Chief Technical Officer.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/_badhu_._sha_",
+                        github: "https://github.com/Badhusha3214",
+                        linkedin: "https://www.linkedin.com/in/badhushashaji"
                     }
                 }, {
                     name: ' Arjun A Acharry',
                     position: 'Chief Operations Officer',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024/Chief Operations Officer.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/arjun_a_acharry",
+                        github: "https://github.com/arjunaacharry",
+                        linkedin: "https://www.linkedin.com/in/arjun-a-acharry"
                     }
                 }, {
                     name: ' Devika Anil',
                     position: 'Women In Tech',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: 'I’m the women in tech lead of inovus labs. I’m the one who lead and mentor all kind of women exclusive programs. I guide and mentor students and be the spearhead of all women exclusive programs.  ',
                    avatar: BASE_URL + '/assets/team/2024/Women in tech.jpg',
                     social: {
-                      facebook: ""
+                      instagram: "https://www.instagram.com/deh_wee",
+                        github: "https://github.com/Dev-vi-ka",
+                        linkedin: "https://www.linkedin.com/in/devika-anil-4b25492b3"
                     }
                 }, {
                     name: ' Lekshmi Sree J',
                     position: 'Chief Innovations Officer',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: 'An innovator is someone who introduces new ideas, methods, products, or processes, often with the aim of improving existing systems or creating entirely new ones. My tag is Chief innovation officer.',
                    avatar: BASE_URL + '/assets/team/2024/Chief Innovations Officer.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/es_ter_lla_",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/lekshmi-sree-j"
                     }
                 }, {
                     name: ' Joel Jacob Thomas',
                     position: 'Chief Creative Officer',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: 'I’m the creative lead of inovus labs, I’m monitor all kind of media production activities includes contents for social media, podcasts, posters, flyers and brochures for events.',
                    avatar: BASE_URL + '/assets/team/2024/Chief Creative Officer.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/joel_jacob04",
+                        github: "https://github.com/thomasjojacob04",
+                        linkedin: "https://www.linkedin.com/in/joel-jacob-283322262"
                     }
-                },{
+                }, {
                     name: ' Alen Rajan',
                     position: 'IPR & Research Lead',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024/IPR & Reserch Lead.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/alan-rajan-b938802b3"
                     }
                 }, {
                     name: ' Nithin Daniel',
                     position: 'Chief Finance Officer',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: 'I’m the financial lead of inovus labs IEDC, monitors all kind of financial transactions and the bill-laden of Inovus Labs.',
                    avatar: BASE_URL + '/assets/team/2024/Chief Finance Officer.jpg',
                     social: {
-                      facebook: ""
+                        instagram: "https://www.instagram.com/nithin_daniel_",
+                        github: "https://github.com/nithin-daniel",
+                        linkedin: "https://www.linkedin.com/in/nithindaniel"
                     }
                 }, {
-                    name: ' Amenda Maria Johnson',
+                    name: ' Anasuya S Kurup',
                     position: 'Chief Marketing Officer',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
-                   avatar: BASE_URL + '/assets/team/2024/Chief Marketing Officer.jpg',
+                    description: '',
+                   avatar: BASE_URL + '/assets/team/2024/Chief Marketing Officer anasuya.jpg',
                     social: {
-                      facebook: ""
+                      instagram: "https://www.instagram.com/anasuya_nadamel_",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/anasuya-s-kurup-60258624a"
                     }
                 }, {
                     name: ' Amith Abey Stephen',
                     position: 'Stock Manager',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024/Stock Manager.jpg',
                     social: {
-                      facebook: ""
+                      instagram: "https://www.instagram.com/amith_abey_stephen",
+                        github: "https://github.com/Amith-Abey-Stephen",
+                        linkedin: "https://www.linkedin.com/in/amith-abey-stephen"
                     }
                 }, {
                     name: ' Sane Sunil',
                     position: 'Project Manager',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024/Project Manager.jpg',
                     social: {
-                      facebook: ""
+                      instagram: "",
+                        github: "https://github.com/SanTechBoard",
+                        linkedin: ""
                     }
                 }, {
                     name: ' Angel K Agnes',
                     position: 'Community Lead',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024/Community Lead.jpg',
                     social: {
-                      facebook: ""
+                      instagram: "https://www.instagram.com/angelkagnes",
+                        github: "https://github.com/Angel-K-Agnes",
+                        linkedin: "https://www.linkedin.com/in/angel-k-agnes-a6127528b"
+                    }
+                }, {
+                    name: ' Amenda Maria Johnson',
+                    position: 'Chief Social Officer',
+                    description: '',
+                   avatar: BASE_URL + '/assets/team/2024/Chief Marketing Officer.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/amenda_maria",
+                        github: "https://github.com/Amendamaria",
+                        linkedin: "https://www.linkedin.com/in/amenda-maria-johnson-669420283"
                     }
                 }, {
                     name: ' Bhagya V',
-                    position: 'Event Curator',
-                    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, modi.',
+                    position: 'Chief Quality Officer',
+                    description: '',
                    avatar: BASE_URL + '/assets/team/2024/Event Curator.jpg',
                     social: {
-                      facebook: ""
+                      instagram: "https://www.instagram.com/bhagyaa._v",
+                        github: "https://github.com/Bhagyaa-V",
+                        linkedin: "https://www.linkedin.com/in/bhagyaa-v-013875294"
                     }
                 },
             ]
