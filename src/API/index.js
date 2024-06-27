@@ -1410,8 +1410,8 @@ export const getActivity = async () => {
                 "id": 61,
                 "title": "YIP 6.0  ",
                 // "thumbnail": BASE_URL + "/assets/activity/branding.png",
-                "description": "Inovus Labs played a crucial role in supporting students for the Young Innovators Program (YIP), guiding them through the idea submission process. By providing comprehensive assistance and fostering innovation, Inovus Labs helped students submit creative and impactful ideas that address societal challenges.  ",
-                "date": ["09 January 2024"],
+                "description": "We supported students for the Young Innovators Program (YIP) 6.0 , guiding them through the idea submission process. By providing comprehensive assistance and fostering innovation, we helped students submit creative and impactful ideas that address societal challenges.  ",
+                "date": ["09 January 2024","27 February 2024"],
                 "tags": ["Challenge"]
             }
         ]
