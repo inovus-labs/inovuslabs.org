@@ -906,14 +906,22 @@ export const getBlogPosts = async () => {
 export const getPodcasts = async () => {
 
     return [
+        //latest is added at the top
+        
+        {
+            id: "1LsmopRnxO9qZqaZFNz1IP"
+        },
+        {
+            id: "1hjB9fhd6X0VYVE4XVSYu0",
+        },
+        {
+            id: "1vGHYAQqzAQg7X7wNN0SQA",
+        },
         {
             id: "2TrSXp7Ry7dwMwqBM25Blw",
         },
         {
             id: "4NM5QuIiDVeUAy8FaKou4Q",
-        },
-        {
-            id: "1vGHYAQqzAQg7X7wNN0SQA",
         },
     ]
 
@@ -1394,7 +1402,7 @@ export const getActivity = async () => {
                 "id": 59,
                 "title": "Zephyr 2.0  ",
                 // "thumbnail": BASE_URL + "/assets/activity/branding.png",
-                "description": "The BCA Semester 2 students of Kristu Jyoti College, in collaboration with Inovus Labs IEDC, proudly presented Zephyr 2.0, a science exhibition. This event highlighted creativity and technology, gathering young minds to showcase innovative projects. Visitors interacted with demos, gaining hands-on experiences and insights.  ",
+                "description": "Inovus Labs collaborated with the BCA Semester-2 students of Kristu Jyoti College to proudly present Zephyr 2.0, a science exhibition. This event showcased creativity and technology, bringing together young minds to display innovative projects. Visitors enjoyed interactive demos, gaining hands-on experiences and valuable insights.  ",
                 "date": ["07 March 2024"],
                 "tags": ["Exhibition"]
             },
