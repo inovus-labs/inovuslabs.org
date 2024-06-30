@@ -907,7 +907,7 @@ export const getPodcasts = async () => {
 
     return [
         //latest is added at the top
-        
+
         {
             id: "1LsmopRnxO9qZqaZFNz1IP"
         },
@@ -1377,7 +1377,7 @@ export const getActivity = async () => {
             {
                 "id": 56,
                 "title": "Authentic Tech Masters ",
-                // "thumbnail": BASE_URL + "/assets/activity/branding.png",
+                "thumbnail": BASE_URL + "/assets/activity/authentic.jpg",
                 "description": "Authentic Tech Masters was a No Code/Low-Code Hackathon conducted by INOVUS LABS IEDC of Kristu Jyoti College. The primary objective of this hackathon was to inspire creativity and innovation among students, empowering them to develop functional applications without needing extensive coding knowledge. This event serves as a valuable opportunity to explore the potential of no-code/low-code tools, fostering a mindset of continuous learning and adaptability. By participating in this hackathon, students were encouraged to stay abreast of the latest advancements in software development, preparing them for the dynamic tech landscape.  ",
                 "date": ["14 February 2024"],
                 "tags": ["Challenge"]
@@ -1385,7 +1385,7 @@ export const getActivity = async () => {
             {
                 "id": 57,
                 "title": "Entrepreneurial Symposium ",
-                // "thumbnail": BASE_URL + "/assets/activity/branding.png",
+                "thumbnail": BASE_URL + "/assets/activity/symposium.jpg",
                 "description": "The Entrepreneurial Symposium was organized by INOVUS LABS IEDC of Kristu Jyoti College, aiming to introduce students to the world of entrepreneurship. This symposium provided insights into starting and managing a business, covering practical applications and real-world implementations. The event featured a diverse lineup of speakers who shared their expertise and experiences to enhance students’ understanding and inspire future entrepreneurs.  ",
                 "date": ["04 April 2024"],
                 "tags": ["Session"]
@@ -1393,7 +1393,7 @@ export const getActivity = async () => {
             {
                 "id": 58,
                 "title": "Ideathon ",
-                // "thumbnail": BASE_URL + "/assets/activity/branding.png",
+                "thumbnail": BASE_URL + "/assets/activity/zephyerideathon.jpg",
                 "description": "Inovus Labs organized an Ideathon during the Zephyr Science Exhibition on March 7, 2024. The event, themed 'Innovation for a Sustainable Future', aimed to encourage students to think creatively and develop innovative solutions to real-world problems. Open exclusively to students from Kristu Jyoti College of Management and Technology, the Ideathon provided a platform for participants to brainstorm and present their ideas in a collaborative and supportive environment. Inovus Labs fostered an atmosphere where unconventional thinking was celebrated, allowing students to freely explore and propose groundbreaking concepts without fear of judgment.  ",
                 "date": ["07 March 2024"],
                 "tags": ["Challenge"]
@@ -1401,15 +1401,15 @@ export const getActivity = async () => {
             {
                 "id": 59,
                 "title": "Zephyr 2.0  ",
-                // "thumbnail": BASE_URL + "/assets/activity/branding.png",
+                "thumbnail": BASE_URL + "/assets/activity/zephyer.jpg",
                 "description": "Inovus Labs collaborated with the BCA Semester-2 students of Kristu Jyoti College to proudly present Zephyr 2.0, a science exhibition. This event showcased creativity and technology, bringing together young minds to display innovative projects. Visitors enjoyed interactive demos, gaining hands-on experiences and valuable insights.  ",
                 "date": ["07 March 2024"],
                 "tags": ["Exhibition"]
             },
             {
                 "id": 60,
-                "title": "Orientation-Inovus Labs IEDC  ",
-                // "thumbnail": BASE_URL + "/assets/activity/branding.png",
+                "title": "Inovus-Orientation ",
+                "thumbnail": BASE_URL + "/assets/activity/sessionontimepsy.jpg",
                 "description": "The orientation session conducted by Inovus Labs IEDC for psychology students aimed to introduce them to the community, focusing on opportunities for creativity, innovation, and entrepreneurial development. The session concluded with an invitation for psychology students to actively engage in community activities, urging them to explore and contribute to initiatives within the community and the broader community, thereby fostering their creativity and entrepreneurial potential.  ",
                 "date": ["06 February 2024"],
                 "tags": ["Session"]
@@ -1417,7 +1417,7 @@ export const getActivity = async () => {
             {
                 "id": 61,
                 "title": "YIP 6.0  ",
-                // "thumbnail": BASE_URL + "/assets/activity/branding.png",
+                "thumbnail": BASE_URL + "/assets/activity/yip6.o.jpg",
                 "description": "We supported students for the Young Innovators Program (YIP) 6.0 , guiding them through the idea submission process. By providing comprehensive assistance and fostering innovation, we helped students submit creative and impactful ideas that address societal challenges.  ",
                 "date": ["09 January 2024","27 February 2024"],
                 "tags": ["Challenge"]
