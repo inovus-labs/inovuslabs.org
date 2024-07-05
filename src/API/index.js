@@ -951,7 +951,7 @@ export const getActivity = async () => {
             },
             {
                 "id": 3,
-                "title": "IoT workshop",
+                "title": "IoT workshop '23",
                 "thumbnail": BASE_URL + "/assets/activity/IOT23.jpg",
                 "description": "Taking the initial stride into the realm of IoT, interested students at KJCMT actively participated and achieved their first milestone in this technology.",
                 "date": [["19 July 2023", "20 July 2023"], "10 August 2023"],
@@ -1421,6 +1421,14 @@ export const getActivity = async () => {
                 "description": "We supported students for the Young Innovators Program (YIP) 6.0 , guiding them through the idea submission process. By providing comprehensive assistance and fostering innovation, we helped students submit creative and impactful ideas that address societal challenges.  ",
                 "date": ["09 January 2024","27 February 2024"],
                 "tags": ["Challenge"]
+            },
+            {
+                "id": 62,
+                "title": "Inovus-Orientation '24  ",
+                "thumbnail": BASE_URL + "/assets/activity/invous orientations.jpg",
+                "description": "The orientation session conducted by Inovus Labs IEDC for BCA,B.Sc Cyber Forensic students aimed to introduce them to the community, focusing on opportunities for creativity, innovation, and entrepreneurial development. The session concluded with an invitation for these students to actively engage in community activities, urging them to explore and contribute to initiatives within the community and the broader community, thereby fostering their creativity and entrepreneurial potential.  ",
+                "date": ["04 July 2024","05 July 2024"],
+                "tags": ["Session"]
             }
         ]
     };
@@ -1682,7 +1690,7 @@ export const getReccuringEvents = async () => {
                 "video": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 26.mp4",
                 "tags": ["Weekend Workbench"]
             },{
-                "id": 31,
+                "id": 33,
                 "date": "9 March 2024",
                 "title": "Weekend Workbench #27",
                 "description": "",
