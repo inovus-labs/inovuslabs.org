@@ -111,8 +111,8 @@
                     <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
                          Locate us on the map! 
                     </h1>
-                    <p class="text-lg font-light text-gray-500 lg:text-xl dark:text-gray-400">
-                         We are located in the heart of Kerala, India. We are a global team of innovators, creators, and educators. We are always looking for new opportunities to collaborate and build bridges.
+                    <p class="text-lg font-light text-gray-400 text-center">
+                         We are located in the heart of kerala
                     </p>
                 </div>
 
