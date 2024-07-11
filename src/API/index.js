@@ -939,7 +939,7 @@ export const getActivity = async () => {
                 "title": "Web Design Bootcamp v3.0",
                 "thumbnail": BASE_URL + "/assets/activity/WDB.jpg",
                 "description": "A nano degree program to develop the web designing skills of students at Kristu Jyoti college. It have been successfully completed and given the certificate of the nano degree program.",
-                "date": ["01 June 2023", "14 June 2013"],
+                "date": ["01 June 2023", "14 June 2023"],
                 "tags": ["Bootcamp"]
             },{
                 "id": 2,
@@ -954,7 +954,7 @@ export const getActivity = async () => {
                 "title": "IoT workshop '23",
                 "thumbnail": BASE_URL + "/assets/activity/IOT23.jpg",
                 "description": "Taking the initial stride into the realm of IoT, interested students at KJCMT actively participated and achieved their first milestone in this technology.",
-                "date": [["19 July 2023", "20 July 2023"], "10 August 2023"],
+                "date": ["19 July 2023", "10 August 2023"],
                 "tags": ["Workshop"]
             },
             {
@@ -1428,6 +1428,14 @@ export const getActivity = async () => {
                 "thumbnail": BASE_URL + "/assets/activity/invous orientations.jpg",
                 "description": "The orientation session conducted by Inovus Labs IEDC for BCA,B.Sc Cyber Forensic students aimed to introduce them to the community, focusing on opportunities for creativity, innovation, and entrepreneurial development. The session concluded with an invitation for these students to actively engage in community activities, urging them to explore and contribute to initiatives within the community and the broader community, thereby fostering their creativity and entrepreneurial potential.  ",
                 "date": ["04 July 2024","05 July 2024"],
+                "tags": ["Session"]
+            },
+            {
+                "id": 62,
+                "title": "Step One;Arduino Workshop",
+                "thumbnail": BASE_URL + "/assets/activity/stepOne.jpg",
+                "description": "StepOne is a series of events designed to provide foundational knowledge and essential first steps in various fields. The inaugural event, StepOne: Arduino Workshop, aims to introduce participants to the basics of IoT and robotics, offering hands-on experience and insights into these cutting-edge technologies.  ",
+                "date": ["02 August 2024"],
                 "tags": ["Session"]
             }
         ]
