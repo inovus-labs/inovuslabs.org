@@ -6,8 +6,8 @@
           <h1 class="mb-4 text-4xl font-semibold text-primary md:text-5xl lg:text-6xl">Sparking Tomorrow's Innovations.</h1>
           <p class="mb-8 text-lg font-light text-secondary lg:text-xl">Welcome all to the inovus community, a bunch of 21st century human beings. We provide the walls and you're the artist. Come join us to be a part of this journey of relevation.</p>
           <div class="flex flex-col space-y-4 sm:flex-row sm:justify-left sm:space-y-0 sm:space-x-4">
-            <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary hover:bg-secondary">
-              Get started
+            <a href="#latest" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded bg-primary hover:bg-secondary">
+             Get Latest events
               <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
               </svg>
@@ -24,9 +24,9 @@
     </section>
 
     <About />
-
+    <div id="latest">
     <ActiveEvents />
-
+  </div>
     <Partners />
 
     <Features />
