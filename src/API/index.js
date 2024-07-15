@@ -1388,7 +1388,8 @@ export const getActivity = async () => {
                 "thumbnail": BASE_URL + "/assets/activity/stepOne.jpg",
                 "description": "StepOne is a series of events designed to provide foundational knowledge and essential first steps in various fields. The inaugural event, StepOne: Arduino Workshop, aims to introduce participants to the basics of IoT and robotics, offering hands-on experience and insights into these cutting-edge technologies.  ",
                 "date": ["02 August 2024"],
-                "tags": ["Workshop"]
+                "tags": ["Workshop"],
+                "sitelink": ["https://stepone.inovuslabs.org"]
             }
         ]
     };
