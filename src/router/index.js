@@ -10,7 +10,6 @@ import OurTeamView from '@/views/OurTeamView.vue'
 import NewsView from '@/views/NewsView.vue'
 import SocialsView from '@/views/SocialsView.vue'
 import ReportsView from '@/views/ReportsView.vue'
-import LearningStories from '@/views/LearningStoriesView.vue'
 import BuggyNews from '@/views/BuggyNews.vue'
 
 import NowView from '@/views/NowView.vue'
@@ -19,7 +18,6 @@ import NowView from '@/views/NowView.vue'
 import MiniIotLabView from '@/views/MiniIotLabView.vue'
 import ActivityView from '@/views/ActivityView.vue'
 import NanodegreeView from '@/views/NanodegreeView.vue'
-import OtherEventsView from '@/views/OtherEventsView.vue'
 import ProjectView from '@/views/ProjectView.vue'
 import BlogView from '@/views/BlogView.vue'
 import PodcastView from '@/views/PodcastView.vue'
@@ -32,10 +30,8 @@ import ContactView from '@/views/ContactView.vue'
 
 // Guideline pages
 import GuidelinesView from '@/views/GuidelinesView.vue'
-import CodeOfConductView from '@/views/CodeOfConductView.vue'
 
 import NotFoundView from '@/views/404.vue'
-import MaintainanceView from '@/views/MaintainanceView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -82,12 +78,6 @@ const router = createRouter({
       component: OurTeamView,
       meta: { title: 'Our Team' }
     },
-    {
-      path: '/learning-stories',
-      name: 'learning-stories',
-      component: LearningStories,
-      meta: { title: 'Learning Stories' }
-    },
 
     // Navbar : Initiatives pages
     {
@@ -101,12 +91,6 @@ const router = createRouter({
       name: 'nanodegree',
       component: NanodegreeView,
       meta: { title: 'Nano Degree' }
-    },
-    {
-      path: '/other-events',
-      name: 'other-events',
-      component: OtherEventsView,
-      meta: { title: 'Other Events' }
     },
     {
       path: '/buggy',
@@ -193,12 +177,6 @@ const router = createRouter({
       name: 'iedc-guidelines',
       component: GuidelinesView,
       meta: { title: 'IEDC Guidelines' }
-    },
-    {
-      path: '/code-of-conduct',
-      name: 'code-of-conduct',
-      component: CodeOfConductView,
-      meta: { title: 'Code of Conduct' }
     },
 
     {
