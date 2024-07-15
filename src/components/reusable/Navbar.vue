@@ -66,7 +66,7 @@
                         </svg>
                     </button> -->
 
-                    <a href="https://stepone.inovuslabs.org" class="text-white bg-primary font-medium rounded text-sm px-4 py-2 md:px-5 md:py-2.5 hover:bg-opacity-90">Stepone: Arduino Wroskhop</a>
+                    <a href="#" class="text-white bg-primary font-medium rounded text-sm px-4 py-2 md:px-5 md:py-2.5 hover:bg-opacity-90">Join Inovus Labs</a>
 
                 </div>
             </template>
