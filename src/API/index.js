@@ -1707,15 +1707,15 @@ export const getSocialPosts = async () => {
         "instagram": [
             {
                 "id": 1,
-                "url": "https://www.instagram.com/reel/C4t6aT-PqeA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                "url": "https://www.instagram.com/reel/C9b6XYxR4mm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
             },
             {
                 "id": 2,
-                "url": "https://www.instagram.com/p/C4mgCZiJTpE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                "url": "https://www.instagram.com/p/C9P4HpDzhlT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
             },
             {
                 "id": 3,
-                "url": "https://www.instagram.com/reel/C4kzEu-plIy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                "url": "https://www.instagram.com/p/C9Fdt3Lp5fB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
             }
         ],
         "linkedin": [
@@ -1749,11 +1749,12 @@ export const getSocialPosts = async () => {
         "twitter": [
             {
                 "id": 1,
-                "url": "https://twitter.com/InovusLabs/status/1721051746947207352"
+                "url": "https://twitter.com/InovusLabs/status/1765107764559507711"
+        // Don't use X.com... it wont work "https://x.com/InovusLabs/status/1765107764559507711"
             },
             {
                 "id": 2,
-                "url": "https://twitter.com/InovusLabs/status/1715828644000813445"
+                "url": "https://twitter.com/InovusLabs/status/1754872488343802048"
             },
             {
                 "id": 3,
@@ -1763,15 +1764,15 @@ export const getSocialPosts = async () => {
         "threads": [
             {
                 "id": 1,
-                "url": "https://www.threads.net/@inovuslabs/post/CzM0DdUy5L_"
+                "url": "https://www.threads.net/@inovuslabs/post/C9QIdR1zunq"
             },
             {
                 "id": 2,
-                "url": "https://www.threads.net/@inovuslabs/post/CypSOuzJFDI"
+                "url": "https://www.threads.net/@inovuslabs/post/C79kWwEPdU3"
             },
             {
                 "id": 3,
-                "url": "https://www.threads.net/@inovuslabs/post/CyEkW87SkvN"
+                "url": "https://www.threads.net/@inovuslabs/post/C5mPvVXS2ye"
             }
         ]
     }
