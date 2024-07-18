@@ -1662,35 +1662,35 @@ export const getReccuringEvents = async () => {
                 "date": "16 March 2024",
                 "title": "Weekend Workbench #28",
                 "description": "",
-                "video": BASE_URL + "/assets/reccuringevents/workbench/Weekend Workbench  28.png.mp4",
+                "video": BASE_URL + "/assets/reccuringevents/workbench/WeekendWorkbench28.png.mp4 ",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 35,
                 "date": "23 March 2024",
                 "title": "Weekend Workbench #29",
                 "description": "",
-                "video": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 29.mp4",
+                "video": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench29.mp4 ",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 36,
                 "date": "30 March 2024",
                 "title": "Weekend Workbench #30",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 30.webp",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench30.webp ",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 37,
                 "date": "6 July 2024",
                 "title": "Weekend Workbench 2.0 #1",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/#1 Weekend Workebench 2.0.png",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/#1weekendworkebench2.0.png ",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 38,
                 "date": "13 July 2024",
                 "title": "Weekend Workbench 2.0 #2",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/#2 Weekend Workebench 2.0.jpg",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/#1weekendworkebench2.0.png ",
                 "tags": ["Weekend Workbench"]
             }
         ]
