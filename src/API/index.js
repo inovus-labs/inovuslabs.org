@@ -899,6 +899,8 @@ export const getBlogPosts = async () => {
     //     }
     // ];
 
+
+
     // Dynamic ->error -> Static Fetching
     
         const fallbackData = [
@@ -1851,6 +1853,20 @@ export const getReccuringEvents = async () => {
                 "id": 38,
                 "date": "13 July 2024",
                 "title": "Weekend Workbench 2.0 #2",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/#1weekendworkebench2.0.png ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 39,
+                "date": "20 July 2024",
+                "title": "Weekend Workbench 2.0 #3",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/#1weekendworkebench2.0.png ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 40,
+                "date": "27 July 2024",
+                "title": "Weekend Workbench 2.0 #4",
                 "description": "",
                 "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/#1weekendworkebench2.0.png ",
                 "tags": ["Weekend Workbench"]
