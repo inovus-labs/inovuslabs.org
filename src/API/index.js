@@ -900,7 +900,7 @@ export const getBlogPosts = async () => {
     // ];
 
     // Dynamic ->error -> Static Fetching
-    export const getBlogPosts = async () => {
+    
         const fallbackData = [
             {
                 "title": "Cyber Addiction & Recovery Methods",
@@ -1060,7 +1060,7 @@ export const getBlogPosts = async () => {
             return fallbackData;
         }
     }
-}
+
 
 
 
