@@ -699,205 +699,367 @@ export const getBlogPosts = async () => {
     //     console.log(error);
     // }
 
-    return [
-        {
-            "title": "Cyber Addiction & Recovery Methods",
-            "feature_image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRpZ2l0YWwlMjB3b3JsZHxlbnwwfHx8fDE3MDI5OTg4Njd8MA&ixlib=rb-4.0.3&q=80&w=2000",
-            "custom_excerpt": null,
-            "published_at": "2023-12-19T20:50:46.000+05:30",
-            "reading_time": 3,
-            "tags": [
-                {
-                    "id": "653f71fb5d18573f9b9f3d79",
-                    "name": "Science & Technology",
-                    "slug": "science-technology",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1607988795691-3d0147b43231?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxzY2llbmNlfGVufDB8fHx8MTY5ODkwMjM5OHww&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#617bff",
-                    "url": "https://blog.inovuslabs.org/tag/science-technology/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "6540bc590b27848ad6616f50",
-                    "name": "Arjun A Acharry",
-                    "slug": "arjun-a-acharry",
-                    "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
-                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
-                    "bio": null,
-                    "website": null,
-                    "location": null,
-                    "facebook": null,
-                    "twitter": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/cyber-addiction-recovery-methods/",
-            "excerpt": "CYBER ADDICTION\n\nAn excessive amount of time spent on computers, phones, or the internet is known as cyber addiction. It can be problematic in day-to-day living and lead to issues at job, school, or in relationships.\n\nSigns of Cyber Addiction:\n\n 1. Excessive Internet Use: Spending an inordinate amount of time online.\n 2. Negative Impact on Daily Life: Affecting work, school, or relationships adversely.\n 3. Loss of Control: Difficulty managing and limiting online activities.\n 4. Withdrawal Sympto",
-            "reading_time": 3
-        },
-        {
-            "title": "Rising from the Ashes: Restoring Inovus Blogs Post-Termination",
-            "feature_image": "https://images.unsplash.com/photo-1591913139332-f8172ef511da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRhdGElMjByZWNvdmVyeXxlbnwwfHx8fDE2OTkwNDUwOTJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
-            "custom_excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated.",
-            "published_at": "2023-11-04T03:20:00.000+05:30",
-            "reading_time": 6,
-            "tags": [
-                {
-                    "id": "653fc29ab14998447e1d37dd",
-                    "name": "Web Development",
-                    "slug": "web-development",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE2OTg5MDI5Mjh8MA&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#8aaf46",
-                    "url": "https://blog.inovuslabs.org/tag/web-development/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "653f7a27b14998447e1d36d5",
-                    "name": "Arjun Krishna",
-                    "slug": "arjun",
-                    "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
-                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/image-7.png",
-                    "bio": "Yet another human being born towards the end of the 20th century, and continues his Exploration & Experimentation on the Technology that the 21st century has to offer.",
-                    "website": "https://arjunkrishna.in/",
-                    "location": "Pathanamthitta | Bangalore",
-                    "facebook": null,
-                    "twitter": "@Decoded_Cipher",
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/arjun/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/restoring-inovus-blogs/",
-            "excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated."
-        },
-        {
-            "title": "Maladaptive Daydreaming: Creating A Utopia Equivalent To A Bottomless Pit",
-            "feature_image": "https://blog.inovuslabs.org/content/images/2023/10/index.jpeg",
-            "custom_excerpt": null,
-            "published_at": "2023-10-21T14:26:00.000+05:30",
-            "reading_time": 4,
-            "tags": [
-                {
-                    "id": "653f70e95d18573f9b9f3d73",
-                    "name": "Psychology",
-                    "slug": "psychology",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1573511860302-28c524319d2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHBzeWNob2xvZ3l8ZW58MHx8fHwxNjk4OTAyNzgwfDA&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#3eb8c1",
-                    "url": "https://blog.inovuslabs.org/tag/psychology/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "654cb82cd6af5204882b104e",
-                    "name": "Athena Maria Vadakan",
-                    "slug": "athena",
-                    "profile_image": null,
-                    "cover_image": null,
-                    "bio": null,
-                    "website": null,
-                    "location": null,
-                    "facebook": null,
-                    "twitter": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/athena/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/maladaptive-daydreaming/",
-            "excerpt": "You're not stuck. You're just committed to certain patterns of behavior because they helped you in the past. Now those behaviors have become more harmful than helpful. The reason why you can't move forward is because you keep applying an old formula to a new level of life. Change the formula to get a different result. - Emily Maroutian \n\nAs long as Samira can remember, she was really quiet. But she also had a goofy and imaginative side just like any other children. Because of her shyness and pas"
-        },
-        {
-            "title": "Instagram VS Mental Health",
-            "feature_image": "https://blog.inovuslabs.org/content/images/2023/10/photo-1535451801241-b5395e1d4a1b.jpg",
-            "custom_excerpt": null,
-            "published_at": "2023-10-06T01:10:00.000+05:30",
-            "reading_time": 2,
-            "tags": [
-                {
-                    "id": "653f70e95d18573f9b9f3d73",
-                    "name": "Psychology",
-                    "slug": "psychology",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1573511860302-28c524319d2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHBzeWNob2xvZ3l8ZW58MHx8fHwxNjk4OTAyNzgwfDA&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#3eb8c1",
-                    "url": "https://blog.inovuslabs.org/tag/psychology/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "6540bc590b27848ad6616f50",
-                    "name": "Arjun A Acharry",
-                    "slug": "arjun-a-acharry",
-                    "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
-                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
-                    "bio": null,
-                    "website": null,
-                    "location": null,
-                    "facebook": null,
-                    "twitter": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/instagram-vs-health/",
-            "excerpt": "Instagram is a popular social media platform and mobile app designed for sharing photos and videos. It was launched in October 2010 and has since become one of the most widely used social networking platforms in the world. Instagram allows users to create profiles, post photos and videos, and interact with others through likes, comments, and direct messages.\n\nInstagram has evolved significantly since its inception and has played a crucial role in shaping how people share and consume visual conte"
+    // return [
+    //     {
+    //         "title": "Cyber Addiction & Recovery Methods",
+    //         "feature_image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRpZ2l0YWwlMjB3b3JsZHxlbnwwfHx8fDE3MDI5OTg4Njd8MA&ixlib=rb-4.0.3&q=80&w=2000",
+    //         "custom_excerpt": null,
+    //         "published_at": "2023-12-19T20:50:46.000+05:30",
+    //         "reading_time": 3,
+    //         "tags": [
+    //             {
+    //                 "id": "653f71fb5d18573f9b9f3d79",
+    //                 "name": "Science & Technology",
+    //                 "slug": "science-technology",
+    //                 "description": null,
+    //                 "feature_image": "https://images.unsplash.com/photo-1607988795691-3d0147b43231?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxzY2llbmNlfGVufDB8fHx8MTY5ODkwMjM5OHww&ixlib=rb-4.0.3&q=80&w=2000",
+    //                 "visibility": "public",
+    //                 "og_image": null,
+    //                 "og_title": null,
+    //                 "og_description": null,
+    //                 "twitter_image": null,
+    //                 "twitter_title": null,
+    //                 "twitter_description": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "codeinjection_head": null,
+    //                 "codeinjection_foot": null,
+    //                 "canonical_url": null,
+    //                 "accent_color": "#617bff",
+    //                 "url": "https://blog.inovuslabs.org/tag/science-technology/"
+    //             }
+    //         ],
+    //         "authors": [
+    //             {
+    //                 "id": "6540bc590b27848ad6616f50",
+    //                 "name": "Arjun A Acharry",
+    //                 "slug": "arjun-a-acharry",
+    //                 "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+    //                 "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+    //                 "bio": null,
+    //                 "website": null,
+    //                 "location": null,
+    //                 "facebook": null,
+    //                 "twitter": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+    //             }
+    //         ],
+    //         "url": "https://blog.inovuslabs.org/cyber-addiction-recovery-methods/",
+    //         "excerpt": "CYBER ADDICTION\n\nAn excessive amount of time spent on computers, phones, or the internet is known as cyber addiction. It can be problematic in day-to-day living and lead to issues at job, school, or in relationships.\n\nSigns of Cyber Addiction:\n\n 1. Excessive Internet Use: Spending an inordinate amount of time online.\n 2. Negative Impact on Daily Life: Affecting work, school, or relationships adversely.\n 3. Loss of Control: Difficulty managing and limiting online activities.\n 4. Withdrawal Sympto",
+    //         "reading_time": 3
+    //     },
+    //     {
+    //         "title": "Rising from the Ashes: Restoring Inovus Blogs Post-Termination",
+    //         "feature_image": "https://images.unsplash.com/photo-1591913139332-f8172ef511da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRhdGElMjByZWNvdmVyeXxlbnwwfHx8fDE2OTkwNDUwOTJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
+    //         "custom_excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated.",
+    //         "published_at": "2023-11-04T03:20:00.000+05:30",
+    //         "reading_time": 6,
+    //         "tags": [
+    //             {
+    //                 "id": "653fc29ab14998447e1d37dd",
+    //                 "name": "Web Development",
+    //                 "slug": "web-development",
+    //                 "description": null,
+    //                 "feature_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE2OTg5MDI5Mjh8MA&ixlib=rb-4.0.3&q=80&w=2000",
+    //                 "visibility": "public",
+    //                 "og_image": null,
+    //                 "og_title": null,
+    //                 "og_description": null,
+    //                 "twitter_image": null,
+    //                 "twitter_title": null,
+    //                 "twitter_description": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "codeinjection_head": null,
+    //                 "codeinjection_foot": null,
+    //                 "canonical_url": null,
+    //                 "accent_color": "#8aaf46",
+    //                 "url": "https://blog.inovuslabs.org/tag/web-development/"
+    //             }
+    //         ],
+    //         "authors": [
+    //             {
+    //                 "id": "653f7a27b14998447e1d36d5",
+    //                 "name": "Arjun Krishna",
+    //                 "slug": "arjun",
+    //                 "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
+    //                 "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/image-7.png",
+    //                 "bio": "Yet another human being born towards the end of the 20th century, and continues his Exploration & Experimentation on the Technology that the 21st century has to offer.",
+    //                 "website": "https://arjunkrishna.in/",
+    //                 "location": "Pathanamthitta | Bangalore",
+    //                 "facebook": null,
+    //                 "twitter": "@Decoded_Cipher",
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "url": "https://blog.inovuslabs.org/author/arjun/"
+    //             }
+    //         ],
+    //         "url": "https://blog.inovuslabs.org/restoring-inovus-blogs/",
+    //         "excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated."
+    //     },
+    //     {
+    //         "title": "Maladaptive Daydreaming: Creating A Utopia Equivalent To A Bottomless Pit",
+    //         "feature_image": "https://blog.inovuslabs.org/content/images/2023/10/index.jpeg",
+    //         "custom_excerpt": null,
+    //         "published_at": "2023-10-21T14:26:00.000+05:30",
+    //         "reading_time": 4,
+    //         "tags": [
+    //             {
+    //                 "id": "653f70e95d18573f9b9f3d73",
+    //                 "name": "Psychology",
+    //                 "slug": "psychology",
+    //                 "description": null,
+    //                 "feature_image": "https://images.unsplash.com/photo-1573511860302-28c524319d2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHBzeWNob2xvZ3l8ZW58MHx8fHwxNjk4OTAyNzgwfDA&ixlib=rb-4.0.3&q=80&w=2000",
+    //                 "visibility": "public",
+    //                 "og_image": null,
+    //                 "og_title": null,
+    //                 "og_description": null,
+    //                 "twitter_image": null,
+    //                 "twitter_title": null,
+    //                 "twitter_description": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "codeinjection_head": null,
+    //                 "codeinjection_foot": null,
+    //                 "canonical_url": null,
+    //                 "accent_color": "#3eb8c1",
+    //                 "url": "https://blog.inovuslabs.org/tag/psychology/"
+    //             }
+    //         ],
+    //         "authors": [
+    //             {
+    //                 "id": "654cb82cd6af5204882b104e",
+    //                 "name": "Athena Maria Vadakan",
+    //                 "slug": "athena",
+    //                 "profile_image": null,
+    //                 "cover_image": null,
+    //                 "bio": null,
+    //                 "website": null,
+    //                 "location": null,
+    //                 "facebook": null,
+    //                 "twitter": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "url": "https://blog.inovuslabs.org/author/athena/"
+    //             }
+    //         ],
+    //         "url": "https://blog.inovuslabs.org/maladaptive-daydreaming/",
+    //         "excerpt": "You're not stuck. You're just committed to certain patterns of behavior because they helped you in the past. Now those behaviors have become more harmful than helpful. The reason why you can't move forward is because you keep applying an old formula to a new level of life. Change the formula to get a different result. - Emily Maroutian \n\nAs long as Samira can remember, she was really quiet. But she also had a goofy and imaginative side just like any other children. Because of her shyness and pas"
+    //     },
+    //     {
+    //         "title": "Instagram VS Mental Health",
+    //         "feature_image": "https://blog.inovuslabs.org/content/images/2023/10/photo-1535451801241-b5395e1d4a1b.jpg",
+    //         "custom_excerpt": null,
+    //         "published_at": "2023-10-06T01:10:00.000+05:30",
+    //         "reading_time": 2,
+    //         "tags": [
+    //             {
+    //                 "id": "653f70e95d18573f9b9f3d73",
+    //                 "name": "Psychology",
+    //                 "slug": "psychology",
+    //                 "description": null,
+    //                 "feature_image": "https://images.unsplash.com/photo-1573511860302-28c524319d2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHBzeWNob2xvZ3l8ZW58MHx8fHwxNjk4OTAyNzgwfDA&ixlib=rb-4.0.3&q=80&w=2000",
+    //                 "visibility": "public",
+    //                 "og_image": null,
+    //                 "og_title": null,
+    //                 "og_description": null,
+    //                 "twitter_image": null,
+    //                 "twitter_title": null,
+    //                 "twitter_description": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "codeinjection_head": null,
+    //                 "codeinjection_foot": null,
+    //                 "canonical_url": null,
+    //                 "accent_color": "#3eb8c1",
+    //                 "url": "https://blog.inovuslabs.org/tag/psychology/"
+    //             }
+    //         ],
+    //         "authors": [
+    //             {
+    //                 "id": "6540bc590b27848ad6616f50",
+    //                 "name": "Arjun A Acharry",
+    //                 "slug": "arjun-a-acharry",
+    //                 "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+    //                 "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+    //                 "bio": null,
+    //                 "website": null,
+    //                 "location": null,
+    //                 "facebook": null,
+    //                 "twitter": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+    //             }
+    //         ],
+    //         "url": "https://blog.inovuslabs.org/instagram-vs-health/",
+    //         "excerpt": "Instagram is a popular social media platform and mobile app designed for sharing photos and videos. It was launched in October 2010 and has since become one of the most widely used social networking platforms in the world. Instagram allows users to create profiles, post photos and videos, and interact with others through likes, comments, and direct messages.\n\nInstagram has evolved significantly since its inception and has played a crucial role in shaping how people share and consume visual conte"
+    //     }
+    // ];
+
+    // Dynamic ->error -> Static Fetching
+    export const getBlogPosts = async () => {
+        const fallbackData = [
+            {
+                "title": "Cyber Addiction & Recovery Methods",
+                "feature_image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRpZ2l0YWwlMjB3b3JsZHxlbnwwfHx8fDE3MDI5OTg4Njd8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                "custom_excerpt": null,
+                "published_at": "2023-12-19T20:50:46.000+05:30",
+                "reading_time": 3,
+                "tags": [
+                    {
+                        "id": "653f71fb5d18573f9b9f3d79",
+                        "name": "Science & Technology",
+                        "slug": "science-technology",
+                        "description": null,
+                        "feature_image": "https://images.unsplash.com/photo-1607988795691-3d0147b43231?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxzY2llbmNlfGVufDB8fHx8MTY5ODkwMjM5OHww&ixlib=rb-4.0.3&q=80&w=2000",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#617bff",
+                        "url": "https://blog.inovuslabs.org/tag/science-technology/"
+                    }
+                ],
+                "authors": [
+                    {
+                        "id": "6540bc590b27848ad6616f50",
+                        "name": "Arjun A Acharry",
+                        "slug": "arjun-a-acharry",
+                        "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+                        "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+                        "bio": null,
+                        "website": null,
+                        "location": null,
+                        "facebook": null,
+                        "twitter": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/cyber-addiction-recovery-methods/",
+                "excerpt": "CYBER ADDICTION\n\nAn excessive amount of time spent on computers, phones, or the internet is known as cyber addiction. It can be problematic in day-to-day living and lead to issues at job, school, or in relationships.\n\nSigns of Cyber Addiction:\n\n 1. Excessive Internet Use: Spending an inordinate amount of time online.\n 2. Negative Impact on Daily Life: Affecting work, school, or relationships adversely.\n 3. Loss of Control: Difficulty managing and limiting online activities.\n 4. Withdrawal Sympto",
+                "reading_time": 3
+            },
+            {
+                "title": "Rising from the Ashes: Restoring Inovus Blogs Post-Termination",
+                "feature_image": "https://images.unsplash.com/photo-1591913139332-f8172ef511da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRhdGElMjByZWNvdmVyeXxlbnwwfHx8fDE2OTkwNDUwOTJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                "custom_excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated.",
+                "published_at": "2023-11-04T03:20:00.000+05:30",
+                "reading_time": 6,
+                "tags": [
+                    {
+                        "id": "653fc29ab14998447e1d37dd",
+                        "name": "Web Development",
+                        "slug": "web-development",
+                        "description": null,
+                        "feature_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE2OTg5MDI5Mjh8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#8aaf46",
+                        "url": "https://blog.inovuslabs.org/tag/web-development/"
+                    }
+                ],
+                "authors": [
+                    {
+                        "id": "653f7a27b14998447e1d36d5",
+                        "name": "Arjun Krishna",
+                        "slug": "arjun",
+                        "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
+                        "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/image-7.png",
+                        "bio": "Yet another human being born towards the end of the 20th century, and continues his Exploration & Experimentation on the Technology that the 21st century has to offer.",
+                        "website": "https://arjunkrishna.in/",
+                        "location": "Pathanamthitta | Bangalore",
+                        "facebook": null,
+                        "twitter": "@Decoded_Cipher",
+                        "meta_title": null,
+                        "meta_description": null,
+                        "url": "https://blog.inovuslabs.org/author/arjun/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/restoring-inovus-blogs/",
+                "excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated."
+            },
+            {
+                "title": "Maladaptive Daydreaming: Creating A Utopia Equivalent To A Bottomless Pit",
+                "feature_image": "https://blog.inovuslabs.org/content/images/2023/10/index.jpeg",
+                "custom_excerpt": null,
+                "published_at": "2023-10-21T14:26:00.000+05:30",
+                "reading_time": 5,
+                "tags": [
+                    {
+                        "id": "653fc2aab14998447e1d37df",
+                        "name": "Research & Academia",
+                        "slug": "research-academia",
+                        "description": null,
+                        "feature_image": "https://images.unsplash.com/photo-1591926296312-cd9664b46d0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHdlYnxlbnwwfHx8fDE2OTkwMjM3NzJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#d27db0",
+                        "url": "https://blog.inovuslabs.org/tag/research-academia/"
+                    }
+                ],
+                "authors": [
+                    {
+                        "id": "654c37de07b24d75e4963984",
+                        "name": "Athena Maria Vadakan",
+                        "slug": "athena-maria-vadakan",
+                        "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/IMG_0026.JPG",
+                        "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+                        "bio": "A student, majoring in Psychology and Philosophy, who is curious about mental health, ethics, and intersectionality.",
+                        "website": null,
+                        "location": null,
+                        "facebook": null,
+                        "twitter": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "url": "https://blog.inovuslabs.org/author/athena-maria-vadakan/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/maladaptive-daydreaming/",
+                "excerpt": "MD is an excessive form of daydreaming characterized by a high level of vividness and immersion, which often interferes with daily functioning."
+            }
+        ];
+
+        try {
+            const res = await axios.get(`${import.meta.env.VITE_APP_INOVUS_BLOGS_BASE_URL}/ghost/api/content/posts/?key=${import.meta.env.VITE_APP_INOVUS_BLOGS_API_KEY}&limit=4&fields=title,feature_image,custom_excerpt,excerpt,published_at,url,reading_time,html&include=tags,authors`);
+            return res.data.posts;
+        } catch (error) {
+            console.error('Error fetching data from API, using fallback data:', error);
+            return fallbackData;
         }
-    ];
+    }
 }
 
 
