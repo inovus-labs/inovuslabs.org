@@ -1847,28 +1847,28 @@ export const getReccuringEvents = async () => {
                 "date": "6 July 2024",
                 "title": "Weekend Workbench 2.0 #1",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/#1weekendworkebench2.0.png ",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkebench2.0.1.png ",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 38,
                 "date": "13 July 2024",
                 "title": "Weekend Workbench 2.0 #2",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/#1weekendworkebench2.0.png ",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/WeekendWorkebench2.0.2.jpg",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 39,
                 "date": "20 July 2024",
                 "title": "Weekend Workbench 2.0 #3",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/#1weekendworkebench2.0.png ",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 2.0.3.jpg",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 40,
                 "date": "27 July 2024",
                 "title": "Weekend Workbench 2.0 #4",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/#1weekendworkebench2.0.png ",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 2.0.4.jpg",
                 "tags": ["Weekend Workbench"]
             }
         ]
