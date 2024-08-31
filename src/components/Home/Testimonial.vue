@@ -121,14 +121,14 @@ export default {
                     name: 'Maria John',
                     position: 'Assistant Professor, Department of Geology, Kristu Jyoti College',
                     image: BASE_URL + '/assets/Testimonials/mariya.jpg',
-                    text: 'Brillinat effort from the students of Inovus Club. Great Appreciation for your hardwork. Let this be useful(especially the report generating software) to all. Looking forward for more innovations. Best Wishes'
+                    text: 'Brillinat effort from the students of Inovus Labs. Great Appreciation for your hardwork. Let this be useful(especially the report generating software) to all. Looking forward for more innovations. Best Wishes'
                 },
                 {
                     id: 8,
                     name: 'Shihabudeen M',
                     position: 'Assistant Professor, Department of Commerce, Kristu Jyoti College',
                     image: BASE_URL + '/assets/Testimonials/shihab.jpg',
-                    text: 'Docgen: From INOVUS LABS, great initiative about this web. More effective for the departments of the college. Congratulations to all members behind this project. Best wishes for your endeavors.'
+                    text: 'Docgen: From INOVUS LABS, great initiative about this web application. More effective for the departments of the college. Congratulations to all members behind this project. Best wishes for your endeavors.'
                 }
 
             ]
