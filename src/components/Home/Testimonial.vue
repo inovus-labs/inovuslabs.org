@@ -106,6 +106,34 @@
                         position: 'Chairman, LEAD College of Management',
                         image: BASE_URL + '/assets/Testimonials/thomman.jpg',
                         text: 'Special Congratulations to team Inovus Labs IEDC of Kristu Jyoti. The students are highly motivated and ambitious.They are open to learn and ready to implement their creativity. The faculty members and college management are highly supportive'
+                    },
+                    {
+                        id: 5,
+                        name: 'Gopika Sali',
+                        position: 'Assistant Professor, Department of Geology, Kristu Jyoti College',
+                        image: BASE_URL + '/assets/Testimonials/',
+                        text: 'Excellent initative by the students of Inovus Labs. Sincere appreciation for your effort.'
+                    },
+                    {
+                        id: 6,
+                        name: 'Luna Johny',
+                        position: 'Assistant Professor, Department of Geology, Kristu Jyoti College',
+                        image: BASE_URL + '/assets/Testimonials/',
+                        text: 'I appreciate the initative by the students of Inovus. Keep up the hardwork. Best Wishes'
+                    },
+                    {
+                        id: 7,
+                        name: 'Maria John',
+                        position: `Assistant Professor, Department of Geology, Kristu Jyoti College`,
+                        image: BASE_URL + '/assets/Testimonials/',
+                        text: 'Brillinat effort from the students of Inovus Club. Great Appreciation for your hardwork. Let this be useful(especially the report generating software) to all. Looking forward for more innovations. Best Wishes'
+                    },
+                    {
+                        id: 8,
+                        name: 'Shihabudeen M',
+                        position: 'Assistant Professor, Department of Commerce, Kristu Jyoti College',
+                        image: BASE_URL + '/assets/Testimonials/',
+                        text: 'Docgen: From INOVUS LABS, great initiative about this web. More effective for the departments of the college. Congratulations to all members behind this project. Best wishes for your endeavors.'
                     }
                 ]
             }
