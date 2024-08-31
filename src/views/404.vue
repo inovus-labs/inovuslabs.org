@@ -1,20 +1,20 @@
 
 <template>
-    <ErrorLayout>
+
 
 
         <section class="bg-bgPrimary">
             <div class="flex h-screen mx-auto w-screen p-4 items-center justify-center">
 
                 <div class="w-full lg:w-1/3">
-                    <!-- <img class="w-full h-full" src="../../public/assets/illustrations/404.svg" alt="404" /> -->
+                    <img class="w-full h-full" src="https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/illustrations/404.svg" alt="" />
                 </div>
 
             </div>
         </section>
 
 
-    </ErrorLayout>
+
 </template>
 
 
