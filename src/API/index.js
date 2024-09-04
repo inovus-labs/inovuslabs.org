@@ -1,3 +1,5 @@
+// /reports update
+// mini IoT lab images
 
 import axios from 'axios';
 
