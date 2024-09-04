@@ -1885,29 +1885,29 @@ export const getSocialPosts = async () => {
         "instagram": [
             {
                 "id": 1,
-                "url": "https://www.instagram.com/reel/C9b6XYxR4mm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                "url": "https://www.instagram.com/reel/C_Dprb8skVw/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 2,
-                "url": "https://www.instagram.com/p/C9P4HpDzhlT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                "url": "https://www.instagram.com/p/C_ChYRITD2u/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 3,
-                "url": "https://www.instagram.com/p/C9Fdt3Lp5fB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                "url": "https://www.instagram.com/p/C_BPNxtzvEL/?utm_source=ig_embed&amp;utm_campaign=loading"
             }
         ],
         "linkedin": [
             {
                 "id": 1,
-                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7171846636627812352"
+                "url": "https://www.linkedin.com/feed/update/urn:li:share:7235872064065167360"
             },
             {
                 "id": 2,
-                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7171590341177925634"
+                "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7217172943926095873"
             },
             {
                 "id": 3,
-                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7164639903383797760    "
+                "url": "https://www.linkedin.com/feed/update/urn:li:share:7216836242724806658"
             }
         ],
         "youtube": [
