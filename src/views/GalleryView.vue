@@ -125,7 +125,9 @@
         })
       );
 
-      this.images = images;
+      
+
+      this.images = images.reverse();
       this.proceed = true;
     },
 
