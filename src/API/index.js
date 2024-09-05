@@ -907,18 +907,18 @@ export const getBlogPosts = async () => {
     
         const fallbackData = [
             {
-                "title": "Cyber Addiction & Recovery Methods",
-                "feature_image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRpZ2l0YWwlMjB3b3JsZHxlbnwwfHx8fDE3MDI5OTg4Njd8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                "title": "The Power of Collective Thought: Are We All Thinking the Same Thing?",
+                "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/08/a-vibrant-and-diverse-group-of-individuals-from-va-3DzbEak-SGmQiJT-_YgFsA-M-CW92lRQoiEisAf8B7e8A.jpeg",
                 "custom_excerpt": null,
-                "published_at": "2023-12-19T20:50:46.000+05:30",
+                "published_at": "2024-08-13T20:50:46.000+05:30",
                 "reading_time": 3,
                 "tags": [
                     {
                         "id": "653f71fb5d18573f9b9f3d79",
-                        "name": "Science & Technology",
-                        "slug": "science-technology",
+                        "name": "Free Thinking",
+                        "slug": "freethinking",
                         "description": null,
-                        "feature_image": "https://images.unsplash.com/photo-1607988795691-3d0147b43231?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxzY2llbmNlfGVufDB8fHx8MTY5ODkwMjM5OHww&ixlib=rb-4.0.3&q=80&w=2000",
+                        "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/08/a-vibrant-and-diverse-group-of-individuals-from-va-3DzbEak-SGmQiJT-_YgFsA-M-CW92lRQoiEisAf8B7e8A.jpeg",
                         "visibility": "public",
                         "og_image": null,
                         "og_title": null,
@@ -932,7 +932,7 @@ export const getBlogPosts = async () => {
                         "codeinjection_foot": null,
                         "canonical_url": null,
                         "accent_color": "#617bff",
-                        "url": "https://blog.inovuslabs.org/tag/science-technology/"
+                        "url": "https://blog.inovuslabs.org/tag/freethinking/"
                     }
                 ],
                 "authors": [
@@ -952,17 +952,66 @@ export const getBlogPosts = async () => {
                         "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
                     }
                 ],
-                "url": "https://blog.inovuslabs.org/cyber-addiction-recovery-methods/",
-                "excerpt": "CYBER ADDICTION\n\nAn excessive amount of time spent on computers, phones, or the internet is known as cyber addiction. It can be problematic in day-to-day living and lead to issues at job, school, or in relationships.\n\nSigns of Cyber Addiction:\n\n 1. Excessive Internet Use: Spending an inordinate amount of time online.\n 2. Negative Impact on Daily Life: Affecting work, school, or relationships adversely.\n 3. Loss of Control: Difficulty managing and limiting online activities.\n 4. Withdrawal Sympto",
+                "url": "https://blog.inovuslabs.org/are-we-all-thinking-the-same-thing/",
+                "excerpt": "In our fast-paced, interconnected world, the power of thought is astonishing. Each of us has the ability to think, create, and dream. Yet, in this vast sea of human consciousness, it's remarkable how often people around the globe find themselves thinking the same thoughts at the same time.",
                 "reading_time": 3
             },
             {
-                "title": "Rising from the Ashes: Restoring Inovus Blogs Post-Termination",
-                "feature_image": "https://images.unsplash.com/photo-1591913139332-f8172ef511da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRhdGElMjByZWNvdmVyeXxlbnwwfHx8fDE2OTkwNDUwOTJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
-                "custom_excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated.",
-                "published_at": "2023-11-04T03:20:00.000+05:30",
+                "title": "എന്തുകൊണ്ട് ഇന്ത്യയിൽ നിന്ന് ഒരു മൈക്രോസോഫ്റ്റോ ഗൂഗിളോ ആപ്പിളോ ഉണ്ടാകുന്നില്ല?",
+                "feature_image": "https://images.unsplash.com/photo-1614680376408-81e91ffe3db7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIxfHx3aGF0c2FwcHxlbnwwfHx8fDE3MjIzMjk5MjJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                "custom_excerpt": "Check out this insightful WhatsApp post that I felt compelled to share. It's a quick read that I believe many will find valuable.",
+                "published_at": "2024-07-30T03:20:00.000+05:30",
                 "reading_time": 6,
                 "tags": [
+                    {
+                        "id": "653fc29ab14998447e1d37dd",
+                        "name": "Education",
+                        "slug": "education",
+                        "description": null,
+                        "feature_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE2OTg5MDI5Mjh8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#8aaf46",
+                        "url": "https://blog.inovuslabs.org/tag/education/"
+                    }
+                ],
+                "authors" :[
+                    {
+                    "id": "1",
+                    "name": "Inovus Labs IEDC",
+                    "slug": "inovuslabs",
+                    "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/Inovus_Logo-PNG-3.png",
+                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/12/0.jpg",
+                    "bio": null,
+                    "website": "https://inovuslabs.org/",
+                    "location": null,
+                    "facebook": null,
+                    "twitter": "@InovusLabs",
+                    "meta_title": null,
+                    "meta_description": null,
+                    "url": "https://blog.inovuslabs.org/author/inovuslabs/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/a-whatsapp-post-worth-reading/",
+                "excerpt": "Check out this insightful WhatsApp post that I felt compelled to share. It's a quick read that I believe many will find valuable."
+            },
+            {
+                "title": "It works on my machine... Not on yours... But why? Let's talk Docker!",
+                "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/07/Frame-1.png",
+                "custom_excerpt": null,
+                "published_at": "2024-07-10T14:26:00.000+05:30",
+                "reading_time": 5,
+               "tags": [
                     {
                         "id": "653fc29ab14998447e1d37dd",
                         "name": "Web Development",
@@ -1002,62 +1051,13 @@ export const getBlogPosts = async () => {
                         "url": "https://blog.inovuslabs.org/author/arjun/"
                     }
                 ],
-                "url": "https://blog.inovuslabs.org/restoring-inovus-blogs/",
-                "excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated."
-            },
-            {
-                "title": "Maladaptive Daydreaming: Creating A Utopia Equivalent To A Bottomless Pit",
-                "feature_image": "https://blog.inovuslabs.org/content/images/2023/10/index.jpeg",
-                "custom_excerpt": null,
-                "published_at": "2023-10-21T14:26:00.000+05:30",
-                "reading_time": 5,
-                "tags": [
-                    {
-                        "id": "653fc2aab14998447e1d37df",
-                        "name": "Research & Academia",
-                        "slug": "research-academia",
-                        "description": null,
-                        "feature_image": "https://images.unsplash.com/photo-1591926296312-cd9664b46d0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHdlYnxlbnwwfHx8fDE2OTkwMjM3NzJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
-                        "visibility": "public",
-                        "og_image": null,
-                        "og_title": null,
-                        "og_description": null,
-                        "twitter_image": null,
-                        "twitter_title": null,
-                        "twitter_description": null,
-                        "meta_title": null,
-                        "meta_description": null,
-                        "codeinjection_head": null,
-                        "codeinjection_foot": null,
-                        "canonical_url": null,
-                        "accent_color": "#d27db0",
-                        "url": "https://blog.inovuslabs.org/tag/research-academia/"
-                    }
-                ],
-                "authors": [
-                    {
-                        "id": "654c37de07b24d75e4963984",
-                        "name": "Athena Maria Vadakan",
-                        "slug": "athena-maria-vadakan",
-                        "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/IMG_0026.JPG",
-                        "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
-                        "bio": "A student, majoring in Psychology and Philosophy, who is curious about mental health, ethics, and intersectionality.",
-                        "website": null,
-                        "location": null,
-                        "facebook": null,
-                        "twitter": null,
-                        "meta_title": null,
-                        "meta_description": null,
-                        "url": "https://blog.inovuslabs.org/author/athena-maria-vadakan/"
-                    }
-                ],
-                "url": "https://blog.inovuslabs.org/maladaptive-daydreaming/",
-                "excerpt": "MD is an excessive form of daydreaming characterized by a high level of vividness and immersion, which often interferes with daily functioning."
+                "url": "https://blog.inovuslabs.org/docker-simplified/",
+                "excerpt": "For Dev & DevOps geeks, ensuring that your application runs smoothly across different environments can often be a daunting task. A phrase commonly heard among them when troubleshooting such issues is 'This works on my machine, not on yours... But why?'"
             }
         ];
 
         try {
-            const res = await axios.get(`${import.meta.env.VITE_APP_INOVUS_BLOGS_BASE_URL}/ghost/api/content/posts/?key=${import.meta.env.VITE_APP_INOVUS_BLOGS_API_KEY}&limit=4&fields=title,feature_image,custom_excerpt,excerpt,published_at,url,reading_time,html&include=tags,authors`);
+            const rest = await axios.get(`${import.meta.env.VITE_APP_INOVUS_BLOGS_BASE_URL}/ghost/api/content/posts/?key=${import.meta.env.VITE_APP_INOVUS_BLOGS_API_KEY}&limit=4&fields=title,feature_image,custom_excerpt,excerpt,published_at,url,reading_time,html&include=tags,authors`);
             return res.data.posts;
         } catch (error) {
             console.error('Error fetching data from API, using fallback data:', error);
