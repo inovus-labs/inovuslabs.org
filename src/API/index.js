@@ -1,5 +1,7 @@
 // /reports update
 // mini IoT lab images
+//open source
+
 
 import axios from 'axios';
 
@@ -116,8 +118,12 @@ export const getProjects = async () => {
                 "title": "Smart Inovus",
                 "description": "Home automation refers to the use of smart technology and integrated systems to control various aspects of a home, providing homeowners with increased convenience, energy efficiency, security, and customization. We used ESP32, 16 Channel relay module and 12v DC adapter for controlling the appliances. The ESP32 is integrated with Arduino IOT cloud platform. It provides Integration with virtual assistants like Amazon Alexa, Google Assistant, or Apple Home Kit allows users to control devices using voice commands.",
                 "thumbnail": BASE_URL + "/assets/projects/Automation.jpeg",
-                "status": "Progress",
+                "status": "Completed",
                 "tags": ["Internet of Things", "Electronics"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/inovus-labs/smart-inovus'
+                },
                 "contributors": [
                     {
                         "name": "Badhusha Shaji",
@@ -194,10 +200,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/sound_thoma.jpeg",
                 "status": "Completed",
                 "tags": ["Software"],
-                "url": {
-                    'type': 'source',
-                    'link': 'https://github.com/decoded-cipher/chacko-mash'
-                },
+                // "url": {
+                //     'type': 'source',
+                //     'link': 'https://github.com/decoded-cipher/chacko-mash'
+                // },
                 "contributors": [
                     {
                         "name": "Arjun Krishna",
@@ -302,6 +308,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/Blind_stick.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/Amith-Abey-Stephen/Blind_Stick'
+                },
                 "contributors": [
                     {
                         "name": "Badhusha Shaji",
@@ -320,6 +330,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/RC_CAR.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/Amith-Abey-Stephen/Bluetooth_controlled-RC-CAR'
+                },
                 "contributors": [
                     {
                         "name": "Badhusha Shaji",
@@ -475,6 +489,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/Ino-mail.jpeg",
                 "status": "Completed",
                 "tags": ["Electronics, Internet of Things"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/Amith-Abey-Stephen/Lpg_detection'
+                },
                 "contributors": [
                     {
                         "name": "Arjun Krishna",
@@ -517,6 +535,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/kiosk.png",
                 "status": "progress",
                 "tags": ["Electronics, Internet of Things"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/inovus-labs/kiosk.inovuslabs.org'
+                },
                 "contributors": [
                     {
                         "name": "Arjun Krishna",
@@ -665,24 +687,30 @@ export const getProjects = async () => {
                     }
                 ]
             }
-            // ,
-            // {
-            //     "id": 32,
-            //     "title": "",
-            //     "description": "",
-            //     "thumbnail": BASE_URL + "/assets/projects/otto.jpg",
-            //     "status": "progress",
-            //     "tags": ["Electronics, Internet of Things"],
-            //     "contributors": [
-            //         {
-            //             "name": "Badhusha Shaji",
-            //             "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-            //         },{
-            //             "name": "Abhishek V Gopal",
-            //             "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-            //         }
-            //     ]
-            // }
+            ,
+            {
+                "id": 32,
+                "title": "Remote Controlled Recycle Bin",
+                "description": "The remote-controlled recycle bin is a smart device that can be moved using a website. You can control the bin from your computer or phone, making it easy to manage and collect waste without going near to it directly.",
+                "thumbnail": BASE_URL + "/assets/projects/",
+                "status": "progress",
+                "tags": ["Electronics, Internet of Things"],
+
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/DevMorphix/public-rc-car'
+                },
+
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },{
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            }
         ]
     };
 
@@ -1871,6 +1899,41 @@ export const getReccuringEvents = async () => {
                 "title": "Weekend Workbench 2.0 #4",
                 "description": "",
                 "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 2.0.4.jpg",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 41,
+                "date": "10 August 2024",
+                "title": "Weekend Workbench 2.0 #5",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 42,
+                "date": "17 August 2024",
+                "title": "Weekend Workbench 2.0 #6",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 43,
+                "date": "24 August 2024",
+                "title": "Weekend Workbench 2.0 #7",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 44,
+                "date": "31 August 2024",
+                "title": "Weekend Workbench 2.0 #8",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/",
+                "tags": ["Weekend Workbench"]
+            }            ,{
+                "id": 45,
+                "date": "07 September 2024",
+                "title": "Weekend Workbench 2.0 #9",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/",
                 "tags": ["Weekend Workbench"]
             }
         ]

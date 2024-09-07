@@ -123,7 +123,7 @@
 
         async getProjects() {
           let response = await getProjects();
-          this.projects = response.projects;
+          this.projects = response.projects.reverse();
           this.tags = ["All Categories", ...response.tags];
         },
 
