@@ -1,7 +1,5 @@
 // /reports update
 // mini IoT lab images
-//open source
-
 
 import axios from 'axios';
 
@@ -1126,7 +1124,7 @@ export const getPodcasts = async () => {
 // Get all projects
 export const getActivity = async () => {
     let data = {
-        "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Exhibition"],
+        "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Exhibition","Release"],
         "activities": [
             {
                 "id": 1,
@@ -1584,6 +1582,40 @@ export const getActivity = async () => {
                 "date": ["02 August 2024"],
                 "tags": ["Workshop"],
                 "sitelink": ["https://stepone.inovuslabs.org"]
+            },{
+                "id": 57,
+                "title": "Introduction to Blogs",
+                "thumbnail": BASE_URL + "/assets/activity/introblog.jpg",
+                "description": "Introduction to Blog is an event conducted by INOVUS LABS IEDC to introduce participants to the world of blogging. It covers the basics of starting a blog, writing engaging content, and sharing ideas online. The event helps attendees learn how to effectively express themselves and build an online presence through blogging.",
+                "date": ["07 August 2024", "08 August 2024"],
+                "tags": ["Session"],
+            },{
+                "id": 58,
+                "title": "Innovation & Entrepreneurship",
+                "thumbnail": BASE_URL + "/assets/activity/ino.jpg",
+                "description": "Innovation & Entrepreneurship is a session conducted by INOVUS LABS IEDC for BCom students, aimed at introducing them to the core concepts of innovation and entrepreneurship. The session helps students understand how to develop creative ideas and turn them into successful business ventures.",
+                "date": ["09 August 2024"],
+                "tags": ["Session"],
+                "id": 60,
+                "title": "DocGen- Release",
+                "thumbnail": BASE_URL + "/assets/activity/docgen.jpg",
+                "description": "DocGen is a document generation tool developed by DevMorphix. It helps users easily create and format documents, streamlining tasks like generating reports, certificates, or other professional documents quickly and efficiently.",
+                "date": ["23 August 2024"],
+                "tags": ["Release"],
+            },{
+                "id": 59,
+                "title": "Herba Soap- Release",
+                "thumbnail": BASE_URL + "/assets/activity/herba.jpg",
+                "description": "Herba Soap is a fundraising product. It is part of an initiative to support the community’s project, i.e, building an electric bike. The soap is crafted with natural ingredients and is sold to raise funds while promoting sustainable and eco-friendly practices. The sale of Herba Soap aligns with INOVUS LABS' mission of fostering innovation and supporting entrepreneurial endeavors.",
+                "date": ["23 August 2024"],
+                "tags": ["Release"],
+            },{
+                "id": 61,
+                "title": "Introduction to Mulearn",
+                "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
+                "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
+                "date": ["09 September 2024"],
+                "tags": ["Session"],
             }
         ]
     };
@@ -1905,37 +1937,38 @@ export const getReccuringEvents = async () => {
                 "date": "10 August 2024",
                 "title": "Weekend Workbench 2.0 #5",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.5.jpg ",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 42,
                 "date": "17 August 2024",
                 "title": "Weekend Workbench 2.0 #6",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.6.jpg ",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 43,
                 "date": "24 August 2024",
                 "title": "Weekend Workbench 2.0 #7",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.7.jpg ",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 44,
                 "date": "31 August 2024",
                 "title": "Weekend Workbench 2.0 #8",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/",
-                "tags": ["Weekend Workbench"]
-            }            ,{
-                "id": 45,
-                "date": "07 September 2024",
-                "title": "Weekend Workbench 2.0 #9",
-                "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.8.jpg ",
                 "tags": ["Weekend Workbench"]
             }
+            // ,{
+            //     "id": 45,
+            //     "date": "07 September 2024",
+            //     "title": "Weekend Workbench 2.0 #9",
+            //     "description": "",
+            //     "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.7.jpg ",
+            //     "tags": ["Weekend Workbench"]
+            // }
         ]
     };
 
@@ -2280,6 +2313,13 @@ export const getGalleryAssets = async () => {
         //   description: 'Image 11 description',
           largeURL: BASE_URL + '/assets/gallery/011.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/011.jpg',
+        },
+        {
+          id: 13,
+        //   title: 'Team Inovus with Akhil',
+        //   description: 'Image 11 description',
+          largeURL: BASE_URL + '/assets/gallery/meetakhildamodar.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/meetakhildamodar.jpg',
         },
         {
           id: 13,
