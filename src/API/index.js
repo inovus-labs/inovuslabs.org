@@ -1,5 +1,6 @@
 // /reports update
 // mini IoT lab images
+// nano degree
 
 import axios from 'axios';
 
@@ -690,7 +691,7 @@ export const getProjects = async () => {
                 "id": 32,
                 "title": "Remote Controlled Recycle Bin",
                 "description": "The remote-controlled recycle bin is a smart device that can be moved using a website. You can control the bin from your computer or phone, making it easy to manage and collect waste without going near to it directly.",
-                "thumbnail": BASE_URL + "/assets/projects/",
+                "thumbnail": BASE_URL + "/assets/projects/wastebin.jpg",
                 "status": "progress",
                 "tags": ["Electronics, Internet of Things"],
 
@@ -933,6 +934,55 @@ export const getBlogPosts = async () => {
     
         const fallbackData = [
             {
+                "title": "The Dangerous Cam Ever Found",
+                "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/09/a-cover-image-with-a-mysterious-and-intense-vibe-a-KolrOihPQkKn3Fnqg9Jwxw-IIlSmBE_SWmkyL5RTVqSzw.jpeg",
+                "custom_excerpt": null,
+                "published_at": "2024-09-11T14:26:00.000+05:30",
+                "reading_time": 7,
+                "tags": [
+                    {
+                        "id": "653f71fb5d18573f9b9f3d79",
+                        "name": "Free Thinking",
+                        "slug": "freethinking",
+                        "description": null,
+                        "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/09/a-cover-image-with-a-mysterious-and-intense-vibe-a-KolrOihPQkKn3Fnqg9Jwxw-IIlSmBE_SWmkyL5RTVqSzw.jpeg",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#617bff",
+                        "url": "https://blog.inovuslabs.org/tag/freethinking/"
+                    }
+                ],
+                "authors": [
+                    {
+                        "id": "6540bc590b27848ad6616f50",
+                        "name": "Arjun A Acharry",
+                        "slug": "arjun-a-acharry",
+                        "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+                        "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+                        "bio": null,
+                        "website": null,
+                        "location": null,
+                        "facebook": null,
+                        "twitter": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/the-dangerous-cam-ever-found/",
+                "excerpt": "We all love our cameras, don’t we? From capturing the perfect sunset to that accidental selfie where your face looks like it’s melting—cameras are our best friends."
+            }
+            ,{
                 "title": "The Power of Collective Thought: Are We All Thinking the Same Thing?",
                 "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/08/a-vibrant-and-diverse-group-of-individuals-from-va-3DzbEak-SGmQiJT-_YgFsA-M-CW92lRQoiEisAf8B7e8A.jpeg",
                 "custom_excerpt": null,
@@ -1080,6 +1130,7 @@ export const getBlogPosts = async () => {
                 "url": "https://blog.inovuslabs.org/docker-simplified/",
                 "excerpt": "For Dev & DevOps geeks, ensuring that your application runs smoothly across different environments can often be a daunting task. A phrase commonly heard among them when troubleshooting such issues is 'This works on my machine, not on yours... But why?'"
             }
+            
         ];
 
         try {
@@ -1089,7 +1140,7 @@ export const getBlogPosts = async () => {
             console.error('Error fetching data from API, using fallback data:', error);
             return fallbackData;
         }
-    }
+};
 
 
 
@@ -1117,7 +1168,7 @@ export const getPodcasts = async () => {
         },
     ]
 
-}
+};
 
 
 
@@ -1973,7 +2024,7 @@ export const getReccuringEvents = async () => {
     };
 
     return data;
-}
+};
 
 
 
@@ -1983,15 +2034,15 @@ export const getSocialPosts = async () => {
         "instagram": [
             {
                 "id": 1,
-                "url": "https://www.instagram.com/reel/C_Dprb8skVw/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/reel/C_yB61GoGi8/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 2,
-                "url": "https://www.instagram.com/p/C_ChYRITD2u/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/reel/C_vRA8YNU0A/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 3,
-                "url": "https://www.instagram.com/p/C_BPNxtzvEL/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/C_s6eupTiIx/?utm_source=ig_embed&amp;utm_campaign=loading"
             }
         ],
         "linkedin": [
@@ -2005,7 +2056,7 @@ export const getSocialPosts = async () => {
             },
             {
                 "id": 3,
-                "url": "https://www.linkedin.com/feed/update/urn:li:share:7216836242724806658"
+                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7235872064065167360"
             }
         ],
         "youtube": [
@@ -2040,21 +2091,21 @@ export const getSocialPosts = async () => {
         "threads": [
             {
                 "id": 1,
-                "url": "https://www.threads.net/@inovuslabs/post/C9QIdR1zunq"
+                "url": "https://www.threads.net/@inovuslabs/post/C_zdAEZzXK3"
             },
             {
                 "id": 2,
-                "url": "https://www.threads.net/@inovuslabs/post/C79kWwEPdU3"
+                "url": "https://www.threads.net/@inovuslabs/post/C_zcxPXTrN3"
             },
             {
                 "id": 3,
-                "url": "https://www.threads.net/@inovuslabs/post/C5mPvVXS2ye"
+                "url": "https://www.threads.net/@inovuslabs/post/C79kWwEPdU3"
             }
         ]
     }
 
     return data;
-}
+};
 
 
 
@@ -2287,6 +2338,13 @@ export const getGalleryAssets = async () => {
           thumbnailURL: BASE_URL + '/assets/gallery/005.jpg',
         },
         {
+            id: 12,
+            title: 'Team Inovus with Gigi Devassiya',
+            description: 'He is a teacher, an author and an entrepreneur, above all a true visionary who shed lights to many lifes.',
+            largeURL: BASE_URL + '/assets/gallery/meetgigisir.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/meetgigisir.jpg',
+        },
+        {
           id: 9,
         //   title: 'Image 6',
         //   description: 'Image 6 description',
@@ -2309,6 +2367,13 @@ export const getGalleryAssets = async () => {
         },
         {
           id: 12,
+          title: 'Team Inovus with Ajay Basil',
+        //   description: '',
+          largeURL: BASE_URL + '/assets/gallery/meetajaybasil.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/meetajaybasil.jpg',
+        },
+        {
+          id: 12,
         //   title: 'Image 11',
         //   description: 'Image 11 description',
           largeURL: BASE_URL + '/assets/gallery/011.jpg',
@@ -2316,13 +2381,34 @@ export const getGalleryAssets = async () => {
         },
         {
           id: 13,
-        //   title: 'Team Inovus with Akhil',
+          title: 'Team Inovus with Akhil',
         //   description: 'Image 11 description',
           largeURL: BASE_URL + '/assets/gallery/meetakhildamodar.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/meetakhildamodar.jpg',
         },
         {
-          id: 13,
+            id: 13,
+            title: 'Team Inovus with Thomman',
+            description: 'Dr. Thomas George K, also known as Thomman, is the Founder and Chairman of LEAD College of Management.',
+            largeURL: BASE_URL + '/assets/gallery/meetthoman.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/meetthoman.jpg',
+        },
+        {
+          id: 14,
+          title: 'Trip',
+          description: 'Kuttikanam',
+          largeURL: BASE_URL + '/assets/gallery/teaminovus.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/teaminovus.jpg',
+        },
+        {
+            id: 15,
+            // title: 'Team Inovus with GenAI Mentor',
+            // description: '',
+            largeURL: BASE_URL + '/assets/gallery/meetai.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/meetai.jpg',
+          },
+        {
+          id: 15,
           title: 'Release of DocGen',
           description: 'Venue: Kristu Jyoti College of Mangement and Technology',
           largeURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
