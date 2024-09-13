@@ -1,3 +1,6 @@
+// /reports update
+// mini IoT lab images
+// nano degree
 
 import axios from 'axios';
 
@@ -114,8 +117,12 @@ export const getProjects = async () => {
                 "title": "Smart Inovus",
                 "description": "Home automation refers to the use of smart technology and integrated systems to control various aspects of a home, providing homeowners with increased convenience, energy efficiency, security, and customization. We used ESP32, 16 Channel relay module and 12v DC adapter for controlling the appliances. The ESP32 is integrated with Arduino IOT cloud platform. It provides Integration with virtual assistants like Amazon Alexa, Google Assistant, or Apple Home Kit allows users to control devices using voice commands.",
                 "thumbnail": BASE_URL + "/assets/projects/Automation.jpeg",
-                "status": "Progress",
+                "status": "Completed",
                 "tags": ["Internet of Things", "Electronics"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/inovus-labs/smart-inovus'
+                },
                 "contributors": [
                     {
                         "name": "Badhusha Shaji",
@@ -192,10 +199,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/sound_thoma.jpeg",
                 "status": "Completed",
                 "tags": ["Software"],
-                "url": {
-                    'type': 'source',
-                    'link': 'https://github.com/decoded-cipher/chacko-mash'
-                },
+                // "url": {
+                //     'type': 'source',
+                //     'link': 'https://github.com/decoded-cipher/chacko-mash'
+                // },
                 "contributors": [
                     {
                         "name": "Arjun Krishna",
@@ -300,6 +307,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/Blind_stick.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/Amith-Abey-Stephen/Blind_Stick'
+                },
                 "contributors": [
                     {
                         "name": "Badhusha Shaji",
@@ -318,6 +329,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/RC_CAR.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/Amith-Abey-Stephen/Bluetooth_controlled-RC-CAR'
+                },
                 "contributors": [
                     {
                         "name": "Badhusha Shaji",
@@ -473,6 +488,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/Ino-mail.jpeg",
                 "status": "Completed",
                 "tags": ["Electronics, Internet of Things"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/Amith-Abey-Stephen/Lpg_detection'
+                },
                 "contributors": [
                     {
                         "name": "Arjun Krishna",
@@ -515,6 +534,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/kiosk.png",
                 "status": "progress",
                 "tags": ["Electronics, Internet of Things"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/inovus-labs/kiosk.inovuslabs.org'
+                },
                 "contributors": [
                     {
                         "name": "Arjun Krishna",
@@ -663,24 +686,30 @@ export const getProjects = async () => {
                     }
                 ]
             }
-            // ,
-            // {
-            //     "id": 32,
-            //     "title": "",
-            //     "description": "",
-            //     "thumbnail": BASE_URL + "/assets/projects/otto.jpg",
-            //     "status": "progress",
-            //     "tags": ["Electronics, Internet of Things"],
-            //     "contributors": [
-            //         {
-            //             "name": "Badhusha Shaji",
-            //             "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-            //         },{
-            //             "name": "Abhishek V Gopal",
-            //             "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-            //         }
-            //     ]
-            // }
+            ,
+            {
+                "id": 32,
+                "title": "Remote Controlled Recycle Bin",
+                "description": "The remote-controlled recycle bin is a smart device that can be moved using a website. You can control the bin from your computer or phone, making it easy to manage and collect waste without going near to it directly.",
+                "thumbnail": BASE_URL + "/assets/projects/wastebin.jpg",
+                "status": "progress",
+                "tags": ["Electronics, Internet of Things"],
+
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/DevMorphix/public-rc-car'
+                },
+
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },{
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            }
         ]
     };
 
@@ -699,206 +728,420 @@ export const getBlogPosts = async () => {
     //     console.log(error);
     // }
 
-    return [
-        {
-            "title": "Cyber Addiction & Recovery Methods",
-            "feature_image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRpZ2l0YWwlMjB3b3JsZHxlbnwwfHx8fDE3MDI5OTg4Njd8MA&ixlib=rb-4.0.3&q=80&w=2000",
-            "custom_excerpt": null,
-            "published_at": "2023-12-19T20:50:46.000+05:30",
-            "reading_time": 3,
-            "tags": [
-                {
-                    "id": "653f71fb5d18573f9b9f3d79",
-                    "name": "Science & Technology",
-                    "slug": "science-technology",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1607988795691-3d0147b43231?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxzY2llbmNlfGVufDB8fHx8MTY5ODkwMjM5OHww&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#617bff",
-                    "url": "https://blog.inovuslabs.org/tag/science-technology/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "6540bc590b27848ad6616f50",
-                    "name": "Arjun A Acharry",
-                    "slug": "arjun-a-acharry",
-                    "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
-                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+    // return [
+    //     {
+    //         "title": "Cyber Addiction & Recovery Methods",
+    //         "feature_image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRpZ2l0YWwlMjB3b3JsZHxlbnwwfHx8fDE3MDI5OTg4Njd8MA&ixlib=rb-4.0.3&q=80&w=2000",
+    //         "custom_excerpt": null,
+    //         "published_at": "2023-12-19T20:50:46.000+05:30",
+    //         "reading_time": 3,
+    //         "tags": [
+    //             {
+    //                 "id": "653f71fb5d18573f9b9f3d79",
+    //                 "name": "Science & Technology",
+    //                 "slug": "science-technology",
+    //                 "description": null,
+    //                 "feature_image": "https://images.unsplash.com/photo-1607988795691-3d0147b43231?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxzY2llbmNlfGVufDB8fHx8MTY5ODkwMjM5OHww&ixlib=rb-4.0.3&q=80&w=2000",
+    //                 "visibility": "public",
+    //                 "og_image": null,
+    //                 "og_title": null,
+    //                 "og_description": null,
+    //                 "twitter_image": null,
+    //                 "twitter_title": null,
+    //                 "twitter_description": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "codeinjection_head": null,
+    //                 "codeinjection_foot": null,
+    //                 "canonical_url": null,
+    //                 "accent_color": "#617bff",
+    //                 "url": "https://blog.inovuslabs.org/tag/science-technology/"
+    //             }
+    //         ],
+    //         "authors": [
+    //             {
+    //                 "id": "6540bc590b27848ad6616f50",
+    //                 "name": "Arjun A Acharry",
+    //                 "slug": "arjun-a-acharry",
+    //                 "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+    //                 "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+    //                 "bio": null,
+    //                 "website": null,
+    //                 "location": null,
+    //                 "facebook": null,
+    //                 "twitter": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+    //             }
+    //         ],
+    //         "url": "https://blog.inovuslabs.org/cyber-addiction-recovery-methods/",
+    //         "excerpt": "CYBER ADDICTION\n\nAn excessive amount of time spent on computers, phones, or the internet is known as cyber addiction. It can be problematic in day-to-day living and lead to issues at job, school, or in relationships.\n\nSigns of Cyber Addiction:\n\n 1. Excessive Internet Use: Spending an inordinate amount of time online.\n 2. Negative Impact on Daily Life: Affecting work, school, or relationships adversely.\n 3. Loss of Control: Difficulty managing and limiting online activities.\n 4. Withdrawal Sympto",
+    //         "reading_time": 3
+    //     },
+    //     {
+    //         "title": "Rising from the Ashes: Restoring Inovus Blogs Post-Termination",
+    //         "feature_image": "https://images.unsplash.com/photo-1591913139332-f8172ef511da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRhdGElMjByZWNvdmVyeXxlbnwwfHx8fDE2OTkwNDUwOTJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
+    //         "custom_excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated.",
+    //         "published_at": "2023-11-04T03:20:00.000+05:30",
+    //         "reading_time": 6,
+    //         "tags": [
+    //             {
+    //                 "id": "653fc29ab14998447e1d37dd",
+    //                 "name": "Web Development",
+    //                 "slug": "web-development",
+    //                 "description": null,
+    //                 "feature_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE2OTg5MDI5Mjh8MA&ixlib=rb-4.0.3&q=80&w=2000",
+    //                 "visibility": "public",
+    //                 "og_image": null,
+    //                 "og_title": null,
+    //                 "og_description": null,
+    //                 "twitter_image": null,
+    //                 "twitter_title": null,
+    //                 "twitter_description": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "codeinjection_head": null,
+    //                 "codeinjection_foot": null,
+    //                 "canonical_url": null,
+    //                 "accent_color": "#8aaf46",
+    //                 "url": "https://blog.inovuslabs.org/tag/web-development/"
+    //             }
+    //         ],
+    //         "authors": [
+    //             {
+    //                 "id": "653f7a27b14998447e1d36d5",
+    //                 "name": "Arjun Krishna",
+    //                 "slug": "arjun",
+    //                 "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
+    //                 "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/image-7.png",
+    //                 "bio": "Yet another human being born towards the end of the 20th century, and continues his Exploration & Experimentation on the Technology that the 21st century has to offer.",
+    //                 "website": "https://arjunkrishna.in/",
+    //                 "location": "Pathanamthitta | Bangalore",
+    //                 "facebook": null,
+    //                 "twitter": "@Decoded_Cipher",
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "url": "https://blog.inovuslabs.org/author/arjun/"
+    //             }
+    //         ],
+    //         "url": "https://blog.inovuslabs.org/restoring-inovus-blogs/",
+    //         "excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated."
+    //     },
+    //     {
+    //         "title": "Maladaptive Daydreaming: Creating A Utopia Equivalent To A Bottomless Pit",
+    //         "feature_image": "https://blog.inovuslabs.org/content/images/2023/10/index.jpeg",
+    //         "custom_excerpt": null,
+    //         "published_at": "2023-10-21T14:26:00.000+05:30",
+    //         "reading_time": 4,
+    //         "tags": [
+    //             {
+    //                 "id": "653f70e95d18573f9b9f3d73",
+    //                 "name": "Psychology",
+    //                 "slug": "psychology",
+    //                 "description": null,
+    //                 "feature_image": "https://images.unsplash.com/photo-1573511860302-28c524319d2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHBzeWNob2xvZ3l8ZW58MHx8fHwxNjk4OTAyNzgwfDA&ixlib=rb-4.0.3&q=80&w=2000",
+    //                 "visibility": "public",
+    //                 "og_image": null,
+    //                 "og_title": null,
+    //                 "og_description": null,
+    //                 "twitter_image": null,
+    //                 "twitter_title": null,
+    //                 "twitter_description": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "codeinjection_head": null,
+    //                 "codeinjection_foot": null,
+    //                 "canonical_url": null,
+    //                 "accent_color": "#3eb8c1",
+    //                 "url": "https://blog.inovuslabs.org/tag/psychology/"
+    //             }
+    //         ],
+    //         "authors": [
+    //             {
+    //                 "id": "654cb82cd6af5204882b104e",
+    //                 "name": "Athena Maria Vadakan",
+    //                 "slug": "athena",
+    //                 "profile_image": null,
+    //                 "cover_image": null,
+    //                 "bio": null,
+    //                 "website": null,
+    //                 "location": null,
+    //                 "facebook": null,
+    //                 "twitter": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "url": "https://blog.inovuslabs.org/author/athena/"
+    //             }
+    //         ],
+    //         "url": "https://blog.inovuslabs.org/maladaptive-daydreaming/",
+    //         "excerpt": "You're not stuck. You're just committed to certain patterns of behavior because they helped you in the past. Now those behaviors have become more harmful than helpful. The reason why you can't move forward is because you keep applying an old formula to a new level of life. Change the formula to get a different result. - Emily Maroutian \n\nAs long as Samira can remember, she was really quiet. But she also had a goofy and imaginative side just like any other children. Because of her shyness and pas"
+    //     },
+    //     {
+    //         "title": "Instagram VS Mental Health",
+    //         "feature_image": "https://blog.inovuslabs.org/content/images/2023/10/photo-1535451801241-b5395e1d4a1b.jpg",
+    //         "custom_excerpt": null,
+    //         "published_at": "2023-10-06T01:10:00.000+05:30",
+    //         "reading_time": 2,
+    //         "tags": [
+    //             {
+    //                 "id": "653f70e95d18573f9b9f3d73",
+    //                 "name": "Psychology",
+    //                 "slug": "psychology",
+    //                 "description": null,
+    //                 "feature_image": "https://images.unsplash.com/photo-1573511860302-28c524319d2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHBzeWNob2xvZ3l8ZW58MHx8fHwxNjk4OTAyNzgwfDA&ixlib=rb-4.0.3&q=80&w=2000",
+    //                 "visibility": "public",
+    //                 "og_image": null,
+    //                 "og_title": null,
+    //                 "og_description": null,
+    //                 "twitter_image": null,
+    //                 "twitter_title": null,
+    //                 "twitter_description": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "codeinjection_head": null,
+    //                 "codeinjection_foot": null,
+    //                 "canonical_url": null,
+    //                 "accent_color": "#3eb8c1",
+    //                 "url": "https://blog.inovuslabs.org/tag/psychology/"
+    //             }
+    //         ],
+    //         "authors": [
+    //             {
+    //                 "id": "6540bc590b27848ad6616f50",
+    //                 "name": "Arjun A Acharry",
+    //                 "slug": "arjun-a-acharry",
+    //                 "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+    //                 "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+    //                 "bio": null,
+    //                 "website": null,
+    //                 "location": null,
+    //                 "facebook": null,
+    //                 "twitter": null,
+    //                 "meta_title": null,
+    //                 "meta_description": null,
+    //                 "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+    //             }
+    //         ],
+    //         "url": "https://blog.inovuslabs.org/instagram-vs-health/",
+    //         "excerpt": "Instagram is a popular social media platform and mobile app designed for sharing photos and videos. It was launched in October 2010 and has since become one of the most widely used social networking platforms in the world. Instagram allows users to create profiles, post photos and videos, and interact with others through likes, comments, and direct messages.\n\nInstagram has evolved significantly since its inception and has played a crucial role in shaping how people share and consume visual conte"
+    //     }
+    // ];
+
+
+
+    // Dynamic ->error -> Static Fetching
+    
+        const fallbackData = [
+            {
+                "title": "The Dangerous Cam Ever Found",
+                "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/09/a-cover-image-with-a-mysterious-and-intense-vibe-a-KolrOihPQkKn3Fnqg9Jwxw-IIlSmBE_SWmkyL5RTVqSzw.jpeg",
+                "custom_excerpt": null,
+                "published_at": "2024-09-11T14:26:00.000+05:30",
+                "reading_time": 7,
+                "tags": [
+                    {
+                        "id": "653f71fb5d18573f9b9f3d79",
+                        "name": "Free Thinking",
+                        "slug": "freethinking",
+                        "description": null,
+                        "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/09/a-cover-image-with-a-mysterious-and-intense-vibe-a-KolrOihPQkKn3Fnqg9Jwxw-IIlSmBE_SWmkyL5RTVqSzw.jpeg",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#617bff",
+                        "url": "https://blog.inovuslabs.org/tag/freethinking/"
+                    }
+                ],
+                "authors": [
+                    {
+                        "id": "6540bc590b27848ad6616f50",
+                        "name": "Arjun A Acharry",
+                        "slug": "arjun-a-acharry",
+                        "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+                        "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+                        "bio": null,
+                        "website": null,
+                        "location": null,
+                        "facebook": null,
+                        "twitter": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/the-dangerous-cam-ever-found/",
+                "excerpt": "We all love our cameras, don’t we? From capturing the perfect sunset to that accidental selfie where your face looks like it’s melting—cameras are our best friends."
+            }
+            ,{
+                "title": "The Power of Collective Thought: Are We All Thinking the Same Thing?",
+                "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/08/a-vibrant-and-diverse-group-of-individuals-from-va-3DzbEak-SGmQiJT-_YgFsA-M-CW92lRQoiEisAf8B7e8A.jpeg",
+                "custom_excerpt": null,
+                "published_at": "2024-08-13T20:50:46.000+05:30",
+                "reading_time": 3,
+                "tags": [
+                    {
+                        "id": "653f71fb5d18573f9b9f3d79",
+                        "name": "Free Thinking",
+                        "slug": "freethinking",
+                        "description": null,
+                        "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/08/a-vibrant-and-diverse-group-of-individuals-from-va-3DzbEak-SGmQiJT-_YgFsA-M-CW92lRQoiEisAf8B7e8A.jpeg",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#617bff",
+                        "url": "https://blog.inovuslabs.org/tag/freethinking/"
+                    }
+                ],
+                "authors": [
+                    {
+                        "id": "6540bc590b27848ad6616f50",
+                        "name": "Arjun A Acharry",
+                        "slug": "arjun-a-acharry",
+                        "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+                        "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+                        "bio": null,
+                        "website": null,
+                        "location": null,
+                        "facebook": null,
+                        "twitter": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/are-we-all-thinking-the-same-thing/",
+                "excerpt": "In our fast-paced, interconnected world, the power of thought is astonishing. Each of us has the ability to think, create, and dream. Yet, in this vast sea of human consciousness, it's remarkable how often people around the globe find themselves thinking the same thoughts at the same time.",
+                "reading_time": 3
+            },
+            {
+                "title": "എന്തുകൊണ്ട് ഇന്ത്യയിൽ നിന്ന് ഒരു മൈക്രോസോഫ്റ്റോ ഗൂഗിളോ ആപ്പിളോ ഉണ്ടാകുന്നില്ല?",
+                "feature_image": "https://images.unsplash.com/photo-1614680376408-81e91ffe3db7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIxfHx3aGF0c2FwcHxlbnwwfHx8fDE3MjIzMjk5MjJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                "custom_excerpt": "Check out this insightful WhatsApp post that I felt compelled to share. It's a quick read that I believe many will find valuable.",
+                "published_at": "2024-07-30T03:20:00.000+05:30",
+                "reading_time": 6,
+                "tags": [
+                    {
+                        "id": "653fc29ab14998447e1d37dd",
+                        "name": "Education",
+                        "slug": "education",
+                        "description": null,
+                        "feature_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE2OTg5MDI5Mjh8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#8aaf46",
+                        "url": "https://blog.inovuslabs.org/tag/education/"
+                    }
+                ],
+                "authors" :[
+                    {
+                    "id": "1",
+                    "name": "Inovus Labs IEDC",
+                    "slug": "inovuslabs",
+                    "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/Inovus_Logo-PNG-3.png",
+                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/12/0.jpg",
                     "bio": null,
-                    "website": null,
+                    "website": "https://inovuslabs.org/",
                     "location": null,
                     "facebook": null,
-                    "twitter": null,
+                    "twitter": "@InovusLabs",
                     "meta_title": null,
                     "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/cyber-addiction-recovery-methods/",
-            "excerpt": "CYBER ADDICTION\n\nAn excessive amount of time spent on computers, phones, or the internet is known as cyber addiction. It can be problematic in day-to-day living and lead to issues at job, school, or in relationships.\n\nSigns of Cyber Addiction:\n\n 1. Excessive Internet Use: Spending an inordinate amount of time online.\n 2. Negative Impact on Daily Life: Affecting work, school, or relationships adversely.\n 3. Loss of Control: Difficulty managing and limiting online activities.\n 4. Withdrawal Sympto",
-            "reading_time": 3
-        },
-        {
-            "title": "Rising from the Ashes: Restoring Inovus Blogs Post-Termination",
-            "feature_image": "https://images.unsplash.com/photo-1591913139332-f8172ef511da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRhdGElMjByZWNvdmVyeXxlbnwwfHx8fDE2OTkwNDUwOTJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
-            "custom_excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated.",
-            "published_at": "2023-11-04T03:20:00.000+05:30",
-            "reading_time": 6,
-            "tags": [
-                {
-                    "id": "653fc29ab14998447e1d37dd",
-                    "name": "Web Development",
-                    "slug": "web-development",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE2OTg5MDI5Mjh8MA&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#8aaf46",
-                    "url": "https://blog.inovuslabs.org/tag/web-development/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "653f7a27b14998447e1d36d5",
-                    "name": "Arjun Krishna",
-                    "slug": "arjun",
-                    "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
-                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/image-7.png",
-                    "bio": "Yet another human being born towards the end of the 20th century, and continues his Exploration & Experimentation on the Technology that the 21st century has to offer.",
-                    "website": "https://arjunkrishna.in/",
-                    "location": "Pathanamthitta | Bangalore",
-                    "facebook": null,
-                    "twitter": "@Decoded_Cipher",
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/arjun/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/restoring-inovus-blogs/",
-            "excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated."
-        },
-        {
-            "title": "Maladaptive Daydreaming: Creating A Utopia Equivalent To A Bottomless Pit",
-            "feature_image": "https://blog.inovuslabs.org/content/images/2023/10/index.jpeg",
-            "custom_excerpt": null,
-            "published_at": "2023-10-21T14:26:00.000+05:30",
-            "reading_time": 4,
-            "tags": [
-                {
-                    "id": "653f70e95d18573f9b9f3d73",
-                    "name": "Psychology",
-                    "slug": "psychology",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1573511860302-28c524319d2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHBzeWNob2xvZ3l8ZW58MHx8fHwxNjk4OTAyNzgwfDA&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#3eb8c1",
-                    "url": "https://blog.inovuslabs.org/tag/psychology/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "654cb82cd6af5204882b104e",
-                    "name": "Athena Maria Vadakan",
-                    "slug": "athena",
-                    "profile_image": null,
-                    "cover_image": null,
-                    "bio": null,
-                    "website": null,
-                    "location": null,
-                    "facebook": null,
-                    "twitter": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/athena/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/maladaptive-daydreaming/",
-            "excerpt": "You're not stuck. You're just committed to certain patterns of behavior because they helped you in the past. Now those behaviors have become more harmful than helpful. The reason why you can't move forward is because you keep applying an old formula to a new level of life. Change the formula to get a different result. - Emily Maroutian \n\nAs long as Samira can remember, she was really quiet. But she also had a goofy and imaginative side just like any other children. Because of her shyness and pas"
-        },
-        {
-            "title": "Instagram VS Mental Health",
-            "feature_image": "https://blog.inovuslabs.org/content/images/2023/10/photo-1535451801241-b5395e1d4a1b.jpg",
-            "custom_excerpt": null,
-            "published_at": "2023-10-06T01:10:00.000+05:30",
-            "reading_time": 2,
-            "tags": [
-                {
-                    "id": "653f70e95d18573f9b9f3d73",
-                    "name": "Psychology",
-                    "slug": "psychology",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1573511860302-28c524319d2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHBzeWNob2xvZ3l8ZW58MHx8fHwxNjk4OTAyNzgwfDA&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#3eb8c1",
-                    "url": "https://blog.inovuslabs.org/tag/psychology/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "6540bc590b27848ad6616f50",
-                    "name": "Arjun A Acharry",
-                    "slug": "arjun-a-acharry",
-                    "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
-                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
-                    "bio": null,
-                    "website": null,
-                    "location": null,
-                    "facebook": null,
-                    "twitter": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/instagram-vs-health/",
-            "excerpt": "Instagram is a popular social media platform and mobile app designed for sharing photos and videos. It was launched in October 2010 and has since become one of the most widely used social networking platforms in the world. Instagram allows users to create profiles, post photos and videos, and interact with others through likes, comments, and direct messages.\n\nInstagram has evolved significantly since its inception and has played a crucial role in shaping how people share and consume visual conte"
+                    "url": "https://blog.inovuslabs.org/author/inovuslabs/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/a-whatsapp-post-worth-reading/",
+                "excerpt": "Check out this insightful WhatsApp post that I felt compelled to share. It's a quick read that I believe many will find valuable."
+            },
+            {
+                "title": "It works on my machine... Not on yours... But why? Let's talk Docker!",
+                "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/07/Frame-1.png",
+                "custom_excerpt": null,
+                "published_at": "2024-07-10T14:26:00.000+05:30",
+                "reading_time": 5,
+               "tags": [
+                    {
+                        "id": "653fc29ab14998447e1d37dd",
+                        "name": "Web Development",
+                        "slug": "web-development",
+                        "description": null,
+                        "feature_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE2OTg5MDI5Mjh8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#8aaf46",
+                        "url": "https://blog.inovuslabs.org/tag/web-development/"
+                    }
+                ],
+                "authors": [
+                    {
+                        "id": "653f7a27b14998447e1d36d5",
+                        "name": "Arjun Krishna",
+                        "slug": "arjun",
+                        "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
+                        "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/image-7.png",
+                        "bio": "Yet another human being born towards the end of the 20th century, and continues his Exploration & Experimentation on the Technology that the 21st century has to offer.",
+                        "website": "https://arjunkrishna.in/",
+                        "location": "Pathanamthitta | Bangalore",
+                        "facebook": null,
+                        "twitter": "@Decoded_Cipher",
+                        "meta_title": null,
+                        "meta_description": null,
+                        "url": "https://blog.inovuslabs.org/author/arjun/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/docker-simplified/",
+                "excerpt": "For Dev & DevOps geeks, ensuring that your application runs smoothly across different environments can often be a daunting task. A phrase commonly heard among them when troubleshooting such issues is 'This works on my machine, not on yours... But why?'"
+            }
+            
+        ];
+
+        try {
+            const rest = await axios.get(`${import.meta.env.VITE_APP_INOVUS_BLOGS_BASE_URL}/ghost/api/content/posts/?key=${import.meta.env.VITE_APP_INOVUS_BLOGS_API_KEY}&limit=4&fields=title,feature_image,custom_excerpt,excerpt,published_at,url,reading_time,html&include=tags,authors`);
+            return res.data.posts;
+        } catch (error) {
+            console.error('Error fetching data from API, using fallback data:', error);
+            return fallbackData;
         }
-    ];
-}
+};
+
 
 
 
@@ -925,14 +1168,14 @@ export const getPodcasts = async () => {
         },
     ]
 
-}
+};
 
 
 
 // Get all projects
 export const getActivity = async () => {
     let data = {
-        "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Exhibition"],
+        "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Exhibition","Release"],
         "activities": [
             {
                 "id": 1,
@@ -1390,6 +1633,40 @@ export const getActivity = async () => {
                 "date": ["02 August 2024"],
                 "tags": ["Workshop"],
                 "sitelink": ["https://stepone.inovuslabs.org"]
+            },{
+                "id": 57,
+                "title": "Introduction to Blogs",
+                "thumbnail": BASE_URL + "/assets/activity/introblog.jpg",
+                "description": "Introduction to Blog is an event conducted by INOVUS LABS IEDC to introduce participants to the world of blogging. It covers the basics of starting a blog, writing engaging content, and sharing ideas online. The event helps attendees learn how to effectively express themselves and build an online presence through blogging.",
+                "date": ["07 August 2024", "08 August 2024"],
+                "tags": ["Session"],
+            },{
+                "id": 58,
+                "title": "Innovation & Entrepreneurship",
+                "thumbnail": BASE_URL + "/assets/activity/ino.jpg",
+                "description": "Innovation & Entrepreneurship is a session conducted by INOVUS LABS IEDC for BCom students, aimed at introducing them to the core concepts of innovation and entrepreneurship. The session helps students understand how to develop creative ideas and turn them into successful business ventures.",
+                "date": ["09 August 2024"],
+                "tags": ["Session"],
+                "id": 60,
+                "title": "DocGen- Release",
+                "thumbnail": BASE_URL + "/assets/activity/docgen.jpg",
+                "description": "DocGen is a document generation tool developed by DevMorphix. It helps users easily create and format documents, streamlining tasks like generating reports, certificates, or other professional documents quickly and efficiently.",
+                "date": ["23 August 2024"],
+                "tags": ["Release"],
+            },{
+                "id": 59,
+                "title": "Herba Soap- Release",
+                "thumbnail": BASE_URL + "/assets/activity/herba.jpg",
+                "description": "Herba Soap is a fundraising product. It is part of an initiative to support the community’s project, i.e, building an electric bike. The soap is crafted with natural ingredients and is sold to raise funds while promoting sustainable and eco-friendly practices. The sale of Herba Soap aligns with INOVUS LABS' mission of fostering innovation and supporting entrepreneurial endeavors.",
+                "date": ["23 August 2024"],
+                "tags": ["Release"],
+            },{
+                "id": 61,
+                "title": "Introduction to Mulearn",
+                "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
+                "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
+                "date": ["09 September 2024"],
+                "tags": ["Session"],
             }
         ]
     };
@@ -1657,12 +1934,97 @@ export const getReccuringEvents = async () => {
                 "description": "",
                 "video": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 27.mp4",
                 "tags": ["Weekend Workbench"]
+            },{
+                "id": 34,
+                "date": "16 March 2024",
+                "title": "Weekend Workbench #28",
+                "description": "",
+                "video": BASE_URL + "/assets/reccuringevents/workbench/WeekendWorkbench28.png.mp4 ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 35,
+                "date": "23 March 2024",
+                "title": "Weekend Workbench #29",
+                "description": "",
+                "video": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench29.mp4 ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 36,
+                "date": "30 March 2024",
+                "title": "Weekend Workbench #30",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench30.webp ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 37,
+                "date": "6 July 2024",
+                "title": "Weekend Workbench 2.0 #1",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkebench2.0.1.png ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 38,
+                "date": "13 July 2024",
+                "title": "Weekend Workbench 2.0 #2",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/WeekendWorkebench2.0.2.jpg",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 39,
+                "date": "20 July 2024",
+                "title": "Weekend Workbench 2.0 #3",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 2.0.3.jpg",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 40,
+                "date": "27 July 2024",
+                "title": "Weekend Workbench 2.0 #4",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 2.0.4.jpg",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 41,
+                "date": "10 August 2024",
+                "title": "Weekend Workbench 2.0 #5",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.5.jpg ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 42,
+                "date": "17 August 2024",
+                "title": "Weekend Workbench 2.0 #6",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.6.jpg ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 43,
+                "date": "24 August 2024",
+                "title": "Weekend Workbench 2.0 #7",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.7.jpg ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 44,
+                "date": "31 August 2024",
+                "title": "Weekend Workbench 2.0 #8",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.8.jpg ",
+                "tags": ["Weekend Workbench"]
             }
+            // ,{
+            //     "id": 45,
+            //     "date": "07 September 2024",
+            //     "title": "Weekend Workbench 2.0 #9",
+            //     "description": "",
+            //     "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.7.jpg ",
+            //     "tags": ["Weekend Workbench"]
+            // }
         ]
     };
 
     return data;
-}
+};
 
 
 
@@ -1672,29 +2034,29 @@ export const getSocialPosts = async () => {
         "instagram": [
             {
                 "id": 1,
-                "url": "https://www.instagram.com/reel/C4t6aT-PqeA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                "url": "https://www.instagram.com/reel/C_yB61GoGi8/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 2,
-                "url": "https://www.instagram.com/p/C4mgCZiJTpE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                "url": "https://www.instagram.com/reel/C_vRA8YNU0A/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 3,
-                "url": "https://www.instagram.com/reel/C4kzEu-plIy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                "url": "https://www.instagram.com/p/C_s6eupTiIx/?utm_source=ig_embed&amp;utm_campaign=loading"
             }
         ],
         "linkedin": [
             {
                 "id": 1,
-                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7171846636627812352"
+                "url": "https://www.linkedin.com/feed/update/urn:li:share:7235872064065167360"
             },
             {
                 "id": 2,
-                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7171590341177925634"
+                "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7217172943926095873"
             },
             {
                 "id": 3,
-                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7164639903383797760    "
+                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7235872064065167360"
             }
         ],
         "youtube": [
@@ -1714,11 +2076,12 @@ export const getSocialPosts = async () => {
         "twitter": [
             {
                 "id": 1,
-                "url": "https://twitter.com/InovusLabs/status/1721051746947207352"
+                "url": "https://twitter.com/InovusLabs/status/1765107764559507711"
+        // Don't use X.com... it wont work "https://x.com/InovusLabs/status/1765107764559507711"
             },
             {
                 "id": 2,
-                "url": "https://twitter.com/InovusLabs/status/1715828644000813445"
+                "url": "https://twitter.com/InovusLabs/status/1754872488343802048"
             },
             {
                 "id": 3,
@@ -1728,21 +2091,21 @@ export const getSocialPosts = async () => {
         "threads": [
             {
                 "id": 1,
-                "url": "https://www.threads.net/@inovuslabs/post/CzM0DdUy5L_"
+                "url": "https://www.threads.net/@inovuslabs/post/C_zdAEZzXK3"
             },
             {
                 "id": 2,
-                "url": "https://www.threads.net/@inovuslabs/post/CypSOuzJFDI"
+                "url": "https://www.threads.net/@inovuslabs/post/C_zcxPXTrN3"
             },
             {
                 "id": 3,
-                "url": "https://www.threads.net/@inovuslabs/post/CyEkW87SkvN"
+                "url": "https://www.threads.net/@inovuslabs/post/C79kWwEPdU3"
             }
         ]
     }
 
     return data;
-}
+};
 
 
 
@@ -1919,88 +2282,137 @@ export const getGalleryAssets = async () => {
 
     let data = [
         {
-          id: 1,
+            id: 1,
+            title: 'Team Inovus at IEDC Summit 2018',
+            description: 'Venue: Amal Jyothi College of Engineering, Kanjirappally',
+            largeURL: BASE_URL + '/assets/gallery/012.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/012.jpg',
+          },
+          {
+            id: 2,
+            title: 'Team Inovus at IEDC Summit 2023',
+            description: 'Venue: College of Engineering, Trivandrum',
+            largeURL: BASE_URL + '/assets/gallery/007.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/007.jpg',
+          },
+          {
+            id: 3,
+            title: 'Team Inovus with Mr. Deepu S Nath, MD, Faya USA.',
+            description: 'Venue: College of Engineering, Trivandrum',
+            largeURL: BASE_URL + '/assets/gallery/008.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/008.jpg',
+          },
+          {
+          id: 4,
         //   title: 'Image 1',
         //   description: 'Image 1 description',
           largeURL: BASE_URL + '/assets/gallery/001.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/001.jpg',
         },
         {
-          id: 2,
+          id: 5,
         //   title: 'Image 2',
         //   description: 'Image 2 description',
           largeURL: BASE_URL + '/assets/gallery/002.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/002.jpg',
         },
         {
-          id: 3,
+          id: 6,
           title: 'Blessing Ceremony of Inovus Labs IEDC Post-renovation',
         //   description: 'Image 3 description',
           largeURL: BASE_URL + '/assets/gallery/003.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/003.jpg',
         },
         {
-          id: 4,
-        //   title: 'Image 4',
-        //   description: 'Image 4 description',
+          id: 7,
+          title: 'The INOVUS site showcased at the ASUS showroom in Lulu Mall!',
+        //   description: 'The INOVUS site showcased at the ASUS showroom in Lulu Mall!',
           largeURL: BASE_URL + '/assets/gallery/004.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/004.jpg',
         },
         {
-          id: 5,
+          id: 8,
         //   title: 'Image 5',
         //   description: 'Image 5 description',
           largeURL: BASE_URL + '/assets/gallery/005.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/005.jpg',
         },
         {
-          id: 6,
+            id: 12,
+            title: 'Team Inovus with Gigi Devassiya',
+            description: 'He is a teacher, an author and an entrepreneur, above all a true visionary who shed lights to many lifes.',
+            largeURL: BASE_URL + '/assets/gallery/meetgigisir.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/meetgigisir.jpg',
+        },
+        {
+          id: 9,
         //   title: 'Image 6',
         //   description: 'Image 6 description',
           largeURL: BASE_URL + '/assets/gallery/006.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/006.jpg',
         },
         {
-          id: 7,
-        //   title: 'Image 7',
-        //   description: 'Image 7 description',
-          largeURL: BASE_URL + '/assets/gallery/007.jpg',
-          thumbnailURL: BASE_URL + '/assets/gallery/007.jpg',
-        },
-        {
-          id: 8,
-          title: 'Team Inovus with Mr. Deepu S Nath, MD, Faya USA.',
-        //   description: 'Image 8 description',
-          largeURL: BASE_URL + '/assets/gallery/008.jpg',
-          thumbnailURL: BASE_URL + '/assets/gallery/008.jpg',
-        },
-        {
-          id: 9,
+          id: 10,
         //   title: 'Image 9',
         //   description: 'Image 9 description',
           largeURL: BASE_URL + '/assets/gallery/009.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/009.jpg',
         },
         {
-          id: 10,
+          id: 11,
         //   title: 'Image 10',
         //   description: 'Image 10 description',
           largeURL: BASE_URL + '/assets/gallery/010.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/010.jpg',
         },
         {
-          id: 11,
+          id: 12,
+          title: 'Team Inovus with Ajay Basil',
+        //   description: '',
+          largeURL: BASE_URL + '/assets/gallery/meetajaybasil.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/meetajaybasil.jpg',
+        },
+        {
+          id: 12,
         //   title: 'Image 11',
         //   description: 'Image 11 description',
           largeURL: BASE_URL + '/assets/gallery/011.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/011.jpg',
         },
         {
-          id: 12,
-          title: 'Team Inovus at IEDC Summit 2018',
-          description: 'Venue: Amal Jyothi College of Engineering, Kanjirappally',
-          largeURL: BASE_URL + '/assets/gallery/012.jpg',
-          thumbnailURL: BASE_URL + '/assets/gallery/012.jpg',
+          id: 13,
+          title: 'Team Inovus with Akhil',
+        //   description: 'Image 11 description',
+          largeURL: BASE_URL + '/assets/gallery/meetakhildamodar.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/meetakhildamodar.jpg',
+        },
+        {
+            id: 13,
+            title: 'Team Inovus with Thomman',
+            description: 'Dr. Thomas George K, also known as Thomman, is the Founder and Chairman of LEAD College of Management.',
+            largeURL: BASE_URL + '/assets/gallery/meetthoman.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/meetthoman.jpg',
+        },
+        {
+          id: 14,
+          title: 'Trip',
+          description: 'Kuttikanam',
+          largeURL: BASE_URL + '/assets/gallery/teaminovus.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/teaminovus.jpg',
+        },
+        {
+            id: 15,
+            // title: 'Team Inovus with GenAI Mentor',
+            // description: '',
+            largeURL: BASE_URL + '/assets/gallery/meetai.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/meetai.jpg',
+          },
+        {
+          id: 15,
+          title: 'Release of DocGen',
+          description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+          largeURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/Inovusteam.jpg'
         }
     ]
 
