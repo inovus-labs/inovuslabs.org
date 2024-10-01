@@ -2,6 +2,7 @@
 // mini IoT lab images
 // nano degree
 
+
 import axios from 'axios';
 
 const BASE_URL = "https://storage.googleapis.com/inovuslabs-cdn.appspot.com";
@@ -934,16 +935,16 @@ export const getBlogPosts = async () => {
     
         const fallbackData = [
             {
-                "title": "The Dangerous Cam Ever Found",
-                "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/09/a-cover-image-with-a-mysterious-and-intense-vibe-a-KolrOihPQkKn3Fnqg9Jwxw-IIlSmBE_SWmkyL5RTVqSzw.jpeg",
-                "custom_excerpt": null,
-                "published_at": "2024-09-11T14:26:00.000+05:30",
+                "title": "Project Dora: When We Set Out to Build One Thing and Ended Up with Something Else",
+                // "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/09/a-cover-image-with-a-mysterious-and-intense-vibe-a-KolrOihPQkKn3Fnqg9Jwxw-IIlSmBE_SWmkyL5RTVqSzw.jpeg",
+                "custom_excerpt": "You know how sometimes you sit around, trying to come up with the next big project, and bam—nothing.",
+                "published_at": "2024-10-01T14:26:00.000+05:30",
                 "reading_time": 7,
                 "tags": [
                     {
                         "id": "653f71fb5d18573f9b9f3d79",
-                        "name": "Free Thinking",
-                        "slug": "freethinking",
+                        "name": "Internet of Things",
+                        "slug": "internet-of-things",
                         "description": null,
                         "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/09/a-cover-image-with-a-mysterious-and-intense-vibe-a-KolrOihPQkKn3Fnqg9Jwxw-IIlSmBE_SWmkyL5RTVqSzw.jpeg",
                         "visibility": "public",
@@ -965,36 +966,27 @@ export const getBlogPosts = async () => {
                 "authors": [
                     {
                         "id": "6540bc590b27848ad6616f50",
-                        "name": "Arjun A Acharry",
-                        "slug": "arjun-a-acharry",
+                        "name": "Amith Abey Stephen",
+                        "slug": "amith-abey-stephen",
                         "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
-                        "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
-                        "bio": null,
-                        "website": null,
-                        "location": null,
-                        "facebook": null,
-                        "twitter": null,
-                        "meta_title": null,
-                        "meta_description": null,
-                        "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
                     }
                 ],
-                "url": "https://blog.inovuslabs.org/the-dangerous-cam-ever-found/",
+                "url": "https://blog.inovuslabs.org/project-dora/",
                 "excerpt": "We all love our cameras, don’t we? From capturing the perfect sunset to that accidental selfie where your face looks like it’s melting—cameras are our best friends."
-            }
-            ,{
-                "title": "The Power of Collective Thought: Are We All Thinking the Same Thing?",
-                "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/08/a-vibrant-and-diverse-group-of-individuals-from-va-3DzbEak-SGmQiJT-_YgFsA-M-CW92lRQoiEisAf8B7e8A.jpeg",
+            }, 
+            {
+                "title": "The Shikava Kingdom",
+                // "feature_image": "https://res-4.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/a-fantasy-scene-set-in-the-mystical-shikava-kingdo--xZP2QX-TXCq4jD-Wj0I4g-DssajIGoQLuCZs8AMg9z5A.jpg",
                 "custom_excerpt": null,
-                "published_at": "2024-08-13T20:50:46.000+05:30",
-                "reading_time": 3,
+                "published_at": "2024-09-27T14:26:00.000+05:30",
+                "reading_time": 5,
                 "tags": [
                     {
-                        "id": "653f71fb5d18573f9b9f3d79",
-                        "name": "Free Thinking",
-                        "slug": "freethinking",
+                        "id": "653fc29ab14998447e1d37dd",
+                        "name": "Fiction",
+                        "slug": "fiction",
                         "description": null,
-                        "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/08/a-vibrant-and-diverse-group-of-individuals-from-va-3DzbEak-SGmQiJT-_YgFsA-M-CW92lRQoiEisAf8B7e8A.jpeg",
+                        "feature_image": "https://res-4.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/a-fantasy-scene-set-in-the-mystical-shikava-kingdo--xZP2QX-TXCq4jD-Wj0I4g-DssajIGoQLuCZs8AMg9z5A.jpg",
                         "visibility": "public",
                         "og_image": null,
                         "og_title": null,
@@ -1007,8 +999,8 @@ export const getBlogPosts = async () => {
                         "codeinjection_head": null,
                         "codeinjection_foot": null,
                         "canonical_url": null,
-                        "accent_color": "#617bff",
-                        "url": "https://blog.inovuslabs.org/tag/freethinking/"
+                        "accent_color": "#8aaf46",
+                        "url": "https://blog.inovuslabs.org/tag/fiction/"
                     }
                 ],
                 "authors": [
@@ -1028,23 +1020,59 @@ export const getBlogPosts = async () => {
                         "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
                     }
                 ],
-                "url": "https://blog.inovuslabs.org/are-we-all-thinking-the-same-thing/",
-                "excerpt": "In our fast-paced, interconnected world, the power of thought is astonishing. Each of us has the ability to think, create, and dream. Yet, in this vast sea of human consciousness, it's remarkable how often people around the globe find themselves thinking the same thoughts at the same time.",
-                "reading_time": 3
-            },
-            {
-                "title": "എന്തുകൊണ്ട് ഇന്ത്യയിൽ നിന്ന് ഒരു മൈക്രോസോഫ്റ്റോ ഗൂഗിളോ ആപ്പിളോ ഉണ്ടാകുന്നില്ല?",
-                "feature_image": "https://images.unsplash.com/photo-1614680376408-81e91ffe3db7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIxfHx3aGF0c2FwcHxlbnwwfHx8fDE3MjIzMjk5MjJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
-                "custom_excerpt": "Check out this insightful WhatsApp post that I felt compelled to share. It's a quick read that I believe many will find valuable.",
+                "url": "https://blog.inovuslabs.org/the-shikava-kingdom/",
+                "excerpt": "In the ancient time of the Shikava Kingdom, magic flowed freely through the land. Many magical girls with immense powers helped the Shikava Kingdom flourish and keep its people safe and happy. '"
+            },{
+                "title": "Our Arduino Mining Adventure: How We Earned ₹1!",
+                // "feature_image": "https://images.unsplash.com/photo-1614680376408-81e91ffe3db7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDIxfHx3aGF0c2FwcHxlbnwwfHx8fDE3MjIzMjk5MjJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                "custom_excerpt": "So one day, while having one of those deep talks about crypto and mining, we got pretty intrigued by the idea of trying it ourselves. The concept of mining—solving complex problems to validate transactions and earn rewards—sounded thrilling. The only problem? None of us had a high-end PC to throw into the fire. We barely had our own laptops to work with. Risking them for mining? Nah, not happening.",
                 "published_at": "2024-07-30T03:20:00.000+05:30",
                 "reading_time": 6,
                 "tags": [
                     {
-                        "id": "653fc29ab14998447e1d37dd",
+                        "id": "653f71fb5d18573f9b9f3d79",
+                        "name": "Internet of Things",
+                        "slug": "internet-of-things",
+                        "description": null,
+                        "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/09/a-cover-image-with-a-mysterious-and-intense-vibe-a-KolrOihPQkKn3Fnqg9Jwxw-IIlSmBE_SWmkyL5RTVqSzw.jpeg",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#617bff",
+                        "url": "https://blog.inovuslabs.org/tag/freethinking/"
+                    }
+                ],
+               "authors": [
+                    {
+                        "id": "6540bc590b27848ad6616f50",
+                        "name": "Amith Abey Stephen",
+                        "slug": "amith-abey-stephen",
+                        "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/our-mining-adventure/",
+                "excerpt": "Check out this insightful WhatsApp post that I felt compelled to share. It's a quick read that I believe many will find valuable."
+            },{
+                "title": "Is This Education Necessary in the World?",
+                "custom_excerpt": "Let’s tackle a topic that gets more side-eye than a cat in a dog park: sex education. You might be sitting there thinking", 
+                "published_at": "2024-08-13T20:50:46.000+05:30",
+                "reading_time": 3,
+                "tags": [
+                    {
+                        "id": "653f71fb5d18573f9b9f3d79",
                         "name": "Education",
                         "slug": "education",
                         "description": null,
-                        "feature_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE2OTg5MDI5Mjh8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                        "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/08/a-vibrant-and-diverse-group-of-individuals-from-va-3DzbEak-SGmQiJT-_YgFsA-M-CW92lRQoiEisAf8B7e8A.jpeg",
                         "visibility": "public",
                         "og_image": null,
                         "og_title": null,
@@ -1057,78 +1085,29 @@ export const getBlogPosts = async () => {
                         "codeinjection_head": null,
                         "codeinjection_foot": null,
                         "canonical_url": null,
-                        "accent_color": "#8aaf46",
+                        "accent_color": "#617bff",
                         "url": "https://blog.inovuslabs.org/tag/education/"
-                    }
-                ],
-                "authors" :[
-                    {
-                    "id": "1",
-                    "name": "Inovus Labs IEDC",
-                    "slug": "inovuslabs",
-                    "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/Inovus_Logo-PNG-3.png",
-                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/12/0.jpg",
-                    "bio": null,
-                    "website": "https://inovuslabs.org/",
-                    "location": null,
-                    "facebook": null,
-                    "twitter": "@InovusLabs",
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/inovuslabs/"
-                    }
-                ],
-                "url": "https://blog.inovuslabs.org/a-whatsapp-post-worth-reading/",
-                "excerpt": "Check out this insightful WhatsApp post that I felt compelled to share. It's a quick read that I believe many will find valuable."
-            },
-            {
-                "title": "It works on my machine... Not on yours... But why? Let's talk Docker!",
-                "feature_image": "https://blog.inovuslabs.org/content/images/size/w1200/2024/07/Frame-1.png",
-                "custom_excerpt": null,
-                "published_at": "2024-07-10T14:26:00.000+05:30",
-                "reading_time": 5,
-               "tags": [
-                    {
-                        "id": "653fc29ab14998447e1d37dd",
-                        "name": "Web Development",
-                        "slug": "web-development",
-                        "description": null,
-                        "feature_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE2OTg5MDI5Mjh8MA&ixlib=rb-4.0.3&q=80&w=2000",
-                        "visibility": "public",
-                        "og_image": null,
-                        "og_title": null,
-                        "og_description": null,
-                        "twitter_image": null,
-                        "twitter_title": null,
-                        "twitter_description": null,
-                        "meta_title": null,
-                        "meta_description": null,
-                        "codeinjection_head": null,
-                        "codeinjection_foot": null,
-                        "canonical_url": null,
-                        "accent_color": "#8aaf46",
-                        "url": "https://blog.inovuslabs.org/tag/web-development/"
                     }
                 ],
                 "authors": [
                     {
-                        "id": "653f7a27b14998447e1d36d5",
-                        "name": "Arjun Krishna",
-                        "slug": "arjun",
-                        "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
-                        "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/image-7.png",
-                        "bio": "Yet another human being born towards the end of the 20th century, and continues his Exploration & Experimentation on the Technology that the 21st century has to offer.",
-                        "website": "https://arjunkrishna.in/",
-                        "location": "Pathanamthitta | Bangalore",
+                        "id": "6540bc590b27848ad6616f50",
+                        "name": "Arjun A Acharry",
+                        "slug": "arjun-a-acharry",
+                        "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
+                        "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
+                        "bio": null,
+                        "website": null,
+                        "location": null,
                         "facebook": null,
-                        "twitter": "@Decoded_Cipher",
+                        "twitter": null,
                         "meta_title": null,
                         "meta_description": null,
-                        "url": "https://blog.inovuslabs.org/author/arjun/"
+                        "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
                     }
                 ],
-                "url": "https://blog.inovuslabs.org/docker-simplified/",
-                "excerpt": "For Dev & DevOps geeks, ensuring that your application runs smoothly across different environments can often be a daunting task. A phrase commonly heard among them when troubleshooting such issues is 'This works on my machine, not on yours... But why?'"
+                "url": "https://blog.inovuslabs.org/is-this-education-necessary-in-the-world/",
+                "reading_time": 3
             }
             
         ];
@@ -1667,6 +1646,14 @@ export const getActivity = async () => {
                 "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
                 "date": ["09 September 2024"],
                 "tags": ["Session"],
+            },{
+                "id": 62,
+                "title": "Web Design Bootcamp",
+                "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
+                "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
+                "date": ["12 October 2024"],
+                "tags": ["Bootcamp"],
+                "sitelink": ["https://forms.gle/8Ma9isaK86bW3YvJ6"],
             }
         ]
     };
@@ -2034,29 +2021,30 @@ export const getSocialPosts = async () => {
         "instagram": [
             {
                 "id": 1,
-                "url": "https://www.instagram.com/reel/C_yB61GoGi8/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/DAixCNXzIVW/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 2,
-                "url": "https://www.instagram.com/reel/C_vRA8YNU0A/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/reel/DAZpyJnOUZi/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 3,
-                "url": "https://www.instagram.com/p/C_s6eupTiIx/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/C_6aMUOT_aG/?utm_source=ig_embed&amp;utm_campaign=loading"
             }
+            
         ],
         "linkedin": [
             {
                 "id": 1,
-                "url": "https://www.linkedin.com/feed/update/urn:li:share:7235872064065167360"
+                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7237133903067521026"
             },
             {
                 "id": 2,
-                "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7217172943926095873"
+                "url": "https://www.linkedin.com/feed/update/urn:li:share:7235872064065167360"
             },
             {
                 "id": 3,
-                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7235872064065167360"
+                "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7217172943926095873"
             }
         ],
         "youtube": [
@@ -2091,15 +2079,15 @@ export const getSocialPosts = async () => {
         "threads": [
             {
                 "id": 1,
-                "url": "https://www.threads.net/@inovuslabs/post/C_zdAEZzXK3"
+                "url": "https://www.threads.net/@inovuslabs/post/DAdF_-YTbUC"
             },
             {
                 "id": 2,
-                "url": "https://www.threads.net/@inovuslabs/post/C_zcxPXTrN3"
+                "url": "https://www.threads.net/@inovuslabs/post/C_zdAEZzXK3"
             },
             {
                 "id": 3,
-                "url": "https://www.threads.net/@inovuslabs/post/C79kWwEPdU3"
+                "url": "https://www.threads.net/@inovuslabs/post/DAPtKqVzFvF"
             }
         ]
     }
@@ -2413,6 +2401,13 @@ export const getGalleryAssets = async () => {
           description: 'Venue: Kristu Jyoti College of Mangement and Technology',
           largeURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/Inovusteam.jpg'
+        },
+        {
+          id: 16,
+        //   title: 'Visit from principle rampuram',
+        //   description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+          largeURL: BASE_URL + '/assets/gallery/',
+          thumbnailURL: BASE_URL + '/assets/gallery/'
         }
     ]
 
