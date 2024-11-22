@@ -1667,28 +1667,28 @@ export const getActivity = async () => {
                 "description": "The call for our new interns. We have conducted interview of all applied students and assigned tasks and selected  intrested students to inovus Fam.",
                 "date": ["16 November 2024", "27 November 2024"],
                 "tags": ["Internship"],
+                "sitelink": ["https://forms.gle/igbQXMM25AMJhQ7R6"],
+
             },{
                 "id": 64,
                 "title": "Help Desk-YIP 7.0",
                 "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
                 "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
-                "date": ["11 November 2024", "12 December 2024"],
+                "date": ["11 November 2024", "15 December 2024"],
                 "tags": ["Challenge"],
-                "sitelink": ["https://forms.gle/8Ma9isaK86bW3YvJ6"],
             },{
                 "id": 65,
                 "title": "Stupid Idea Competition",
                 "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
                 "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
-                "date": ["11 November 2024", "12 December 2024"],
+                "date": ["11 November 2024","12 December 2024"],
                 "tags": ["Challenge"],
-                "sitelink": ["https://forms.gle/8Ma9isaK86bW3YvJ6"],
             },{
                 "id": 66,
                 "title": "Web Design Bootcamp",
                 "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
                 "description": "Inovus Labs IEDC organised the web design bootcamp on 12 Dec with 40 participants covering the basics of web desgning.",
-                "date": ["12 December 2025"],
+                "date": ["12 December 2024"],
                 "tags": ["Bootcamp"],
                 "sitelink": ["https://forms.gle/8Ma9isaK86bW3YvJ6"],
             }
@@ -3243,14 +3243,14 @@ export const getcurrentTeam = async () => {
                         linkedin: "https://www.linkedin.com/in/devika-anil-4b25492b3"
                     }
                 }, {
-                    name: ' Lekshmi Sree J',
+                    name: ' Tom Thomas Kondody',
                     position: 'Chief Innovations Officer',
                     description: 'An innovator is someone who introduces new ideas, methods, products, or processes, often with the aim of improving existing systems or creating entirely new ones. My tag is Chief innovation officer.',
                    avatar: BASE_URL + '/assets/team/2024/Chief Innovations Officer.jpg',
                     social: {
-                        instagram: "https://www.instagram.com/es_ter_lla_",
+                        instagram: "https://www.instagram.com/tom_kondody/",
                         github: "",
-                        linkedin: "https://www.linkedin.com/in/lekshmi-sree-j"
+                        linkedin: "https://www.linkedin.com/in/tomthomaskondody/"
                     }
                 }, {
                     name: ' Joel Jacob Thomas',
@@ -3333,14 +3333,14 @@ export const getcurrentTeam = async () => {
                         linkedin: "https://www.linkedin.com/in/amenda-maria-johnson-669420283"
                     }
                 }, {
-                    name: ' Bhagya V',
+                    name: ' Josna Ann Varghese',
                     position: 'Chief Quality Officer',
                     description: '',
                    avatar: BASE_URL + '/assets/team/2024/Event Curator.jpg',
                     social: {
-                      instagram: "https://www.instagram.com/bhagyaa._v",
-                        github: "https://github.com/Bhagyaa-V",
-                        linkedin: "https://www.linkedin.com/in/bhagyaa-v-013875294"
+                        instagram: "https://www.instagram.com/josnaannv/",
+                        github: "",
+                        linkedin: ""
                     }
                 },
             ]
