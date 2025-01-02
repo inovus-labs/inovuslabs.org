@@ -171,7 +171,7 @@
                     },
                     {
                         title: "Blogs Published",
-                        value: 28,
+                        value: 58,
                         mode: "accurate"
                     },
                     {

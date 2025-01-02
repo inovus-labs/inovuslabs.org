@@ -174,7 +174,7 @@ export default {
         incubators: ["Badusha Shaji", "Abhishek V Gopal", "Arjun A Acharry", ""],
         image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/DevMorphix.png",
         description: "Welcome to the digital revolution! Elevate your business with our innovative web development, IoT solutions, automations, design, and captivating kiosk displays.",
-        link: "https://inovuslabs.com/"
+        link: "https://devmorphix.com/"
       },
       {
         id: 5,
@@ -184,6 +184,14 @@ export default {
         description: "Edunext is a non-profit initiative aimed to develop interpersonal skills in school students through workshops,bootcamps, fireside and analytical chats",
         link: "https://inovuslabs.com/"
       },
+      {
+        id: 6,
+        name: "Herba Soap",
+        incubators: ["Tom Thomas"],
+        image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/EDUNEXT COMMUNITY LOGO.png",
+        description: "Hebra Soap is a self-driven startup dedicated to crafting high-quality handmade soaps.",
+        link: "https://inovuslabs.com/"
+      }
     ],
 
   }
