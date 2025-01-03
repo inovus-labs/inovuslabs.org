@@ -1231,7 +1231,8 @@ export const getPodcasts = async () => {
 
 
 
-// Get all projects
+// Get all activity
+
 export const getActivity = async () => {
     let data = {
         "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Exhibition","Release"],
@@ -1729,21 +1730,21 @@ export const getActivity = async () => {
             },{
                 "id": 62,
                 "title": "Hacktoberfest 2024",
-                "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
+                "thumbnail": BASE_URL + "/assets/activity/Hacktober24.png",
                 "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
                 "date": ["01 October 2024", "31 October 2024"],
                 "tags": ["Workshop"],
             },{
                 "id": 63,
                 "title": "Inora - Join Our Team ",
-                "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
+                "thumbnail": BASE_URL + "/assets/activity/Inora Intern call.png",
                 "description": "Welcoming new buddies . We have conducted interview of all applied students and assigned tasks and selected  intrested students to inovus Fam.",
                 "date": ["13 October 2024", "20 October 2024"],
                 "tags": ["Internship"],
             },{
                 "id": 63,
                 "title": "Call For Interns ",
-                "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
+                "thumbnail": BASE_URL + "/assets/activity/Interncall 24.png",
                 "description": "The call for our new interns. We have conducted interview of all applied students and assigned tasks and selected  intrested students to inovus Fam.",
                 "date": ["16 November 2024", "27 November 2024"],
                 "tags": ["Internship"],
@@ -1752,21 +1753,21 @@ export const getActivity = async () => {
             },{
                 "id": 64,
                 "title": "Help Desk-YIP 7.0",
-                "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
+                "thumbnail": BASE_URL + "/assets/activity/YIP 7.0 HelpDesk.png",
                 "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
                 "date": ["11 November 2024", "15 December 2024"],
                 "tags": ["Challenge"],
             },{
                 "id": 65,
                 "title": "Stupid Idea Competition",
-                "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
+                "thumbnail": BASE_URL + "/assets/activity/Stupid Idea Contest24.png",
                 "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
                 "date": ["11 November 2024","12 December 2024"],
                 "tags": ["Challenge"],
             },{
                 "id": 66,
                 "title": "Web Design Bootcamp",
-                "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
+                "thumbnail": BASE_URL + "/assets/activity/Web-D.png",
                 "description": "Inovus Labs IEDC organised the web design bootcamp on 12 Dec with 40 participants covering the basics of web desgning.",
                 "date": ["12 December 2024"],
                 "tags": ["Bootcamp"],
