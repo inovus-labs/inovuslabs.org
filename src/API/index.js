@@ -1,3 +1,7 @@
+// /reports update
+// mini IoT lab images
+// nano degree
+
 
 import axios from 'axios';
 
@@ -114,8 +118,12 @@ export const getProjects = async () => {
                 "title": "Smart Inovus",
                 "description": "Home automation refers to the use of smart technology and integrated systems to control various aspects of a home, providing homeowners with increased convenience, energy efficiency, security, and customization. We used ESP32, 16 Channel relay module and 12v DC adapter for controlling the appliances. The ESP32 is integrated with Arduino IOT cloud platform. It provides Integration with virtual assistants like Amazon Alexa, Google Assistant, or Apple Home Kit allows users to control devices using voice commands.",
                 "thumbnail": BASE_URL + "/assets/projects/Automation.jpeg",
-                "status": "Progress",
+                "status": "Completed",
                 "tags": ["Internet of Things", "Electronics"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/inovus-labs/smart-inovus'
+                },
                 "contributors": [
                     {
                         "name": "Badhusha Shaji",
@@ -192,10 +200,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/sound_thoma.jpeg",
                 "status": "Completed",
                 "tags": ["Software"],
-                "url": {
-                    'type': 'source',
-                    'link': 'https://github.com/decoded-cipher/chacko-mash'
-                },
+                // "url": {
+                //     'type': 'source',
+                //     'link': 'https://github.com/decoded-cipher/chacko-mash'
+                // },
                 "contributors": [
                     {
                         "name": "Arjun Krishna",
@@ -300,6 +308,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/Blind_stick.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/Amith-Abey-Stephen/Blind_Stick'
+                },
                 "contributors": [
                     {
                         "name": "Badhusha Shaji",
@@ -318,6 +330,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/RC_CAR.jpeg",
                 "status": "Completed",
                 "tags": ["Internet of Things"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/Amith-Abey-Stephen/Bluetooth_controlled-RC-CAR'
+                },
                 "contributors": [
                     {
                         "name": "Badhusha Shaji",
@@ -473,6 +489,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/Ino-mail.jpeg",
                 "status": "Completed",
                 "tags": ["Electronics, Internet of Things"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/Amith-Abey-Stephen/Lpg_detection'
+                },
                 "contributors": [
                     {
                         "name": "Arjun Krishna",
@@ -515,6 +535,10 @@ export const getProjects = async () => {
                 "thumbnail": BASE_URL + "/assets/projects/kiosk.png",
                 "status": "progress",
                 "tags": ["Electronics, Internet of Things"],
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/inovus-labs/kiosk.inovuslabs.org'
+                },
                 "contributors": [
                     {
                         "name": "Arjun Krishna",
@@ -663,24 +687,30 @@ export const getProjects = async () => {
                     }
                 ]
             }
-            // ,
-            // {
-            //     "id": 32,
-            //     "title": "",
-            //     "description": "",
-            //     "thumbnail": BASE_URL + "/assets/projects/otto.jpg",
-            //     "status": "progress",
-            //     "tags": ["Electronics, Internet of Things"],
-            //     "contributors": [
-            //         {
-            //             "name": "Badhusha Shaji",
-            //             "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-            //         },{
-            //             "name": "Abhishek V Gopal",
-            //             "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
-            //         }
-            //     ]
-            // }
+            ,
+            {
+                "id": 32,
+                "title": "Remote Controlled Recycle Bin",
+                "description": "The remote-controlled recycle bin is a smart device that can be moved using a website. You can control the bin from your computer or phone, making it easy to manage and collect waste without going near to it directly.",
+                "thumbnail": BASE_URL + "/assets/projects/wastebin.jpg",
+                "status": "progress",
+                "tags": ["Electronics, Internet of Things"],
+
+                "url": {
+                    'type': 'source',
+                    'link': 'https://github.com/DevMorphix/public-rc-car'
+                },
+
+                "contributors": [
+                    {
+                        "name": "Badhusha Shaji",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    },{
+                        "name": "Abhishek V Gopal",
+                        "avatar": "https://flowbite.com/docs/images/avatars/avatar-1.jpg"
+                    }
+                ]
+            }
         ]
     };
 
@@ -692,214 +722,486 @@ export const getProjects = async () => {
 // Get recent blog posts published on Inovus Blogs
 export const getBlogPosts = async () => {
 
-    // try {
-    //     const res = await axios.get(`${import.meta.env.VITE_APP_INOVUS_BLOGS_BASE_URL}/ghost/api/content/posts/?key=${import.meta.env.VITE_APP_INOVUS_BLOGS_API_KEY}&limit=4&fields=title,feature_image,custom_excerpt,excerpt,published_at,url,reading_time,html&include=tags,authors`);
-    //     return res.data.posts;
-    // } catch (error) {
-    //     console.log(error);
-    // }
+    try {
+        const res = await axios.get(`${import.meta.env.VITE_APP_INOVUS_BLOGS_BASE_URL}/ghost/api/content/posts/?key=${import.meta.env.VITE_APP_INOVUS_BLOGS_API_KEY}&limit=4&fields=title,custom_excerpt,excerpt,published_at,url,html,reading_time&include=tags,authors`);
+        return res.data.posts;
+    }
+    catch (error) {
+            console.error('Error fetching data from API, using fallback data:', error);
+            return fallbackData;
+        }
+
+    // Dynamic ->error -> Static Fetching
+        const fallbackData = [
+            {
+                "title": "The Secret Friend",
+                "custom_excerpt": null,
+                "published_at": "2024-12-25T18:26:58.000+05:30",
+                "html": "<p>In a small village nestled between snow-covered mountains, life was simple yet challenging. The village, Snowvale, was a quaint place where chimneys puffed smoke into the cold air, and the cobblestone streets were lined with wooden cottages. At the very edge of the village stood a small, weather-worn cabin. It seemed almost too fragile to withstand the harsh winters, but it was home to a young boy named Liam.</p><p>Liam was only twelve years old, but life had already taught him to be resilient. His parents had passed away when he was very young, leaving him to grow up alone. The villagers did their best to look after him, offering food and kind words when they could, but they had their own struggles to face. Despite the loneliness that often accompanied him, Liam had a warm heart and a quiet determination. His bright blue eyes, framed by untidy brown hair, were filled with curiosity and a longing for connection.</p><p>Each day, Liam wandered through the snowy woods surrounding the village. He would talk to the birds, watch the deer, and listen to the sound of the wind rustling through the trees. He liked to imagine that the woods were his secret world, where he wasn’t alone. Still, he wished for a friend—someone who would truly understand him.</p><p>One frosty evening, as Liam sat by a frozen creek, he heard the crunch of snow behind him. Turning around, he saw an old man with a long silver beard and kind, twinkling eyes. The man wore simple, ragged clothes and carried a large sack over his shoulder.</p><p>“Hello, young one,” the man said warmly. “What brings you out here in the cold?”</p><p>“I like it here,” Liam replied, unsure whether to feel curious or cautious. “It’s peaceful. Who are you?”</p><p>“My name is Nicholas,” the man said with a gentle smile. “I’m just a traveler passing through. And you?”</p><p>“I’m Liam,” the boy answered, his voice soft but steady.</p><p>From that day on, Nicholas and Liam became inseparable. Nicholas was unlike anyone Liam had ever met. His laughter was hearty and comforting, his stories were enchanting, and he seemed to make even the coldest days feel warm. They spent hours together, building snowmen, exploring the woods, and sledding down hills. Nicholas often brought small gifts—an apple, a carved trinket, or a loaf of bread. To Liam, he was more than a friend; he was family.</p><p>What Liam didn’t know was that Nicholas was no ordinary traveler. He was Santa Claus, taking time away from his usual duties to bring joy and companionship to a boy who needed it most.</p><p>One day, while delivering toys to a villager in town, Liam met Eliza, the blacksmith’s daughter. Eliza had just moved to Snowvale and was about Liam’s age. She had fiery red hair that shone like embers against the snowy backdrop and a laugh that could brighten the gloomiest day. Despite her bold demeanor, Eliza was gentle and kind. They quickly became friends, spending hours together exploring the village, playing in the snow, and sharing stories by the fire.</p><p>Eliza’s presence brought new joy to Liam’s life. She often visited his little cabin, bringing freshly baked bread or warm soup. The once lonely home began to feel alive with laughter and warmth. Nicholas, watching from the sidelines, felt a deep sense of happiness seeing Liam thrive.</p><p>Under Nicholas’s guidance, Liam discovered a talent for carving wood. He began making simple toys—wooden animals, carts, and dolls. Eliza, ever resourceful, helped him set up a small workshop in his cabin. Soon, Liam’s toys became popular in Snowvale and beyond. Villagers came to him with orders, marveling at his skill. His success brought pride to the village, which had long been overshadowed by hardship.</p><p>As the years passed, Liam grew into a strong and kind young man. His bond with Eliza deepened, and the two fell in love. Together, they expanded the workshop, creating not just toys but hope for their community. Snowvale, once a quiet and struggling village, began to flourish.</p><p>On Christmas Eve, the village was alive with celebration. Candles lit up the square, carolers sang, and the air was filled with the scent of roasted chestnuts. Liam and Eliza stood hand in hand, marveling at how far they had come. Nicholas, ever the mysterious friend, joined them by the large Christmas tree.</p><p>“Close your eyes,” Nicholas said with a playful grin. “I have a surprise for you.”</p><p>Liam and Eliza exchanged curious glances but obeyed. When they opened their eyes, Nicholas was no longer the simple traveler they had known. Standing before them was Santa Claus, dressed in a bright red coat trimmed with white fur, his silver beard glowing under the starlight. A sleigh filled with gifts stood behind him, and reindeer pawed at the snow.</p><p>“You’re Santa Claus?” Liam whispered, his voice filled with wonder.</p><p>Santa smiled. “Yes, my dear friends. But more importantly, I am your friend. You have brought joy, love, and hope to this village, and for that, I am grateful.”</p><p>Liam and Eliza stood in awe, their hearts swelling with gratitude and amazement. Santa placed a hand on Liam’s shoulder and said, “You have shown that even in the hardest times, kindness and love can light the way. That is the true spirit of Christmas.”</p><p>With that, Santa climbed into his sleigh, waved goodbye, and disappeared into the starry sky. Liam and Eliza watched until the golden trail of light faded, their hearts full of wonder.</p><p>In the years that followed, Liam and Eliza continued to bring joy to Snowvale. Their love, kindness, and hard work transformed the village into a thriving, happy place. And every Christmas Eve, they would look up at the stars, remembering the friend who had shown them the magic of love and friendship.</p>",
+                "authors": [
+                    {
+                        "id": "66e54ca3d29ec7000177a480",
+                        "name": "Arjun A Acharry",
+                        "slug": "arjun-a-acharry",
+                        "profile_image": "https://res-5.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/_MG_2998---Copy.jpg",
+                        "cover_image": "https://res-4.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/df5bfb980dfb82fd5276065a3a6f8fa9.jpg",
+                        "bio": "Never Judge Anyone With His Past",
+                        "website": null,
+                        "location": null,
+                        "facebook": null,
+                        "twitter": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+                    }
+                ],
+                "tags": [
+                    {
+                        "id": "66e6c959b8d0440001291409",
+                        "name": "Fiction",
+                        "slug": "fiction",
+                        "description": null,
+                        "feature_image": "https://images.unsplash.com/photo-1626618012641-bfbca5a31239?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEwfHxmaWN0aW9ufGVufDB8fHx8MTcyODI4NTI4Mnww&ixlib=rb-4.0.3&q=80&w=2000",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": null,
+                        "url": "https://blog.inovuslabs.org/tag/fiction/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/the-secret-friend/",
+                "excerpt": "In a small village nestled between snow-covered mountains, life was simple yet challenging. The village, Snowvale, was a quaint place where chimneys puffed smoke into the cold air, and the cobblestone streets were lined with wooden cottages. At the very edge of the village stood a small, weather-worn cabin. It seemed almost too fragile to withstand the harsh winters, but it was home to a young boy named Liam.\n\nLiam was only twelve years old, but life had already taught him to be resilient. His p",
+                "reading_time": 4
+            },
+            {
+                "title": "Let it Snow! A Festive Guide to add Snowfall Effect to your Website",
+                "custom_excerpt": "🎉 Look around! The snowfall you see on this very blog is a live demonstration of what we’re about to build. Yes, it’s already snowing here! Isn’t that magical? 🎄✨",
+                "published_at": "2024-12-25T08:11:40.000+05:30",
+                "html": "<p><strong>Merry Christmas, web enthusiasts!</strong> 🎄 Everyone has their own way of celebration &amp; entertainment, and this is mine—creating magical effects like this snowfall (also, crashing stuff—once in a while) is my way of spreading joy. It’s more than just code; it’s a celebration of creativity and holiday cheer! 🌟</p><figure class=\"kg-card kg-embed-card\"><iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/fuKmbuuhJy8?start=89&amp;feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\" title=\"This Is My Entertainment..!! | Aadu 2 Movie Scene | Vinayakan | Jayasurya |\"></iframe></figure><p>Ready to sprinkle some holiday magic on your website? Let's build a simple, lightweight snowfall animation using HTML, CSS, and JavaScript. Let’s make your site feel like Christmas! ❄️✨</p><hr><h3 id=\"why-add-snowfall-%F0%9F%8E%85\">Why Add Snowfall? 🎅</h3><p>Snowfall is the perfect seasonal touch for your website. It’s festive—nothing says \"holidays\" like snowflakes gently drifting down your screen. ❄️ It’s mesmerizing, capturing visitors' attention so much they might forget why they came to your site! 😄 And it’s fun and simple. Everyone has their unique way of celebrating, and adding snowfall is a charming, joyful way to spread holiday cheer. 🛠️</p><p>Convinced? Let’s make it snow! 🌨️</p><h3 id=\"what-we%E2%80%99ll-build\">What We’ll Build</h3><p>Let's create a snowfall overlay that works like a charm on both desktop and mobile devices. Here’s what you’ll get:</p><ul><li>Realistic, smooth snowfall animation. ❄️</li><li>A gentle horizontal drift for a natural, windy effect. 🌬️</li><li>Fully customizable size, speed, and density. 🎨</li></ul><p>Look around you! The snowfall you see right now on this very blog is not just a demonstration—it’s live magic in action! 🎉 Isn’t it amazing to see how a few lines of code can transform a webpage into a winter wonderland? That’s the power of creativity and a little holiday spirit.</p><p>Check out the full code on <a href=\"https://gist.github.com/decoded-cipher/5120fae27b42e6cf33043d1f060858ef\" rel=\"noreferrer\">GitHub Gist</a> attached below!</p><figure class=\"kg-card kg-bookmark-card\"><a class=\"kg-bookmark-container\" href=\"https://gist.github.com/decoded-cipher/5120fae27b42e6cf33043d1f060858ef\"><div class=\"kg-bookmark-content\"><div class=\"kg-bookmark-title\">snowfall.html</div><div class=\"kg-bookmark-description\">GitHub Gist: instantly share code, notes, and snippets.</div><div class=\"kg-bookmark-metadata\"><img class=\"kg-bookmark-icon\" src=\"https://static.ghost.org/v5.0.0/images/link-icon.svg\" alt=\"\"><span class=\"kg-bookmark-author\">Gist</span><span class=\"kg-bookmark-publisher\">262588213843476</span></div></div><div class=\"kg-bookmark-thumbnail\"><img src=\"https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png\" alt=\"\" onerror=\"this.style.display = 'none'\"></div></a></figure><hr><h3 id=\"the-magic-code-%F0%9F%AA%84\">The Magic Code 🪄</h3><p>Here’s the HTML, CSS, and JavaScript for the snowfall effect. Copy it, customize it, and let it snow on your website! ☃️</p><pre><code class=\"language-html\">&lt;div id=\"snowfall-overlay\"&gt;&lt;/div&gt;</code></pre><pre><code class=\"language-CSS\">#snowfall-overlay {\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    pointer-events: none;\n    z-index: 9999;\n    overflow: hidden;\n}\n\n.snowflake {\n    position: fixed;\n    top: -10px;\n    color: white;\n    line-height: 1;\n    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);\n    pointer-events: none;\n    animation: fall linear infinite;\n}\n\n@keyframes fall {\n    0% {\n        transform: translateY(-10vh) translateX(0);\n    }\n    25% {\n        transform: translateY(25vh) translateX(calc(var(--drift) * 0.5));\n    }\n    50% {\n        transform: translateY(50vh) translateX(calc(var(--drift) * -0.5));\n    }\n    75% {\n        transform: translateY(75vh) translateX(calc(var(--drift) * 0.5));\n    }\n    100% {\n        transform: translateY(100vh) translateX(calc(var(--drift) * -0.5));\n    }\n}</code></pre><pre><code class=\"language-js\">document.addEventListener('DOMContentLoaded', () =&gt; {\n    const container = document.getElementById('snowfall-overlay');\n    const snowflakeCount = window.innerWidth &lt;= 768 ? 50 : 100;\n\n    function createSnowflake() {\n        const snowflake = document.createElement('div');\n        snowflake.className = 'snowflake';\n        snowflake.textContent = '❄';\n\n        // Medium size range for a balanced effect\n        const size = Math.random() * (window.innerWidth &lt;= 768 ? 8 : 12) + 6; // Size: 6px to 14px\n        const drift = Math.random() * 20 - 10; // Drift range: -10vw to 10vw\n\n        // Apply styles\n        snowflake.style.cssText = `\n            left: ${Math.random() * 100}%;\n            opacity: ${Math.random() * 0.6 + 0.4};\n            font-size: ${size}px;\n            animation-duration: ${Math.random() * 5 + 10}s;\n            animation-delay: ${Math.random() * 5}s;\n            --drift: ${drift}vw;\n        `;\n\n        container.appendChild(snowflake);\n\n        // Remove snowflake after animation ends\n        snowflake.addEventListener('animationend', () =&gt; snowflake.remove());\n    }\n\n    // Initial batch of snowflakes\n    for (let i = 0; i &lt; snowflakeCount; i++) {\n        setTimeout(createSnowflake, Math.random() * 3000);\n    }\n\n    // Continuously generate snowflakes\n    setInterval(() =&gt; {\n        if (container.childElementCount &lt; snowflakeCount) createSnowflake();\n    }, 300);\n});</code></pre><hr><h3 id=\"how-it-works-%F0%9F%A7%A9\">How It Works 🧩</h3><ol><li><strong>The Snowflake Container</strong>: The <code>#snowfall-overlay</code> div is a full-screen, fixed-position container for our snowflakes. It ensures the snow stays on top of everything without interfering with clicks.</li><li><strong>The Snowflakes</strong>: Each snowflake <code>div</code> has a random size, opacity, and drift value. It’s styled with CSS and animated using <code>@keyframes</code>.</li><li><strong>The Animation</strong>: The <code>@keyframes</code> animation makes the snowflakes fall vertically while swaying horizontally for a natural effect. 🌨️</li><li><strong>The JavaScript Magic</strong>: JavaScript handles the creation of snowflakes, randomizing their properties and removing them once they’re out of view.</li></ol><hr><h3 id=\"make-it-yours-%F0%9F%8E%A8\">Make It Yours 🎨</h3><p>Customizing the snowfall effect is where the real fun begins! 🌟 Here’s how you can make it uniquely yours. Start by adjusting the <code>snowflakeCount</code> variable to control density, tweak the <code>animation-duration</code> for speed, or swap out <code>‘❄’</code> for emojis like snowmen ☃️ or stars ✨. It’s your canvas, so let your creativity shine!</p><hr><h3 id=\"final-thoughts-%E2%9C%A8\">Final Thoughts ✨</h3><p>Everyone has their own way of celebrating, and this is mine! Bringing festive cheer to the web is my kind of entertainment. 🎉</p><div class=\"kg-card kg-callout-card kg-callout-card-grey\"><div class=\"kg-callout-text\">This snowfall effect is here for the Christmas season, adding a sprinkle of joy and magic to your screen. However, once the season ends, this feature might be removed.</div></div><p>But don't worry! Going forward, I plan to collect and consolidate similar overlays to create a <u>comprehensive library of website enhancements</u>. 🌐 These overlays will be showcased on a demo website, making it easy for anyone to preview, download, and add them to their projects. You can find the repository on <a href=\"https://github.com/decoded-cipher/website-overlays\">GitHub</a>, where anyone can publish new overlays. Feel free to contribute your own creations and be a part of this growing collection! 🌟</p><figure class=\"kg-card kg-bookmark-card\"><a class=\"kg-bookmark-container\" href=\"https://github.com/decoded-cipher/website-overlays\"><div class=\"kg-bookmark-content\"><div class=\"kg-bookmark-title\">GitHub - decoded-cipher/website-overlays</div><div class=\"kg-bookmark-description\">Contribute to decoded-cipher/website-overlays development by creating an account on GitHub.</div><div class=\"kg-bookmark-metadata\"><img class=\"kg-bookmark-icon\" src=\"https://static.ghost.org/v5.0.0/images/link-icon.svg\" alt=\"\"><span class=\"kg-bookmark-author\">GitHub</span><span class=\"kg-bookmark-publisher\">decoded-cipher</span></div></div><div class=\"kg-bookmark-thumbnail\"><img src=\"https://opengraph.githubassets.com/84c15061dc4b9b9d26ba093694054273bd9642ef3ed8f44f04c76267f0935b5c/decoded-cipher/website-overlays\" alt=\"\" onerror=\"this.style.display = 'none'\"></div></a></figure><p>So go ahead, and make it snow! ❄️ Please don’t forget to share your snowy creations &amp; opinions about the snowfall overlay in the comments. Wishing you a <strong>Merry Christmas</strong> and a <strong>Happy New Year</strong>! 🎄🎁</p>",
+                "authors": [
+                    {
+                        "id": "1",
+                        "name": "Arjun Krishna",
+                        "slug": "arjun",
+                        "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
+                        "cover_image": null,
+                        "bio": null,
+                        "website": null,
+                        "location": null,
+                        "facebook": null,
+                        "twitter": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "url": "https://blog.inovuslabs.org/author/arjun/"
+                    }
+                ],
+                "tags": [
+                    {
+                        "id": "66e54cbdd29ec7000177a4b5",
+                        "name": "Web Development",
+                        "slug": "web-development",
+                        "description": null,
+                        "feature_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE2OTg5MDI5Mjh8MA&ixlib=rb-4.0.3&q=80&w=2000",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#8aaf46",
+                        "url": "https://blog.inovuslabs.org/tag/web-development/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/let-it-snow/",
+                "excerpt": "🎉 Look around! The snowfall you see on this very blog is a live demonstration of what we’re about to build. Yes, it’s already snowing here! Isn’t that magical? 🎄✨",
+                "reading_time": 4
+            },
+            {
+                "title": "When Will the Chains Break? The Silent Struggles of the Silent Voices",
+                "custom_excerpt": null,
+                "published_at": "2024-12-23T12:24:32.000+05:30",
+                "html": "<p>Growing up is often seen as gaining freedom, but for many, that independence feels out of reach. Society tells us we can choose our own path, but family expectations and traditions often keep us from doing so, no matter our age.</p><p>This isn’t about rebellion; it’s about being seen as individuals, not just following rules and traditions.</p><p>We often hear, \"We just want the best for you,\" but it comes with hidden rules:</p><ul><li>\"Pick a safe career.\"</li><li>\"Don’t bring shame to the family.\"</li><li>\"Follow tradition.\"</li></ul><p>True independence means making our own choices without fear of judgment. It’s about being valued for who we are, not what others expect from us.</p><p>Many people feel judged whenever they make decisions. If their dreams don’t fit the expectations, their voices feel ignored. Those wanting a creative career or to start a business are often told, \"It’s too risky\" or \"It’s not practical\". This isn’t love—it’s fear of change. Fear of standing out and fear of failure. Sometimes, people are held back because of old beliefs rather than their potential.</p><p>Traditions can offer comfort, but they can also feel like chains. There’s pressure to fit into a mold—whether it’s for family, stability, or what’s considered \"right\". Where is the promised independence? Life often feels planned by others. The career, love, or freedom you want is only allowed if it fits expectations. This isn’t just about feeling trapped—it’s about the emotional toll of feeling misunderstood, frustrated, and afraid of letting others down.</p><p>It’s time for a change. Society needs to realize that love isn’t control. People need the freedom to make their own choices, live their dreams, and be themselves. To everyone struggling with these pressures: Your dreams and voice matter. It’s okay to feel lost or want something different. It’s okay to fight for the life you want.</p><p>Change takes time, but it begins with the courage to be true to ourselves, embracing the freedom to dream, grow, and shine in our own unique way.</p>",
+                "authors": [
+                    {
+                        "id": "6738e7d928bd740001c4c30e",
+                        "name": "Amenda Maria Johnson",
+                        "slug": "amenda",
+                        "profile_image": "https://res-3.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/Amenda.jpg",
+                        "cover_image": null,
+                        "bio": null,
+                        "website": null,
+                        "location": null,
+                        "facebook": null,
+                        "twitter": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "url": "https://blog.inovuslabs.org/author/amenda/"
+                    }
+                ],
+                "tags": [
+                    {
+                        "id": "66e54cbdd29ec7000177a4af",
+                        "name": "Free Thinking",
+                        "slug": "freethinking",
+                        "description": null,
+                        "feature_image": "https://images.unsplash.com/photo-1553258318-c22356c14808?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDl8fGZyZWUlMjBzcGVlY2h8ZW58MHx8fHwxNjk4OTAyODU1fDA&ixlib=rb-4.0.3&q=80&w=2000",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#d12323",
+                        "url": "https://blog.inovuslabs.org/tag/freethinking/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/the-silent-struggles-of-silent-voices/",
+                "excerpt": "Growing up is often seen as gaining freedom, but for many, that independence feels out of reach. Society tells us we can choose our own path, but family expectations and traditions often keep us from doing so, no matter our age.\n\nThis isn’t about rebellion; it’s about being seen as individuals, not just following rules and traditions.\n\nWe often hear, \"We just want the best for you,\" but it comes with hidden rules:\n\n * \"Pick a safe career.\"\n * \"Don’t bring shame to the family.\"\n * \"Follow traditi",
+                "reading_time": 1
+            },
+            {
+                "title": "A Rollercoaster Ride Through Design - My Journey So Far",
+                "custom_excerpt": null,
+                "published_at": "2024-11-16T22:19:41.000+05:30",
+                "html": "<p>November 16, 2024—what a day! The skies are heavy with rain, thunder is booming, and Lightning is lighting up the sky like it’s a big show. And here I am, celebrating not only two full years as a UI designer but also reflecting on the incredible journey that led me here. It’s been a wild ride, and now, as I enter my third and final year of BCA, I can’t help but think about how it all started.</p><figure class=\"kg-card kg-image-card\"><img src=\"https://res-3.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/Meq-modified.png\" class=\"kg-image\" alt=\"\" loading=\"lazy\" width=\"1000\" height=\"562\"></figure><p>Let’s rewind to when I was in 9th grade. My school introduced a club called Little KITES (Kerala Infrastructure and Technology for Education). Back then, I had no clue what it was all about. But I was curious and joined anyway. Little did I know, that decision would change my life. Through KITES, I got to attend several tech camps and, surprisingly, even had the chance to teach my friends, juniors, and seniors. That experience taught me one of the most valuable lessons: I could be both a student and a mentor. And this was just the beginning.</p><p>I started off by dabbling in IoT, experimenting with microcontrollers, but it didn’t exactly give me the excitement I was hoping for. So, I moved on and explored different creative fields—Scratch, Python, Visual Designing, Photography, Web Development, Blender, and TupiTube (remember that?). I tried everything, and although it was overwhelming at times, I eventually focused on what I truly loved: Designing and Web Development.</p><p>During my school years, I was the go-to designer—creating cover pages, posters, event banners, and even a school magazine. If it needed a creative touch, I was the one everyone turned to. I also began giving design sessions to my friends and peers. But, here’s the thing: I wasn’t the brightest student academically. I was always somewhere in the middle, around 5th or 6th. But, somehow, I managed to score 96% in my SSLC exams. Who knew?</p><p>And then came the pandemic. Suddenly, we were all at home, attending online classes. But instead of just sitting there, I decided to make the most of my time. I dove deep into video editing—Kinemaster, Inshot, Capcut, VN Editor, Node Video Editor, Alight Motion. I explored every tool I could find. And let’s not forget about Pixellab, Picsart, and Canva. I created wedding videos, social media reels, posters, and logos for shops and travel agencies—all for free. My parents, of course, were convinced I was just wasting time on my phone, but little did they know, I was investing in my creativity!</p><p>During this time, I also got into some cyber-related stuff, including ethical hacking. It wasn’t all smooth sailing, though. Some of my experiences were a bit scary—imagine learning to hack and then facing the consequences of mistakes. But hey, it was all part of the learning process.</p><p>When college started, I walked in with a bit of design experience and some basic knowledge of HTML and CSS. That’s when I stumbled upon Inovus Labs IEDC, a student community at my college. I attended their orientation session, and that’s when I realized something important: the BCA syllabus wasn’t going to cut it in the fast-evolving world. It wasn’t about degrees or textbooks—it was about skills.</p><p>Through Inovus, I met some incredible seniors who introduced me to Figma. This was a game-changer. I quickly fell in love with UI/UX design and decided to dive deep into it. I even landed my first internship as a designer with Inovus Labs. Around that time, I bought my first laptop—not a high-end machine, but it did the job. I used it for Photoshop, Illustrator, and Figma Web. I had a rocky start with Illustrator, so I focused on what worked best for me—Figma and Photoshop. Slowly, Figma became my go-to tool for creating posters, logos, and mockups. It was like my second partner in crime.</p><p>The internship gave me tons of experience, and I eventually became the Chief Creative Officer (CCO) at Inovus. But to be honest, titles don’t mean much to me. In Inovus, everyone is a peer, learning from each other. It’s a place where I discovered my passion for UI/UX design and got the chance to volunteer as a UI/UX designer for Kerala Police Cyberdome. Later, I also got an internship as a graphic designer at GTech MuLearn.</p><p>Through all of this, Inovus gave me countless opportunities to mentor others, lead sessions, and continue learning. Being a designer and a mentor at the same time was one of the most fulfilling experiences of my life. It wasn’t easy, but it was incredibly rewarding.</p><p>And now, I’m proud to say I’m the COO of Inovus Labs, where I manage projects, events, and design. All these experiences, both as a designer and a mentor, have helped me develop skills in team management, project management, event coordination, and even development. Yes, I’m a designer at heart, but I also manage a bit of development on the side—JavaScript, Python, React, HTML, CSS, and even Telegram bots. It’s been a crazy but exciting journey.</p><p>Looking back, I’ve worn many hats: freelance designer, intern, mentor, volunteer, and COO. And through it all, I’ve learned one thing that stands out: It’s not about the software or the tools you use. Whether it’s Figma, Photoshop, or even some obscure editing app, it’s your creativity and skills that matter most.</p><p>As I celebrate my second year in UI design, I also reflect on the years of experimenting, learning, and growing in the broader field of design. Here’s to many more years of creativity, challenges, and growth.</p>",
+                "authors": [
+                    {
+                        "id": "66e54ca3d29ec7000177a480",
+                        "name": "Arjun A Acharry",
+                        "slug": "arjun-a-acharry",
+                        "profile_image": "https://res-5.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/_MG_2998---Copy.jpg",
+                        "cover_image": "https://res-4.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/df5bfb980dfb82fd5276065a3a6f8fa9.jpg",
+                        "bio": "Never Judge Anyone With His Past",
+                        "website": null,
+                        "location": null,
+                        "facebook": null,
+                        "twitter": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+                    }
+                ],
+                "tags": [
+                    {
+                        "id": "66e54cbdd29ec7000177a4af",
+                        "name": "Free Thinking",
+                        "slug": "freethinking",
+                        "description": null,
+                        "feature_image": "https://images.unsplash.com/photo-1553258318-c22356c14808?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDl8fGZyZWUlMjBzcGVlY2h8ZW58MHx8fHwxNjk4OTAyODU1fDA&ixlib=rb-4.0.3&q=80&w=2000",
+                        "visibility": "public",
+                        "og_image": null,
+                        "og_title": null,
+                        "og_description": null,
+                        "twitter_image": null,
+                        "twitter_title": null,
+                        "twitter_description": null,
+                        "meta_title": null,
+                        "meta_description": null,
+                        "codeinjection_head": null,
+                        "codeinjection_foot": null,
+                        "canonical_url": null,
+                        "accent_color": "#d12323",
+                        "url": "https://blog.inovuslabs.org/tag/freethinking/"
+                    }
+                ],
+                "url": "https://blog.inovuslabs.org/a-rollercoaster-ride-through-design-my-journey-so-far/",
+                "excerpt": "November 16, 2024—what a day! The skies are heavy with rain, thunder is booming, and Lightning is lighting up the sky like it’s a big show. And here I am, celebrating not only two full years as a UI designer but also reflecting on the incredible journey that led me here. It’s been a wild ride, and now, as I enter my third and final year of BCA, I can’t help but think about how it all started.\n\nLet’s rewind to when I was in 9th grade. My school introduced a club called Little KITES (Kerala Infras",
+                "reading_time": 4
+            }
+        ];
+
+};
+
+
+
+// Get all authors of Inovus Blogs
+export const getBlogAuthors = async () => {
+
+    try {
+        const res = await axios.get(`${import.meta.env.VITE_APP_INOVUS_BLOGS_BASE_URL}/ghost/api/content/authors/?key=${import.meta.env.VITE_APP_INOVUS_BLOGS_API_KEY}&limit=all&include=count.posts&fields=name,url,slug,profile_image`);
+        return res.data.authors;
+    } catch (error) {
+        console.log(error);
+    }
+
 
     return [
         {
-            "title": "Cyber Addiction & Recovery Methods",
-            "feature_image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRpZ2l0YWwlMjB3b3JsZHxlbnwwfHx8fDE3MDI5OTg4Njd8MA&ixlib=rb-4.0.3&q=80&w=2000",
-            "custom_excerpt": null,
-            "published_at": "2023-12-19T20:50:46.000+05:30",
-            "reading_time": 3,
-            "tags": [
-                {
-                    "id": "653f71fb5d18573f9b9f3d79",
-                    "name": "Science & Technology",
-                    "slug": "science-technology",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1607988795691-3d0147b43231?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDU5fHxzY2llbmNlfGVufDB8fHx8MTY5ODkwMjM5OHww&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#617bff",
-                    "url": "https://blog.inovuslabs.org/tag/science-technology/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "6540bc590b27848ad6616f50",
-                    "name": "Arjun A Acharry",
-                    "slug": "arjun-a-acharry",
-                    "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
-                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
-                    "bio": null,
-                    "website": null,
-                    "location": null,
-                    "facebook": null,
-                    "twitter": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/cyber-addiction-recovery-methods/",
-            "excerpt": "CYBER ADDICTION\n\nAn excessive amount of time spent on computers, phones, or the internet is known as cyber addiction. It can be problematic in day-to-day living and lead to issues at job, school, or in relationships.\n\nSigns of Cyber Addiction:\n\n 1. Excessive Internet Use: Spending an inordinate amount of time online.\n 2. Negative Impact on Daily Life: Affecting work, school, or relationships adversely.\n 3. Loss of Control: Difficulty managing and limiting online activities.\n 4. Withdrawal Sympto",
-            "reading_time": 3
+            "id": "671268f999bc4900011b90a5",
+            "name": "Aaliya Gopan",
+            "slug": "aaliya",
+            "profile_image": "https://res-3.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/WhatsApp-Image-2024-10-18-at-7.30.14-PM.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 1
+            },
+            "url": "https://blog.inovuslabs.org/author/aaliya/"
         },
         {
-            "title": "Rising from the Ashes: Restoring Inovus Blogs Post-Termination",
-            "feature_image": "https://images.unsplash.com/photo-1591913139332-f8172ef511da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fGRhdGElMjByZWNvdmVyeXxlbnwwfHx8fDE2OTkwNDUwOTJ8MA&ixlib=rb-4.0.3&q=80&w=2000",
-            "custom_excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated.",
-            "published_at": "2023-11-04T03:20:00.000+05:30",
-            "reading_time": 6,
-            "tags": [
-                {
-                    "id": "653fc29ab14998447e1d37dd",
-                    "name": "Web Development",
-                    "slug": "web-development",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE1fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE2OTg5MDI5Mjh8MA&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#8aaf46",
-                    "url": "https://blog.inovuslabs.org/tag/web-development/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "653f7a27b14998447e1d36d5",
-                    "name": "Arjun Krishna",
-                    "slug": "arjun",
-                    "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
-                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/image-7.png",
-                    "bio": "Yet another human being born towards the end of the 20th century, and continues his Exploration & Experimentation on the Technology that the 21st century has to offer.",
-                    "website": "https://arjunkrishna.in/",
-                    "location": "Pathanamthitta | Bangalore",
-                    "facebook": null,
-                    "twitter": "@Decoded_Cipher",
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/arjun/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/restoring-inovus-blogs/",
-            "excerpt": "Here's how we managed to recover the contents of a blog hosted on an AWS EC2 instance after being wrongfully terminated."
+            "id": "66e54ca3d29ec7000177a482",
+            "name": "Abhishek V Gopal",
+            "slug": "abhishek",
+            "profile_image": "https://res-3.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/abhi.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 3
+            },
+            "url": "https://blog.inovuslabs.org/author/abhishek/"
         },
         {
-            "title": "Maladaptive Daydreaming: Creating A Utopia Equivalent To A Bottomless Pit",
-            "feature_image": "https://blog.inovuslabs.org/content/images/2023/10/index.jpeg",
-            "custom_excerpt": null,
-            "published_at": "2023-10-21T14:26:00.000+05:30",
-            "reading_time": 4,
-            "tags": [
-                {
-                    "id": "653f70e95d18573f9b9f3d73",
-                    "name": "Psychology",
-                    "slug": "psychology",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1573511860302-28c524319d2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHBzeWNob2xvZ3l8ZW58MHx8fHwxNjk4OTAyNzgwfDA&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#3eb8c1",
-                    "url": "https://blog.inovuslabs.org/tag/psychology/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "654cb82cd6af5204882b104e",
-                    "name": "Athena Maria Vadakan",
-                    "slug": "athena",
-                    "profile_image": null,
-                    "cover_image": null,
-                    "bio": null,
-                    "website": null,
-                    "location": null,
-                    "facebook": null,
-                    "twitter": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/athena/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/maladaptive-daydreaming/",
-            "excerpt": "You're not stuck. You're just committed to certain patterns of behavior because they helped you in the past. Now those behaviors have become more harmful than helpful. The reason why you can't move forward is because you keep applying an old formula to a new level of life. Change the formula to get a different result. - Emily Maroutian \n\nAs long as Samira can remember, she was really quiet. But she also had a goofy and imaginative side just like any other children. Because of her shyness and pas"
+            "id": "6738e7d928bd740001c4c30e",
+            "name": "Amenda Maria Johnson",
+            "slug": "amenda",
+            "profile_image": "https://res-3.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/Amenda.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 1
+            },
+            "url": "https://blog.inovuslabs.org/author/amenda/"
         },
         {
-            "title": "Instagram VS Mental Health",
-            "feature_image": "https://blog.inovuslabs.org/content/images/2023/10/photo-1535451801241-b5395e1d4a1b.jpg",
-            "custom_excerpt": null,
-            "published_at": "2023-10-06T01:10:00.000+05:30",
-            "reading_time": 2,
-            "tags": [
-                {
-                    "id": "653f70e95d18573f9b9f3d73",
-                    "name": "Psychology",
-                    "slug": "psychology",
-                    "description": null,
-                    "feature_image": "https://images.unsplash.com/photo-1573511860302-28c524319d2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHBzeWNob2xvZ3l8ZW58MHx8fHwxNjk4OTAyNzgwfDA&ixlib=rb-4.0.3&q=80&w=2000",
-                    "visibility": "public",
-                    "og_image": null,
-                    "og_title": null,
-                    "og_description": null,
-                    "twitter_image": null,
-                    "twitter_title": null,
-                    "twitter_description": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "codeinjection_head": null,
-                    "codeinjection_foot": null,
-                    "canonical_url": null,
-                    "accent_color": "#3eb8c1",
-                    "url": "https://blog.inovuslabs.org/tag/psychology/"
-                }
-            ],
-            "authors": [
-                {
-                    "id": "6540bc590b27848ad6616f50",
-                    "name": "Arjun A Acharry",
-                    "slug": "arjun-a-acharry",
-                    "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
-                    "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
-                    "bio": null,
-                    "website": null,
-                    "location": null,
-                    "facebook": null,
-                    "twitter": null,
-                    "meta_title": null,
-                    "meta_description": null,
-                    "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
-                }
-            ],
-            "url": "https://blog.inovuslabs.org/instagram-vs-health/",
-            "excerpt": "Instagram is a popular social media platform and mobile app designed for sharing photos and videos. It was launched in October 2010 and has since become one of the most widely used social networking platforms in the world. Instagram allows users to create profiles, post photos and videos, and interact with others through likes, comments, and direct messages.\n\nInstagram has evolved significantly since its inception and has played a crucial role in shaping how people share and consume visual conte"
+            "id": "66e54ca3d29ec7000177a490",
+            "name": "Amith Abey Stephen",
+            "slug": "amith",
+            "profile_image": "https://res-3.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/WhatsApp-Image-2024-03-16-at-07.50.45_778a3380.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 6
+            },
+            "url": "https://blog.inovuslabs.org/author/amith/"
+        },
+        {
+            "id": "66e54ca3d29ec7000177a480",
+            "name": "Arjun A Acharry",
+            "slug": "arjun-a-acharry",
+            "profile_image": "https://res-5.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/_MG_2998---Copy.jpg",
+            "cover_image": "https://res-4.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/df5bfb980dfb82fd5276065a3a6f8fa9.jpg",
+            "bio": "Never Judge Anyone With His Past",
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 24
+            },
+            "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
+        },
+        {
+            "id": "1",
+            "name": "Arjun Krishna",
+            "slug": "arjun",
+            "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 8
+            },
+            "url": "https://blog.inovuslabs.org/author/arjun/"
+        },
+        {
+            "id": "66e54ca3d29ec7000177a483",
+            "name": "Athena Maria Vadakan",
+            "slug": "athena",
+            "profile_image": null,
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 1
+            },
+            "url": "https://blog.inovuslabs.org/author/athena/"
+        },
+        {
+            "id": "66e54ca3d29ec7000177a47f",
+            "name": "Badhusha Shaji",
+            "slug": "badhusha",
+            "profile_image": "https://res-1.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/159407.jpg",
+            "cover_image": "https://res-4.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/sukuna-mobile-3840-x-2160-9r69kpp8t3ensitv.jpg",
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 2
+            },
+            "url": "https://blog.inovuslabs.org/author/badhusha/"
+        },
+        {
+            "id": "66e54ca3d29ec7000177a484",
+            "name": "Indhuchoodan R",
+            "slug": "indhuchoodan",
+            "profile_image": "https://res-3.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/photo_2023-02-12_23-57-25.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 5
+            },
+            "url": "https://blog.inovuslabs.org/author/indhuchoodan/"
+        },
+        {
+            "id": "66e54ca3d29ec7000177a47c",
+            "name": "Inovus Labs IEDC",
+            "slug": "inovuslabs",
+            "profile_image": "https://res-5.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/Inovus_Logo-PNG.png",
+            "cover_image": null,
+            "bio": null,
+            "website": "https://inovuslabs.org/",
+            "location": "Changanacherry, Kottayam",
+            "facebook": null,
+            "twitter": "@InovusLabs",
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 3
+            },
+            "url": "https://blog.inovuslabs.org/author/inovuslabs/"
+        },
+        {
+            "id": "66e54ca3d29ec7000177a486",
+            "name": "Jeevan Joseph",
+            "slug": "jeevan",
+            "profile_image": "https://res-3.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/135457348-ae6bf41e-2490-4a71-88aa-0bb2b252b66a--1-.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 1
+            },
+            "url": "https://blog.inovuslabs.org/author/jeevan/"
+        },
+        {
+            "id": "66e54ca3d29ec7000177a485",
+            "name": "Joseph Mathai Pathil",
+            "slug": "joseph",
+            "profile_image": "https://res-3.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/josephmathai10.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 3
+            },
+            "url": "https://blog.inovuslabs.org/author/joseph/"
+        },
+        {
+            "id": "66e54ca3d29ec7000177a47e",
+            "name": "Nikhil T Das",
+            "slug": "nikhil",
+            "profile_image": "https://res-5.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/da34f272-a6e1-4f6f-8414-79147fce3b5d.jpg",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 7
+            },
+            "url": "https://blog.inovuslabs.org/author/nikhil/"
+        },
+        {
+            "id": "66ef6e720eeadf0001a42fae",
+            "name": "Sane Sunil",
+            "slug": "sane",
+            "profile_image": "https://res-2.cloudinary.com/dbzgbdyvv/image/upload/q_auto/v1/ghost/sane.png",
+            "cover_image": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "facebook": null,
+            "twitter": null,
+            "meta_title": null,
+            "meta_description": null,
+            "count": {
+                "posts": 2
+            },
+            "url": "https://blog.inovuslabs.org/author/sane/"
         }
     ];
-}
 
+};
 
 
 // Get recent podcasts published on Inora: The Inovus Radio
@@ -908,6 +1210,9 @@ export const getPodcasts = async () => {
     return [
         //latest is added at the top
 
+        {
+            id: "3wfepAuvFLZsQ5a3LtdD9g",
+        },
         {
             id: "1LsmopRnxO9qZqaZFNz1IP"
         },
@@ -925,14 +1230,14 @@ export const getPodcasts = async () => {
         },
     ]
 
-}
+};
 
 
+// Get all activity
 
-// Get all projects
 export const getActivity = async () => {
     let data = {
-        "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Exhibition"],
+        "tags": ["Workshop", "Internship", "Bootcamp", "Challenge", "Session", "Exhibition","Release"],
         "activities": [
             {
                 "id": 1,
@@ -1390,7 +1695,95 @@ export const getActivity = async () => {
                 "date": ["02 August 2024"],
                 "tags": ["Workshop"],
                 "sitelink": ["https://stepone.inovuslabs.org"]
+            },{
+                "id": 57,
+                "title": "Introduction to Blogs",
+                "thumbnail": BASE_URL + "/assets/activity/introblog.jpg",
+                "description": "Introduction to Blog is an event conducted by INOVUS LABS IEDC to introduce participants to the world of blogging. It covers the basics of starting a blog, writing engaging content, and sharing ideas online. The event helps attendees learn how to effectively express themselves and build an online presence through blogging.",
+                "date": ["07 August 2024", "08 August 2024"],
+                "tags": ["Session"],
+            },{
+                "id": 58,
+                "title": "Innovation & Entrepreneurship",
+                "thumbnail": BASE_URL + "/assets/activity/ino.jpg",
+                "description": "Innovation & Entrepreneurship is a session conducted by INOVUS LABS IEDC for BCom students, aimed at introducing them to the core concepts of innovation and entrepreneurship. The session helps students understand how to develop creative ideas and turn them into successful business ventures.",
+                "date": ["09 August 2024"],
+                "tags": ["Session"],
+                "id": 60,
+                "title": "DocGen- Release",
+                "thumbnail": BASE_URL + "/assets/activity/docgen.jpg",
+                "description": "DocGen is a document generation tool developed by DevMorphix. It helps users easily create and format documents, streamlining tasks like generating reports, certificates, or other professional documents quickly and efficiently.",
+                "date": ["23 August 2024"],
+                "tags": ["Release"],
+            },{
+                "id": 59,
+                "title": "Herba Soap- Release",
+                "thumbnail": BASE_URL + "/assets/activity/herba.jpg",
+                "description": "Herba Soap is a fundraising product. It is part of an initiative to support the community’s project, i.e, building an electric bike. The soap is crafted with natural ingredients and is sold to raise funds while promoting sustainable and eco-friendly practices. The sale of Herba Soap aligns with INOVUS LABS' mission of fostering innovation and supporting entrepreneurial endeavors.",
+                "date": ["23 August 2024"],
+                "tags": ["Release"],
+            },{
+                "id": 61,
+                "title": "Introduction to Mulearn",
+                "thumbnail": BASE_URL + "/assets/activity/mulearn.jpg",
+                "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
+                "date": ["09 September 2024"],
+                "tags": ["Session"],
+            },{
+                "id": 62,
+                "title": "Hacktoberfest 2024",
+                "thumbnail": BASE_URL + "/assets/activity/Hacktober24.png",
+                "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
+                "date": ["01 October 2024", "31 October 2024"],
+                "tags": ["Workshop"],
+            },{
+                "id": 63,
+                "title": "Inora - Join Our Team ",
+                "thumbnail": BASE_URL + "/assets/activity/Inora Intern call.png",
+                "description": "Welcoming new buddies . We have conducted interview of all applied students and assigned tasks and selected  intrested students to inovus Fam.",
+                "date": ["13 October 2024", "20 October 2024"],
+                "tags": ["Internship"],
+            },{
+                "id": 64,
+                "title": "Call For Interns ",
+                "thumbnail": BASE_URL + "/assets/activity/Interncall 24.png",
+                "description": "The call for our new interns. We have conducted interview of all applied students and assigned tasks and selected  intrested students to inovus Fam.",
+                "date": ["16 November 2024", "27 November 2024"],
+                "tags": ["Internship"],
+                "sitelink": ["https://forms.gle/igbQXMM25AMJhQ7R6"],
+
+            },{
+                "id": 65,
+                "title": "Help Desk-YIP 7.0",
+                "thumbnail": BASE_URL + "/assets/activity/YIP 7.0 HelpDesk.png",
+                "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
+                "date": ["11 November 2024", "15 December 2024"],
+                "tags": ["Challenge"],
+            },{
+                "id": 66,
+                "title": "Stupid Idea Competition",
+                "thumbnail": BASE_URL + "/assets/activity/Stupid Idea Contest24.png",
+                "description": "MuLearn is a community where students and professionals can learn new skills, share knowledge, and work together. It offers resources and challenges in areas like technology and entrepreneurship to help people grow and improve. The goal is to create a space for learning and collaboration.",
+                "date": ["11 November 2024","12 December 2024"],
+                "tags": ["Challenge"],
+            },{
+                "id": 67,
+                "title": "Web Design Bootcamp",
+                "thumbnail": BASE_URL + "/assets/activity/Web-D.png",
+                "description": "Inovus Labs IEDC organised the web design bootcamp on 12 Dec with 40 participants covering the basics of web desgning.",
+                "date": ["12 December 2024"],
+                "tags": ["Bootcamp"],
+                "sitelink": ["https://forms.gle/8Ma9isaK86bW3YvJ6"],
             }
+            /*,{
+                "id": 67,
+                "title": "Figma Workshop",
+                "thumbnail": BASE_URL + "/assets/activity/",
+                "description": "The Figma workshop conducted by Inovus Labs offered participants a platform to unleash their creativity, explore design tools, and collaborate with others. It provided valuable insights and hands-on experience, helping attendees enhance their skills and bring their ideas to life.",
+                "date": ["15 January 2025"],
+                "tags": ["Workshop"],
+                "sitelink": ["https://forms.gle/8Ma9isaK86bW3YvJ6"],
+            }*/
         ]
     };
 
@@ -1657,12 +2050,125 @@ export const getReccuringEvents = async () => {
                 "description": "",
                 "video": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 27.mp4",
                 "tags": ["Weekend Workbench"]
+            },{
+                "id": 34,
+                "date": "16 March 2024",
+                "title": "Weekend Workbench #28",
+                "description": "",
+                "video": BASE_URL + "/assets/reccuringevents/workbench/WeekendWorkbench28.png.mp4 ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 35,
+                "date": "23 March 2024",
+                "title": "Weekend Workbench #29",
+                "description": "",
+                "video": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench29.mp4 ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 36,
+                "date": "30 March 2024",
+                "title": "Weekend Workbench #30",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench30.webp ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 37,
+                "date": "6 July 2024",
+                "title": "Weekend Workbench 2.0 #1",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkebench2.0.1.png ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 38,
+                "date": "13 July 2024",
+                "title": "Weekend Workbench 2.0 #2",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/WeekendWorkebench2.0.2.jpg",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 39,
+                "date": "20 July 2024",
+                "title": "Weekend Workbench 2.0 #3",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 2.0.3.jpg",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 40,
+                "date": "27 July 2024",
+                "title": "Weekend Workbench 2.0 #4",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekend workbench 2.0.4.jpg",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 41,
+                "date": "10 August 2024",
+                "title": "Weekend Workbench 2.0 #5",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.5.jpg ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 42,
+                "date": "17 August 2024",
+                "title": "Weekend Workbench 2.0 #6",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.6.jpg ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 43,
+                "date": "24 August 2024",
+                "title": "Weekend Workbench 2.0 #7",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.7.jpg ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 44,
+                "date": "31 August 2024",
+                "title": "Weekend Workbench 2.0 #8",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.8.jpg ",
+                "tags": ["Weekend Workbench"]
             }
+            ,{
+                "id": 45,
+                "date": "21 September 2024",
+                "title": "Weekend Workbench 2.0 #9",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.9.png",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 46,
+                "date": "28 September 2024",
+                "title": "Weekend Workbench 2.0 #10",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.10.png",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 47,
+                "date": "12 October 2024",
+                "title": "Weekend Workbench 2.0 #11",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.11.png",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 48,
+                "date": "26 October 2024",
+                "title": "Weekend Workbench 2.0 #12",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.12.png ",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 49,
+                "date": "09 November 2024",
+                "title": "Weekend Workbench 2.0 #13",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.13.png ",
+                "tags": ["Weekend Workbench"]
+            },
         ]
     };
 
     return data;
-}
+};
 
 
 
@@ -1672,29 +2178,30 @@ export const getSocialPosts = async () => {
         "instagram": [
             {
                 "id": 1,
-                "url": "https://www.instagram.com/reel/C4t6aT-PqeA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                "url": "https://www.instagram.com/p/DEPryOmzFIj/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 2,
-                "url": "https://www.instagram.com/p/C4mgCZiJTpE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                "url": "https://www.instagram.com/p/DDPUPMvz_vK/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 3,
-                "url": "https://www.instagram.com/reel/C4kzEu-plIy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                "url": "https://www.instagram.com/p/DCY-bwfzMsw/?utm_source=ig_embed&amp;utm_campaign=loading"
             }
+            
         ],
         "linkedin": [
             {
                 "id": 1,
-                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7171846636627812352"
+                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7269197354077954048"
             },
             {
                 "id": 2,
-                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7171590341177925634"
+                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7251626595013033985"
             },
             {
                 "id": 3,
-                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7164639903383797760    "
+                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7237133903067521026"
             }
         ],
         "youtube": [
@@ -1714,11 +2221,12 @@ export const getSocialPosts = async () => {
         "twitter": [
             {
                 "id": 1,
-                "url": "https://twitter.com/InovusLabs/status/1721051746947207352"
+                "url": "https://twitter.com/InovusLabs/status/1765107764559507711"
+        // Don't use X.com... it wont work "https://x.com/InovusLabs/status/1765107764559507711"
             },
             {
                 "id": 2,
-                "url": "https://twitter.com/InovusLabs/status/1715828644000813445"
+                "url": "https://twitter.com/InovusLabs/status/1754872488343802048"
             },
             {
                 "id": 3,
@@ -1728,190 +2236,21 @@ export const getSocialPosts = async () => {
         "threads": [
             {
                 "id": 1,
-                "url": "https://www.threads.net/@inovuslabs/post/CzM0DdUy5L_"
+                "url": "https://www.threads.net/@inovuslabs/post/DAdF_-YTbUC"
             },
             {
                 "id": 2,
-                "url": "https://www.threads.net/@inovuslabs/post/CypSOuzJFDI"
+                "url": "https://www.threads.net/@inovuslabs/post/C_zdAEZzXK3"
             },
             {
                 "id": 3,
-                "url": "https://www.threads.net/@inovuslabs/post/CyEkW87SkvN"
+                "url": "https://www.threads.net/@inovuslabs/post/DAPtKqVzFvF"
             }
         ]
     }
 
     return data;
-}
-
-
-
-// Get all authors of Inovus Blogs
-export const getBlogAuthors = async () => {
-
-    // try {
-    //     const res = await axios.get(`${import.meta.env.VITE_APP_INOVUS_BLOGS_BASE_URL}/ghost/api/content/authors/?key=${import.meta.env.VITE_APP_INOVUS_BLOGS_API_KEY}`);
-    //     return res.data.authors;
-    // } catch (error) {
-    //     console.log(error);
-    // }
-
-
-    return [
-        {
-            "id": "654666da0b27848ad66173a9",
-            "name": "Abhishek V Gopal",
-            "slug": "abhishek",
-            "profile_image": "https://blog.inovuslabs.org/content/images/2023/12/abhi.jpg",
-            "cover_image": null,
-            "bio": null,
-            "website": null,
-            "location": null,
-            "facebook": null,
-            "twitter": null,
-            "meta_title": null,
-            "meta_description": null,
-            "url": "https://blog.inovuslabs.org/author/abhishek/"
-        },
-        {
-            "id": "6540bc590b27848ad6616f50",
-            "name": "Arjun A Acharry",
-            "slug": "arjun-a-acharry",
-            "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/_MG_2998---Copy.JPG",
-            "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/Slide-16_9---1.png",
-            "bio": null,
-            "website": null,
-            "location": null,
-            "facebook": null,
-            "twitter": null,
-            "meta_title": null,
-            "meta_description": null,
-            "url": "https://blog.inovuslabs.org/author/arjun-a-acharry/"
-        },
-        {
-            "id": "653f7a27b14998447e1d36d5",
-            "name": "Arjun Krishna",
-            "slug": "arjun",
-            "profile_image": "https://www.gravatar.com/avatar/dd27406b884ca7ede3e5364c3dd6326c?s=250&r=x&d=mp",
-            "cover_image": "https://blog.inovuslabs.org/content/images/2023/10/image-7.png",
-            "bio": "Yet another human being born towards the end of the 20th century, and continues his Exploration & Experimentation on the Technology that the 21st century has to offer.",
-            "website": "https://arjunkrishna.in/",
-            "location": "Pathanamthitta | Bangalore",
-            "facebook": null,
-            "twitter": "@Decoded_Cipher",
-            "meta_title": null,
-            "meta_description": null,
-            "url": "https://blog.inovuslabs.org/author/arjun/"
-        },
-        {
-            "id": "654cb82cd6af5204882b104e",
-            "name": "Athena Maria Vadakan",
-            "slug": "athena",
-            "profile_image": null,
-            "cover_image": null,
-            "bio": null,
-            "website": null,
-            "location": null,
-            "facebook": null,
-            "twitter": null,
-            "meta_title": null,
-            "meta_description": null,
-            "url": "https://blog.inovuslabs.org/author/athena/"
-        },
-        {
-            "id": "6540988cb14998447e1d3946",
-            "name": "Badhusha Shaji",
-            "slug": "badhusha",
-            "profile_image": "https://blog.inovuslabs.org/content/images/2023/11/159407.jpg",
-            "cover_image": "https://blog.inovuslabs.org/content/images/2023/11/sukuna-mobile-3840-x-2160-9r69kpp8t3ensitv.jpg",
-            "bio": null,
-            "website": null,
-            "location": null,
-            "facebook": null,
-            "twitter": null,
-            "meta_title": null,
-            "meta_description": null,
-            "url": "https://blog.inovuslabs.org/author/badhusha/"
-        },
-        {
-            "id": "65715b9fda4a454504859902",
-            "name": "Indhuchoodan R",
-            "slug": "indhuchoodan",
-            "profile_image": "https://blog.inovuslabs.org/content/images/2023/12/photo_2023-02-12_23-57-25.jpg",
-            "cover_image": null,
-            "bio": null,
-            "website": null,
-            "location": null,
-            "facebook": null,
-            "twitter": null,
-            "meta_title": null,
-            "meta_description": null,
-            "url": "https://blog.inovuslabs.org/author/indhuchoodan/"
-        },
-        {
-            "id": "1",
-            "name": "Inovus Labs IEDC",
-            "slug": "inovuslabs",
-            "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/Inovus_Logo-PNG-3.png",
-            "cover_image": "https://blog.inovuslabs.org/content/images/2023/12/0.jpg",
-            "bio": null,
-            "website": "https://inovuslabs.org/",
-            "location": null,
-            "facebook": null,
-            "twitter": "@InovusLabs",
-            "meta_title": null,
-            "meta_description": null,
-            "url": "https://blog.inovuslabs.org/author/inovuslabs/"
-        },
-        {
-            "id": "65715f4dda4a454504859925",
-            "name": "Jeevan Joseph",
-            "slug": "jeevan",
-            "profile_image": "https://blog.inovuslabs.org/content/images/2023/12/135457348-ae6bf41e-2490-4a71-88aa-0bb2b252b66a--1-.jpg",
-            "cover_image": null,
-            "bio": null,
-            "website": null,
-            "location": null,
-            "facebook": null,
-            "twitter": null,
-            "meta_title": null,
-            "meta_description": null,
-            "url": "https://blog.inovuslabs.org/author/jeevan/"
-        },
-        {
-            "id": "65715d59da4a454504859916",
-            "name": "Joseph Mathai Pathil",
-            "slug": "joseph",
-            "profile_image": "https://blog.inovuslabs.org/content/images/2023/12/josephmathai10.jpg",
-            "cover_image": null,
-            "bio": null,
-            "website": null,
-            "location": null,
-            "facebook": null,
-            "twitter": null,
-            "meta_title": null,
-            "meta_description": null,
-            "url": "https://blog.inovuslabs.org/author/joseph/"
-        },
-        {
-            "id": "65409075b14998447e1d393f",
-            "name": "Nikhil T Das",
-            "slug": "nikhil",
-            "profile_image": "https://blog.inovuslabs.org/content/images/2023/10/da34f272-a6e1-4f6f-8414-79147fce3b5d.jpg",
-            "cover_image": null,
-            "bio": null,
-            "website": null,
-            "location": null,
-            "facebook": null,
-            "twitter": null,
-            "meta_title": null,
-            "meta_description": null,
-            "url": "https://blog.inovuslabs.org/author/nikhil/"
-        }
-    ];
-
 };
-
 
 
 // Get gallery images
@@ -1919,89 +2258,145 @@ export const getGalleryAssets = async () => {
 
     let data = [
         {
-          id: 1,
+            id: 1,
+            title: 'Team Inovus at IEDC Summit 2018',
+            description: 'Venue: Amal Jyothi College of Engineering, Kanjirappally',
+            largeURL: BASE_URL + '/assets/gallery/012.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/012.jpg',
+          },
+          {
+            id: 2,
+            title: 'Team Inovus at IEDC Summit 2023',
+            description: 'Venue: College of Engineering, Trivandrum',
+            largeURL: BASE_URL + '/assets/gallery/007.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/007.jpg',
+          },
+          {
+            id: 3,
+            title: 'Team Inovus with Mr. Deepu S Nath, MD, Faya USA.',
+            description: 'Venue: College of Engineering, Trivandrum',
+            largeURL: BASE_URL + '/assets/gallery/008.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/008.jpg',
+          },
+          {
+          id: 4,
         //   title: 'Image 1',
         //   description: 'Image 1 description',
           largeURL: BASE_URL + '/assets/gallery/001.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/001.jpg',
         },
         {
-          id: 2,
+          id: 5,
         //   title: 'Image 2',
         //   description: 'Image 2 description',
           largeURL: BASE_URL + '/assets/gallery/002.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/002.jpg',
         },
         {
-          id: 3,
+          id: 6,
           title: 'Blessing Ceremony of Inovus Labs IEDC Post-renovation',
         //   description: 'Image 3 description',
           largeURL: BASE_URL + '/assets/gallery/003.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/003.jpg',
         },
         {
-          id: 4,
-        //   title: 'Image 4',
-        //   description: 'Image 4 description',
+          id: 7,
+          title: 'The INOVUS site showcased at the ASUS showroom in Lulu Mall!',
+        //   description: 'The INOVUS site showcased at the ASUS showroom in Lulu Mall!',
           largeURL: BASE_URL + '/assets/gallery/004.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/004.jpg',
         },
         {
-          id: 5,
+          id: 8,
         //   title: 'Image 5',
         //   description: 'Image 5 description',
           largeURL: BASE_URL + '/assets/gallery/005.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/005.jpg',
         },
         {
-          id: 6,
+            id: 9,
+            title: 'Team Inovus with Gigi Devassiya',
+            description: 'He is a teacher, an author and an entrepreneur, above all a true visionary who shed lights to many lifes.',
+            largeURL: BASE_URL + '/assets/gallery/meetgigisir.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/meetgigisir.jpg',
+        },
+        {
+          id: 10,
         //   title: 'Image 6',
         //   description: 'Image 6 description',
           largeURL: BASE_URL + '/assets/gallery/006.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/006.jpg',
         },
         {
-          id: 7,
-        //   title: 'Image 7',
-        //   description: 'Image 7 description',
-          largeURL: BASE_URL + '/assets/gallery/007.jpg',
-          thumbnailURL: BASE_URL + '/assets/gallery/007.jpg',
-        },
-        {
-          id: 8,
-          title: 'Team Inovus with Mr. Deepu S Nath, MD, Faya USA.',
-        //   description: 'Image 8 description',
-          largeURL: BASE_URL + '/assets/gallery/008.jpg',
-          thumbnailURL: BASE_URL + '/assets/gallery/008.jpg',
-        },
-        {
-          id: 9,
+          id: 11,
         //   title: 'Image 9',
         //   description: 'Image 9 description',
           largeURL: BASE_URL + '/assets/gallery/009.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/009.jpg',
         },
         {
-          id: 10,
+          id: 12,
         //   title: 'Image 10',
         //   description: 'Image 10 description',
           largeURL: BASE_URL + '/assets/gallery/010.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/010.jpg',
         },
         {
-          id: 11,
+          id: 13,
+          title: 'Team Inovus with Ajay Basil',
+        //   description: '',
+          largeURL: BASE_URL + '/assets/gallery/meetajaybasil.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/meetajaybasil.jpg',
+        },
+        {
+          id: 14,
         //   title: 'Image 11',
         //   description: 'Image 11 description',
           largeURL: BASE_URL + '/assets/gallery/011.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/011.jpg',
         },
         {
-          id: 12,
-          title: 'Team Inovus at IEDC Summit 2018',
-          description: 'Venue: Amal Jyothi College of Engineering, Kanjirappally',
-          largeURL: BASE_URL + '/assets/gallery/012.jpg',
-          thumbnailURL: BASE_URL + '/assets/gallery/012.jpg',
+          id: 15,
+          title: 'Team Inovus with Akhil',
+        //   description: 'Image 11 description',
+          largeURL: BASE_URL + '/assets/gallery/meetakhildamodar.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/meetakhildamodar.jpg',
+        },
+        {
+            id: 16,
+            title: 'Team Inovus with Thomman',
+            description: 'Dr. Thomas George K, also known as Thomman, is the Founder and Chairman of LEAD College of Management.',
+            largeURL: BASE_URL + '/assets/gallery/meetthoman.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/meetthoman.jpg',
+        },
+        {
+          id: 17,
+          title: 'Trip',
+          description: 'Kuttikanam',
+          largeURL: BASE_URL + '/assets/gallery/teaminovus.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/teaminovus.jpg',
+        },
+        {
+            id: 18,
+            // title: 'Team Inovus with GenAI Mentor',
+            // description: '',
+            largeURL: BASE_URL + '/assets/gallery/meetai.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/meetai.jpg',
+        },
+        {
+          id: 19,
+          title: 'Release of DocGen',
+          description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+          largeURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
         }
+        // {
+        //   id: 20,
+        // //   title: 'Visit from principle rampuram',
+        // //   description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+        //   largeURL: BASE_URL + '/assets/gallery/',
+        //   thumbnailURL: BASE_URL + '/assets/gallery/',
+        // }
     ]
 
     return data;
@@ -2888,17 +3283,7 @@ export const getcurrentTeam = async () => {
                         github: "https://github.com/Amendamaria",
                         linkedin: "https://www.linkedin.com/in/amenda-maria-johnson-669420283"
                     }
-                }, {
-                    name: ' Bhagya V',
-                    position: 'Chief Quality Officer',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Event Curator.jpg',
-                    social: {
-                      instagram: "https://www.instagram.com/bhagyaa._v",
-                        github: "https://github.com/Bhagyaa-V",
-                        linkedin: "https://www.linkedin.com/in/bhagyaa-v-013875294"
-                    }
-                },
+                },  
             ]
         }
             
@@ -3109,16 +3494,6 @@ export const getTeamMembers = async () => {
                       instagram: "https://www.instagram.com/amenda_maria",
                         github: "https://github.com/Amendamaria",
                         linkedin: "https://www.linkedin.com/in/amenda-maria-johnson-669420283"
-                    }
-                }, {
-                    name: ' Bhagya V',
-                    position: 'Chief Quality Officer',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Event Curator.jpg',
-                    social: {
-                      instagram: "https://www.instagram.com/bhagyaa._v",
-                        github: "https://github.com/Bhagyaa-V",
-                        linkedin: "https://www.linkedin.com/in/bhagyaa-v-013875294"
                     }
                 },   
             ]

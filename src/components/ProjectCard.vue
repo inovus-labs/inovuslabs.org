@@ -30,7 +30,8 @@
 
                 <template v-if="data.url">
                     <a :href="data.url.link" target="_blank" class="items-center px-3 py-2 text-sm font-medium text-gray-700 border hover:bg-gray-100 rounded border-gray-700 w-1/2 text-center">
-                        {{ data.tags.includes('Software') ? data.url.type === "source" ? 'GitHub Repo' : 'Live Demo' : '' }}
+                        <!-- {{ data.tags.includes('Software') ? data.url.type === "source" ? 'GitHub Repo' : 'Live Demo' : '' }} -->
+                        {{ data.url.type === "source" ? 'GitHub Repo' : data.tags.includes('Software') ? 'Live Demo' : '' }}
                     </a>
                 </template>
                 
@@ -62,6 +63,7 @@
     .p-custom-ellipsis {
         display: -webkit-box;
         -webkit-line-clamp: 4;
+        line-clamp: 4;
         -webkit-box-orient: vertical;
         overflow: hidden;
         height: 96px;
@@ -69,6 +71,7 @@
     .h-custom-ellipsis {
         display: -webkit-box;
         -webkit-line-clamp: 1;
+        line-clamp: 1;
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
