@@ -161,7 +161,7 @@
                 blogStats: [
                     {
                         title: "Months",
-                        value: 24,
+                        value: 11,
                         mode: "accurate"
                     },
                     {
@@ -171,27 +171,22 @@
                     },
                     {
                         title: "Blogs Published",
-                        value: 58,
-                        async mounted() {
-                            this.projects = await getBlogPosts();
-                            this.authors = await getBlogAuthors();
-                            this.blogStats[2].value = this.projects.length;
-                        },
+                        value: 28,
                         mode: "accurate"
                     },
                     {
                         title: "Active Users",
-                        value: 2000,
+                        value: 800,
                         mode: "approximate"
                     },
                     {
                         title: "Unique Views",
-                        value: 10000,
+                        value: 5000,
                         mode: "approximate"
                     },
                     {
                         title: "Engagements",
-                        value: 25000,
+                        value: 12000,
                         mode: "approximate"
                     }
                 ],

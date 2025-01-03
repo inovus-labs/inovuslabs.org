@@ -82,8 +82,7 @@
             }
         },
         async mounted() {
-            const reports= await getReports();
-            this.reports = reports.reverse();
+            this.reports = await getReports();
         },
     }
 </script>
