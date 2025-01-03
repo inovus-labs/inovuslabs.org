@@ -170,14 +170,6 @@ export default {
       },
       {
         id: 4,
-        name: "DevMorphix",
-        incubators: ["Badusha Shaji", "Abhishek V Gopal", "Arjun A Acharry", ""],
-        image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/DevMorphix.png",
-        description: "Welcome to the digital revolution! Elevate your business with our innovative web development, IoT solutions, automations, design, and captivating kiosk displays.",
-        link: "https://devmorphix.com/"
-      },
-      {
-        id: 5,
         name: "EduNext Community",
         incubators: ["Nikhil T Das"],
         image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/EDUNEXT COMMUNITY LOGO.png",
@@ -185,11 +177,19 @@ export default {
         link: "https://inovuslabs.com/"
       },
       {
+        id: 5,
+        name: "DevMorphix",
+        incubators: ["Badusha Shaji", "Abhishek V Gopal", "Arjun A Acharry", ""],
+        image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/DevMorphix.png",
+        description: "Welcome to the digital revolution! Elevate your business with our innovative web development, IoT solutions, automations, design, and captivating kiosk displays.",
+        link: "https://devmorphix.com/"
+      },
+      {
         id: 6,
         name: "Herba Soap",
         incubators: ["Tom Thomas"],
-        image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/EDUNEXT COMMUNITY LOGO.png",
-        description: "Hebra Soap is a self-driven startup dedicated to crafting high-quality handmade soaps.",
+        image: "https://storage.googleapis.com/inovuslabs-cdn.appspot.com/assets/logos/herba.png",
+        description: "Handcrafted 100% natural soaps made with care and love by students. Each bar is chemical-free, eco-friendly, and created to nourish your skin while supporting student initiatives. Discover the perfect blend of purity and purpose in every soap.",
         link: "https://inovuslabs.com/"
       }
     ],

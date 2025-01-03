@@ -1211,6 +1211,9 @@ export const getPodcasts = async () => {
         //latest is added at the top
 
         {
+            id: "3wfepAuvFLZsQ5a3LtdD9g",
+        },
+        {
             id: "1LsmopRnxO9qZqaZFNz1IP"
         },
         {
@@ -2251,9 +2254,6 @@ export const getSocialPosts = async () => {
 };
 
 
-
-
-
 // Get gallery images
 export const getGalleryAssets = async () => {
 
@@ -3284,17 +3284,7 @@ export const getcurrentTeam = async () => {
                         github: "https://github.com/Amendamaria",
                         linkedin: "https://www.linkedin.com/in/amenda-maria-johnson-669420283"
                     }
-                }, {
-                    name: ' Bhagya V',
-                    position: 'Chief Quality Officer',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Event Curator.jpg',
-                    social: {
-                      instagram: "https://www.instagram.com/bhagyaa._v",
-                        github: "https://github.com/Bhagyaa-V",
-                        linkedin: "https://www.linkedin.com/in/bhagyaa-v-013875294"
-                    }
-                },   
+                },  
             ]
         }
             
@@ -3505,16 +3495,6 @@ export const getTeamMembers = async () => {
                       instagram: "https://www.instagram.com/amenda_maria",
                         github: "https://github.com/Amendamaria",
                         linkedin: "https://www.linkedin.com/in/amenda-maria-johnson-669420283"
-                    }
-                }, {
-                    name: ' Bhagya V',
-                    position: 'Chief Quality Officer',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Event Curator.jpg',
-                    social: {
-                      instagram: "https://www.instagram.com/bhagyaa._v",
-                        github: "https://github.com/Bhagyaa-V",
-                        linkedin: "https://www.linkedin.com/in/bhagyaa-v-013875294"
                     }
                 },   
             ]
