@@ -20,7 +20,7 @@
                     {{ showReadMore ? 'Read More' : 'Read Less' }}
                 </button>
                 <!-- Used to give link until the day of event -->
-                <a v-if="!isCompleted && data.sitelink" :href="data.sitelink" class="items-center px-3 py-2 text-sm font-medium text-white bg-primary rounded hover:bg-secondary dark:bg-blue-600 w-1/2 text-center">
+                <a v-if="!isCompleted" :href="data.sitelink" class="items-center px-3 py-2 text-sm font-medium text-white bg-primary rounded hover:bg-secondary dark:bg-blue-600 w-1/2 text-center">
                     Go to Event
                 </a>
             </div>

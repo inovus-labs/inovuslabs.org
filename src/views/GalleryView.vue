@@ -38,7 +38,10 @@
   
   
 
+
+
     <section class="lg:p-10 p-4 mb-5 lg:my-10">
+
 
       <div class="mx-auto max-w-screen-xl text-left w-full py-4">
         <h1 class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
@@ -101,9 +104,7 @@
               height: img.height,
             });
           };
-          img.onerror = (err) => {
-            reject(err);
-          };
+          img.onerror = reject;
           img.src = image.largeURL;
         });
       },
@@ -124,9 +125,7 @@
         })
       );
 
-      
-
-      this.images = images.reverse();
+      this.images = images;
       this.proceed = true;
     },
 
