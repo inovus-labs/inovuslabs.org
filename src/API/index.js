@@ -1233,7 +1233,6 @@ export const getPodcasts = async () => {
 };
 
 
-
 // Get all activity
 
 export const getActivity = async () => {
@@ -2134,35 +2133,35 @@ export const getReccuringEvents = async () => {
                 "date": "21 September 2024",
                 "title": "Weekend Workbench 2.0 #9",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.7.jpg ",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.9.png",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 46,
                 "date": "28 September 2024",
                 "title": "Weekend Workbench 2.0 #10",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.7.jpg ",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.10.png",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 47,
                 "date": "12 October 2024",
                 "title": "Weekend Workbench 2.0 #11",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.7.jpg ",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.11.png",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 48,
                 "date": "26 October 2024",
                 "title": "Weekend Workbench 2.0 #12",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.7.jpg ",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.12.png ",
                 "tags": ["Weekend Workbench"]
             },{
                 "id": 49,
                 "date": "09 November 2024",
                 "title": "Weekend Workbench 2.0 #13",
                 "description": "",
-                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.7.jpg ",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.13.png ",
                 "tags": ["Weekend Workbench"]
             },
         ]
