@@ -54,7 +54,7 @@
 
             
         <section class="lg:p-10 p-4">
-            <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4">
+            <div class="mx-auto max-w-screen-xl text-center w-full p-4 lg:mb-4 ">
 
 
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
@@ -89,7 +89,7 @@
                 </div>
             </section>
 
-            <div class="px-4 mx-auto max-w-screen-xl lg:px-6">
+            <div class="px-2 mx-auto max-w-screen-xl lg:px-6">
                 <div class="grid gap-8 lg:grid-cols-3">
 
                     <template v-for="post in instagramPosts">

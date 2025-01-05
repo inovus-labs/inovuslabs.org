@@ -3194,16 +3194,6 @@ export const getcurrentTeam = async () => {
                         linkedin: "https://www.linkedin.com/in/devika-anil-4b25492b3"
                     }
                 }, {
-                    name: ' Lekshmi Sree J',
-                    position: 'Chief Innovations Officer',
-                    description: 'An innovator is someone who introduces new ideas, methods, products, or processes, often with the aim of improving existing systems or creating entirely new ones. My tag is Chief innovation officer.',
-                   avatar: BASE_URL + '/assets/team/2024/Chief Innovations Officer.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/es_ter_lla_",
-                        github: "",
-                        linkedin: "https://www.linkedin.com/in/lekshmi-sree-j"
-                    }
-                }, {
                     name: ' Joel Jacob Thomas',
                     position: 'Chief Creative Officer',
                     description: 'I’m the creative lead of inovus labs, I’m monitor all kind of media production activities includes contents for social media, podcasts, posters, flyers and brochures for events.',
@@ -3583,15 +3573,6 @@ export const getTeamMembers = async () => {
                         instagram: "https://www.instagram.com/joel_jacob04",
                         github: "https://github.com/thomasjojacob04",
                         linkedin: "https://www.linkedin.com/in/joel-jacob-283322262"
-                    }
-                }, {
-                    name: ' Lekshmi Sree J',
-                    position: 'Women in Tech Lead',
-                   avatar: BASE_URL + '/assets/team/2023-2024/lekshmisree.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/es_ter_lla_",
-                        github: "",
-                        linkedin: "https://www.linkedin.com/in/lekshmi-sree-j"
                     }
                 }, {
                     name: ' Milan Sony',
