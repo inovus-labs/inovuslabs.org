@@ -4203,30 +4203,6 @@ export const getOutreachEvents = async () => {
     let data = [
         {
             id: 1,
-            title: "Inspire Orientation",
-            location: "Placid Vidya Vihar Senior Secondary School, Changanacherry",
-            description: "The Inspire Orientation program, organized by Inovus Labs IEDC, was a significant step in empowering students to participate in the Inspire initiative conducted by the Indian Government. This initiative aims to cultivate innovation and creativity among young minds. The program featured accomplished resource persons, Nikhil T Das, Badhusha Shaji, and Abhishek V Gopal, and took place at Placid Vidhyavihar. It served as a platform to inspire and equip students from Classes 7 to 9 to turn their innovative ideas into reality.",
-            date: ["12 July 2023"],
-            tags: ["Session"],
-            thumbnail: BASE_URL + "/assets/activity/Inspire.png",
-            images: [
-                BASE_URL + "/assets/activity/Inspire.png"
-            ]
-        },
-        {
-            id: 2,
-            title: "Empower the Students",
-            location: "St Berchmans Higher Secondary School, Changanacherry",
-            description: "The Empower The Students program, organized by Inovus Labs IEDC, was a transformative initiative designed to empower students to develop their innovative ideas. With a distinguished panel of resource persons, including Nikhil T Das, Badhusha Shaji, Abhishek V Gopal, and Nithin Daniel, this program aimed to equip students from Classes 5 to 10 at St. Berchman's High School (SB) with the knowledge, skills, and motivation needed to participate effectively in the Indian Government's Inspire initiative.",
-            date: ["14 July 2023"],
-            tags: ["Session"],
-            thumbnail: BASE_URL + "/assets/activity/Empower.png",
-            images: [
-                BASE_URL + "/assets/activity/Empower.png"
-            ]
-        },
-        {
-            id: 3,
             title: "Arduino Workshop",
             location: "Institute of Human Resources Development, Mallappally",
             description: "We have conducted Arduino workshop for the students of IHRD Mallapally students. It was a wonderfull experience to interact with new fellows",
@@ -4236,9 +4212,8 @@ export const getOutreachEvents = async () => {
             images: [
                 BASE_URL + "/assets/activity/arduinoIHRD.jpeg"
             ]
-        },
-        {
-            id: 4,
+        },{
+            id: 2,
             title: "IoT & Robotics Exhibition",
             location: "St Berchmans Higher Secondary School, Changanacherry",
             description: "The IoT and Robotics Exhibition held at SB High School was a comprehensive event centered around Information Technology. Attendees had the opportunity to immerse themselves in cutting-edge technologies, including hands-on experiences with VR glasses and hoverboards. The interactive nature of the exhibition not only provided valuable insights into the world of IoT and robotics but also allowed participants to explore and engage with the showcased technologies firsthand. The event fostered a dynamic learning environment, sparking curiosity and interest among the attendees as they delved into the exciting possibilities offered by IT-related advancements. ",
@@ -4250,7 +4225,7 @@ export const getOutreachEvents = async () => {
             ]
         },
         {
-            id: 5,
+            id: 3,
             title: "Hands-on IoT Workshop",
             location: "Mar Baselios Christian College of Engineering & Technology, Kuttikkanam",
             description: "Conducted at MBC Kuttikanam, this exhibition catered to a gathering of students eager to explore and learn about the intricacies of IoT (Internet of Things).",
@@ -4259,6 +4234,29 @@ export const getOutreachEvents = async () => {
             thumbnail: BASE_URL + "/assets/activity/handonIOT.jpg",
             images: [
                 BASE_URL + "/assets/activity/handonIOT.jpg"
+            ]
+        },{
+            id: 4,
+            title: "Inspire Orientation",
+            location: "Placid Vidya Vihar Senior Secondary School, Changanacherry",
+            description: "The Inspire Orientation program, organized by Inovus Labs IEDC, was a significant step in empowering students to participate in the Inspire initiative conducted by the Indian Government. This initiative aims to cultivate innovation and creativity among young minds. The program featured accomplished resource persons, Nikhil T Das, Badhusha Shaji, and Abhishek V Gopal, and took place at Placid Vidhyavihar. It served as a platform to inspire and equip students from Classes 7 to 9 to turn their innovative ideas into reality.",
+            date: ["12 July 2023"],
+            tags: ["Session"],
+            thumbnail: BASE_URL + "/assets/activity/Inspire.png",
+            images: [
+                BASE_URL + "/assets/activity/Inspire.png"
+            ]
+        },
+        {
+            id: 5,
+            title: "Empower the Students",
+            location: "St Berchmans Higher Secondary School, Changanacherry",
+            description: "The Empower The Students program, organized by Inovus Labs IEDC, was a transformative initiative designed to empower students to develop their innovative ideas. With a distinguished panel of resource persons, including Nikhil T Das, Badhusha Shaji, Abhishek V Gopal, and Nithin Daniel, this program aimed to equip students from Classes 5 to 10 at St. Berchman's High School (SB) with the knowledge, skills, and motivation needed to participate effectively in the Indian Government's Inspire initiative.",
+            date: ["14 July 2023"],
+            tags: ["Session"],
+            thumbnail: BASE_URL + "/assets/activity/Empower.png",
+            images: [
+                BASE_URL + "/assets/activity/Empower.png"
             ]
         },
         {
@@ -4283,6 +4281,30 @@ export const getOutreachEvents = async () => {
             thumbnail: BASE_URL + "/assets/activity/Frame 1 (6).png",
             images: [
                 BASE_URL + "/assets/activity/Frame 1 (6).png"
+            ]
+        },
+        {
+            id: 8,
+            title: "Intro to Gen AI",
+            location: "Mangalam College of Engineering, Meenachil",
+            description: "Introduction to Gen AI Workshop for BCA Students at Mangalam College of Engineering. Whether you are a tech enthusiast or just curious about the future of AI, this workshop is your gateway to becoming a part of the next tech revolution! Let's innovate together and shape the future with AI!",
+            date: ["10 September 2024"],
+            tags: ["Workshop"],
+            thumbnail: BASE_URL + "/assets/activity/GenAI_mangalam.jpeg",
+            images: [
+                BASE_URL + "/assets/activity/GenAI_mangalam.jpeg"
+            ]
+        },
+        {
+            id: 9,
+            title: "Introduction to UI Designing",
+            location: "Mangalam College of Engineering, Meenachil",
+            description: "Ready to boost your creativity and technical skills? Join us for an exciting 'Introduction to Designing' Workshop where you'll learn the art of creating stunning designs, perfect for both digital and print!",
+            date: ["24 September 2024"],
+            tags: ["Workshop"],
+            thumbnail: BASE_URL + "/assets/activity/ui_design mangalm.jpeg",
+            images: [
+                BASE_URL + "/assets/activity/ui_design mangalm.jpeg"
             ]
         },
     ];
