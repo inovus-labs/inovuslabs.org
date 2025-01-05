@@ -38,10 +38,10 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'SplashScreen',
+      name: '',
       component: Splash,
       meta: {
-        title: 'SplashScreen'
+        title: ''
       }
     },
     {
