@@ -4306,6 +4306,17 @@ export const getOutreachEvents = async () => {
             images: [
                 BASE_URL + "/assets/activity/ui_design mangalm.jpeg"
             ]
+        },{
+            id: 10,
+            title: "PrepSpark - Secret to Success",
+            location: " Government Engineering College, Idukki",
+            description: "A online talk session led by Nithin Daniel, on the topic Secret to Success. The session was conducted to provide them with valuable insights and guidance on how to prepare for their future careers and achieve success. and how linkedin played a role in his career.",
+            date: ["04 October 2024"],
+            tags: ["Session"],
+            thumbnail: BASE_URL + "/assets/activity/PrepSpark.jpg",
+            images: [
+                BASE_URL + "/assets/activity/PrepSpark.jpg"
+            ]
         },
     ];
 
