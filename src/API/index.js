@@ -1,8 +1,3 @@
-// /reports update
-// mini IoT lab images
-// nano degree
-
-
 import axios from 'axios';
 
 const BASE_URL = "https://storage.googleapis.com/inovuslabs-cdn.appspot.com";
@@ -1782,7 +1777,7 @@ export const getActivity = async () => {
                 "description": "The Figma workshop conducted by Inovus Labs offered participants a platform to unleash their creativity, explore design tools, and collaborate with others. It provided valuable insights and hands-on experience, helping attendees enhance their skills and bring their ideas to life.",
                 "date": ["20 January 2025   "],
                 "tags": ["Workshop"],
-                "sitelink": ["https://forms.gle/XDXywkGRtsmgYG7ZA"],
+                "sitelink": ["https://forms.gle/XDXywkGRtsmgYG7ZA   "],
             }
         ]
     };
@@ -2259,6 +2254,12 @@ export const getGalleryAssets = async () => {
 
     let data = [
         {
+            id: 27,
+            // title: '',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/jithin_shah.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/jithin_shah.jpg',
+          },{
             id: 1,
             title: 'Team Inovus at IEDC Summit 2018',
             description: 'Venue: Amal Jyothi College of Engineering, Kanjirappally',
@@ -2377,6 +2378,20 @@ export const getGalleryAssets = async () => {
             largeURL: BASE_URL + '/assets/gallery/meetthoman.jpg',
             thumbnailURL: BASE_URL + '/assets/gallery/meetthoman.jpg',
         },
+        {
+            id: 26,
+            // title: '',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/meetthoman2.jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/meetthoman2.jpeg',
+          },
+        {
+            id: 25,
+            title: 'Entrepreneurial Symposium',
+            description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/Entrepreneurial Symposium.png',
+            thumbnailURL: BASE_URL + '/assets/gallery/Entrepreneurial Symposium.png',
+          },
         {
           id: 17,
           title: 'Trip',
