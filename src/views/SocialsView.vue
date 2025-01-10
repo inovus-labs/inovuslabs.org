@@ -89,7 +89,7 @@
                 </div>
             </section>
 
-            <div class="px-2 mx-auto max-w-screen-xl lg:px-6">
+            <div class=" mx-auto max-w-screen-xl lg:px-6">
                 <div class="grid gap-8 lg:grid-cols-3">
 
                     <template v-for="post in instagramPosts">
@@ -116,7 +116,7 @@
                 </div>
             </section>
 
-            <div class="px-4 mx-auto max-w-screen-xl lg:px-6">
+            <div class=" mx-auto max-w-screen-xl lg:px-6">
                 <div class="grid gap-8 lg:grid-cols-3">
 
                     <template v-for="post in linkedinPosts">
@@ -143,7 +143,7 @@
                 </div>
             </section>
 
-            <div class="px-4 mx-auto max-w-screen-xl lg:px-6">
+            <div class=" mx-auto max-w-screen-xl lg:px-6">
                 <div class="grid gap-8 lg:grid-cols-3">
 
                     <template v-for="post in youtubePosts">
