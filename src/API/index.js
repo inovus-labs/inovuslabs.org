@@ -2279,6 +2279,13 @@ export const getGalleryAssets = async () => {
             thumbnailURL: BASE_URL + '/assets/gallery/008.jpg',
           },
           {
+            id: 20,
+            title: 'Arduino Workshop 2023',
+          //   description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + "/assets/iotGallery/arduino_workshop'23.jpg",
+            thumbnailURL: BASE_URL + "/assets/iotGallery/arduino_workshop'23.jpg",
+          },
+          {
           id: 4,
         //   title: 'Image 1',
         //   description: 'Image 1 description',
@@ -2384,19 +2391,53 @@ export const getGalleryAssets = async () => {
             thumbnailURL: BASE_URL + '/assets/gallery/meetai.jpg',
         },
         {
+            id: 24,
+            title: 'Team Meet',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/teammeet.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/teammeet.jpg',
+          },
+        {
           id: 19,
-          title: 'Release of DocGen',
-          description: 'Venue: Kristu Jyoti College of Mangement and Technology',
-          largeURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
-          thumbnailURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
-        }
-        // {
-        //   id: 20,
-        // //   title: 'Visit from principle rampuram',
-        // //   description: 'Venue: Kristu Jyoti College of Mangement and Technology',
-        //   largeURL: BASE_URL + '/assets/gallery/',
-        //   thumbnailURL: BASE_URL + '/assets/gallery/',
-        // }
+          title: 'Bulb Sale',
+          description: 'Product Release, Kristu Jyoti College of Mangement and Technology',
+          largeURL: BASE_URL + '/assets/gallery/Bulb_sale.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/Bulb_sale.jpg',
+        },{
+            id: 20,
+            title: 'Herba Soaps Product Release',
+            description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/herbarelease.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/herbarelease.jpg',
+          },
+          {
+            id: 21,
+            title: 'Release of Newsletter',
+            description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/newsletter_release.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/newsletter_release.jpg',
+          },{
+            id: 22,
+            title: 'Product DocGen',
+            description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/docgen1.jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/docgen1.jpeg',
+          },{
+            id: 23,
+            title: 'Release of DocGen',
+            description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
+          },
+          {
+            id: 25,
+            title: 'Weekend Workbench',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/weekendworkbench.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/weekendworkbench.jpg',
+          },
+          
+          
     ]
 
     return data;
@@ -4135,28 +4176,34 @@ export const getIotGalleryAssets = async () => {
         },
         {
           id: 6,
-        //   title: 'Image 6',
+          title: 'Arduino Workshop 2023',
         //   description: 'Image 6 description',
           largeURL: BASE_URL + '/assets/iotGallery/06.jpg',
           thumbnailURL: BASE_URL + '/assets/iotGallery/06.jpg',
         },
         {
           id: 7,
-        //   title: 'Image 7',
+          title: 'Arduino Workshop 2023',
         //   description: 'Image 7 description',
           largeURL: BASE_URL + '/assets/iotGallery/07.jpg',
           thumbnailURL: BASE_URL + '/assets/iotGallery/07.jpg',
+        },{
+            id: 14,
+            title: 'Arduino Workshop 2023',
+            //   description: 'Image 10 description',
+            largeURL: BASE_URL + "/assets/iotGallery/arduino_workshop'23.jpg",
+            thumbnailURL: BASE_URL + "/assets/iotGallery/arduino_workshop'23.jpg",
         },
         {
           id: 8,
-        //   title: 'Team Inovus with Mr. Deepu S Nath, MD, Faya USA.',
+          title: 'Some Components',
         //   description: 'Image 8 description',
           largeURL: BASE_URL + '/assets/iotGallery/08.jpg',
           thumbnailURL: BASE_URL + '/assets/iotGallery/08.jpg',
         },
         {
           id: 9,
-        //   title: 'Image 9',
+          title: 'Open PC',
         //   description: 'Image 9 description',
           largeURL: BASE_URL + '/assets/iotGallery/09.jpg',
           thumbnailURL: BASE_URL + '/assets/iotGallery/09.jpg',
@@ -4170,25 +4217,32 @@ export const getIotGalleryAssets = async () => {
         },
         {
             id: 11,
-            //   title: 'Image 10',
+              title: 'RFID Based Door-Lock',
             //   description: 'Image 10 description',
             largeURL: BASE_URL + '/assets/iotGallery/11.jpg',
             thumbnailURL: BASE_URL + '/assets/iotGallery/11.jpg',
         },
         {
             id: 12,
-            //   title: 'Image 10',
+              title: 'Mr.Bilberto',
             //   description: 'Image 10 description',
             largeURL: BASE_URL + '/assets/iotGallery/12.jpg',
             thumbnailURL: BASE_URL + '/assets/iotGallery/12.jpg',
         },
         {
             id: 13,
-            //   title: 'Image 10',
+              title: 'Smart Inovus',
             //   description: 'Image 10 description',
             largeURL: BASE_URL + '/assets/iotGallery/13.jpg',
             thumbnailURL: BASE_URL + '/assets/iotGallery/13.jpg',
         },
+            // {
+        //     id: 15,
+        //     title: 'Arduino Workshop 2023',
+        //     //   description: 'Image 10 description',
+        //     largeURL: BASE_URL + "/assets/iotGallery/arduino_workshop'23.jpg",
+        //     thumbnailURL: BASE_URL + "/assets/iotGallery/arduino_workshop'23.jpg",
+        // },
     ]
 
     return data;
