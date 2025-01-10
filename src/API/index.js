@@ -1775,15 +1775,15 @@ export const getActivity = async () => {
                 "tags": ["Bootcamp"],
                 "sitelink": ["https://forms.gle/8Ma9isaK86bW3YvJ6"],
             }
-            /*,{
+            ,{
                 "id": 67,
                 "title": "Figma Workshop",
-                "thumbnail": BASE_URL + "/assets/activity/",
+                "thumbnail": BASE_URL + "/assets/activity/figma_workshop'24.png",
                 "description": "The Figma workshop conducted by Inovus Labs offered participants a platform to unleash their creativity, explore design tools, and collaborate with others. It provided valuable insights and hands-on experience, helping attendees enhance their skills and bring their ideas to life.",
-                "date": ["15 January 2025"],
+                "date": ["20 January 2025   "],
                 "tags": ["Workshop"],
-                "sitelink": ["https://forms.gle/8Ma9isaK86bW3YvJ6"],
-            }*/
+                "sitelink": ["https://forms.gle/XDXywkGRtsmgYG7ZA"],
+            }
         ]
     };
 
@@ -2178,15 +2178,15 @@ export const getSocialPosts = async () => {
         "instagram": [
             {
                 "id": 1,
-                "url": "https://www.instagram.com/p/DEPryOmzFIj/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/DEpZWCPzpra/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 2,
-                "url": "https://www.instagram.com/p/DDPUPMvz_vK/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/DEPryOmzFIj/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 3,
-                "url": "https://www.instagram.com/p/DCY-bwfzMsw/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/DDPUPMvz_vK/?utm_source=ig_embed&amp;utm_campaign=loading"
             }
             
         ],
@@ -2221,17 +2221,18 @@ export const getSocialPosts = async () => {
         "twitter": [
             {
                 "id": 1,
-                "url": "https://twitter.com/InovusLabs/status/1765107764559507711"
-        // Don't use X.com... it wont work "https://x.com/InovusLabs/status/1765107764559507711"
+                "url": "https://twitter.com/Decoded_Cipher/status/1871973532760154622"
+                // Don't use X.com... it wont work "https://x.com/InovusLabs/status/1765107764559507711"
             },
             {
                 "id": 2,
-                "url": "https://twitter.com/InovusLabs/status/1754872488343802048"
+                "url": "https://twitter.com/InovusLabs/status/1765107764559507711"
             },
             {
                 "id": 3,
-                "url": "https://twitter.com/InovusLabs/status/1711584725733900390"
+                "url": "https://twitter.com/InovusLabs/status/1754872488343802048"
             }
+            
         ],
         "threads": [
             {
