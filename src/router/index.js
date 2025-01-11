@@ -41,7 +41,7 @@ const router = createRouter({
       name: '',
       component: Splash,
       meta: {
-        title: ''
+        title: 'Home'
       }
     },
     {

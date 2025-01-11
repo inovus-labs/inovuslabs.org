@@ -10,8 +10,8 @@
                 <p class="text-gray-500 sm:text-xl font-light dark:text-gray-400">We’re excited in providing assistance could be either financial or infrastructure for new initiatives and ideas which seems impossible for majority.</p>
             </div>
             <div
-                class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-10">
-                <ol class="relative border-l border-gray-200 dark:border-gray-700">
+                class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl items-center justify-center">
+                <ol class="relative">
 
                     <HomeTeamCard v-for="item in team" 
                         :members="item.members" :showTeam="item.showTeam"  />
