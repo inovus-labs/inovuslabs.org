@@ -54,7 +54,7 @@
 
             <div
                 class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-10">
-                <ol class="relative border-l border-gray-200 dark:border-gray-700">
+                <ol class="relative border-l border-gray-200 dark:border-gray-700 lg:ml-0 ml-8">
 
                     <OurTeamCard v-for="item in team" :key="item.title" :title="item.title" :date="item.date"
                         :members="item.members" :showTeam="item.showTeam" @click="toggleTeam(item)" />

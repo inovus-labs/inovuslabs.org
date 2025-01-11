@@ -107,6 +107,7 @@
 
       async mounted() {
         this.outreachEvents = await getOutreachEvents();
+        this.outreachEvents.reverse();
       },
 
     }

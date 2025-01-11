@@ -1,8 +1,3 @@
-// /reports update
-// mini IoT lab images
-// nano degree
-
-
 import axios from 'axios';
 
 const BASE_URL = "https://storage.googleapis.com/inovuslabs-cdn.appspot.com";
@@ -1775,15 +1770,15 @@ export const getActivity = async () => {
                 "tags": ["Bootcamp"],
                 "sitelink": ["https://forms.gle/8Ma9isaK86bW3YvJ6"],
             }
-            /*,{
+            ,{
                 "id": 67,
                 "title": "Figma Workshop",
-                "thumbnail": BASE_URL + "/assets/activity/",
+                "thumbnail": BASE_URL + "/assets/activity/figma_workshop'24.png",
                 "description": "The Figma workshop conducted by Inovus Labs offered participants a platform to unleash their creativity, explore design tools, and collaborate with others. It provided valuable insights and hands-on experience, helping attendees enhance their skills and bring their ideas to life.",
-                "date": ["15 January 2025"],
+                "date": ["20 January 2025   "],
                 "tags": ["Workshop"],
-                "sitelink": ["https://forms.gle/8Ma9isaK86bW3YvJ6"],
-            }*/
+                "sitelink": ["https://forms.gle/XDXywkGRtsmgYG7ZA   "],
+            }
         ]
     };
 
@@ -2178,15 +2173,15 @@ export const getSocialPosts = async () => {
         "instagram": [
             {
                 "id": 1,
-                "url": "https://www.instagram.com/p/DEPryOmzFIj/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/DEpZWCPzpra/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 2,
-                "url": "https://www.instagram.com/p/DDPUPMvz_vK/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/DEPryOmzFIj/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 3,
-                "url": "https://www.instagram.com/p/DCY-bwfzMsw/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/DDPUPMvz_vK/?utm_source=ig_embed&amp;utm_campaign=loading"
             }
             
         ],
@@ -2221,17 +2216,18 @@ export const getSocialPosts = async () => {
         "twitter": [
             {
                 "id": 1,
-                "url": "https://twitter.com/InovusLabs/status/1765107764559507711"
-        // Don't use X.com... it wont work "https://x.com/InovusLabs/status/1765107764559507711"
+                "url": "https://twitter.com/Decoded_Cipher/status/1871973532760154622"
+                // Don't use X.com... it wont work "https://x.com/InovusLabs/status/1765107764559507711"
             },
             {
                 "id": 2,
-                "url": "https://twitter.com/InovusLabs/status/1754872488343802048"
+                "url": "https://twitter.com/InovusLabs/status/1765107764559507711"
             },
             {
                 "id": 3,
-                "url": "https://twitter.com/InovusLabs/status/1711584725733900390"
+                "url": "https://twitter.com/InovusLabs/status/1754872488343802048"
             }
+            
         ],
         "threads": [
             {
@@ -2258,6 +2254,12 @@ export const getGalleryAssets = async () => {
 
     let data = [
         {
+            id: 27,
+            // title: '',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/jithin_shah.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/jithin_shah.jpg',
+          },{
             id: 1,
             title: 'Team Inovus at IEDC Summit 2018',
             description: 'Venue: Amal Jyothi College of Engineering, Kanjirappally',
@@ -2277,6 +2279,13 @@ export const getGalleryAssets = async () => {
             description: 'Venue: College of Engineering, Trivandrum',
             largeURL: BASE_URL + '/assets/gallery/008.jpg',
             thumbnailURL: BASE_URL + '/assets/gallery/008.jpg',
+          },
+          {
+            id: 20,
+            title: 'Arduino Workshop 2023',
+          //   description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + "/assets/iotGallery/arduino_workshop'23.jpg",
+            thumbnailURL: BASE_URL + "/assets/iotGallery/arduino_workshop'23.jpg",
           },
           {
           id: 4,
@@ -2370,6 +2379,20 @@ export const getGalleryAssets = async () => {
             thumbnailURL: BASE_URL + '/assets/gallery/meetthoman.jpg',
         },
         {
+            id: 26,
+            // title: '',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/meetthoman2.jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/meetthoman2.jpeg',
+          },
+        {
+            id: 25,
+            title: 'Entrepreneurial Symposium',
+            description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/Entrepreneurial Symposium.png',
+            thumbnailURL: BASE_URL + '/assets/gallery/Entrepreneurial Symposium.png',
+          },
+        {
           id: 17,
           title: 'Trip',
           description: 'Kuttikanam',
@@ -2384,19 +2407,53 @@ export const getGalleryAssets = async () => {
             thumbnailURL: BASE_URL + '/assets/gallery/meetai.jpg',
         },
         {
+            id: 24,
+            title: 'Team Meet',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/teammeet.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/teammeet.jpg',
+          },
+        {
           id: 19,
-          title: 'Release of DocGen',
-          description: 'Venue: Kristu Jyoti College of Mangement and Technology',
-          largeURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
-          thumbnailURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
-        }
-        // {
-        //   id: 20,
-        // //   title: 'Visit from principle rampuram',
-        // //   description: 'Venue: Kristu Jyoti College of Mangement and Technology',
-        //   largeURL: BASE_URL + '/assets/gallery/',
-        //   thumbnailURL: BASE_URL + '/assets/gallery/',
-        // }
+          title: 'Bulb Sale',
+          description: 'Product Release, Kristu Jyoti College of Mangement and Technology',
+          largeURL: BASE_URL + '/assets/gallery/Bulb_sale.jpg',
+          thumbnailURL: BASE_URL + '/assets/gallery/Bulb_sale.jpg',
+        },{
+            id: 20,
+            title: 'Herba Soaps Product Release',
+            description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/herbarelease.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/herbarelease.jpg',
+          },
+          {
+            id: 21,
+            title: 'Release of Newsletter',
+            description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/newsletter_release.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/newsletter_release.jpg',
+          },{
+            id: 22,
+            title: 'Product DocGen',
+            description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/docgen1.jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/docgen1.jpeg',
+          },{
+            id: 23,
+            title: 'Release of DocGen',
+            description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
+          },
+          {
+            id: 25,
+            title: 'Weekend Workbench',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/weekendworkbench.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/weekendworkbench.jpg',
+          },
+          
+          
     ]
 
     return data;
@@ -3194,16 +3251,6 @@ export const getcurrentTeam = async () => {
                         linkedin: "https://www.linkedin.com/in/devika-anil-4b25492b3"
                     }
                 }, {
-                    name: ' Lekshmi Sree J',
-                    position: 'Chief Innovations Officer',
-                    description: 'An innovator is someone who introduces new ideas, methods, products, or processes, often with the aim of improving existing systems or creating entirely new ones. My tag is Chief innovation officer.',
-                   avatar: BASE_URL + '/assets/team/2024/Chief Innovations Officer.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/es_ter_lla_",
-                        github: "",
-                        linkedin: "https://www.linkedin.com/in/lekshmi-sree-j"
-                    }
-                }, {
                     name: ' Joel Jacob Thomas',
                     position: 'Chief Creative Officer',
                     description: 'I’m the creative lead of inovus labs, I’m monitor all kind of media production activities includes contents for social media, podcasts, posters, flyers and brochures for events.',
@@ -3583,15 +3630,6 @@ export const getTeamMembers = async () => {
                         instagram: "https://www.instagram.com/joel_jacob04",
                         github: "https://github.com/thomasjojacob04",
                         linkedin: "https://www.linkedin.com/in/joel-jacob-283322262"
-                    }
-                }, {
-                    name: ' Lekshmi Sree J',
-                    position: 'Women in Tech Lead',
-                   avatar: BASE_URL + '/assets/team/2023-2024/lekshmisree.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/es_ter_lla_",
-                        github: "",
-                        linkedin: "https://www.linkedin.com/in/lekshmi-sree-j"
                     }
                 }, {
                     name: ' Milan Sony',
@@ -4154,28 +4192,34 @@ export const getIotGalleryAssets = async () => {
         },
         {
           id: 6,
-        //   title: 'Image 6',
+          title: 'Arduino Workshop 2023',
         //   description: 'Image 6 description',
           largeURL: BASE_URL + '/assets/iotGallery/06.jpg',
           thumbnailURL: BASE_URL + '/assets/iotGallery/06.jpg',
         },
         {
           id: 7,
-        //   title: 'Image 7',
+          title: 'Arduino Workshop 2023',
         //   description: 'Image 7 description',
           largeURL: BASE_URL + '/assets/iotGallery/07.jpg',
           thumbnailURL: BASE_URL + '/assets/iotGallery/07.jpg',
+        },{
+            id: 14,
+            title: 'Arduino Workshop 2023',
+            //   description: 'Image 10 description',
+            largeURL: BASE_URL + "/assets/iotGallery/arduino_workshop'23.jpg",
+            thumbnailURL: BASE_URL + "/assets/iotGallery/arduino_workshop'23.jpg",
         },
         {
           id: 8,
-        //   title: 'Team Inovus with Mr. Deepu S Nath, MD, Faya USA.',
+          title: 'Some Components',
         //   description: 'Image 8 description',
           largeURL: BASE_URL + '/assets/iotGallery/08.jpg',
           thumbnailURL: BASE_URL + '/assets/iotGallery/08.jpg',
         },
         {
           id: 9,
-        //   title: 'Image 9',
+          title: 'Open PC',
         //   description: 'Image 9 description',
           largeURL: BASE_URL + '/assets/iotGallery/09.jpg',
           thumbnailURL: BASE_URL + '/assets/iotGallery/09.jpg',
@@ -4189,25 +4233,32 @@ export const getIotGalleryAssets = async () => {
         },
         {
             id: 11,
-            //   title: 'Image 10',
+              title: 'RFID Based Door-Lock',
             //   description: 'Image 10 description',
             largeURL: BASE_URL + '/assets/iotGallery/11.jpg',
             thumbnailURL: BASE_URL + '/assets/iotGallery/11.jpg',
         },
         {
             id: 12,
-            //   title: 'Image 10',
+              title: 'Mr.Bilberto',
             //   description: 'Image 10 description',
             largeURL: BASE_URL + '/assets/iotGallery/12.jpg',
             thumbnailURL: BASE_URL + '/assets/iotGallery/12.jpg',
         },
         {
             id: 13,
-            //   title: 'Image 10',
+              title: 'Smart Inovus',
             //   description: 'Image 10 description',
             largeURL: BASE_URL + '/assets/iotGallery/13.jpg',
             thumbnailURL: BASE_URL + '/assets/iotGallery/13.jpg',
         },
+            // {
+        //     id: 15,
+        //     title: 'Arduino Workshop 2023',
+        //     //   description: 'Image 10 description',
+        //     largeURL: BASE_URL + "/assets/iotGallery/arduino_workshop'23.jpg",
+        //     thumbnailURL: BASE_URL + "/assets/iotGallery/arduino_workshop'23.jpg",
+        // },
     ]
 
     return data;
@@ -4222,30 +4273,6 @@ export const getOutreachEvents = async () => {
     let data = [
         {
             id: 1,
-            title: "Inspire Orientation",
-            location: "Placid Vidya Vihar Senior Secondary School, Changanacherry",
-            description: "The Inspire Orientation program, organized by Inovus Labs IEDC, was a significant step in empowering students to participate in the Inspire initiative conducted by the Indian Government. This initiative aims to cultivate innovation and creativity among young minds. The program featured accomplished resource persons, Nikhil T Das, Badhusha Shaji, and Abhishek V Gopal, and took place at Placid Vidhyavihar. It served as a platform to inspire and equip students from Classes 7 to 9 to turn their innovative ideas into reality.",
-            date: ["12 July 2023"],
-            tags: ["Session"],
-            thumbnail: BASE_URL + "/assets/activity/Inspire.png",
-            images: [
-                BASE_URL + "/assets/activity/Inspire.png"
-            ]
-        },
-        {
-            id: 2,
-            title: "Empower the Students",
-            location: "St Berchmans Higher Secondary School, Changanacherry",
-            description: "The Empower The Students program, organized by Inovus Labs IEDC, was a transformative initiative designed to empower students to develop their innovative ideas. With a distinguished panel of resource persons, including Nikhil T Das, Badhusha Shaji, Abhishek V Gopal, and Nithin Daniel, this program aimed to equip students from Classes 5 to 10 at St. Berchman's High School (SB) with the knowledge, skills, and motivation needed to participate effectively in the Indian Government's Inspire initiative.",
-            date: ["14 July 2023"],
-            tags: ["Session"],
-            thumbnail: BASE_URL + "/assets/activity/Empower.png",
-            images: [
-                BASE_URL + "/assets/activity/Empower.png"
-            ]
-        },
-        {
-            id: 3,
             title: "Arduino Workshop",
             location: "Institute of Human Resources Development, Mallappally",
             description: "We have conducted Arduino workshop for the students of IHRD Mallapally students. It was a wonderfull experience to interact with new fellows",
@@ -4255,9 +4282,8 @@ export const getOutreachEvents = async () => {
             images: [
                 BASE_URL + "/assets/activity/arduinoIHRD.jpeg"
             ]
-        },
-        {
-            id: 4,
+        },{
+            id: 2,
             title: "IoT & Robotics Exhibition",
             location: "St Berchmans Higher Secondary School, Changanacherry",
             description: "The IoT and Robotics Exhibition held at SB High School was a comprehensive event centered around Information Technology. Attendees had the opportunity to immerse themselves in cutting-edge technologies, including hands-on experiences with VR glasses and hoverboards. The interactive nature of the exhibition not only provided valuable insights into the world of IoT and robotics but also allowed participants to explore and engage with the showcased technologies firsthand. The event fostered a dynamic learning environment, sparking curiosity and interest among the attendees as they delved into the exciting possibilities offered by IT-related advancements. ",
@@ -4269,7 +4295,7 @@ export const getOutreachEvents = async () => {
             ]
         },
         {
-            id: 5,
+            id: 3,
             title: "Hands-on IoT Workshop",
             location: "Mar Baselios Christian College of Engineering & Technology, Kuttikkanam",
             description: "Conducted at MBC Kuttikanam, this exhibition catered to a gathering of students eager to explore and learn about the intricacies of IoT (Internet of Things).",
@@ -4278,6 +4304,29 @@ export const getOutreachEvents = async () => {
             thumbnail: BASE_URL + "/assets/activity/handonIOT.jpg",
             images: [
                 BASE_URL + "/assets/activity/handonIOT.jpg"
+            ]
+        },{
+            id: 4,
+            title: "Inspire Orientation",
+            location: "Placid Vidya Vihar Senior Secondary School, Changanacherry",
+            description: "The Inspire Orientation program, organized by Inovus Labs IEDC, was a significant step in empowering students to participate in the Inspire initiative conducted by the Indian Government. This initiative aims to cultivate innovation and creativity among young minds. The program featured accomplished resource persons, Nikhil T Das, Badhusha Shaji, and Abhishek V Gopal, and took place at Placid Vidhyavihar. It served as a platform to inspire and equip students from Classes 7 to 9 to turn their innovative ideas into reality.",
+            date: ["12 July 2023"],
+            tags: ["Session"],
+            thumbnail: BASE_URL + "/assets/activity/Inspire.png",
+            images: [
+                BASE_URL + "/assets/activity/Inspire.png"
+            ]
+        },
+        {
+            id: 5,
+            title: "Empower the Students",
+            location: "St Berchmans Higher Secondary School, Changanacherry",
+            description: "The Empower The Students program, organized by Inovus Labs IEDC, was a transformative initiative designed to empower students to develop their innovative ideas. With a distinguished panel of resource persons, including Nikhil T Das, Badhusha Shaji, Abhishek V Gopal, and Nithin Daniel, this program aimed to equip students from Classes 5 to 10 at St. Berchman's High School (SB) with the knowledge, skills, and motivation needed to participate effectively in the Indian Government's Inspire initiative.",
+            date: ["14 July 2023"],
+            tags: ["Session"],
+            thumbnail: BASE_URL + "/assets/activity/Empower.png",
+            images: [
+                BASE_URL + "/assets/activity/Empower.png"
             ]
         },
         {
@@ -4302,6 +4351,41 @@ export const getOutreachEvents = async () => {
             thumbnail: BASE_URL + "/assets/activity/Frame 1 (6).png",
             images: [
                 BASE_URL + "/assets/activity/Frame 1 (6).png"
+            ]
+        },
+        {
+            id: 8,
+            title: "Intro to Gen AI",
+            location: "Mangalam College of Engineering, Meenachil",
+            description: "Introduction to Gen AI Workshop for BCA Students at Mangalam College of Engineering. Whether you are a tech enthusiast or just curious about the future of AI, this workshop is your gateway to becoming a part of the next tech revolution! Let's innovate together and shape the future with AI!",
+            date: ["10 September 2024"],
+            tags: ["Workshop"],
+            thumbnail: BASE_URL + "/assets/activity/GenAI_mangalam.jpeg",
+            images: [
+                BASE_URL + "/assets/activity/GenAI_mangalam.jpeg"
+            ]
+        },
+        {
+            id: 9,
+            title: "Introduction to UI Designing",
+            location: "Mangalam College of Engineering, Meenachil",
+            description: "Ready to boost your creativity and technical skills? Join us for an exciting 'Introduction to Designing' Workshop where you'll learn the art of creating stunning designs, perfect for both digital and print!",
+            date: ["24 September 2024"],
+            tags: ["Workshop"],
+            thumbnail: BASE_URL + "/assets/activity/ui_design mangalm.jpeg",
+            images: [
+                BASE_URL + "/assets/activity/ui_design mangalm.jpeg"
+            ]
+        },{
+            id: 10,
+            title: "PrepSpark - Secret to Success",
+            location: " Government Engineering College, Idukki",
+            description: "A online talk session led by Nithin Daniel, on the topic Secret to Success. The session was conducted to provide them with valuable insights and guidance on how to prepare for their future careers and achieve success. and how linkedin played a role in his career.",
+            date: ["04 October 2024"],
+            tags: ["Session"],
+            thumbnail: BASE_URL + "/assets/activity/PrepSpark.jpg",
+            images: [
+                BASE_URL + "/assets/activity/PrepSpark.jpg"
             ]
         },
     ];

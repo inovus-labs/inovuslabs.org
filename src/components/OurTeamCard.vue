@@ -1,9 +1,9 @@
 <template>
 
 
-    <li :class="{ 'ml-6': showTeam, 'mb-10 ml-6': !showTeam }">
+    <li :class="{ 'ml-0': showTeam, 'mb-10 ml-6': !showTeam } ">
         <span
-            class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+            class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3  ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
             <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path
@@ -11,23 +11,21 @@
             </svg>
         </span>
 
-        <div class="w-max cursor-pointer" @click="toggleTeam">
+        <div class="w-max cursor-pointer ml-6" @click="toggleTeam">
             <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{ title }}</h3>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{{ date }}</time>
         </div>
 
 
         <template v-if="showTeam">
-            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:px-6">
-                <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-
-                    <template v-for="member in members">
-                        <OurTeamMember :data="member" />
-                    </template>
-
-                </div>
-            </div>
-        </template>
+      <div class="py-8 px-4 ml- mx-auto max-w-screen-xl lg:px-6">
+        <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
+          <template v-for="member in members" :key="member.id">
+            <OurTeamMember :data="member" />
+          </template>
+        </div>
+      </div>
+    </template>
 
     </li>
 
