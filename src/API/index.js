@@ -2254,17 +2254,92 @@ export const getGalleryAssets = async () => {
 
     let data = [
         {
+            id: 30,
+            title: 'Founders',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/founders&succesors (2).jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/founders&succesors (2).jpg',
+          },{
             id: 27,
             // title: '',
             // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
             largeURL: BASE_URL + '/assets/gallery/jithin_shah.jpg',
             thumbnailURL: BASE_URL + '/assets/gallery/jithin_shah.jpg',
+          },        {
+            id: 28,
+            // title: '',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/founders&succesors (1).jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/founders&succesors (1).jpg',
+          },        
+          {
+            id: 29,
+            // title: '',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/jithin_shah_2.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/jithin_shah_2.jpg',
+          },
+          {
+            id: 31,
+            title: 'Founders & Successors',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/founders&succesors (3).jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/founders&succesors (3).jpg',
+          },        
+          {
+            id: 32,
+            title: 'Founders & Successors',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/founders&successors.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/founders&successors.jpg',
           },{
             id: 1,
             title: 'Team Inovus at IEDC Summit 2018',
             description: 'Venue: Amal Jyothi College of Engineering, Kanjirappally',
             largeURL: BASE_URL + '/assets/gallery/012.jpg',
             thumbnailURL: BASE_URL + '/assets/gallery/012.jpg',
+          },{
+            id: 33,
+            title: 'Team Inovus at IEDC Summit 2019',
+            description: 'Venue: Sahrdaya College of Engineering and Technology',
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2019 (1).jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2019 (1).jpg',
+        },{
+            id: 34,
+            title: 'Team Inovus at IEDC Summit 2019',
+            description: 'Venue: Sahrdaya College of Engineering and Technology',
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2019 (2).jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2019 (2).jpg',
+          },{
+            id: 35,
+            title: 'Team Inovus at IEDC Summit 2022',
+            description: "Venue: St. Joseph's College of Engineering and Technology, Palai",
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2022 (2).jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2022 (2).jpeg',
+          },{
+            id: 36,
+            title: 'Team Inovus at IEDC Summit 2022',
+            description: "Venue: St. Joseph's College of Engineering and Technology, Palai",
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2022 (1).jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2022 (1).jpeg',
+          },{
+            id: 37,
+            title: 'Team Inovus at IEDC Summit 2022',
+            // description: "Venue: St. Joseph's College of Engineering and Technology, Palai",
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2022 (3).jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2022 (3).jpeg',
+          },{
+            id: 38,
+            title: 'Team Inovus at IEDC Summit 2022',
+            // description: "Venue: St. Joseph's College of Engineering and Technology, Palai",
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2022 (4).jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2022 (4).jpeg',
+          },{
+            id: 39,
+            title: 'Introdutcion to IoT',
+            description: "Venue: College of Applied Sciences Mallapally",
+            largeURL: BASE_URL + '/assets/gallery/college of Applied Sciences Mallapally.jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/college of Applied Sciences Mallapally.jpeg',
           },
           {
             id: 2,
@@ -2370,7 +2445,13 @@ export const getGalleryAssets = async () => {
         //   description: 'Image 11 description',
           largeURL: BASE_URL + '/assets/gallery/meetakhildamodar.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/meetakhildamodar.jpg',
-        },
+        },{
+        id: 40,
+        title: 'Christmas 2023',
+        // description: "Venue: St. Joseph's College of Engineering and Technology, Palai",
+        largeURL: BASE_URL + '/assets/gallery/christmas 2023.jpeg',
+        thumbnailURL: BASE_URL + '/assets/gallery/christmas 2023.jpeg',
+      },
         {
             id: 16,
             title: 'Team Inovus with Thomman',
@@ -2444,6 +2525,12 @@ export const getGalleryAssets = async () => {
             description: 'Venue: Kristu Jyoti College of Mangement and Technology',
             largeURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
             thumbnailURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
+          },{
+            id: 41,
+            title: 'Team Inovus at IEDC Summit 2024',
+            description: 'With Anoop Ambika CEO,KSUM at NIT Calicut ',
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2024.png',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2024.png',
           },
           {
             id: 25,
@@ -2451,8 +2538,19 @@ export const getGalleryAssets = async () => {
             // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
             largeURL: BASE_URL + '/assets/gallery/weekendworkbench.jpg',
             thumbnailURL: BASE_URL + '/assets/gallery/weekendworkbench.jpg',
+          },{
+            id: 43,
+            title: 'Fire Chat with Johna Aswin Selva',
+            description: 'Alumini Interaction',
+            largeURL: BASE_URL + '/assets/gallery/talk with Johna Aswin Selva.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/talk with Johna Aswin Selva.jpg',
+          },{
+            id: 44,
+            title: 'Bike Conversion to EV',
+            // description: '',
+            largeURL: BASE_URL + '/assets/gallery/bike building.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/bike building.jpg',
           },
-          
           
     ]
 
