@@ -2158,6 +2158,20 @@ export const getReccuringEvents = async () => {
                 "description": "",
                 "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkbench2.0.13.png ",
                 "tags": ["Weekend Workbench"]
+            },{
+                "id": 50,
+                "date": "25 January 2025",
+                "title": "Weekend Workbench 2.0 #14",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkebench 2.0.14.png",
+                "tags": ["Weekend Workbench"]
+            },{
+                "id": 51,
+                "date": "01 February 2025",
+                "title": "Weekend Workbench 2.0 #15",
+                "description": "",
+                "thumbnail": BASE_URL + "/assets/reccuringevents/workbench/weekendworkebench 2.0.15.jpg",
+                "tags": ["Weekend Workbench"]
             },
         ]
     };
@@ -2173,30 +2187,30 @@ export const getSocialPosts = async () => {
         "instagram": [
             {
                 "id": 1,
-                "url": "https://www.instagram.com/p/DEpZWCPzpra/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/DFfgPNRz8Al/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 2,
-                "url": "https://www.instagram.com/p/DEPryOmzFIj/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/DFSohext-SG/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 3,
-                "url": "https://www.instagram.com/p/DDPUPMvz_vK/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/DE6dr6Cz8Fu/?utm_source=ig_embed&amp;utm_campaign=loading"
             }
             
         ],
         "linkedin": [
             {
                 "id": 1,
-                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7269197354077954048"
+                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7281773567854190593"
             },
             {
                 "id": 2,
-                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7251626595013033985"
+                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7269197354077954048"
             },
             {
                 "id": 3,
-                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7237133903067521026"
+                "url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7251626595013033985"
             }
         ],
         "youtube": [
@@ -2254,17 +2268,92 @@ export const getGalleryAssets = async () => {
 
     let data = [
         {
+            id: 30,
+            title: 'Founders',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/founders&succesors (2).jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/founders&succesors (2).jpg',
+          },{
             id: 27,
             // title: '',
             // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
             largeURL: BASE_URL + '/assets/gallery/jithin_shah.jpg',
             thumbnailURL: BASE_URL + '/assets/gallery/jithin_shah.jpg',
+          },        {
+            id: 28,
+            // title: '',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/founders&succesors (1).jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/founders&succesors (1).jpg',
+          },        
+          {
+            id: 29,
+            // title: '',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/jithin_shah_2.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/jithin_shah_2.jpg',
+          },
+          {
+            id: 31,
+            title: 'Founders & Successors',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/founders&succesors (3).jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/founders&succesors (3).jpg',
+          },        
+          {
+            id: 32,
+            title: 'Founders & Successors',
+            // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
+            largeURL: BASE_URL + '/assets/gallery/founders&successors.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/founders&successors.jpg',
           },{
             id: 1,
             title: 'Team Inovus at IEDC Summit 2018',
             description: 'Venue: Amal Jyothi College of Engineering, Kanjirappally',
             largeURL: BASE_URL + '/assets/gallery/012.jpg',
             thumbnailURL: BASE_URL + '/assets/gallery/012.jpg',
+          },{
+            id: 33,
+            title: 'Team Inovus at IEDC Summit 2019',
+            description: 'Venue: Sahrdaya College of Engineering and Technology',
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2019 (1).jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2019 (1).jpg',
+        },{
+            id: 34,
+            title: 'Team Inovus at IEDC Summit 2019',
+            description: 'Venue: Sahrdaya College of Engineering and Technology',
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2019 (2).jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2019 (2).jpg',
+          },{
+            id: 35,
+            title: 'Team Inovus at IEDC Summit 2022',
+            description: "Venue: St. Joseph's College of Engineering and Technology, Palai",
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2022 (2).jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2022 (2).jpeg',
+          },{
+            id: 36,
+            title: 'Team Inovus at IEDC Summit 2022',
+            description: "Venue: St. Joseph's College of Engineering and Technology, Palai",
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2022 (1).jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2022 (1).jpeg',
+          },{
+            id: 37,
+            title: 'Team Inovus at IEDC Summit 2022',
+            // description: "Venue: St. Joseph's College of Engineering and Technology, Palai",
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2022 (3).jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2022 (3).jpeg',
+          },{
+            id: 38,
+            title: 'Team Inovus at IEDC Summit 2022',
+            // description: "Venue: St. Joseph's College of Engineering and Technology, Palai",
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2022 (4).jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2022 (4).jpeg',
+          },{
+            id: 39,
+            title: 'Introdutcion to IoT',
+            description: "Venue: College of Applied Sciences Mallapally",
+            largeURL: BASE_URL + '/assets/gallery/college of Applied Sciences Mallapally.jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/college of Applied Sciences Mallapally.jpeg',
           },
           {
             id: 2,
@@ -2370,7 +2459,13 @@ export const getGalleryAssets = async () => {
         //   description: 'Image 11 description',
           largeURL: BASE_URL + '/assets/gallery/meetakhildamodar.jpg',
           thumbnailURL: BASE_URL + '/assets/gallery/meetakhildamodar.jpg',
-        },
+        },{
+        id: 40,
+        title: 'Christmas 2023',
+        // description: "Venue: St. Joseph's College of Engineering and Technology, Palai",
+        largeURL: BASE_URL + '/assets/gallery/christmas 2023.jpeg',
+        thumbnailURL: BASE_URL + '/assets/gallery/christmas 2023.jpeg',
+      },
         {
             id: 16,
             title: 'Team Inovus with Thomman',
@@ -2444,6 +2539,12 @@ export const getGalleryAssets = async () => {
             description: 'Venue: Kristu Jyoti College of Mangement and Technology',
             largeURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
             thumbnailURL: BASE_URL + '/assets/gallery/Inovusteam.jpg',
+          },{
+            id: 41,
+            title: 'Team Inovus at IEDC Summit 2024',
+            description: 'With Anoop Ambika CEO,KSUM at NIT Calicut ',
+            largeURL: BASE_URL + '/assets/gallery/iedc summit 2024.png',
+            thumbnailURL: BASE_URL + '/assets/gallery/iedc summit 2024.png',
           },
           {
             id: 25,
@@ -2451,8 +2552,19 @@ export const getGalleryAssets = async () => {
             // description: 'Venue: Kristu Jyoti College of Mangement and Technology',
             largeURL: BASE_URL + '/assets/gallery/weekendworkbench.jpg',
             thumbnailURL: BASE_URL + '/assets/gallery/weekendworkbench.jpg',
+          },{
+            id: 43,
+            title: 'Fire Chat with Johna Aswin Selva',
+            description: 'Alumini Interaction',
+            largeURL: BASE_URL + '/assets/gallery/talk with Johna Aswin Selva.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/talk with Johna Aswin Selva.jpg',
+          },{
+            id: 44,
+            title: 'Bike Conversion to EV',
+            // description: '',
+            largeURL: BASE_URL + '/assets/gallery/bike building.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/bike building.jpg',
           },
-          
           
     ]
 
@@ -3452,17 +3564,7 @@ export const getTeamMembers = async () => {
                         github: "https://github.com/Dev-vi-ka",
                         linkedin: "https://www.linkedin.com/in/devika-anil-4b25492b3"
                     }
-                }, {
-                    name: ' Lekshmi Sree J',
-                    position: 'Chief Innovations Officer',
-                    description: 'An innovator is someone who introduces new ideas, methods, products, or processes, often with the aim of improving existing systems or creating entirely new ones. My tag is Chief innovation officer.',
-                   avatar: BASE_URL + '/assets/team/2024/Chief Innovations Officer.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/es_ter_lla_",
-                        github: "",
-                        linkedin: "https://www.linkedin.com/in/lekshmi-sree-j"
-                    }
-                }, {
+                },{
                     name: ' Joel Jacob Thomas',
                     position: 'Chief Creative Officer',
                     description: 'I’m the creative lead of inovus labs, I’m monitor all kind of media production activities includes contents for social media, podcasts, posters, flyers and brochures for events.',
@@ -3473,7 +3575,7 @@ export const getTeamMembers = async () => {
                         linkedin: "https://www.linkedin.com/in/joel-jacob-283322262"
                     }
                 }, {
-                    name: ' Alen Rajan',
+                    name: ' Alan Rajan',
                     position: 'IPR & Research Lead',
                     description: '',
                    avatar: BASE_URL + '/assets/team/2024/IPR & Reserch Lead.jpg',
@@ -4386,6 +4488,17 @@ export const getOutreachEvents = async () => {
             thumbnail: BASE_URL + "/assets/activity/PrepSpark.jpg",
             images: [
                 BASE_URL + "/assets/activity/PrepSpark.jpg"
+            ]
+        },{
+            id: 11,
+            title: "Intro to IoT- MACE CLUB",
+            location: " Mar Athanasius College, Kothamangalam",
+            description: "A online session led by Badhusha Shaji, on the topic Intro to IoT and hardware. The session was conducted to provide them with valuable insights and understanding about what what Iot is and its working and some programing boards such arduino and esp were introduced .",
+            date: ["04 October 2024"],
+            tags: ["Session"],
+            thumbnail: BASE_URL + "/assets/activity/Mace clubIntro to IoT.jpg",
+            images: [
+                BASE_URL + "/assets/activity/Mace clubIntro to IoT.jpg"
             ]
         },
     ];
