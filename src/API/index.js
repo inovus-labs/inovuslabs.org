@@ -3257,8 +3257,8 @@ export const getcurrentTeam = async () => {
 
     let data = [
         {
-            title: 'Inovus 7th Generation',
-            date: '2024',
+            title: 'Inovus 8th Generation',
+            date: '2025',
             showTeam: true,
             members: [
 
@@ -3266,7 +3266,7 @@ export const getcurrentTeam = async () => {
                     name: ' Roji Thomas',
                     position: 'Nodal Officer',
                     description: 'As Nodal Officer, I foster talent, guide growth, oversee committee selection.',
-                    avatar: BASE_URL + '/assets/team/2024/Nodal Officer.jpg',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Nodal officer.jpg',
                     social: {
                       instagram: "https://www.instagram.com/roji1978",
                       github: "",
@@ -3276,173 +3276,260 @@ export const getcurrentTeam = async () => {
                     name: ' Cina Mathew',
                     position: 'Assistant Nodal Officer',
                     description: 'As Assistant Nodal Officer, I support talent, drive IEDC growth, aid committee selection.',
-                   avatar: BASE_URL + '/assets/team/2024/Asst.Nodal Officer.jpg',
+                    avatar: BASE_URL + '/assets/team/2025-2026/asst. Nodal officer.jpg',
                     social: {
                         instagram: "https://www.instagram.com/cina_kadathukalam",
                         github: "",
                         linkedin: "https://www.linkedin.com/in/cina-mathew-883372195"
                     }
-                }, {
-                    name: ' Jithin Sha',
-                    position: 'Mentor',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Mentor Jithin sha.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/last_riddler",
-                        github: "https://github.com/Waterloo",
-                        linkedin: "https://www.linkedin.com/in/jithinsha"
-                    }
-                }, {
-                    name: ' Arjun Krishna',
-                    position: 'Mentor',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Mentor Arjun.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/decoded_cipher",
-                        github: "https://github.com/decoded-cipher",
-                        linkedin: "https://www.linkedin.com/in/-arjunkrishna"
-                    }
-                }, {
-                    name: ' Nikhil T Das',
-                    position: 'Mentor',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Mentor Nikhil T Das.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/nikhil_dasz",
-                        github: "https://github.com/nikhiltdas",
-                        linkedin: "https://www.linkedin.com/in/nikhil-das-9404ab1a4"
-                    }
-                }, {
-                    name: ' Milan Sony',
-                    position: 'Mentor',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Mentor  Milan.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/milansony_",
-                        github: "https://github.com/milan-sony",
-                        linkedin: "https://www.linkedin.com/in/milansony"
-                    }
-                }, {
-                    name: ' Abhishek V Gopal',
-                    position: 'Chief Executive Officer',
-                    description: 'Hi I’m the CEO of inovus labs, provides effective guidance in coordinating events and activities of the community.',
-                   avatar: BASE_URL + '/assets/team/2024/Chief Executive Officer.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/abhishek_oorukary_",
-                        github: "https://github.com/abhishek-v-gopal",
-                        linkedin: "https://www.linkedin.com/in/abhishekvgopal"
-                    }
-                }, {
-                    name: ' Badhusha Shaji',
-                    position: 'Chief Technical Officer',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Chief Technical Officer.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/_badhu_._sha_",
-                        github: "https://github.com/Badhusha3214",
-                        linkedin: "https://www.linkedin.com/in/badhushashaji"
-                    }
-                }, {
-                    name: ' Arjun A Acharry',
-                    position: 'Chief Operations Officer',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Chief Operations Officer.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/arjun_a_acharry",
-                        github: "https://github.com/arjunaacharry",
-                        linkedin: "https://www.linkedin.com/in/arjun-a-acharry"
-                    }
-                }, {
-                    name: ' Devika Anil',
-                    position: 'Women In Tech',
-                    description: 'I’m the women in tech lead of inovus labs. I’m the one who lead and mentor all kind of women exclusive programs. I guide and mentor students and be the spearhead of all women exclusive programs.  ',
-                   avatar: BASE_URL + '/assets/team/2024/Women in tech.jpg',
-                    social: {
-                      instagram: "https://www.instagram.com/deh_wee",
-                        github: "https://github.com/Dev-vi-ka",
-                        linkedin: "https://www.linkedin.com/in/devika-anil-4b25492b3"
-                    }
-                }, {
-                    name: ' Joel Jacob Thomas',
-                    position: 'Chief Creative Officer',
-                    description: 'I’m the creative lead of inovus labs, I’m monitor all kind of media production activities includes contents for social media, podcasts, posters, flyers and brochures for events.',
-                   avatar: BASE_URL + '/assets/team/2024/Chief Creative Officer.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/joel_jacob04",
-                        github: "https://github.com/thomasjojacob04",
-                        linkedin: "https://www.linkedin.com/in/joel-jacob-283322262"
-                    }
-                }, {
-                    name: ' Alen Rajan',
-                    position: 'IPR & Research Lead',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/IPR & Reserch Lead.jpg',
-                    social: {
-                        instagram: "",
-                        github: "",
-                        linkedin: "https://www.linkedin.com/in/alan-rajan-b938802b3"
-                    }
-                }, {
-                    name: ' Nithin Daniel',
-                    position: 'Chief Finance Officer',
-                    description: 'I’m the financial lead of inovus labs IEDC, monitors all kind of financial transactions and the bill-laden of Inovus Labs.',
-                   avatar: BASE_URL + '/assets/team/2024/Chief Finance Officer.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/nithin_daniel_",
-                        github: "https://github.com/nithin-daniel",
-                        linkedin: "https://www.linkedin.com/in/nithindaniel"
-                    }
-                }, {
-                    name: ' Anasuya S Kurup',
-                    position: 'Chief Marketing Officer',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Chief Marketing Officer anasuya.jpg',
-                    social: {
-                      instagram: "https://www.instagram.com/anasuya_nadamel_",
-                        github: "",
-                        linkedin: "https://www.linkedin.com/in/anasuya-s-kurup-60258624a"
-                    }
-                }, {
+                }, 
+                //{
+                //     name: ' Jithin Sha',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Mentor Jithin sha.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/last_riddler",
+                //         github: "https://github.com/Waterloo",
+                //         linkedin: "https://www.linkedin.com/in/jithinsha"
+                //     }
+                // }, {
+                //     name: ' Arjun Krishna',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Mentor Arjun.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/decoded_cipher",
+                //         github: "https://github.com/decoded-cipher",
+                //         linkedin: "https://www.linkedin.com/in/-arjunkrishna"
+                //     }
+                // }, {
+                //     name: ' Nikhil T Das',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Mentor Nikhil T Das.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/nikhil_dasz",
+                //         github: "https://github.com/nikhiltdas",
+                //         linkedin: "https://www.linkedin.com/in/nikhil-das-9404ab1a4"
+                //     }
+                // }, {
+                //     name: ' Milan Sony',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Mentor  Milan.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/milansony_",
+                //         github: "https://github.com/milan-sony",
+                //         linkedin: "https://www.linkedin.com/in/milansony"
+                //     }
+                // }, {
+                //     name: ' Abhishek V Gopal',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Chief Executive Officer.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/abhishek_oorukary_",
+                //         github: "https://github.com/abhishek-v-gopal",
+                //         linkedin: "https://www.linkedin.com/in/abhishekvgopal"
+                //     }
+                // }, {
+                //     name: ' Badhusha Shaji',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Chief Technical Officer.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/_badhu_._sha_",
+                //         github: "https://github.com/Badhusha3214",
+                //         linkedin: "https://www.linkedin.com/in/badhushashaji"
+                //     }
+                // }, {
+                //     name: ' Arjun A Acharry',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Chief Operations Officer.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/arjun_a_acharry",
+                //         github: "https://github.com/arjunaacharry",
+                //         linkedin: "https://www.linkedin.com/in/arjun-a-acharry"
+                //     }
+                // },{
+                //     name: ' Nithin Daniel',
+                //     position: 'Mentor',
+                //     description: 'I’m the financial lead of inovus labs IEDC, monitors all kind of financial transactions and the bill-laden of Inovus Labs.',
+                //    avatar: BASE_URL + '/assets/team/2024/Chief Finance Officer.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/nithin_daniel_",
+                //         github: "https://github.com/nithin-daniel",
+                //         linkedin: "https://www.linkedin.com/in/nithindaniel"
+                //     }
+                // }, 
+                {
                     name: ' Amith Abey Stephen',
-                    position: 'Stock Manager',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Stock Manager.jpg',
+                    position: 'Student Lead 1',
+                    description: 'Hi I’m the CEO of inovus labs, provides effective guidance in coordinating events and activities of the community.',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Student lead 1.jpg',
                     social: {
                       instagram: "https://www.instagram.com/amith_abey_stephen",
                         github: "https://github.com/Amith-Abey-Stephen",
                         linkedin: "https://www.linkedin.com/in/amith-abey-stephen"
                     }
-                }, {
+                },
+                {
+                    name: ' Josna Ann Varghese',
+                    position: 'Student Lead 2',
+                    description: 'Hi I’m the Student Lead 2 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Student lead 2.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/josnaanv",
+                        github: "https://github.com/JosnaAnn",
+                        linkedin: "https://www.linkedin.com/in/josna-ann-varghese-418753300"
+                    }
+                },
+
+                {
+                        name: ' Lydia Johnson',
+                        position: 'Operation Lead',
+                        description: '',
+                       avatar: BASE_URL + '/assets/team/2025-2026/Operation lead.jpg',
+                        social: {
+                            instagram: "https://www.instagram.com/lydiajso",
+                            github: "https://github.com/1yd1aa",
+                            linkedin: "https://www.linkedin.com/in/lydia-j-775968318"
+                        }
+                },
+
+                {
                     name: ' Sane Sunil',
-                    position: 'Project Manager',
+                    position: 'Technical Lead',
                     description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Project Manager.jpg',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Teachnical Lead.jpg',
                     social: {
                       instagram: "",
                         github: "https://github.com/SanTechBoard",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/sane-sunil-55a552334/"
                     }
-                }, {
-                    name: ' Angel K Agnes',
+                },
+
+                {
+                    name: ' Tom Thomas Kondody',
+                    position: 'Marketing Lead',
+                    description: '',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Marketing Lead.jpg',
+                    social: {
+                        instagram: "https://www.instagram.com/tom_kondody",
+                        github: "https://github.com/tomkondody",
+                        linkedin: " https://www.linkedin.com/in/tomthomaskondody"
+                    }
+                }, 
+
+                {
+                    name: ' Aaron Anil',
+                    position: 'Creative Lead',
+                    description: 'I’m the creative lead of inovus labs, I’m monitor all kind of media production activities includes contents for social media, podcasts, posters, flyers and brochures for events.',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Creative Lead.jpg',
+                    social: {
+                        instagram: "https://www.instagram.com/_.a_x_r_o_n._",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/aaron-anil-thomas-897b6433a"
+                    }
+                },
+                
+                {
+                    name: ' Anasuya S Kurup',
+                    position: 'Women Innovation Lead',
+                    description: 'I’m the women in tech lead of inovus labs. I’m the one who lead and mentor all kind of women exclusive programs. I guide and mentor students and be the spearhead of all women exclusive programs.  ',
+                   avatar: BASE_URL + '/assets/team/2025-2026/Women Innovation lead.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/anasuya_nadamel_",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/anasuya-s-kurup-60258624a"
+                    }
+                },
+                
+                {
+                    name: ' Vyshak K Pradeep',
                     position: 'Community Lead',
                     description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Community Lead.jpg',
+                   avatar: BASE_URL + '/assets/team/2025-2026/Community Lead.jpg',
                     social: {
-                      instagram: "https://www.instagram.com/angelkagnes",
-                        github: "https://github.com/Angel-K-Agnes",
-                        linkedin: "https://www.linkedin.com/in/angel-k-agnes-a6127528b"
+                      instagram: "https://www.instagram.com/_why_shak",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/vyshak-k-pradeep-b30886350"
                     }
-                }, {
+                }, 
+                
+                {
                     name: ' Amenda Maria Johnson',
-                    position: 'Chief Social Officer',
-                    description: '',
-                   avatar: BASE_URL + '/assets/team/2024/Chief Marketing Officer.jpg',
+                    position: 'Finance Lead',
+                    description: 'I’m the financial lead of inovus labs IEDC, monitors all kind of financial transactions and the bill-laden of Inovus Labs.',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Finance Lead.jpg',
                     social: {
                       instagram: "https://www.instagram.com/amenda_maria",
                         github: "https://github.com/Amendamaria",
                         linkedin: "https://www.linkedin.com/in/amenda-maria-johnson-669420283"
                     }
-                },  
+                },
+
+                {
+                    name: ' Aaliya Gopan',
+                    position: 'IPR & Research Lead',
+                    description: '',
+                   avatar: BASE_URL + '/assets/team/2025-2026/Research & IPR lead.jpg',
+                    social: {
+                        instagram: "https://www.instagram.com/aaliyagopan",
+                        github: "https://github.com/AALIYAGOPAN",
+                        linkedin: "https://www.linkedin.com/in/aaliya-gopan"
+                    }
+                },    
+                
+                {
+                    name: ' Alex Renny',
+                    position: 'Administartion Lead',
+                    description: '',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Administration lead.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/__alex___001__/",
+                        github: "https://github.com/mr-alex-001",
+                        linkedin: "https://www.linkedin.com/in/alex-renny-48b893319"
+                    }
+                },   
+                
+                {
+                    name: ' Emil Binoy',
+                    position: 'Innovation Lead',
+                    description: '',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Innovation lead.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/its_emilefx",
+                        github: "https://github.com/emil-binoy",
+                        linkedin: "https://www.linkedin.com/in/emil-binoy-769261325"
+                    }
+                },   
+                
+                {
+                    name: ' Sibin',
+                    position: 'Event Co-ordinator',
+                    description: '',
+                    avatar: BASE_URL + '/assets/team/2025-2026/event coordinator.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/sibin_ullattil",
+                        github: "https://github.com/Sibin-2000",
+                        linkedin: ""
+                    }
+                },   
+
+                {
+                    name: ' Viswajith B Nair',
+                    position: 'Event Curator',
+                    description: '',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Event curator.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/viswajithhhh.__/",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/viswajith-b-nair-405295322"
+                    }
+                }, 
             ]
         }
             
@@ -3459,9 +3546,284 @@ export const getTeamMembers = async () => {
 
     let data = [
         {
+            title: 'Inovus 8th Generation',
+            date: '2025',
+            showTeam: true,
+            members: [
+
+                {
+                    name: ' Roji Thomas',
+                    position: 'Nodal Officer',
+                    description: 'As Nodal Officer, I foster talent, guide growth, oversee committee selection.',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Nodal officer.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/roji1978",
+                      github: "",
+                      linkedin: "https://www.linkedin.com/in/roji-thomas-thomas"
+                    }
+                }, {
+                    name: ' Cina Mathew',
+                    position: 'Assistant Nodal Officer',
+                    description: 'As Assistant Nodal Officer, I support talent, drive IEDC growth, aid committee selection.',
+                    avatar: BASE_URL + '/assets/team/2025-2026/asst. Nodal officer.jpg',
+                    social: {
+                        instagram: "https://www.instagram.com/cina_kadathukalam",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/cina-mathew-883372195"
+                    }
+                }, 
+                //{
+                //     name: ' Jithin Sha',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Mentor Jithin sha.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/last_riddler",
+                //         github: "https://github.com/Waterloo",
+                //         linkedin: "https://www.linkedin.com/in/jithinsha"
+                //     }
+                // }, {
+                //     name: ' Arjun Krishna',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Mentor Arjun.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/decoded_cipher",
+                //         github: "https://github.com/decoded-cipher",
+                //         linkedin: "https://www.linkedin.com/in/-arjunkrishna"
+                //     }
+                // }, {
+                //     name: ' Nikhil T Das',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Mentor Nikhil T Das.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/nikhil_dasz",
+                //         github: "https://github.com/nikhiltdas",
+                //         linkedin: "https://www.linkedin.com/in/nikhil-das-9404ab1a4"
+                //     }
+                // }, {
+                //     name: ' Milan Sony',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Mentor  Milan.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/milansony_",
+                //         github: "https://github.com/milan-sony",
+                //         linkedin: "https://www.linkedin.com/in/milansony"
+                //     }
+                // }, {
+                //     name: ' Abhishek V Gopal',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Chief Executive Officer.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/abhishek_oorukary_",
+                //         github: "https://github.com/abhishek-v-gopal",
+                //         linkedin: "https://www.linkedin.com/in/abhishekvgopal"
+                //     }
+                // }, {
+                //     name: ' Badhusha Shaji',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Chief Technical Officer.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/_badhu_._sha_",
+                //         github: "https://github.com/Badhusha3214",
+                //         linkedin: "https://www.linkedin.com/in/badhushashaji"
+                //     }
+                // }, {
+                //     name: ' Arjun A Acharry',
+                //     position: 'Mentor',
+                //     description: '',
+                //    avatar: BASE_URL + '/assets/team/2024/Chief Operations Officer.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/arjun_a_acharry",
+                //         github: "https://github.com/arjunaacharry",
+                //         linkedin: "https://www.linkedin.com/in/arjun-a-acharry"
+                //     }
+                // },{
+                //     name: ' Nithin Daniel',
+                //     position: 'Mentor',
+                //     description: 'I’m the financial lead of inovus labs IEDC, monitors all kind of financial transactions and the bill-laden of Inovus Labs.',
+                //    avatar: BASE_URL + '/assets/team/2024/Chief Finance Officer.jpg',
+                //     social: {
+                //         instagram: "https://www.instagram.com/nithin_daniel_",
+                //         github: "https://github.com/nithin-daniel",
+                //         linkedin: "https://www.linkedin.com/in/nithindaniel"
+                //     }
+                // }, 
+                {
+                    name: ' Amith Abey Stephen',
+                    position: 'Student Lead 1',
+                    description: 'Hi I’m the CEO of inovus labs, provides effective guidance in coordinating events and activities of the community.',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Student lead 1.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/amith_abey_stephen",
+                        github: "https://github.com/Amith-Abey-Stephen",
+                        linkedin: "https://www.linkedin.com/in/amith-abey-stephen"
+                    }
+                },
+                {
+                    name: ' Josna Ann Varghese',
+                    position: 'Student Lead 2',
+                    description: 'Hi I’m the Student Lead 2 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Student lead 2.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/josnaanv",
+                        github: "https://github.com/JosnaAnn",
+                        linkedin: "https://www.linkedin.com/in/josna-ann-varghese-418753300"
+                    }
+                },
+
+                {
+                        name: ' Lydia Johnson',
+                        position: 'Operation Lead',
+                        description: '',
+                       avatar: BASE_URL + '/assets/team/2025-2026/Operation lead.jpg',
+                        social: {
+                            instagram: "https://www.instagram.com/lydiajso",
+                            github: "https://github.com/1yd1aa",
+                            linkedin: "https://www.linkedin.com/in/lydia-j-775968318"
+                        }
+                },
+
+                {
+                    name: ' Sane Sunil',
+                    position: 'Technical Lead',
+                    description: '',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Teachnical Lead.jpg',
+                    social: {
+                      instagram: "",
+                        github: "https://github.com/SanTechBoard",
+                        linkedin: "https://www.linkedin.com/in/sane-sunil-55a552334/"
+                    }
+                },
+
+                {
+                    name: ' Tom Thomas Kondody',
+                    position: 'Marketing Lead',
+                    description: '',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Marketing Lead.jpg',
+                    social: {
+                        instagram: "https://www.instagram.com/tom_kondody",
+                        github: "https://github.com/tomkondody",
+                        linkedin: " https://www.linkedin.com/in/tomthomaskondody"
+                    }
+                }, 
+
+                {
+                    name: ' Aaron Anil',
+                    position: 'Creative Lead',
+                    description: 'I’m the creative lead of inovus labs, I’m monitor all kind of media production activities includes contents for social media, podcasts, posters, flyers and brochures for events.',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Creative Lead.jpg',
+                    social: {
+                        instagram: "https://www.instagram.com/_.a_x_r_o_n._",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/aaron-anil-thomas-897b6433a"
+                    }
+                },
+                
+                {
+                    name: ' Anasuya S Kurup',
+                    position: 'Women Innovation Lead',
+                    description: 'I’m the women in tech lead of inovus labs. I’m the one who lead and mentor all kind of women exclusive programs. I guide and mentor students and be the spearhead of all women exclusive programs.  ',
+                   avatar: BASE_URL + '/assets/team/2025-2026/Women Innovation lead.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/anasuya_nadamel_",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/anasuya-s-kurup-60258624a"
+                    }
+                },
+                
+                {
+                    name: ' Vyshak K Pradeep',
+                    position: 'Community Lead',
+                    description: '',
+                   avatar: BASE_URL + '/assets/team/2025-2026/Community Lead.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/_why_shak",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/vyshak-k-pradeep-b30886350"
+                    }
+                }, 
+                
+                {
+                    name: ' Amenda Maria Johnson',
+                    position: 'Finance Lead',
+                    description: 'I’m the financial lead of inovus labs IEDC, monitors all kind of financial transactions and the bill-laden of Inovus Labs.',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Finance Lead.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/amenda_maria",
+                        github: "https://github.com/Amendamaria",
+                        linkedin: "https://www.linkedin.com/in/amenda-maria-johnson-669420283"
+                    }
+                },
+
+                {
+                    name: ' Aaliya Gopan',
+                    position: 'IPR & Research Lead',
+                    description: '',
+                   avatar: BASE_URL + '/assets/team/2025-2026/Research & IPR lead.jpg',
+                    social: {
+                        instagram: "https://www.instagram.com/aaliyagopan",
+                        github: "https://github.com/AALIYAGOPAN",
+                        linkedin: "https://www.linkedin.com/in/aaliya-gopan"
+                    }
+                },    
+                
+                {
+                    name: ' Alex Renny',
+                    position: 'Administartion Lead',
+                    description: '',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Administration lead.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/__alex___001__/",
+                        github: "https://github.com/mr-alex-001",
+                        linkedin: "https://www.linkedin.com/in/alex-renny-48b893319"
+                    }
+                },   
+                
+                {
+                    name: ' Emil Binoy',
+                    position: 'Innovation Lead',
+                    description: '',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Innovation lead.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/its_emilefx",
+                        github: "https://github.com/emil-binoy",
+                        linkedin: "https://www.linkedin.com/in/emil-binoy-769261325"
+                    }
+                },   
+                
+                {
+                    name: ' Sibin',
+                    position: 'Event Co-ordinator',
+                    description: '',
+                    avatar: BASE_URL + '/assets/team/2025-2026/event coordinator.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/sibin_ullattil",
+                        github: "https://github.com/Sibin-2000",
+                        linkedin: ""
+                    }
+                },   
+
+                {
+                    name: ' Viswajith B Nair',
+                    position: 'Event Curator',
+                    description: '',
+                    avatar: BASE_URL + '/assets/team/2025-2026/Event curator.jpg',
+                    social: {
+                      instagram: "https://www.instagram.com/viswajithhhh.__/",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/viswajith-b-nair-405295322"
+                    }
+                },   
+            ]
+        },{
             title: 'Inovus 7th Generation',
             date: '2024',
-            showTeam: true,
+            showTeam: false,
             members: [
 
                 {
