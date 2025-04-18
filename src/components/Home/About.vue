@@ -11,7 +11,7 @@
 
                 <div class="my-8 border p-6 rounded-lg border-gray-200 dark:border-gray-700">
                     <h3 class="mb-4 text-xl font-bold dark:text-white text-primary">Our Philosophy</h3>
-                    <p class="mb-4 font-light">We’re a team of students defines education as doing challenging and unconventional things, which eventually push the boundaries of traditional way. While doing this, we keep the promise of marking our descendants to wide their horizons which is way better than us.</p>
+                    <p class="mb-4 font-light">We’re a team of students who defines education as doing challenging and unconventional things, which eventually push the boundaries of traditional way. While doing this, we keep the promise of marking our descendants to wide their horizons which is way better than us.</p>
                 </div>
                 
                 <a href="/about" class="inline-flex items-center font-medium text-primary hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700">

@@ -14,6 +14,7 @@
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                   <ul class="text-white dark:text-gray-400 font-medium">
                       <li class="mb-2">
+                          <!-- <a href="https://certificate.inovuslabs.org" target="_blank" class="hover:underline ">Certificate </a> -->
                           <p class="opacity-50 cursor-not-allowed">Certificates</p>
                       </li>
                       <li>

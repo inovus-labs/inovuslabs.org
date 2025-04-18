@@ -78,21 +78,21 @@
                 
                 
                 <div class="py-8 lg:py-16 px-4 w-full mx-auto max-w-screen-md">
-                    <form action="#" class="space-y-8">
+                    <form  id="contact-form" action="none" method="post" class="space-y-8">
                         <div>
                             <div class="flex gap-2">
                                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email address</label>
                                 <span class="mb-2 text-xs font-normal text-gray-400 dark:text-gray-700">(So we can reply to you)</span>
                             </div>
-                            <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@company.com" required>
+                            <input type="email" id="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@company.com" required>
                         </div>
                         <div>
                             <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
-                            <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you..." required>
+                            <input type="text" id="subject" name="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you..." required>
                         </div>
                         <div class="sm:col-span-2">
                             <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
-                            <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                            <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
                         </div>
                         <button type="submit" class="py-2 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary sm:w-fit hover:bg-blue-500 dark:bg-primary dark:hover:bg-blue-500">Send message</button>
                     </form>
@@ -141,6 +141,34 @@
         name: 'NanodegreeView',
         components: {
             PublicLayout,
+        },
+        mounted() {
+            const contactForm = document.getElementById('contact-form');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const email = this.elements.email.value;
+      const subject = this.elements.subject.value;
+      const message = this.elements.message.value;
+
+      if (!email || !subject || !message) {
+        alert("Please fill out all fields.");
+        return;
+      }
+
+      const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=inovuslabs@kjcmt.ac.in&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${email}\n\n${message}`)}`;
+
+      // Open Gmail in a new tab
+      window.open(gmailURL, "_blank");
+
+      // Optional UX
+      this.reset();
+      prompt('Gmail should now open in a new tab. Please click send!');
+    });
+  }
         }
     }
+
 </script>

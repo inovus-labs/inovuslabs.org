@@ -1206,6 +1206,9 @@ export const getPodcasts = async () => {
         //latest is added at the top
 
         {
+            id: "097IqRJucvwRpT381XLPap",
+        },
+        {
             id: "3wfepAuvFLZsQ5a3LtdD9g",
         },
         {
@@ -1642,6 +1645,7 @@ export const getActivity = async () => {
                 "date": ["04 April 2024"],
                 "tags": ["Session"]
             },
+
             {
                 "id": 51,
                 "title": "Ideathon ",
@@ -1771,13 +1775,43 @@ export const getActivity = async () => {
                 "sitelink": ["https://forms.gle/8Ma9isaK86bW3YvJ6"],
             }
             ,{
-                "id": 67,
+                "id": 68,
                 "title": "Figma Workshop",
                 "thumbnail": BASE_URL + "/assets/activity/figma_workshop'24.png",
                 "description": "The Figma workshop conducted by Inovus Labs offered participants a platform to unleash their creativity, explore design tools, and collaborate with others. It provided valuable insights and hands-on experience, helping attendees enhance their skills and bring their ideas to life.",
                 "date": ["20 January 2025   "],
                 "tags": ["Workshop"],
                 "sitelink": ["https://forms.gle/XDXywkGRtsmgYG7ZA   "],
+            },{
+                "id": 69,
+                "title": "Hangout With Inovus",
+                "thumbnail": BASE_URL + "/assets/activity/Hangout With Inovus (1).png",
+                "description": "The Hangout with Inovus with session had Johna Aswin Selva , a featured alumini of both Inovus Labs IEDC & Kristu Jyoti College, who provided us with a engaging fire chat covering various aspects of ideation,buisness planning and sttrends of student led start-ups.",
+                "date": ["28 January 2025   "],
+                "tags": ["Session"],
+            },{
+                "id": 70,
+                "title": "BizNova",
+                "thumbnail": BASE_URL + "/assets/activity/biznova.png",
+                "description": "BizNova was an event conducted by INOVUS LABS to foster entrepreneurial skills among students, successfully engaging 100 participants. The event guided students through the entrepreneurial journey—from identifying real-world problems to developing market-ready solutions—helping them think like innovators and business leaders.",
+                "date": ["10 February 2025   "],
+                "tags": ["Workshop"],
+            }
+            ,{
+                "id": 71,
+                "title": "Zephyr 3.0",
+                "thumbnail": BASE_URL + "/assets/activity/Zephyr 3.0.png",
+                "description": "The 3rd edition of Zephyr Science Exhibition was organised on March 5, 2025. The event aimed to encourage students to think creatively and develop innovative solutions to real-world problems. Open exclusively to students from Kristu Jyoti College of Management and Technology, Inovus Labs fostered an atmosphere where unconventional thinking was celebrated, allowing students to freely explore and propose groundbreaking concepts without fear of judgment.",
+                "date": ["5 March 2025   "],
+                "tags": ["Workshop"],
+            }
+            ,{
+                "id": 71,
+                "title": "Arduino@20 - Days with Arduino by Talk & Work",
+                "thumbnail": BASE_URL + "/assets/activity/arduino@20.jpg",
+                "description": "The Arduino@20 event was a grand celebration of Arduino's 20th birthday, where INOVUS LABS IEDC was honored to be one of the nine organizers from Kerala in collaboration with Arduino. Partnering with Unique World Robotics, we welcomed Akhil R. Gomez, who led engaging sessions on the future of robotics.",
+                "date": ["21 March 2025" ,"22 March 2025"],
+                "tags": ["Workshop"],
             }
         ]
     };
@@ -2187,15 +2221,15 @@ export const getSocialPosts = async () => {
         "instagram": [
             {
                 "id": 1,
-                "url": "https://www.instagram.com/p/DFfgPNRz8Al/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/DH5U3G6zYld/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 2,
-                "url": "https://www.instagram.com/p/DFSohext-SG/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/p/DHgJGDNTjl4/?utm_source=ig_embed&amp;utm_campaign=loading"
             },
             {
                 "id": 3,
-                "url": "https://www.instagram.com/p/DE6dr6Cz8Fu/?utm_source=ig_embed&amp;utm_campaign=loading"
+                "url": "https://www.instagram.com/reel/DHf5AGtzxMo/?utm_source=ig_embed&amp;utm_campaign=loading"
             }
             
         ],
@@ -2230,7 +2264,7 @@ export const getSocialPosts = async () => {
         "twitter": [
             {
                 "id": 1,
-                "url": "https://twitter.com/Decoded_Cipher/status/1871973532760154622"
+                "url": "https://x.com/Decoded_Cipher/status/1871973532760154622"
                 // Don't use X.com... it wont work "https://x.com/InovusLabs/status/1765107764559507711"
             },
             {
@@ -2246,15 +2280,15 @@ export const getSocialPosts = async () => {
         "threads": [
             {
                 "id": 1,
-                "url": "https://www.threads.net/@inovuslabs/post/DAdF_-YTbUC"
+                "url": "https://www.threads.net/@inovuslabs/post/DIVB1D7PfVi"
             },
             {
                 "id": 2,
-                "url": "https://www.threads.net/@inovuslabs/post/C_zdAEZzXK3"
+                "url": "https://www.threads.net/@inovuslabs/post/DH3H98yvK6V"
             },
             {
                 "id": 3,
-                "url": "https://www.threads.net/@inovuslabs/post/DAPtKqVzFvF"
+                "url": "https://www.threads.net/@inovuslabs/post/DHf5CmfTL3g"
             }
         ]
     }
@@ -2418,13 +2452,7 @@ export const getGalleryAssets = async () => {
             largeURL: BASE_URL + '/assets/gallery/meetgigisir.jpg',
             thumbnailURL: BASE_URL + '/assets/gallery/meetgigisir.jpg',
         },
-        {
-          id: 10,
-        //   title: 'Image 6',
-        //   description: 'Image 6 description',
-          largeURL: BASE_URL + '/assets/gallery/006.jpg',
-          thumbnailURL: BASE_URL + '/assets/gallery/006.jpg',
-        },
+        
         {
           id: 11,
         //   title: 'Image 9',
@@ -2486,6 +2514,13 @@ export const getGalleryAssets = async () => {
             description: 'Venue: Kristu Jyoti College of Mangement and Technology',
             largeURL: BASE_URL + '/assets/gallery/Entrepreneurial Symposium.png',
             thumbnailURL: BASE_URL + '/assets/gallery/Entrepreneurial Symposium.png',
+          },
+          {
+            id: 49,
+            title: 'With Ajay Basil',
+            description: 'Entrepreneurial Symposium',
+            largeURL: BASE_URL + '/assets/gallery/Ajay Basil(2).jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/Ajay Basil(2).jpeg',
           },
         {
           id: 17,
@@ -2565,6 +2600,57 @@ export const getGalleryAssets = async () => {
             largeURL: BASE_URL + '/assets/gallery/bike building.jpg',
             thumbnailURL: BASE_URL + '/assets/gallery/bike building.jpg',
           },
+          {
+            id: 47,
+            title: 'Product Sale',
+            description: 'Sale of hand-made : Soap, Bulb, Tube at college reception',
+            largeURL: BASE_URL + '/assets/gallery/soap_sale.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/soap_sale.jpg',
+          },
+           {
+            id: 50,
+            title: 'With Sherin Sir',
+            description: '',
+            largeURL: BASE_URL + '/assets/gallery/sherin sir.jpeg',
+            thumbnailURL: BASE_URL + '/assets/gallery/sherin sir.jpeg',
+          },
+          
+          {
+            id: 48,
+            title: 'Zephyr 3.0',
+            description: 'Science Exhibiton organised by Computer Department incollaboration with Inovus Labs',
+            largeURL: BASE_URL + '/assets/gallery/zephyr3.0.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/zephyr3.0.jpg',
+          },
+          {
+            id: 45,
+            title: 'With George Kulanagra',
+            description: 'Founder of Labour India',
+            largeURL: BASE_URL + '/assets/gallery/georgesir.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/georgesir.jpg',
+          },
+          {
+            id: 46,
+            title: 'Arduino@20',
+            description: '20th Birthday Celebration of Arduino',
+            largeURL: BASE_URL + '/assets/gallery/arduino@20.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/arduino@20.jpg',
+          },
+          {
+            id: 10,
+            title: 'PerMute',
+            description: 'Annual gathering of Mulearn',
+            largeURL: BASE_URL + '/assets/gallery/permute.jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/permute.jpg',
+          },
+          {
+            id: 51,
+            title: 'With Deepu S Nath, MD, Faya USA.',
+            description: 'PerMute-Annual gathering of Mulearn',
+            largeURL: BASE_URL + '/assets/gallery/Deepu(permute).jpg',
+            thumbnailURL: BASE_URL + '/assets/gallery/Deepu(permute).jpg',
+          },
+          
           
     ]
 
