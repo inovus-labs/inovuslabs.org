@@ -2261,7 +2261,7 @@ export const getSocialPosts = async () => {
                 "url": "https://www.youtube.com/embed/videoseries?si=hum7bwG0SkRttfJE&amp;list=PLf17cHBJCwYj9Dsjy7k8DauwLCXwBR2BS"
             }
         ],
-        "twitter": [
+        "twitter": [ 
             {
                 "id": 1,
                 "url": "https://x.com/Decoded_Cipher/status/1871973532760154622"
@@ -2273,7 +2273,7 @@ export const getSocialPosts = async () => {
             },
             {
                 "id": 3,
-                "url": "https://twitter.com/InovusLabs/status/1754872488343802048"
+                "url": "https://twitter.com/InovusLabs/status/1754872488343802048"  
             }
             
         ],
@@ -4635,7 +4635,7 @@ export const getNewsReports = async () => {
     let data = [
         {
             title: "Atom EV",
-            discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. L.",
+            discription: "A student driven initiative to build an electric vehicle.",
             imgSrc: BASE_URL + "/assets/projects/Atom.jpg"
           }, 
             
