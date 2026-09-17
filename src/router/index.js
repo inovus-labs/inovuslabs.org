@@ -349,6 +349,144 @@ router.afterEach((to) => {
 
   updateMeta('name', 'twitter:title', pageTitle)
   updateMeta('name', 'twitter:description', description)
+
+  // Dynamic Route-specific Schema.org JSON-LD (AEO & SEO)
+  const breadcrumbItems = [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://inovuslabs.org/"
+    }
+  ]
+  if (to.path !== '/' && to.path !== '/home') {
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      "position": 2,
+      "name": (to.meta && to.meta.title) || to.name || "Page",
+      "item": canonicalUrl
+    })
+  }
+
+  const routeGraph = [
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${canonicalUrl}#breadcrumb`,
+      "itemListElement": breadcrumbItems
+    }
+  ]
+
+  // Add specialized entity schema per route
+  if (to.path === '/about') {
+    routeGraph.push({
+      "@type": "AboutPage",
+      "@id": `${canonicalUrl}#about`,
+      "url": canonicalUrl,
+      "name": pageTitle,
+      "description": description,
+      "mainEntity": { "@id": "https://inovuslabs.org/#organization" }
+    })
+  } else if (to.path === '/contact') {
+    routeGraph.push({
+      "@type": "ContactPage",
+      "@id": `${canonicalUrl}#contact`,
+      "url": canonicalUrl,
+      "name": pageTitle,
+      "description": description,
+      "mainEntity": {
+        "@type": "ContactPoint",
+        "contactType": "General Inquiries & Admissions",
+        "email": "info@inovuslabs.org",
+        "telephone": "+919400057152",
+        "availableLanguage": ["English", "Malayalam"]
+      }
+    })
+  } else if (to.path === '/events') {
+    routeGraph.push({
+      "@type": "CollectionPage",
+      "@id": `${canonicalUrl}#events`,
+      "url": canonicalUrl,
+      "name": pageTitle,
+      "description": description,
+      "about": {
+        "@type": "Thing",
+        "name": "Hackathons, Tech Bootcamps, Maker Sprints and Innovation Workshops"
+      }
+    })
+  } else if (to.path === '/nanodegree') {
+    routeGraph.push({
+      "@type": "EducationalOccupationalProgram",
+      "@id": `${canonicalUrl}#program`,
+      "name": "Inovus Labs Nano Degree",
+      "description": description,
+      "provider": { "@id": "https://inovuslabs.org/#organization" },
+      "educationalProgramMode": "Blended",
+      "timeToComplete": "P3M"
+    })
+  } else if (to.path === '/iot-lab') {
+    routeGraph.push({
+      "@type": "Place",
+      "@id": `${canonicalUrl}#lab`,
+      "name": "Inovus Labs Mini IoT Lab",
+      "description": description,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kristu Jyoti College of Management & Technology, Chethipuzha",
+        "addressLocality": "Changanassery",
+        "addressRegion": "Kerala",
+        "postalCode": "686104",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 9.4533,
+        "longitude": 76.5415
+      }
+    })
+  } else if (to.path === '/inora') {
+    routeGraph.push({
+      "@type": "PodcastSeries",
+      "@id": `${canonicalUrl}#podcast`,
+      "name": "Inora Podcast",
+      "description": description,
+      "url": canonicalUrl,
+      "author": { "@id": "https://inovuslabs.org/#organization" },
+      "inLanguage": "en"
+    })
+  } else if (to.path === '/blog') {
+    routeGraph.push({
+      "@type": "Blog",
+      "@id": `${canonicalUrl}#blog`,
+      "name": "Inovus Labs Technical Blog",
+      "description": description,
+      "url": canonicalUrl,
+      "publisher": { "@id": "https://inovuslabs.org/#organization" }
+    })
+  } else if (to.path === '/team') {
+    routeGraph.push({
+      "@type": "AboutPage",
+      "@id": `${canonicalUrl}#team`,
+      "url": canonicalUrl,
+      "name": pageTitle,
+      "description": description,
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Inovus Labs Executive Leadership & Technical Leads"
+      }
+    })
+  }
+
+  let routeScript = document.getElementById('route-schema')
+  if (!routeScript) {
+    routeScript = document.createElement('script')
+    routeScript.id = 'route-schema'
+    routeScript.type = 'application/ld+json'
+    document.head.appendChild(routeScript)
+  }
+  routeScript.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": routeGraph
+  })
 })
 
 
