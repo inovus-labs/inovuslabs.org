@@ -3698,7 +3698,7 @@ export const getcurrentTeam = async () => {
                     }
                 },
                 {
-                    name: 'Cinni Joseph',
+                    name: 'Cini Joseph',
                     position: 'Asst.Nodal Officer',
                     description: 'As Assistant Nodal Officer, I support talent, drive IEDC growth, aid committee selection.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Cini.png',
@@ -3750,6 +3750,17 @@ export const getcurrentTeam = async () => {
                         instagram: "https://www.instagram.com/frizzycodes/",
                         github: "https://github.com/frizzycodes/",
                         linkedin: "https://www.linkedin.com/in/adithyaspai/"
+                    }
+                },
+                {
+                    name: 'Doncy Grace Mohan',
+                    position: 'Marketing Lead',
+                    description: 'I drive the marketing strategy for Inovus Labs, planning campaigns to promote events, projects, and the lab\u2019s brand across digital and offline channels. I work closely with the creative team to ensure consistent messaging and maximize outreach.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Doncy.png',
+                    social: {
+                        instagram: "https://www.instagram.com/donxihh_",
+                        github: "https://github.com/doncygrace631-lgtm",
+                        linkedin: "https://www.linkedin.com/in/doncy-grace-mohan-b958a638a/"
                     }
                 },
                 {
@@ -3805,17 +3816,6 @@ export const getcurrentTeam = async () => {
                         instagram: "https://www.instagram.com/_diyyaa.____",
                         github: "https://github.com/Diya-007D",
                         linkedin: "https://www.linkedin.com/in/diya-dileep-473b1a385"
-                    }
-                },
-                {
-                    name: 'Doncy Grace Mohan',
-                    position: 'Marketing Lead',
-                    description: 'I drive the marketing strategy for Inovus Labs, planning campaigns to promote events, projects, and the lab\u2019s brand across digital and offline channels. I work closely with the creative team to ensure consistent messaging and maximize outreach.',
-                    avatar: BASE_URL + '/assets/team/2026-2027/Doncy.png',
-                    social: {
-                        instagram: "https://www.instagram.com/donxihh_",
-                        github: "https://github.com/doncygrace631-lgtm",
-                        linkedin: "https://www.linkedin.com/in/doncy-grace-mohan-b958a638a/"
                     }
                 },
                 {
@@ -3914,6 +3914,17 @@ export const getTeamMembers = async () => {
                     }
                 },
                 {
+                    name: 'Doncy Grace Mohan',
+                    position: 'Marketing Lead',
+                    description: 'I drive the marketing strategy for Inovus Labs, planning campaigns to promote events, projects, and the lab\u2019s brand across digital and offline channels. I work closely with the creative team to ensure consistent messaging and maximize outreach.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Doncy.png',
+                    social: {
+                        instagram: "https://www.instagram.com/donxihh_",
+                        github: "https://github.com/doncygrace631-lgtm",
+                        linkedin: "https://www.linkedin.com/in/doncy-grace-mohan-b958a638a/"
+                    }
+                },
+                {
                     name: 'Nandana S Kumar',
                     position: 'Creative Lead',
                     description: 'I’m the creative lead of inovus labs, I monitor all kinds of media production activities including content for social media, podcasts, posters, flyers, and brochures for events.',
@@ -3966,17 +3977,6 @@ export const getTeamMembers = async () => {
                         instagram: "https://www.instagram.com/_diyyaa.____",
                         github: "https://github.com/Diya-007D",
                         linkedin: "https://www.linkedin.com/in/diya-dileep-473b1a385"
-                    }
-                },
-                {
-                    name: 'Doncy Grace Mohan',
-                    position: 'Marketing Lead',
-                    description: 'I drive the marketing strategy for Inovus Labs, planning campaigns to promote events, projects, and the lab\u2019s brand across digital and offline channels. I work closely with the creative team to ensure consistent messaging and maximize outreach.',
-                    avatar: BASE_URL + '/assets/team/2026-2027/Doncy.png',
-                    social: {
-                        instagram: "https://www.instagram.com/donxihh_",
-                        github: "https://github.com/doncygrace631-lgtm",
-                        linkedin: "https://www.linkedin.com/in/doncy-grace-mohan-b958a638a/"
                     }
                 },
                 {
@@ -5314,4 +5314,132 @@ export const getOutreachEvents = async () => {
 
     return data;
 
+};
+
+
+// Get mentors list
+export const getMentors = async () => {
+    return [
+        {
+            name: 'Jithin Sha',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Mentor Jithin sha.jpg',
+            social: {
+                instagram: "https://www.instagram.com/last_riddler",
+                github: "https://github.com/Waterloo",
+                linkedin: "https://www.linkedin.com/in/jithinsha"
+            }
+        },
+        {
+            name: 'Arjun Krishna',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Mentor Arjun.jpg',
+            social: {
+                instagram: "https://www.instagram.com/decoded_cipher",
+                github: "https://github.com/decoded-cipher",
+                linkedin: "https://www.linkedin.com/in/-arjunkrishna"
+            }
+        },
+        {
+            name: 'Naveen Joseph',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/mentors/Naveen.jpg',
+            social: {
+                instagram: "",
+                github: "",
+                linkedin: "https://www.linkedin.com/in/naveenntj/"
+            }
+        },
+        {
+            name: 'Nikhil T Das',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Mentor Nikhil T Das.jpg',
+            social: {
+                instagram: "https://www.instagram.com/nikhil_dasz",
+                github: "https://github.com/nikhiltdas",
+                linkedin: "https://www.linkedin.com/in/nikhil-das-9404ab1a4"
+            }
+        },
+        {
+            name: 'Milan Sony',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Mentor  Milan.jpg',
+            social: {
+                instagram: "https://www.instagram.com/milansony_",
+                github: "https://github.com/milan-sony",
+                linkedin: "https://www.linkedin.com/in/milansony"
+            }
+        },
+        {
+            name: 'Abhishek V Gopal',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Chief Executive Officer.jpg',
+            social: {
+                instagram: "https://www.instagram.com/abhishek_oorukary_",
+                github: "https://github.com/abhishek-v-gopal",
+                linkedin: "https://www.linkedin.com/in/abhishekvgopal"
+            }
+        },
+        {
+            name: 'Badhusha Shaji',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Chief Technical Officer.jpg',
+            social: {
+                instagram: "https://www.instagram.com/_badhu_._sha_",
+                github: "https://github.com/Badhusha3214",
+                linkedin: "https://www.linkedin.com/in/badhushashaji"
+            }
+        },
+        {
+            name: 'Arjun A Acharry',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Chief Operations Officer.jpg',
+            social: {
+                instagram: "https://www.instagram.com/arjun_a_acharry",
+                github: "https://github.com/arjunaacharry",
+                linkedin: "https://www.linkedin.com/in/arjun-a-acharry"
+            }
+        },
+        {
+            name: 'Nithin Daniel',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Chief Finance Officer.jpg',
+            social: {
+                instagram: "https://www.instagram.com/nithin_daniel_",
+                github: "https://github.com/nithin-daniel",
+                linkedin: "https://www.linkedin.com/in/nithindaniel"
+            }
+        },
+        {
+            name: 'Amith Abey Stephen',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2025-2026/Student lead 1.jpg',
+            social: {
+                instagram: "https://www.instagram.com/amith_abey_stephen",
+                github: "https://github.com/Amith-Abey-Stephen",
+                linkedin: "https://www.linkedin.com/in/amith-abey-stephen"
+            }
+        },
+        {
+            name: 'Sane Sunil',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2025-2026/Teachnical Lead.jpg',
+            social: {
+                instagram: "",
+                github: "https://github.com/SanTechBoard",
+                linkedin: "https://www.linkedin.com/in/sane-sunil-55a552334/"
+            }
+        }
+    ];
 };

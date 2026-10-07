@@ -5,7 +5,7 @@
           <div class="relative w-full max-w-2xl flex flex-col items-end sm:flex-row  sm:items-start space-y-4 sm:space-y-0 sm:space-x-6 p-4 border border-gray-200 dark:border-gray-700 shadow-lg rounded-lg lg:w-96 md:h-52 md:items-center h-auto">
             
             <div class="w-full  flex justify-center sm:w-auto">
-              <img class="object-cover w-32 h-32 rounded-full" :src="data.avatar" :alt="data.name">
+              <img class="object-cover w-32 h-32 rounded-full" :src="data.avatar" :alt="data.name" @error="onAvatarError">
             </div>
             <div class="w-full sm:w-auto flex flex-col items-center sm:items-start ">
               <p class="font-display mb-1 text-xl text-primary font-bold dark:text-gray-200" itemprop="author">{{ data.name }}</p>
@@ -97,6 +97,21 @@
             data: {
                 type: Object,
                 required: true
+            }
+        },
+        methods: {
+            onAvatarError(event) {
+                const currentSrc = event.target.src;
+                if (currentSrc.includes('cdn.inovuslabs.org')) {
+                    try {
+                        const parsed = new URL(currentSrc);
+                        event.target.src = parsed.pathname;
+                        return;
+                    } catch (e) {
+                        // ignore
+                    }
+                }
+                event.target.src = '/assets/no-image.png';
             }
         }
     }

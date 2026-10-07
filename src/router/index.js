@@ -95,6 +95,7 @@ const router = createRouter({
     },
     {
       path: '/team',
+      alias: ['/teams'],
       name: 'team',
       component: OurTeamView,
       meta: {
@@ -462,7 +463,7 @@ router.afterEach((to) => {
       "url": canonicalUrl,
       "publisher": { "@id": "https://inovuslabs.org/#organization" }
     })
-  } else if (to.path === '/team') {
+  } else if (to.path === '/team' || to.path === '/teams') {
     routeGraph.push({
       "@type": "AboutPage",
       "@id": `${canonicalUrl}#team`,
