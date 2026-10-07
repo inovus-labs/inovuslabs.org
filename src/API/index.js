@@ -3711,10 +3711,10 @@ export const getcurrentTeam = async () => {
                 {
                     name: 'Akshay A Kaimal',
                     position: 'Student Lead 1',
-                    description: 'Hi Im the Student Lead 1 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
+                    description: 'Hi I’m the Student Lead 1 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Akshay.png',
                     social: {
-                        instagram: "https://www.instagram.com/akshay_kaimal_?igsh=MXN3N2duZ3huMDRsdQ==",
+                        instagram: "https://www.instagram.com/akshay_kaimal_",
                         github: "https://github.com/akshaykaimal17-ui",
                         linkedin: "https://www.linkedin.com/in/akshay-a-kaimal-24b9b5358?"
                     }
@@ -3722,12 +3722,12 @@ export const getcurrentTeam = async () => {
                 {
                     name: 'Pooja H',
                     position: 'Student Lead 2',
-                    description: 'Hi Im the Student Lead 2 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
+                    description: 'Hi I’m the Student Lead 2 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Pooja.png',
                     social: {
-                        instagram: "https://www.instagram.com/the__i__conic?igsh=ZWo2b3ZoZmcycnl3",
+                        instagram: "https://www.instagram.com/the__i__conic",
                         github: "https://github.com/poojah24",
-                        linkedin: "https://www.linkedin.com/in/poojah2006?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/poojah2006"
                     }
                 },
                 {
@@ -3736,7 +3736,7 @@ export const getcurrentTeam = async () => {
                     description: 'I manage the day-to-day functioning of the lab, including logistics, scheduling, inventory, and resource allocation. I coordinate between teams to ensure events, workshops, and projects run smoothly, and handle vendor coordination and space management.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Godly.png',
                     social: {
-                        instagram: "https://www.instagram.com/_godly_mathew?igsh=cXFkM3d3Zm1nYnhs",
+                        instagram: "https://www.instagram.com/_godly_mathew",
                         github: "https://github.com/mathewgodly64-ai",
                         linkedin: "https://www.linkedin.com/in/godly-mathew-07a59a387"
                     }
@@ -3755,23 +3755,23 @@ export const getcurrentTeam = async () => {
                 {
                     name: 'Nandana S Kumar',
                     position: 'Creative Lead',
-                    description: 'Im the creative lead of inovus labs, I monitor all kinds of media production activities including content for social media, podcasts, posters, flyers, and brochures for events.',
+                    description: 'I’m the creative lead of inovus labs, I monitor all kinds of media production activities including content for social media, podcasts, posters, flyers, and brochures for events.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Nandana.png',
                     social: {
-                        instagram: "https://www.instagram.com/_nand.anaa?igsh=MWVoaHhlcWp2cnI3MQ==",
+                        instagram: "https://www.instagram.com/_nand.anaa",
                         github: "https://github.com/nandanaskumar09",
-                        linkedin: "https://www.linkedin.com/in/nandana-s-kumar-a63468379?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/nandana-s-kumar-a63468379"
                     }
                 },
                 {
                     name: 'Ansu Sabu',
                     position: 'Women Innovation Lead',
-                    description: 'Im the Women in Tech Lead of Inovus Labs. I lead and mentor women-exclusive programs, guiding students and spearheading initiatives that encourage more women to engage in tech, design, and entrepreneurship.',
+                    description: 'I’m the Women in Tech Lead of Inovus Labs. I lead and mentor women-exclusive programs, guiding students and spearheading initiatives that encourage more women to engage in tech, design, and entrepreneurship.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Ansu.png',
                     social: {
-                        instagram: "https://www.instagram.com/sabu.ansu2?igsh=MTVoM21pZDN6aXRmdw==",
+                        instagram: "https://www.instagram.com/sabu.ansu2",
                         github: "https://github.com/ansu123jo-sudo",
-                        linkedin: "https://www.linkedin.com/in/ansu-sabu-4043823b0?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/ansu-sabu-4043823b0"
                     }
                 },
                 {
@@ -3780,9 +3780,9 @@ export const getcurrentTeam = async () => {
                     description: 'I build and nurture the Inovus Labs community, managing member engagement, onboarding, and outreach. I organize meetups, collaborations, and networking opportunities, and act as the primary point of contact between members and the core team.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Athulya.png',
                     social: {
-                        instagram: "https://www.instagram.com/_ath_u._lya._?igsh=YzVtMzNkYzY3ampt",
+                        instagram: "https://www.instagram.com/_ath_u._lya._",
                         github: "https://github.com/athulyaanil52-hash",
-                        linkedin: "https://www.linkedin.com/in/athulya-anil-8326aa3a3?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/athulya-anil-8326aa3a3"
                     }
                 },
                 {
@@ -3791,9 +3791,9 @@ export const getcurrentTeam = async () => {
                     description: 'I manage the financial planning and budgeting for all lab activities, including events, procurement, and sponsorships. I track expenses, prepare financial reports, and ensure funds are allocated efficiently across projects and initiatives.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Ann.png',
                     social: {
-                        instagram: "https://www.instagram.com/ann_maria_shinto?igsh=MXhtbmhpbWNjcnFxdQ==",
+                        instagram: "https://www.instagram.com/ann_maria_shinto",
                         github: "https://github.com/annmariashinto17-hash",
-                        linkedin: "https://www.linkedin.com/in/ann-maria-shinto-b31a67393?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/ann-maria-shinto-b31a67393"
                     }
                 },
                 {
@@ -3802,9 +3802,9 @@ export const getcurrentTeam = async () => {
                     description: 'I oversee intellectual property matters and research initiatives within the lab, guiding members through patent filing, documentation, and prior-art research. I also identify and support research-driven projects, ensuring proper credit and protection for original work.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Diya.png',
                     social: {
-                        instagram: "https://www.instagram.com/_diyyaa.____?igsh=MWlnZXUyaGYwbjllaw==",
+                        instagram: "https://www.instagram.com/_diyyaa.____",
                         github: "https://github.com/Diya-007D",
-                        linkedin: "https://www.linkedin.com/in/diya-dileep-473b1a385?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/diya-dileep-473b1a385"
                     }
                 },
                 {
@@ -3813,7 +3813,7 @@ export const getcurrentTeam = async () => {
                     description: 'I drive the marketing strategy for Inovus Labs, planning campaigns to promote events, projects, and the lab\u2019s brand across digital and offline channels. I work closely with the creative team to ensure consistent messaging and maximize outreach.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Doncy.png',
                     social: {
-                        instagram: "https://www.instagram.com/donxihh_?igsh=OTBtNXZ5cThvYm1l",
+                        instagram: "https://www.instagram.com/donxihh_",
                         github: "https://github.com/doncygrace631-lgtm",
                         linkedin: "https://www.linkedin.com/in/doncy-grace-mohan-b958a638a/"
                     }
@@ -3826,7 +3826,7 @@ export const getcurrentTeam = async () => {
                     social: {
                         instagram: "https://www.instagram.com/jaisal_x7/",
                         github: "https://github.com/jaisalfrancis77-collab",
-                        linkedin: "https://www.linkedin.com/in/jaisal-francis-33b1a4281?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/jaisal-francis-33b1a4281"
                     }
                 }
             ]
@@ -3872,10 +3872,10 @@ export const getTeamMembers = async () => {
                 {
                     name: 'Akshay A Kaimal',
                     position: 'Student Lead 1',
-                    description: 'Hi Im the Student Lead 1 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
+                    description: 'Hi I’m the Student Lead 1 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Akshay.png',
                     social: {
-                        instagram: "https://www.instagram.com/akshay_kaimal_?igsh=MXN3N2duZ3huMDRsdQ==",
+                        instagram: "https://www.instagram.com/akshay_kaimal_",
                         github: "https://github.com/akshaykaimal17-ui",
                         linkedin: "https://www.linkedin.com/in/akshay-a-kaimal-24b9b5358?"
                     }
@@ -3883,12 +3883,12 @@ export const getTeamMembers = async () => {
                 {
                     name: 'Pooja H',
                     position: 'Student Lead 2',
-                    description: 'Hi Im the Student Lead 2 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
+                    description: 'Hi I’m the Student Lead 2 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Pooja.png',
                     social: {
-                        instagram: "https://www.instagram.com/the__i__conic?igsh=ZWo2b3ZoZmcycnl3",
+                        instagram: "https://www.instagram.com/the__i__conic",
                         github: "https://github.com/poojah24",
-                        linkedin: "https://www.linkedin.com/in/poojah2006?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/poojah2006 "
                     }
                 },
                 {
@@ -3897,7 +3897,7 @@ export const getTeamMembers = async () => {
                     description: 'I manage the day-to-day functioning of the lab, including logistics, scheduling, inventory, and resource allocation. I coordinate between teams to ensure events, workshops, and projects run smoothly, and handle vendor coordination and space management.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Godly.png',
                     social: {
-                        instagram: "https://www.instagram.com/_godly_mathew?igsh=cXFkM3d3Zm1nYnhs",
+                        instagram: "https://www.instagram.com/_godly_mathew",
                         github: "https://github.com/mathewgodly64-ai",
                         linkedin: "https://www.linkedin.com/in/godly-mathew-07a59a387"
                     }
@@ -3916,23 +3916,23 @@ export const getTeamMembers = async () => {
                 {
                     name: 'Nandana S Kumar',
                     position: 'Creative Lead',
-                    description: 'Im the creative lead of inovus labs, I monitor all kinds of media production activities including content for social media, podcasts, posters, flyers, and brochures for events.',
+                    description: 'I’m the creative lead of inovus labs, I monitor all kinds of media production activities including content for social media, podcasts, posters, flyers, and brochures for events.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Nandana.png',
                     social: {
-                        instagram: "https://www.instagram.com/_nand.anaa?igsh=MWVoaHhlcWp2cnI3MQ==",
+                        instagram: "https://www.instagram.com/_nand.anaa",
                         github: "https://github.com/nandanaskumar09",
-                        linkedin: "https://www.linkedin.com/in/nandana-s-kumar-a63468379?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/nandana-s-kumar-a63468379"
                     }
                 },
                 {
                     name: 'Ansu Sabu',
                     position: 'Women Innovation Lead',
-                    description: 'Im the Women in Tech Lead of Inovus Labs. I lead and mentor women-exclusive programs, guiding students and spearheading initiatives that encourage more women to engage in tech, design, and entrepreneurship.',
+                    description: 'I’m the Women in Tech Lead of Inovus Labs. I lead and mentor women-exclusive programs, guiding students and spearheading initiatives that encourage more women to engage in tech, design, and entrepreneurship.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Ansu.png',
                     social: {
-                        instagram: "https://www.instagram.com/sabu.ansu2?igsh=MTVoM21pZDN6aXRmdw==",
+                        instagram: "https://www.instagram.com/sabu.ansu2",
                         github: "https://github.com/ansu123jo-sudo",
-                        linkedin: "https://www.linkedin.com/in/ansu-sabu-4043823b0?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/ansu-sabu-4043823b0"
                     }
                 },
                 {
@@ -3941,9 +3941,9 @@ export const getTeamMembers = async () => {
                     description: 'I build and nurture the Inovus Labs community, managing member engagement, onboarding, and outreach. I organize meetups, collaborations, and networking opportunities, and act as the primary point of contact between members and the core team.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Athulya.png',
                     social: {
-                        instagram: "https://www.instagram.com/_ath_u._lya._?igsh=YzVtMzNkYzY3ampt",
+                        instagram: "https://www.instagram.com/_ath_u._lya._",
                         github: "https://github.com/athulyaanil52-hash",
-                        linkedin: "https://www.linkedin.com/in/athulya-anil-8326aa3a3?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/athulya-anil-8326aa3a3"
                     }
                 },
                 {
@@ -3952,9 +3952,9 @@ export const getTeamMembers = async () => {
                     description: 'I manage the financial planning and budgeting for all lab activities, including events, procurement, and sponsorships. I track expenses, prepare financial reports, and ensure funds are allocated efficiently across projects and initiatives.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Ann.png',
                     social: {
-                        instagram: "https://www.instagram.com/ann_maria_shinto?igsh=MXhtbmhpbWNjcnFxdQ==",
+                        instagram: "https://www.instagram.com/ann_maria_shinto",
                         github: "https://github.com/annmariashinto17-hash",
-                        linkedin: "https://www.linkedin.com/in/ann-maria-shinto-b31a67393?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/ann-maria-shinto-b31a67393"
                     }
                 },
                 {
@@ -3963,9 +3963,9 @@ export const getTeamMembers = async () => {
                     description: 'I oversee intellectual property matters and research initiatives within the lab, guiding members through patent filing, documentation, and prior-art research. I also identify and support research-driven projects, ensuring proper credit and protection for original work.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Diya.png',
                     social: {
-                        instagram: "https://www.instagram.com/_diyyaa.____?igsh=MWlnZXUyaGYwbjllaw==",
+                        instagram: "https://www.instagram.com/_diyyaa.____",
                         github: "https://github.com/Diya-007D",
-                        linkedin: "https://www.linkedin.com/in/diya-dileep-473b1a385?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/diya-dileep-473b1a385"
                     }
                 },
                 {
@@ -3974,7 +3974,7 @@ export const getTeamMembers = async () => {
                     description: 'I drive the marketing strategy for Inovus Labs, planning campaigns to promote events, projects, and the lab\u2019s brand across digital and offline channels. I work closely with the creative team to ensure consistent messaging and maximize outreach.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Doncy.png',
                     social: {
-                        instagram: "https://www.instagram.com/donxihh_?igsh=OTBtNXZ5cThvYm1l",
+                        instagram: "https://www.instagram.com/donxihh_",
                         github: "https://github.com/doncygrace631-lgtm",
                         linkedin: "https://www.linkedin.com/in/doncy-grace-mohan-b958a638a/"
                     }
@@ -3987,7 +3987,7 @@ export const getTeamMembers = async () => {
                     social: {
                         instagram: "https://www.instagram.com/jaisal_x7/",
                         github: "https://github.com/jaisalfrancis77-collab",
-                        linkedin: "https://www.linkedin.com/in/jaisal-francis-33b1a4281?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        linkedin: "https://www.linkedin.com/in/jaisal-francis-33b1a4281"
                     }
                 }
             ]
