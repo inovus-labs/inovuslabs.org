@@ -3703,7 +3703,7 @@ export const getcurrentTeam = async () => {
                     description: 'As Assistant Nodal Officer, I support talent, drive IEDC growth, aid committee selection.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Cini.png',
                     social: {
-                        instagram: "https://www.instagram.com/cinidiya?stkn=c203cGNxNGZmb3lu",
+                        instagram: "https://www.instagram.com/cinidiya",
                         github: "",
                         linkedin: ""
                     }
