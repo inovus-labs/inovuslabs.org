@@ -3682,283 +3682,155 @@ export const getcurrentTeam = async () => {
 
     let data = [
         {
-            title: 'Inovus 8th Generation',
-            date: '2025',
+            title: 'Inovus 9th Generation',
+            date: '2026',
             showTeam: true,
             members: [
-
                 {
-                    name: ' Roji Thomas',
+                    name: 'Roji Thomas',
                     position: 'Nodal Officer',
                     description: 'As Nodal Officer, I foster talent, guide growth, oversee committee selection.',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Nodal officer.jpg',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Roji.png',
                     social: {
                         instagram: "https://www.instagram.com/roji1978",
                         github: "",
                         linkedin: "https://www.linkedin.com/in/roji-thomas-thomas"
                     }
-                }, {
-                    name: ' Cina Mathew',
-                    position: 'Assistant Nodal Officer',
+                },
+                {
+                    name: 'Cinni Joseph',
+                    position: 'Asst.Nodal Officer',
                     description: 'As Assistant Nodal Officer, I support talent, drive IEDC growth, aid committee selection.',
-                    avatar: BASE_URL + '/assets/team/2025-2026/asst. Nodal officer.jpg',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Cini.png',
                     social: {
-                        instagram: "https://www.instagram.com/cina_kadathukalam",
+                        instagram: "https://www.instagram.com/cinidiya",
                         github: "",
-                        linkedin: "https://www.linkedin.com/in/cina-mathew-883372195"
-                    }
-                },
-                //{
-                //     name: ' Jithin Sha',
-                //     position: 'Mentor',
-                //     description: '',
-                //    avatar: BASE_URL + '/assets/team/2024/Mentor Jithin sha.jpg',
-                //     social: {
-                //         instagram: "https://www.instagram.com/last_riddler",
-                //         github: "https://github.com/Waterloo",
-                //         linkedin: "https://www.linkedin.com/in/jithinsha"
-                //     }
-                // }, {
-                //     name: ' Arjun Krishna',
-                //     position: 'Mentor',
-                //     description: '',
-                //    avatar: BASE_URL + '/assets/team/2024/Mentor Arjun.jpg',
-                //     social: {
-                //         instagram: "https://www.instagram.com/decoded_cipher",
-                //         github: "https://github.com/decoded-cipher",
-                //         linkedin: "https://www.linkedin.com/in/-arjunkrishna"
-                //     }
-                // }, {
-                //     name: ' Nikhil T Das',
-                //     position: 'Mentor',
-                //     description: '',
-                //    avatar: BASE_URL + '/assets/team/2024/Mentor Nikhil T Das.jpg',
-                //     social: {
-                //         instagram: "https://www.instagram.com/nikhil_dasz",
-                //         github: "https://github.com/nikhiltdas",
-                //         linkedin: "https://www.linkedin.com/in/nikhil-das-9404ab1a4"
-                //     }
-                // }, {
-                //     name: ' Milan Sony',
-                //     position: 'Mentor',
-                //     description: '',
-                //    avatar: BASE_URL + '/assets/team/2024/Mentor  Milan.jpg',
-                //     social: {
-                //         instagram: "https://www.instagram.com/milansony_",
-                //         github: "https://github.com/milan-sony",
-                //         linkedin: "https://www.linkedin.com/in/milansony"
-                //     }
-                // }, {
-                //     name: ' Abhishek V Gopal',
-                //     position: 'Mentor',
-                //     description: '',
-                //    avatar: BASE_URL + '/assets/team/2024/Chief Executive Officer.jpg',
-                //     social: {
-                //         instagram: "https://www.instagram.com/abhishek_oorukary_",
-                //         github: "https://github.com/abhishek-v-gopal",
-                //         linkedin: "https://www.linkedin.com/in/abhishekvgopal"
-                //     }
-                // }, {
-                //     name: ' Badhusha Shaji',
-                //     position: 'Mentor',
-                //     description: '',
-                //    avatar: BASE_URL + '/assets/team/2024/Chief Technical Officer.jpg',
-                //     social: {
-                //         instagram: "https://www.instagram.com/_badhu_._sha_",
-                //         github: "https://github.com/Badhusha3214",
-                //         linkedin: "https://www.linkedin.com/in/badhushashaji"
-                //     }
-                // }, {
-                //     name: ' Arjun A Acharry',
-                //     position: 'Mentor',
-                //     description: '',
-                //    avatar: BASE_URL + '/assets/team/2024/Chief Operations Officer.jpg',
-                //     social: {
-                //         instagram: "https://www.instagram.com/arjun_a_acharry",
-                //         github: "https://github.com/arjunaacharry",
-                //         linkedin: "https://www.linkedin.com/in/arjun-a-acharry"
-                //     }
-                // },{
-                //     name: ' Nithin Daniel',
-                //     position: 'Mentor',
-                //     description: 'I’m the financial lead of inovus labs IEDC, monitors all kind of financial transactions and the bill-laden of Inovus Labs.',
-                //    avatar: BASE_URL + '/assets/team/2024/Chief Finance Officer.jpg',
-                //     social: {
-                //         instagram: "https://www.instagram.com/nithin_daniel_",
-                //         github: "https://github.com/nithin-daniel",
-                //         linkedin: "https://www.linkedin.com/in/nithindaniel"
-                //     }
-                // }, 
-                {
-                    name: ' Amith Abey Stephen',
-                    position: 'Student Lead 1',
-                    description: 'Hi I’m the CEO of inovus labs, provides effective guidance in coordinating events and activities of the community.',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Student lead 1.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/amith_abey_stephen",
-                        github: "https://github.com/Amith-Abey-Stephen",
-                        linkedin: "https://www.linkedin.com/in/amith-abey-stephen"
-                    }
-                },
-                {
-                    name: ' Josna Ann Varghese',
-                    position: 'Student Lead 2',
-                    description: 'Hi I’m the Student Lead 2 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Student lead 2.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/josnaanv",
-                        github: "https://github.com/JosnaAnn",
-                        linkedin: "https://www.linkedin.com/in/josna-ann-varghese-418753300"
-                    }
-                },
-
-                {
-                    name: ' Lydia Johnson',
-                    position: 'Operation Lead',
-                    description: '',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Operation lead.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/lydiajso",
-                        github: "https://github.com/1yd1aa",
-                        linkedin: "https://www.linkedin.com/in/lydia-j-775968318"
-                    }
-                },
-
-                {
-                    name: ' Sane Sunil',
-                    position: 'Technical Lead',
-                    description: '',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Teachnical Lead.jpg',
-                    social: {
-                        instagram: "",
-                        github: "https://github.com/SanTechBoard",
-                        linkedin: "https://www.linkedin.com/in/sane-sunil-55a552334/"
-                    }
-                },
-
-                {
-                    name: ' Tom Thomas Kondody',
-                    position: 'Marketing Lead',
-                    description: '',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Marketing Lead.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/tom_kondody",
-                        github: "https://github.com/tomkondody",
-                        linkedin: " https://www.linkedin.com/in/tomthomaskondody"
-                    }
-                },
-
-                {
-                    name: ' Aaron Anil',
-                    position: 'Creative Lead',
-                    description: 'I’m the creative lead of inovus labs, I’m monitor all kind of media production activities includes contents for social media, podcasts, posters, flyers and brochures for events.',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Creative Lead.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/_.a_x_r_o_n._",
-                        github: "",
-                        linkedin: "https://www.linkedin.com/in/aaron-anil-thomas-897b6433a"
-                    }
-                },
-
-                {
-                    name: ' Anasuya S Kurup',
-                    position: 'Women Innovation Lead',
-                    description: 'I’m the women in tech lead of inovus labs. I’m the one who lead and mentor all kind of women exclusive programs. I guide and mentor students and be the spearhead of all women exclusive programs.  ',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Women Innovation lead.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/anasuya_nadamel_",
-                        github: "",
-                        linkedin: "https://www.linkedin.com/in/anasuya-s-kurup-60258624a"
-                    }
-                },
-
-                {
-                    name: ' Vyshak K Pradeep',
-                    position: 'Community Lead',
-                    description: '',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Community Lead.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/_why_shak",
-                        github: "",
-                        linkedin: "https://www.linkedin.com/in/vyshak-k-pradeep-b30886350"
-                    }
-                },
-
-                {
-                    name: ' Amenda Maria Johnson',
-                    position: 'Finance Lead',
-                    description: 'I’m the financial lead of inovus labs IEDC, monitors all kind of financial transactions and the bill-laden of Inovus Labs.',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Finance Lead.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/amenda_maria",
-                        github: "https://github.com/Amendamaria",
-                        linkedin: "https://www.linkedin.com/in/amenda-maria-johnson-669420283"
-                    }
-                },
-
-                {
-                    name: ' Aaliya Gopan',
-                    position: 'IPR & Research Lead',
-                    description: '',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Research & IPR lead.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/aaliyagopan",
-                        github: "https://github.com/AALIYAGOPAN",
-                        linkedin: "https://www.linkedin.com/in/aaliya-gopan"
-                    }
-                },
-
-                {
-                    name: ' Alex Renny',
-                    position: 'Administartion Lead',
-                    description: '',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Administration lead.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/__alex___001__/",
-                        github: "https://github.com/mr-alex-001",
-                        linkedin: "https://www.linkedin.com/in/alex-renny-48b893319"
-                    }
-                },
-
-                {
-                    name: ' Emil Binoy',
-                    position: 'Innovation Lead',
-                    description: '',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Innovation lead.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/its_emilefx",
-                        github: "https://github.com/emil-binoy",
-                        linkedin: "https://www.linkedin.com/in/emil-binoy-769261325"
-                    }
-                },
-
-                {
-                    name: ' Sibin',
-                    position: 'Event Co-ordinator',
-                    description: '',
-                    avatar: BASE_URL + '/assets/team/2025-2026/event coordinator.jpg',
-                    social: {
-                        instagram: "https://www.instagram.com/sibin_ullattil",
-                        github: "https://github.com/Sibin-2000",
                         linkedin: ""
                     }
                 },
-
                 {
-                    name: ' Viswajith B Nair',
-                    position: 'Event Curator',
-                    description: '',
-                    avatar: BASE_URL + '/assets/team/2025-2026/Event curator.jpg',
+                    name: 'Akshay A Kaimal',
+                    position: 'Student Lead 1',
+                    description: 'Hi I’m the Student Lead 1 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Akshay.png',
                     social: {
-                        instagram: "https://www.instagram.com/viswajithhhh.__/",
-                        github: "",
-                        linkedin: "https://www.linkedin.com/in/viswajith-b-nair-405295322"
+                        instagram: "https://www.instagram.com/akshay_kaimal_",
+                        github: "https://github.com/akshaykaimal17-ui",
+                        linkedin: "https://www.linkedin.com/in/akshay-a-kaimal-24b9b5358?"
                     }
                 },
+                {
+                    name: 'Pooja H',
+                    position: 'Student Lead 2',
+                    description: 'Hi I’m the Student Lead 2 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Pooja.png',
+                    social: {
+                        instagram: "https://www.instagram.com/the__i__conic",
+                        github: "https://github.com/poojah24",
+                        linkedin: "https://www.linkedin.com/in/poojah2006"
+                    }
+                },
+                {
+                    name: 'Godly Mathew',
+                    position: 'Operations Lead',
+                    description: 'I manage the day-to-day functioning of the lab, including logistics, scheduling, inventory, and resource allocation. I coordinate between teams to ensure events, workshops, and projects run smoothly, and handle vendor coordination and space management.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Godly.png',
+                    social: {
+                        instagram: "https://www.instagram.com/_godly_mathew",
+                        github: "https://github.com/mathewgodly64-ai",
+                        linkedin: "https://www.linkedin.com/in/godly-mathew-07a59a387"
+                    }
+                },
+                {
+                    name: 'Adithya S Pai',
+                    position: 'Technical Lead',
+                    description: 'I lead all technical development and prototyping activities, overseeing hardware and software projects, tools, and workshops. I ensure the technical quality of builds, troubleshoot issues across teams, and mentor members in electronics, coding, and prototyping skills.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Adithya.png',
+                    social: {
+                        instagram: "https://www.instagram.com/frizzycodes/",
+                        github: "https://github.com/frizzycodes/",
+                        linkedin: "https://www.linkedin.com/in/adithyaspai/"
+                    }
+                },
+                {
+                    name: 'Nandana S Kumar',
+                    position: 'Creative Lead',
+                    description: 'I’m the creative lead of inovus labs, I monitor all kinds of media production activities including content for social media, podcasts, posters, flyers, and brochures for events.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Nandana.png',
+                    social: {
+                        instagram: "https://www.instagram.com/_nand.anaa",
+                        github: "https://github.com/nandanaskumar09",
+                        linkedin: "https://www.linkedin.com/in/nandana-s-kumar-a63468379"
+                    }
+                },
+                {
+                    name: 'Ansu Sabu',
+                    position: 'Women Innovation Lead',
+                    description: 'I’m the Women in Tech Lead of Inovus Labs. I lead and mentor women-exclusive programs, guiding students and spearheading initiatives that encourage more women to engage in tech, design, and entrepreneurship.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Ansu.png',
+                    social: {
+                        instagram: "https://www.instagram.com/sabu.ansu2",
+                        github: "https://github.com/ansu123jo-sudo",
+                        linkedin: "https://www.linkedin.com/in/ansu-sabu-4043823b0"
+                    }
+                },
+                {
+                    name: 'Athulya Anil',
+                    position: 'Community Lead',
+                    description: 'I build and nurture the Inovus Labs community, managing member engagement, onboarding, and outreach. I organize meetups, collaborations, and networking opportunities, and act as the primary point of contact between members and the core team.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Athulya.png',
+                    social: {
+                        instagram: "https://www.instagram.com/_ath_u._lya._",
+                        github: "https://github.com/athulyaanil52-hash",
+                        linkedin: "https://www.linkedin.com/in/athulya-anil-8326aa3a3"
+                    }
+                },
+                {
+                    name: 'Ann Maria Shinto',
+                    position: 'Finance Lead',
+                    description: 'I manage the financial planning and budgeting for all lab activities, including events, procurement, and sponsorships. I track expenses, prepare financial reports, and ensure funds are allocated efficiently across projects and initiatives.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Ann.png',
+                    social: {
+                        instagram: "https://www.instagram.com/ann_maria_shinto",
+                        github: "https://github.com/annmariashinto17-hash",
+                        linkedin: "https://www.linkedin.com/in/ann-maria-shinto-b31a67393"
+                    }
+                },
+                {
+                    name: 'Diya Dileep',
+                    position: 'IPR & Research Lead',
+                    description: 'I oversee intellectual property matters and research initiatives within the lab, guiding members through patent filing, documentation, and prior-art research. I also identify and support research-driven projects, ensuring proper credit and protection for original work.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Diya.png',
+                    social: {
+                        instagram: "https://www.instagram.com/_diyyaa.____",
+                        github: "https://github.com/Diya-007D",
+                        linkedin: "https://www.linkedin.com/in/diya-dileep-473b1a385"
+                    }
+                },
+                {
+                    name: 'Doncy Grace Mohan',
+                    position: 'Marketing Lead',
+                    description: 'I drive the marketing strategy for Inovus Labs, planning campaigns to promote events, projects, and the lab\u2019s brand across digital and offline channels. I work closely with the creative team to ensure consistent messaging and maximize outreach.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Doncy.png',
+                    social: {
+                        instagram: "https://www.instagram.com/donxihh_",
+                        github: "https://github.com/doncygrace631-lgtm",
+                        linkedin: "https://www.linkedin.com/in/doncy-grace-mohan-b958a638a/"
+                    }
+                },
+                {
+                    name: 'Jaisel Francis',
+                    position: 'Design Lead',
+                    description: 'I oversee the visual design direction for Inovus Labs, guiding the design team in creating cohesive branding, UI/UX for digital products, and visual assets for projects. I ensure design consistency and quality across all outputs, working closely with the creative and technical teams.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/jaisel.png',
+                    social: {
+                        instagram: "https://www.instagram.com/jaisal_x7/",
+                        github: "https://github.com/jaisalfrancis77-collab",
+                        linkedin: "https://www.linkedin.com/in/jaisal-francis-33b1a4281"
+                    }
+                }
             ]
         }
-
-
     ]
 
     return data;
@@ -3966,10 +3838,160 @@ export const getcurrentTeam = async () => {
 }
 
 
+
 // Get team members
 export const getTeamMembers = async () => {
 
-    let data = [
+    let data = [{
+            title: 'Inovus 9th Generation',
+            date: '2026',
+            showTeam: true,
+            members: [
+                {
+                    name: 'Roji Thomas',
+                    position: 'Nodal Officer',
+                    description: 'As Nodal Officer, I foster talent, guide growth, oversee committee selection.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Roji.png',
+                    social: {
+                        instagram: "https://www.instagram.com/roji1978",
+                        github: "",
+                        linkedin: "https://www.linkedin.com/in/roji-thomas-thomas"
+                    }
+                },
+                {
+                    name: 'Cini Joseph',
+                    position: 'Asst.Nodal Officer',
+                    description: 'As Assistant Nodal Officer, I support talent, drive IEDC growth, aid committee selection.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Cini.png',
+                    social: {
+                        instagram: "https://www.instagram.com/cinidiya?stkn=c203cGNxNGZmb3lu",
+                        github: "",
+                        linkedin: ""
+                    }
+                },
+                {
+                    name: 'Akshay A Kaimal',
+                    position: 'Student Lead 1',
+                    description: 'Hi I’m the Student Lead 1 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Akshay.png',
+                    social: {
+                        instagram: "https://www.instagram.com/akshay_kaimal_",
+                        github: "https://github.com/akshaykaimal17-ui",
+                        linkedin: "https://www.linkedin.com/in/akshay-a-kaimal-24b9b5358?"
+                    }
+                },
+                {
+                    name: 'Pooja H',
+                    position: 'Student Lead 2',
+                    description: 'Hi I’m the Student Lead 2 of inovus labs, provides effective guidance in coordinating events and activities of the community.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Pooja.png',
+                    social: {
+                        instagram: "https://www.instagram.com/the__i__conic",
+                        github: "https://github.com/poojah24",
+                        linkedin: "https://www.linkedin.com/in/poojah2006 "
+                    }
+                },
+                {
+                    name: 'Godly Mathew',
+                    position: 'Operations Lead',
+                    description: 'I manage the day-to-day functioning of the lab, including logistics, scheduling, inventory, and resource allocation. I coordinate between teams to ensure events, workshops, and projects run smoothly, and handle vendor coordination and space management.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Godly.png',
+                    social: {
+                        instagram: "https://www.instagram.com/_godly_mathew",
+                        github: "https://github.com/mathewgodly64-ai",
+                        linkedin: "https://www.linkedin.com/in/godly-mathew-07a59a387"
+                    }
+                },
+                {
+                    name: 'Adithya S Pai',
+                    position: 'Technical Lead',
+                    description: 'I lead all technical development and prototyping activities, overseeing hardware and software projects, tools, and workshops. I ensure the technical quality of builds, troubleshoot issues across teams, and mentor members in electronics, coding, and prototyping skills.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Adithya.png',
+                    social: {
+                        instagram: "https://www.instagram.com/frizzycodes/",
+                        github: "https://github.com/frizzycodes/",
+                        linkedin: "https://www.linkedin.com/in/adithyaspai/"
+                    }
+                },
+                {
+                    name: 'Nandana S Kumar',
+                    position: 'Creative Lead',
+                    description: 'I’m the creative lead of inovus labs, I monitor all kinds of media production activities including content for social media, podcasts, posters, flyers, and brochures for events.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Nandana.png',
+                    social: {
+                        instagram: "https://www.instagram.com/_nand.anaa",
+                        github: "https://github.com/nandanaskumar09",
+                        linkedin: "https://www.linkedin.com/in/nandana-s-kumar-a63468379"
+                    }
+                },
+                {
+                    name: 'Ansu Sabu',
+                    position: 'Women Innovation Lead',
+                    description: 'I’m the Women in Tech Lead of Inovus Labs. I lead and mentor women-exclusive programs, guiding students and spearheading initiatives that encourage more women to engage in tech, design, and entrepreneurship.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Ansu.png',
+                    social: {
+                        instagram: "https://www.instagram.com/sabu.ansu2",
+                        github: "https://github.com/ansu123jo-sudo",
+                        linkedin: "https://www.linkedin.com/in/ansu-sabu-4043823b0"
+                    }
+                },
+                {
+                    name: 'Athulya Anil',
+                    position: 'Community Lead',
+                    description: 'I build and nurture the Inovus Labs community, managing member engagement, onboarding, and outreach. I organize meetups, collaborations, and networking opportunities, and act as the primary point of contact between members and the core team.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Athulya.png',
+                    social: {
+                        instagram: "https://www.instagram.com/_ath_u._lya._",
+                        github: "https://github.com/athulyaanil52-hash",
+                        linkedin: "https://www.linkedin.com/in/athulya-anil-8326aa3a3"
+                    }
+                },
+                {
+                    name: 'Ann Maria Shinto',
+                    position: 'Finance Lead',
+                    description: 'I manage the financial planning and budgeting for all lab activities, including events, procurement, and sponsorships. I track expenses, prepare financial reports, and ensure funds are allocated efficiently across projects and initiatives.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Ann.png',
+                    social: {
+                        instagram: "https://www.instagram.com/ann_maria_shinto",
+                        github: "https://github.com/annmariashinto17-hash",
+                        linkedin: "https://www.linkedin.com/in/ann-maria-shinto-b31a67393"
+                    }
+                },
+                {
+                    name: 'Diya Dileep',
+                    position: 'IPR & Research Lead',
+                    description: 'I oversee intellectual property matters and research initiatives within the lab, guiding members through patent filing, documentation, and prior-art research. I also identify and support research-driven projects, ensuring proper credit and protection for original work.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Diya.png',
+                    social: {
+                        instagram: "https://www.instagram.com/_diyyaa.____",
+                        github: "https://github.com/Diya-007D",
+                        linkedin: "https://www.linkedin.com/in/diya-dileep-473b1a385"
+                    }
+                },
+                {
+                    name: 'Doncy Grace Mohan',
+                    position: 'Marketing Lead',
+                    description: 'I drive the marketing strategy for Inovus Labs, planning campaigns to promote events, projects, and the lab\u2019s brand across digital and offline channels. I work closely with the creative team to ensure consistent messaging and maximize outreach.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Doncy.png',
+                    social: {
+                        instagram: "https://www.instagram.com/donxihh_",
+                        github: "https://github.com/doncygrace631-lgtm",
+                        linkedin: "https://www.linkedin.com/in/doncy-grace-mohan-b958a638a/"
+                    }
+                },
+                {
+                    name: 'Jaisel Francis',
+                    position: 'Design Lead',
+                    description: 'I oversee the visual design direction for Inovus Labs, guiding the design team in creating cohesive branding, UI/UX for digital products, and visual assets for projects. I ensure design consistency and quality across all outputs, working closely with the creative and technical teams.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Jaisel.png',
+                    social: {
+                        instagram: "https://www.instagram.com/jaisal_x7/",
+                        github: "https://github.com/jaisalfrancis77-collab",
+                        linkedin: "https://www.linkedin.com/in/jaisal-francis-33b1a4281"
+                    }
+                }
+            ]
+        },
         {
             title: 'Inovus 8th Generation',
             date: '2025',
