@@ -1,6 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "Inovus Labs IEDC",
+  "alternate_names": [
+    "Innovus Labs",
+    "Innovuslabs",
+    "Inovus Labs",
+    "KJCMT IEDC"
+  ],
   "legal_name": "Innovation and Entrepreneurship Development Centre, Kristu Jyoti College of Management and Technology",
   "url": "https://inovuslabs.org",
   "description": "Inovus Labs IEDC is an innovation hub and maker lab located at Kristu Jyoti College of Management and Technology, Changanassery, Kerala, fostering student entrepreneurship, IoT engineering, cohort courses, and startup incubation.",

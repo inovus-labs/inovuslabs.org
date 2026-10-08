@@ -43,7 +43,7 @@ const router = createRouter({
       meta: {
         title: 'Home',
         description: "Welcome to Inovus Labs IEDC at Kristu Jyoti College, Changanassery. Sparking tomorrow's innovations through maker culture, IoT, tech learning, and student entrepreneurship.",
-        keywords: "Inovus Labs, IEDC, KJCMT, Innovation Hub, Student Startups, Changanassery, Kerala Startup Mission",
+        keywords: "Inovus Labs, Innovus Labs, Innovuslabs, IEDC, KJCMT, Innovation Hub, Student Startups, Changanassery, Kerala Startup Mission",
         ogType: "website"
       }
     },
@@ -54,7 +54,7 @@ const router = createRouter({
       meta: {
         title: 'Home',
         description: "Explore the innovation ecosystem of Inovus Labs IEDC at Kristu Jyoti College, Changanassery. Discover active events, partners, testimonials, and student tech culture.",
-        keywords: "Inovus Labs Home, IEDC Kerala, Maker Hub, IoT Prototyping, Startup Incubation, KJCMT",
+        keywords: "Inovus Labs Home, Innovus Labs, Innovuslabs, IEDC Kerala, Maker Hub, IoT Prototyping, Startup Incubation, KJCMT",
         ogType: "website"
       }
     },
@@ -137,7 +137,8 @@ const router = createRouter({
         title: 'BuggyNews',
         description: "BuggyNews: Tech highlights, student developer insights, open-source discoveries, and curated engineering news from Inovus Labs.",
         keywords: "BuggyNews, Inovus News, Tech Newsletter, Student Developer Stories, Engineering Highlights",
-        ogType: "website"
+        author: "BuggyNews Editorial",
+        ogType: "article"
       }
     },
     {
@@ -148,6 +149,7 @@ const router = createRouter({
         title: 'News & Press',
         description: "Official press releases, media coverage, awards, and milestones achieved by Inovus Labs IEDC and its student founders.",
         keywords: "Inovus Labs News, Press Coverage, Startup Awards, College Milestones, Tech Announcements",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -159,6 +161,7 @@ const router = createRouter({
         title: 'Annual & Activity Reports',
         description: "Access transparent annual reports, metric reviews, and comprehensive activity documentation of Inovus Labs IEDC.",
         keywords: "Inovus Labs Reports, Annual Report, Activity Documentation, IEDC Kerala Audits",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -171,6 +174,7 @@ const router = createRouter({
         title: 'Mini IoT Lab',
         description: "Explore the Inovus Labs Mini IoT Lab: A dedicated maker hardware space featuring microcontrollers, sensors, 3D prototyping, and development boards.",
         keywords: "Mini IoT Lab, Hardware Prototyping, Arduino, ESP32, Raspberry Pi, Sensors Kerala, Maker Lab",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -182,6 +186,7 @@ const router = createRouter({
         title: 'Student Projects & Inventions',
         description: "Showcase of innovative hardware prototypes, web applications, and software tools built by student makers at Inovus Labs.",
         keywords: "Inovus Projects, Student Innovations, Hardware MVPs, Open Source Projects, College Tech Inventions",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -193,6 +198,7 @@ const router = createRouter({
         title: 'Recurring Events',
         description: "Regular weekly coding meetups, hardware tinkering circles, and community building sessions conducted by Inovus Labs.",
         keywords: "Recurring Events, Weekly Coding Sprints, Maker Circles, Regular Workshops, Inovus Community",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -204,6 +210,7 @@ const router = createRouter({
         title: 'Outreach Programs',
         description: "Social impact programs, digital literacy initiatives, and school workshops conducted by Inovus Labs to democratize technology education.",
         keywords: "Outreach Programs, Social Innovation, School Tech Workshops, Community Service Kerala, Inovus Outreach",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -215,6 +222,7 @@ const router = createRouter({
         title: 'Blogs & Insights',
         description: "Read technical articles, engineering guides, thought leadership, and maker reflections written by students and mentors at Inovus Labs.",
         keywords: "Inovus Labs Blog, Tech Articles, Maker Guides, Student Perspectives, Engineering Insights",
+        author: "Inovus Labs Community",
         ogType: "article"
       }
     },
@@ -226,6 +234,7 @@ const router = createRouter({
         title: 'Inora Podcast',
         description: "Listen to Inora, the flagship podcast by Inovus Labs exploring dialogues with passionate technologists, founders, and innovators.",
         keywords: "Inora Podcast, Inovus Podcast, Tech Dialogues, Student Founders, Entrepreneurship Audio",
+        author: "Inora Podcast Team",
         ogType: "website"
       }
     },
@@ -348,8 +357,28 @@ router.afterEach((to) => {
   updateMeta('property', 'og:url', canonicalUrl)
   updateMeta('property', 'og:type', (to.meta && to.meta.ogType) || 'website')
 
+  const ogImage = (to.meta && to.meta.image) || 'https://inovuslabs.org/og-image.png'
+  const ogImageAlt = (to.meta && to.meta.imageAlt) || `${pageTitle} - Inovus Labs IEDC`
+  updateMeta('property', 'og:image', ogImage)
+  updateMeta('property', 'og:image:secure_url', ogImage)
+  updateMeta('property', 'og:image:alt', ogImageAlt)
+  updateMeta('property', 'og:image:width', '1200')
+  updateMeta('property', 'og:image:height', '630')
+
   updateMeta('name', 'twitter:title', pageTitle)
   updateMeta('name', 'twitter:description', description)
+  updateMeta('name', 'twitter:image', ogImage)
+  updateMeta('name', 'twitter:image:alt', ogImageAlt)
+  updateMeta('name', 'twitter:site', '@inovuslabs')
+  updateMeta('name', 'twitter:creator', (to.meta && to.meta.creator) || '@inovuslabs')
+
+  // Authors & Publishing Metadata
+  const authorName = (to.meta && to.meta.author) || 'Inovus Labs IEDC'
+  updateMeta('name', 'author', authorName)
+  if (to.meta && to.meta.ogType === 'article') {
+    updateMeta('property', 'article:author', authorName)
+    updateMeta('property', 'article:publisher', 'https://inovuslabs.org/#organization')
+  }
 
   // Dynamic Route-specific Schema.org JSON-LD (AEO & SEO)
   const breadcrumbItems = [
