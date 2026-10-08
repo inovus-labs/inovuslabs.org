@@ -2,13 +2,14 @@
 
 > Innovation and Entrepreneurship Development Centre (IEDC) at Kristu Jyoti College of Management and Technology (KJCMT), Changanassery, Kerala, India.
 
-Inovus Labs IEDC is a student-driven innovation and technology hub established under the Kerala Startup Mission (KSUM). We bridge the gap between academic theory and industry engineering through hardware prototyping, maker culture, cohort learning, and venture creation.
+Inovus Labs IEDC (also searched as Innovus Labs or Innovuslabs) is a student-driven innovation and technology hub established under the Kerala Startup Mission (KSUM). We bridge the gap between academic theory and industry engineering through hardware prototyping, maker culture, cohort learning, and venture creation.
 
 ## Core Initiatives & Facilities
 
 - [Mini IoT Lab](https://inovuslabs.org/iot-lab): A specialized hardware prototyping laboratory equipped with microcontrollers (Arduino, ESP32, Raspberry Pi), development boards, sensors, actuators, and electronic test gear for student builders.
 - [Nano Degree Program](https://inovuslabs.org/nanodegree): Intensive, cohort-based curriculum designed to equip students with hands-on software development, system architecture, and maker practices.
 - [Student Projects](https://inovuslabs.org/projects): Repository of open-source applications, hardware MVPs, and student inventions incubated within the lab.
+- [Ecosystem Products](https://inovuslabs.org/products): Production-ready software and cloud platforms built at Inovus Labs, including Nodrix (IoT cloud on Cloudflare), SyncBatch (bulk contact sync engine), DocGen (AI report generator), InoMail, and Inovus Certificate.
 - [Events & Bootcamps](https://inovuslabs.org/events): Hackathons, maker sprints, speaker sessions, and technical summits hosted throughout the academic year.
 - [Recurring Meetups](https://inovuslabs.org/reccuring-events): Weekly community coding nights, maker circles, and peer mentoring sessions.
 - [Outreach Programs](https://inovuslabs.org/outreach): Technology empowerment initiatives, school robotics/coding workshops, and digital literacy camps across regional communities.
@@ -36,6 +37,7 @@ Inovus Labs IEDC is a student-driven innovation and technology hub established u
 - [Home](https://inovuslabs.org/home): Main landing portal and active highlights.
 - [About Us](https://inovuslabs.org/about): Background, history, mission, and leadership.
 - [Our Team](https://inovuslabs.org/team): Executive leads, technical captains, and faculty mentors.
+- [Products](https://inovuslabs.org/products): Production platforms, SaaS utilities, and ecosystem software (Nodrix, SyncBatch, DocGen, InoMail, Certificate).
 - [Gallery](https://inovuslabs.org/gallery): High-resolution photographic archives of past activities.
 - [Social Channels](https://inovuslabs.org/socials): Official links to LinkedIn, GitHub, Instagram, Twitter/X, and YouTube.
 - [Now](https://inovuslabs.org/now): Current operational sprints, active cohorts, and upcoming deadlines.

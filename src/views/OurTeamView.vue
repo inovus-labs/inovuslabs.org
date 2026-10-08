@@ -1,8 +1,6 @@
  <template>
     <PublicLayout>
 
-
-
         <section class="bg-bgwhite">
             <div
                 class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-14">
@@ -37,9 +35,25 @@
         </div>
     </section>
 
-
+        <!-- Mentors Section -->
         <section class="py-10 px-4">
+            <div class="mx-auto max-w-screen-xl text-left w-full py-4 lg:pt-10">
+                <h1
+                    class="mb-4 text-2xl font-semibold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+                    Our Mentors </h1>
+                <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+                    Meet the mentors and guides who foster innovation, share technical wisdom, and steer our community forward.</p>
+            </div>
 
+            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:px-6">
+                <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
+                    <OurTeamMember v-for="mentor in mentors" :key="mentor.name" :data="mentor" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Execom Teams Section -->
+        <section class="py-10 px-4">
 
             <div class="mx-auto max-w-screen-xl text-left w-full py-4 lg:pt-10">
                 <h1
@@ -50,7 +64,6 @@
                     over the years. Discover the faces and minds that have shaped our journey, each team contributing to
                     the vibrant tapestry of Inovus.</p>
             </div>
-
 
             <div
                 class="flex flex-col lg:flex-row w-full mx-auto max-w-screen-xl p-4 items-center justify-center lg:py-10">
@@ -64,28 +77,26 @@
             </div>
         </section>
 
-
-
     </PublicLayout>
 </template>
 
-
 <script>
 import OurTeamCard from "@/components/OurTeamCard.vue";
+import OurTeamMember from "@/components/reusable/OurTeamMember.vue";
 import PublicLayout from "@/layouts/PublicLayout.vue";
 
-import { getTeamMembers } from "@/API/index.js";
+import { getTeamMembers, getMentors } from "@/API/index.js";
 
 export default {
-    name: 'AboutView',
+    name: 'OurTeamView',
     components: {
         OurTeamCard,
+        OurTeamMember,
         PublicLayout
     },
 
     methods: {
         toggleTeam(item) {
-
             this.team.forEach((item) => {
                 item.showTeam = false
             })
@@ -97,11 +108,17 @@ export default {
     data() {
         return {
             team: [],
+            mentors: []
         }
     },
 
     async mounted() {
-        this.team = await getTeamMembers();
+        const [teamData, mentorsData] = await Promise.all([
+            getTeamMembers(),
+            getMentors()
+        ]);
+        this.team = teamData || [];
+        this.mentors = mentorsData || [];
     },
 }
 </script>
