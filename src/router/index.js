@@ -23,6 +23,7 @@ import BlogView from '@/views/BlogView.vue'
 import PodcastView from '@/views/PodcastView.vue'
 import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
 import OutreachView from '@/views/OutreachView.vue'
+import ProductsView from '@/views/ProductsView.vue'
 
 // Contact page
 import ResourcesView from '@/views/ResourcesView.vue'
@@ -235,6 +236,20 @@ const router = createRouter({
         description: "Listen to Inora, the flagship podcast by Inovus Labs exploring dialogues with passionate technologists, founders, and innovators.",
         keywords: "Inora Podcast, Inovus Podcast, Tech Dialogues, Student Founders, Entrepreneurship Audio",
         author: "Inora Podcast Team",
+        ogType: "website"
+      }
+    },
+
+    // Products & Ventures page
+    {
+      path: '/products',
+      name: 'products',
+      component: ProductsView,
+      meta: {
+        title: 'Products & Platforms',
+        description: "Discover live products and SaaS platforms built at Inovus Labs IEDC: Nodrix IoT Cloud, SyncBatch bulk contact sync, DocGen AI report generator, InoMail, and Inovus Certificate.",
+        keywords: "Inovus Labs Products, Nodrix, SyncBatch, DocGen, InoMail, Inovus Certificate, IoT Cloud, Bulk Contact Sync, AI Report Generator",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -502,6 +517,41 @@ router.afterEach((to) => {
       "mainEntity": {
         "@type": "ItemList",
         "name": "Inovus Labs Executive Leadership & Technical Leads"
+      }
+    })
+  } else if (to.path === '/products') {
+    routeGraph.push({
+      "@type": "CollectionPage",
+      "@id": `${canonicalUrl}#products`,
+      "url": canonicalUrl,
+      "name": pageTitle,
+      "description": description,
+      "about": {
+        "@type": "ItemList",
+        "name": "Production Platforms and SaaS Tools Built at Inovus Labs",
+        "itemListElement": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "Nodrix",
+            "url": "https://nodrix.live",
+            "applicationCategory": "IoT Platform",
+            "operatingSystem": "Cloudflare Edge"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "SyncBatch",
+            "url": "https://syncbatch.inovuslabs.org",
+            "applicationCategory": "ProductivityApplication",
+            "operatingSystem": "Web / Mobile"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "DocGen",
+            "url": "https://docgen.inovuslabs.org",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web"
+          }
+        ]
       }
     })
   }
