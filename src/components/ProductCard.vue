@@ -42,24 +42,20 @@
       <!-- Clickable Home UI Screenshot Container -->
       <component 
         :is="data.status === 'live' ? 'a' : 'div'"
-        :href="data.status === 'live' ? data.url : null"
+        :href="data.status === 'live' ? trackedUrl : null"
         :target="data.status === 'live' ? '_blank' : null"
         :rel="data.status === 'live' ? 'noopener noreferrer' : null"
         :title="data.status === 'live' ? 'Click to visit ' + data.name + ' (' + data.domain + ')' : data.name + ' - Launching Soon'"
         class="block relative group overflow-hidden bg-slate-900 cursor-pointer aspect-[16/9]"
       >
-        <!-- Home UI Screenshot Image -->
+        <!-- Home UI Screenshot Image (Clean without overlay labels) -->
         <img 
           class="w-full h-full object-cover object-top transition duration-500 group-hover:scale-105" 
           :src="data.thumbnail" 
+          @error="handleImageError"
           :alt="data.name + ' Home UI - ' + data.domain" 
           loading="lazy"
         />
-
-        <!-- Category Tag Overlay -->
-        <span class="absolute top-2.5 left-2.5 z-10 bg-slate-900/80 backdrop-blur text-white text-[10px] font-semibold tracking-wide uppercase px-2 py-0.5 rounded shadow">
-          {{ data.category }}
-        </span>
 
         <!-- Hover State Overlay with CTA -->
         <div class="absolute inset-0 bg-slate-950/50 backdrop-blur-[1px] opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center p-4">
@@ -80,10 +76,17 @@
     <!-- Body Information -->
     <div class="p-5 flex flex-col justify-between flex-grow">
       <div>
-        <div class="flex items-baseline justify-between mb-1">
-          <h5 class="text-xl font-bold text-gray-900 dark:text-white">
-            {{ data.name }}
-          </h5>
+        <!-- Title and Category Pill Row -->
+        <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
+          <div class="flex items-center gap-2 flex-wrap">
+            <h5 class="text-xl font-bold text-gray-900 dark:text-white">
+              {{ data.name }}
+            </h5>
+            <!-- Category Pill alongside Title -->
+            <span class="inline-flex items-center text-[11px] font-semibold px-2 py-0.5 rounded-full border border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-700/60 text-gray-700 dark:text-gray-300">
+              {{ data.category }}
+            </span>
+          </div>
           <span class="text-xs font-mono text-gray-400">
             {{ data.domain }}
           </span>
@@ -134,10 +137,10 @@
           {{ showReadMore ? 'Read Less' : 'Read More' }}
         </button>
 
-        <!-- Button 2: Direct Backlink / External Live Launch -->
+        <!-- Button 2: Direct Backlink / External Live Launch with UTM / Ref tracking -->
         <template v-if="data.status === 'live'">
           <a 
-            :href="data.url" 
+            :href="trackedUrl" 
             target="_blank" 
             rel="noopener noreferrer" 
             :title="data.backlinkAnchor"
@@ -175,6 +178,30 @@ export default {
     return {
       showReadMore: false
     };
+  },
+  computed: {
+    trackedUrl() {
+      if (!this.data || !this.data.url) return '#';
+      try {
+        const url = new URL(this.data.url);
+        url.searchParams.set('ref', 'inovuslabs.org');
+        url.searchParams.set('utm_source', 'inovuslabs.org');
+        url.searchParams.set('utm_medium', 'products_showcase');
+        url.searchParams.set('utm_campaign', 'inovus_products');
+        return url.toString();
+      } catch {
+        const sep = this.data.url.includes('?') ? '&' : '?';
+        return `${this.data.url}${sep}ref=inovuslabs.org&utm_source=inovuslabs.org&utm_medium=products_showcase&utm_campaign=inovus_products`;
+      }
+    }
+  },
+  methods: {
+    handleImageError(event) {
+      if (this.data && this.data.id && !event.target.dataset.fallbackApplied) {
+        event.target.dataset.fallbackApplied = 'true';
+        event.target.src = '/assets/products/' + this.data.id + '.png';
+      }
+    }
   }
 };
 </script>
