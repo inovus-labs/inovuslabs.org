@@ -32,7 +32,8 @@
         <div class="w-full lg:w-1/3 py-4 lg:py-20 flex justify-center">
           <img 
             class="w-full h-full max-h-80 object-contain" 
-            src="/assets/illustrations/products-amico.svg" 
+            :src="($cdn_base_url || '') + '/assets/illustrations/products-amico.svg'" 
+            @error="$event.target.src = '/assets/illustrations/products-amico.svg'"
             alt="Inovus Labs Products and Software Platforms" 
           />
         </div>
