@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Inovus Labs IEDC",
+  "alternate_names": [
+    "Innovus Labs",
+    "Innovuslabs",
+    "Inovus Labs",
+    "KJCMT IEDC"
+  ],
+  "legal_name": "Innovation and Entrepreneurship Development Centre, Kristu Jyoti College of Management and Technology",
+  "url": "https://inovuslabs.org",
+  "description": "Inovus Labs IEDC is an innovation hub and maker lab located at Kristu Jyoti College of Management and Technology, Changanassery, Kerala, fostering student entrepreneurship, IoT engineering, cohort courses, and startup incubation.",
+  "location": {
+    "institution": "Kristu Jyoti College of Management and Technology",
+    "street_address": "Chethipuzha P.O",
+    "city": "Changanassery",
+    "district": "Kottayam",
+    "state": "Kerala",
+    "country": "India",
+    "postal_code": "686104",
+    "geo": {
+      "latitude": 9.4533,
+      "longitude": 76.5415
+    }
+  },
+  "contact": {
+    "email": "info@inovuslabs.org",
+    "telephone": "+919400057152",
+    "website": "https://inovuslabs.org/contact"
+  },
+  "knowledge_sources": {
+    "llms_summary": "https://inovuslabs.org/llms.txt",
+    "llms_full": "https://inovuslabs.org/llms-full.txt",
+    "sitemap": "https://inovuslabs.org/sitemap.xml",
+    "robots": "https://inovuslabs.org/robots.txt"
+  },
+  "facilities": [
+    {
+      "name": "Mini IoT Lab",
+      "url": "https://inovuslabs.org/iot-lab",
+      "focus": ["Embedded Systems", "Hardware Prototyping", "Microcontrollers", "Sensors", "Smart Campus Devices"]
+    },
+    {
+      "name": "Nano Degree Program",
+      "url": "https://inovuslabs.org/nanodegree",
+      "focus": ["Software Engineering", "Full-Stack Web Development", "Cohort Apprenticeship"]
+    },
+    {
+      "name": "Inora Podcast",
+      "url": "https://inovuslabs.org/inora",
+      "focus": ["Tech Interviews", "Founder Conversations", "Innovation Stories"]
+    },
+    {
+      "name": "Outreach & Maker Programs",
+      "url": "https://inovuslabs.org/outreach",
+      "focus": ["High School Coding Workshops", "Social Technology Projects"]
+    }
+  ],
+  "social_profiles": [
+    "https://www.linkedin.com/company/inovuslabs/",
+    "https://www.instagram.com/inovuslabs/",
+    "https://twitter.com/inovuslabs",
+    "https://github.com/inovus-labs",
+    "https://www.youtube.com/@inovuslabs_official",
+    "https://www.youtube.com/@Inoratheinovusradio"
+  ]
+}

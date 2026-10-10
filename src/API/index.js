@@ -3753,6 +3753,17 @@ export const getcurrentTeam = async () => {
                     }
                 },
                 {
+                    name: 'Doncy Grace Mohan',
+                    position: 'Marketing Lead',
+                    description: 'I drive the marketing strategy for Inovus Labs, planning campaigns to promote events, projects, and the lab\u2019s brand across digital and offline channels. I work closely with the creative team to ensure consistent messaging and maximize outreach.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Doncy.png',
+                    social: {
+                        instagram: "https://www.instagram.com/donxihh_",
+                        github: "https://github.com/doncygrace631-lgtm",
+                        linkedin: "https://www.linkedin.com/in/doncy-grace-mohan-b958a638a/"
+                    }
+                },
+                {
                     name: 'Nandana S Kumar',
                     position: 'Creative Lead',
                     description: 'I’m the creative lead of inovus labs, I monitor all kinds of media production activities including content for social media, podcasts, posters, flyers, and brochures for events.',
@@ -3808,21 +3819,10 @@ export const getcurrentTeam = async () => {
                     }
                 },
                 {
-                    name: 'Doncy Grace Mohan',
-                    position: 'Marketing Lead',
-                    description: 'I drive the marketing strategy for Inovus Labs, planning campaigns to promote events, projects, and the lab\u2019s brand across digital and offline channels. I work closely with the creative team to ensure consistent messaging and maximize outreach.',
-                    avatar: BASE_URL + '/assets/team/2026-2027/Doncy.png',
-                    social: {
-                        instagram: "https://www.instagram.com/donxihh_",
-                        github: "https://github.com/doncygrace631-lgtm",
-                        linkedin: "https://www.linkedin.com/in/doncy-grace-mohan-b958a638a/"
-                    }
-                },
-                {
-                    name: 'Jaisel Francis',
+                    name: 'Jaisal Francis',
                     position: 'Design Lead',
                     description: 'I oversee the visual design direction for Inovus Labs, guiding the design team in creating cohesive branding, UI/UX for digital products, and visual assets for projects. I ensure design consistency and quality across all outputs, working closely with the creative and technical teams.',
-                    avatar: BASE_URL + '/assets/team/2026-2027/jaisel.png',
+                    avatar: BASE_URL + '/assets/team/2026-2027/jaisal.png',
                     social: {
                         instagram: "https://www.instagram.com/jaisal_x7/",
                         github: "https://github.com/jaisalfrancis77-collab",
@@ -3911,6 +3911,17 @@ export const getTeamMembers = async () => {
                         instagram: "https://www.instagram.com/frizzycodes/",
                         github: "https://github.com/frizzycodes/",
                         linkedin: "https://www.linkedin.com/in/adithyaspai/"
+                    }
+                },
+                {
+                    name: 'Doncy Grace Mohan',
+                    position: 'Marketing Lead',
+                    description: 'I drive the marketing strategy for Inovus Labs, planning campaigns to promote events, projects, and the lab\u2019s brand across digital and offline channels. I work closely with the creative team to ensure consistent messaging and maximize outreach.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Doncy.png',
+                    social: {
+                        instagram: "https://www.instagram.com/donxihh_",
+                        github: "https://github.com/doncygrace631-lgtm",
+                        linkedin: "https://www.linkedin.com/in/doncy-grace-mohan-b958a638a/"
                     }
                 },
                 {
@@ -5314,4 +5325,265 @@ export const getOutreachEvents = async () => {
 
     return data;
 
+};
+
+
+// Get mentors list
+export const getMentors = async () => {
+    return [
+        {
+            name: 'Jithin Sha',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Mentor Jithin sha.jpg',
+            social: {
+                instagram: "https://www.instagram.com/last_riddler",
+                github: "https://github.com/Waterloo",
+                linkedin: "https://www.linkedin.com/in/jithinsha"
+            }
+        },
+        {
+            name: 'Arjun Krishna',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Mentor Arjun.jpg',
+            social: {
+                instagram: "https://www.instagram.com/decoded_cipher",
+                github: "https://github.com/decoded-cipher",
+                linkedin: "https://www.linkedin.com/in/-arjunkrishna"
+            }
+        },
+        {
+            name: 'Naveen Joseph',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/mentors/Naveen.jpg',
+            social: {
+                instagram: "",
+                github: "",
+                linkedin: "https://www.linkedin.com/in/naveenntj/"
+            }
+        },
+        {
+            name: 'Nikhil T Das',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Mentor Nikhil T Das.jpg',
+            social: {
+                instagram: "https://www.instagram.com/nikhil_dasz",
+                github: "https://github.com/nikhiltdas",
+                linkedin: "https://www.linkedin.com/in/nikhil-das-9404ab1a4"
+            }
+        },
+        {
+            name: 'Milan Sony',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Mentor  Milan.jpg',
+            social: {
+                instagram: "https://www.instagram.com/milansony_",
+                github: "https://github.com/milan-sony",
+                linkedin: "https://www.linkedin.com/in/milansony"
+            }
+        },
+        {
+            name: 'Abhishek V Gopal',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Chief Executive Officer.jpg',
+            social: {
+                instagram: "https://www.instagram.com/abhishek_oorukary_",
+                github: "https://github.com/abhishek-v-gopal",
+                linkedin: "https://www.linkedin.com/in/abhishekvgopal"
+            }
+        },
+        {
+            name: 'Badhusha Shaji',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Chief Technical Officer.jpg',
+            social: {
+                instagram: "https://www.instagram.com/_badhu_._sha_",
+                github: "https://github.com/Badhusha3214",
+                linkedin: "https://www.linkedin.com/in/badhushashaji"
+            }
+        },
+        {
+            name: 'Arjun A Acharry',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Chief Operations Officer.jpg',
+            social: {
+                instagram: "https://www.instagram.com/arjun_a_acharry",
+                github: "https://github.com/arjunaacharry",
+                linkedin: "https://www.linkedin.com/in/arjun-a-acharry"
+            }
+        },
+        {
+            name: 'Nithin Daniel',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2024/Chief Finance Officer.jpg',
+            social: {
+                instagram: "https://www.instagram.com/nithin_daniel_",
+                github: "https://github.com/nithin-daniel",
+                linkedin: "https://www.linkedin.com/in/nithindaniel"
+            }
+        },
+        // {
+        //     name: 'Amith Abey Stephen',
+        //     position: 'Mentor',
+        //     description: '',
+        //     avatar: BASE_URL + '/assets/team/2025-2026/Student lead 1.jpg',
+        //     social: {
+        //         instagram: "https://www.instagram.com/amith_abey_stephen",
+        //         github: "https://github.com/Amith-Abey-Stephen",
+        //         linkedin: "https://www.linkedin.com/in/amith-abey-stephen"
+        //     }
+        // },
+        {
+            name: 'Sane Sunil',
+            position: 'Mentor',
+            description: '',
+            avatar: BASE_URL + '/assets/team/2025-2026/Teachnical Lead.jpg',
+            social: {
+                instagram: "",
+                github: "https://github.com/SanTechBoard",
+                linkedin: "https://www.linkedin.com/in/sane-sunil-55a552334/"
+            }
+        }
+    ];
+};
+
+export const getProducts = async () => {
+    return [
+        {
+            id: 'nodrix',
+            name: 'Nodrix',
+            domain: 'nodrix.live',
+            url: 'https://nodrix.live',
+            thumbnail: BASE_URL + '/assets/products/nodrix.png',
+            tagline: 'Your own IoT cloud, on Cloudflare',
+            subtitle: 'Open-Source Serverless IoT Cloud & Realtime Dashboard Engine',
+            description: 'Open-source, single-tenant IoT platform that deploys to your own Cloudflare account. Connect hardware over HTTPS or WebSocket, design realtime dashboards, orchestrate edge automations, and query clean read APIs.',
+            fullDescription: 'Nodrix is a production-ready, open-source IoT platform built from the ground up for makers, researchers, and connected device engineers. Instead of expensive, centralized MQTT brokers, Nodrix runs entirely on your Cloudflare serverless edge infrastructure using Workers and Durable Objects. Connect ESP32, MicroPython, Arduino, or Raspberry Pi devices via HTTPS or WebSocket, visualize metrics on customizable widgets, configure automated alerts (like low-water warnings or hardware status changes), and perform secure OTA firmware updates without touching the physical board.',
+            category: 'IoT & Cloud',
+            status: 'live',
+            badge: 'Live Product',
+            color: 'from-blue-500 to-cyan-500',
+            accent: '#0284c7',
+            highlights: [
+                'Single-tenant IoT backend running on your own Cloudflare account',
+                'Direct hardware telemetry via HTTPS or WebSocket (ESP32, MicroPython, Raspberry Pi)',
+                'Drop-in customizable telemetry widgets & interactive realtime dashboards',
+                'Zero MQTT broker dependency — direct serverless edge execution',
+                'Edge automations, low-water alarms, Matter/Thread support & remote OTA updates'
+            ],
+            techStack: ['Cloudflare Workers', 'Durable Objects', 'ESP32', 'MicroPython', 'WebSocket', 'TypeScript'],
+            ctaText: 'Launch Nodrix Cloud',
+            backlinkAnchor: 'Visit Nodrix IoT Cloud Platform (nodrix.live)'
+        },
+        {
+            id: 'syncbatch',
+            name: 'SyncBatch',
+            domain: 'syncbatch.inovuslabs.org',
+            url: 'https://syncbatch.inovuslabs.org',
+            thumbnail: BASE_URL + '/assets/products/syncbatch.png',
+            tagline: 'Bulk Contact Upload & Excel Contact Sync',
+            subtitle: 'High-Volume Contact Synchronization Engine for Android & iPhone',
+            description: 'Upload Excel or CSV files and bulk sync contacts to Android (Google Contacts) and iPhone (vCard/VCF) in under a minute. Designed for telecom sales, event organizers, academies, and enterprises worldwide.',
+            fullDescription: 'SyncBatch eliminates the painful, manual chore of saving contacts one by one. Simply upload any Excel (.xlsx, .xls) or CSV sheet with names, phone numbers, and optional metadata, and SyncBatch handles international phone normalization, duplicate deduplication, and direct synchronization. Android users sync directly to Google Contacts with one authorization, while iPhone users receive an optimized, standards-compliant vCard (VCF 3.0) file that imports thousands of contacts into iOS Contacts in a single tap.',
+            category: 'Productivity & CRM',
+            status: 'live',
+            badge: 'Live Product',
+            color: 'from-emerald-500 to-teal-500',
+            accent: '#0d9488',
+            highlights: [
+                'Sync thousands of contacts in under 60 seconds from Excel (.xlsx) or CSV',
+                'Native Google Contacts API integration for seamless Android sync',
+                'Dynamic vCard (VCF 3.0) batch generation for single-click iPhone & iOS import',
+                'Automatic phone number international formatting & duplicate deduplication',
+                'First sync free, privacy-first processing with zero permanent storage of personal data'
+            ],
+            techStack: ['Next.js', 'Google Contacts API', 'vCard 3.0', 'Excel / CSV Parser', 'TailwindCSS'],
+            ctaText: 'Launch SyncBatch Engine',
+            backlinkAnchor: 'Sync Contacts with SyncBatch (syncbatch.inovuslabs.org)'
+        },
+        {
+            id: 'docgen',
+            name: 'DocGen',
+            domain: 'docgen.inovuslabs.org',
+            url: 'https://docgen.inovuslabs.org',
+            thumbnail: BASE_URL + '/assets/products/docgen.png',
+            tagline: 'The AI Report Generator for Professional Documents',
+            subtitle: 'Transform Raw Notes & Event Data into Polished PDF Reports',
+            description: 'Free AI report and document generator that turns raw notes and unstructured bullet points into polished, professionally formatted event reports, meeting minutes, project proposals, and annual reports — exported to PDF in minutes.',
+            fullDescription: 'DocGen acts as an invisible executive assistant for student innovators, club organizers, academic faculty, and startup founders. Writing reports after hackathons, workshops, or board meetings usually takes hours of tedious formatting. With DocGen, paste in rough notes, bullet points, speaker bios, and participant counts; DocGen\'s AI structuring engine categorizes executive summaries, key milestones, and action items into clean, publication-ready PDF documents featuring institutional styling and typography.',
+            category: 'AI & Automation',
+            status: 'live',
+            badge: 'Live Product',
+            color: 'from-violet-500 to-purple-500',
+            accent: '#7c3aed',
+            highlights: [
+                'AI-powered document structuring: Transforms messy bullet points into clean documents',
+                'Curated templates for event summaries, meeting minutes, proposals & annual reports',
+                'Publication-ready PDF export with clean college & institutional typography',
+                'Multi-section inline document editor with smart formatting assistant',
+                'Free tier available for student teams, clubs & innovation cells'
+            ],
+            techStack: ['AI / LLM Structuring', 'Next.js', 'PDF Generation', 'Document Automation'],
+            ctaText: 'Open DocGen Studio',
+            backlinkAnchor: 'Generate AI Reports with DocGen (docgen.inovuslabs.org)'
+        },
+        {
+            id: 'inomail',
+            name: 'InoMail',
+            domain: 'inomail.inovuslabs.org',
+            url: 'https://inomail.inovuslabs.org',
+            thumbnail: BASE_URL + '/assets/products/inomail.png',
+            tagline: 'Smart AI-Powered Bulk Email Platform',
+            subtitle: 'Hyper-Personalized Email Campaigns Powered by Excel Data',
+            description: 'An AI-powered bulk email platform designed for organizations, campus cells, and startup communities. Personalize emails using Excel data, avoid spam filters, and track engagement with ease.',
+            fullDescription: 'InoMail is Inovus Labs\' dedicated solution for intelligent campus and community email communication. Rather than sending generic mail-merge blasts that trigger spam filters, InoMail uses AI to personalize the tone and body copy of each email based on recipient attributes defined in Excel sheets. With delivery safeguards, template management, and engagement tracking, it empowers organizations to conduct high-conversion outreach effortlessly.',
+            category: 'Communication & AI',
+            status: 'coming_soon',
+            badge: 'Coming Soon',
+            color: 'from-amber-500 to-orange-500',
+            accent: '#ea580c',
+            highlights: [
+                'AI-driven individualized copy personalization using Excel spreadsheet columns',
+                'Deliverability-first sender architecture engineered to bypass spam filters',
+                'Realtime campaign tracking, open rates, click metrics & bounce handling',
+                'Customizable organizational templates & student outreach automation'
+            ],
+            techStack: ['AI Email Synthesis', 'SMTP / SES Engine', 'Spreadsheet Parser', 'Analytics Dashboard'],
+            ctaText: 'Coming Soon',
+            backlinkAnchor: 'InoMail AI Bulk Email (inomail.inovuslabs.org)'
+        },
+        {
+            id: 'certificate',
+            name: 'Inovus Certificate',
+            domain: 'certificate.inovuslabs.org',
+            url: 'https://certificate.inovuslabs.org',
+            thumbnail: BASE_URL + '/assets/products/certificate.png',
+            tagline: 'Blockchain-Backed Credential Verification Platform',
+            subtitle: 'Tamper-Proof Credential Verification & Digital Badging',
+            description: 'Verify the authenticity of Inovus Labs certificates on the blockchain. Secure, transparent, and tamper-proof certificate verification system trusted by students and employers.',
+            fullDescription: 'The Inovus Certificate platform provides cryptographic proof of achievement for graduates of the Inovus Nano Degree, hackathon participants, bootcamp attendees, and student project leads. Every issued certificate generates an immutable cryptographic hash on the blockchain. Recruiters and institutions can instantly verify credentials by entering the unique Certificate ID, ensuring 100% authenticity and eliminating credential fraud.',
+            category: 'Web3 & Security',
+            status: 'coming_soon',
+            badge: 'Coming Soon',
+            color: 'from-rose-500 to-pink-500',
+            accent: '#e11d48',
+            highlights: [
+                'Blockchain-anchored cryptographic certificate hashes for 100% authenticity',
+                'Instant credential verification via unique Certificate ID or candidate lookup',
+                'Digital verifiable credentials shareable directly to LinkedIn and resumes',
+                'Tamper-proof record trusted by students, recruiters, and academic institutions'
+            ],
+            techStack: ['Blockchain Verification', 'Smart Contracts', 'Digital Badging', 'Next.js'],
+            ctaText: 'Coming Soon',
+            backlinkAnchor: 'Inovus Certificate Verification (certificate.inovuslabs.org)'
+        }
+    ];
 };

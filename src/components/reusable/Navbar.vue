@@ -248,10 +248,10 @@
                                     disabled: true,
                                 },
                                 {
-                                    name: 'Inovus Scrapbook',
-                                    link: '/scrapbook',
-                                    description: 'Something one of a kind. Coming soon...',
-                                    disabled: true,
+                                    name: 'Products & Platforms',
+                                    link: '/products',
+                                    description: 'Live products & SaaS ventures built at Inovus.',
+                                    featured: true
                                 }
                             ],
                             [
@@ -272,6 +272,10 @@
                                 }
                             ]
                         ]
+                    },
+                    {
+                        name: 'Products',
+                        link: '/products'
                     },
                     {
                         name: 'Resources',

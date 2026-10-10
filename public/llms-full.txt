@@ -7,6 +7,7 @@ Inovus Labs IEDC is the official Innovation and Entrepreneurship Development Cen
 Operating in partnership with the Kerala Startup Mission (KSUM), Inovus Labs functions as a community maker space, hardware laboratory, and tech incubator. The center's mission is to cultivate an entrepreneurial mindset and practical engineering competence among undergraduate and postgraduate students.
 
 ### Key Facts:
+- **Alternate Names / Common Spellings**: Innovus Labs, Innovuslabs, Inovus Labs, KJCMT IEDC
 - **Parent Institution**: Kristu Jyoti College of Management and Technology (KJCMT)
 - **Affiliated University**: Mahatma Gandhi University (MGU), Kottayam
 - **State Initiative**: Kerala Startup Mission (KSUM)

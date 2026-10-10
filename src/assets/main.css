@@ -4,6 +4,10 @@
 
 @variant dark (&:not(*));
 
+:root {
+  color-scheme: light;
+}
+
 @theme {
   --color-bgPrimary: #F3F4F6;
   --color-bg-primary: #F3F4F6;

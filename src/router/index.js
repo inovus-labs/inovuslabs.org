@@ -23,6 +23,7 @@ import BlogView from '@/views/BlogView.vue'
 import PodcastView from '@/views/PodcastView.vue'
 import ReccuringEventsView from '@/views/ReccuringEventsView.vue'
 import OutreachView from '@/views/OutreachView.vue'
+import ProductsView from '@/views/ProductsView.vue'
 
 // Contact page
 import ResourcesView from '@/views/ResourcesView.vue'
@@ -43,7 +44,7 @@ const router = createRouter({
       meta: {
         title: 'Home',
         description: "Welcome to Inovus Labs IEDC at Kristu Jyoti College, Changanassery. Sparking tomorrow's innovations through maker culture, IoT, tech learning, and student entrepreneurship.",
-        keywords: "Inovus Labs, IEDC, KJCMT, Innovation Hub, Student Startups, Changanassery, Kerala Startup Mission",
+        keywords: "Inovus Labs, Innovus Labs, Innovuslabs, IEDC, KJCMT, Innovation Hub, Student Startups, Changanassery, Kerala Startup Mission",
         ogType: "website"
       }
     },
@@ -54,7 +55,7 @@ const router = createRouter({
       meta: {
         title: 'Home',
         description: "Explore the innovation ecosystem of Inovus Labs IEDC at Kristu Jyoti College, Changanassery. Discover active events, partners, testimonials, and student tech culture.",
-        keywords: "Inovus Labs Home, IEDC Kerala, Maker Hub, IoT Prototyping, Startup Incubation, KJCMT",
+        keywords: "Inovus Labs Home, Innovus Labs, Innovuslabs, IEDC Kerala, Maker Hub, IoT Prototyping, Startup Incubation, KJCMT",
         ogType: "website"
       }
     },
@@ -95,6 +96,7 @@ const router = createRouter({
     },
     {
       path: '/team',
+      alias: ['/teams'],
       name: 'team',
       component: OurTeamView,
       meta: {
@@ -136,7 +138,8 @@ const router = createRouter({
         title: 'BuggyNews',
         description: "BuggyNews: Tech highlights, student developer insights, open-source discoveries, and curated engineering news from Inovus Labs.",
         keywords: "BuggyNews, Inovus News, Tech Newsletter, Student Developer Stories, Engineering Highlights",
-        ogType: "website"
+        author: "BuggyNews Editorial",
+        ogType: "article"
       }
     },
     {
@@ -147,6 +150,7 @@ const router = createRouter({
         title: 'News & Press',
         description: "Official press releases, media coverage, awards, and milestones achieved by Inovus Labs IEDC and its student founders.",
         keywords: "Inovus Labs News, Press Coverage, Startup Awards, College Milestones, Tech Announcements",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -158,6 +162,7 @@ const router = createRouter({
         title: 'Annual & Activity Reports',
         description: "Access transparent annual reports, metric reviews, and comprehensive activity documentation of Inovus Labs IEDC.",
         keywords: "Inovus Labs Reports, Annual Report, Activity Documentation, IEDC Kerala Audits",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -170,6 +175,7 @@ const router = createRouter({
         title: 'Mini IoT Lab',
         description: "Explore the Inovus Labs Mini IoT Lab: A dedicated maker hardware space featuring microcontrollers, sensors, 3D prototyping, and development boards.",
         keywords: "Mini IoT Lab, Hardware Prototyping, Arduino, ESP32, Raspberry Pi, Sensors Kerala, Maker Lab",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -181,6 +187,7 @@ const router = createRouter({
         title: 'Student Projects & Inventions',
         description: "Showcase of innovative hardware prototypes, web applications, and software tools built by student makers at Inovus Labs.",
         keywords: "Inovus Projects, Student Innovations, Hardware MVPs, Open Source Projects, College Tech Inventions",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -192,6 +199,7 @@ const router = createRouter({
         title: 'Recurring Events',
         description: "Regular weekly coding meetups, hardware tinkering circles, and community building sessions conducted by Inovus Labs.",
         keywords: "Recurring Events, Weekly Coding Sprints, Maker Circles, Regular Workshops, Inovus Community",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -203,6 +211,7 @@ const router = createRouter({
         title: 'Outreach Programs',
         description: "Social impact programs, digital literacy initiatives, and school workshops conducted by Inovus Labs to democratize technology education.",
         keywords: "Outreach Programs, Social Innovation, School Tech Workshops, Community Service Kerala, Inovus Outreach",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -214,6 +223,7 @@ const router = createRouter({
         title: 'Blogs & Insights',
         description: "Read technical articles, engineering guides, thought leadership, and maker reflections written by students and mentors at Inovus Labs.",
         keywords: "Inovus Labs Blog, Tech Articles, Maker Guides, Student Perspectives, Engineering Insights",
+        author: "Inovus Labs Community",
         ogType: "article"
       }
     },
@@ -225,6 +235,21 @@ const router = createRouter({
         title: 'Inora Podcast',
         description: "Listen to Inora, the flagship podcast by Inovus Labs exploring dialogues with passionate technologists, founders, and innovators.",
         keywords: "Inora Podcast, Inovus Podcast, Tech Dialogues, Student Founders, Entrepreneurship Audio",
+        author: "Inora Podcast Team",
+        ogType: "website"
+      }
+    },
+
+    // Products & Ventures page
+    {
+      path: '/products',
+      name: 'products',
+      component: ProductsView,
+      meta: {
+        title: 'Products & Platforms',
+        description: "Discover live products and SaaS platforms built at Inovus Labs IEDC: Nodrix IoT Cloud, SyncBatch bulk contact sync, DocGen AI report generator, InoMail, and Inovus Certificate.",
+        keywords: "Inovus Labs Products, Nodrix, SyncBatch, DocGen, InoMail, Inovus Certificate, IoT Cloud, Bulk Contact Sync, AI Report Generator",
+        author: "Inovus Labs IEDC",
         ogType: "website"
       }
     },
@@ -347,8 +372,201 @@ router.afterEach((to) => {
   updateMeta('property', 'og:url', canonicalUrl)
   updateMeta('property', 'og:type', (to.meta && to.meta.ogType) || 'website')
 
+  const ogImage = (to.meta && to.meta.image) || 'https://inovuslabs.org/og-image.png'
+  const ogImageAlt = (to.meta && to.meta.imageAlt) || `${pageTitle} - Inovus Labs IEDC`
+  updateMeta('property', 'og:image', ogImage)
+  updateMeta('property', 'og:image:secure_url', ogImage)
+  updateMeta('property', 'og:image:alt', ogImageAlt)
+  updateMeta('property', 'og:image:width', '1200')
+  updateMeta('property', 'og:image:height', '630')
+
   updateMeta('name', 'twitter:title', pageTitle)
   updateMeta('name', 'twitter:description', description)
+  updateMeta('name', 'twitter:image', ogImage)
+  updateMeta('name', 'twitter:image:alt', ogImageAlt)
+  updateMeta('name', 'twitter:site', '@inovuslabs')
+  updateMeta('name', 'twitter:creator', (to.meta && to.meta.creator) || '@inovuslabs')
+
+  // Authors & Publishing Metadata
+  const authorName = (to.meta && to.meta.author) || 'Inovus Labs IEDC'
+  updateMeta('name', 'author', authorName)
+  if (to.meta && to.meta.ogType === 'article') {
+    updateMeta('property', 'article:author', authorName)
+    updateMeta('property', 'article:publisher', 'https://inovuslabs.org/#organization')
+  }
+
+  // Dynamic Route-specific Schema.org JSON-LD (AEO & SEO)
+  const breadcrumbItems = [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://inovuslabs.org/"
+    }
+  ]
+  if (to.path !== '/' && to.path !== '/home') {
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      "position": 2,
+      "name": (to.meta && to.meta.title) || to.name || "Page",
+      "item": canonicalUrl
+    })
+  }
+
+  const routeGraph = [
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${canonicalUrl}#breadcrumb`,
+      "itemListElement": breadcrumbItems
+    }
+  ]
+
+  // Add specialized entity schema per route
+  if (to.path === '/about') {
+    routeGraph.push({
+      "@type": "AboutPage",
+      "@id": `${canonicalUrl}#about`,
+      "url": canonicalUrl,
+      "name": pageTitle,
+      "description": description,
+      "mainEntity": { "@id": "https://inovuslabs.org/#organization" }
+    })
+  } else if (to.path === '/contact') {
+    routeGraph.push({
+      "@type": "ContactPage",
+      "@id": `${canonicalUrl}#contact`,
+      "url": canonicalUrl,
+      "name": pageTitle,
+      "description": description,
+      "mainEntity": {
+        "@type": "ContactPoint",
+        "contactType": "General Inquiries & Admissions",
+        "email": "info@inovuslabs.org",
+        "telephone": "+919400057152",
+        "availableLanguage": ["English", "Malayalam"]
+      }
+    })
+  } else if (to.path === '/events') {
+    routeGraph.push({
+      "@type": "CollectionPage",
+      "@id": `${canonicalUrl}#events`,
+      "url": canonicalUrl,
+      "name": pageTitle,
+      "description": description,
+      "about": {
+        "@type": "Thing",
+        "name": "Hackathons, Tech Bootcamps, Maker Sprints and Innovation Workshops"
+      }
+    })
+  } else if (to.path === '/nanodegree') {
+    routeGraph.push({
+      "@type": "EducationalOccupationalProgram",
+      "@id": `${canonicalUrl}#program`,
+      "name": "Inovus Labs Nano Degree",
+      "description": description,
+      "provider": { "@id": "https://inovuslabs.org/#organization" },
+      "educationalProgramMode": "Blended",
+      "timeToComplete": "P3M"
+    })
+  } else if (to.path === '/iot-lab') {
+    routeGraph.push({
+      "@type": "Place",
+      "@id": `${canonicalUrl}#lab`,
+      "name": "Inovus Labs Mini IoT Lab",
+      "description": description,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kristu Jyoti College of Management & Technology, Chethipuzha",
+        "addressLocality": "Changanassery",
+        "addressRegion": "Kerala",
+        "postalCode": "686104",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 9.4533,
+        "longitude": 76.5415
+      }
+    })
+  } else if (to.path === '/inora') {
+    routeGraph.push({
+      "@type": "PodcastSeries",
+      "@id": `${canonicalUrl}#podcast`,
+      "name": "Inora Podcast",
+      "description": description,
+      "url": canonicalUrl,
+      "author": { "@id": "https://inovuslabs.org/#organization" },
+      "inLanguage": "en"
+    })
+  } else if (to.path === '/blog') {
+    routeGraph.push({
+      "@type": "Blog",
+      "@id": `${canonicalUrl}#blog`,
+      "name": "Inovus Labs Technical Blog",
+      "description": description,
+      "url": canonicalUrl,
+      "publisher": { "@id": "https://inovuslabs.org/#organization" }
+    })
+  } else if (to.path === '/team' || to.path === '/teams') {
+    routeGraph.push({
+      "@type": "AboutPage",
+      "@id": `${canonicalUrl}#team`,
+      "url": canonicalUrl,
+      "name": pageTitle,
+      "description": description,
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Inovus Labs Executive Leadership & Technical Leads"
+      }
+    })
+  } else if (to.path === '/products') {
+    routeGraph.push({
+      "@type": "CollectionPage",
+      "@id": `${canonicalUrl}#products`,
+      "url": canonicalUrl,
+      "name": pageTitle,
+      "description": description,
+      "about": {
+        "@type": "ItemList",
+        "name": "Production Platforms and SaaS Tools Built at Inovus Labs",
+        "itemListElement": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "Nodrix",
+            "url": "https://nodrix.live",
+            "applicationCategory": "IoT Platform",
+            "operatingSystem": "Cloudflare Edge"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "SyncBatch",
+            "url": "https://syncbatch.inovuslabs.org",
+            "applicationCategory": "ProductivityApplication",
+            "operatingSystem": "Web / Mobile"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "DocGen",
+            "url": "https://docgen.inovuslabs.org",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web"
+          }
+        ]
+      }
+    })
+  }
+
+  let routeScript = document.getElementById('route-schema')
+  if (!routeScript) {
+    routeScript = document.createElement('script')
+    routeScript.id = 'route-schema'
+    routeScript.type = 'application/ld+json'
+    document.head.appendChild(routeScript)
+  }
+  routeScript.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": routeGraph
+  })
 })
 
 
