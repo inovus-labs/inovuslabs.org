@@ -3705,7 +3705,7 @@ export const getcurrentTeam = async () => {
                     social: {
                         instagram: "https://www.instagram.com/cinidiya",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/cini-joseph-56a1843b4?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                     }
                 },
                 {
@@ -3819,10 +3819,10 @@ export const getcurrentTeam = async () => {
                     }
                 },
                 {
-                    name: 'Jaisel Francis',
+                    name: 'Jaisal Francis',
                     position: 'Design Lead',
                     description: 'I oversee the visual design direction for Inovus Labs, guiding the design team in creating cohesive branding, UI/UX for digital products, and visual assets for projects. I ensure design consistency and quality across all outputs, working closely with the creative and technical teams.',
-                    avatar: BASE_URL + '/assets/team/2026-2027/jaisel.png',
+                    avatar: BASE_URL + '/assets/team/2026-2027/jaisal.png',
                     social: {
                         instagram: "https://www.instagram.com/jaisal_x7/",
                         github: "https://github.com/jaisalfrancis77-collab",
@@ -3866,7 +3866,7 @@ export const getTeamMembers = async () => {
                     social: {
                         instagram: "https://www.instagram.com/cinidiya?stkn=c203cGNxNGZmb3lu",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/cini-joseph-56a1843b4?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                     }
                 },
                 {
@@ -3980,10 +3980,21 @@ export const getTeamMembers = async () => {
                     }
                 },
                 {
-                    name: 'Jaisel Francis',
+                    name: 'Doncy Grace Mohan',
+                    position: 'Marketing Lead',
+                    description: 'I drive the marketing strategy for Inovus Labs, planning campaigns to promote events, projects, and the lab\u2019s brand across digital and offline channels. I work closely with the creative team to ensure consistent messaging and maximize outreach.',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Doncy.png',
+                    social: {
+                        instagram: "https://www.instagram.com/donxihh_",
+                        github: "https://github.com/doncygrace631-lgtm",
+                        linkedin: "https://www.linkedin.com/in/doncy-grace-mohan-b958a638a/"
+                    }
+                },
+                {
+                    name: 'Jaisal Francis',
                     position: 'Design Lead',
                     description: 'I oversee the visual design direction for Inovus Labs, guiding the design team in creating cohesive branding, UI/UX for digital products, and visual assets for projects. I ensure design consistency and quality across all outputs, working closely with the creative and technical teams.',
-                    avatar: BASE_URL + '/assets/team/2026-2027/Jaisel.png',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Jaisal.png',
                     social: {
                         instagram: "https://www.instagram.com/jaisal_x7/",
                         github: "https://github.com/jaisalfrancis77-collab",
