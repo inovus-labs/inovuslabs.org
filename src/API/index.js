@@ -3698,14 +3698,14 @@ export const getcurrentTeam = async () => {
                     }
                 },
                 {
-                    name: 'Cinni Joseph',
+                    name: 'Cini Joseph',
                     position: 'Asst.Nodal Officer',
                     description: 'As Assistant Nodal Officer, I support talent, drive IEDC growth, aid committee selection.',
                     avatar: BASE_URL + '/assets/team/2026-2027/Cini.png',
                     social: {
                         instagram: "https://www.instagram.com/cinidiya",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/cini-joseph-56a1843b4?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                     }
                 },
                 {
@@ -3866,7 +3866,7 @@ export const getTeamMembers = async () => {
                     social: {
                         instagram: "https://www.instagram.com/cinidiya?stkn=c203cGNxNGZmb3lu",
                         github: "",
-                        linkedin: ""
+                        linkedin: "https://www.linkedin.com/in/cini-joseph-56a1843b4?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                     }
                 },
                 {
@@ -3980,10 +3980,10 @@ export const getTeamMembers = async () => {
                     }
                 },
                 {
-                    name: 'Jaisel Francis',
+                    name: 'Jaisal Francis',
                     position: 'Design Lead',
                     description: 'I oversee the visual design direction for Inovus Labs, guiding the design team in creating cohesive branding, UI/UX for digital products, and visual assets for projects. I ensure design consistency and quality across all outputs, working closely with the creative and technical teams.',
-                    avatar: BASE_URL + '/assets/team/2026-2027/Jaisel.png',
+                    avatar: BASE_URL + '/assets/team/2026-2027/Jaisal.png',
                     social: {
                         instagram: "https://www.instagram.com/jaisal_x7/",
                         github: "https://github.com/jaisalfrancis77-collab",
